@@ -1,0 +1,13 @@
+{
+  "name": "mcbridepm-site",
+  "version": "1.0.0",
+  "description": "McBride Property Management website",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

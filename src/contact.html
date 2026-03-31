@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact McBride Property Management | Augusta, GA</title>
+  <meta name="description" content="Get in touch with McBride Property Management. Request a free rental analysis, schedule a consultation, or access your owner/tenant portal.">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ========== TOPBAR ========== -->
+<div class="topbar">
+  <div class="container">
+    <span>Serving Augusta, Georgia and Aiken, South Carolina</span>
+    <div class="topbar-links">
+      <a href="https://c21magnolia.appfolio.com/oportal/users/log_in">Owner Portal</a>
+      <a href="https://c21magnolia.appfolio.com/connect/users/sign_in">Resident Portal</a>
+      <a href="tel:7063392874">(706) 339-2874</a>
+      <a href="mailto:rsmith@c21magnolia.com">Contact Us</a>
+    </div>
+  </div>
+</div>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">Mc<span>Bride</span> PM</a>
+    <button class="hamburger" aria-label="Toggle menu" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li class="dropdown">
+        <a href="#">Services</a>
+        <div class="dropdown-menu">
+          <a href="services.html">Property Management</a>
+          <a href="services.html">Tenant Placement</a>
+          <a href="services.html">Maintenance Coordination</a>
+          <a href="services.html">Rent Collection</a>
+        </div>
+      </li>
+      <li><a href="contact.html" class="btn btn-primary">Get Started</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ========== PAGE HEADER ========== -->
+<section class="page-header">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a> > Contact
+    </div>
+    <h1>Get in Touch with McBride Property Management</h1>
+    <p>Let's talk about your rental property. No pressure, no hidden agendas—just straightforward advice.</p>
+  </div>
+</section>
+
+<!-- ========== MAIN SECTION - TWO COLUMN ========== -->
+<section class="section">
+  <div class="container">
+    <div class="grid grid-2">
+      <!-- LEFT: RENTAL ANALYSIS FORM -->
+      <div>
+        <h2>Request a Free Rental Analysis</h2>
+        <p style="margin-bottom: 2rem;">Wondering what your property could rent for in today's market? We'll provide a detailed, no-obligation analysis based on current comps, market conditions, and our local expertise.</p>
+
+        <form id="analysisForm" style="max-width: 100%;" name="rental-analysis" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <p class="hidden" style="display:none"><label>Don't fill this out: <input name="bot-field"></label></p>
+          <div class="form-group">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" required>
+          </div>
+
+          <div class="form-inline">
+            <div class="form-group" style="margin-bottom: 0;">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group" style="margin-bottom: 0;">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="(706) 000-0000">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="address">Property Address</label>
+            <input type="text" id="address" name="address" placeholder="123 Main Street, Evans, GA 30809" required>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Get My Free Rental Analysis</button>
+        </form>
+      </div>
+
+      <!-- RIGHT: CONTACT INFORMATION -->
+      <div>
+        <h2>Contact Information</h2>
+
+        <!-- Address -->
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-5.5-3.27z" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="contact-info-text">
+            <h4>Office Address</h4>
+            <p>609 Ponder Place Drive<br>Suite B<br>Evans, GA 30809</p>
+          </div>
+        </div>
+
+        <!-- Phone -->
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.92 7.02C17.45 6.18 16.51 5.55 15.46 5.55c-1.05 0-1.99.63-2.46 1.47-.97 1.22-1.45 2.85-1.45 4.43 0 1.58.48 3.21 1.45 4.43.47.84 1.41 1.47 2.46 1.47 1.05 0 1.99-.63 2.46-1.47 1.13-1.56 1.78-3.89 1.78-6.44s-.65-4.88-1.78-6.44zM6.54 9c0-1.06.43-2.04 1.12-2.73.69-.69 1.67-1.12 2.73-1.12.95 0 1.82.33 2.5.93.12.1.24.2.36.29-.09.06-.18.11-.27.17-1.11.76-1.85 1.95-2.12 3.34-.09.5-.14 1.02-.14 1.54s.05 1.04.14 1.54c.27 1.39 1.01 2.58 2.12 3.34.09.06.18.11.27.17-.12.09-.24.19-.36.29-.68.6-1.55.93-2.5.93-1.06 0-2.04-.43-2.73-1.12-.69-.69-1.12-1.67-1.12-2.73 0-.35.06-.69.15-1.01.2-.64.56-1.22 1.03-1.71.2-.22.42-.42.64-.58-.06-.05-.13-.09-.19-.14-.79-.68-1.26-1.66-1.26-2.76 0-1.06.43-2.04 1.12-2.73.69-.69 1.67-1.12 2.73-1.12.95 0 1.82.33 2.5.93.12.1.24.2.36.29-.09.06-.18.11-.27.17-1.11.76-1.85 1.95-2.12 3.34-.09.5-.14 1.02-.14 1.54s.05 1.04.14 1.54c.27 1.39 1.01 2.58 2.12 3.34.09.06.18.11.27.17-.12.09-.24.19-.36.29-.68.6-1.55.93-2.5.93-1.06 0-2.04-.43-2.73-1.12-.69-.69-1.12-1.67-1.12-2.73 0-.35.06-.69.15-1.01.2-.64.56-1.22 1.03-1.71.2-.22.42-.42.64-.58-.06-.05-.13-.09-.19-.14C6.97 11.04 6.54 10.06 6.54 9z" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="contact-info-text">
+            <h4>Phone</h4>
+            <p>Office: <a href="tel:7063392874">(706) 339-2874</a><br>New Owners: <a href="tel:7064204883">(706) 420-4883</a></p>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="contact-info-text">
+            <h4>Email</h4>
+            <p>General: <a href="mailto:rsmith@c21magnolia.com">rsmith@c21magnolia.com</a><br>New Owners: <a href="mailto:amber@c21magnolia.com">amber@c21magnolia.com</a></p>
+          </div>
+        </div>
+
+        <!-- Office Hours -->
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11.99 5C6.47 5 2 9.48 2 15s4.47 10 9.99 10C17.52 10 22 15.48 22 21c0 5.52-4.48 10-10.01 10zM12 8c-.55 0-1 .45-1 1v7c0 .55.45 1 1 1h4c.55 0 1-.45 1-1s-.45-1-1-1h-3V9c0-.55-.45-1-1-1z" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="contact-info-text">
+            <h4>Office Hours</h4>
+            <p>Monday – Friday<br>9:00 AM – 5:00 PM EST</p>
+          </div>
+        </div>
+
+        <!-- Schedule a Consultation -->
+        <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #eee;">
+          <h3>Schedule a Consultation</h3>
+          <p>Interested in professional management for your rental property? Book a 15-minute call with Amber, our Business Development Manager, to explore whether McBride PM is the right fit for you.</p>
+          <a href="#" class="btn btn-navy" style="display: inline-block;">Schedule Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PORTAL ACCESS SECTION ========== -->
+<section class="section section--light">
+  <div class="container">
+    <h2 class="text-center mb-3">Portal Access</h2>
+    <p class="text-center" style="max-width: 650px; margin: 0 auto 2rem;">Manage your property or check your tenant account online. Our secure portals give you 24/7 access to documents, payments, and communications.</p>
+
+    <div class="grid grid-2">
+      <!-- Owner Portal -->
+      <a href="https://c21magnolia.appfolio.com/oportal/users/log_in" class="portal-btn" style="text-decoration: none; color: inherit; transition: all 0.2s;">
+        <div style="margin-bottom: 1rem;">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="color: #b2995a; margin: 0 auto;">
+            <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" fill="currentColor"/>
+          </svg>
+        </div>
+        <h4>Owner Portal</h4>
+        <p>View reports, approve maintenance, track financials, and communicate with our team.</p>
+      </a>
+
+      <!-- Resident Portal -->
+      <a href="https://c21magnolia.appfolio.com/connect/users/sign_in" class="portal-btn" style="text-decoration: none; color: inherit; transition: all 0.2s;">
+        <div style="margin-bottom: 1rem;">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="color: #b2995a; margin: 0 auto;">
+            <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" fill="currentColor"/>
+          </svg>
+        </div>
+        <h4>Resident Portal</h4>
+        <p>Pay rent, submit maintenance requests, view lease info, and message management.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== REALTOR REFERRAL SECTION ========== -->
+<section class="section">
+  <div class="container">
+    <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 3rem; align-items: center;">
+      <div>
+        <h2>Are You a Real Estate Agent?</h2>
+        <p>We have a referral program for agents who want to help their clients transition into investment property ownership. When you refer an owner to McBride PM, they benefit from professional management—and so do you.</p>
+        <p style="margin-top: 1.5rem;">
+          <strong>Let's collaborate.</strong> Reach out to discuss how we can work together to serve your clients better.
+        </p>
+      </div>
+      <div style="text-align: center;">
+        <a href="mailto:amber@c21magnolia.com?subject=Realtor%20Referral%20Program" class="btn btn-primary btn-lg">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FINAL CTA SECTION ========== -->
+<section class="cta-section">
+  <div class="container text-center">
+    <h2>Ready to Maximize Your Rental Investment?</h2>
+    <p>Let's explore what professional property management can do for you and your portfolio.</p>
+    <a href="#analysisForm" class="btn btn-outline btn-lg">Get a Free Analysis</a>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">Mc<span>Bride</span> PM</div>
+        <p>Local property management for property owners who expect more.</p>
+        <p class="tagline">"Guiding you home."</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://c21magnolia.appfolio.com/oportal/users/log_in">Owner Portal</a></li>
+          <li><a href="https://c21magnolia.appfolio.com/connect/users/sign_in">Resident Portal</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p style="margin-bottom: 0.5rem;">609 Ponder Place Drive, Suite B<br>Evans, GA 30809</p>
+        <p style="margin-bottom: 0.5rem;"><a href="tel:7063392874">(706) 339-2874</a></p>
+        <p><a href="mailto:rsmith@c21magnolia.com">rsmith@c21magnolia.com</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 McBride Property Management. All rights reserved.</span>
+      <div style="display: flex; gap: 1.5rem;">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

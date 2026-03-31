@@ -1,0 +1,32 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "src/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "src/blog"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text", hint: "Short summary for SEO and blog listing (1-2 sentences)" }
+      - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - "Property Owners"
+          - "Tenants"
+          - "Market Updates"
+          - "Maintenance Tips"
+          - "Investment"
+      - { label: "Read Time (minutes)", name: "readTime", widget: "number", default: 5, value_type: "int", min: 1, max: 30 }
+      - { label: "Keywords", name: "keywords", widget: "string", required: false, hint: "Comma-separated SEO keywords" }
+      - { label: "CTA Title", name: "ctaTitle", widget: "string", required: false, default: "Ready to Talk Property Management?" }
+      - { label: "CTA Text", name: "ctaText", widget: "text", required: false, default: "McBride Property Management handles the details while you enjoy the returns." }
+      - { label: "Body", name: "body", widget: "markdown" }

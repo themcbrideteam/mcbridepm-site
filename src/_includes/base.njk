@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ description or 'Augusta property management company serving Georgia and South Carolina. Expert tenant screening, rent collection, maintenance, and financial reporting.' }}">
+  {% if keywords %}<meta name="keywords" content="{{ keywords }}">{% endif %}
+  <meta name="author" content="{{ site.name }}">
+
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="{{ title }} | {{ site.name }}">
+  <meta property="og:description" content="{{ description or 'Professional property management for residential property owners across the CSRA.' }}">
+  <meta property="og:type" content="{{ ogType or 'website' }}">
+  <meta property="og:image" content="{{ site.url }}/og-image.jpg">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+
+  <title>{{ title }} | {{ site.name }}</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <!-- Netlify Identity (required for Decap CMS login) -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  {% block head %}{% endblock %}
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-links">
+        <a href="{{ site.ownerPortal }}">Owner Portal</a>
+        <a href="{{ site.residentPortal }}">Resident Portal</a>
+        <a href="/rentals.html">Available Rentals</a>
+      </div>
+      <div class="topbar-links">
+        <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="/" class="logo">McBride <span>PM</span></a>
+
+      <button class="hamburger" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li class="dropdown">
+          <a href="#residents">Residents</a>
+          <div class="dropdown-menu">
+            <a href="/rentals.html">Available Properties</a>
+            <a href="#resident-faqs">Resident FAQs</a>
+            <a href="{{ site.residentPortal }}">Resident Portal</a>
+          </div>
+        </li>
+
+        <li class="dropdown">
+          <a href="#owners">Owners</a>
+          <div class="dropdown-menu">
+            <a href="/services.html">PM Services</a>
+            <a href="/why-hire.html">Why Hire Us</a>
+            <a href="#owner-faqs">Owner FAQs</a>
+            <a href="{{ site.ownerPortal }}">Owner Portal</a>
+          </div>
+        </li>
+
+        <li class="dropdown">
+          <a href="#areas">Areas We Serve</a>
+          <div class="dropdown-menu">
+            <a href="#augusta">Augusta</a>
+            <a href="/evans.html">Evans</a>
+            <a href="#grovetown">Grovetown</a>
+            <a href="#martinez">Martinez</a>
+            <a href="#north-augusta">North Augusta</a>
+            <a href="#aiken">Aiken</a>
+            <a href="#columbia-county">Columbia County</a>
+            <a href="#all-areas">See All Areas</a>
+          </div>
+        </li>
+
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/contact.html" class="btn btn-primary btn-sm">Free Rental Analysis</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  {% block content %}
+    {{ content | safe }}
+  {% endblock %}
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">McBride <span>PM</span></div>
+          <p style="margin-bottom: 1rem;">{{ site.address }}<br>{{ site.city }}</p>
+          <p style="margin-bottom: .5rem;"><strong><a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a></strong></p>
+          <p style="margin-bottom: 1.5rem;"><strong><a href="mailto:{{ site.email }}">{{ site.email }}</a></strong></p>
+          <div class="tagline">Guiding you home.</div>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="/services.html">Our Services</a></li>
+            <li><a href="/why-hire.html">Why Hire Us</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/contact.html">Contact Us</a></li>
+            <li><a href="/contact.html">Free Rental Analysis</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Areas We Serve</h4>
+          <ul>
+            <li><a href="#">Augusta</a></li>
+            <li><a href="/evans.html">Evans</a></li>
+            <li><a href="#">Grovetown</a></li>
+            <li><a href="#">Martinez</a></li>
+            <li><a href="#">Aiken</a></li>
+            <li><a href="#">North Augusta</a></li>
+            <li><a href="#">See All Areas</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Portal Access</h4>
+          <ul>
+            <li><a href="{{ site.ownerPortal }}">Owner Portal</a></li>
+            <li><a href="{{ site.residentPortal }}">Resident Portal</a></li>
+            <li><a href="/rentals.html">Available Rentals</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 {{ site.name }}. All rights reserved.</div>
+        <div>
+          <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+</body>
+</html>
