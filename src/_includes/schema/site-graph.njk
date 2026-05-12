@@ -1,0 +1,79 @@
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": ["RealEstateAgent","LocalBusiness","ProfessionalService"],
+            "@id": "{{ site.url }}/#organization",
+            "name": "{{ site.name }}",
+            "alternateName": "{{ site.alternateName }}",
+            "url": "{{ site.url }}/",
+            "logo": {"@type": "ImageObject", "url": "{{ site.logo }}", "caption": "{{ site.name }}"},
+            "image": "{{ site.image }}",
+            "description": "{{ site.description }}",
+            "slogan": "{{ site.slogan }}",
+            "foundingDate": "{{ site.foundingDate }}",
+            "priceRange": "{{ site.priceRange }}",
+            "telephone": "{{ site.phoneE164 }}",
+            "email": "{{ site.email }}",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "{{ site.address }}",
+                "addressLocality": "{{ site.city }}",
+                "addressRegion": "{{ site.state }}",
+                "postalCode": "{{ site.zip }}",
+                "addressCountry": "US"
+            },
+            "geo": {"@type": "GeoCoordinates", "latitude": {{ site.latitude }}, "longitude": {{ site.longitude }}},
+            "areaServed": [{% for area in site.areasServed %}{"@type": "{{ area.type }}", "name": "{{ area.name }}, {{ area.state }}"}{% if not loop.last %},{% endif %}{% endfor %}],
+            "openingHoursSpecification": [{% for h in site.openingHours %}{"@type": "OpeningHoursSpecification","dayOfWeek": [{% for d in h.days %}"{{ d }}"{% if not loop.last %},{% endif %}{% endfor %}],"opens": "{{ h.opens }}","closes": "{{ h.closes }}"}{% if not loop.last %},{% endif %}{% endfor %}],
+            "knowsAbout": [{% for k in site.knowsAbout %}"{{ k }}"{% if not loop.last %},{% endif %}{% endfor %}],
+            "sameAs": [{% for s in site.sameAs %}"{{ s }}"{% if not loop.last %},{% endif %}{% endfor %}],
+            "founder": {"@type": "Person","name": "{{ site.founder.name }}","jobTitle": "{{ site.founder.jobTitle }}"},
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Property Management Services",
+                "itemListElement": [{% for svc in site.services %}{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "{{ svc }}"}}{% if not loop.last %},{% endif %}{% endfor %}]
+            }
+        },
+        {
+            "@type": "WebSite",
+            "@id": "{{ site.url }}/#website",
+            "url": "{{ site.url }}/",
+            "name": "{{ site.name }}",
+            "publisher": {"@id": "{{ site.url }}/#organization"},
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "WebPage",
+            "@id": "{{ site.url }}{{ page.url }}#webpage",
+            "url": "{{ site.url }}{{ page.url }}",
+            "name": "{{ title or site.name }}",
+            "description": "{{ description or site.description }}",
+            "isPartOf": {"@id": "{{ site.url }}/#website"},
+            "about": {"@id": "{{ site.url }}/#organization"},
+            "inLanguage": "en-US"{% if breadcrumbs %},
+            "breadcrumb": {"@id": "{{ site.url }}{{ page.url }}#breadcrumb"}{% endif %}
+        }{% if breadcrumbs %},
+        {
+            "@type": "BreadcrumbList",
+            "@id": "{{ site.url }}{{ page.url }}#breadcrumb",
+            "itemListElement": [{% for bc in breadcrumbs %}{"@type": "ListItem","position": {{ loop.index }},"name": "{{ bc.name }}"{% if bc.url %},"item": "{{ site.url }}{{ bc.url }}"{% endif %}}{% if not loop.last %},{% endif %}{% endfor %}]
+        }{% endif %}{% if faqs %},
+        {
+            "@type": "FAQPage",
+            "@id": "{{ site.url }}{{ page.url }}#faq",
+            "mainEntity": [{% for q in faqs %}{"@type": "Question","name": {{ q.question | dump | safe }},"acceptedAnswer": {"@type": "Answer","text": {{ q.answer | dump | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]
+        }{% endif %}{% if reviews %}{% for r in reviews %},
+        {
+            "@type": "Review",
+            "itemReviewed": {"@id": "{{ site.url }}/#organization"},
+            "author": {"@type": "Person", "name": "{{ r.author }}"},
+            "datePublished": "{{ r.date }}",
+            "reviewRating": {"@type": "Rating", "ratingValue": "{{ r.rating or 5 }}", "bestRating": "5"},
+            "reviewBody": {{ r.body | dump | safe }}
+        }{% endfor %}{% endif %}{% if pageSchema %},
+        {{ pageSchema | safe }}{% endif %}
+    ]
+}
+</script>

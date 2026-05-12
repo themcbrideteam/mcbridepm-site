@@ -22,6 +22,48 @@
   <!-- Styles -->
   <link rel="stylesheet" href="/css/styles.css">
 
+  <!-- Canonical, robots, sitemap -->
+    <link rel="canonical" href="{{ canonical or (site.url + page.url) }}">
+      <meta name="robots" content="{{ robots or 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' }}">
+        <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+
+          <!-- Favicons -->
+            <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+              <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+                <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+                  <link rel="manifest" href="/site.webmanifest">
+                    <meta name="theme-color" content="#1a3a5c">
+
+                      <!-- Twitter Card -->
+                        <meta name="twitter:card" content="summary_large_image">
+                          <meta name="twitter:title" content="{{ title }} | {{ site.name }}">
+                            <meta name="twitter:description" content="{{ description or 'Professional property management for residential property owners across the CSRA.' }}">
+                              <meta name="twitter:image" content="{{ site.url }}/og-image.jpg">
+
+                                <!-- OG site_name -->
+                                  <meta property="og:site_name" content="{{ site.name }}">
+                                    <meta property="og:image:width" content="1200">
+                                      <meta property="og:image:height" content="630">
+                                        <meta property="og:locale" content="en_US">
+
+                                          <!-- Geo signals -->
+                                            <meta name="geo.region" content="US-GA">
+                                              <meta name="geo.placename" content="Evans, Georgia">
+                                                <meta name="geo.position" content="{{ site.latitude }};{{ site.longitude }}">
+                                                  <meta name="ICBM" content="{{ site.latitude }}, {{ site.longitude }}">
+
+                                                    <!-- Performance -->
+                                                      <link rel="preconnect" href="https://fonts.googleapis.com">
+                                                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                                                          <link rel="dns-prefetch" href="https://c21magnolia.appfolio.com">
+
+                                                            <!-- Search Console verification -->
+                                                              {% if site.buildVerifications.googleSiteVerification %}<meta name="google-site-verification" content="{{ site.buildVerifications.googleSiteVerification }}">{% endif %}
+                                                                {% if site.buildVerifications.bingSiteVerification %}<meta name="msvalidate.01" content="{{ site.buildVerifications.bingSiteVerification }}">{% endif %}
+
+                                                                  <!-- Schema.org JSON-LD graph -->
+                                                                    {% include "schema/site-graph.njk" %}
+                                                                    
   <!-- Netlify Identity (required for Decap CMS login) -->
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
