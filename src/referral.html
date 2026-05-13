@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtor Referral Program | McBride Property Management | Augusta, GA</title>
+    <meta name="description" content="Earn up to $1,000+ per referral with McBride Property Management's Realtor Referral Program in Augusta, GA. Written non-compete agreement, fast payouts, and full transparency.">
+    <meta name="keywords" content="Augusta property management referral fee, realtor referral program Augusta GA, property manager referral program Georgia, how much do property managers pay realtors for referrals Georgia, real estate agent referral Augusta">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="canonical" href="https://mcbride-pm.com/referral/">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <meta name="theme-color" content="#1a3a5c">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Realtor Referral Program | McBride Property Management">
+    <meta property="og:description" content="Earn up to $1,000+ per referral. Written non-compete, fast payouts, full transparency. Your clients stay yours.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mcbride-pm.com/referral/">
+    <meta property="og:image" content="https://mcbride-pm.com/og-image.jpg">
+    <meta property="og:site_name" content="McBride Property Management">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Realtor Referral Program | McBride Property Management">
+    <meta name="twitter:description" content="Earn up to $1,000+ per referral. Written non-compete, fast payouts, full transparency.">
+    <meta name="twitter:image" content="https://mcbride-pm.com/og-image.jpg">
+
+    <!-- Geo -->
+    <meta name="geo.region" content="US-GA">
+    <meta name="geo.placename" content="Evans, Georgia">
+    <meta name="geo.position" content="33.5362;-82.1335">
+    <meta name="ICBM" content="33.5362, -82.1335">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <style>
+    /* ---- Referral Page Specific Styles ---- */
+
+    /* Sticky CTA */
+    .sticky-cta {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #060644;
+        padding: .75rem 0;
+        z-index: 999;
+        box-shadow: 0 -4px 20px rgba(0,0,0,.15);
+        transform: translateY(100%);
+        transition: transform .3s ease;
+    }
+    .sticky-cta.visible { transform: translateY(0); }
+    .sticky-cta .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+    .sticky-cta p {
+        color: #fff;
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: .95rem;
+    }
+    .sticky-cta .btn { white-space: nowrap; }
+
+    /* Payout Tiers */
+    .tier-card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 2.5rem 2rem;
+        text-align: center;
+        border: 2px solid #f0f0f0;
+        transition: all .25s;
+        position: relative;
+    }
+    .tier-card:hover {
+        border-color: #b2995a;
+        transform: translateY(-4px);
+        box-shadow: 0 12px 32px rgba(0,0,0,.08);
+    }
+    .tier-card.featured {
+        border-color: #b2995a;
+        box-shadow: 0 8px 24px rgba(178,153,90,.15);
+    }
+    .tier-card.featured::before {
+        content: 'Most Common';
+        position: absolute;
+        top: -14px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #b2995a;
+        color: #fff;
+        padding: .3rem 1.25rem;
+        border-radius: 20px;
+        font-size: .75rem;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: .05em;
+    }
+    .tier-icon {
+        width: 64px;
+        height: 64px;
+        background: linear-gradient(135deg, #060644, #0d0d8a);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 1.25rem;
+        color: #b2995a;
+        font-size: 1.5rem;
+    }
+    .tier-label {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        color: #060644;
+        margin-bottom: .5rem;
+    }
+    .tier-amount {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 2.5rem;
+        color: #b2995a;
+        line-height: 1.1;
+        margin-bottom: .5rem;
+    }
+    .tier-desc {
+        font-size: .9rem;
+        color: #666;
+    }
+
+    /* Calculator */
+    .calc-wrapper {
+        background: #fff;
+        border-radius: 12px;
+        padding: 2.5rem;
+        box-shadow: 0 4px 20px rgba(0,0,0,.06);
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .calc-slider {
+        width: 100%;
+        -webkit-appearance: none;
+        appearance: none;
+        height: 8px;
+        border-radius: 4px;
+        background: linear-gradient(to right, #b2995a 0%, #b2995a 50%, #ddd 50%, #ddd 100%);
+        outline: none;
+        margin: 1.5rem 0;
+    }
+    .calc-slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: #060644;
+        cursor: pointer;
+        border: 3px solid #b2995a;
+        box-shadow: 0 2px 8px rgba(0,0,0,.15);
+    }
+    .calc-slider::-moz-range-thumb {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: #060644;
+        cursor: pointer;
+        border: 3px solid #b2995a;
+        box-shadow: 0 2px 8px rgba(0,0,0,.15);
+    }
+    .calc-result {
+        text-align: center;
+        padding: 1.5rem;
+        background: #f7f7f5;
+        border-radius: 8px;
+        margin-top: 1rem;
+    }
+    .calc-result .amount {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 2.75rem;
+        color: #b2995a;
+        line-height: 1;
+    }
+    .calc-result .label {
+        font-size: .9rem;
+        color: #555;
+        margin-top: .35rem;
+    }
+    .calc-doors {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 1.25rem;
+        color: #060644;
+    }
+
+    /* Pledge Box */
+    .pledge-box {
+        background: #f7f7f5;
+        border-left: 4px solid #b2995a;
+        border-radius: 0 8px 8px 0;
+        padding: 2rem 2.5rem;
+        margin: 2rem 0;
+    }
+    .pledge-box p {
+        font-size: 1.05rem;
+        font-style: italic;
+        color: #333;
+        margin-bottom: 0;
+    }
+
+    /* Process Steps Horizontal */
+    .process-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        position: relative;
+    }
+    .process-grid::before {
+        content: '';
+        position: absolute;
+        top: 40px;
+        left: 15%;
+        right: 15%;
+        height: 3px;
+        background: #b2995a;
+        z-index: 0;
+    }
+    .process-step {
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+    .process-number {
+        width: 80px;
+        height: 80px;
+        background: #060644;
+        color: #b2995a;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 1.75rem;
+        margin: 0 auto 1.25rem;
+        border: 4px solid #fff;
+        box-shadow: 0 4px 16px rgba(0,0,0,.1);
+    }
+    .process-step h3 { font-size: 1.1rem; margin-bottom: .5rem; }
+    .process-step p { font-size: .9rem; color: #555; margin-bottom: 0; }
+    @media (max-width: 700px) {
+        .process-grid { grid-template-columns: 1fr; }
+        .process-grid::before { display: none; }
+    }
+
+    /* Guarantee section */
+    .guarantee-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        align-items: center;
+    }
+    @media (max-width: 768px) {
+        .guarantee-grid { grid-template-columns: 1fr; }
+    }
+
+    /* Referral form section */
+    .referral-form-section {
+        position: relative;
+    }
+    .referral-form-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, #060644 0%, #0d0d8a 100%);
+        z-index: 0;
+    }
+    .referral-form-section .container {
+        position: relative;
+        z-index: 1;
+    }
+    .referral-form-card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 3rem;
+        box-shadow: 0 12px 40px rgba(0,0,0,.2);
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    /* Pillar cards */
+    .pillar-card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 2.5rem 2rem;
+        box-shadow: 0 2px 12px rgba(0,0,0,.05);
+        border: 1px solid #f0f0f0;
+        text-align: center;
+        transition: transform .2s, box-shadow .2s;
+    }
+    .pillar-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 24px rgba(0,0,0,.08);
+    }
+    .pillar-icon {
+        width: 64px;
+        height: 64px;
+        background: linear-gradient(135deg, #060644, #0d0d8a);
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 1.25rem;
+        color: #b2995a;
+    }
+
+    /* Add bottom padding for sticky CTA */
+    body { padding-bottom: 70px; }
+    </style>
+</head>
+<body>
+
+<!-- ========== TOPBAR ========== -->
+<div class="topbar">
+    <div class="container">
+        <span>Serving Augusta, Georgia and Aiken, South Carolina</span>
+        <div class="topbar-links">
+            <a href="https://c21magnolia.appfolio.com/oportal/users/log_in">Owner Portal</a>
+            <a href="https://c21magnolia.appfolio.com/connect/users/sign_in">Resident Portal</a>
+            <a href="tel:7064204883">(706) 420-4883</a>
+            <a href="mailto:amber@c21magnolia.com">Contact Us</a>
+        </div>
+    </div>
+</div>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar">
+    <div class="container">
+        <a href="/" class="logo">Mc<span>Bride</span> PM</a>
+        <button class="hamburger" aria-label="Toggle menu" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="/">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+                <a href="#">Services</a>
+                <div class="dropdown-menu">
+                    <a href="services.html">Property Management</a>
+                    <a href="services.html">Tenant Placement</a>
+                    <a href="services.html">Maintenance Coordination</a>
+                    <a href="services.html">Rent Collection</a>
+                </div>
+            </li>
+            <li><a href="contact.html" class="btn btn-primary">Get Started</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section class="hero">
+    <div class="container">
+        <h1>Your Partner in Professional Property Management</h1>
+        <p>Earn up to $1,000+ per referral and keep your client for life. We handle the management; you handle the future sale.</p>
+        <div class="hero-buttons">
+            <a href="#referral-form" class="btn btn-primary btn-lg">Refer a Client Now</a>
+            <a href="#how-it-works" class="btn btn-outline btn-lg">See How It Works</a>
+        </div>
+    </div>
+</section>
+
+<!-- ========== TRUST BAR ========== -->
+<section class="trust-bar">
+    <div class="container">
+        <div class="grid grid-4">
+            <div class="trust-stat">
+                <span class="number">10+</span>
+                <span class="label">Years Managing Rentals</span>
+            </div>
+            <div class="trust-stat">
+                <span class="number">48hr</span>
+                <span class="label">Payout After Lease Signing</span>
+            </div>
+            <div class="trust-stat">
+                <span class="number">100%</span>
+                <span class="label">Written Non-Compete</span>
+            </div>
+            <div class="trust-stat">
+                <span class="number">CSRA</span>
+                <span class="label">Augusta, Evans, Aiken &amp; More</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== THREE PILLARS ========== -->
+<section class="section" id="why-partner">
+    <div class="container">
+        <h2 class="text-center mb-1">The Three Pillars of Our Partnership</h2>
+        <p class="text-center" style="max-width: 650px; margin: 0 auto 3rem; color: #555;">We built this program around what agents actually care about: protecting your relationships, your reputation, and your income.</p>
+        <div class="grid grid-3">
+            <div class="pillar-card">
+                <div class="pillar-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z" fill="currentColor"/></svg>
+                </div>
+                <h3>Written Non-Compete</h3>
+                <p>We never pursue your client's sales listing. When they're ready to sell, we refer them back to the brokerage of your choice. We put it in writing for every referral.</p>
+            </div>
+            <div class="pillar-card">
+                <div class="pillar-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" fill="currentColor"/></svg>
+                </div>
+                <h3>Professional Tenant Placement</h3>
+                <p>We protect your reputation by placing qualified, thoroughly screened tenants. Your client's property is in expert hands from day one.</p>
+            </div>
+            <div class="pillar-card">
+                <div class="pillar-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z" fill="currentColor"/></svg>
+                </div>
+                <h3>Fast, Transparent Payouts</h3>
+                <p>Direct deposit or check sent within 48 hours of lease signing. No waiting, no hoops, no fine print. You see exactly where your referral stands at every stage.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== ANTI-THEFT PLEDGE ========== -->
+<section class="section section--navy" id="guarantee">
+    <div class="container">
+        <div class="guarantee-grid">
+            <div>
+                <h2>The Realtor-to-Realtor Guarantee</h2>
+                <p style="opacity:.9; font-size: 1.05rem;">We understand how hard you work to earn a client's trust. Our Realtor Referral Program is designed to provide your clients with professional management while ensuring they come back to you when it's time to sell.</p>
+                <div class="pledge-box" style="background: rgba(255,255,255,.08); border-left-color: #b2995a;">
+                    <p style="color: #fff; opacity: .95;">"When your client is ready to sell, we refer them back to any brokerage of your choice. We sign a written agreement for every referral. Your client stays your client."</p>
+                </div>
+                <a href="#referral-form" class="btn btn-primary btn-lg" style="margin-top: 1rem;">Start a Referral</a>
+            </div>
+            <div style="text-align: center;">
+                <div style="background: rgba(255,255,255,.05); border-radius: 16px; padding: 3rem 2rem;">
+                    <svg width="80" height="80" viewBox="0 0 24 24" fill="none" style="color: #b2995a; margin-bottom: 1rem;"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z" fill="currentColor"/></svg>
+                    <h3 style="color: #fff; margin-bottom: .5rem;">Your Commission Is Protected</h3>
+                    <p style="color: rgba(255,255,255,.7); margin-bottom: 0; font-size: .95rem;">Every referral comes with a signed agreement guaranteeing your client returns to you for the sale.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== HOW IT WORKS ========== -->
+<section class="section section--light" id="how-it-works">
+    <div class="container">
+        <h2 class="text-center mb-1">How It Works</h2>
+        <p class="text-center" style="max-width: 600px; margin: 0 auto 3rem; color: #555;">Three steps. That's it. You refer, we manage, you get paid.</p>
+        <div class="process-grid">
+            <div class="process-step">
+                <div class="process-number">1</div>
+                <h3>You Refer</h3>
+                <p>Submit your referral through our 60-second form below. We'll confirm receipt within one business day.</p>
+            </div>
+            <div class="process-step">
+                <div class="process-number">2</div>
+                <h3>We Lease</h3>
+                <p>We onboard the property, market it, screen tenants, and execute the lease. You get status updates along the way.</p>
+            </div>
+            <div class="process-step">
+                <div class="process-number">3</div>
+                <h3>You Get Paid</h3>
+                <p>Within 48 hours of lease signing, your referral fee hits your account. Direct deposit or check, your choice.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== PAYOUT TIERS ========== -->
+<section class="section" id="payouts">
+    <div class="container">
+        <h2 class="text-center mb-1">Referral Payout Tiers</h2>
+        <p class="text-center" style="max-width: 600px; margin: 0 auto 3rem; color: #555;">Straightforward, tiered payouts. The more doors, the higher the fee.</p>
+        <div class="grid grid-3">
+            <div class="tier-card">
+                <div class="tier-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" fill="currentColor"/></svg>
+                </div>
+                <div class="tier-label">Individual Unit</div>
+                <div class="tier-amount">$300</div>
+                <div class="tier-desc">Single-family home or condo</div>
+            </div>
+            <div class="tier-card featured">
+                <div class="tier-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M17 11V3H7v4H3v14h8v-4h2v4h8V11h-4zM7 19H5v-2h2v2zm0-4H5v-2h2v2zm0-4H5V9h2v2zm4 4H9v-2h2v2zm0-4H9V9h2v2zm0-4H9V5h2v2zm4 8h-2v-2h2v2zm0-4h-2V9h2v2zm0-4h-2V5h2v2zm4 12h-2v-2h2v2zm0-4h-2v-2h2v2z" fill="currentColor"/></svg>
+                </div>
+                <div class="tier-label">2-4 Unit Portfolio</div>
+                <div class="tier-amount">$500</div>
+                <div class="tier-desc">Duplex, triplex, or small portfolio</div>
+            </div>
+            <div class="tier-card">
+                <div class="tier-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M1 11v10h6v-5h2v5h6V11L8 6l-7 5zm12 8h-2v-5H5v5H3v-7l5-3.5 5 3.5v7zm8-17h-7v2h5v13h-3v2h5V2z" fill="currentColor"/></svg>
+                </div>
+                <div class="tier-label">5+ Unit Portfolio</div>
+                <div class="tier-amount">$1,000+</div>
+                <div class="tier-desc">Larger portfolios, custom fee structure</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== CALCULATOR ========== -->
+<section class="section section--light" id="calculator">
+    <div class="container">
+        <h2 class="text-center mb-1">Estimate Your Referral Earnings</h2>
+        <p class="text-center" style="max-width: 550px; margin: 0 auto 2.5rem; color: #555;">Drag the slider to see what your referrals could be worth this year.</p>
+        <div class="calc-wrapper">
+            <div class="calc-doors"><span id="doorCount">1</span> Door<span id="doorPlural"></span> Referred</div>
+            <input type="range" min="1" max="20" value="1" class="calc-slider" id="calcSlider">
+            <div style="display: flex; justify-content: space-between; font-size: .8rem; color: #888; margin-top: -1rem; margin-bottom: 1rem;">
+                <span>1 door</span>
+                <span>20 doors</span>
+            </div>
+            <div class="calc-result">
+                <div class="amount" id="calcAmount">$300</div>
+                <div class="label">Estimated annual referral income</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== REFERRAL FORM ========== -->
+<section class="section referral-form-section" id="referral-form">
+    <div class="container">
+        <div class="referral-form-card">
+            <h2 class="text-center" style="margin-bottom: .5rem;">Submit a Referral</h2>
+            <p class="text-center" style="color: #666; margin-bottom: 2rem;">Takes about 60 seconds. We'll confirm receipt within one business day.</p>
+
+            <form name="realtor-referral" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/referral-thank-you/">
+                <p class="hidden" style="display:none"><label>Don't fill this out: <input name="bot-field"></label></p>
+
+                <div class="form-inline">
+                    <div class="form-group">
+                        <label for="agentName">Your Name</label>
+                        <input type="text" id="agentName" name="agentName" placeholder="Jane Smith" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="brokerage">Brokerage</label>
+                        <input type="text" id="brokerage" name="brokerage" placeholder="Keller Williams Augusta" required>
+                    </div>
+                </div>
+
+                <div class="form-inline">
+                    <div class="form-group">
+                        <label for="agentEmail">Email</label>
+                        <input type="email" id="agentEmail" name="agentEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="agentPhone">Phone</label>
+                        <input type="tel" id="agentPhone" name="agentPhone" placeholder="(706) 000-0000" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="propertyAddress">Property Address</label>
+                    <input type="text" id="propertyAddress" name="propertyAddress" placeholder="123 Main St, Augusta, GA 30909">
+                </div>
+
+                <div class="form-group">
+                    <label for="propertyType">Property Type</label>
+                    <select id="propertyType" name="propertyType">
+                        <option value="">Select property type</option>
+                        <option value="single-family">Single-Family Home</option>
+                        <option value="condo-townhouse">Condo / Townhouse</option>
+                        <option value="duplex">Duplex</option>
+                        <option value="multi-unit">Multi-Unit (3+)</option>
+                        <option value="portfolio">Portfolio (5+ units)</option>
+                        <option value="not-sure">Not Sure Yet</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="notes">Anything else we should know? <span style="font-weight: 400; color: #888;">(optional)</span></label>
+                    <textarea id="notes" name="notes" rows="3" placeholder="Timeline, client situation, etc."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; margin-top: .5rem;">Submit Referral</button>
+                <p style="text-align: center; font-size: .8rem; color: #888; margin-top: 1rem; margin-bottom: 0;">Your information is kept confidential and never shared with third parties.</p>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- ========== FAQ ========== -->
+<section class="section" id="faq">
+    <div class="container">
+        <h2 class="text-center mb-1">Frequently Asked Questions</h2>
+        <p class="text-center" style="max-width: 600px; margin: 0 auto 2.5rem; color: #555;">Answers to the questions agents ask most about our referral program.</p>
+        <div style="max-width: 800px; margin: 0 auto;" class="faq">
+            <div class="faq-item">
+                <button class="faq-question">Will you try to take my client's listing when they sell?</button>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">No. We sign a written non-compete agreement for every referral. When your client is ready to sell, we refer them back to the brokerage of your choice. Property management is our business, not competing with you for sales.</div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">How quickly do I get paid?</button>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">Within 48 hours of lease signing. We offer direct deposit or check, your preference. No waiting for the tenant to pay first month's rent, no 30-day delays.</div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">What updates will I receive on my referral?</button>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">You'll receive email updates when we contact your client, when the property is listed, when applications come in, and when the lease is signed. If you want more frequent check-ins, just ask. We're flexible.</div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">What areas do you cover?</button>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">We manage residential properties across the CSRA including Augusta, Evans, Martinez, Grovetown, Harlem, North Augusta, Aiken, Columbia County, and Richmond County.</div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Does my client need to have a tenant already?</button>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">Nope. We handle everything from property prep and marketing to tenant screening, lease execution, and ongoing management. Your client can refer an empty property, an occupied one, or something they just closed on.</div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Is there a limit to how many referrals I can send?</button>
+                <div class="faq-answer">
+                    <div class="faq-answer-inner">No limit. Refer as many clients as you'd like. Each referral earns its own payout based on the property type. Agents who send five or more units can discuss custom fee structures.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== FINAL CTA ========== -->
+<section class="cta-section">
+    <div class="container text-center">
+        <h2>Ready to Start Earning?</h2>
+        <p>Submit your first referral in 60 seconds. We'll handle the rest.</p>
+        <a href="#referral-form" class="btn btn-outline btn-lg">Refer a Client Now</a>
+    </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div>
+                <div class="footer-logo">Mc<span>Bride</span> PM</div>
+                <p>Local property management for property owners who expect more.</p>
+                <p class="tagline">"Guiding you home."</p>
+            </div>
+            <div>
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="https://c21magnolia.appfolio.com/oportal/users/log_in">Owner Portal</a></li>
+                    <li><a href="https://c21magnolia.appfolio.com/connect/users/sign_in">Resident Portal</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="referral.html">Realtor Referral</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <p style="margin-bottom: 0.5rem;">609 Ponder Place Drive, Suite B<br>Evans, GA 30809</p>
+                <p style="margin-bottom: 0.5rem;"><a href="tel:7064204883">(706) 420-4883</a></p>
+                <p><a href="mailto:amber@c21magnolia.com">amber@c21magnolia.com</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 McBride Property Management. All rights reserved.</span>
+            <div style="display: flex; gap: 1.5rem;">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- ========== STICKY CTA ========== -->
+<div class="sticky-cta" id="stickyCta">
+    <div class="container">
+        <p>Earn up to $1,000+ per referral</p>
+        <a href="#referral-form" class="btn btn-primary">Refer a Client Now</a>
+    </div>
+</div>
+
+<!-- ========== SCRIPTS ========== -->
+<script src="/js/main.js"></script>
+<script>
+// Sticky CTA - show after scrolling past hero
+(function() {
+    var sticky = document.getElementById('stickyCta');
+    var hero = document.querySelector('.hero');
+    if (!sticky || !hero) return;
+    var shown = false;
+    function checkScroll() {
+        var trigger = hero.offsetTop + hero.offsetHeight;
+        if (window.scrollY > trigger && !shown) {
+            sticky.classList.add('visible');
+            shown = true;
+        } else if (window.scrollY <= trigger && shown) {
+            sticky.classList.remove('visible');
+            shown = false;
+        }
+    }
+    window.addEventListener('scroll', checkScroll, { passive: true });
+    checkScroll();
+})();
+
+// Payout Calculator
+(function() {
+    var slider = document.getElementById('calcSlider');
+    var amount = document.getElementById('calcAmount');
+    var count = document.getElementById('doorCount');
+    var plural = document.getElementById('doorPlural');
+    if (!slider) return;
+    function calcPayout(doors) {
+        if (doors <= 1) return 300;
+        if (doors <= 4) return 300 + (doors - 1) * 500;
+        return 300 + 3 * 500 + (doors - 4) * 250;
+    }
+    function updateCalc() {
+        var doors = parseInt(slider.value);
+        count.textContent = doors;
+        plural.textContent = doors > 1 ? 's' : '';
+        var payout = calcPayout(doors);
+        amount.textContent = '$' + payout.toLocaleString();
+        // Update slider gradient
+        var pct = ((doors - 1) / 19) * 100;
+        slider.style.background = 'linear-gradient(to right, #b2995a 0%, #b2995a ' + pct + '%, #ddd ' + pct + '%, #ddd 100%)';
+    }
+    slider.addEventListener('input', updateCalc);
+    updateCalc();
+})();
+
+// FAQ Accordion
+(function() {
+    var items = document.querySelectorAll('.faq-item');
+    items.forEach(function(item) {
+        var btn = item.querySelector('.faq-question');
+        btn.addEventListener('click', function() {
+            var isOpen = item.classList.contains('open');
+            // Close all
+            items.forEach(function(i) { i.classList.remove('open'); });
+            // Toggle current
+            if (!isOpen) item.classList.add('open');
+        });
+    });
+})();
+
+// Smooth scroll for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+    anchor.addEventListener('click', function(e) {
+        var target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    });
+});
+</script>
+
+</body>
+</html>
