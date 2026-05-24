@@ -14,15 +14,15 @@ Georgia law caps total security deposits — including pet deposits — at two m
 
 If you own a rental property in Evans, Grovetown, Augusta, or anywhere in the CSRA, you've probably had this conversation with yourself: should I allow pets? And if so, how do I protect my property without scaring off good tenants?
 
-It's a fair question. Pets can cause damage — scratched hardwood, stained carpet, chewed blinds. But refusing pets entirely means you're eliminating a massive chunk of the renter pool. According to the [ASPCA](https://www.aspca.org/improving-laws-animals/public-policy/housing/pet-friendly-housing-and-renters), roughly 70% of U.S. households include a pet. In a military-heavy market like Augusta, where Fort Eisenhower families frequently PCS with dogs and cats, that number tracks even higher.
+It's a fair question. Pets can cause damage — scratched hardwood, stained carpet, chewed blinds. But refusing pets entirely means you're eliminating a massive chunk of the renter pool. According to the [ASPCA](https://www.aspca.org/improving-laws-animals/public-policy/housing/pet-friendly-housing-and-renters), roughly 70% of U.S. households include a pet. In a military-heavy market like Augusta, where [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/) families frequently PCS with dogs and cats, that number tracks even higher.
 
 The smart move isn't to ban pets outright. It's to build a clear, enforceable pet policy that protects your investment while keeping your property competitive. Here's how to do it right under current Georgia law.
 
 ## Georgia Pet Deposit Rules Under the Safe At Home Act
 
-Georgia's [Safe At Home Act](https://gaappleseed.org/resource/safeathome/) (House Bill 404), which took effect July 1, 2024, changed the deposit landscape for every landlord in the state. The law caps total security deposits at two times the monthly rent for leases entered or renewed after that date.
+Georgia's [Safe At Home Act](https://gaappleseed.org/resource/safeathome/) (House Bill 404), which took effect July 1, 2024, changed the deposit landscape for every landlord in the state. The law caps total [security deposits](/blog/security-deposit-best-practices-georgia/) at two times the monthly rent for leases entered or renewed after that date.
 
-Here's the critical detail: pet deposits count toward that cap. Under Georgia law, damage deposits, pet deposits, and advance rent deposits are all classified as security deposits. So if your property rents for $1,400 per month in Columbia County, your total deposit — including any pet deposit — cannot exceed $2,800.
+Here's the critical detail: pet deposits count toward that cap. Under Georgia law, damage deposits, pet deposits, and advance rent deposits are all classified as security deposits. So if your property rents for $1,400 per month in [Columbia County](/evans/), your total deposit — including any pet deposit — cannot exceed $2,800.
 
 That's a meaningful constraint, especially if you were previously charging a $1,400 security deposit plus a separate $500 pet deposit. You'll need to structure your fees carefully to stay compliant while still covering your risk.
 
@@ -34,7 +34,7 @@ These three terms get used interchangeably, but they're legally distinct — and
 
 **Pet fee** — A one-time, non-refundable charge for allowing a pet on the property. This is not classified as a security deposit in Georgia, so it falls outside the two-month cap. Most landlords in the Augusta area charge between $200 and $500 per pet. Your lease must clearly state that this fee is non-refundable.
 
-**Pet rent** — A recurring monthly charge on top of base rent. This is also separate from the deposit cap. Across the Augusta metro — including Evans, Martinez, Grovetown, and North Augusta — pet rent typically runs $25 to $50 per pet per month. It compensates you for the incremental wear that comes with animals living in the home.
+**Pet rent** — A recurring monthly charge on top of base rent. This is also separate from the deposit cap. Across the Augusta metro — including Evans, Martinez, Grovetown, and [North Augusta](/north-augusta/) — pet rent typically runs $25 to $50 per pet per month. It compensates you for the incremental wear that comes with animals living in the home.
 
 The strongest pet policies combine all three: a modest pet deposit within your deposit cap, a non-refundable pet fee, and monthly pet rent. This gives you both upfront coverage and ongoing compensation.
 
@@ -68,7 +68,7 @@ Most landlords in the Augusta area limit pets to domesticated dogs and cats. Som
 
 ### Breed Restrictions
 
-Many landlord insurance policies in Georgia exclude coverage for certain breeds — typically those classified as aggressive by insurers. Check with your insurance carrier before setting breed restrictions. If your policy excludes specific breeds, your lease should reflect that. Just remember: breed restrictions never apply to service animals or ESAs.
+Many [landlord insurance](/blog/landlord-insurance-georgia-rental-property-guide/) policies in Georgia exclude coverage for certain breeds — typically those classified as aggressive by insurers. Check with your insurance carrier before setting breed restrictions. If your policy excludes specific breeds, your lease should reflect that. Just remember: breed restrictions never apply to service animals or ESAs.
 
 ### Number of Pets
 
@@ -76,7 +76,7 @@ Two pets is the most common limit for single-family rentals in Columbia County a
 
 ### Required Documentation
 
-Require proof of current vaccinations, spay/neuter records (or a plan to do so), and a recent photo of the animal. For renters insurance — which we recommend for every tenant — confirm that their policy includes pet liability coverage.
+Require proof of current vaccinations, spay/neuter records (or a plan to do so), and a recent photo of the animal. For [renters insurance](/blog/renters-insurance-georgia-what-it-covers/) — which we recommend for every tenant — confirm that their policy includes pet liability coverage.
 
 ### Pet Addendum
 

@@ -16,7 +16,7 @@ If you own a rental property in the Augusta area, you already know the numbers m
 
 A standard homeowners policy won't cover a property you're renting out. If you're still relying on one, your insurer can deny every claim the moment they learn a tenant lives there. That's not a technicality — it's a coverage gap that could cost you the entire property.
 
-Whether you own a single rental in Evans or a growing portfolio across Columbia County and Richmond County, the right insurance setup protects your cash flow, your equity, and your personal finances. Here's what you need to know heading into 2026.
+Whether you own a single rental in Evans or a growing portfolio across [Columbia County](/evans/) and Richmond County, the right insurance setup protects your cash flow, your equity, and your personal finances. Here's what you need to know heading into 2026.
 
 ## Homeowners Insurance Does Not Cover Rental Properties
 
@@ -40,7 +40,7 @@ If a tenant, their guest, or even a delivery driver is injured on your property 
 
 ### Loss of Rental Income
 
-This is the coverage many landlords don't think about until they need it. If a covered event — a fire, a major storm, a burst pipe — makes your property uninhabitable, loss of rental income coverage reimburses the rent you would have collected while the property is being repaired. For a property renting at $1,800 a month in Evans or North Augusta, a six-month repair timeline means $10,800 in lost income. Without this coverage, that comes straight out of your pocket.
+This is the coverage many landlords don't think about until they need it. If a covered event — a fire, a major storm, a burst pipe — makes your property uninhabitable, loss of rental income coverage reimburses the rent you would have collected while the property is being repaired. For a property renting at $1,800 a month in Evans or [North Augusta](/north-augusta/), a six-month repair timeline means $10,800 in lost income. Without this coverage, that comes straight out of your pocket.
 
 ## What Landlord Insurance Does Not Cover
 
@@ -92,7 +92,7 @@ Start at $300,000 minimum. If you own multiple properties or have a higher net w
 
 ### 4. Require Renters Insurance in Every Lease
 
-This doesn't cost you anything, and it protects your tenant's belongings while reducing your own claims exposure. A tenant with renters insurance is less likely to file a claim against your policy for issues like water damage to their personal property.
+This doesn't cost you anything, and it protects your tenant's belongings while reducing your own claims exposure. A tenant with [renters insurance](/blog/renters-insurance-georgia-what-it-covers/) is less likely to file a claim against your policy for issues like water damage to their personal property.
 
 ### 5. Review Your Policy Annually
 
@@ -118,7 +118,7 @@ If you're a landlord in the Augusta area and you're not sure whether your insura
 </div>
 
 <div class="faq-item">
-<div class="faq-question">Q: How much does landlord insurance cost in the Augusta, GA area?</div>
+<div class="faq-question">Q: How much does landlord insurance cost in the [Augusta, GA](/augusta/) area?</div>
 <div class="faq-answer">For a standard single-family rental in the Augusta metro — including Evans, Martinez, Grovetown, and Columbia County — expect to pay between $1,000 and $3,000 per year depending on the property's age, condition, and your coverage limits. The cost is fully deductible as a rental property expense.</div>
 </div>
 

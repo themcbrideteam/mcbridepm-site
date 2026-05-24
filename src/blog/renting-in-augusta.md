@@ -16,7 +16,7 @@ ctaText: "Browse available rentals at McBride Property Management and find your 
 
 ## Introduction
 
-Whether you're relocating for work at Fort Eisenhower, transferring for career growth, or seeking a fresh start, Augusta and Columbia County offer affordable, diverse neighborhoods with welcoming rental markets. The region has seen significant growth in recent years, attracting professionals, military families, and those seeking a lower cost of living without sacrificing quality of life.
+Whether you're relocating for work at [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/), transferring for career growth, or seeking a fresh start, Augusta and [Columbia County](/evans/) offer affordable, diverse neighborhoods with welcoming rental markets. The region has seen significant growth in recent years, attracting professionals, military families, and those seeking a lower cost of living without sacrificing quality of life.
 
 Exploring Columbia County as a renter gives you access to vibrant communities, excellent schools, and a strong sense of place. From the established charm of central Augusta to the modern development in Evans and Grovetown, there's a neighborhood to suit every lifestyle and budget.
 
@@ -70,11 +70,11 @@ The rental application process in Augusta and Columbia County is straightforward
 
 ### Ask Clear Questions
 
-**Key questions:** Don't hesitate to ask about utilities, maintenance response times, pet policies, lease renewal terms, and any special amenities. Getting answers upfront prevents surprises after you move in.
+**Key questions:** Don't hesitate to ask about utilities, maintenance response times, [pet policies](/blog/pet-policy-rental-property-augusta-ga-landlord-guide/), [lease renewal](/blog/lease-renewal-strategies-augusta-ga-landlords/) terms, and any special amenities. Getting answers upfront prevents surprises after you move in.
 
 ### Document Everything
 
-**Protection for you:** Take photos and video during your initial showing to document the property's condition. Get a written move-in inspection form signed by both you and the landlord. This protects your security deposit and creates a clear record of pre-existing conditions.
+**Protection for you:** Take photos and video during your initial showing to document the property's condition. Get a written move-in inspection form signed by both you and the landlord. This protects your [security deposit](/blog/security-deposit-best-practices-georgia/) and creates a clear record of pre-existing conditions.
 
 ## Frequently Asked Questions
 

@@ -12,9 +12,9 @@ layout: blog-post.njk
 Georgia landlords must hold security deposits in a separate escrow account or post a surety bond, provide a written disclosure at move-in, and return the deposit — along with an itemized statement — within 30 days of move-out. Failing to comply can expose you to triple damages under Georgia law.
 </div>
 
-Security deposits are one of the most legally consequential parts of owning a rental property in Augusta, GA — and one of the most commonly mishandled. A single procedural mistake can flip a legitimate claim into a costly lawsuit, with Georgia courts awarding tenants up to three times the deposit amount plus attorney's fees.
+Security deposits are one of the most legally consequential parts of owning a rental property in [Augusta, GA](/augusta/) — and one of the most commonly mishandled. A single procedural mistake can flip a legitimate claim into a costly lawsuit, with Georgia courts awarding tenants up to three times the deposit amount plus attorney's fees.
 
-If you own rental property in Columbia County, Evans, or anywhere in the CSRA, this guide covers exactly what the law requires and what best practices look like in practice.
+If you own rental property in [Columbia County](/evans/), Evans, or anywhere in the CSRA, this guide covers exactly what the law requires and what best practices look like in practice.
 
 ---
 

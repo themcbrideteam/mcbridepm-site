@@ -27,7 +27,7 @@ For renters, this matters because you get Columbia County services (fire, water,
 
 ### Key landmarks and reference points
 
-Martinez is anchored by a few corridors that renters should know. **Washington Road (GA-28)** runs through the heart of the community and connects directly to downtown Augusta in about 15 minutes. **Columbia Road** feeds south toward Bobby Jones Expressway, and **Baston Road** connects to Evans and the western side of the county. If you work at Fort Eisenhower, you're looking at a 20-to-25-minute commute depending on which gate you use.
+Martinez is anchored by a few corridors that renters should know. **Washington Road (GA-28)** runs through the heart of the community and connects directly to downtown Augusta in about 15 minutes. **Columbia Road** feeds south toward Bobby Jones Expressway, and **Baston Road** connects to Evans and the western side of the county. If you work at [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/), you're looking at a 20-to-25-minute commute depending on which gate you use.
 
 ## What Renters Can Expect to Pay
 
@@ -96,7 +96,7 @@ For more on renting in the area, check out our guides on [living in Evans](/evan
 
 <div class="faq-section">
   <div class="faq-item">
-    <div class="faq-question">Q: Is Martinez, GA a good place to rent?</div>
+    <div class="faq-question">Q: Is [Martinez, GA](/martinez/) a good place to rent?</div>
     <div class="faq-answer">Martinez is one of the most popular rental areas in Columbia County, GA. It offers lower rents than Evans while still providing access to Columbia County's school system, county services, and a central location between Augusta and the western suburbs. Renters benefit from established neighborhoods, short commutes to Fort Eisenhower and downtown Augusta, and a wide range of property types from apartments to single-family homes.</div>
   </div>
   <div class="faq-item">
@@ -108,7 +108,7 @@ For more on renting in the area, check out our guides on [living in Evans](/evan
     <div class="faq-answer">Martinez is approximately 20 to 25 minutes from Fort Eisenhower's main gates via Gordon Highway. The commute is straightforward and avoids much of the congestion found on other Augusta-area routes, making Martinez a popular rental choice for military families and civilian contractors stationed at the installation.</div>
   </div>
   <div class="faq-item">
-    <div class="faq-question">Q: What's the difference between renting in Martinez vs. Evans, GA?</div>
+    <div class="faq-question">Q: What's the difference between renting in Martinez vs. [Evans, GA](/evans/)?</div>
     <div class="faq-answer">Both communities are in Columbia County and share the same school system and county services. Evans features more new construction and retail but comes with higher rents. Martinez offers similar quality of life at a lower price point, with more established neighborhoods and mature lots. Renters who prioritize value and central location often prefer Martinez, while those seeking newer housing stock lean toward Evans.</div>
   </div>
 </div>

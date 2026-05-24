@@ -12,7 +12,7 @@ layout: blog-post.njk
 Renters insurance in Georgia typically costs $15–$25 per month and covers your personal belongings, liability if someone is injured in your home, and temporary living expenses if your rental becomes uninhabitable. Most landlords in Augusta and Columbia County now require it before move-in.
 </div>
 
-If you've been apartment or house hunting in Augusta, Evans, or anywhere in Columbia County, there's a good chance a landlord has already told you: "Renters insurance is required." A lot of tenants treat this as a minor box to check — they get the cheapest policy they can find, scan the declaration page, and move on.
+If you've been apartment or house hunting in Augusta, Evans, or anywhere in [Columbia County](/evans/), there's a good chance a landlord has already told you: "Renters insurance is required." A lot of tenants treat this as a minor box to check — they get the cheapest policy they can find, scan the declaration page, and move on.
 
 That would be a mistake. Renters insurance is one of the most cost-effective financial protections available to any tenant, and understanding what it actually does makes a real difference when something goes wrong. At **McBride Property Management**, Amber McBride and Noah McBride, our licensed property manager and broker team, have seen firsthand what happens when tenants are uninsured during a fire, a break-in, or a water loss event. The outcome is almost always far more painful than the $20/month policy would have cost.
 
@@ -71,7 +71,7 @@ Renters insurance is remarkably affordable. In Augusta and Columbia County, most
 - Whether you bundle it with your auto insurance (most major carriers offer discounts)
 - Your rental's location and construction type
 
-Some tenants find policies as low as $12/month through major carriers like State Farm, USAA (especially useful for military families at Fort Eisenhower), Lemonade, or Progressive. Bundling with your car insurance is usually the simplest and most affordable route.
+Some tenants find policies as low as $12/month through major carriers like State Farm, USAA (especially useful for military families at [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/)), Lemonade, or Progressive. Bundling with your car insurance is usually the simplest and most affordable route.
 
 ## Tips for Getting the Right Policy
 
@@ -99,7 +99,7 @@ Renters insurance is one of those things that feels optional right up until you 
     <div class="faq-answer">Most tenants in Augusta and Columbia County are well-covered with $20,000–$30,000 in personal property coverage and $100,000 in liability coverage. If your lease specifies minimum amounts, follow those. If you own high-value items like jewelry, electronics, or instruments, consider increasing your property limit or adding a rider.</div>
   </div>
   <div class="faq-item">
-    <div class="faq-question">Q: Does renters insurance cover flooding in Augusta, GA?</div>
+    <div class="faq-question">Q: Does renters insurance cover flooding in [Augusta, GA](/augusta/)?</div>
     <div class="faq-answer">Standard renters insurance does not cover flood damage from external water sources — this includes heavy rain events, storm surge, and river overflow. For flood coverage, you would need a separate flood insurance policy through the National Flood Insurance Program (NFIP) or a private insurer. Water damage from an internal source like a burst pipe is typically covered.</div>
   </div>
   <div class="faq-item">

@@ -5,6 +5,23 @@ date: 2026-04-22
 category: "Property Owners"
 readTime: "8 min"
 keywords: ["Georgia eviction process", "Augusta landlord eviction", "dispossessory Georgia", "Safe at Home Act Georgia", "eviction timeline Augusta GA"]
+howTo:
+  name: "How to Evict a Tenant in Georgia (Dispossessory Process)"
+  description: "Step-by-step Georgia dispossessory procedure for Augusta-area landlords: Safe at Home Act notice, demand for possession, filing in magistrate court, service, response window, and writ of possession."
+  totalTime: "P30D"
+  steps:
+    - name: "Provide the Safe at Home Act notice"
+      text: "Effective July 1, 2024, Georgia landlords must give a written three-day notice before filing for eviction based on nonpayment of rent. The notice must state the amount owed and give the tenant three business days to cure before further action."
+    - name: "Make a formal demand for possession"
+      text: "After the notice period expires, deliver a written demand for possession to the tenant. This can be delivered in person, by certified mail, or by tacking to the door. The demand is the legal prerequisite for filing a dispossessory affidavit."
+    - name: "File a dispossessory affidavit in magistrate court"
+      text: "File the dispossessory affidavit with the magistrate court in the county where the property is located (Richmond County, Columbia County, or McDuffie County for Augusta-area properties). Filing fees in Georgia are typically $60–$80 per defendant."
+    - name: "Serve the tenant"
+      text: "The sheriff or marshal serves the tenant with the affidavit. The tenant has 7 days from service to file a written answer disputing the eviction."
+    - name: "Wait for the 7-day response window"
+      text: "If the tenant fails to answer within 7 days, the landlord can move for default judgment. If the tenant answers, a hearing will be scheduled, typically within 1–3 weeks."
+    - name: "Obtain judgment and writ of possession"
+      text: "If the court rules in the landlord's favor, it issues a writ of possession. The sheriff then schedules the physical removal, usually within 7–14 days. Only the sheriff may legally remove a tenant — landlord self-help (changing locks, removing belongings, shutting off utilities) is illegal in Georgia."
 ---
 
 <div class="snippet-box">
@@ -26,7 +43,7 @@ If your tenant has failed to pay rent, late fees, utilities, or other charges ow
 
 This notice must be physically posted in a sealed envelope on the door of the property. If your lease specifies additional delivery methods, you should use those too.
 
-The three-business-day requirement applies to all residential leases entered into or renewed on or after July 1, 2024. If you're managing property in Columbia County, Richmond County, or Aiken County, SC (which has its own rules — see our [South Carolina landlord-tenant laws guide](/blog/south-carolina-landlord-tenant-laws-aiken-rental-owners/)), this is a step you can't skip.
+The three-business-day requirement applies to all residential leases entered into or renewed on or after July 1, 2024. If you're managing property in [Columbia County](/evans/), Richmond County, or Aiken County, SC (which has its own rules — see our [South Carolina landlord-tenant laws guide](/blog/south-carolina-landlord-tenant-laws-aiken-rental-owners/)), this is a step you can't skip.
 
 **Important:** The three-day clock counts business days, not calendar days. Weekends and holidays don't count. Document the date and time you posted the notice, and take a photo of it on the door for your records.
 
@@ -163,7 +180,7 @@ The best eviction strategy is not needing one. A few practices that reduce your 
 <div class="faq-answer">Georgia's Safe at Home Act (HB 404), effective July 1, 2024, requires landlords to deliver a written notice to pay or vacate at least three business days before filing a dispossessory affidavit for non-payment of rent. The notice must be posted in a sealed envelope on the property door. This applies to leases entered into or renewed after July 1, 2024.</div>
 </div>
 <div class="faq-item">
-<div class="faq-question">Q: How much does it cost to evict a tenant in Augusta, GA?</div>
+<div class="faq-question">Q: How much does it cost to evict a tenant in [Augusta, GA](/augusta/)?</div>
 <div class="faq-answer">Court filing and service fees for an eviction in the Augusta area typically total $100-$175. If you hire an attorney for a contested eviction, expect total costs of $700-$1,500 or more. These costs are generally far less than the lost rental income from an extended vacancy or non-paying tenant.</div>
 </div>
 </div>

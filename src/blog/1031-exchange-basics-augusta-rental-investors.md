@@ -15,7 +15,7 @@ A 1031 exchange allows Augusta, GA rental property investors to sell an investme
 
 ## What Is a 1031 Exchange and Why Should Augusta Investors Care?
 
-If you own rental property in Augusta, Evans, Grovetown, or anywhere in Columbia County, you've likely built significant equity over the years. When it's time to sell, the capital gains tax bill can be a shock — federal rates of 15% to 20%, plus the 3.8% net investment income tax, can eat into your returns fast.
+If you own rental property in Augusta, Evans, Grovetown, or anywhere in [Columbia County](/evans/), you've likely built significant equity over the years. When it's time to sell, the capital gains tax bill can be a shock — federal rates of 15% to 20%, plus the 3.8% net investment income tax, can eat into your returns fast.
 
 A 1031 exchange, named after Section 1031 of the Internal Revenue Code, lets you defer those taxes by rolling the sale proceeds into another qualifying investment property. You're not avoiding taxes permanently — you're deferring them, which keeps more of your capital working for you right now.
 
@@ -65,7 +65,7 @@ If the replacement property costs less than the one you sold, or if you pull cas
 
 ### Not Coordinating With Your Property Manager
 
-If you're selling a managed rental and buying another, your property management team needs to be in the loop. Amber McBride, property manager at McBride Property Management, works with investors during transitions to ensure tenant-occupied properties are handled properly during the exchange process — from lease assignments to security deposit transfers and move-out coordination.
+If you're selling a managed rental and buying another, your property management team needs to be in the loop. Amber McBride, property manager at McBride Property Management, works with investors during transitions to ensure tenant-occupied properties are handled properly during the exchange process — from lease assignments to [security deposit](/blog/security-deposit-best-practices-georgia/) transfers and move-out coordination.
 
 ## How a 1031 Exchange Fits Into a Long-Term Augusta Investment Strategy
 
@@ -94,7 +94,7 @@ The right move is to run the numbers with your CPA before listing your property,
 
 <div class="faq-section">
   <div class="faq-item">
-    <div class="faq-question">Q: Can I do a 1031 exchange on a rental property in Augusta, GA?</div>
+    <div class="faq-question">Q: Can I do a 1031 exchange on a rental property in [Augusta, GA](/augusta/)?</div>
     <div class="faq-answer">Yes. Any rental property in Augusta, Columbia County, or the CSRA that is held for investment purposes qualifies for a 1031 exchange under IRS rules. The property must be exchanged for another like-kind investment property, and you must use a Qualified Intermediary to hold the proceeds during the transaction.</div>
   </div>
   <div class="faq-item">

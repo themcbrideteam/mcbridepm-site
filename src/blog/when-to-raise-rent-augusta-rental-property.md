@@ -13,7 +13,7 @@ keywords: ["when to raise rent Augusta GA", "rental property rent increase", "Au
 
 </div>
 
-Rent increases are one of the most uncomfortable conversations in property management. Raise too much and you lose a reliable tenant. Wait too long and your rental income falls behind your actual costs. If you own rental property in Augusta, GA, Evans, Martinez, or anywhere in Columbia County, understanding the local dynamics behind rent pricing is essential. This isn't about squeezing tenants — it's about protecting your investment and staying competitive in the CSRA rental market.
+Rent increases are one of the most uncomfortable conversations in property management. Raise too much and you lose a reliable tenant. Wait too long and your rental income falls behind your actual costs. If you own rental property in [Augusta, GA](/augusta/), Evans, Martinez, or anywhere in [Columbia County](/evans/), understanding the local dynamics behind rent pricing is essential. This isn't about squeezing tenants — it's about protecting your investment and staying competitive in the CSRA rental market.
 
 ## How Often Should Augusta Landlords Raise Rent?
 
@@ -59,7 +59,7 @@ There are situations where holding steady makes more strategic sense.
 
 ## How to Communicate a Rent Increase
 
-The delivery matters as much as the dollar amount. Give more notice than the minimum — 90 days before a lease renewal is ideal, even though Georgia only requires 60 for month-to-month leases. Always put the increase in writing with the new amount, effective date, and updated terms.
+The delivery matters as much as the dollar amount. Give more notice than the minimum — 90 days before a [lease renewal](/blog/lease-renewal-strategies-augusta-ga-landlords/) is ideal, even though Georgia only requires 60 for month-to-month leases. Always put the increase in writing with the new amount, effective date, and updated terms.
 
 Keep the explanation simple and honest: "Due to increases in property taxes and insurance, we're adjusting the monthly rent to $X, effective [date]." If you've made improvements to the property, mention them. If you're open to a longer lease at a slightly lower rate, that's a negotiation tool worth having in your back pocket.
 

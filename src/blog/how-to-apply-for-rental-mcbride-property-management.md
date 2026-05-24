@@ -5,6 +5,23 @@ date: 2026-04-04
 category: "Tenants"
 readTime: "5"
 keywords: ["apply for rental Augusta GA", "McBride Property Management application", "rental application Columbia County", "how to rent in Augusta", "tenant application process Augusta"]
+howTo:
+  name: "How to Apply for a Rental with McBride Property Management"
+  description: "Five-step process for applying to a McBride PM rental in Augusta, GA or Columbia County: browse listings, schedule a showing, gather documentation, submit the application, and receive a decision within 1–3 business days."
+  totalTime: "PT30M"
+  steps:
+    - name: "Browse available rentals"
+      text: "Visit the McBride Property Management rentals page to view current vacancies, photos, rent, deposit, pet policy, and availability date. Filter by city (Augusta, Evans, Grovetown, Martinez, North Augusta, Aiken) and bedroom count to narrow your options."
+      url: "https://mcbride-pm.com/rentals/"
+    - name: "Schedule a showing"
+      text: "Each listing has a self-scheduling tool that lets you book an in-person or video tour at a time that works for you. Confirm the property meets your needs before you pay the application fee."
+    - name: "Gather your documentation"
+      text: "Have these ready before you apply: government-issued photo ID, the last two pay stubs (or three months of bank statements for self-employed applicants), names and contact info for your two most recent landlords, and any documentation for service animals."
+    - name: "Submit your online application"
+      text: "Apply through the AppFolio applicant portal linked from the listing. Each adult 18+ who will live in the home applies separately. The application fee is non-refundable and covers credit, background, and eviction history checks."
+      url: "https://mcbride-pm.com/rentals/"
+    - name: "Receive your decision"
+      text: "McBride Property Management typically returns a decision in 1–3 business days. If approved, you'll receive a lease offer, security deposit instructions, and a move-in date. If declined, you'll receive a written reason that complies with the Fair Credit Reporting Act."
 ---
 
 <div class="snippet-box">
@@ -13,9 +30,9 @@ keywords: ["apply for rental Augusta GA", "McBride Property Management applicati
 
 </div>
 
-Finding a rental in the Augusta area shouldn't feel like guesswork. Whether you're relocating to Fort Eisenhower, starting a new job at Augusta University Medical Center, or simply moving across town, knowing exactly what a property management company expects from applicants saves you time and stress.
+Finding a rental in the Augusta area shouldn't feel like guesswork. Whether you're relocating to [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/), starting a new job at Augusta University Medical Center, or simply moving across town, knowing exactly what a property management company expects from applicants saves you time and stress.
 
-At McBride Property Management, we've streamlined the process so tenants in Columbia County and the greater CSRA can move from browsing to lease signing as efficiently as possible. This guide walks you through every step — what you'll need, what we look for, and how to put your best foot forward.
+At McBride Property Management, we've streamlined the process so tenants in [Columbia County](/evans/) and the greater CSRA can move from browsing to lease signing as efficiently as possible. This guide walks you through every step — what you'll need, what we look for, and how to put your best foot forward.
 
 ## Step 1: Browse Available Rentals
 
@@ -75,7 +92,7 @@ We contact previous landlords to verify rent payment history, lease compliance, 
 
 ## Step 5: Application Review and Decision
 
-McBride Property Management typically processes applications within one to three business days. If we need additional documentation or clarification, we'll reach out directly. Once approved, you'll receive a lease agreement for review and signing, along with move-in instructions that cover the security deposit, first month's rent, and any applicable pet deposits.
+McBride Property Management typically processes applications within one to three business days. If we need additional documentation or clarification, we'll reach out directly. Once approved, you'll receive a lease agreement for review and signing, along with move-in instructions that cover the [security deposit](/blog/security-deposit-best-practices-georgia/), first month's rent, and any applicable pet deposits.
 
 If your application isn't approved, we'll let you know. While we can't always disclose the specific reason (screening reports are governed by federal law), we can point you toward your rights under the Fair Credit Reporting Act if a credit-related issue was a factor.
 
@@ -109,7 +126,7 @@ Guiding you home.
     <div class="faq-answer">Most applications are reviewed within one to three business days after all required documents are submitted. If additional verification is needed — such as contacting a previous landlord or confirming employment — it may take an extra day or two. Submitting a complete application with all documentation upfront is the fastest way to move through the process.</div>
   </div>
   <div class="faq-item">
-    <div class="faq-question">Q: What credit score do I need to rent a property in Augusta, GA?</div>
+    <div class="faq-question">Q: What credit score do I need to rent a property in [Augusta, GA](/augusta/)?</div>
     <div class="faq-answer">McBride Property Management doesn't set a hard credit score cutoff. Generally, a score in the mid-600s or above is competitive for most rental properties in Columbia County and the Augusta area. We review the full credit picture, including payment history and outstanding collections, rather than relying on a single number.</div>
   </div>
   <div class="faq-item">

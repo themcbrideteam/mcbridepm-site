@@ -15,7 +15,7 @@ keywords: ["tenant retention Augusta GA", "maintenance requests rental property"
 
 You bought a rental property to build wealth — not to field phone calls about leaky faucets at 10 p.m. But here's the reality most Augusta-area landlords underestimate: how you handle those maintenance calls has a direct, measurable impact on whether your tenants stay or leave.
 
-Tenant turnover is one of the most expensive problems in rental property ownership. Between vacancy loss, cleaning, repairs, marketing, and leasing costs, replacing a single tenant in Columbia County can easily cost $2,000–$4,000 or more. And according to the [National Apartment Association](https://www.naahq.org/), the average cost of turning a unit nationally exceeds $3,500 when you factor in lost rent during vacancy.
+[Tenant turnover](/blog/tenant-turnover-make-ready-checklist-augusta-ga-landlords/) is one of the most expensive problems in rental property ownership. Between vacancy loss, cleaning, repairs, marketing, and leasing costs, replacing a single tenant in Columbia County can easily cost $2,000–$4,000 or more. And according to the [National Apartment Association](https://www.naahq.org/), the average cost of turning a unit nationally exceeds $3,500 when you factor in lost rent during vacancy.
 
 The good news? One of the most effective tenant retention strategies isn't a rent discount or a fancy upgrade. It's simply responding to maintenance requests quickly, professionally, and completely.
 
@@ -23,7 +23,7 @@ The good news? One of the most effective tenant retention strategies isn't a ren
 
 Tenants don't expect perfection. They expect responsiveness. A 2024 [SatisFacts](https://www.satisfacts.com/) survey found that maintenance satisfaction is the number-one factor tenants cite when deciding to renew — ahead of rent price, location, and even unit quality.
 
-Think about that for a moment. A tenant in Evans, GA will tolerate a modest rent increase if their last three work orders were handled within a day. But a tenant who waited two weeks for a broken garbage disposal? They're already browsing Zillow.
+Think about that for a moment. A tenant in [Evans, GA](/evans/) will tolerate a modest rent increase if their last three work orders were handled within a day. But a tenant who waited two weeks for a broken garbage disposal? They're already browsing Zillow.
 
 At McBride Property Management, we see this pattern play out across our portfolio in Augusta, Columbia County, and the broader CSRA. The properties with the strongest renewal rates are rarely the newest or most upgraded — they're the ones where tenants feel heard and taken care of.
 
@@ -89,7 +89,7 @@ If you're managing a rental property in Augusta, [Grovetown](/grovetown/), Marti
 
 ## When It's Time to Stop Self-Managing
 
-If maintenance requests are piling up, tenants are leaving at lease renewal, or you're spending more time managing your rental than enjoying the income from it, that's a sign. Professional property management isn't an expense — it's an investment in the long-term performance of your asset.
+If maintenance requests are piling up, tenants are leaving at [lease renewal](/blog/lease-renewal-strategies-augusta-ga-landlords/), or you're spending more time managing your rental than enjoying the income from it, that's a sign. Professional property management isn't an expense — it's an investment in the long-term performance of your asset.
 
 McBride Property Management serves landlords and property owners across [Augusta](/augusta/), Columbia County, Evans, Grovetown, Martinez, and the surrounding CSRA. We handle maintenance, tenant communication, leasing, and everything in between — so your rental works for you instead of the other way around.
 
@@ -101,7 +101,7 @@ Ready to talk about what professional management looks like for your property? [
     <div class="faq-answer">Georgia law requires landlords to maintain habitable conditions, and courts generally consider 24–48 hours a reasonable response time for non-emergency repairs. Emergency issues like water leaks, HVAC failure in extreme weather, or security hazards should be addressed the same day. Documenting your response timeline protects you if a dispute arises.</div>
   </div>
   <div class="faq-item">
-    <div class="faq-question">Q: What is the average cost of tenant turnover for a rental property in Augusta, GA?</div>
+    <div class="faq-question">Q: What is the average cost of tenant turnover for a rental property in [Augusta, GA](/augusta/)?</div>
     <div class="faq-answer">Tenant turnover in the Augusta and Columbia County market typically costs between $2,000 and $4,000 per unit. This includes vacancy loss (often one to two months of rent), make-ready repairs, cleaning, marketing, and leasing expenses. Retaining a good tenant through responsive maintenance is almost always less expensive than finding a new one.</div>
   </div>
   <div class="faq-item">

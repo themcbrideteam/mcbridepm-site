@@ -16,7 +16,7 @@ layout: blog-post.njk
 
 Being a landlord sounds simple on paper. You own a property, tenants pay rent, and you keep the difference. In reality, rental property ownership is a complex, time-consuming business that requires expertise in tenant law, maintenance coordination, financial accounting, and marketing. Many property owners in the CSRA region who attempt to self-manage quickly discover they're running an unprofitable side business instead of enjoying passive income.
 
-The investment properties across Evans, Fort Eisenhower, and Columbia County represent significant financial commitments. Your rental property might be worth hundreds of thousands of dollars, with months or years of mortgage payments ahead. Making poor decisions about tenant screening, maintenance, or lease management can cost you far more than professional property management fees—sometimes $10,000 or more in a single costly mistake. According to the [National Association of Realtors (NAR)](https://www.nar.realtor/), professional property management is one of the most valuable services available to rental property owners.
+The investment properties across Evans, [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/), and [Columbia County](/evans/) represent significant financial commitments. Your rental property might be worth hundreds of thousands of dollars, with months or years of mortgage payments ahead. Making poor decisions about [tenant screening](/blog/tenant-screening-process-augusta-ga-landlords/), maintenance, or lease management can cost you far more than professional property management fees—sometimes $10,000 or more in a single costly mistake. According to the [National Association of Realtors (NAR)](https://www.nar.realtor/), professional property management is one of the most valuable services available to rental property owners.
 
 The real question isn't "can you manage your own property?"—most property owners can, technically. The question is: "should you?" When you calculate the time investment, the risk exposure, and the opportunity cost of managing a rental yourself, the answer for most busy professionals is a resounding no.
 
@@ -63,7 +63,7 @@ A vacant property generates zero income while still carrying mortgage payments, 
 - Strategic pricing based on current market conditions
 - Professional property marketing and photography
 - Quick tenant placement (average of just 14 days in our market)
-- Lease renewal outreach to keep quality tenants from leaving
+- [Lease renewal](/blog/lease-renewal-strategies-augusta-ga-landlords/) outreach to keep quality tenants from leaving
 
 Our average days-on-market for new tenants is just 14 days—significantly better than the regional average. That speed translates directly to more income in your pocket.
 

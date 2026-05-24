@@ -5,6 +5,21 @@ date: 2026-05-20
 category: "Property Owners"
 readTime: "8 min"
 keywords: ["tenant turnover Augusta GA", "make-ready checklist rental property", "rental turnover process Georgia", "reduce vacancy time Augusta landlord", "property management Augusta GA"]
+howTo:
+  name: "How to Handle Tenant Turnover on an Augusta-Area Rental Property"
+  description: "End-to-end make-ready process for Augusta-area landlords: pre-move-out coordination, move-out inspection, repairs and cleaning, security deposit reconciliation, and re-marketing to minimize vacancy."
+  totalTime: "P10D"
+  steps:
+    - name: "Coordinate before the tenant moves out"
+      text: "As soon as the tenant gives notice (or you decide not to renew), confirm the move-out date in writing, send a move-out checklist, and schedule the inspection. Ask the tenant for a forwarding address so you can return the security deposit within Georgia's required 30 days."
+    - name: "Conduct the move-out inspection and document everything"
+      text: "Walk the unit within 3 business days of move-out. Compare condition against the move-in inspection report. Photograph every issue: damaged walls, broken fixtures, neglected cleaning, missing items. This documentation is your legal protection for any deposit withholdings."
+    - name: "Complete the make-ready checklist"
+      text: "Order professional cleaning (kitchen, bathrooms, carpets, windows). Repaint walls that need it. Replace damaged blinds, light bulbs, smoke detector batteries, and HVAC filters. Schedule any repairs: caulking, drywall patches, plumbing issues, appliance fixes. Have the HVAC professionally serviced — critical in Augusta's summer heat."
+    - name: "Return the security deposit (or itemize the withholdings)"
+      text: "Georgia law requires landlords to return the deposit, or send a written itemized statement of withholdings, within 30 days of the lease end. Late returns can forfeit the landlord's right to deduct at all."
+    - name: "Re-market the property aggressively"
+      text: "List on Zillow, Apartments.com, Realtor.com, and the local MLS the day the unit is ready (or sooner with 'available' date). Use high-quality photos, accurate descriptions, and competitive pricing based on current Augusta-area comps. Every vacant day is lost income — McBride PM averages 14 days on market."
 ---
 
 <div class="snippet-box">
@@ -16,7 +31,7 @@ A tenant gives notice they're moving out. Now what?
 
 If you own a rental property in Augusta, Evans, Grovetown, or anywhere in the CSRA, turnover is one of the most expensive events you'll face as a landlord. Industry estimates put the average cost of a single tenant turnover between $1,750 and $3,872 when you factor in lost rent, cleaning, repairs, marketing, and screening. With average rents in Augusta hovering around $1,200 to $1,300 per month in 2026, even two or three weeks of vacancy adds up fast.
 
-The good news: most of that cost is controllable. A tight make-ready process — one you can repeat every time a tenant moves out — cuts vacancy days, protects your security deposit decisions, and gets a qualified tenant into the property faster. Here's the step-by-step system that McBride Property Management uses across our portfolio in Columbia County, Richmond County, and Aiken County.
+The good news: most of that cost is controllable. A tight make-ready process — one you can repeat every time a tenant moves out — cuts vacancy days, protects your [security deposit](/blog/security-deposit-best-practices-georgia/) decisions, and gets a qualified tenant into the property faster. Here's the step-by-step system that McBride Property Management uses across our portfolio in [Columbia County](/evans/), Richmond County, and Aiken County.
 
 ## Before the Tenant Moves Out
 
@@ -84,7 +99,7 @@ Georgia law requires working smoke detectors in rental properties. Don't skip th
 
 First impressions matter for prospective tenants touring the property. Mow and edge the lawn, trim bushes and remove debris, pressure wash the driveway and walkways if needed, clean gutters, check the roof for visible damage, and make sure the front door, mailbox, and house numbers look sharp.
 
-In neighborhoods across Grovetown, Harlem, and North Augusta, curb appeal directly affects how quickly a property leases and what rent you can command.
+In neighborhoods across Grovetown, Harlem, and [North Augusta](/north-augusta/), curb appeal directly affects how quickly a property leases and what rent you can command.
 
 ### Lock Changes
 
@@ -120,12 +135,12 @@ At McBride Property Management, we manage single-family and multifamily rentals 
 
 <div class="faq-section">
 <div class="faq-item">
-<div class="faq-question">Q: How long does tenant turnover typically take on a rental property in Augusta, GA?</div>
+<div class="faq-question">Q: How long does tenant turnover typically take on a rental property in [Augusta, GA](/augusta/)?</div>
 <div class="faq-answer">A well-managed turnover on a single-family rental in the Augusta area should take 7 to 10 days from move-out to listing as rent-ready. Without a system in place, turnovers commonly stretch to 3 to 4 weeks, costing landlords significant lost rent.</div>
 </div>
 <div class="faq-item">
 <div class="faq-question">Q: How much does tenant turnover cost a landlord in Georgia?</div>
-<div class="faq-answer">The average cost of a single tenant turnover ranges from $1,750 to $3,872 when you include lost rent, cleaning, repairs, marketing, and tenant screening. The biggest variable is vacancy time — every empty week costs you a full week of rental income.</div>
+<div class="faq-answer">The average cost of a single tenant turnover ranges from $1,750 to $3,872 when you include lost rent, cleaning, repairs, marketing, and [tenant screening](/blog/tenant-screening-process-augusta-ga-landlords/). The biggest variable is vacancy time — every empty week costs you a full week of rental income.</div>
 </div>
 <div class="faq-item">
 <div class="faq-question">Q: How long does a Georgia landlord have to return a security deposit after move-out?</div>

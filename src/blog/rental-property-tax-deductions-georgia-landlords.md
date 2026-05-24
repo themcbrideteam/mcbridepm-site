@@ -14,7 +14,7 @@ Augusta-area landlords can deduct mortgage interest, insurance, repairs, depreci
 
 If you own a rental property in Augusta, Evans, Grovetown, or anywhere in the CSRA, your tax return should be working just as hard as your investment. Rental real estate comes with one of the most generous sets of tax deductions available to individual investors, and 2026 brings some significant changes that tilt the math even further in your favor.
 
-Whether you’re an accidental landlord who kept your first home when you PCS’d from Fort Eisenhower, or you’ve been building a portfolio of single-family rentals across Columbia County, understanding what you can deduct — and what’s changed recently — is one of the highest-ROI activities you can do as a property owner.
+Whether you’re an [accidental landlord](/blog/accidental-landlord-augusta-ga-what-to-do/) who kept your first home when you PCS’d from [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/), or you’ve been building a portfolio of single-family rentals across [Columbia County](/evans/), understanding what you can deduct — and what’s changed recently — is one of the highest-ROI activities you can do as a property owner.
 
 This isn’t tax advice (you’ll want a CPA for that), but it is a plain-English walkthrough of the deductions most Augusta-area landlords should be aware of heading into the 2026 tax year.
 
@@ -24,11 +24,11 @@ If you’ve filed a Schedule E before, you’re probably familiar with the basic
 
 ### Mortgage Interest
 
-The interest portion of your mortgage payment on a rental property is fully deductible. This is typically your single largest write-off in the early years of a loan when the amortization schedule is interest-heavy. If you have a rental in Martinez or North Augusta with a conventional 30-year mortgage, you could be writing off thousands of dollars in interest alone each year.
+The interest portion of your mortgage payment on a rental property is fully deductible. This is typically your single largest write-off in the early years of a loan when the amortization schedule is interest-heavy. If you have a rental in Martinez or [North Augusta](/north-augusta/) with a conventional 30-year mortgage, you could be writing off thousands of dollars in interest alone each year.
 
 ### Property Insurance
 
-Your landlord insurance premium — including liability coverage, dwelling coverage, and any umbrella policy tied to the rental — is deductible. If you’ve added flood insurance or a separate policy for a property in a Richmond County flood zone, that counts too.
+Your [landlord insurance](/blog/landlord-insurance-georgia-rental-property-guide/) premium — including liability coverage, dwelling coverage, and any umbrella policy tied to the rental — is deductible. If you’ve added flood insurance or a separate policy for a property in a Richmond County flood zone, that counts too.
 
 ### Property Taxes
 

@@ -12,15 +12,15 @@ keywords: ["South Carolina landlord tenant laws", "Aiken SC rental property", "N
 South Carolina's Residential Landlord and Tenant Act governs security deposits, maintenance timelines, eviction procedures, and entry notice — and the rules differ significantly from Georgia law across the river.
 </div>
 
-If you own rental property in Aiken, North Augusta, or Beech Island, South Carolina, you're operating under a completely different set of landlord-tenant laws than your Georgia properties. That distinction matters more than most investors realize.
+If you own rental property in Aiken, [North Augusta](/north-augusta/), or Beech Island, South Carolina, you're operating under a completely different set of landlord-tenant laws than your Georgia properties. That distinction matters more than most investors realize.
 
-The greater Augusta area straddles two states, and it's common for landlords in the CSRA to own rentals on both sides of the Savannah River. You might self-manage a single-family home in Evans, GA and another in North Augusta, SC — assuming the same rules apply to both. They don't. South Carolina's [Residential Landlord and Tenant Act](https://www.scstatehouse.gov/code/t27c040.php) (S.C. Code Ann. §§ 27-40-10 through 27-40-940) has its own requirements for deposits, maintenance, eviction timelines, and landlord access. Getting these wrong can cost you thousands in penalties.
+The greater Augusta area straddles two states, and it's common for landlords in the CSRA to own rentals on both sides of the Savannah River. You might self-manage a single-family home in [Evans, GA](/evans/) and another in North Augusta, SC — assuming the same rules apply to both. They don't. South Carolina's [Residential Landlord and Tenant Act](https://www.scstatehouse.gov/code/t27c040.php) (S.C. Code Ann. §§ 27-40-10 through 27-40-940) has its own requirements for deposits, maintenance, eviction timelines, and landlord access. Getting these wrong can cost you thousands in penalties.
 
 Here's a plain-language breakdown of what you need to know.
 
 ## Security Deposits in South Carolina: No Cap, But Real Consequences
 
-South Carolina doesn't set a maximum amount you can charge for a security deposit. The law simply requires that the amount be "reasonable." In practice, most landlords in the Aiken County and North Augusta area charge one to two months' rent.
+South Carolina doesn't set a maximum amount you can charge for a [security deposit](/blog/security-deposit-best-practices-georgia/). The law simply requires that the amount be "reasonable." In practice, most landlords in the Aiken County and North Augusta area charge one to two months' rent.
 
 Where SC law gets serious is the return process. After your tenant moves out, you have **30 days** to either return the full deposit or provide an itemized written list of deductions along with the remaining balance. The clock starts when the tenancy ends, the tenant delivers possession, and the tenant provides a forwarding address — whichever comes last.
 
@@ -76,13 +76,13 @@ Georgia's dispossessory process is similar in structure but has different notice
 
 South Carolina does not have any rent control laws, and state law actually preempts local municipalities from enacting their own rent control ordinances. You can raise rent by any amount with proper notice at the end of a lease term. For month-to-month tenancies, you'll need to provide **30 days' written notice** before a rent increase takes effect.
 
-This is consistent with Georgia's approach — neither state caps rental rates. But the notice requirements differ, so make sure your lease renewal process accounts for whichever state the property sits in.
+This is consistent with Georgia's approach — neither state caps rental rates. But the notice requirements differ, so make sure your [lease renewal](/blog/lease-renewal-strategies-augusta-ga-landlords/) process accounts for whichever state the property sits in.
 
 ## Lease Requirements and Disclosures
 
 South Carolina doesn't require leases to be in writing for tenancies under one year, but putting everything in writing is always the right move. A solid lease protects you in court and sets clear expectations.
 
-For properties built before 1978, federal law requires lead-based paint disclosure regardless of which state you're in. South Carolina doesn't layer additional state-level disclosure requirements beyond this, but your lease should clearly spell out the terms for rent due dates, late fees, maintenance responsibilities, pet policies, and early termination procedures.
+For properties built before 1978, federal law requires lead-based paint disclosure regardless of which state you're in. South Carolina doesn't layer additional state-level disclosure requirements beyond this, but your lease should clearly spell out the terms for rent due dates, late fees, maintenance responsibilities, [pet policies](/blog/pet-policy-rental-property-augusta-ga-landlord-guide/), and early termination procedures.
 
 ## Why Cross-Border Landlords in the CSRA Need to Pay Attention
 

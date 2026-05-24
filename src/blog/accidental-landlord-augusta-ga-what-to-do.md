@@ -12,7 +12,7 @@ keywords: ["accidental landlord Augusta GA", "rent out home Augusta Georgia", "P
 Switch to landlord insurance, learn Georgia's tenant-landlord laws, price your rent competitively, and decide whether to self-manage or hire a property manager in the Augusta metro area.
 </div>
 
-You didn't plan to become a landlord. Maybe you got PCS orders to leave Fort Eisenhower and couldn't sell in time. Maybe you inherited a family home in Martinez or Evans and aren't ready to let it go. Maybe the market just wasn't right when you needed to move, so you figured you'd rent it out "for now."
+You didn't plan to become a landlord. Maybe you got PCS orders to leave [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/) and couldn't sell in time. Maybe you inherited a family home in Martinez or Evans and aren't ready to let it go. Maybe the market just wasn't right when you needed to move, so you figured you'd rent it out "for now."
 
 However you got here, you're not alone. Accidental landlords make up a significant share of the single-family rental market nationwide, and in the Augusta metro area — where military relocations, job transfers, and inheritance situations are common — it happens all the time.
 
@@ -24,7 +24,7 @@ The not-so-good news: there's a meaningful gap between "collecting rent" and "op
 
 This is the step most accidental landlords skip — and it's the one that can cost you the most.
 
-Your standard homeowner's insurance policy doesn't cover a property occupied by tenants. If a tenant or their guest gets injured on the property, or if there's damage while a renter is living there, your claim will likely be denied. You need a landlord insurance policy, sometimes called a dwelling fire policy or DP policy.
+Your standard homeowner's insurance policy doesn't cover a property occupied by tenants. If a tenant or their guest gets injured on the property, or if there's damage while a renter is living there, your claim will likely be denied. You need a [landlord insurance](/blog/landlord-insurance-georgia-rental-property-guide/) policy, sometimes called a dwelling fire policy or DP policy.
 
 In Georgia, there's no state law that mandates landlord insurance. But your mortgage lender almost certainly requires dwelling coverage, and operating without proper liability protection is a serious financial risk. Most insurance professionals recommend carrying at least $300,000 in liability coverage, and many suggest $500,000 or more given today's legal environment. The premium difference between those tiers is often surprisingly small.
 
@@ -36,7 +36,7 @@ Georgia has specific legal requirements that apply the moment you rent out a pro
 
 ### Security Deposits
 
-Georgia caps security deposits at two months' rent. If you own more than ten rental units (including properties owned by your spouse or children), you're required to hold that deposit in a separate escrow account and provide written notice to the tenant about where it's held. Even if you own just one rental, keeping the deposit in a dedicated account is a best practice that protects you in disputes.
+Georgia caps [security deposits](/blog/security-deposit-best-practices-georgia/) at two months' rent. If you own more than ten rental units (including properties owned by your spouse or children), you're required to hold that deposit in a separate escrow account and provide written notice to the tenant about where it's held. Even if you own just one rental, keeping the deposit in a dedicated account is a best practice that protects you in disputes.
 
 ### Habitability Standards
 
@@ -59,12 +59,12 @@ Setting the right rent is a balancing act. Too high and your property sits vacan
 Here's what the Augusta-area market looks like as of early 2026:
 
 - **Augusta metro median rent:** approximately $1,189/month across all property types
-- **Columbia County (Evans, Grovetown, Martinez):** typically $100 to $200 higher than the Augusta city average for comparable single-family homes, reflecting stronger school districts and newer housing stock
-- **North Augusta and Aiken County, SC:** competitive with Columbia County pricing, with some areas offering slightly lower rates
+- **[Columbia County](/evans/) (Evans, Grovetown, Martinez):** typically $100 to $200 higher than the Augusta city average for comparable single-family homes, reflecting stronger school districts and newer housing stock
+- **[North Augusta](/north-augusta/) and Aiken County, SC:** competitive with Columbia County pricing, with some areas offering slightly lower rates
 
 Your specific rent should factor in the property's square footage, number of bedrooms and bathrooms, condition and age, neighborhood, and proximity to Fort Eisenhower or major employers. A comparative market analysis — looking at what similar rentals in your ZIP code are actually leasing for, not just listing for — gives you the clearest picture.
 
-If you're not sure where to start, [reach out to our team](/contact/) for a free rental analysis. We run these regularly for property owners across the CSRA.
+If you're not sure where to start, [reach out to our team](/contact/) for a [free rental analysis](/contact/). We run these regularly for property owners across the CSRA.
 
 ## Decide: Self-Manage or Hire a Property Manager
 
@@ -74,7 +74,7 @@ This is the fork in the road for every accidental landlord. Both options work �
 
 If you're local, handy, and comfortable with confrontation when necessary, self-managing can save you money. You'll keep the 8% to 10% of gross rent that a management company would charge.
 
-But you'll also handle midnight maintenance calls, tenant screening (and the legal liability that comes with getting it wrong), lease enforcement, rent collection, and Georgia's eviction process if things go sideways. For a single property, the math can work. For someone who just got transferred out of state or inherited a property they've never lived in, it usually doesn't.
+But you'll also handle midnight maintenance calls, [tenant screening](/blog/tenant-screening-process-augusta-ga-landlords/) (and the legal liability that comes with getting it wrong), lease enforcement, rent collection, and Georgia's eviction process if things go sideways. For a single property, the math can work. For someone who just got transferred out of state or inherited a property they've never lived in, it usually doesn't.
 
 ### Hiring a Property Manager
 
@@ -114,7 +114,7 @@ The accidental landlords who do well aren't the ones who got lucky. They're the 
 <div class="faq-answer">Yes. Most residential mortgage agreements include an owner-occupancy clause. Renting out your home without notifying your lender could technically trigger a due-on-sale clause. In practice, most lenders are cooperative — especially for military PCS situations — but you should notify them and confirm your loan terms before listing the property.</div>
 </div>
 <div class="faq-item">
-<div class="faq-question">Q: How much does property management cost in the Augusta, GA area?</div>
+<div class="faq-question">Q: How much does property management cost in the [Augusta, GA](/augusta/) area?</div>
 <div class="faq-answer">Most property management companies in the Augusta metro charge between 8% and 10% of monthly gross rent, plus a tenant placement fee (often equivalent to one month's rent or a flat fee). Some companies also charge additional fees for lease renewals, maintenance markups, or early termination. Always ask for a full fee schedule before signing a management agreement.</div>
 </div>
 <div class="faq-item">

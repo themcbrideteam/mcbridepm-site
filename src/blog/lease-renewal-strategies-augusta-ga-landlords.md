@@ -23,7 +23,7 @@ A deliberate lease renewal strategy isn’t complicated, but it does require som
 
 ## The Real Cost of Tenant Turnover in Augusta
 
-Every time a tenant moves out, you’re looking at a chain of expenses that add up fast. There’s the vacancy period itself — even in a healthy market like [Evans](/evans/) or [Grovetown](/grovetown/), it typically takes two to four weeks to turn a property and place a new tenant. Then there’s the make-ready work: cleaning, paint touch-ups, carpet cleaning or replacement, minor repairs the previous tenant’s security deposit didn’t fully cover.
+Every time a tenant moves out, you’re looking at a chain of expenses that add up fast. There’s the vacancy period itself — even in a healthy market like [Evans](/evans/) or [Grovetown](/grovetown/), it typically takes two to four weeks to turn a property and place a new tenant. Then there’s the make-ready work: cleaning, paint touch-ups, carpet cleaning or replacement, minor repairs the previous tenant’s [security deposit](/blog/security-deposit-best-practices-georgia/) didn’t fully cover.
 
 According to [industry data from the National Apartment Association](https://www.naahq.org/), the average turnover event costs landlords between $1,800 and $5,000 depending on the property condition and local market. In the Augusta metro — where average rents for single-family homes range from roughly $1,100 to $1,500 per month — that turnover cost can easily eat three or four months of net rental income.
 
@@ -51,7 +51,7 @@ Here's a practical framework for setting your renewal rate:
 
 ### Check comparable rents first
 
-Before you decide on a number, research what similar properties in your area are renting for right now. If you own a three-bedroom home in Columbia County near the 30809 ZIP code, look at active listings for comparable homes in Evans, Grovetown, and Martinez. If your current rent is already at or near market rate, a modest 2–3% increase is reasonable and unlikely to trigger a move.
+Before you decide on a number, research what similar properties in your area are renting for right now. If you own a three-bedroom home in [Columbia County](/evans/) near the 30809 ZIP code, look at active listings for comparable homes in Evans, Grovetown, and Martinez. If your current rent is already at or near market rate, a modest 2–3% increase is reasonable and unlikely to trigger a move.
 
 ### Consider the tenant's track record
 
@@ -87,7 +87,7 @@ Don't just extend the existing lease without reviewing it. Each renewal is an op
 
 **Maintenance responsibilities.** If you've had any ambiguity about who handles lawn care, HVAC filter changes, or pest control, clarify it now.
 
-**Pet policy updates.** If you've adjusted your pet policies — a topic McBride Property Management covers in detail in our [pet policy guide](/blog/pet-policy-rental-property-augusta-ga-landlord-guide/) — make sure the renewal reflects current terms and any updated pet deposits or fees.
+**[Pet policy](/blog/pet-policy-rental-property-augusta-ga-landlord-guide/) updates.** If you've adjusted your pet policies — a topic McBride Property Management covers in detail in our [pet policy guide](/blog/pet-policy-rental-property-augusta-ga-landlord-guide/) — make sure the renewal reflects current terms and any updated pet deposits or fees.
 
 **Insurance requirements.** Confirm that your tenant maintains active [renters insurance](/blog/renters-insurance-georgia-what-it-covers/) as required by your lease.
 
@@ -121,7 +121,7 @@ Landlords in the Augusta area who treat tenant retention as an ongoing practice 
 <div class="faq-answer">If a tenant remains in the property after the lease expires without signing a new agreement, the tenancy typically converts to a month-to-month arrangement under Georgia law. The original lease terms still apply, but either party can terminate with 30 days' notice — which means less stability for you as the landlord.</div>
 </div>
 <div class="faq-item">
-<div class="faq-question">Q: How much should I raise rent on a lease renewal in Augusta, GA?</div>
+<div class="faq-question">Q: How much should I raise rent on a lease renewal in [Augusta, GA](/augusta/)?</div>
 <div class="faq-answer">In the current Augusta market, most landlords are raising renewal rents by 2–4%. The right number depends on your current rate relative to comparable properties, your tenant's payment history, and local market conditions. Georgia has no rent control laws, so there's no legal cap on increases — but aggressive hikes often backfire by triggering turnover that costs more than the added revenue.</div>
 </div>
 <div class="faq-item">

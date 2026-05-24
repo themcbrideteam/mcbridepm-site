@@ -14,7 +14,7 @@ Pull 5–10 comparable rentals within a mile of your property, adjust for differ
 
 If you've ever stared at a listing and wondered whether you're asking too much — or leaving money on the table — you're not alone. Setting the right rental price is one of the most consequential decisions a landlord makes, and it's one that many owners get wrong in both directions.
 
-Price too high and your property sits vacant for weeks, costing you a full month's rent (or more) in lost income. Price too low and you're subsidizing your tenant's housing costs out of your own pocket — sometimes for an entire lease term. In the Augusta, GA rental market, where median rents hover around $1,200–$1,300 for apartments and single-family homes in Columbia County can range from $1,400 to $2,500 depending on location, getting this number right matters more than most landlords realize.
+Price too high and your property sits vacant for weeks, costing you a full month's rent (or more) in lost income. Price too low and you're subsidizing your tenant's housing costs out of your own pocket — sometimes for an entire lease term. In the [Augusta, GA](/augusta/) rental market, where median rents hover around $1,200–$1,300 for apartments and single-family homes in [Columbia County](/evans/) can range from $1,400 to $2,500 depending on location, getting this number right matters more than most landlords realize.
 
 Here's how to approach rental pricing like a professional property manager — and why data should drive your decision, not guesswork.
 
@@ -47,9 +47,9 @@ Rental rates vary significantly across the greater Augusta metro, and knowing yo
 
 **Columbia County (Evans, Grovetown, Martinez):** This is where rental demand stays consistently strong. Single-family homes here typically rent between $1,400 and $2,500, depending on size, age, and subdivision. The average listed rent for homes in Columbia County was approximately $2,241 as of early 2026, though that figure skews higher because it includes newer construction with four or five bedrooms. A standard three-bedroom, two-bath home in a well-maintained Evans subdivision generally falls in the $1,600–$1,900 range.
 
-**Aiken and North Augusta (South Carolina side):** Rents on the South Carolina side tend to run 5–10% lower than equivalent properties in Columbia County, though North Augusta's growth has been closing that gap. Keep in mind that South Carolina has different landlord-tenant laws, which can affect lease terms and security deposit handling.
+**Aiken and [North Augusta](/north-augusta/) (South Carolina side):** Rents on the South Carolina side tend to run 5–10% lower than equivalent properties in Columbia County, though North Augusta's growth has been closing that gap. Keep in mind that South Carolina has different landlord-tenant laws, which can affect lease terms and [security deposit](/blog/security-deposit-best-practices-georgia/) handling.
 
-**Fort Eisenhower influence:** Military families receiving Basic Allowance for Housing (BAH) represent a significant portion of the tenant pool across all these submarkets. BAH rates for the Augusta area are published annually by the [Department of Defense](https://www.defensetravel.dod.mil/site/bahCalc.cfm), and many military tenants will search specifically for homes priced at or near their allowance. Knowing the current BAH for E-5 through O-3 pay grades can help you understand the ceiling many of your prospective tenants are working within.
+**[Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/) influence:** Military families receiving Basic Allowance for Housing (BAH) represent a significant portion of the tenant pool across all these submarkets. BAH rates for the Augusta area are published annually by the [Department of Defense](https://www.defensetravel.dod.mil/site/bahCalc.cfm), and many military tenants will search specifically for homes priced at or near their allowance. Knowing the current BAH for E-5 through O-3 pay grades can help you understand the ceiling many of your prospective tenants are working within.
 
 ## Adjust for Your Property's Specific Features
 

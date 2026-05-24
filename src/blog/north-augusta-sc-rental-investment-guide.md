@@ -12,9 +12,9 @@ keywords: ["North Augusta SC rental investment", "Aiken County rental property",
 Yes — North Augusta offers lower property taxes than Georgia, steady population growth above 2% annually, and median rents around $1,300 for apartments and $2,200+ for single-family homes, making it one of the strongest rental markets in the greater Augusta area.
 </div>
 
-Most landlords in the Augusta metro think of Columbia County or Richmond County when they're looking for their next rental property. That makes sense — those are the markets they know. But just across the Savannah River, North Augusta, SC has quietly built one of the most compelling investment cases in the region.
+Most landlords in the Augusta metro think of [Columbia County](/evans/) or Richmond County when they're looking for their next rental property. That makes sense — those are the markets they know. But just across the Savannah River, [North Augusta](/north-augusta/), SC has quietly built one of the most compelling investment cases in the region.
 
-Over the past five years, North Augusta's transformation has been hard to ignore. A minor league baseball stadium, hundreds of new apartment units, mixed-use developments, and a growing population fueled by Fort Eisenhower's cyber mission expansion have reshaped this city. If you own rental property in Augusta or Evans and haven't looked at North Augusta recently, you're potentially leaving money on the table.
+Over the past five years, North Augusta's transformation has been hard to ignore. A minor league baseball stadium, hundreds of new apartment units, mixed-use developments, and a growing population fueled by [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/)'s cyber mission expansion have reshaped this city. If you own rental property in Augusta or Evans and haven't looked at North Augusta recently, you're potentially leaving money on the table.
 
 Here's what the numbers look like in 2026 and why McBride Property Management is fielding more calls from investors interested in the South Carolina side of the river.
 
@@ -56,7 +56,7 @@ One important note for Georgia-based investors: as of July 2025, [Georgia HB 399
 
 If you've been managing rentals in Georgia, the [South Carolina Residential Landlord and Tenant Act](https://www.scstatehouse.gov/code/t27c040.php) (SCRLTA) has some differences worth understanding before you buy across the river.
 
-**Security deposits** have no statutory cap in South Carolina. You can set the deposit amount based on your own risk assessment, though market norms typically land at one to two months' rent. You must return the deposit with an itemized deduction list within 30 days of the tenant vacating.
+**[Security deposits](/blog/security-deposit-best-practices-georgia/)** have no statutory cap in South Carolina. You can set the deposit amount based on your own risk assessment, though market norms typically land at one to two months' rent. You must return the deposit with an itemized deduction list within 30 days of the tenant vacating.
 
 **Maintenance timelines** are defined: non-emergency repairs must be addressed within 14 days of written notice, and emergencies (no heat, sewage backup, major leaks) require a prompt response, typically within 24 hours.
 
@@ -64,7 +64,7 @@ If you've been managing rentals in Georgia, the [South Carolina Residential Land
 
 **Eviction process** starts with a 5-day notice to pay for unpaid rent, or a 14-day notice to comply for lease violations. South Carolina's eviction timelines can be faster than Georgia's in practice, which is a meaningful consideration for investors managing risk.
 
-Working with a property manager who understands both Georgia and South Carolina landlord-tenant law is critical if you own rentals on both sides of the river. At [McBride Property Management](/services/), we manage properties across the Augusta metro, including Aiken County and North Augusta, so our owners don't have to juggle two different legal frameworks on their own.
+Working with a property manager who understands both Georgia and [South Carolina landlord-tenant law](/blog/south-carolina-landlord-tenant-laws-aiken-rental-owners/) is critical if you own rentals on both sides of the river. At [McBride Property Management](/services/), we manage properties across the Augusta metro, including Aiken County and North Augusta, so our owners don't have to juggle two different legal frameworks on their own.
 
 ## Where to Buy in North Augusta: Neighborhoods Worth Watching
 

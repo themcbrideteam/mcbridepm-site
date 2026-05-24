@@ -16,7 +16,7 @@ Single-family homes offer lower entry costs and stronger appreciation, while mul
 
 If you own one or two single-family rentals in the Augusta area and you're thinking about your next acquisition, you've probably wondered whether it's time to move into multifamily. Maybe you've driven past a duplex on Wrightsboro Road or a fourplex near Augusta University and thought about the math.
 
-It's a legitimate question, and the answer isn't the same for every investor. Augusta's rental market is performing well across both property types right now — the metro is posting the highest annual asking rent growth among Georgia's major markets at roughly 3%, according to [HLC Equity's 2025 market analysis](https://hlcequity.com/augusta-leads-georgia-in-multifamily-rent-growth-why-investors-are-paying-attention/). That growth applies whether you're renting a three-bedroom in Evans or a unit in a Columbia County duplex.
+It's a legitimate question, and the answer isn't the same for every investor. Augusta's rental market is performing well across both property types right now — the metro is posting the highest annual asking rent growth among Georgia's major markets at roughly 3%, according to [HLC Equity's 2025 market analysis](https://hlcequity.com/augusta-leads-georgia-in-multifamily-rent-growth-why-investors-are-paying-attention/). That growth applies whether you're renting a three-bedroom in Evans or a unit in a [Columbia County](/evans/) duplex.
 
 Here's how to think through the decision based on where you are today, what you can afford, and what you're actually trying to build.
 
@@ -28,7 +28,7 @@ Most landlords in Columbia County, Richmond County, and Aiken County started wit
 
 **Lower barrier to entry.** A three-bedroom home in Martinez or Hephzibah might run $180,000–$240,000, with conventional financing requiring 15–25% down. That's $27,000–$60,000 to get started — reachable for most working professionals.
 
-**Longer tenant stays.** Families renting single-family homes in areas like Evans (30809) or North Augusta tend to stay 2–3 years or more, especially when they're near good amenities and employment centers. Longer tenancy means fewer turnovers, which means lower costs.
+**Longer tenant stays.** Families renting single-family homes in areas like Evans (30809) or [North Augusta](/north-augusta/) tend to stay 2–3 years or more, especially when they're near good amenities and employment centers. Longer tenancy means fewer turnovers, which means lower costs.
 
 **Stronger appreciation.** Single-family homes in Columbia County have historically appreciated faster than multifamily properties. If your investment thesis includes equity growth alongside cash flow, this matters.
 
@@ -48,7 +48,7 @@ A duplex, triplex, or fourplex consolidates multiple income streams into one dee
 
 **Built-in vacancy protection.** If one unit in your duplex is empty, you're still collecting rent on the other. A fourplex with one vacancy is operating at 75% occupancy — not ideal, but you're likely still covering your debt service.
 
-**Higher cash flow per deal.** A duplex in Augusta's Summerville neighborhood or near Fort Eisenhower might generate $2,200–$2,800 in combined monthly rent. After expenses, that's often more net cash flow than a single-family home, even accounting for the higher purchase price.
+**Higher cash flow per deal.** A duplex in Augusta's Summerville neighborhood or near [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/) might generate $2,200–$2,800 in combined monthly rent. After expenses, that's often more net cash flow than a single-family home, even accounting for the higher purchase price.
 
 **Faster portfolio growth.** If conventional guidelines allow you ten financed investment properties, ten fourplexes give you 40 doors of income versus ten doors with single-family homes. That's a fundamentally different retirement timeline.
 
@@ -100,7 +100,7 @@ If you're evaluating your next acquisition or wondering whether your current por
 
 <div class="faq-section">
 <div class="faq-item">
-<div class="faq-question">Q: What cap rate should I expect on a multifamily property in Augusta, GA?</div>
+<div class="faq-question">Q: What cap rate should I expect on a multifamily property in [Augusta, GA](/augusta/)?</div>
 <div class="faq-answer">Stabilized multifamily properties (A/B Class) in Augusta currently trade at approximately 5.0–5.4% cap rates, with value-add opportunities sometimes reaching higher. These rates compare favorably to Atlanta and Savannah, where cap compression has been more aggressive.</div>
 </div>
 <div class="faq-item">

@@ -14,7 +14,7 @@ A solid tenant screening process should include a credit check, criminal backgro
 
 Placing the wrong tenant in your rental property is one of the most expensive mistakes an Augusta-area landlord can make. Between court filing fees, lost rent during an eviction, and the turnover costs that follow, a single bad placement can easily cost $5,000 to $10,000 — and that's before you factor in potential property damage.
 
-The fix isn't complicated, but it does require discipline. A consistent, thorough tenant screening process is the single most effective tool you have for protecting your investment. Yet many self-managing landlords in Columbia County and the CSRA either cut corners on screening or rely on gut instinct instead of verified data.
+The fix isn't complicated, but it does require discipline. A consistent, thorough tenant screening process is the single most effective tool you have for protecting your investment. Yet many self-managing landlords in [Columbia County](/evans/) and the CSRA either cut corners on screening or rely on gut instinct instead of verified data.
 
 Here's exactly what a defensible, effective screening process looks like — and what to watch for at each step.
 
@@ -31,7 +31,7 @@ When reviewing a credit report, pay attention to:
 - **Recent hard inquiries** — a sudden spike in credit applications can indicate financial distress
 - **Payment history patterns** — chronic late payments on existing accounts are a stronger predictor of late rent than the score itself
 
-At McBride Property Management, we don't use a single cutoff score. We evaluate the full credit picture in context, because a military family PCS-ing to Fort Eisenhower with a thin credit file is a very different applicant than someone with a 580 and three recent collections.
+At McBride Property Management, we don't use a single cutoff score. We evaluate the full credit picture in context, because a military family PCS-ing to [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/) with a thin credit file is a very different applicant than someone with a 580 and three recent collections.
 
 ---
 
@@ -122,7 +122,7 @@ For more owner education, browse our full [blog archive](/blog/).
     <div class="faq-answer">Georgia landlords can consider criminal history during tenant screening, but blanket denial policies based solely on a criminal record can violate the Fair Housing Act. Federal guidance requires landlords to evaluate the nature of the offense, how recently it occurred, and its relevance to the tenancy. Criteria must be applied consistently to all applicants, and arrests without convictions should not be used as grounds for denial.</div>
   </div>
   <div class="faq-item">
-    <div class="faq-question">Q: How much income should a tenant earn to qualify for a rental in Augusta, GA?</div>
+    <div class="faq-question">Q: How much income should a tenant earn to qualify for a rental in [Augusta, GA](/augusta/)?</div>
     <div class="faq-answer">The standard income requirement for most Augusta and Columbia County rental properties is a gross monthly income of at least three times the monthly rent. For a property renting at $1,500 per month, that means the applicant should earn at least $4,500 per month before taxes. Income should be verified through pay stubs, employment confirmation, or tax returns for self-employed applicants.</div>
   </div>
   <div class="faq-item">

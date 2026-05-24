@@ -12,7 +12,7 @@ layout: blog-post.njk
 Military families PCS-ing to Fort Eisenhower in Augusta, GA have strong rental options in nearby Evans, Grovetown, and Martinez — all within 15–30 minutes of the installation. Acting early, understanding BAH rates for the Augusta area, and working with a local property manager like McBride Property Management can significantly reduce the stress of a military move.
 </div>
 
-PCS orders are rarely gentle. You get a report date, a moving allowance, and a short window to figure out where your family is going to live — in a city you may have never visited. If those orders say Fort Eisenhower, Augusta, GA, you're in better shape than you might think. The Augusta and Columbia County rental market is well-suited for military families, with affordable off-post housing, excellent school options, and a community that has been welcoming service members for decades.
+PCS orders are rarely gentle. You get a report date, a moving allowance, and a short window to figure out where your family is going to live — in a city you may have never visited. If those orders say [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/), [Augusta, GA](/augusta/), you're in better shape than you might think. The Augusta and Columbia County rental market is well-suited for military families, with affordable off-post housing, excellent school options, and a community that has been welcoming service members for decades.
 
 This guide is built specifically for military families navigating a move to the CSRA — what to know before you sign a lease, where to look, and how to work the process so you're not scrambling on day one.
 
@@ -22,7 +22,7 @@ This guide is built specifically for military families navigating a move to the 
 
 The number one mistake military families make when PCS-ing to Augusta, GA is waiting too long to look at housing. Strong rental properties in Evans, Grovetown, and Martinez — the primary off-post communities — get leased quickly, especially in the spring and summer PCS season.
 
-Ideally, begin your search 60–90 days before your report date. Most property managers, including **McBride Property Management**, can hold a unit for an incoming military family with a signed lease and a security deposit, even if you can't visit in person before move-in.
+Ideally, begin your search 60–90 days before your report date. Most property managers, including **McBride Property Management**, can hold a unit for an incoming military family with a signed lease and a [security deposit](/blog/security-deposit-best-practices-georgia/), even if you can't visit in person before move-in.
 
 If you're outside the area, ask about virtual tours or have a trusted contact do a walkthrough on your behalf. Many landlords are accustomed to this — Fort Eisenhower has been a fixture of the Augusta economy for generations, and local property managers understand the unique logistics of a military move.
 
@@ -35,7 +35,7 @@ Your Basic Allowance for Housing (BAH) for Augusta, GA will be calculated based 
 As a general reference for the Augusta CSRA market:
 - **Evans and Grovetown** tend to offer newer construction and higher rents — ideal for larger families who need extra bedrooms or specific school districts
 - **Martinez** is often slightly more affordable and offers a mix of older and newer rental stock
-- **North Augusta, SC** is across the Savannah River and may offer different BAH considerations since it's technically a different state
+- **[North Augusta](/north-augusta/), SC** is across the Savannah River and may offer different BAH considerations since it's technically a different state
 
 At **McBride Property Management**, Noah McBride (broker) and Amber McBride (property manager) work regularly with military families and can give you a clear picture of what your BAH will realistically cover in each submarket. Browse available [rentals here](/rentals/) to get a sense of current pricing before committing to a budget.
 
@@ -85,7 +85,7 @@ If you're PCS-ing to Fort Eisenhower and need a reliable local team, [reach out 
 
 <div class="faq-section">
   <div class="faq-item">
-    <div class="faq-question">Q: How far is Evans, GA from Fort Eisenhower?</div>
+    <div class="faq-question">Q: How far is [Evans, GA](/evans/) from Fort Eisenhower?</div>
     <div class="faq-answer">Evans is approximately 20–25 minutes from the main gate of Fort Eisenhower via I-20 or Washington Road, depending on traffic. It's the most popular off-post community for military families due to its excellent Columbia County schools, newer housing stock, and suburban amenities. Many service members find the commute manageable relative to the quality-of-life benefits.</div>
   </div>
   <div class="faq-item">
