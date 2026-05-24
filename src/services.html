@@ -1,4 +1,7 @@
 ---
+layout: base.njk
+title: "Property Management Services in Augusta, GA | McBride PM"
+description: "Professional property management services in Augusta, GA. Covering marketing, tenant screening, rent collection, maintenance, financial reporting, and lease management for residential and commercial properties."
 breadcrumbs:
   - name: "Home"
     url: "/"
@@ -15,67 +18,9 @@ faqs:
   - question: "How do I get started?"
     answer: "Getting started is easy. Contact Amber, our Business Development Manager, by phone at (706) 420-4883 or email amber@c21magnolia.com to schedule a free consultation. We'll discuss your property, your goals, and how our services can benefit you. During this call, we'll answer all your questions and provide a customized proposal with transparent pricing. Once you're ready, we'll handle all the paperwork and onboarding. Most properties can transition to our management within 1-2 weeks."
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Professional property management services in Augusta, GA. Covering marketing, tenant screening, rent collection, maintenance, financial reporting, and lease management for residential and commercial properties.">
-  <title>Property Management Services in Augusta, GA | McBride PM</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/styles.css">
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}">  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">  <link rel="sitemap" type="application/xml" href="/sitemap.xml">  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">  <meta name="theme-color" content="#1a3a5c">  <meta property="og:site_name" content="{{ site.name }}">  <meta property="og:image:width" content="1200">  <meta property="og:image:height" content="630">  <meta property="og:locale" content="en_US">  <meta name="twitter:card" content="summary_large_image">  <meta name="twitter:title" content="{{ title or site.name }}">  <meta name="twitter:description" content="{{ description or site.description }}">  <meta name="twitter:image" content="{{ site.url }}/og-image.jpg">  <meta name="geo.region" content="US-GA">  <meta name="geo.placename" content="Evans, Georgia">  <meta name="geo.position" content="{{ site.latitude }};{{ site.longitude }}">  <meta name="ICBM" content="{{ site.latitude }}, {{ site.longitude }}">  <link rel="preconnect" href="https://fonts.googleapis.com">  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  {% include "schema/site-graph.njk" %}</head>
-<body>
 
-  <!-- Topbar -->
-  <div class="topbar">
-    <div class="container">
-      <div>
-        <span>Call us: <a href="tel:7064204883">(706) 420-4883</a> | Email: <a href="mailto:amber@c21magnolia.com">amber@c21magnolia.com</a></span>
-      </div>
-      <div class="topbar-links">
-        <a href="https://c21magnolia.appfolio.com/oportal/users/log_in">Owner Portal</a>
-        <a href="https://c21magnolia.appfolio.com/connect/users/sign_in">Resident Portal</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="container">
-      <a href="/" class="logo">McBride <span>PM</span></a>
-      <button class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <ul class="nav-links">
-        <li><a href="/">Home</a></li>
-        <li class="dropdown">
-          <a href="#owners">Owners</a>
-          <div class="dropdown-menu">
-            <a href="/services/">Our Services</a>
-            <a href="/why-hire/">Why Choose Us</a>
-            <a href="#owner-pricing">Pricing</a>
-          </div>
-        </li>
-        <li class="dropdown">
-          <a href="#residents">Residents</a>
-          <div class="dropdown-menu">
-            <a href="/rentals/">Available Rentals</a>
-            <a href="#maintenance">Request Maintenance</a>
-            <a href="#">Make Payments</a>
-          </div>
-        </li>
-        <li><a href="/about/">About</a></li>
-        <li><a href="/blog/">Blog</a></li>
-        <li><a href="/referral/">Agent Referral</a></li>
-        <li><a href="/contact/" class="btn btn-primary">Contact Us</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- Page Header -->
+{% block content %}
+<!-- Page Header -->
   <section class="page-header">
     <div class="container">
       <div class="breadcrumb">
@@ -267,51 +212,4 @@ faqs:
   </section>
 
   <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div>
-          <div class="footer-logo">McBride <span>PM</span></div>
-          <p>Professional property management for residential and commercial real estate in the Augusta, Georgia and CSRA region.</p>
-          <p class="tagline">Stop managing. Start earning.</p>
-        </div>
-        <div>
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/services/">Services</a></li>
-            <li><a href="/about/">About Us</a></li>
-            <li><a href="/blog/">Blog</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>For Owners</h4>
-          <ul>
-            <li><a href="https://c21magnolia.appfolio.com/oportal/users/log_in">Owner Portal</a></li>
-            <li><a href="/services/">Our Services</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="/contact/">Contact Us</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>For Residents</h4>
-          <ul>
-            <li><a href="https://c21magnolia.appfolio.com/connect/users/sign_in">Resident Portal</a></li>
-            <li><a href="/rentals/">Available Rentals</a></li>
-            <li><a href="#">Request Maintenance</a></li>
-            <li><a href="#">Make a Payment</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <div>&copy; 2026 McBride Property Management. All rights reserved.</div>
-        <div>
-          <a href="/privacy/">Privacy Policy</a> | <a href="/terms/">Terms of Service</a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script src="/js/main.js"></script>
-</body>
-</html>
+{% endblock %}

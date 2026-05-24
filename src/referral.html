@@ -1,52 +1,20 @@
 ---
+layout: base.njk
+title: "Realtor Referral Program | McBride Property Management | Augusta, GA"
+description: "Earn up to $1,000+ per referral with McBride Property Management"
+ogTitle: "Realtor Referral Program | McBride Property Management"
+ogDescription: "Earn up to $1,000+ per referral. Written non-compete, fast payouts, full transparency. Your clients stay yours."
+ogImage: "https://mcbride-pm.com/og-image.jpg"
+keywords: "Augusta property management referral fee, realtor referral program Augusta GA, property manager referral program Georgia, how much do property managers pay realtors for referrals Georgia, real estate agent referral Augusta"
+topbarText: "Realtor Referral Program — McBride Property Management"
 breadcrumbs:
   - name: "Home"
     url: "/"
   - name: "Agent Referral Program"
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Realtor Referral Program | McBride Property Management | Augusta, GA</title>
-    <meta name="description" content="Earn up to $1,000+ per referral with McBride Property Management's Realtor Referral Program in Augusta, GA. Written non-compete agreement, fast payouts, and full transparency.">
-    <meta name="keywords" content="Augusta property management referral fee, realtor referral program Augusta GA, property manager referral program Georgia, how much do property managers pay realtors for referrals Georgia, real estate agent referral Augusta">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap">
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="canonical" href="https://mcbride-pm.com/referral/">
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
-    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-    <meta name="theme-color" content="#1a3a5c">
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="Realtor Referral Program | McBride Property Management">
-    <meta property="og:description" content="Earn up to $1,000+ per referral. Written non-compete, fast payouts, full transparency. Your clients stay yours.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mcbride-pm.com/referral/">
-    <meta property="og:image" content="https://mcbride-pm.com/og-image.jpg">
-    <meta property="og:site_name" content="McBride Property Management">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:locale" content="en_US">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Realtor Referral Program | McBride Property Management">
-    <meta name="twitter:description" content="Earn up to $1,000+ per referral. Written non-compete, fast payouts, full transparency.">
-    <meta name="twitter:image" content="https://mcbride-pm.com/og-image.jpg">
-
-    <!-- Geo -->
-    <meta name="geo.region" content="US-GA">
-    <meta name="geo.placename" content="Evans, Georgia">
-    <meta name="geo.position" content="33.5362;-82.1335">
-    <meta name="ICBM" content="33.5362, -82.1335">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <style>
+{% block head %}
+<style>
     /* ---- Referral Page Specific Styles ---- */
 
     /* Sticky CTA */
@@ -338,49 +306,9 @@ breadcrumbs:
     /* Add bottom padding for sticky CTA */
     body { padding-bottom: 70px; }
     </style>
-</head>
-<body>
+{% endblock %}
 
-<!-- ========== TOPBAR ========== -->
-<div class="topbar">
-    <div class="container">
-        <span>Serving Augusta, Georgia and Aiken, South Carolina</span>
-        <div class="topbar-links">
-            <a href="https://c21magnolia.appfolio.com/oportal/users/log_in">Owner Portal</a>
-            <a href="https://c21magnolia.appfolio.com/connect/users/sign_in">Resident Portal</a>
-            <a href="tel:7064204883">(706) 420-4883</a>
-            <a href="mailto:amber@c21magnolia.com">Contact Us</a>
-        </div>
-    </div>
-</div>
-
-<!-- ========== NAVBAR ========== -->
-<nav class="navbar">
-    <div class="container">
-        <a href="/" class="logo">Mc<span>Bride</span> PM</a>
-        <button class="hamburger" aria-label="Toggle menu" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <ul class="nav-links" id="navLinks">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about/">About</a></li>
-            <li class="dropdown">
-                <a href="#">Services</a>
-                <div class="dropdown-menu">
-                    <a href="/services/">Property Management</a>
-                    <a href="/services/">Tenant Placement</a>
-                    <a href="/services/">Maintenance Coordination</a>
-                    <a href="/services/">Rent Collection</a>
-                </div>
-            </li>
-            <li><a href="/referral/">Agent Referral</a></li>
-            <li><a href="/contact/" class="btn btn-primary">Get Started</a></li>
-        </ul>
-    </div>
-</nav>
-
+{% block content %}
 <!-- ========== HERO ========== -->
 <section class="hero">
     <div class="container">
@@ -668,59 +596,9 @@ breadcrumbs:
 </section>
 
 <!-- ========== FOOTER ========== -->
-<footer class="footer">
-    <div class="container">
-        <div class="footer-grid">
-            <div>
-                <div class="footer-logo">Mc<span>Bride</span> PM</div>
-                <p>Local property management for property owners who expect more.</p>
-                <p class="tagline">"Guiding you home."</p>
-            </div>
-            <div>
-                <h4>Company</h4>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/contact/">Contact</a></li>
-                    <li><a href="/services/">Services</a></li>
-                </ul>
-            </div>
-            <div>
-                <h4>Resources</h4>
-                <ul>
-                    <li><a href="https://c21magnolia.appfolio.com/oportal/users/log_in">Owner Portal</a></li>
-                    <li><a href="https://c21magnolia.appfolio.com/connect/users/sign_in">Resident Portal</a></li>
-                    <li><a href="/blog/">Blog</a></li>
-                    <li><a href="/referral/">Realtor Referral</a></li>
-                </ul>
-            </div>
-            <div>
-                <h4>Contact</h4>
-                <p style="margin-bottom: 0.5rem;">609 Ponder Place Drive, Suite B<br>Evans, GA 30809</p>
-                <p style="margin-bottom: 0.5rem;"><a href="tel:7064204883">(706) 420-4883</a></p>
-                <p><a href="mailto:amber@c21magnolia.com">amber@c21magnolia.com</a></p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <span>&copy; 2026 McBride Property Management. All rights reserved.</span>
-            <div style="display: flex; gap: 1.5rem;">
-                <a href="/privacy/">Privacy Policy</a>
-                <a href="/terms/">Terms of Service</a>
-            </div>
-        </div>
-    </div>
-</footer>
+{% endblock %}
 
-<!-- ========== STICKY CTA ========== -->
-<div class="sticky-cta" id="stickyCta">
-    <div class="container">
-        <p>Earn up to $1,000+ per referral</p>
-        <a href="#referral-form" class="btn btn-primary">Refer a Client Now</a>
-    </div>
-</div>
-
-<!-- ========== SCRIPTS ========== -->
-<script src="/js/main.js"></script>
+{% block scripts %}
 <script>
 // Sticky CTA - show after scrolling past hero
 (function() {
@@ -794,6 +672,4 @@ document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
     });
 });
 </script>
-
-</body>
-</html>
+{% endblock %}

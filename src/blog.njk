@@ -1,11 +1,20 @@
 ---
 layout: base.njk
-title: "Property Management Blog"
 description: "Property management insights, rental market updates, and expert advice for landlords and tenants in Augusta and Columbia County, GA."
-permalink: /blog/
+pagination:
+  data: collections.blog
+  size: 10
+  alias: posts
+  reverse: false
+permalink: "/blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}{% endif %}/"
+eleventyComputed:
+  title: "Property Management Blog{% if pagination.pageNumber > 0 %} — Page {{ pagination.pageNumber + 1 }}{% endif %}"
 ---
 
 {% block head %}
+{# rel=prev/next for paginated SEO #}
+{% if pagination.href.previous %}<link rel="prev" href="{{ site.url }}{{ pagination.href.previous }}">{% endif %}
+{% if pagination.href.next %}<link rel="next" href="{{ site.url }}{{ pagination.href.next }}">{% endif %}
 <style>
   .page-header {
     background: linear-gradient(135deg, #060644 0%, #0d0d5d 100%);
@@ -89,6 +98,32 @@ permalink: /blog/
   .blog-card .read-more:hover {
     text-decoration: underline;
   }
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    border-top: 2px solid #e8e8e8;
+    margin-top: 2rem;
+  }
+  .pagination a, .pagination span {
+    color: #060644;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }
+  .pagination a:hover {
+    background: #f5f1e8;
+  }
+  .pagination .disabled {
+    color: #bbb;
+  }
+  .pagination .page-info {
+    color: #888;
+    font-weight: 400;
+    font-size: 0.95rem;
+  }
 </style>
 {% endblock %}
 
@@ -97,9 +132,9 @@ permalink: /blog/
 <div class="page-header">
   <div class="container">
     <div class="breadcrumb">
-      <a href="/">Home</a> > Blog
+      <a href="/">Home</a> > Blog{% if pagination.pageNumber > 0 %} > Page {{ pagination.pageNumber + 1 }}{% endif %}
     </div>
-    <h1>Property Management Blog</h1>
+    <h1>Property Management Blog{% if pagination.pageNumber > 0 %} — Page {{ pagination.pageNumber + 1 }}{% endif %}</h1>
     <p>Expert insights for property owners and tenants in Augusta and Columbia County</p>
   </div>
 </div>
@@ -107,7 +142,7 @@ permalink: /blog/
 <!-- Blog Posts -->
 <div class="content-section">
   <div class="container content-narrow">
-    {% for post in collections.blog %}
+    {% for post in posts %}
     <article class="blog-card">
       <span class="category-badge {% if post.data.category == 'Property Owners' %}category-badge--owners{% elif post.data.category == 'Tenants' %}category-badge--tenants{% else %}category-badge--owners{% endif %}">{{ post.data.category }}</span>
       <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
@@ -117,8 +152,27 @@ permalink: /blog/
     </article>
     {% endfor %}
 
-    {% if collections.blog.length == 0 %}
+    {% if posts.length == 0 %}
     <p>No blog posts yet. Check back soon!</p>
+    {% endif %}
+
+    {# Pagination controls #}
+    {% if pagination.pages.length > 1 %}
+    <nav class="pagination" aria-label="Blog pagination">
+      {% if pagination.href.previous %}
+        <a href="{{ pagination.href.previous }}" rel="prev">&larr; Newer posts</a>
+      {% else %}
+        <span class="disabled">&larr; Newer posts</span>
+      {% endif %}
+
+      <span class="page-info">Page {{ pagination.pageNumber + 1 }} of {{ pagination.pages.length }}</span>
+
+      {% if pagination.href.next %}
+        <a href="{{ pagination.href.next }}" rel="next">Older posts &rarr;</a>
+      {% else %}
+        <span class="disabled">Older posts &rarr;</span>
+      {% endif %}
+    </nav>
     {% endif %}
   </div>
 </div>

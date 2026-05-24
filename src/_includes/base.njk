@@ -7,14 +7,19 @@
   {% if keywords %}<meta name="keywords" content="{{ keywords }}">{% endif %}
   <meta name="author" content="{{ site.name }}">
 
+  {% set _fullTitle = title if (title and (' | ' in title)) else ((title + ' | ' + site.name) if title else site.name) %}
+  {% set _ogTitle = ogTitle or _fullTitle %}
+  {% set _ogDescription = ogDescription or description or 'Professional property management for residential property owners across the CSRA.' %}
+  {% set _ogImage = ogImage or (site.url + '/og-image.jpg') %}
+
   <!-- Open Graph Tags -->
-  <meta property="og:title" content="{{ title }} | {{ site.name }}">
-  <meta property="og:description" content="{{ description or 'Professional property management for residential property owners across the CSRA.' }}">
+  <meta property="og:title" content="{{ _ogTitle }}">
+  <meta property="og:description" content="{{ _ogDescription }}">
   <meta property="og:type" content="{{ ogType or 'website' }}">
-  <meta property="og:image" content="{{ site.url }}/og-image.jpg">
+  <meta property="og:image" content="{{ _ogImage }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 
-  <title>{{ title }} | {{ site.name }}</title>
+  <title>{{ _fullTitle }}</title>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
@@ -36,9 +41,9 @@
 
                       <!-- Twitter Card -->
                         <meta name="twitter:card" content="summary_large_image">
-                          <meta name="twitter:title" content="{{ title }} | {{ site.name }}">
-                            <meta name="twitter:description" content="{{ description or 'Professional property management for residential property owners across the CSRA.' }}">
-                              <meta name="twitter:image" content="{{ site.url }}/og-image.jpg">
+                          <meta name="twitter:title" content="{{ _ogTitle }}">
+                            <meta name="twitter:description" content="{{ _ogDescription }}">
+                              <meta name="twitter:image" content="{{ _ogImage }}">
 
                                 <!-- OG site_name -->
                                   <meta property="og:site_name" content="{{ site.name }}">
@@ -74,6 +79,14 @@
   <!-- TOP BAR -->
   <div class="topbar">
     <div class="container">
+      {% if topbarText %}
+      <span>{{ topbarText }}</span>
+      <div class="topbar-links">
+        <a href="{{ site.ownerPortal }}">Owner Portal</a>
+        <a href="{{ site.residentPortal }}">Resident Portal</a>
+        <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>
+      </div>
+      {% else %}
       <div class="topbar-links">
         <a href="{{ site.ownerPortal }}">Owner Portal</a>
         <a href="{{ site.residentPortal }}">Resident Portal</a>
@@ -83,6 +96,7 @@
         <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>
         <a href="mailto:{{ site.email }}">{{ site.email }}</a>
       </div>
+      {% endif %}
     </div>
   </div>
 
@@ -210,5 +224,7 @@
       });
     }
   </script>
+
+  {% block scripts %}{% endblock %}
 </body>
 </html>

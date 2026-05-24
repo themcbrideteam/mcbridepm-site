@@ -1,101 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="McBride Property Management — locally owned residential property management for the Augusta, Evans, and Aiken metro (CSRA). Tenant screening, rent collection, 24/7 maintenance, and clear financial reporting.">
-  <meta name="keywords" content="property management Augusta GA, Evans property management, CSRA property management, McBride Property Management">
-  <meta name="author" content="McBride Property Management">
+---
+layout: base.njk
+title: "McBride Property Management | Augusta, Evans & Aiken (CSRA)"
+description: "McBride Property Management — locally owned residential property management for the Augusta, Evans, and Aiken metro (CSRA). Tenant screening, rent collection, 24/7 maintenance, and clear financial reporting."
+ogTitle: "McBride Property Management — Augusta, Evans, Aiken (CSRA)"
+ogDescription: "Locally owned residential property management for the Augusta, Evans, and Aiken metro. 99% on-time rent collection, 14-day average days-on-market, no long-term contracts."
+ogImage: "https://mcbride-pm.com/og-image.jpg"
+keywords: "property management Augusta GA, Evans property management, CSRA property management, McBride Property Management"
+---
 
-  <!-- Open Graph Tags -->
-  <meta property="og:title" content="McBride Property Management — Augusta, Evans, Aiken (CSRA)">
-  <meta property="og:description" content="Locally owned residential property management for the Augusta, Evans, and Aiken metro. 99% on-time rent collection, 14-day average days-on-market, no long-term contracts.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="https://mcbride-pm.com/og-image.jpg">
-  <meta property="og:url" content="https://mcbride-pm.com/">
-
-  <title>McBride Property Management | Augusta, Evans &amp; Aiken (CSRA)</title>
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="/css/styles.css">
-
-  <!-- Netlify Identity (required for Decap CMS login) -->
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}">  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">  <link rel="sitemap" type="application/xml" href="/sitemap.xml">  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">  <meta name="theme-color" content="#1a3a5c">  <meta property="og:site_name" content="{{ site.name }}">  <meta property="og:image:width" content="1200">  <meta property="og:image:height" content="630">  <meta property="og:locale" content="en_US">  <meta name="twitter:card" content="summary_large_image">  <meta name="twitter:title" content="{{ title or site.name }}">  <meta name="twitter:description" content="{{ description or site.description }}">  <meta name="twitter:image" content="{{ site.url }}/og-image.jpg">  <meta name="geo.region" content="US-GA">  <meta name="geo.placename" content="Evans, Georgia">  <meta name="geo.position" content="{{ site.latitude }};{{ site.longitude }}">  <meta name="ICBM" content="{{ site.latitude }}, {{ site.longitude }}">  <link rel="preconnect" href="https://fonts.googleapis.com">  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  {% include "schema/site-graph.njk" %}</head>
-<body>
-
-  <!-- TOP BAR -->
-  <div class="topbar">
-    <div class="container">
-      <div class="topbar-links">
-        <a href="https://c21magnolia.appfolio.com/oportal/users/log_in">Owner Portal</a>
-        <a href="https://c21magnolia.appfolio.com/connect/users/sign_in">Resident Portal</a>
-        <a href="/rentals/">Available Rentals</a>
-      </div>
-      <div class="topbar-links">
-        <a href="tel:7064204883">(706) 420-4883</a>
-        <a href="mailto:amber@c21magnolia.com">amber@c21magnolia.com</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <div class="container">
-      <a href="/" class="logo">McBride <span>PM</span></a>
-
-      <button class="hamburger" aria-label="Toggle navigation menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-
-      <ul class="nav-links">
-        <li class="dropdown">
-          <a href="#residents">Residents</a>
-          <div class="dropdown-menu">
-            <a href="/rentals/">Available Properties</a>
-            <a href="/resident-faqs/">Resident FAQs</a>
-            <a href="https://c21magnolia.appfolio.com/connect/users/sign_in">Resident Portal</a>
-          </div>
-        </li>
-
-        <li class="dropdown">
-          <a href="#owners">Owners</a>
-          <div class="dropdown-menu">
-            <a href="/services/">PM Services</a>
-            <a href="/why-hire/">Why Hire Us</a>
-            <a href="/owner-faqs/">Owner FAQs</a>
-            <a href="https://c21magnolia.appfolio.com/oportal/users/log_in">Owner Portal</a>
-          </div>
-        </li>
-
-        <li class="dropdown">
-          <a href="#areas">Areas We Serve</a>
-          <div class="dropdown-menu">
-            <a href="/augusta/">Augusta</a>
-            <a href="/evans/">Evans</a>
-            <a href="/grovetown/">Grovetown</a>
-            <a href="/martinez/">Martinez</a>
-            <a href="/north-augusta/">North Augusta</a>
-            <a href="/aiken/">Aiken</a>
-            <a href="#all-areas">Columbia County</a>
-            <a href="#all-areas">See All Areas</a>
-          </div>
-        </li>
-
-        <li><a href="/blog/">Blog</a></li>
-        <li><a href="/referral/">Agent Referral</a></li>
-        <li><a href="/contact/">Contact</a></li>
-        <li><a href="/contact/" class="btn btn-primary btn-sm">Free Rental Analysis</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- HERO SECTION -->
+{% block content %}
+<!-- HERO SECTION -->
   <section class="hero">
     <div class="container">
       <h1>Augusta Property Management Built on Experience, Driven by Results</h1>
@@ -349,77 +263,4 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <!-- Column 1: Company Info -->
-        <div>
-          <div class="footer-logo">McBride <span>PM</span></div>
-          <p style="margin-bottom: 1rem;">609 Ponder Place Drive, Suite B<br>Evans, GA 30809</p>
-          <p style="margin-bottom: .5rem;"><strong><a href="tel:7064204883">(706) 420-4883</a></strong></p>
-          <p style="margin-bottom: 1.5rem;"><strong><a href="mailto:amber@c21magnolia.com">amber@c21magnolia.com</a></strong></p>
-          <div class="tagline">Guiding you home.</div>
-        </div>
-
-        <!-- Column 2: Quick Links -->
-        <div>
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="/services/">Our Services</a></li>
-            <li><a href="/why-hire/">Why Hire Us</a></li>
-            <li><a href="/blog/">Blog</a></li>
-            <li><a href="/contact/">Contact Us</a></li>
-            <li><a href="/contact/">Free Rental Analysis</a></li>
-          </ul>
-        </div>
-
-        <!-- Column 3: Areas We Serve -->
-        <div>
-          <h4>Areas We Serve</h4>
-          <ul>
-            <li><a href="/augusta/">Augusta</a></li>
-            <li><a href="/evans/">Evans</a></li>
-            <li><a href="/grovetown/">Grovetown</a></li>
-            <li><a href="/martinez/">Martinez</a></li>
-            <li><a href="/aiken/">Aiken</a></li>
-            <li><a href="/north-augusta/">North Augusta</a></li>
-            <li><a href="#all-areas">See All Areas</a></li>
-          </ul>
-        </div>
-
-        <!-- Column 4: Portal Access -->
-        <div>
-          <h4>Portal Access</h4>
-          <ul>
-            <li><a href="https://c21magnolia.appfolio.com/oportal/users/log_in">Owner Portal</a></li>
-            <li><a href="https://c21magnolia.appfolio.com/connect/users/sign_in">Resident Portal</a></li>
-            <li><a href="/rentals/">Available Rentals</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Footer Bottom -->
-      <div class="footer-bottom">
-        <div>&copy; 2026 McBride Property Management. All rights reserved.</div>
-        <div>
-          <a href="/privacy/">Privacy Policy</a> | <a href="/terms/">Terms of Service</a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Scripts -->
-  <script src="/js/main.js"></script>
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
-</body>
-</html>
+{% endblock %}
