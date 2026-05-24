@@ -16,7 +16,7 @@ ctaText: "Browse available rentals at McBride Property Management and find your 
 
 ## Introduction
 
-Whether you're relocating for work at [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/), transferring for career growth, or seeking a fresh start, Augusta and [Columbia County](/evans/) offer affordable, diverse neighborhoods with welcoming rental markets. The region has seen significant growth in recent years, attracting professionals, military families, and those seeking a lower cost of living without sacrificing quality of life.
+Whether you're relocating for work at [Fort Gordon](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/), transferring for career growth, or seeking a fresh start, Augusta and [Columbia County](/evans/) offer affordable, diverse neighborhoods with welcoming rental markets. The region has seen significant growth in recent years, attracting professionals, military families, and those seeking a lower cost of living without sacrificing quality of life.
 
 Exploring Columbia County as a renter gives you access to vibrant communities, excellent schools, and a strong sense of place. From the established charm of central Augusta to the modern development in Evans and Grovetown, there's a neighborhood to suit every lifestyle and budget.
 
@@ -30,9 +30,9 @@ If you're looking for newer construction and modern amenities, Evans and Groveto
 
 For affordability and established neighborhoods, Martinez and Central Augusta deliver solid value. These areas feature mature tree-lined streets, well-established communities, and closer proximity to downtown Augusta. You'll find a mix of traditional homes and garden apartments with character and history.
 
-### Fort Eisenhower Proximity
+### Fort Gordon Proximity
 
-Military families and those working at Fort Eisenhower often find Grovetown and Evans particularly convenient due to commute times. Many landlords in these areas cater to military renters with flexible lease terms, including shorter 6-month or even month-to-month options. Understanding your proximity to Fort Eisenhower can help you narrow down neighborhoods that match your lifestyle and commute.
+Military families and those working at Fort Gordon often find Grovetown and Evans particularly convenient due to commute times. Many landlords in these areas cater to military renters with flexible lease terms, including shorter 6-month or even month-to-month options. Understanding your proximity to Fort Gordon can help you narrow down neighborhoods that match your lifestyle and commute.
 
 ## What to Expect in the Application Process
 

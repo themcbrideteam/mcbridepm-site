@@ -71,7 +71,7 @@ Renters insurance is remarkably affordable. In Augusta and Columbia County, most
 - Whether you bundle it with your auto insurance (most major carriers offer discounts)
 - Your rental's location and construction type
 
-Some tenants find policies as low as $12/month through major carriers like State Farm, USAA (especially useful for military families at [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/)), Lemonade, or Progressive. Bundling with your car insurance is usually the simplest and most affordable route.
+Some tenants find policies as low as $12/month through major carriers like State Farm, USAA (especially useful for military families at [Fort Gordon](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/)), Lemonade, or Progressive. Bundling with your car insurance is usually the simplest and most affordable route.
 
 ## Tips for Getting the Right Policy
 

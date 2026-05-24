@@ -31,7 +31,7 @@ When reviewing a credit report, pay attention to:
 - **Recent hard inquiries** — a sudden spike in credit applications can indicate financial distress
 - **Payment history patterns** — chronic late payments on existing accounts are a stronger predictor of late rent than the score itself
 
-At McBride Property Management, we don't use a single cutoff score. We evaluate the full credit picture in context, because a military family PCS-ing to [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/) with a thin credit file is a very different applicant than someone with a 580 and three recent collections.
+At McBride Property Management, we don't use a single cutoff score. We evaluate the full credit picture in context, because a military family PCS-ing to [Fort Gordon](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/) with a thin credit file is a very different applicant than someone with a 580 and three recent collections.
 
 ---
 
@@ -61,7 +61,7 @@ Strong income verification includes:
 - **Tax returns or bank statements** for self-employed applicants, covering at least the prior 12 months
 - **Proof of supplemental income** such as VA benefits, Social Security, or alimony (if the applicant voluntarily provides it — you cannot require disclosure of income source under fair housing rules)
 
-In the Augusta rental market, where a significant portion of the tenant pool is connected to Fort Eisenhower or the Augusta University medical complex, you'll frequently encounter applicants with non-traditional income documentation. BAH (Basic Allowance for Housing) statements, military LES documents, and stipend letters are all legitimate proof of income — learn to read them.
+In the Augusta rental market, where a significant portion of the tenant pool is connected to Fort Gordon or the Augusta University medical complex, you'll frequently encounter applicants with non-traditional income documentation. BAH (Basic Allowance for Housing) statements, military LES documents, and stipend letters are all legitimate proof of income — learn to read them.
 
 ---
 

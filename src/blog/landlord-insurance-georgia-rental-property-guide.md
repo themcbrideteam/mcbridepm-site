@@ -80,7 +80,7 @@ If you receive a non-renewal notice, don't wait. Start shopping immediately and 
 
 ### 1. Confirm You Have a Landlord Policy, Not Homeowners
 
-If you became a landlord by accident — military PCS from [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/), a job relocation, or an inherited property — there's a real chance your property is still on a homeowners policy. Call your agent and verify. If they tell you it's fine as-is, get a second opinion. It's probably not.
+If you became a landlord by accident — military PCS from [Fort Gordon](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/), a job relocation, or an inherited property — there's a real chance your property is still on a homeowners policy. Call your agent and verify. If they tell you it's fine as-is, get a second opinion. It's probably not.
 
 ### 2. Set Dwelling Coverage at Replacement Cost
 

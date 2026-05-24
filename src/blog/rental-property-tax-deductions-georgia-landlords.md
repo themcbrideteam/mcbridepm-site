@@ -14,7 +14,7 @@ Augusta-area landlords can deduct mortgage interest, insurance, repairs, depreci
 
 If you own a rental property in Augusta, Evans, Grovetown, or anywhere in the CSRA, your tax return should be working just as hard as your investment. Rental real estate comes with one of the most generous sets of tax deductions available to individual investors, and 2026 brings some significant changes that tilt the math even further in your favor.
 
-Whether you’re an [accidental landlord](/blog/accidental-landlord-augusta-ga-what-to-do/) who kept your first home when you PCS’d from [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/), or you’ve been building a portfolio of single-family rentals across [Columbia County](/evans/), understanding what you can deduct — and what’s changed recently — is one of the highest-ROI activities you can do as a property owner.
+Whether you’re an [accidental landlord](/blog/accidental-landlord-augusta-ga-what-to-do/) who kept your first home when you PCS’d from [Fort Gordon](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/), or you’ve been building a portfolio of single-family rentals across [Columbia County](/evans/), understanding what you can deduct — and what’s changed recently — is one of the highest-ROI activities you can do as a property owner.
 
 This isn’t tax advice (you’ll want a CPA for that), but it is a plain-English walkthrough of the deductions most Augusta-area landlords should be aware of heading into the 2026 tax year.
 
@@ -102,7 +102,7 @@ If you’re working with [McBride Property Management](/services/), we maintain 
 
 ## What Accidental Landlords Often Miss
 
-If you became a landlord because you couldn’t sell, inherited a property, or got PCS orders from Fort Eisenhower, you might not realize you’re sitting on significant tax advantages. A few things to discuss with your tax professional:
+If you became a landlord because you couldn’t sell, inherited a property, or got PCS orders from Fort Gordon, you might not realize you’re sitting on significant tax advantages. A few things to discuss with your tax professional:
 
 You can deduct the costs of converting a primary residence to a rental, including any repairs made before listing it for rent. If you’ve owned the property for years, you likely have a substantial depreciable basis. And if your rental generates a paper loss after depreciation, you may be able to deduct up to $25,000 of that loss against your other income if your adjusted gross income is under $100,000 (this phases out between $100,000 and $150,000).
 

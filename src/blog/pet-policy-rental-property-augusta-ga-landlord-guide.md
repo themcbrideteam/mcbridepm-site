@@ -14,7 +14,7 @@ Georgia law caps total security deposits — including pet deposits — at two m
 
 If you own a rental property in Evans, Grovetown, Augusta, or anywhere in the CSRA, you've probably had this conversation with yourself: should I allow pets? And if so, how do I protect my property without scaring off good tenants?
 
-It's a fair question. Pets can cause damage — scratched hardwood, stained carpet, chewed blinds. But refusing pets entirely means you're eliminating a massive chunk of the renter pool. According to the [ASPCA](https://www.aspca.org/improving-laws-animals/public-policy/housing/pet-friendly-housing-and-renters), roughly 70% of U.S. households include a pet. In a military-heavy market like Augusta, where [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/) families frequently PCS with dogs and cats, that number tracks even higher.
+It's a fair question. Pets can cause damage — scratched hardwood, stained carpet, chewed blinds. But refusing pets entirely means you're eliminating a massive chunk of the renter pool. According to the [ASPCA](https://www.aspca.org/improving-laws-animals/public-policy/housing/pet-friendly-housing-and-renters), roughly 70% of U.S. households include a pet. In a military-heavy market like Augusta, where [Fort Gordon](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/) families frequently PCS with dogs and cats, that number tracks even higher.
 
 The smart move isn't to ban pets outright. It's to build a clear, enforceable pet policy that protects your investment while keeping your property competitive. Here's how to do it right under current Georgia law.
 

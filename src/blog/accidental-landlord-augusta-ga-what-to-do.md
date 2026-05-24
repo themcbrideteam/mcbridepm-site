@@ -4,7 +4,7 @@ description: "Became an accidental landlord in Augusta, GA? Step-by-step guide c
 date: 2026-04-16
 category: "Property Owners"
 readTime: "7 min"
-keywords: ["accidental landlord Augusta GA", "rent out home Augusta Georgia", "PCS landlord Fort Eisenhower", "accidental landlord what to do", "property management Augusta GA"]
+keywords: ["accidental landlord Augusta GA", "rent out home Augusta Georgia", "PCS landlord Fort Gordon", "accidental landlord what to do", "property management Augusta GA"]
 ---
 
 <div class="snippet-box">
@@ -12,7 +12,7 @@ keywords: ["accidental landlord Augusta GA", "rent out home Augusta Georgia", "P
 Switch to landlord insurance, learn Georgia's tenant-landlord laws, price your rent competitively, and decide whether to self-manage or hire a property manager in the Augusta metro area.
 </div>
 
-You didn't plan to become a landlord. Maybe you got PCS orders to leave [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/) and couldn't sell in time. Maybe you inherited a family home in Martinez or Evans and aren't ready to let it go. Maybe the market just wasn't right when you needed to move, so you figured you'd rent it out "for now."
+You didn't plan to become a landlord. Maybe you got PCS orders to leave [Fort Gordon](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/) and couldn't sell in time. Maybe you inherited a family home in Martinez or Evans and aren't ready to let it go. Maybe the market just wasn't right when you needed to move, so you figured you'd rent it out "for now."
 
 However you got here, you're not alone. Accidental landlords make up a significant share of the single-family rental market nationwide, and in the Augusta metro area — where military relocations, job transfers, and inheritance situations are common — it happens all the time.
 
@@ -62,7 +62,7 @@ Here's what the Augusta-area market looks like as of early 2026:
 - **[Columbia County](/evans/) (Evans, Grovetown, Martinez):** typically $100 to $200 higher than the Augusta city average for comparable single-family homes, reflecting stronger school districts and newer housing stock
 - **[North Augusta](/north-augusta/) and Aiken County, SC:** competitive with Columbia County pricing, with some areas offering slightly lower rates
 
-Your specific rent should factor in the property's square footage, number of bedrooms and bathrooms, condition and age, neighborhood, and proximity to Fort Eisenhower or major employers. A comparative market analysis — looking at what similar rentals in your ZIP code are actually leasing for, not just listing for — gives you the clearest picture.
+Your specific rent should factor in the property's square footage, number of bedrooms and bathrooms, condition and age, neighborhood, and proximity to Fort Gordon or major employers. A comparative market analysis — looking at what similar rentals in your ZIP code are actually leasing for, not just listing for — gives you the clearest picture.
 
 If you're not sure where to start, [reach out to our team](/contact/) for a [free rental analysis](/contact/). We run these regularly for property owners across the CSRA.
 
@@ -80,7 +80,7 @@ But you'll also handle midnight maintenance calls, [tenant screening](/blog/tena
 
 A property manager handles the day-to-day so you don't have to — marketing, tenant placement, [maintenance coordination](/services/), rent collection, lease enforcement, and legal compliance. The cost is typically a percentage of monthly rent, and the value shows up in fewer vacancies, faster maintenance turnaround, and not having to learn landlord-tenant law through expensive mistakes.
 
-At [McBride Property Management](/services/), we work with accidental landlords across Columbia County, Richmond County, and Aiken County every week. Many of our clients started with a single property they never planned to rent out — a PCS move from Fort Eisenhower, a family home in [Evans](/evans/) or [Grovetown](/grovetown/) they couldn't sell, or a property in [North Augusta](/north-augusta/) they inherited. We understand the learning curve because we've helped hundreds of owners navigate it.
+At [McBride Property Management](/services/), we work with accidental landlords across Columbia County, Richmond County, and Aiken County every week. Many of our clients started with a single property they never planned to rent out — a PCS move from Fort Gordon, a family home in [Evans](/evans/) or [Grovetown](/grovetown/) they couldn't sell, or a property in [North Augusta](/north-augusta/) they inherited. We understand the learning curve because we've helped hundreds of owners navigate it.
 
 ## Get Your Property Rent-Ready
 
@@ -123,7 +123,7 @@ The accidental landlords who do well aren't the ones who got lucky. They're the 
 </div>
 <div class="faq-item">
 <div class="faq-question">Q: What's the average rent for a single-family home in Columbia County, GA?</div>
-<div class="faq-answer">As of early 2026, single-family home rents in Columbia County — including Evans, Grovetown, and Martinez — generally range from $1,300 to $1,500 per month for a three-bedroom home, depending on condition, age, and specific location. Newer construction in Evans and homes near Fort Eisenhower may command higher rents.</div>
+<div class="faq-answer">As of early 2026, single-family home rents in Columbia County — including Evans, Grovetown, and Martinez — generally range from $1,300 to $1,500 per month for a three-bedroom home, depending on condition, age, and specific location. Newer construction in Evans and homes near Fort Gordon may command higher rents.</div>
 </div>
 </div>
 

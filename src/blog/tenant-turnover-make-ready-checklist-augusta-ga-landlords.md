@@ -129,7 +129,7 @@ The make-ready process is about speed without cutting corners. Here are a few st
 
 If you own one rental property and live nearby, managing turnovers yourself is doable — if you have the systems in place. But turnover is where self-managing landlords most often lose money, either through extended vacancy, botched security deposit handling, or deferred maintenance that compounds over time.
 
-If you own multiple properties, live out of the area (common for [military families PCSing from Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/)), or simply don't want to coordinate vendors and navigate Georgia's deposit laws yourself, professional management pays for itself during turnover.
+If you own multiple properties, live out of the area (common for [military families PCSing from Fort Gordon](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/)), or simply don't want to coordinate vendors and navigate Georgia's deposit laws yourself, professional management pays for itself during turnover.
 
 At McBride Property Management, we manage single-family and multifamily rentals across Augusta, Evans, Grovetown, Martinez, Aiken, and North Augusta. Our turnover process is systemized — every property gets the same thorough inspection, vendor coordination, and compliance handling. If you'd like to talk about how we can help with your next turnover, reach out to Noah McBride at [706.701.5940](tel:7067015940) or [contact us here](/contact/).
 

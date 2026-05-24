@@ -9,7 +9,7 @@ layout: blog-post.njk
 ---
 
 <div class="snippet-box">
-Columbia County consistently outperforms Augusta city for rental investors due to stronger household incomes, lower vacancy rates, steady population growth, and a tenant pool anchored by Fort Eisenhower military families and healthcare professionals. Markets like Evans, Martinez, and Grovetown offer landlords better rent-to-price ratios and longer-tenured residents than much of the city.
+Columbia County consistently outperforms Augusta city for rental investors due to stronger household incomes, lower vacancy rates, steady population growth, and a tenant pool anchored by Fort Gordon military families and healthcare professionals. Markets like Evans, Martinez, and Grovetown offer landlords better rent-to-price ratios and longer-tenured residents than much of the city.
 </div>
 
 If you own rental property in the Augusta metro — or you're thinking about adding to your portfolio — the zip code you choose matters more than almost any other variable. Two investors can buy nearly identical homes, price them identically, and see dramatically different results depending on which side of the county line they land on.
@@ -20,7 +20,7 @@ After years of managing properties across Augusta and Columbia County, McBride P
 
 ## Columbia County Rental Investment: The Numbers Behind the Advantage
 
-The gap between Columbia County and Augusta city (Richmond County) starts with demographics. Columbia County is one of the fastest-growing counties in Georgia, driven by military relocation to [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/), healthcare sector expansion, and families chasing top-ranked schools in the Columbia County School District. That steady in-migration creates persistent rental demand — the kind that keeps vacancy low even when new supply enters the market.
+The gap between Columbia County and Augusta city (Richmond County) starts with demographics. Columbia County is one of the fastest-growing counties in Georgia, driven by military relocation to [Fort Gordon](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/), healthcare sector expansion, and families chasing top-ranked schools in the Columbia County School District. That steady in-migration creates persistent rental demand — the kind that keeps vacancy low even when new supply enters the market.
 
 Parts of Augusta city face structural vacancy challenges tied to population shifts, aging housing stock, and income concentration. Augusta city rentals can cash-flow, but the margin for error is smaller and the management intensity is typically higher.
 
@@ -40,7 +40,7 @@ Key advantages Columbia County landlords see in practice:
 
 Not every submarket within Columbia County performs the same way. Here's how the primary zones break down from an investor's perspective:
 
-**[Evans, GA](/evans/)** is the core of Columbia County's rental demand. Proximity to Fort Eisenhower, excellent schools, and walkable retail make Evans properties among the easiest to lease in the entire CSRA. Single-family homes in subdivisions like Laurel Chase, River Island, and Westwood typically lease within days of listing when priced correctly. The [Evans rental market](/evans/) is where McBride Property Management manages a significant share of its single-family portfolio.
+**[Evans, GA](/evans/)** is the core of Columbia County's rental demand. Proximity to Fort Gordon, excellent schools, and walkable retail make Evans properties among the easiest to lease in the entire CSRA. Single-family homes in subdivisions like Laurel Chase, River Island, and Westwood typically lease within days of listing when priced correctly. The [Evans rental market](/evans/) is where McBride Property Management manages a significant share of its single-family portfolio.
 
 **[Martinez, GA](/martinez/)** offers a slightly lower entry price point than Evans with comparable tenant quality. Martinez benefits from its position between Augusta city and the heart of Evans — it captures medical district commuters and military families who want more space for their dollar. Cap rates in Martinez have remained attractive even as prices have risen, making it a legitimate sweet spot for value-add investors.
 
@@ -82,8 +82,8 @@ If you'd like a straight assessment of a specific property before you buy, [reac
     <div class="faq-answer">Evans remains the strongest submarket for consistent demand and tenant quality. Martinez offers better cap rates with similar tenant profiles. Grovetown and Harlem represent higher-growth opportunities with slightly more execution risk. All three are actively managed by McBride Property Management and show strong leasing velocity when properties are correctly priced and prepared.</div>
   </div>
   <div class="faq-item">
-    <div class="faq-question">Q: How does Fort Eisenhower affect the Columbia County rental market?</div>
-    <div class="faq-answer">Fort Eisenhower (formerly Fort Gordon) is one of the most significant demand drivers in the CSRA rental market. Military families on PCS orders need housing quickly, tend to be reliable tenants, and often receive housing allowances (BAH) that align well with Columbia County rent levels. This creates a consistent baseline of qualified demand that stabilizes vacancy rates year-round.</div>
+    <div class="faq-question">Q: How does Fort Gordon affect the Columbia County rental market?</div>
+    <div class="faq-answer">Fort Gordon (formerly Fort Eisenhower) is one of the most significant demand drivers in the CSRA rental market. Military families on PCS orders need housing quickly, tend to be reliable tenants, and often receive housing allowances (BAH) that align well with Columbia County rent levels. This creates a consistent baseline of qualified demand that stabilizes vacancy rates year-round.</div>
   </div>
   <div class="faq-item">
     <div class="faq-question">Q: How can McBride Property Management help me invest in Columbia County?</div>

@@ -30,7 +30,7 @@ howTo:
 
 </div>
 
-Finding a rental in the Augusta area shouldn't feel like guesswork. Whether you're relocating to [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/), starting a new job at Augusta University Medical Center, or simply moving across town, knowing exactly what a property management company expects from applicants saves you time and stress.
+Finding a rental in the Augusta area shouldn't feel like guesswork. Whether you're relocating to [Fort Gordon](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/), starting a new job at Augusta University Medical Center, or simply moving across town, knowing exactly what a property management company expects from applicants saves you time and stress.
 
 At McBride Property Management, we've streamlined the process so tenants in [Columbia County](/evans/) and the greater CSRA can move from browsing to lease signing as efficiently as possible. This guide walks you through every step — what you'll need, what we look for, and how to put your best foot forward.
 
@@ -41,7 +41,7 @@ Before you apply for anything, find the right property. McBride Property Managem
 A few things to consider as you browse:
 
 - **Budget:** A common guideline is that monthly rent should not exceed 30% of your gross monthly income. If a property is listed at $1,400/month, you'd ideally need a household income of at least $4,200/month before taxes.
-- **Commute:** Columbia County covers a lot of ground. A rental in Evans puts you closer to shopping and top-rated school zones, while Grovetown offers proximity to Fort Eisenhower's Gate 1.
+- **Commute:** Columbia County covers a lot of ground. A rental in Evans puts you closer to shopping and top-rated school zones, while Grovetown offers proximity to Fort Gordon's Gate 1.
 - **Pets:** Some properties allow pets with a deposit or monthly pet rent. Others don't. Check the listing details before falling in love with a place that won't work for your household.
 
 If you don't see something that fits right now, check back regularly — our inventory updates frequently as new properties come under management.
@@ -131,7 +131,7 @@ Guiding you home.
   </div>
   <div class="faq-item">
     <div class="faq-question">Q: Can I apply for a rental in Columbia County if I haven't moved to Augusta yet?</div>
-    <div class="faq-answer">Yes. Many of our applicants are military families PCS-ing to Fort Eisenhower or professionals relocating for work. You can apply online from anywhere, schedule a virtual showing if needed, and coordinate move-in dates with our property management team before you arrive in the Augusta area.</div>
+    <div class="faq-answer">Yes. Many of our applicants are military families PCS-ing to Fort Gordon or professionals relocating for work. You can apply online from anywhere, schedule a virtual showing if needed, and coordinate move-in dates with our property management team before you arrive in the Augusta area.</div>
   </div>
   <div class="faq-item">
     <div class="faq-question">Q: Is the rental application fee refundable?</div>

@@ -14,7 +14,7 @@ Yes — North Augusta offers lower property taxes than Georgia, steady populatio
 
 Most landlords in the Augusta metro think of [Columbia County](/evans/) or Richmond County when they're looking for their next rental property. That makes sense — those are the markets they know. But just across the Savannah River, [North Augusta](/north-augusta/), SC has quietly built one of the most compelling investment cases in the region.
 
-Over the past five years, North Augusta's transformation has been hard to ignore. A minor league baseball stadium, hundreds of new apartment units, mixed-use developments, and a growing population fueled by [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/)'s cyber mission expansion have reshaped this city. If you own rental property in Augusta or Evans and haven't looked at North Augusta recently, you're potentially leaving money on the table.
+Over the past five years, North Augusta's transformation has been hard to ignore. A minor league baseball stadium, hundreds of new apartment units, mixed-use developments, and a growing population fueled by [Fort Gordon](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/)'s cyber mission expansion have reshaped this city. If you own rental property in Augusta or Evans and haven't looked at North Augusta recently, you're potentially leaving money on the table.
 
 Here's what the numbers look like in 2026 and why McBride Property Management is fielding more calls from investors interested in the South Carolina side of the river.
 
@@ -24,7 +24,7 @@ Between 2022 and 2023 alone, North Augusta's population grew by over 2%, reachin
 
 What's driving it? Three things converge here:
 
-**Fort Eisenhower spillover.** The Army Cyber Command relocation and expansion has been the region's economic engine for years. Growth projections tied to the installation estimated more than 6,000 new residents in the surrounding area, including service members, their families, and civilian support workers. North Augusta, with its easy commute across the river to the fort, captures a meaningful share of that demand.
+**Fort Gordon spillover.** The Army Cyber Command relocation and expansion has been the region's economic engine for years. Growth projections tied to the installation estimated more than 6,000 new residents in the surrounding area, including service members, their families, and civilian support workers. North Augusta, with its easy commute across the river to the fort, captures a meaningful share of that demand.
 
 **Major development projects.** Riverside Village — the $230-million mixed-use project anchored by SRP Park — is delivering 315 luxury apartment units in phases through early 2026. Meanwhile, [The Hive development](https://www.northaugustasc.gov/government/city-departments/economic-development) at Exit 1 off I-20 will add another 343 apartment units (Jackson Parc Apartments) by summer 2026, plus townhomes. These projects don't just add housing — they add restaurants, retail, office space, and the kind of walkable infrastructure that attracts long-term residents.
 
@@ -76,7 +76,7 @@ The premium end of the market. Homes here command the highest rents in North Aug
 
 ### Sweetwater and Clearwater Corridors
 
-More affordable entry points for investors. Single-family homes in the $180,000-$240,000 range rent well to families and military tenants seeking good value outside the premium neighborhoods. These areas benefit from proximity to I-20 and an easy commute to Fort Eisenhower.
+More affordable entry points for investors. Single-family homes in the $180,000-$240,000 range rent well to families and military tenants seeking good value outside the premium neighborhoods. These areas benefit from proximity to I-20 and an easy commute to Fort Gordon.
 
 ### The Hive / Exit 1 Area
 
@@ -103,7 +103,7 @@ If you're running numbers on a North Augusta property and want a realistic renta
 <div class="faq-section">
 <div class="faq-item">
 <div class="faq-question">Q: Is North Augusta, SC a good place to invest in rental property?</div>
-<div class="faq-answer">North Augusta offers strong rental demand driven by Fort Eisenhower growth, lower property taxes than Georgia, and median single-family rents around $2,200/month. Population growth exceeding 2% annually supports sustained tenant demand across the market.</div>
+<div class="faq-answer">North Augusta offers strong rental demand driven by Fort Gordon growth, lower property taxes than Georgia, and median single-family rents around $2,200/month. Population growth exceeding 2% annually supports sustained tenant demand across the market.</div>
 </div>
 <div class="faq-item">
 <div class="faq-question">Q: How do South Carolina property taxes compare to Georgia for rental investors?</div>

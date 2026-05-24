@@ -48,7 +48,7 @@ A duplex, triplex, or fourplex consolidates multiple income streams into one dee
 
 **Built-in vacancy protection.** If one unit in your duplex is empty, you're still collecting rent on the other. A fourplex with one vacancy is operating at 75% occupancy — not ideal, but you're likely still covering your debt service.
 
-**Higher cash flow per deal.** A duplex in Augusta's Summerville neighborhood or near [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/) might generate $2,200–$2,800 in combined monthly rent. After expenses, that's often more net cash flow than a single-family home, even accounting for the higher purchase price.
+**Higher cash flow per deal.** A duplex in Augusta's Summerville neighborhood or near [Fort Gordon](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/) might generate $2,200–$2,800 in combined monthly rent. After expenses, that's often more net cash flow than a single-family home, even accounting for the higher purchase price.
 
 **Faster portfolio growth.** If conventional guidelines allow you ten financed investment properties, ten fourplexes give you 40 doors of income versus ten doors with single-family homes. That's a fundamentally different retirement timeline.
 
@@ -68,7 +68,7 @@ A duplex, triplex, or fourplex consolidates multiple income streams into one dee
 
 Augusta's economic fundamentals favor both strategies right now, but certain factors tilt the math in specific areas.
 
-**Fort Eisenhower and the military population** create consistent demand for both single-family and multifamily rentals. BAH rates support rents in the $1,200–$1,800 range for most ranks, which aligns well with both property types in zip codes 30809, 30813, and 30907.
+**Fort Gordon and the military population** create consistent demand for both single-family and multifamily rentals. BAH rates support rents in the $1,200–$1,800 range for most ranks, which aligns well with both property types in zip codes 30809, 30813, and 30907.
 
 **The healthcare sector** — anchored by Augusta University Medical Center and employing over 27,000 professionals — generates demand for quality single-family rentals in Columbia County, while medical students, residents, and support staff often seek multifamily housing closer to the medical district along 15th Street and Walton Way.
 
@@ -113,6 +113,6 @@ If you're evaluating your next acquisition or wondering whether your current por
 </div>
 <div class="faq-item">
 <div class="faq-question">Q: What areas in Augusta are best for multifamily investment?</div>
-<div class="faq-answer">Areas near Fort Eisenhower (zip codes 30905, 30813), the Augusta University Medical District along 15th Street, and established neighborhoods in North Augusta and Martinez offer strong multifamily demand due to proximity to major employers and consistent tenant pools.</div>
+<div class="faq-answer">Areas near Fort Gordon (zip codes 30905, 30813), the Augusta University Medical District along 15th Street, and established neighborhoods in North Augusta and Martinez offer strong multifamily demand due to proximity to major employers and consistent tenant pools.</div>
 </div>
 </div>

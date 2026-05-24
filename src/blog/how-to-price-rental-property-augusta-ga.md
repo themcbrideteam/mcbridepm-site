@@ -49,7 +49,7 @@ Rental rates vary significantly across the greater Augusta metro, and knowing yo
 
 **Aiken and [North Augusta](/north-augusta/) (South Carolina side):** Rents on the South Carolina side tend to run 5–10% lower than equivalent properties in Columbia County, though North Augusta's growth has been closing that gap. Keep in mind that South Carolina has different landlord-tenant laws, which can affect lease terms and [security deposit](/blog/security-deposit-best-practices-georgia/) handling.
 
-**[Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/) influence:** Military families receiving Basic Allowance for Housing (BAH) represent a significant portion of the tenant pool across all these submarkets. BAH rates for the Augusta area are published annually by the [Department of Defense](https://www.defensetravel.dod.mil/site/bahCalc.cfm), and many military tenants will search specifically for homes priced at or near their allowance. Knowing the current BAH for E-5 through O-3 pay grades can help you understand the ceiling many of your prospective tenants are working within.
+**[Fort Gordon](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/) influence:** Military families receiving Basic Allowance for Housing (BAH) represent a significant portion of the tenant pool across all these submarkets. BAH rates for the Augusta area are published annually by the [Department of Defense](https://www.defensetravel.dod.mil/site/bahCalc.cfm), and many military tenants will search specifically for homes priced at or near their allowance. Knowing the current BAH for E-5 through O-3 pay grades can help you understand the ceiling many of your prospective tenants are working within.
 
 ## Adjust for Your Property's Specific Features
 
@@ -104,7 +104,7 @@ Before you publish that listing, run through this:
 1. **Pulled 5–10 comps** within a mile, matched on property type and size
 2. **Checked recently leased properties**, not just active listings
 3. **Adjusted for your property's specific features** — both advantages and drawbacks
-4. **Compared against current BAH rates** if you're near Fort Eisenhower
+4. **Compared against current BAH rates** if you're near Fort Gordon
 5. **Calculated your vacancy cost** at the asking price vs. a slightly lower price
 6. **Verified your pricing is consistent** across all applicants (Fair Housing compliance)
 7. **Set a price-reduction trigger** — if no strong interest in 10 days, reduce by 3–5%

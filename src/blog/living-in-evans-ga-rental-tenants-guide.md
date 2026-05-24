@@ -10,13 +10,13 @@ layout: blog-post.njk
 
 <div class="snippet-box">
 
-Evans, GA is one of the most sought-after rental markets in the CSRA, offering suburban convenience, highly regarded schools, and easy access to Augusta. Whether you're relocating for work, PCS-ing to Fort Eisenhower, or simply looking for a quieter alternative to city living, Evans delivers a quality of life that keeps tenants renewing year after year.
+Evans, GA is one of the most sought-after rental markets in the CSRA, offering suburban convenience, highly regarded schools, and easy access to Augusta. Whether you're relocating for work, PCS-ing to Fort Gordon, or simply looking for a quieter alternative to city living, Evans delivers a quality of life that keeps tenants renewing year after year.
 
 </div>
 
 ## Why Tenants Choose Evans Over Other CSRA Communities
 
-Evans sits in the heart of Columbia County, roughly 15 minutes west of downtown Augusta and about 20 minutes from [Fort Eisenhower](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/)'s main gate. That positioning makes it a practical home base for military families, medical professionals working at Augusta University Health, and anyone commuting into the city for work.
+Evans sits in the heart of Columbia County, roughly 15 minutes west of downtown Augusta and about 20 minutes from [Fort Gordon](/blog/fort-eisenhower-military-tenant-rental-demand-augusta/)'s main gate. That positioning makes it a practical home base for military families, medical professionals working at Augusta University Health, and anyone commuting into the city for work.
 
 But commute times aren't the full story. Evans has its own commercial corridor along Washington Road and Belair Road, with grocery stores, restaurants, medical offices, and retail that mean you won't need to drive into Augusta for everyday errands. Subdivisions like Riverwood Plantation, Bartram Trail, and The Estates at Willow Lake offer a range of rental price points, from townhomes to single-family homes with three or four bedrooms.
 
@@ -60,7 +60,7 @@ Columbia County schools are a major draw for families renting in Evans. The coun
 
 Your daily commute from Evans will depend on where you work:
 
-- **Fort Eisenhower:** 20–25 minutes via I-20 East to Gate 1
+- **Fort Gordon:** 20–25 minutes via I-20 East to Gate 1
 - **Downtown Augusta:** 15–20 minutes via Washington Road or I-20
 - **Augusta University/Medical District:** 15–20 minutes via Riverwatch Parkway or Wheeler Road
 - **Grovetown:** 15 minutes via I-20 East
@@ -96,7 +96,7 @@ If you're ready to start your rental search in Evans, [browse available properti
   </div>
   <div class="faq-item">
     <div class="faq-question">Q: Is Evans, GA a good place to rent for military families?</div>
-    <div class="faq-answer">Evans is one of the most popular off-post housing areas for military families stationed at Fort Eisenhower. The commute to Gate 1 is about 20–25 minutes via I-20, Columbia County schools are highly regarded, and the suburban environment offers the space and safety that families with children prioritize. Many landlords in Evans are familiar with military lease clauses under the SCRA.</div>
+    <div class="faq-answer">Evans is one of the most popular off-post housing areas for military families stationed at Fort Gordon. The commute to Gate 1 is about 20–25 minutes via I-20, Columbia County schools are highly regarded, and the suburban environment offers the space and safety that families with children prioritize. Many landlords in Evans are familiar with military lease clauses under the SCRA.</div>
   </div>
   <div class="faq-item">
     <div class="faq-question">Q: How do I apply for a rental property in Evans, GA?</div>
