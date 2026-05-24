@@ -1,0 +1,14 @@
+{
+  "name": "McBride Property Management",
+  "short_name": "McBride PM",
+  "description": "Augusta, GA property management for residential property owners across the CSRA.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#060644",
+  "icons": [
+    { "src": "/images/favicon-32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/images/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

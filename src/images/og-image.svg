@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="McBride Property Management — Augusta, GA Property Management">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060644"/>
+      <stop offset="1" stop-color="#0d0d5d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Gold accent bar -->
+  <rect x="80" y="80" width="80" height="6" fill="#b2995a"/>
+  <!-- Eyebrow -->
+  <text x="80" y="140" font-family="Open Sans, Arial, sans-serif" font-weight="600" font-size="22" fill="#b2995a" letter-spacing="4">AUGUSTA, GA  ·  EVANS  ·  AIKEN</text>
+  <!-- Headline -->
+  <text x="80" y="240" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="74" fill="#ffffff">McBride Property</text>
+  <text x="80" y="320" font-family="Montserrat, Arial, sans-serif" font-weight="800" font-size="74" fill="#ffffff">Management</text>
+  <!-- Subhead -->
+  <text x="80" y="390" font-family="Open Sans, Arial, sans-serif" font-size="28" fill="#e3e3f0">Residential property management for owners</text>
+  <text x="80" y="430" font-family="Open Sans, Arial, sans-serif" font-size="28" fill="#e3e3f0">across the Central Savannah River Area.</text>
+  <!-- Stats row -->
+  <g font-family="Montserrat, Arial, sans-serif" font-weight="700" fill="#b2995a">
+    <text x="80" y="540" font-size="48">99%</text>
+    <text x="80" y="575" font-size="16" fill="#e3e3f0" font-weight="600">on-time rent</text>
+    <text x="290" y="540" font-size="48">14</text>
+    <text x="290" y="575" font-size="16" fill="#e3e3f0" font-weight="600">avg days on market</text>
+    <text x="600" y="540" font-size="48">10+</text>
+    <text x="600" y="575" font-size="16" fill="#e3e3f0" font-weight="600">years in the CSRA</text>
+  </g>
+  <!-- URL -->
+  <text x="1120" y="575" text-anchor="end" font-family="Open Sans, Arial, sans-serif" font-size="22" font-weight="600" fill="#b2995a">mcbride-pm.com</text>
+</svg>

@@ -1,1 +1,79 @@
-{"name":"McBride Property Management","alternateName":"McBride PM","url":"https://mcbride-pm.com","logo":"https://mcbride-pm.com/images/logo.png","image":"https://mcbride-pm.com/og-image.jpg","description":"Augusta property management company serving Georgia and South Carolina. Expert tenant screening, rent collection, maintenance, and financial reporting for residential property owners across the CSRA.","slogan":"Built on Experience, Driven by Results","foundingDate":"2014","priceRange":"$$","phone":"(706) 420-4883","phoneTel":"7064204883","phoneE164":"+17064204883","email":"amber@c21magnolia.com","address":"609 Ponder Place Drive, Suite B","city":"Evans","state":"GA","zip":"30809","fullAddress":"609 Ponder Place Drive, Suite B, Evans, GA 30809","latitude":33.5362,"longitude":-82.1335,"ownerPortal":"https://c21magnolia.appfolio.com/oportal/users/log_in","residentPortal":"https://c21magnolia.appfolio.com/connect/users/sign_in","amberPhone":"(706) 690-4330","amberPhoneTel":"7066904330","amberEmail":"amber@c21magnolia.com","openingHours":[{"days":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:00"}],"areasServed":[{"name":"Augusta","state":"GA","type":"City"},{"name":"Evans","state":"GA","type":"City"},{"name":"Martinez","state":"GA","type":"City"},{"name":"Grovetown","state":"GA","type":"City"},{"name":"Harlem","state":"GA","type":"City"},{"name":"North Augusta","state":"SC","type":"City"},{"name":"Aiken","state":"SC","type":"City"},{"name":"Columbia County","state":"GA","type":"AdministrativeArea"},{"name":"Richmond County","state":"GA","type":"AdministrativeArea"}],"services":["Residential Property Management","Tenant Screening","Rent Collection","Property Maintenance Coordination","Lease Management","Financial Reporting","Property Marketing & Leasing","Eviction Coordination"],"knowsAbout":["Residential Property Management","Tenant Screening","Rent Collection","Property Maintenance Coordination","Lease Management","Georgia Landlord-Tenant Law","South Carolina Landlord-Tenant Law","Rental Market Analysis","Augusta Rental Market","Columbia County Real Estate"],"sameAs":["https://www.facebook.com/mcbridepropertymanagement","https://www.google.com/maps/place/McBride+Property+Management"],"social":{"facebook":"https://www.facebook.com/mcbridepropertymanagement","linkedin":"","instagram":""},"founder":{"name":"Robert Smith","jobTitle":"Principal Broker"},"buildVerifications":{"googleSiteVerification":"","bingSiteVerification":""}}
+{
+  "name": "McBride Property Management",
+  "alternateName": "McBride PM",
+  "url": "https://mcbride-pm.com",
+  "logo": "https://mcbride-pm.com/images/logo.png",
+  "image": "https://mcbride-pm.com/og-image.jpg",
+  "description": "Augusta property management company serving Georgia and South Carolina. Expert tenant screening, rent collection, maintenance, and financial reporting for residential property owners across the CSRA.",
+  "slogan": "Built on Experience, Driven by Results",
+  "foundingDate": "2014",
+  "priceRange": "$$",
+  "phone": "(706) 420-4883",
+  "phoneTel": "7064204883",
+  "phoneE164": "+17064204883",
+  "email": "amber@c21magnolia.com",
+  "address": "609 Ponder Place Drive, Suite B",
+  "city": "Evans",
+  "state": "GA",
+  "zip": "30809",
+  "fullAddress": "609 Ponder Place Drive, Suite B, Evans, GA 30809",
+  "latitude": 33.5362,
+  "longitude": -82.1335,
+  "ownerPortal": "https://c21magnolia.appfolio.com/oportal/users/log_in",
+  "residentPortal": "https://c21magnolia.appfolio.com/connect/users/sign_in",
+  "amberPhone": "(706) 690-4330",
+  "amberPhoneTel": "7066904330",
+  "amberEmail": "amber@c21magnolia.com",
+  "openingHours": [
+    {"days": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "17:00"}
+  ],
+  "areasServed": [
+    {"name": "Augusta", "state": "GA", "type": "City"},
+    {"name": "Evans", "state": "GA", "type": "City"},
+    {"name": "Martinez", "state": "GA", "type": "City"},
+    {"name": "Grovetown", "state": "GA", "type": "City"},
+    {"name": "Harlem", "state": "GA", "type": "City"},
+    {"name": "North Augusta", "state": "SC", "type": "City"},
+    {"name": "Aiken", "state": "SC", "type": "City"},
+    {"name": "Columbia County", "state": "GA", "type": "AdministrativeArea"},
+    {"name": "Richmond County", "state": "GA", "type": "AdministrativeArea"}
+  ],
+  "services": [
+    "Residential Property Management",
+    "Tenant Screening",
+    "Rent Collection",
+    "Property Maintenance Coordination",
+    "Lease Management",
+    "Financial Reporting",
+    "Property Marketing & Leasing",
+    "Eviction Coordination"
+  ],
+  "knowsAbout": [
+    "Residential Property Management",
+    "Tenant Screening",
+    "Rent Collection",
+    "Property Maintenance Coordination",
+    "Lease Management",
+    "Georgia Landlord-Tenant Law",
+    "South Carolina Landlord-Tenant Law",
+    "Rental Market Analysis",
+    "Augusta Rental Market",
+    "Columbia County Real Estate"
+  ],
+  "sameAs": [
+    "https://www.facebook.com/61585070859577"
+  ],
+  "social": {
+    "facebook": "https://www.facebook.com/61585070859577",
+    "linkedin": "",
+    "instagram": ""
+  },
+  "founder": {
+    "name": "Noah McBride",
+    "jobTitle": "Principal Broker"
+  },
+  "buildVerifications": {
+    "googleSiteVerification": "",
+    "bingSiteVerification": ""
+  }
+}
