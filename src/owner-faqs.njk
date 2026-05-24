@@ -1,0 +1,69 @@
+---
+layout: base.njk
+title: "Owner FAQs — Property Management in Augusta, GA"
+description: "Answers to the most common questions Augusta-area rental property owners ask McBride Property Management — about fees, onboarding, reporting, maintenance, evictions, and contracts."
+permalink: /owner-faqs/
+breadcrumbs:
+  - name: "Home"
+    url: "/"
+  - name: "For Owners"
+  - name: "Owner FAQs"
+robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+faqs:
+  - question: "How much does property management cost in Augusta, GA?"
+    answer: "Property management fees are typically a percentage of monthly rent collected, commonly ranging from 8–12% depending on the type and size of property. McBride PM offers transparent, competitive pricing with no hidden fees. Single-family homes, multi-family complexes, and commercial properties may have different fee structures. Contact us for a personalized quote based on your specific property."
+  - question: "Do I have to sign a long-term contract?"
+    answer: "No. McBride PM believes in earning your business every month. While we offer standard property management agreements, we're flexible on contract terms. Most of our clients stay with us because of the quality of service, not because they're locked into a contract."
+  - question: "How quickly can you take over management of my existing rental?"
+    answer: "Most properties can transition to McBride PM within 1–2 weeks. We coordinate with your existing manager or self-management setup to transfer leases, security deposits, tenant communication, and AppFolio access without disrupting your tenants or your cash flow."
+  - question: "How quickly can you fill a vacancy?"
+    answer: "Our portfolio-wide average days-on-market is 14 days, well under the Augusta-area average. We achieve this through professional listing photography, aggressive placement on Zillow, Apartments.com, Realtor.com, and the local MLS, social media promotion, and self-scheduled showings that work around the applicant's schedule, not ours."
+  - question: "What types of properties do you manage?"
+    answer: "We manage single-family homes, townhomes, duplexes, small multi-family buildings, and some commercial properties throughout Augusta, Evans, Martinez, Grovetown, Harlem, Hephzibah, North Augusta, and Aiken. We have particular depth managing for accidental landlords (military PCS, inherited properties), small-portfolio owners (1–10 units), and owners scaling into multifamily."
+  - question: "How do you screen tenants?"
+    answer: 'Every adult applicant goes through credit history review, income verification (typically 3× monthly rent), employment verification, rental history with the last two landlords, and criminal and eviction background checks. We follow Fair Housing law and apply consistent criteria to every applicant. See our <a href="/blog/tenant-screening-process-augusta-ga-landlords/">tenant screening process explainer</a> for the details.'
+  - question: "How do you handle maintenance and repairs?"
+    answer: "Tenants submit maintenance requests through the AppFolio resident portal 24/7. Non-emergency requests are triaged within one business day; true emergencies (no heat in winter, no AC in summer, water leaks, lockouts, sewage) get immediate response. We coordinate with our vetted network of licensed and insured local vendors and document every job with photos and invoices in your owner portal."
+  - question: "What's the maintenance approval process?"
+    answer: "Our standard agreement gives McBride PM authority to approve and complete routine repairs up to a per-incident threshold (typically $400, configurable). Anything above that, or any non-routine work, requires your written approval, which we typically request via email with the vendor estimate attached. True emergencies are handled immediately with prompt notification."
+  - question: "How and when do I get paid?"
+    answer: "Rent is due from tenants on the 1st and considered late after the 5th. McBride PM disburses owner proceeds via ACH typically by the 10th–15th of each month, after rent has cleared and after deducting management fees, approved maintenance costs, and any owner-approved reserves. You'll see the full ledger in your AppFolio owner portal in real time."
+  - question: "What financial reporting do I get?"
+    answer: "Monthly owner statements (income, expenses, net distribution), real-time ledger access in your AppFolio owner portal, copies of all vendor invoices, year-end 1099 documents for tax reporting, and an annual cash-flow summary. Statements are delivered electronically; we can mail printed copies on request."
+  - question: "What happens if a tenant stops paying rent?"
+    answer: 'We follow a defined late-rent protocol: automated reminders on day 1–5, formal notice on day 6, and personal contact from our team if rent isn''t received by day 10. If the tenant can''t or won''t pay, we initiate the Georgia dispossessory process (or the South Carolina equivalent) with your authorization. See <a href="/blog/georgia-eviction-process-landlord-guide/">our Georgia eviction process guide</a> for the full timeline and costs.'
+  - question: "Do you handle evictions?"
+    answer: "Yes. We coordinate the full Georgia or South Carolina eviction process — Safe at Home Act notice, demand for possession, dispossessory filing in magistrate court, hearing representation by an attorney we engage, and coordination with the sheriff for writ of possession if needed. Eviction-related legal fees are typically passed through to the owner and recoverable from the tenant where possible."
+  - question: "Do you manage Section 8 / Housing Choice Voucher properties?"
+    answer: "Yes. We have experience managing Section 8 and HCV properties throughout the CSRA. These programs provide reliable, on-time rent payments and can be an excellent source of consistent income. We handle the compliance, inspections, and paperwork."
+  - question: "Are you licensed in both Georgia and South Carolina?"
+    answer: "Yes. McBride PM is licensed and actively managing properties in both Georgia and South Carolina. Our broker of record is Noah McBride. This is meaningful for owners of properties in North Augusta, Aiken, or Edgefield County, where Georgia-only managers can't legally operate."
+  - question: "Can I see properties you're currently managing or have rented?"
+    answer: "You can browse our current vacancies on the [Available Rentals page](/rentals/). For leased properties or our owner case studies, contact Amber and we'll walk you through what we manage and how each property is performing."
+  - question: "How do I get started?"
+    answer: "Contact Amber, our Operations Manager, at (706) 420-4883 or amber@c21magnolia.com to schedule a free consultation. We'll discuss your property, your goals, and how our services can benefit you. During this call, we'll answer your questions and provide a customized proposal with transparent pricing. Most properties transition into management within 1–2 weeks."
+---
+
+<section class="section">
+  <div class="container" style="max-width: 820px;">
+    <h1>Owner FAQs</h1>
+    <p style="font-size: 1.1rem; color: #555;">Answers to the questions Augusta-area rental owners ask us most often &mdash; fees, onboarding, reporting, maintenance, evictions, and what working with McBride Property Management actually looks like.</p>
+
+    <p style="margin-top: 1.5rem;">Don't see your question? <a href="/contact/">Get in touch</a> or call <a href="tel:7064204883">(706) 420-4883</a>.</p>
+
+    <hr style="margin: 2.5rem 0; border: 0; border-top: 1px solid #e3e3e3;">
+
+    {% for q in faqs %}
+    <div style="margin-bottom: 2rem;">
+      <h2 style="font-size: 1.25rem; color: #060644; margin-bottom: 0.6rem;">{{ q.question }}</h2>
+      <p style="line-height: 1.75; color: #333;">{{ q.answer | safe }}</p>
+    </div>
+    {% endfor %}
+
+    <div style="background: #f5f1e8; border-left: 5px solid #b2995a; padding: 1.5rem 1.75rem; border-radius: 4px; margin-top: 3rem;">
+      <h3 style="color: #060644; margin: 0 0 0.5rem;">Ready to talk about your property?</h3>
+      <p style="margin: 0 0 1rem;">Get a free rental analysis with a market-backed price recommendation and projected cash flow for your specific property.</p>
+      <a href="/contact/" class="btn btn-primary">Request a Free Rental Analysis</a>
+    </div>
+  </div>
+</section>
