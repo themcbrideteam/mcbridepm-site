@@ -90,15 +90,22 @@ We are not currently serving large portfolio owners (4+ units) as a primary segm
 
 ## 3. Phase 1 — Audit the existing archive
 
-Pull the complete current post list. Do NOT rely on any cached list in this document. The site has 27+ posts and is growing daily.
+Clone the site repo first (§8.1 has the full clone command — do that step now). Then pull the complete current post list from the working tree. Do NOT rely on any cached list in this document. The site has 27+ posts and is growing daily.
 
 ```bash
-gh api repos/themcbrideteam/mcbridepm-site/contents/src/blog \
-  --jq '.[] | select(.name | endswith(".md")) | .name' \
-  | sort
+ls src/blog/*.md | sort
 ```
 
-For each post you haven't seen this run, read the frontmatter — at minimum: `title`, `description`, `date`, `category`, `keywords`. Build a mental map of:
+For each post, read the frontmatter — at minimum: `title`, `description`, `date`, `category`, `keywords`. A quick scan:
+
+```bash
+for f in src/blog/*.md; do
+  echo "=== $(basename $f) ==="
+  awk '/^---$/{n++; if(n==2) exit} n>=1' "$f" | grep -E '^(title|description|date|category|keywords):'
+done
+```
+
+Build a mental map of:
 
 - **Topics already covered** (so today's post doesn't duplicate)
 - **Personas served most recently** (so today's persona is the underrepresented one)
