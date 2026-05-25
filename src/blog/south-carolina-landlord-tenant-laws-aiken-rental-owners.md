@@ -5,6 +5,8 @@ date: 2026-04-19
 category: "Property Owners"
 readTime: "8 min"
 keywords: ["South Carolina landlord tenant laws", "Aiken SC rental property", "North Augusta landlord requirements", "SC security deposit law", "CSRA rental property management"]
+image: "/images/blog/south-carolina-landlord-tenant-laws-aiken-rental-owners.jpg"
+imageAlt: "Historic Aiken South Carolina downtown street with restored brick storefronts under live oaks"
 ---
 
 <div class="snippet-box">
@@ -50,6 +52,11 @@ Emergencies are the only exception to the notice requirement. If there's a burst
 
 This is worth emphasizing because Georgia doesn't codify a specific notice period at the state level the way South Carolina does. Georgia's landlord-tenant law discusses "reasonable access" but leaves the definition more open-ended. If you're used to Georgia's more flexible approach, make sure you're building that 24-hour buffer into your SC property operations.
 
+
+<figure class="blog-figure">
+  <img src="/images/blog/south-carolina-landlord-tenant-laws-aiken-rental-owners-2.jpg" alt="Lease-style document with a dual-state Georgia South Carolina map and a brass key on a desk" loading="lazy" width="1408" height="768">
+</figure>
+
 ## The Eviction Process in South Carolina
 
 Eviction is never pleasant, but understanding the process prevents costly mistakes. South Carolina's eviction process runs through Magistrate Court and follows a specific sequence.
@@ -77,6 +84,11 @@ Georgia's dispossessory process is similar in structure but has different notice
 South Carolina does not have any rent control laws, and state law actually preempts local municipalities from enacting their own rent control ordinances. You can raise rent by any amount with proper notice at the end of a lease term. For month-to-month tenancies, you'll need to provide **30 days' written notice** before a rent increase takes effect.
 
 This is consistent with Georgia's approach — neither state caps rental rates. But the notice requirements differ, so make sure your [lease renewal](/blog/lease-renewal-strategies-augusta-ga-landlords/) process accounts for whichever state the property sits in.
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/south-carolina-landlord-tenant-laws-aiken-rental-owners-3.jpg" alt="Stately Aiken County South Carolina courthouse exterior framed by live oaks in afternoon light" loading="lazy" width="1408" height="768">
+</figure>
 
 ## Lease Requirements and Disclosures
 

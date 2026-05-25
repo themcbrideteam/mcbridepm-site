@@ -5,6 +5,8 @@ date: 2026-04-16
 category: "Property Owners"
 readTime: "7 min"
 keywords: ["accidental landlord Augusta GA", "rent out home Augusta Georgia", "PCS landlord Fort Gordon", "accidental landlord what to do", "property management Augusta GA"]
+image: "/images/blog/accidental-landlord-augusta-ga-what-to-do.jpg"
+imageAlt: "Single-family Southern home with a blank for-rent sign in the front yard at golden hour"
 ---
 
 <div class="snippet-box">
@@ -66,6 +68,11 @@ Your specific rent should factor in the property's square footage, number of bed
 
 If you're not sure where to start, [reach out to our team](/contact/) for a [free rental analysis](/contact/). We run these regularly for property owners across the CSRA.
 
+
+<figure class="blog-figure">
+  <img src="/images/blog/accidental-landlord-augusta-ga-what-to-do-2.jpg" alt="Moving box with a house key and a checklist on a hardwood floor in warm afternoon light" loading="lazy" width="1408" height="768">
+</figure>
+
 ## Decide: Self-Manage or Hire a Property Manager
 
 This is the fork in the road for every accidental landlord. Both options work — but they demand very different things from you.
@@ -91,6 +98,11 @@ Before you list, make sure the property meets habitability standards and present
 **Presentation items:** fresh neutral paint, professional-grade cleaning (including carpets), functioning appliances, and a well-maintained exterior. First impressions matter — properties that show well tend to attract higher-quality applicants and lease faster.
 
 **Documentation:** take dated photos of every room before the tenant moves in. This protects you during the security deposit return process and provides a clear baseline if there's ever a dispute about property condition.
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/accidental-landlord-augusta-ga-what-to-do-3.jpg" alt="Two hands shaking over a desk with a small model home symbolizing a handoff" loading="lazy" width="1408" height="768">
+</figure>
 
 ## Understand the Tax Implications
 

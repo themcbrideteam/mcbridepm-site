@@ -5,6 +5,8 @@ date: 2026-05-15
 category: "Property Owners"
 readTime: "7 min"
 keywords: ["lease renewal Augusta GA", "tenant retention landlord tips", "rental property lease renewal Georgia", "reduce tenant turnover Augusta", "Columbia County landlord lease strategies"]
+image: "/images/blog/lease-renewal-strategies-augusta-ga-landlords.jpg"
+imageAlt: "Welcoming Southern home with rocking chairs on a covered porch at golden hour"
 ---
 
 <div class="snippet-box">
@@ -61,6 +63,11 @@ A tenant who's paid on time for two years, maintained the property well, and cau
 
 Whatever increase you decide on, present it as part of a conversation, not a demand. Explain your reasoning briefly: property taxes went up, insurance costs increased, or you're simply aligning with current market rates. Most tenants understand that some increase is normal. What drives them away is feeling blindsided or undervalued.
 
+
+<figure class="blog-figure">
+  <img src="/images/blog/lease-renewal-strategies-augusta-ga-landlords-2.jpg" alt="Open rental ledger and brass key on a wooden desk in warm afternoon light" loading="lazy" width="1408" height="768">
+</figure>
+
 ## Renewal Incentives That Work
 
 Sometimes a small gesture makes the difference between a signed renewal and a notice to vacate. Consider offering one or more of these incentives as part of your renewal package:
@@ -98,6 +105,11 @@ Not every tenant deserves a renewal offer. If you've dealt with chronic late pay
 In Georgia, you're not required to provide a reason for non-renewal. You simply need to give 60 days' written notice before the lease end date that you won't be renewing. This is significantly simpler than pursuing an [eviction](/blog/georgia-eviction-process-landlord-guide/) during an active lease term.
 
 Be professional about it. Provide the notice in writing, remind the tenant of their move-out obligations (cleaning, key return, forwarding address for security deposit), and document the property's condition with a thorough inspection.
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/lease-renewal-strategies-augusta-ga-landlords-3.jpg" alt="Two hands exchanging a folded lease-style document across a wooden desk" loading="lazy" width="1408" height="768">
+</figure>
 
 ## The McBride Property Management Approach
 

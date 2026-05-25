@@ -57,8 +57,13 @@ def imagen_call(prompt: str, key: str) -> bytes:
 
 
 def generate_image_with_retry(prompt: str, outfile: str, key: str) -> bool:
-    """Generate one image. Returns True on success, False on terminal failure."""
-    for attempt in (1, 2):
+    """Generate one image. Returns True on success, False on terminal failure.
+
+    Always sleeps a small amount before the request to stay under the per-minute
+    rate limit. On 429, backs off progressively.
+    """
+    for attempt in (1, 2, 3):
+        time.sleep(7)  # base inter-call gap to stay under QPM
         try:
             data = imagen_call(prompt, key)
             os.makedirs(os.path.dirname(outfile), exist_ok=True)
@@ -66,9 +71,13 @@ def generate_image_with_retry(prompt: str, outfile: str, key: str) -> bool:
                 f.write(data)
             print(f"    OK -> {os.path.relpath(outfile, REPO_ROOT)} ({len(data):,} bytes)")
             return True
-        except (urllib.error.HTTPError, urllib.error.URLError, RuntimeError) as e:
+        except urllib.error.HTTPError as e:
+            print(f"    attempt {attempt} failed: HTTP {e.code} {e.reason}")
+            if e.code == 429:
+                time.sleep(20 * attempt)
+        except (urllib.error.URLError, RuntimeError) as e:
             print(f"    attempt {attempt} failed: {e}")
-            time.sleep(2)
+            time.sleep(5 * attempt)
     return False
 
 

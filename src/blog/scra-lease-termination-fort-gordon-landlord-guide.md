@@ -7,6 +7,8 @@ readTime: "10"
 keywords: ["SCRA lease termination Augusta GA landlord", "military tenant breaks lease Fort Gordon", "Servicemembers Civil Relief Act Georgia rental", "Fort Gordon PCS tenant lease Georgia", "CSRA military tenant SCRA rights"]
 author: "Noah McBride"
 authorTitle: "Principal Broker"
+image: "/images/blog/scra-lease-termination-fort-gordon-landlord-guide.jpg"
+imageAlt: "Grovetown Georgia suburban residential street near Fort Gordon in warm afternoon light"
 faqs:
   - question: "Can a military tenant break a lease in Georgia without penalty under the SCRA?"
     answer: "Yes. Under 50 U.S.C. § 3955, any active-duty service member with valid PCS or deployment orders of 90 or more days can terminate a residential lease without penalty. No early termination fee is permitted. Normal security deposit deductions for actual damage beyond normal wear and tear still apply."
@@ -121,6 +123,11 @@ The formula gives you a minimum of 30 days and often closer to 60. During the en
 
 If your tenant asks to vacate before the effective SCRA date — say, they want to move June 15 but the termination is July 1 — you may agree to an earlier release. Put that agreement in writing with the specific date. Informal arrangements create disputes.
 
+
+<figure class="blog-figure">
+  <img src="/images/blog/scra-lease-termination-fort-gordon-landlord-guide-2.jpg" alt="Folder and sealed envelope on a wooden desk with a brass key and fountain pen" loading="lazy" width="1408" height="768">
+</figure>
+
 ## What You Cannot Do After Receiving Valid SCRA Notice
 
 Once a valid SCRA notice is received, the following actions are prohibited under federal law:
@@ -158,6 +165,11 @@ Under [50 U.S.C. § 3955(f)(2)](https://www.militaryonesource.mil/deployment/pre
 If "last month's rent" was applied to a month that now runs past the effective SCRA termination date, you owe back the prorated portion. Calculate it by the day. Document it in your security deposit accounting statement. Refund it on time.
 
 Landlords who miss this obligation — usually because they didn't realize prepaid rent was subject to the SCRA refund rule — end up with a federal compliance issue over amounts they could have handled simply.
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/scra-lease-termination-fort-gordon-landlord-guide-3.jpg" alt="Calculator a BAH-chart-style printout and a small key set on a clean kitchen counter" loading="lazy" width="1408" height="768">
+</figure>
 
 ## How to Write a Military-Ready Lease Clause
 

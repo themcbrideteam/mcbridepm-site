@@ -20,6 +20,8 @@ howTo:
       text: "Georgia law requires landlords to return the deposit, or send a written itemized statement of withholdings, within 30 days of the lease end. Late returns can forfeit the landlord's right to deduct at all."
     - name: "Re-market the property aggressively"
       text: "List on Zillow, Apartments.com, Realtor.com, and the local MLS the day the unit is ready (or sooner with 'available' date). Use high-quality photos, accurate descriptions, and competitive pricing based on current Augusta-area comps. Every vacant day is lost income — McBride PM averages 14 days on market."
+image: "/images/blog/tenant-turnover-make-ready-checklist-augusta-ga-landlords.jpg"
+imageAlt: "Empty freshly-prepared rental living room with a folded stepladder against one wall"
 ---
 
 <div class="snippet-box">
@@ -67,6 +69,11 @@ This is where a lot of self-managing landlords in Augusta and Martinez get tripp
 
 If you're unsure, document it thoroughly and err on the side of fairness. Georgia courts can award tenants up to three times the wrongfully withheld deposit amount, plus attorney fees. It's not worth a $200 deduction that costs you $1,500 in court.
 
+
+<figure class="blog-figure">
+  <img src="/images/blog/tenant-turnover-make-ready-checklist-augusta-ga-landlords-2.jpg" alt="Paint roller resting on a paint tray on a drop cloth in a freshly painted room" loading="lazy" width="1408" height="768">
+</figure>
+
 ## The Make-Ready Checklist
 
 Once the tenant is out and the inspection is done, work through these items systematically. The goal is to get the property rent-ready in 7 to 10 days — not 3 to 4 weeks.
@@ -112,6 +119,11 @@ Georgia gives landlords 30 days after the tenant vacates to either return the fu
 Send the deposit return and itemization to the tenant's last known address or forwarding address. Keep copies of everything: the inspection photos, the itemized list, receipts for any repairs charged against the deposit, and proof of mailing.
 
 For properties managed by [McBride Property Management](/services/), we handle this entire process — inspection, documentation, vendor coordination, deposit accounting, and legal compliance — so owners don't have to worry about missing deadlines or making costly mistakes.
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/tenant-turnover-make-ready-checklist-augusta-ga-landlords-3.jpg" alt="Neatly arranged cleaning kit on a hardwood floor in an empty rental room" loading="lazy" width="1408" height="768">
+</figure>
 
 ## Reducing Vacancy Between Tenants
 
