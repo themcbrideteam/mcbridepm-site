@@ -22,6 +22,8 @@ howTo:
       url: "https://mcbride-pm.com/rentals/"
     - name: "Receive your decision"
       text: "McBride Property Management typically returns a decision in 1–3 business days. If approved, you'll receive a lease offer, security deposit instructions, and a move-in date. If declined, you'll receive a written reason that complies with the Fair Credit Reporting Act."
+image: "/images/blog/how-to-apply-for-rental-mcbride-property-management.jpg"
+imageAlt: "Hand holding a smartphone showing a rental application interface at a sunlit kitchen table"
 ---
 
 <div class="snippet-box">
@@ -68,6 +70,11 @@ We'll ask for your previous landlord's name and contact information — ideally 
 ### Authorization for Background and Credit Check
 The application includes consent for a credit check, criminal background check, and eviction history search. We'll cover what we're actually looking for in the next section.
 
+
+<figure class="blog-figure">
+  <img src="/images/blog/how-to-apply-for-rental-mcbride-property-management-2.jpg" alt="Government-style ID card pay-stubs and a smartphone on a clean wooden table" loading="lazy" width="1408" height="768">
+</figure>
+
 ## Step 4: Submit Your Application
 
 Applications are submitted online through our website. Head to the specific listing you're interested in and click the apply button, or visit our [contact page](/contact/) for a direct link. The application fee covers the cost of third-party screening reports and is non-refundable.
@@ -95,6 +102,11 @@ We contact previous landlords to verify rent payment history, lease compliance, 
 McBride Property Management typically processes applications within one to three business days. If we need additional documentation or clarification, we'll reach out directly. Once approved, you'll receive a lease agreement for review and signing, along with move-in instructions that cover the [security deposit](/blog/security-deposit-best-practices-georgia/), first month's rent, and any applicable pet deposits.
 
 If your application isn't approved, we'll let you know. While we can't always disclose the specific reason (screening reports are governed by federal law), we can point you toward your rights under the Fair Credit Reporting Act if a credit-related issue was a factor.
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/how-to-apply-for-rental-mcbride-property-management-3.jpg" alt="Clean vacant rental home interior with hardwood floors and keys on the kitchen counter" loading="lazy" width="1408" height="768">
+</figure>
 
 ## Tips to Strengthen Your Application
 

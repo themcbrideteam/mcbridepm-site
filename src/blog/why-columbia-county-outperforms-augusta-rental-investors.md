@@ -77,6 +77,7 @@ If you'd like a straight assessment of a specific property before you buy, [reac
 
 ---
 
+
 ## Frequently Asked Questions
 
 <div class="faq-section">
