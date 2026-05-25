@@ -8,6 +8,8 @@ keywords: "renting in Augusta GA, Columbia County rentals, tenant guide, rental 
 layout: blog-post.njk
 ctaTitle: "Ready to Find Your Home?"
 ctaText: "Browse available rentals at McBride Property Management and find your perfect home in Augusta and Columbia County."
+image: "/images/blog/renting-in-augusta.jpg"
+imageAlt: "Augusta Georgia residential street with a mix of brick ranch and two-story homes at golden hour"
 ---
 
 <div class="snippet-box">
@@ -33,6 +35,11 @@ For affordability and established neighborhoods, Martinez and Central Augusta de
 ### Fort Gordon Proximity
 
 Military families and those working at Fort Gordon often find Grovetown and Evans particularly convenient due to commute times. Many landlords in these areas cater to military renters with flexible lease terms, including shorter 6-month or even month-to-month options. Understanding your proximity to Fort Gordon can help you narrow down neighborhoods that match your lifestyle and commute.
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/renting-in-augusta-2.jpg" alt="Hand holding a phone showing a map-style interface above a sunlit table with a coffee mug" loading="lazy" width="1408" height="768">
+</figure>
 
 ## What to Expect in the Application Process
 
