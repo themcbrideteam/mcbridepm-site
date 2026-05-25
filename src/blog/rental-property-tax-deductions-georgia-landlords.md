@@ -5,6 +5,8 @@ date: 2026-04-27
 category: "Property Owners"
 readTime: "8 min"
 keywords: ["rental property tax deductions Georgia", "landlord tax deductions Augusta GA", "rental property depreciation 2026", "bonus depreciation rental property", "QBI deduction landlord"]
+image: "/images/blog/rental-property-tax-deductions-georgia-landlords.jpg"
+imageAlt: "Clean home office with a laptop printed papers and a coffee mug in warm afternoon light"
 ---
 
 <div class="snippet-box">
@@ -64,6 +66,11 @@ A few important details to keep in mind. The property must be both acquired and 
 
 For landlords renovating a rental before listing it, or replacing major systems like an HVAC unit in an Aiken rental, this is a substantial first-year tax benefit. A $12,000 HVAC replacement that you’d previously depreciate over five or more years can now be written off entirely in Year One.
 
+
+<figure class="blog-figure">
+  <img src="/images/blog/rental-property-tax-deductions-georgia-landlords-2.jpg" alt="Tax-form-style document with a calculator a pen and a small model home on a wooden desk" loading="lazy" width="1408" height="768">
+</figure>
+
 ## The QBI Deduction: 20% Off Your Rental Income
 
 The Qualified Business Income (QBI) deduction under Section 199A allows eligible landlords to deduct up to 20% of their net rental income from their taxable income. And thanks to the OBBBA, this deduction is now permanent — it was previously set to expire after 2025.
@@ -91,6 +98,11 @@ Getting this wrong can trigger an audit or cause you to miss legitimate deductio
 Section 179 allows you to deduct the full purchase price of qualifying equipment and property improvements in the year they’re placed in service, up to $2,500,000 for tax years beginning in 2025. This applies to tangible personal property used in your rental business — appliances, water heaters, security systems, and similar items.
 
 While Section 179 and bonus depreciation overlap in many cases, Section 179 gives you more control since it’s elective — you can choose how much to expense. This can be useful for managing your taxable income from year to year, especially if you own multiple rentals across the Augusta metro.
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/rental-property-tax-deductions-georgia-landlords-3.jpg" alt="Open leather-bound ledger with a fountain pen in warm window light" loading="lazy" width="1408" height="768">
+</figure>
 
 ## Record-Keeping That Protects Your Deductions
 

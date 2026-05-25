@@ -6,6 +6,8 @@ category: "Property Owners"
 readTime: "6"
 keywords: ["Columbia County rental investment", "Augusta GA rental market", "Evans GA rental property", "CSRA rental investment", "property management Columbia County"]
 layout: blog-post.njk
+image: "/images/blog/why-columbia-county-outperforms-augusta-rental-investors.jpg"
+imageAlt: "Upscale Columbia County Georgia subdivision entrance with brick monument and curving road"
 ---
 
 <div class="snippet-box">
@@ -47,6 +49,11 @@ Not every submarket within Columbia County performs the same way. Here's how the
 **Grovetown and Harlem** represent the growth frontier. Infrastructure improvements, new retail development, and relatively affordable land costs have drawn both residential developers and renters priced out of Evans. These markets carry more execution risk than Evans or Martinez, but investors who got in early have seen strong appreciation and rent growth. McBride Property Management's [property management services](/services/) now extend actively into the Grovetown corridor given the volume of new investor activity there.
 
 ---
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/why-columbia-county-outperforms-augusta-rental-investors-2.jpg" alt="Three small model homes placed on different areas of a printed area map on a desk" loading="lazy" width="1408" height="768">
+</figure>
 
 ## What Augusta City Still Does Well
 

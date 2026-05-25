@@ -5,6 +5,8 @@ date: 2026-04-17
 category: "Property Owners"
 readTime: "7 min"
 keywords: ["North Augusta SC rental investment", "Aiken County rental property", "North Augusta property management", "rental market North Augusta", "Augusta area rental investment"]
+image: "/images/blog/north-augusta-sc-rental-investment-guide.jpg"
+imageAlt: "North Augusta South Carolina residential view with mature hardwoods and the Savannah River corridor in the distance"
 ---
 
 <div class="snippet-box">
@@ -52,6 +54,11 @@ For investors running a portfolio of five or ten single-family homes, the cumula
 
 One important note for Georgia-based investors: as of July 2025, [Georgia HB 399](https://www.steadily.com/blog/augusta-real-estate-market) requires out-of-state owners of single-family or duplex rental properties to hire a Georgia-licensed property manager. If you're a Georgia investor buying in South Carolina, this particular law doesn't apply to your SC properties — but South Carolina has its own landlord-tenant requirements you'll need to follow.
 
+
+<figure class="blog-figure">
+  <img src="/images/blog/north-augusta-sc-rental-investment-guide-2.jpg" alt="Two side-by-side property analysis documents with a model home and coffee mug on a desk" loading="lazy" width="1408" height="768">
+</figure>
+
 ## South Carolina Landlord-Tenant Law: What You Need to Know
 
 If you've been managing rentals in Georgia, the [South Carolina Residential Landlord and Tenant Act](https://www.scstatehouse.gov/code/t27c040.php) (SCRLTA) has some differences worth understanding before you buy across the river.
@@ -81,6 +88,11 @@ More affordable entry points for investors. Single-family homes in the $180,000-
 ### The Hive / Exit 1 Area
 
 This is North Augusta's next growth frontier. With 343 new apartment units under construction and commercial development planned, the Exit 1 corridor is positioning itself as a secondary activity center. Investors buying single-family homes nearby now could benefit from appreciation as the area builds out over the next two to three years.
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/north-augusta-sc-rental-investment-guide-3.jpg" alt="Porch with rocking chairs overlooking the Savannah River in North Augusta at golden hour" loading="lazy" width="1408" height="768">
+</figure>
 
 ## Risks and Considerations
 

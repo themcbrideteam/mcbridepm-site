@@ -5,6 +5,8 @@ date: 2026-04-05
 category: "Property Owners"
 readTime: "6"
 keywords: ["1031 exchange Augusta GA", "rental property tax deferral Georgia", "Columbia County investment property", "1031 exchange rental investors", "Augusta real estate investing"]
+image: "/images/blog/1031-exchange-basics-augusta-rental-investors.jpg"
+imageAlt: "Two similar single-family rental homes on a tree-lined Southeastern street at golden hour"
 ---
 
 <div class="snippet-box">
@@ -51,6 +53,11 @@ This is where many investors get pleasantly surprised. "Like-kind" is broader th
 
 The key requirement is that both the relinquished and replacement properties are held for investment or productive use in a trade or business. Your primary residence does not qualify, and neither does a property you intend to flip immediately.
 
+
+<figure class="blog-figure">
+  <img src="/images/blog/1031-exchange-basics-augusta-rental-investors-2.jpg" alt="Two model homes on a desk with a curved exchange arrow drawn between them" loading="lazy" width="1408" height="768">
+</figure>
+
 ## Common Mistakes Augusta Investors Should Avoid
 
 Noah McBride, broker at McBride Property Management, sees investors in the CSRA make a few recurring mistakes when attempting 1031 exchanges.
@@ -74,6 +81,11 @@ The real power of a 1031 exchange isn't in a single transaction — it's in the 
 This is how experienced landlords in the CSRA build generational wealth. Each exchange moves you up the ladder without the tax drag that normally slows portfolio growth.
 
 McBride Property Management works with investors across [Augusta](/augusta/), [Evans](/evans/), [Grovetown](/grovetown/), and [North Augusta](/north-augusta/) who use 1031 exchanges as part of their long-term strategy. Having a property management partner who understands the investment side — not just the day-to-day operations — makes the transition between properties significantly smoother.
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/1031-exchange-basics-augusta-rental-investors-3.jpg" alt="Investor's home office with a wooden desk a calendar and a bookshelf in warm afternoon light" loading="lazy" width="1408" height="768">
+</figure>
 
 ## What You'll Need on Your Team
 
