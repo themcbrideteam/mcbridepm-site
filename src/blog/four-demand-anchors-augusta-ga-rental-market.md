@@ -7,6 +7,8 @@ readTime: "11"
 keywords: ["Augusta GA rental market investment 2026", "CSRA rental market fundamentals", "Fort Gordon rental demand Augusta", "out-of-state investor Augusta GA rentals", "Columbia County rental investment"]
 author: "Noah McBride"
 authorTitle: "Principal Broker"
+image: "/images/blog/four-demand-anchors-augusta-ga-rental-market.jpg"
+imageAlt: "Established single-family residential street in a Columbia County, Georgia subdivision at golden hour"
 faqs:
   - question: "What makes Augusta, GA a stable rental market for investors?"
     answer: "Augusta's rental stability comes from four non-correlated demand anchors: Fort Gordon (U.S. Army Cyber Center of Excellence), the Savannah River Site, Wellstar MCG Health / Augusta University, and Columbia County's private-sector growth engine. No single employer contraction can collapse local rental demand."
@@ -96,6 +98,10 @@ New hospitals create sharp, localized rental demand spikes. When a 100-bed acute
 
 Healthcare workers are less transient than active-duty military, tend to have higher household incomes (supporting rents at the top of the submarket range), and tend to stay in well-maintained properties longer when they're putting down roots in a community. For a landlord, that profile means lower turnover and lower make-ready costs compared to the military rotation cycle.
 
+<figure class="blog-figure">
+  <img src="/images/blog/four-demand-anchors-augusta-ga-rental-market-2.jpg" alt="An investor's desk showing a printed Augusta-area rental analysis, a brass key on a small model home, fountain pen, and coffee mug in warm window light" loading="lazy" width="1408" height="768">
+</figure>
+
 ---
 
 ## Anchor #4: Columbia County's Private-Sector Growth Machine
@@ -130,6 +136,10 @@ The median sale price for Augusta-area homes runs roughly **$193,000–$225,000*
 Vacancy rates in secondary markets like Augusta are tracking **sub-5%** in 2026. The structural reason is the multi-anchor demand picture described above: when one sector softens temporarily — a military drawdown, a short-term construction cycle — the other three continue to generate tenant demand.
 
 *This is general market guidance — not financial or investment advice. Run your own analysis for each property. Consult a CPA familiar with Georgia rental real estate for tax modeling specific to your situation.*
+
+<figure class="blog-figure">
+  <img src="/images/blog/four-demand-anchors-augusta-ga-rental-market-3.jpg" alt="A clean freshly renovated rental kitchen interior with hardwood floors, white shaker cabinets, granite counters, and warm afternoon light" loading="lazy" width="1408" height="768">
+</figure>
 
 ---
 
