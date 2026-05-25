@@ -333,34 +333,105 @@ If you can't honestly answer yes to all six, rework before publishing.
 
 ---
 
-## 7. Phase 5 — Generate the hero image
+## 7. Phase 5 — Generate three on-brand images via Gemini Imagen 4 Fast
 
-Use the Canva MCP to produce a 16:9 landscape hero image, on-brand, topic-relevant, and free of human-generated text overlays.
+Every published post gets **three** images: one hero (referenced in the `image:` frontmatter field) plus **two body images** embedded inline at natural H2 transitions. All three are generated through Google's Imagen 4 Fast API using the `GEMINI_API_KEY` environment variable provided in the routine prompt. There is no Canva involvement.
 
-### 7.1 Build the image prompt
+### 7.1 Build three distinct image prompts
 
-Read `/Users/noahmcbride/Documents/Claude/Scheduled/mcbride-pm-daily-blog/BRAND_VISUAL.md` and use its style language. The image prompt has three parts:
+Read `.claude/blog-skill/BRAND_VISUAL.md` in full before writing prompts. Every prompt includes the style clause from that doc (real estate / editorial photography, warm late-afternoon light, neutral palette, no people unless central, no text overlays).
 
-1. **Subject** — what the image shows, derived from the post topic. Examples:
-   - Post about Evans rentals → "established single-family home in an Evans, Georgia subdivision, tree-lined street, late-afternoon light"
-   - Post about evictions → "wooden gavel resting on a desk beside a manila folder labeled 'Dispossessory'"
-   - Post about HVAC maintenance → "outdoor HVAC condenser unit at the side of a brick home, clean and well-maintained"
-2. **Style spec** — pull from BRAND_VISUAL.md (real estate photography aesthetic, natural light, neutral palette, no people unless central, no text overlays).
-3. **Negative directives** — explicitly include: "no text, no logos, no watermarks, no people unless central to subject."
+You produce **three different subjects** for one post:
+1. **Hero (16:9)** — the establishing image. Usually a wide architectural or location shot related to the post's headline topic. This is what shows up in OG cards and the hero strip at the top of the post.
+2. **Body image #1 (16:9 or 4:3)** — a tighter, more specific subject related to whatever the FIRST third of the post covers. If hero is the wide neighborhood shot, body #1 is the closer detail.
+3. **Body image #2 (16:9 or 4:3)** — different subject again, related to whatever the LAST third of the post covers. If body #1 was an exterior detail, body #2 should be an interior, an object, or a process — visual variety matters.
 
-### 7.2 Generate, export, and stage
+NEVER use the same prompt for all three. NEVER produce three nearly-identical compositions. The reader should feel three different beats.
 
+Each prompt has three parts:
+- **Subject** — derived from the post section that image will sit next to. The BRAND_VISUAL.md "Topic → subject mapping" table gives examples.
+- **Style spec** — pulled verbatim from BRAND_VISUAL.md.
+- **Negative directives** — always include: "no text, no logos, no watermarks, no signs with text, no human figures with faces visible, no oversaturated colors, no cartoon style."
+
+### 7.2 Call the Imagen 4 Fast API
+
+Endpoint:
 ```
-1. Use mcp__claude_ai_Canva__generate-design with the prompt from §7.1
-2. Use mcp__claude_ai_Canva__export-design to export as JPG, 1200x675
-3. Download the exported file to: src/images/blog/[post-slug].jpg
+POST https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-fast-generate-001:predict?key=$GEMINI_API_KEY
 ```
 
-If image generation fails twice with different prompts, skip the image: REMOVE the `image:` and `imageAlt:` frontmatter fields and proceed to publication. Never block publication on the image step.
+Body (JSON):
+```json
+{
+  "instances": [{"prompt": "FULL PROMPT TEXT HERE"}],
+  "parameters": {
+    "sampleCount": 1,
+    "aspectRatio": "16:9"
+  }
+}
+```
 
-### 7.3 File path
+The response shape:
+```json
+{
+  "predictions": [{
+    "bytesBase64Encoded": "<base64 image bytes>",
+    "mimeType": "image/png"
+  }]
+}
+```
 
-Save the image to `src/images/blog/[post-slug].jpg` in the cloned repo working tree. The blog-post template will reference it via the `image:` frontmatter field.
+### 7.3 Save and embed the images
+
+For the hero image:
+```bash
+mkdir -p src/images/blog
+# After parsing the API response and base64-decoding the bytes:
+python3 -c "import base64,sys; open('src/images/blog/[slug].jpg','wb').write(base64.b64decode(sys.argv[1]))" "$BASE64_DATA"
+```
+
+Save names:
+- Hero: `src/images/blog/[slug].jpg`
+- Body 1: `src/images/blog/[slug]-2.jpg`
+- Body 2: `src/images/blog/[slug]-3.jpg`
+
+(All saved as `.jpg` for consistent referencing even though Imagen returns PNG bytes — the browser handles it fine, but if you want strict accuracy use `.png` for all three.)
+
+### 7.4 Wire the hero into frontmatter
+
+```yaml
+image: "/images/blog/[slug].jpg"
+imageAlt: "[12–18 words describing what the image shows, including location/topic anchor]"
+```
+
+### 7.5 Embed body images inline
+
+In the markdown body, drop the two body images at natural H2 transitions — typically after the H2 that ends the first third and after the H2 that ends the second third of the post. Use this HTML form (NOT markdown image syntax) so we can pass loading hints:
+
+```html
+<figure class="blog-figure">
+  <img src="/images/blog/[slug]-2.jpg" alt="[descriptive alt, 8–15 words]" loading="lazy" width="1408" height="768">
+  <figcaption>[Optional 1-sentence caption that adds context, or omit entirely]</figcaption>
+</figure>
+```
+
+The captions are optional. Use them only when they add real information (a specific neighborhood, a process step, a data point referenced in the image). Don't write fluff captions.
+
+### 7.6 Error handling
+
+If any image generation call returns non-200 or a malformed response:
+1. Retry ONCE with a slightly tightened prompt (drop one descriptive phrase that might be triggering a content filter).
+2. If still failing, skip that specific image and continue:
+   - Hero fails → drop `image:` and `imageAlt:` from frontmatter
+   - Body image fails → drop that `<figure>` block from the body
+3. Log a single line at end of run: `Image fail: hero|body1|body2 — <reason>`
+4. NEVER block publication on image failure. Text quality is the primary deliverable.
+
+### 7.7 Cost discipline
+
+At 3 images/post × ~$0.02/image (Imagen 4 Fast) ≈ ~$0.06/post ≈ ~$1.80/month at one post/day. The Google Cloud project has a $5/month budget cap; if anything goes sideways the billing alert hits before real damage.
+
+Never generate more than 5 images per run. If you find yourself wanting to retry past that count, give up on imagery and publish text-only.
 
 ---
 

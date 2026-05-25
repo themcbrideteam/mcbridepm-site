@@ -44,6 +44,40 @@ When deciding what to actually photograph, choose the most specific, evocative r
 
 When the post topic doesn't fit any of these, derive a subject by asking: **what would I photograph for a Southern Living article on this topic?**
 
+## Three images per post: hero + 2 body images
+
+Every published post gets a hero image (frontmatter) AND two body images inserted at H2 transitions inside the post. The three images must be visually distinct from each other — not three angles of the same subject.
+
+A good three-image set follows a wide → tight → contextual rhythm:
+
+| Slot      | Composition       | Subject pattern                                                                         |
+|-----------|-------------------|-----------------------------------------------------------------------------------------|
+| Hero      | Wide / establishing | The full home, the neighborhood street, the broad architectural setting               |
+| Body 1    | Tight / detail      | A specific object, fixture, or close-up element related to the first third of the post |
+| Body 2    | Interior or process | A different scene type — an interior, a desk-top object arrangement, a worked surface  |
+
+Example sets:
+
+- **Topic: SCRA lease termination**
+  - Hero: military-family neighborhood street, suburban Grovetown
+  - Body 1: a manila folder labeled "Lease Termination" with a copy of PCS orders on a clean wooden desk
+  - Body 2: a calculator, a keychain with a single house key, and a printed BAH chart on a kitchen counter
+- **Topic: Tenant screening**
+  - Hero: warm well-lit home office desk seen wide
+  - Body 1: a credit-report printout overlapping a rental application
+  - Body 2: a fountain pen resting on a property-management ledger book
+- **Topic: Evans neighborhood market**
+  - Hero: tree-lined Evans residential street, late afternoon
+  - Body 1: detail of a brick mailbox at the entrance of a subdivision
+  - Body 2: a clean kitchen interior with hardwood floors and natural light through a window
+
+A weak set repeats compositions. Don't do this:
+- Hero: ranch home exterior
+- Body 1: ranch home exterior (slightly different angle)
+- Body 2: ranch home exterior (different time of day)
+
+That's one image three times — not three images.
+
 ## Avoid
 
 - Stock-photo aesthetics: backlit silhouettes, generic city skyline at dusk, businesspeople in suits, conference-room handshakes
