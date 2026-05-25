@@ -24,6 +24,8 @@ howTo:
       text: "Confirm the property has working smoke and CO detectors. Test the sump pump if equipped. Secure loose outdoor furniture and remove dead tree limbs ahead of summer thunderstorm season. Hurricane remnants reach the CSRA most years."
     - name: "Confirm Georgia legal compliance"
       text: "Georgia requires working smoke detectors and habitable conditions including reasonable heat and cooling. Document each inspection with photos and dates — that record protects you if a tenant later claims uninhabitability."
+image: "/images/blog/summer-maintenance-checklist-augusta-rental-property.jpg"
+imageAlt: "Well-maintained Southern single-family home on a bright summer day with clean gutters"
 ---
 
 <div class="snippet-box">
@@ -87,6 +89,11 @@ Clogged gutters cause fascia rot, foundation erosion, and basement flooding. Cle
 
 Walk the perimeter of the property after a rain and note where water pools. The ground should slope away from the foundation on all sides. If water collects near the foundation, regrading that area costs far less than repairing water intrusion damage.
 
+
+<figure class="blog-figure">
+  <img src="/images/blog/summer-maintenance-checklist-augusta-rental-property-2.jpg" alt="Clean outdoor HVAC condenser unit at the side of a brick home in warm summer light" loading="lazy" width="1408" height="768">
+</figure>
+
 ## Pest Control
 
 Warm, humid summers in Georgia bring predictable pest pressure — termites, mosquitoes, roaches, and fire ants all peak between May and October. For rental properties, pest issues are both a habitability concern and a property preservation issue.
@@ -126,6 +133,11 @@ Augusta isn't in the direct coastal hurricane zone, but tropical systems and sev
 Confirm your [landlord insurance policy](https://www.iii.org/article/landlord-insurance-what-is-it-and-what-does-it-cover) is current and covers wind and water damage. Review what's excluded — flood damage typically requires a separate policy. Know where your property's water shut-off valve is located in case of pipe damage. Keep a current list of reliable contractors (plumber, roofer, electrician) so you're not scrambling after a storm hits everyone's properties at once.
 
 If your property is in a known flood-prone area — parts of south Augusta near the Savannah River, or low-lying sections of North Augusta near the Riverwalk — consider whether supplemental flood insurance through the [National Flood Insurance Program](https://www.floodsmart.gov/) makes sense for your situation.
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/summer-maintenance-checklist-augusta-rental-property-3.jpg" alt="Clean rain gutter and downspout at the corner of a residential roofline in summer light" loading="lazy" width="1408" height="768">
+</figure>
 
 ## What Georgia Law Requires
 

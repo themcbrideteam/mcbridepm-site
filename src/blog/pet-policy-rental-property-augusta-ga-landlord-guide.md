@@ -5,6 +5,8 @@ date: 2026-05-14
 category: "Property Owners"
 readTime: "8 min"
 keywords: ["pet policy rental property Augusta GA", "Georgia pet deposit laws landlords", "service animal rental property Georgia", "pet rent Augusta rental", "landlord pet policy Columbia County GA"]
+image: "/images/blog/pet-policy-rental-property-augusta-ga-landlord-guide.jpg"
+imageAlt: "Friendly golden retriever lying on a sunlit hardwood floor in a clean rental home interior"
 ---
 
 <div class="snippet-box">
@@ -58,6 +60,11 @@ Here's what you can and cannot do:
 
 At McBride Property Management, we handle ESA and service animal requests as part of our standard leasing process — verifying documentation properly while keeping our owners fully compliant with federal and state law.
 
+
+<figure class="blog-figure">
+  <img src="/images/blog/pet-policy-rental-property-augusta-ga-landlord-guide-2.jpg" alt="Pet policy document with a small leather dog collar and a brass key on a wooden desk" loading="lazy" width="1408" height="768">
+</figure>
+
 ## Building a Pet Policy That Works in the Augusta Market
 
 A good pet policy doesn't just say "pets allowed" or "no pets." It sets clear expectations for both you and the tenant. Here's what to include in your lease addendum:
@@ -89,6 +96,11 @@ If you're a landlord in Evans or Grovetown who's been refusing all pets, conside
 Pet-owning tenants also tend to stay longer. Moving with animals is stressful, and pet-friendly housing isn't always easy to find — especially for single-family homes in desirable areas across Columbia County. Longer tenancies mean fewer turnovers, fewer vacancy days, and lower make-ready costs over time.
 
 The key is managing the risk properly. A well-structured pet policy, combined with thorough [tenant screening](/services/) and routine property inspections, keeps the upside while limiting the downside.
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/pet-policy-rental-property-augusta-ga-landlord-guide-3.jpg" alt="Clean rental backyard with a picket-style fence and a small dog toy on the lawn" loading="lazy" width="1408" height="768">
+</figure>
 
 ## What McBride Property Management Does Differently
 

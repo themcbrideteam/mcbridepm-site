@@ -5,6 +5,8 @@ date: 2026-04-05
 category: "Property Owners"
 readTime: "7"
 keywords: ["tenant retention Augusta GA", "maintenance requests rental property", "property management Augusta", "landlord maintenance tips", "Columbia County rental"]
+image: "/images/blog/how-maintenance-requests-affect-tenant-retention.jpg"
+imageAlt: "Hand using a tablet at a wooden desk with a coffee mug and a small plant in warm light"
 ---
 
 <div class="snippet-box">
@@ -53,6 +55,11 @@ Dripping faucets, running toilets, appliance issues, minor cosmetic problems. Th
 
 HVAC filter changes, gutter cleaning, pest treatment, smoke detector battery checks. This is the category most self-managing landlords skip entirely, and it's the one that prevents the most expensive surprises. A seasonal [maintenance checklist](/services/) keeps small issues from becoming tenant complaints.
 
+
+<figure class="blog-figure">
+  <img src="/images/blog/how-maintenance-requests-affect-tenant-retention-2.jpg" alt="Maintenance toolbox with neatly organized hand tools and a brass key in warm afternoon light" loading="lazy" width="1408" height="768">
+</figure>
+
 ## How Professional Management Changes the Equation
 
 Self-managing landlords in the Augusta area often tell us the same thing: they started out handling everything themselves to save money, but the maintenance burden eventually wore them down. Missed calls, vendor no-shows, and after-hours emergencies add up — and the tenant experience suffers.
@@ -72,6 +79,11 @@ The math on tenant retention is straightforward, and it overwhelmingly favors in
 Consider a rental property in [Evans, GA](/evans/) renting for $1,600 per month. If your tenant renews, you collect $19,200 over the next year with zero vacancy and no turnover costs. If they leave, you're facing roughly one month of vacancy ($1,600), $500–$1,000 in make-ready costs, and $300–$500 in marketing and leasing expenses. That's $2,400–$3,100 in direct costs — plus the risk that your next tenant doesn't stay as long.
 
 Now compare that to the cost of maintaining a responsive maintenance program: a few hundred dollars per quarter in preventive upkeep and a property management team that handles the rest. The ROI isn't even close.
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/how-maintenance-requests-affect-tenant-retention-3.jpg" alt="Gloved hand replacing a clean white HVAC air filter at a hallway return vent" loading="lazy" width="1408" height="768">
+</figure>
 
 ## Five Maintenance Practices That Keep Tenants Renewing
 

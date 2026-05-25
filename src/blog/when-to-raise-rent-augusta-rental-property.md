@@ -5,6 +5,8 @@ date: 2026-04-07
 category: "Property Owners"
 readTime: "6"
 keywords: ["when to raise rent Augusta GA", "rental property rent increase", "Augusta landlord tips", "Columbia County rental rates", "property management Augusta"]
+image: "/images/blog/when-to-raise-rent-augusta-rental-property.jpg"
+imageAlt: "Established Southern single-family rental home with mature landscaping at golden hour"
 ---
 
 <div class="snippet-box">
@@ -41,6 +43,11 @@ Long-term tenants are valuable — they reduce turnover costs and vacancy risk. 
 
 If you've upgraded appliances, replaced flooring, or added a fence, your property's rental value has increased. Your rent should reflect those enhancements.
 
+
+<figure class="blog-figure">
+  <img src="/images/blog/when-to-raise-rent-augusta-rental-property-2.jpg" alt="Rent-history-style chart with a calculator a pen and a small model home on a desk" loading="lazy" width="1408" height="768">
+</figure>
+
 ## How Much Should You Raise Rent in Augusta, GA?
 
 In the Augusta metro and Columbia County market, annual increases between 3% and 5% are standard for well-maintained properties. For a property renting at $1,400/month, a 3% increase brings rent to $1,442. A 5% increase lands at $1,470. Neither amount is likely to trigger a move-out from a satisfied tenant, especially when moving costs and deposits at a new property can easily exceed $3,000.
@@ -56,6 +63,11 @@ There are situations where holding steady makes more strategic sense.
 **When you have an exceptional tenant.** A tenant who pays on time, maintains the property, and communicates well is worth more than an extra $50/month. Factor in turnover costs — typically one to two months of lost rent plus make-ready expenses — before deciding.
 
 **When the property needs significant repairs.** Raising rent on a property with deferred maintenance sends the wrong message. Address major items first, then adjust pricing at the next renewal.
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/when-to-raise-rent-augusta-rental-property-3.jpg" alt="Clean wall calendar on a home-office wall with a warm desk lamp in afternoon light" loading="lazy" width="1408" height="768">
+</figure>
 
 ## How to Communicate a Rent Increase
 
