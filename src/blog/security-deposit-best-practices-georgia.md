@@ -6,6 +6,8 @@ category: "Property Owners"
 readTime: "7"
 keywords: ["security deposit Georgia", "Augusta GA landlord", "security deposit rules", "rental property Columbia County", "property management Augusta GA"]
 layout: blog-post.njk
+image: "/images/blog/security-deposit-best-practices-georgia.jpg"
+imageAlt: "Empty freshly-painted rental living room with hardwood floors and warm afternoon light"
 ---
 
 <div class="snippet-box">
@@ -65,6 +67,11 @@ Noah McBride, broker and co-founder of McBride Property Management, puts it plai
 
 ---
 
+
+<figure class="blog-figure">
+  <img src="/images/blog/security-deposit-best-practices-georgia-2.jpg" alt="Calculator and move-out inspection checklist on a wooden desk with a ledger and house key" loading="lazy" width="1408" height="768">
+</figure>
+
 ## The Move-Out Process: 30 Days Is Not Flexible
 
 When a tenant vacates — whether at lease end or after an early termination — the clock starts immediately. You have 30 days from the date the tenancy ends to either return the full deposit or send a written itemized deduction statement along with any remaining balance.
@@ -95,6 +102,11 @@ Even experienced landlords in the Augusta and Evans area slip up on these regula
 These aren't technicalities — they're the exact issues that turn a winnable landlord case into a triple-damages judgment.
 
 ---
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/security-deposit-best-practices-georgia-3.jpg" alt="A hand returning a stack of bills above a desk with a wallet and a small model home" loading="lazy" width="1408" height="768">
+</figure>
 
 ## How McBride Property Management Handles Deposits
 

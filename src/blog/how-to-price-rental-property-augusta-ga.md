@@ -5,6 +5,8 @@ date: 2026-05-17
 category: "Property Owners"
 readTime: "7"
 keywords: ["how to price rental property Augusta GA", "rental pricing strategy Georgia", "Augusta rental market 2026", "Columbia County rent prices", "set rent price investment property"]
+image: "/images/blog/how-to-price-rental-property-augusta-ga.jpg"
+imageAlt: "Three similar single-family homes on a tree-lined Columbia County street suggesting rental comparables"
 ---
 
 <div class="snippet-box">
@@ -73,6 +75,11 @@ Once you have a baseline from comps, adjust up or down based on what your proper
 
 Each adjustment is worth roughly $25–$75 per month depending on the market segment. A home with a brand-new kitchen in a subdivision where most rentals have original 2005 finishes might justify $50–$100 more per month. But don't stack adjustments aggressively — tenants compare total price, not your itemized upgrade list.
 
+
+<figure class="blog-figure">
+  <img src="/images/blog/how-to-price-rental-property-augusta-ga-2.jpg" alt="Investor's desk showing a rental comparables analysis, a calculator, and a small model home" loading="lazy" width="1408" height="768">
+</figure>
+
 ## The Vacancy Cost Most Landlords Ignore
 
 Here's the math that should inform every pricing decision: **one month of vacancy costs you more than pricing $50–$100 below the absolute maximum.**
@@ -96,6 +103,11 @@ If you're genuinely uncertain about your price point, there are two smart ways t
 Georgia doesn't have rent control, so you're free to set your rent at whatever the market will bear. However, you can't use pricing as a tool for discrimination. Charging different rates — or offering different lease terms — based on a tenant's race, religion, familial status, disability, or any other [protected class under federal and Georgia fair housing law](https://rules.sos.ga.gov/gac/186-2) is illegal, regardless of intent.
 
 You also can't raise rent during an active lease term unless your lease specifically allows it (most standard leases don't). And if you're raising rent at renewal time, you'll want to pair that increase with data showing comparable market rates so the conversation is grounded in facts, not feelings. We covered renewal strategies in more detail in our [lease renewal guide](/blog/lease-renewal-strategies-augusta-ga-landlords/).
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/how-to-price-rental-property-augusta-ga-3.jpg" alt="Brick subdivision entrance with crepe myrtles in an established Evans Georgia neighborhood" loading="lazy" width="1408" height="768">
+</figure>
 
 ## A Quick Pricing Checklist
 

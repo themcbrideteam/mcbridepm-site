@@ -6,6 +6,8 @@ category: "Property Owners"
 readTime: "7"
 keywords: ["tenant screening Augusta GA", "tenant background check Georgia", "rental applicant screening", "property management Columbia County", "landlord tenant screening process"]
 layout: blog-post.njk
+image: "/images/blog/tenant-screening-process-augusta-ga-landlords.jpg"
+imageAlt: "Warm home-office desk with a laptop and plantation-shuttered window in late afternoon light"
 ---
 
 <div class="snippet-box">
@@ -65,6 +67,11 @@ In the Augusta rental market, where a significant portion of the tenant pool is 
 
 ---
 
+
+<figure class="blog-figure">
+  <img src="/images/blog/tenant-screening-process-augusta-ga-landlords-2.jpg" alt="Rental application overlapping a credit report on a wooden desk with a fountain pen" loading="lazy" width="1408" height="768">
+</figure>
+
 ## Rental History and Landlord References
 
 This is arguably the most important part of the screening process, and the one most often skipped or done poorly. A previous landlord can tell you things that no credit report or background check will reveal: whether the tenant paid on time, how they treated the property, whether they caused neighbor complaints, and whether they gave proper notice before moving out.
@@ -97,6 +104,11 @@ Noah McBride, broker and co-founder of McBride Property Management, advises prop
 This is one of the areas where professional property management pays for itself. McBride Property Management applies the same screening criteria, the same verification process, and the same documentation standards to every applicant across every property we manage in Augusta, Evans, Grovetown, Martinez, and the broader Columbia County market. That consistency protects owners from both bad tenants and legal exposure.
 
 ---
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/tenant-screening-process-augusta-ga-landlords-3.jpg" alt="Open ledger book with a small model home and brass key in warm window light" loading="lazy" width="1408" height="768">
+</figure>
 
 ## When to Bring in a Professional
 

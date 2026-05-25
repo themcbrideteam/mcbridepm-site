@@ -5,6 +5,8 @@ date: 2026-05-12
 category: "Property Owners"
 readTime: "8 min"
 keywords: ["landlord insurance Georgia", "rental property insurance Augusta GA", "landlord liability coverage", "Georgia rental property insurance requirements", "Columbia County landlord insurance"]
+image: "/images/blog/landlord-insurance-georgia-rental-property-guide.jpg"
+imageAlt: "Two-story brick Southern home with a covered front porch at golden hour"
 ---
 
 <div class="snippet-box">
@@ -52,6 +54,11 @@ Understanding the gaps matters just as much as understanding the coverage.
 
 **Normal wear and tear** and deferred maintenance aren't covered either. If your HVAC fails because it's 20 years old, that's a maintenance issue, not an insurable event.
 
+
+<figure class="blog-figure">
+  <img src="/images/blog/landlord-insurance-georgia-rental-property-guide-2.jpg" alt="Open binder of insurance-style documents with a small model home and reading glasses" loading="lazy" width="1408" height="768">
+</figure>
+
 ## How Much Does Landlord Insurance Cost in Augusta, GA?
 
 Landlord insurance typically costs 15% to 25% more than a comparable homeowners policy for the same property. That reflects the higher claim frequency on tenant-occupied homes and the additional coverage components like loss of rental income.
@@ -75,6 +82,11 @@ A new law that took effect January 1, 2026 gives Georgia landlords a meaningful 
 That extra 30 days matters. Insurance cancellations and non-renewals have become more common across the Southeast as carriers adjust to rising weather-related claims. With 60 days instead of 30, you have real time to shop the market, compare quotes, and avoid a coverage lapse that could trigger expensive force-placed insurance from your mortgage lender.
 
 If you receive a non-renewal notice, don't wait. Start shopping immediately and work with an independent insurance agent who writes landlord policies in the Augusta market.
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/landlord-insurance-georgia-rental-property-guide-3.jpg" alt="Asphalt-shingle residential roof with a brick chimney under a warm afternoon sky" loading="lazy" width="1408" height="768">
+</figure>
 
 ## Five Steps to Get Your Landlord Insurance Right
 

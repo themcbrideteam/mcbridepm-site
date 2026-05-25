@@ -22,6 +22,8 @@ howTo:
       text: "If the tenant fails to answer within 7 days, the landlord can move for default judgment. If the tenant answers, a hearing will be scheduled, typically within 1–3 weeks."
     - name: "Obtain judgment and writ of possession"
       text: "If the court rules in the landlord's favor, it issues a writ of possession. The sheriff then schedules the physical removal, usually within 7–14 days. Only the sheriff may legally remove a tenant — landlord self-help (changing locks, removing belongings, shutting off utilities) is illegal in Georgia."
+image: "/images/blog/georgia-eviction-process-landlord-guide.jpg"
+imageAlt: "Stately red-brick Georgia courthouse exterior at golden hour with American and Georgia flags"
 ---
 
 <div class="snippet-box">
@@ -78,6 +80,11 @@ After you file, the court will have the tenant served with a copy of the disposs
 
 The method depends on whether the process server can locate the tenant. Either way, the clock on the tenant's response period doesn't start until service is completed.
 
+
+<figure class="blog-figure">
+  <img src="/images/blog/georgia-eviction-process-landlord-guide-2.jpg" alt="A manila folder marked Dispossessory with a wooden gavel and a brass key on a polished desk" loading="lazy" width="1408" height="768">
+</figure>
+
 ## Step 4: The 7-Day Response Window
 
 Once served, the tenant has **seven days** to file an answer with the court. This is where things can go one of two ways:
@@ -119,6 +126,11 @@ The total cost of a Georgia eviction depends heavily on whether you hire an atto
 If you handle the filing yourself, you're looking at roughly **$100 to $175** in court costs. With an attorney — which McBride Property Management strongly recommends for contested cases — total costs typically run **$700 to $1,500** or more.
 
 Either way, these costs are almost always less than the continued revenue loss from a non-paying tenant occupying your property for months.
+
+
+<figure class="blog-figure">
+  <img src="/images/blog/georgia-eviction-process-landlord-guide-3.jpg" alt="Empty rental home interior with hardwood floors and a set of keys left behind on the floor" loading="lazy" width="1408" height="768">
+</figure>
 
 ## What You Absolutely Cannot Do
 
