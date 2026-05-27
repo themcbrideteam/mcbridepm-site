@@ -333,20 +333,26 @@ If you can't honestly answer yes to all six, rework before publishing.
 
 ---
 
-## 7. Phase 5 — Generate three on-brand images via Gemini Imagen 4 Fast
+## 7. Phase 5 — Generate four on-brand images via Gemini Imagen 4 Fast
 
-Every published post gets **three** images: one hero (referenced in the `image:` frontmatter field) plus **two body images** embedded inline at natural H2 transitions. All three are generated through Google's Imagen 4 Fast API using the `GEMINI_API_KEY` environment variable provided in the routine prompt. There is no Canva involvement.
+Every published post gets **four** images:
+1. One **hero** (referenced in the `image:` frontmatter field) — used on the blog page header and the OG/Twitter share card.
+2. Two **body images** embedded inline at natural H2 transitions.
+3. One **social image** (referenced in the `socialImage:` frontmatter field) — used by the Google Business Profile syndication workflow that runs after publish. Must be visually distinct from the hero so the GBP post doesn't feel like a duplicate of the blog page.
 
-### 7.1 Build three distinct image prompts
+All four are generated through Google's Imagen 4 Fast API using the `GEMINI_API_KEY` environment variable provided in the routine prompt. There is no Canva involvement.
+
+### 7.1 Build four distinct image prompts
 
 Read `.claude/blog-skill/BRAND_VISUAL.md` in full before writing prompts. Every prompt includes the style clause from that doc (real estate / editorial photography, warm late-afternoon light, neutral palette, no people unless central, no text overlays).
 
-You produce **three different subjects** for one post:
+You produce **four different subjects** for one post:
 1. **Hero (16:9)** — the establishing image. Usually a wide architectural or location shot related to the post's headline topic. This is what shows up in OG cards and the hero strip at the top of the post.
-2. **Body image #1 (16:9 or 4:3)** — a tighter, more specific subject related to whatever the FIRST third of the post covers. If hero is the wide neighborhood shot, body #1 is the closer detail.
-3. **Body image #2 (16:9 or 4:3)** — different subject again, related to whatever the LAST third of the post covers. If body #1 was an exterior detail, body #2 should be an interior, an object, or a process — visual variety matters.
+2. **Body image #1 (16:9)** — a tighter, more specific subject related to whatever the FIRST third of the post covers. If hero is the wide neighborhood shot, body #1 is the closer detail.
+3. **Body image #2 (16:9)** — different subject again, related to whatever the LAST third of the post covers. If body #1 was an exterior detail, body #2 should be an interior, an object, or a process — visual variety matters.
+4. **Social image (4:3)** — a fourth distinct subject for the Google Business Profile syndicated post. GBP renders posts in a card format where 4:3 reads better than 16:9. Pick a different angle from the hero — if hero is a wide street view, social can be a single front-door / entry composition; if hero is an interior, social can be an exterior. The point: when a reader sees the GBP post AND lands on the blog page, they should feel they're getting two different views, not one image twice.
 
-NEVER use the same prompt for all three. NEVER produce three nearly-identical compositions. The reader should feel three different beats.
+NEVER use the same prompt for all four. NEVER produce nearly-identical compositions. The reader should feel four different beats. The social image in particular is the one that has to stand alone — it's the only visual a GBP scroller will see before deciding whether to click through.
 
 Each prompt has three parts:
 - **Subject** — derived from the post section that image will sit next to. The BRAND_VISUAL.md "Topic → subject mapping" table gives examples.
@@ -394,15 +400,37 @@ Save names:
 - Hero: `src/images/blog/[slug].jpg`
 - Body 1: `src/images/blog/[slug]-2.jpg`
 - Body 2: `src/images/blog/[slug]-3.jpg`
+- Social: `src/images/blog/[slug]-social.jpg`
 
-(All saved as `.jpg` for consistent referencing even though Imagen returns PNG bytes — the browser handles it fine, but if you want strict accuracy use `.png` for all three.)
+For the social image, request `"aspectRatio": "4:3"` in the Imagen call instead of `"16:9"` (everything else identical). Google Business Profile renders posts in a roughly square / 4:3 card; 4:3 fills the frame without cropping.
 
-### 7.4 Wire the hero into frontmatter
+(All saved as `.jpg` for consistent referencing even though Imagen returns PNG bytes — the browser handles it fine.)
+
+### 7.4 Wire the hero AND social image into frontmatter
 
 ```yaml
 image: "/images/blog/[slug].jpg"
 imageAlt: "[12–18 words describing what the image shows, including location/topic anchor]"
+socialImage: "/images/blog/[slug]-social.jpg"
+socialImageAlt: "[8–12 words describing the social image]"
+socialTeaser: |
+  [100–150 word teaser written FOR Google Business Profile syndication. See §7.4a.]
 ```
+
+### 7.4a Write the social teaser
+
+The social teaser is a 100–150 word standalone post that gets syndicated to Google Business Profile (and later, potentially Facebook/LinkedIn). It must be self-contained — readers see this without ever seeing the blog page first.
+
+Structure:
+- **Hook** (15–30 words): a sharp opener that names the specific problem or insight at the heart of the post. Not "Here's what landlords need to know about X" — instead "Three CSRA owners called us last month with the same X problem. Here's what we told them."
+- **Body** (60–100 words): the single most useful, specific takeaway from the post. Pull a real number, a real statute, a real neighborhood. Make the reader feel they got value even if they don't click.
+- **CTA** (1 line at the end, separated by a blank line): exactly the phrase **"Read the full breakdown →"** followed on the next line by the full blog post URL.
+
+Total word count: 100–150 words including the hook and body, NOT counting the CTA line.
+
+Banned phrases apply (see §1). Specifically watch for "in today's market", "discover", "navigate", "unlock", "whether you're..." patterns — the social-post form invites these and you should resist them harder than in the long-form post.
+
+Use the EXACT phrasing **"Read the full breakdown →"** (with the arrow) so we can extract it deterministically downstream if needed.
 
 ### 7.5 Embed body images inline
 

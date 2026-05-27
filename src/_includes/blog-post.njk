@@ -214,6 +214,10 @@ ogType: article
     line-height: 1.5;
   }
 </style>
+{# Social syndication metadata — consumed by the n8n GBP workflow #}
+{% if socialTeaser %}<meta name="social-teaser" content="{{ socialTeaser | replace("\n", " ") | trim }}">{% endif %}
+{% if socialImage %}<meta name="social-image" content="{{ site.url }}{{ socialImage }}">{% endif %}
+{% if socialImageAlt %}<meta name="social-image-alt" content="{{ socialImageAlt }}">{% endif %}
 {% endblock %}
 
 {% block content %}
