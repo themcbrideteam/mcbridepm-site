@@ -81,7 +81,7 @@ Over a two-year tenancy with one turnover, you spend roughly:
 - Turnover event (one): **25 hours**
 - **Total: ~255 hours over two years, or 127.5 hours per year**
 
-The question is what those hours are worth. That depends on you — but if you're the dual-income professional, physician, contractor, or military spouse that most P3 landlords in the CSRA are, your time has real market value. At a conservative $50/hour, 127.5 hours per year costs **$6,375**. At $75/hour, it's **$9,563**.
+The question is what those hours are worth. That depends on you — but if you're the dual-income professional, physician, contractor, or military spouse that most CSRA rental owners are, your time has real market value. At a conservative $50/hour, 127.5 hours per year costs **$6,375**. At $75/hour, it's **$9,563**.
 
 Even at the very conservative $50/hour rate, time value alone is more than four times the after-tax cost of professional management.
 
