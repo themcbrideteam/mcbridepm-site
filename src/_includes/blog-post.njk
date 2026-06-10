@@ -336,7 +336,7 @@ ogType: article
 
 {% if image %}
 <div style="width:100%; max-height:420px; overflow:hidden; line-height:0;">
-  <img src="{{ image }}" alt="{{ imageAlt or title }}" style="width:100%; height:420px; object-fit:cover; display:block;">
+  <img src="{{ image }}" alt="{{ imageAlt or title }}" width="1200" height="630" decoding="async" style="width:100%; height:420px; object-fit:cover; display:block;">
 </div>
 {% endif %}
 

@@ -1,0 +1,54 @@
+# Legacy domain: c21magnoliapm.com -> mcbride-pm.com (page-for-page 301s)
+# These rules only fire once c21magnoliapm.com is added as a domain alias
+# on this Netlify site. Update the homepage fallbacks (marked TODO) when
+# dedicated pages exist for Thomson, Lincolnton, and McDuffie County.
+
+# Normalize old www to old apex first so the page-level rules below match
+https://www.c21magnoliapm.com/* https://c21magnoliapm.com/:splat 301!
+
+https://c21magnoliapm.com/agent-referral-program https://mcbride-pm.com/referral/ 301!
+https://c21magnoliapm.com/aiken-county-property-management https://mcbride-pm.com/aiken/ 301!
+https://c21magnoliapm.com/aiken-property-management https://mcbride-pm.com/aiken/ 301!
+https://c21magnoliapm.com/appling-property-management https://mcbride-pm.com/evans/ 301!
+https://c21magnoliapm.com/areas-we-serve https://mcbride-pm.com/ 301!
+https://c21magnoliapm.com/available-properties https://mcbride-pm.com/rentals/ 301!
+https://c21magnoliapm.com/beech-island-property-management https://mcbride-pm.com/north-augusta/ 301!
+https://c21magnoliapm.com/best-areas-invest-augusta https://mcbride-pm.com/blog/why-columbia-county-outperforms-augusta-rental-investors/ 301!
+https://c21magnoliapm.com/buying-investment-property-augusta https://mcbride-pm.com/blog/single-family-vs-multifamily-rental-investment-augusta-ga/ 301!
+https://c21magnoliapm.com/columbia-county-property-management https://mcbride-pm.com/evans/ 301!
+https://c21magnoliapm.com/commercial-property-management https://mcbride-pm.com/services/ 301!
+https://c21magnoliapm.com/contact https://mcbride-pm.com/contact/ 301!
+https://c21magnoliapm.com/edgefield-county-property-management https://mcbride-pm.com/aiken/ 301!
+https://c21magnoliapm.com/edgefield-property-management https://mcbride-pm.com/aiken/ 301!
+https://c21magnoliapm.com/evans-property-management https://mcbride-pm.com/evans/ 301!
+https://c21magnoliapm.com/georgia-eviction-process https://mcbride-pm.com/blog/georgia-eviction-process-landlord-guide/ 301!
+https://c21magnoliapm.com/georgia-fair-housing-act https://mcbride-pm.com/blog/tenant-screening-process-augusta-ga-landlords/ 301!
+https://c21magnoliapm.com/georgia-landlord-tenant-law https://mcbride-pm.com/blog/georgia-safe-at-home-act-landlord-guide-augusta-ga/ 301!
+https://c21magnoliapm.com/georgia-security-deposit-law https://mcbride-pm.com/blog/security-deposit-best-practices-georgia/ 301!
+https://c21magnoliapm.com/graniteville-property-management https://mcbride-pm.com/aiken/ 301!
+https://c21magnoliapm.com/grovetown-property-management https://mcbride-pm.com/grovetown/ 301!
+https://c21magnoliapm.com/harlem-property-management https://mcbride-pm.com/grovetown/ 301!
+https://c21magnoliapm.com/hephzibah-property-management https://mcbride-pm.com/augusta/ 301!
+https://c21magnoliapm.com/is-hiring-a-property-manager-worth-it-in-the-csra https://mcbride-pm.com/why-hire/ 301!
+https://c21magnoliapm.com/lincolnton-property-management https://mcbride-pm.com/ 301!
+https://c21magnoliapm.com/martinez-property-management https://mcbride-pm.com/martinez/ 301!
+https://c21magnoliapm.com/mcduffie-county-property-management https://mcbride-pm.com/ 301!
+https://c21magnoliapm.com/multi-family-property-management-services https://mcbride-pm.com/services/ 301!
+https://c21magnoliapm.com/north-augusta-property-management https://mcbride-pm.com/north-augusta/ 301!
+https://c21magnoliapm.com/owner-faqs https://mcbride-pm.com/owner-faqs/ 301!
+https://c21magnoliapm.com/owners https://mcbride-pm.com/services/ 301!
+https://c21magnoliapm.com/privacy-policy https://mcbride-pm.com/privacy/ 301!
+https://c21magnoliapm.com/property-management-benefits https://mcbride-pm.com/why-hire/ 301!
+https://c21magnoliapm.com/property-management-services https://mcbride-pm.com/services/ 301!
+https://c21magnoliapm.com/real-estate-investing-augusta https://mcbride-pm.com/blog/four-demand-anchors-augusta-ga-rental-market/ 301!
+https://c21magnoliapm.com/renting-out-your-house https://mcbride-pm.com/blog/accidental-landlord-augusta-ga-what-to-do/ 301!
+https://c21magnoliapm.com/resident-faqs https://mcbride-pm.com/resident-faqs/ 301!
+https://c21magnoliapm.com/tenants https://mcbride-pm.com/rentals/ 301!
+https://c21magnoliapm.com/terms-of-use https://mcbride-pm.com/terms/ 301!
+https://c21magnoliapm.com/things-to-do-augusta https://mcbride-pm.com/blog/renting-in-augusta/ 301!
+https://c21magnoliapm.com/thomson-property-management https://mcbride-pm.com/ 301!
+
+# Old blog URLs and anything else unmatched
+https://c21magnoliapm.com/blog/* https://mcbride-pm.com/blog/ 301!
+https://c21magnoliapm.com/blog https://mcbride-pm.com/blog/ 301!
+https://c21magnoliapm.com/* https://mcbride-pm.com/ 301!
