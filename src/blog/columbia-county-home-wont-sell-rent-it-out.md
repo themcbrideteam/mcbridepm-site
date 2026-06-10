@@ -47,7 +47,7 @@ howTo:
     - name: "Check your Section 121 window"
       text: "Calculate when you stopped using the home as your primary residence. If you sell within approximately three years, you likely still qualify for the $250,000 (single) or $500,000 (married filing jointly) capital gains exclusion. Verify the exact math with a CPA."
     - name: "Walk the home against the Safe at Home Act checklist"
-      text: "Check that HVAC, plumbing, electrical, roof, and weatherproofing all meet Georgia's habitability standard before your first showing. Repair anything that would fail — not because the law requires it at listing, but because a tenant who discovers a failure on move-in day has legal remedies."
+      text: "Check that HVAC, plumbing, electrical, roof, and weatherproofing all meet Georgia's habitability standard before your first showing. Repair anything that would fail — not because the law requires it at listing, but because a tenant who finds a defect on move-in day has legal remedies."
     - name: "Get a free rental analysis from McBride PM"
       text: "A rental analysis matches your home's specific features against recent comparable leases in your neighborhood, producing a defensible price range based on actual transactions — not a national algorithm. Contact McBride PM at (706) 420-4883 or through the contact page. No obligation."
 ---
@@ -69,7 +69,7 @@ For some owners in your position, renting the home is the right answer. Not as a
 
 ## What the 2026 Columbia County Market Data Tells Sellers
 
-The inventory numbers above are not a blip. They reflect a structural shift in the CSRA's housing supply picture: new construction in Grovetown, Harlem, and along the Horizon South Parkway corridor came online in volume just as mortgage rates kept buyer pool sizes constrained. The result is a market with real negotiating leverage on the buyer side.
+The inventory numbers above are not a blip. They reflect a structural shift in the CSRA's housing supply picture: new construction in Grovetown, Harlem, and along the Horizon South Parkway corridor came online in volume just as mortgage rates kept buyer pool sizes constrained. The result is a market with real negotiating power on the buyer side.
 
 [Redfin data for Columbia County](https://www.redfin.com/county/539/GA/Columbia-County/housing-market) shows the county's median sale price around $319,000 in recent months, down approximately 6% year over year. That softening is meaningful in dollar terms: a $340,000 listing that would have moved in 48 hours in 2022 may now need to be repriced to $315,000 — and still sit.
 
@@ -167,7 +167,7 @@ What the law requires of you as a landlord:
 - **No health hazards:** No visible mold or pest infestations at move-in; landlord must respond to reported infestations during the tenancy.
 - **Security deposit cap:** The most significant financial rule — security deposits are now capped at two months' rent. You cannot collect more than that, regardless of what your lease says.
 
-The habitability standard is not a clause you can waive in a lease. A tenant who discovers a failing HVAC system in July has legal standing under Georgia law to demand repairs within a reasonable timeframe, and failure to respond can give the tenant additional remedies.
+The habitability standard is not a clause you can waive in a lease. A tenant who reports a failing HVAC system in July has legal standing under Georgia law to demand repairs within a reasonable timeframe, and failure to respond can give the tenant additional remedies.
 
 Before your first showing, walk the home against McBride PM's [Pre-Rental Property Prep Checklist](/pdfs/McBride-PM_Pre-Rental-Property-Prep-Checklist.pdf) — it's built around the Safe at Home Act requirements and catches the common deficiencies that trip up new landlords. For a deeper look at the statute itself, the [McBride PM guide to Georgia's Safe at Home Act](/blog/georgia-safe-at-home-act-landlord-guide-augusta-ga/) covers every section of HB 404 in plain language.
 
@@ -208,7 +208,7 @@ Neither renting nor selling is universally right. The answer depends on your spe
 
 **Renting creates real problems when:**
 
-- You're highly leveraged and a single month of vacancy would create a financial crisis
+- Your loan-to-value ratio is high and a single month of vacancy would create a financial crisis
 - The home needs $30,000 in deferred maintenance before it can meet Safe at Home Act standards — costs that would take years to recoup in rent
 - You're not willing to hire a property manager and you're moving more than 45 minutes away
 - Your §121 window has already passed or will pass before you realistically expect to sell
