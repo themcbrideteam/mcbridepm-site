@@ -33,7 +33,7 @@ You face two separate federal taxes — unrecaptured Section 1250 gain (deprecia
 
 You've been a steady landlord for six years. The three-bedroom in Evans you bought in 2019 has appreciated nicely. Interest rates have made a trade-up harder, you're tired of coordinating contractors, and selling feels like the right move. The equity is yours — why not cash out?
 
-Before you sign a listing agreement, there's a tax calculation that determines what you actually keep. Landlords who skip this math often walk away from a closing table believing they cleared $50,000 and discover weeks later that they owe $20,000 or more to the IRS and the Georgia Department of Revenue. The money was never really all theirs — they borrowed some of it from the tax code for six years, and now it's due back.
+Before you sign a listing agreement, there's a tax calculation that determines what you actually keep. Landlords who skip this math often walk away from a closing table believing they cleared $50,000 and find out weeks later that they owe $20,000 or more to the IRS and the Georgia Department of Revenue. The money was never really all theirs — they borrowed some of it from the tax code for six years, and now it's due back.
 
 The culprit isn't a tax penalty or an unusual audit trigger. It's the interaction between two things that happen at opposite ends of ownership: the depreciation deductions you've been taking every year, which reduced your taxable income — and the recapture of those deductions that the IRS demands the moment you sell. If you haven't modeled this yet, do it before you make any listing decision.
 
@@ -136,7 +136,7 @@ You get the worst of both worlds: no tax savings during ownership, and the full 
 
 This happens more often than you'd expect. Landlords who converted a personal residence to a rental and kept using the same tax preparer who handled their personal returns sometimes don't have depreciation set up correctly. Accidental landlords who inherited a property and didn't establish an accurate cost basis at the time of inheritance are especially at risk.
 
-The fix — if you discover this before you sell — is IRS Form 3115, the Application for Change in Accounting Method. This allows you to retroactively catch up on missed depreciation in the current tax year rather than amending multiple prior returns. It's not simple, but it means you at least collect the deductions before sale rather than just paying the recapture. This requires a CPA familiar with rental real estate, not a general tax preparer.
+The fix — if you catch this before you sell — is IRS Form 3115, the Application for Change in Accounting Method. This allows you to retroactively catch up on missed depreciation in the current tax year rather than amending multiple prior returns. It's not simple, but it means you at least collect the deductions before sale rather than just paying the recapture. This requires a CPA familiar with rental real estate, not a general tax preparer.
 
 If you've been working with McBride Property Management, your AppFolio owner account contains a documented income and expense history for every year under management. Amber McBride, our Operations Manager, can generate an ownership summary on request — which is often the starting point CPAs use when preparing to calculate the basis on an upcoming sale.
 
@@ -177,7 +177,7 @@ None of this analysis is an argument against selling. Sometimes the tax bill is 
 
 Consider a landlord who has owned a Martinez or Grovetown rental since 2017. The home needs a roof, the HVAC is aging, rent growth in the submarket has plateaued, and the active management workload has increased. Even after a $20,000+ tax bill, selling and deploying the after-tax equity into a better-capitalized position — a newer property, a different market, a passive real estate fund — may produce better net returns over the next decade than continuing to hold a depreciating-condition asset.
 
-The Columbia County for-sale market in mid-2026 is softer than recent years. Inventory has risen, and homes are sitting longer than they did during the 2020–2023 run-up. That softness creates negotiating leverage for buyers but doesn't eliminate the fundamental demand base in the CSRA — Fort Gordon, the Savannah River Site, Augusta University Medical Center, and Plant Vogtle's permanent operations workforce aren't going anywhere. A well-maintained single-family rental with a current tenant, priced appropriately, still attracts buyers. For a detailed look at why Columbia County fundamentals remain sound, see our analysis of [why Columbia County outperforms Augusta for rental investors](/blog/why-columbia-county-outperforms-augusta-rental-investors/).
+The Columbia County for-sale market in mid-2026 is softer than recent years. Inventory has risen, and homes are sitting longer than they did during the 2020–2023 run-up. That softness gives buyers more negotiating power, but doesn't eliminate the fundamental demand base in the CSRA — Fort Gordon, the Savannah River Site, Augusta University Medical Center, and Plant Vogtle's permanent operations workforce aren't going anywhere. A well-maintained single-family rental with a current tenant, priced appropriately, still attracts buyers. For a detailed look at why Columbia County fundamentals remain sound, see our analysis of [why Columbia County outperforms Augusta for rental investors](/blog/why-columbia-county-outperforms-augusta-rental-investors/).
 
 The sell-vs-hold calculation is ultimately a math problem, not an instinct problem. Our [Operating Expenses Worksheet](/pdfs/McBride-PM_Operating-Expenses-Worksheet.pdf) includes a section that models the net present value of continued rental cash flows against an after-tax sale scenario — useful if you're trying to make this decision with actual numbers.
 
@@ -195,7 +195,7 @@ The cleaner your records, the more accurate your pre-sale tax estimate — and t
 
 For a complete reference on managing the financial side of CSRA rental ownership, download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf). Our [owner resources page](/resources/) also has links to the maintenance request documentation and inspection forms that create the paper trail your CPA will ask for.
 
-Noah McBride and the team at McBride Property Management aren't CPAs, and this post is not tax advice — get a CPA who specializes in rental real estate before you make any sale decision. But we can tell you, from years of working with Columbia County and Richmond County landlords through property sales, that the landlords who navigate this well are the ones who ran the math before they listed, not after.
+Noah McBride and the team at McBride Property Management aren't CPAs, and this post is not tax advice — get a CPA who specializes in rental real estate before you make any sale decision. But we can tell you, from years of working with Columbia County and Richmond County landlords through property sales, that the landlords who handle this well are the ones who ran the math before they listed, not after.
 
 <div class="cta-block">
 
