@@ -241,7 +241,7 @@ To keep track of the property information you'll need at sale, download our [CSR
 
 **Know what your Fort Gordon rental is worth before you decide to sell.**
 
-The §121 military exception protects your gain at sale—but rental income in the meantime matters too. If your Evans, Grovetown, or Martinez home is under-rented or carrying deferred maintenance that will hurt the sale price, both sides of the equation suffer. McBride PM manages single-family rentals across the CSRA and can give you a side-by-side analysis: current rental income potential and estimated sale value in today's market, at no charge.
+The §121 military exception protects your gain at sale—but rental income in the meantime matters too. If your Evans, Grovetown, or Martinez home is under-rented or carrying deferred maintenance that will hurt the sale price, both sides of the equation suffer. McBride PM manages single-family rentals across the CSRA and can give you a side-by-side analysis: current rental income potential and estimated sale value as of mid-2026, at no charge.
 
 Amber McBride handles owner onboarding and can coordinate the transition from active rental to sale-ready condition when your timing is right. Call us at **(706) 420-4883** or [request a free rental analysis at our contact page](/contact/). Browse our [owner FAQ resource at /owner-faqs/](/owner-faqs/) if you'd like to read through the most common questions first.
 
