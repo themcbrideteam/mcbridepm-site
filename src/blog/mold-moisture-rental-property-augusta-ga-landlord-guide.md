@@ -56,6 +56,8 @@ The Act also established a formal notice-and-cure framework. A tenant who believ
 
 *This is general guidance from a property manager — not legal or tax advice. Talk to a Georgia attorney for your specific situation.*
 
+The full text of O.C.G.A. § 44-7-13 as amended is available through the [Georgia General Assembly's official code](https://www.legis.ga.gov/laws/en-US/Code). Nolo's overview of [Georgia rules regarding mold in rental properties](https://www.nolo.com/legal-encyclopedia/georgia-rules-regarding-mold-rental-properties.html) provides a useful lay summary of how these statutes apply in practice.
+
 For a full overview of what the Safe at Home Act changed for Augusta-area landlords beyond mold, see our [Georgia Safe at Home Act landlord guide](/blog/georgia-safe-at-home-act-landlord-guide-augusta-ga/).
 
 ## The Augusta Climate Difference: Why Mold Risk Is Higher Here
