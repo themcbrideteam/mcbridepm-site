@@ -1,0 +1,16 @@
+{
+  "_meta": {
+    "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report. On the FIRST run after this file is committed, the routine backfills records for all existing src/blog/*.md posts (reading each frontmatter) before appending today's. Until then, posts[] is empty and content-map.json carries the coverage signal.",
+    "recordShape": {
+      "slug": "string", "title": "string", "date": "YYYY-MM-DD",
+      "cluster": "one of content-map clusters", "subtopic": "string",
+      "persona": "P1|P2|P3|P4|P5", "intent": "informational|commercial|transactional|comparison|local|navigational",
+      "cities": ["string"], "primaryKeyword": "string",
+      "entities": ["string"], "questionsAnswered": ["string"],
+      "internalLinks": 0, "externalCitations": 0, "wordCount": 0,
+      "schema": ["BlogPosting", "FAQPage"], "type": "new|refresh"
+    },
+    "bootstrapped": false
+  },
+  "posts": []
+}
