@@ -11,14 +11,15 @@ The rest of this skill is your operating manual. Follow every section in order. 
 
 ## 0. Pre-flight: read these once at start of run
 
-Before doing anything else, read these (in this order):
+The repo is already cloned in your environment (see §8.1). Before doing anything else, read these (in this order):
 
-1. The brand visual style guide: `/Users/noahmcbride/Documents/Claude/Scheduled/mcbride-pm-daily-blog/BRAND_VISUAL.md`
-2. The current live sitemap: `https://mcbride-pm.com/sitemap.xml` (fetch via curl)
-3. The current site link map (computed from the sitemap above plus the static link list in §5.5 below)
-4. Confirm today's date (use `date '+%Y-%m-%d'`)
+1. The brand visual style guide — repo path: `.claude/blog-skill/BRAND_VISUAL.md`
+2. The persistent intelligence files (the "brain") — repo paths: `.claude/intelligence/content-map.json` and `.claude/intelligence/published-log.json`. If either is missing, note it and continue — §3.5 bootstraps it this run.
+3. The current live sitemap: `https://mcbride-pm.com/sitemap.xml` (fetch via curl)
+4. The current site link map (the sitemap above plus the static link list in §5.5 below)
+5. Confirm today's date (use `date -u '+%Y-%m-%d'` — UTC)
 
-If any of those reads fail, halt and report the failure — do not publish anything based on stale context.
+If reads 1, 3, or 4 fail, halt and report — do not publish on stale context. A missing intelligence file (read 2) is NOT a halt condition; bootstrap it in §3.5.
 
 ---
 
@@ -118,6 +119,20 @@ If today's date already has a post: stop. Do not publish a second post.
 
 ---
 
+## 3.5 Phase 1.5 — Persistent intelligence (the brain)
+
+Your archive audit (§3) tells you what exists. This step tells you where you are *weakest*, so each post compounds topical authority instead of landing at random. The map lives in `.claude/intelligence/content-map.json` (clusters → coverage, authority, posts, gaps, priorityQueue) and `.claude/intelligence/published-log.json` (one record per post).
+
+**Load + reconcile.**
+1. Read both files. If `content-map.json` is missing, build it: bucket every post from §3 into clusters, estimate each cluster's `coverage` (0–1), and write the file. If `published-log.json` is missing or `bootstrapped: false`, backfill one record per existing post from its frontmatter (slug, cluster, persona, cities, keywords), set `bootstrapped: true`, and save. Do this BEFORE topic selection; you still publish today.
+2. Reconcile drift: if §3 shows a post not in the map, add it and recompute that cluster's coverage.
+
+**This step feeds §5:** the 2–3 weakest clusters (lowest `coverage`, then lowest `authority`), the top items from `priorityQueue`, and any `refreshFlags` (posts marked for update — e.g. one using a deprecated name like "Fort Eisenhower" instead of Fort Gordon).
+
+Do NOT delete history from these files. Only append and refine.
+
+---
+
 ## 4. Phase 2 — Trend & news research
 
 You're not picking a topic from a static list. You're identifying what is most useful to write about today based on current reality. Use web search to surface:
@@ -148,14 +163,18 @@ DO NOT cite:
 
 ## 5. Phase 3 — Pick the topic and persona
 
-Synthesize §2 (persona rotation balance) + §3 (gaps in archive) + §4 (current trends) into a single decision: **what is today's topic + persona + primary keyword?**
+Synthesize §2 (persona rotation balance) + §3 (archive) + §3.5 (weakest clusters, priorityQueue, refreshFlags) + §4 (current trends) into a single decision. **Default to publishing into the weakest cluster** that also fits the persona due in rotation (§2). Trend research (§4) is the tie-breaker and freshness layer — it shapes the *angle*, not whether you fill a gap. A genuinely urgent law/market story can override the gap pick; note that in the report.
+
+Decision: **what is today's topic + persona + primary keyword + cluster?**
 
 The output of this step is a 3-line decision:
 - **Persona:** [P1/P2/P3/P4/P5]
 - **Topic:** [one specific topic phrased as a question or a noun phrase]
 - **Primary keyword:** [the exact search query the post is built to win, including location modifier if relevant]
 
-Confirm against §3's archive scan that this topic is not a near-duplicate. If it is, pick again.
+Confirm against §3 + `published-log.json` that this is not a near-duplicate.
+
+**Refresh-vs-new gate.** If the topic overlaps an existing post by more than ~40% (same primary topic, persona, and geography), do NOT publish a competing post — **refresh the existing one** instead: update stats/laws/links, add FAQs, widen entity coverage, fix deprecated names, and (if the slug itself is wrong, e.g. "fort-eisenhower-…") add a same-title post at the corrected slug plus a redirect in `src/_redirects`. Also action any `refreshFlags` from §3.5 when they outrank a new topic. Log a refresh as `type: "refresh"` in `published-log.json` and skip §7 image generation unless the refresh needs new imagery. A stronger existing page usually beats a new thin one.
 
 ### 5.5 Available internal link targets (live site as of last sitemap pull)
 
@@ -193,9 +212,9 @@ Always pull the current sitemap before writing (§0 step 2). The following are t
 **Blog posts** — for cross-linking, prefer posts that directly support the current topic. Pull the live list (§3); don't rely on a static list.
 
 Every post must include AT LEAST:
-- 4 internal links to other site pages (mix of service pages, city pages, and other blog posts)
+- 6–10 internal links, cluster-aware: the parent/cornerstone post for this cluster, 1–2 sibling posts in the same cluster, the closest city page, a service/conversion page, an owner- or resident-FAQ page, and the `/contact/` CTA. Only genuinely useful links — no link dumps.
 - 1 internal link to a relevant PDF download (when one applies to the topic)
-- 3 external authoritative source links
+- 3–5 external authoritative source links
 
 ---
 
@@ -215,7 +234,7 @@ image: "/images/blog/[slug].jpg"
 imageAlt: "[12–18 words describing what the image shows, with relevant locator]"
 author: "Noah McBride"       # default; only override if the post is genuinely from a different author
 authorTitle: "Principal Broker"
-faqs:                        # 4–6 Q&A pairs — renders FAQPage JSON-LD AND visible FAQ section
+faqs:                        # 6–10 Q&A pairs — renders FAQPage JSON-LD AND visible FAQ section
   - question: "[Question]"
     answer: "[Answer in 40–80 words, direct, factual]"
 # Optional: include howTo block for genuinely procedural posts (step-by-step content)
@@ -263,13 +282,15 @@ Write in second person ("you / your"). Don't tell the reader what the post will 
 - 4–8 H2 sections is the right range for a 2,000–3,000 word post.
 - Each H2 should be a real subtopic, not a placeholder. Phrase H2s as questions or specific claims, not generic labels.
 - Short paragraphs (2–4 sentences). Lists where appropriate.
-- At least one section should include a real data table, ordered list, or bulleted summary block — AI engines lift these as structured citations.
+- **Answer-first H2s:** every H2 opens with a one-sentence direct answer to the question it raises, THEN expands. AI Overviews and featured snippets lift these sentences verbatim.
+- **Required extractables (every post):** at least ONE comparison table AND at least ONE checklist or numbered step-by-step list. These are what LLMs quote — not optional.
+- May add more tables/ordered lists where they earn their place.
 - Mention "McBride Property Management" or "McBride PM" naturally 3–4 times across the post (not stuffed).
 - Reference Noah McBride or Amber McBride by name once each where natural — this is an E-E-A-T signal.
 - Local entity density: drop in at least 5 named local entities (specific cities, counties, ZIP codes, employers, landmarks, statutes). Specificity is what wins both human trust and AI citation.
 
 **(d) Internal links.**
-Inline links — not a "see also" block at the end. Each link should be in a sentence where the link target is the natural reference for the claim being made. Target 4–8 internal links total per post.
+Inline links — not a "see also" block at the end. Each link sits in the sentence where its target is the natural reference for the claim. Target 6–10 internal links total per post, spanning the cluster parent, 1–2 siblings, a city page, a service page, an FAQ hub, and the `/contact/` CTA.
 
 **(e) External links.**
 3–5 external citation links. Each external link goes to the source being cited, in the sentence where the source is being cited.
@@ -511,6 +532,19 @@ If push fails for auth: halt and report. Do not retry with a hardcoded token.
 
 ---
 
+## 8.5 Phase 6.5 — Update the brain + write the strategist report
+
+In the SAME commit as the post (before §9 verify), update the intelligence files so tomorrow's run is smarter:
+
+1. **`published-log.json`** — append this post's record: slug, title, date, cluster, subtopic, persona, intent, cities, primaryKeyword, entities, questionsAnswered, internalLinks, externalCitations, wordCount, schema, type (`new`|`refresh`).
+2. **`content-map.json`** — add the slug to the cluster's `posts[]`, raise its `coverage`/`authority`, remove the gap you filled, and clear any `refreshFlags` you actioned.
+3. **Strategist report** — write `outputs/reports/strategist-report-<UTC-DATE>.md` (internal — Eleventy builds only `src/`, so `outputs/` is never web-routable). Include: topic + persona chosen and the gap/cluster it filled (or the post it refreshed); primary keyword + supporting entities used; internal links to add from older posts → this new post (specific slugs); the next refresh candidate; and a refreshed `priorityQueue` of the next 5–10 topics.
+
+Commit the post, images, BOTH intelligence files, and the report together:
+`git add src/blog/<slug>.md src/images/blog/<slug>*.jpg .claude/intelligence/*.json outputs/reports/`
+
+---
+
 ## 9. Phase 7 — Verify deploy
 
 After pushing, poll the live site until the new post is visible:
@@ -551,6 +585,8 @@ Persona: [P#] · Words: [N] · Internal links: [N] · External cites: [N] · Ima
 - Never skip the FAQs frontmatter block — that's how FAQPage schema gets emitted.
 - Never publish a post under 1,800 words. If you got there, you picked the wrong topic.
 - Never block publication on image failure — drop the image fields and publish.
+- Every run MUST update `.claude/intelligence/content-map.json` + `published-log.json` and write the strategist report (§8.5). A run that publishes but doesn't update the brain is incomplete.
+- Prefer refreshing a strong existing post over publishing a thin near-duplicate (§5 refresh gate).
 
 ## 11. If something is wrong
 
