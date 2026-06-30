@@ -207,7 +207,7 @@ Out-of-state investors consistently get better outcomes when they do this work b
 
 **Run the full operating expense model.** Our [Operating Expenses Worksheet](/pdfs/McBride-PM_Operating-Expenses-Worksheet.pdf) lays out CSRA-specific benchmarks for maintenance reserves, vacancy, management fees, insurance, and taxes. Fill it out for every property before you make an offer.
 
-**Check HOA status.** Many Columbia County subdivisions have HOAs with rental restrictions, investor caps, or tenant approval requirements. This can kill deals post-inspection if you discover it late.
+**Check HOA status.** Many Columbia County subdivisions have HOAs with rental restrictions, investor caps, or tenant approval requirements. This can kill deals post-inspection if you find it late.
 
 **Order a thorough inspection.** In older parts of Martinez and Augusta city especially, ask your inspector to specifically assess HVAC age, roof condition, and any evidence of foundation movement or moisture intrusion. These are the biggest capital expenditure items that surprise out-of-state buyers. Our full landlord due diligence framework is in the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf).
 
