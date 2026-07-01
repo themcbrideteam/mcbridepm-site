@@ -161,7 +161,7 @@ If your HOA disputes your grandfathering status, that documentation is what an a
 
 ## Georgia SB 406: New Property Owner Protections, Starting Now and in January 2027
 
-The most significant piece of Georgia HOA legislation in decades was signed into law on May 12, 2026. [Senate Bill 406 — the Georgia Property Owners' Bill of Rights Act](https://legiscan.com/GA/bill/SB406/2025) passed the Georgia Senate 51–0 and the House 155–10 before Governor Kemp signed it. The near-unanimous margin reflects how broadly its provisions were viewed as reasonable consumer protections.
+The most significant piece of Georgia HOA legislation in decades was signed into law on May 12, 2026. [Senate Bill 406 — the Georgia Property Owners' Bill of Rights Act](https://legiscan.com/GA/bill/SB406/2025) passed the Georgia Senate 51–0 and the House 155–10 before Governor Kemp signed it. The near-unanimous margin reflects how broadly its provisions were viewed as reasonable consumer protections. A full [analysis of what SB 406 means for Georgia community associations](https://www.huntermaclean.com/2026/05/georgia-community-associations-face-major-regulatory-changes-under-sb-406/) is available from HunterMaclean, a Georgia law firm that specializes in HOA and community association law.
 
 The bill has two effective dates that CSRA landlords need to track.
 
