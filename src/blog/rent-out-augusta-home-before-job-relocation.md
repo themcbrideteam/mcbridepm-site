@@ -133,7 +133,7 @@ Current single-family rental ranges for mid-2026:
 | 3 BR | $1,450–$1,650 | $1,250–$1,450 |
 | 4 BR | $1,650–$1,900 | $1,450–$1,650 |
 
-These ranges reflect mid-2026 market data from multiple listing sources. Homes in the Fort Gordon commute corridor—specifically Evans 30809 and Grovetown 30813—tend toward the top of each range because they attract a strong pool of military tenants whose Basic Allowance for Housing (BAH) is structured to cover market-rate rents.
+These ranges reflect mid-2026 market data from [RentCafe](https://www.rentcafe.com/average-rent-market-trends/us/ga/augusta/) and Zumper. Homes in the Fort Gordon commute corridor—specifically Evans 30809 and Grovetown 30813—tend toward the top of each range because they attract a strong pool of military tenants whose Basic Allowance for Housing (BAH) is structured to cover market-rate rents.
 
 Rental demand in the CSRA is backed by three structural anchors, not one. Fort Gordon trains approximately 20,000 signal and cyber soldiers annually and is in the middle of a multi-year, 35-project construction modernization program. Savannah River Nuclear Solutions (SRNS) is targeting more than 9,000 new hires over the next five years, per the [U.S. Department of Energy](https://www.energy.gov/srs/employment-and-workforce), generating sustained demand in the Aiken-Augusta corridor. Augusta University Medical Center and Wellstar MCG produce a consistent pipeline of medical residents, fellows, and clinical staff who rent before buying. These aren't cyclical demand drivers—they're institutional.
 
