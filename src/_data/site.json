@@ -16,7 +16,7 @@
   "tenantPhoneTel": "7063392874",
   "tenantPhoneE164": "+17063392874",
   "tenantPhoneRole": "Current residents / rental applicants",
-  "email": "amber@c21magnolia.com",
+  "email": "amber@themcbrideteam.com",
   "address": "609 Ponder Place Drive, Suite B",
   "city": "Evans",
   "state": "GA",
@@ -26,30 +26,116 @@
   "longitude": -82.1335,
   "ownerPortal": "https://c21magnolia.appfolio.com/oportal/users/log_in",
   "residentPortal": "https://c21magnolia.appfolio.com/connect/users/sign_in",
-  "amberEmail": "amber@c21magnolia.com",
+  "amberEmail": "amber@themcbrideteam.com",
   "openingHours": [
-    {"days": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "17:00"}
+    {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "17:00"
+    }
   ],
   "areasServed": [
-    {"name": "Augusta", "state": "GA", "type": "City"},
-    {"name": "Evans", "state": "GA", "type": "City"},
-    {"name": "Martinez", "state": "GA", "type": "City"},
-    {"name": "Grovetown", "state": "GA", "type": "City"},
-    {"name": "Harlem", "state": "GA", "type": "City"},
-    {"name": "Hephzibah", "state": "GA", "type": "City"},
-    {"name": "Thomson", "state": "GA", "type": "City"},
-    {"name": "Appling", "state": "GA", "type": "City"},
-    {"name": "North Augusta", "state": "SC", "type": "City"},
-    {"name": "Aiken", "state": "SC", "type": "City"},
-    {"name": "Beech Island", "state": "SC", "type": "City"},
-    {"name": "Edgefield", "state": "SC", "type": "City"},
-    {"name": "Graniteville", "state": "SC", "type": "City"},
-    {"name": "Columbia County", "state": "GA", "type": "AdministrativeArea"},
-    {"name": "Richmond County", "state": "GA", "type": "AdministrativeArea"},
-    {"name": "McDuffie County", "state": "GA", "type": "AdministrativeArea"},
-    {"name": "Aiken County", "state": "SC", "type": "AdministrativeArea"},
-    {"name": "Edgefield County", "state": "SC", "type": "AdministrativeArea"},
-    {"name": "Central Savannah River Area (CSRA)", "state": "GA", "type": "AdministrativeArea"}
+    {
+      "name": "Augusta",
+      "state": "GA",
+      "type": "City"
+    },
+    {
+      "name": "Evans",
+      "state": "GA",
+      "type": "City"
+    },
+    {
+      "name": "Martinez",
+      "state": "GA",
+      "type": "City"
+    },
+    {
+      "name": "Grovetown",
+      "state": "GA",
+      "type": "City"
+    },
+    {
+      "name": "Harlem",
+      "state": "GA",
+      "type": "City"
+    },
+    {
+      "name": "Hephzibah",
+      "state": "GA",
+      "type": "City"
+    },
+    {
+      "name": "Thomson",
+      "state": "GA",
+      "type": "City"
+    },
+    {
+      "name": "Appling",
+      "state": "GA",
+      "type": "City"
+    },
+    {
+      "name": "North Augusta",
+      "state": "SC",
+      "type": "City"
+    },
+    {
+      "name": "Aiken",
+      "state": "SC",
+      "type": "City"
+    },
+    {
+      "name": "Beech Island",
+      "state": "SC",
+      "type": "City"
+    },
+    {
+      "name": "Edgefield",
+      "state": "SC",
+      "type": "City"
+    },
+    {
+      "name": "Graniteville",
+      "state": "SC",
+      "type": "City"
+    },
+    {
+      "name": "Columbia County",
+      "state": "GA",
+      "type": "AdministrativeArea"
+    },
+    {
+      "name": "Richmond County",
+      "state": "GA",
+      "type": "AdministrativeArea"
+    },
+    {
+      "name": "McDuffie County",
+      "state": "GA",
+      "type": "AdministrativeArea"
+    },
+    {
+      "name": "Aiken County",
+      "state": "SC",
+      "type": "AdministrativeArea"
+    },
+    {
+      "name": "Edgefield County",
+      "state": "SC",
+      "type": "AdministrativeArea"
+    },
+    {
+      "name": "Central Savannah River Area (CSRA)",
+      "state": "GA",
+      "type": "AdministrativeArea"
+    }
   ],
   "services": [
     "Residential Property Management",
@@ -97,7 +183,8 @@
   ],
   "sameAs": [
     "https://www.facebook.com/61585070859577",
-    "https://maps.app.goo.gl/6VzM3uaYAhxViFwz5"
+    "https://maps.app.goo.gl/6VzM3uaYAhxViFwz5",
+    "https://maps.google.com/?cid=2167520688128354194"
   ],
   "social": {
     "facebook": "https://www.facebook.com/61585070859577",

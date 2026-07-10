@@ -172,7 +172,7 @@ At McBride Property Management, the move-out process is documented in writing â€
 
 Within 30 days of your move-out date, you receive either a full deposit refund or a written itemized statement of any deductions, with supporting documentation. Every deduction is line-itemed by category, dollar amount, and reason. We don't charge for normal wear and tear, we don't lump charges together, and we don't wait until the last moment to mail the statement.
 
-Amber McBride manages our resident offboarding process directly. If you're a current resident with questions about your move-out timeline or the condition report, her team is reachable at [amber@c21magnolia.com](mailto:amber@c21magnolia.com) or through your AppFolio resident portal.
+Amber McBride manages our resident offboarding process directly. If you're a current resident with questions about your move-out timeline or the condition report, her team is reachable at [amber@themcbrideteam.com](mailto:amber@themcbrideteam.com) or through your AppFolio resident portal.
 
 We maintain the process described in our [resident FAQs](/resident-faqs/) and encourage every resident to review the move-out expectations well before their move-out date.
 
@@ -227,7 +227,7 @@ The strongest move is to go into the process understanding both sides. That way 
 
 Whether you're a current McBride PM resident or you're looking for a property management company that actually follows the law on security deposits, our team is straightforward about every step of the process. Visit our [resident FAQ page](/resident-faqs/) for the complete move-out guide, or browse our [available rentals](/rentals/) if you're looking for your next CSRA home.
 
-Questions about the process? Call our tenant line at **(706) 339-2874** or email [amber@c21magnolia.com](mailto:amber@c21magnolia.com).
+Questions about the process? Call our tenant line at **(706) 339-2874** or email [amber@themcbrideteam.com](mailto:amber@themcbrideteam.com).
 
 </div>
 

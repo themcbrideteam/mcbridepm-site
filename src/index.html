@@ -186,33 +186,32 @@ keywords: "property management Augusta GA, Evans property management, CSRA prope
     </div>
   </section>
 
-  <!-- TESTIMONIALS -->
+  <!-- TESTIMONIALS (5-star Google reviews; live-synced at build when GOOGLE_PLACES_API_KEY is set) -->
   <section class="section section--light">
     <div class="container">
-      <h2 style="text-align: center; margin-bottom: 3rem;">What Property Owners Say About Working With Us</h2>
+      <h2 style="text-align: center; margin-bottom: .75rem;">What Property Owners Say About Working With Us</h2>
+      <p style="text-align: center; margin-bottom: 3rem; color: #555;">
+        {%- if googleReviews.live and googleReviews.count %}
+        Rated {{ googleReviews.rating }} of 5 by {{ googleReviews.count }} reviewers on Google.
+        {%- else %}
+        Five-star reviews from our Google Business Profile.
+        {%- endif %}
+      </p>
 
       <div class="grid grid-3">
+        {%- for review in googleReviews.reviews %}
         <div class="testimonial">
-          <div class="stars">★★★★★</div>
-          <p>"McBride Property Management transformed how I manage my rentals. Their tenant screening process is thorough, and I haven't had a single problem tenant in three years. The financial reporting is clear and timely."</p>
-          <div class="author">Sarah Mitchell</div>
-          <div class="role">Rental Property Owner</div>
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p>"{{ review.text }}"</p>
+          <div class="author">{{ review.author }}</div>
+          <div class="role">Google review</div>
         </div>
-
-        <div class="testimonial">
-          <div class="stars">★★★★★</div>
-          <p>"I was spending hours every month dealing with tenant calls and maintenance issues. Since switching to McBride, I have my life back. Their 24/7 emergency response is genuinely responsive, not just a phone tree."</p>
-          <div class="author">James Richardson</div>
-          <div class="role">Rental Property Owner</div>
-        </div>
-
-        <div class="testimonial">
-          <div class="stars">★★★★★</div>
-          <p>"The team's market knowledge is exceptional. They helped me understand exactly what I should be charging for my rental and filled it in just two weeks. Best decision I made for my property investment."</p>
-          <div class="author">Patricia Thompson</div>
-          <div class="role">Rental Property Owner</div>
-        </div>
+        {%- endfor %}
       </div>
+
+      <p style="text-align: center; margin-top: 2rem; margin-bottom: 0;">
+        <a href="{{ site.social.googleBusinessProfile }}" rel="noopener" style="text-decoration: underline; text-underline-offset: 3px;">Read all our reviews on Google &rarr;</a>
+      </p>
     </div>
   </section>
 

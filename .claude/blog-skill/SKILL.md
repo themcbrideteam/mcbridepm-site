@@ -39,7 +39,7 @@ If reads 1, 3, or 4 fail, halt and report — do not publish on stale context. A
 
 **Office:** 609 Ponder Place Drive, Suite B, Evans, GA 30809.
 
-**Email:** amber@c21magnolia.com (still in use; do not change in posts).
+**Email:** amber@themcbrideteam.com (still in use; do not change in posts).
 
 **Slogan:** "Guiding you home."
 

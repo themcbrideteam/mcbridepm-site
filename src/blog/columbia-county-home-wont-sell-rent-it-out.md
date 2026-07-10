@@ -239,7 +239,7 @@ For an overview of what to do first when you realize you're becoming an unplanne
 
 If your home hasn't sold and you're wondering whether renting is the right move, McBride Property Management will give you a property-specific rental projection — no obligation. Amber McBride will pull recent comparable leases in your neighborhood and walk through the full numbers with you.
 
-Call us at **(706) 420-4883**, email amber@c21magnolia.com, or submit your property info at [mcbride-pm.com/contact/](/contact/). We also put together a downloadable [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) that covers the essentials of becoming a rental property owner in the Augusta area — it's free and a good read before your first decision.
+Call us at **(706) 420-4883**, email amber@themcbrideteam.com, or submit your property info at [mcbride-pm.com/contact/](/contact/). We also put together a downloadable [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) that covers the essentials of becoming a rental property owner in the Augusta area — it's free and a good read before your first decision.
 
 </div>
 
