@@ -3,7 +3,7 @@ title: "Landlord Insurance in Georgia: What Augusta-Area Rental Property Owners 
 description: "Georgia landlord insurance guide for Augusta, Evans, and Columbia County rental owners. Coverage types, costs, and 2026 law changes explained."
 date: 2026-05-12
 category: "Property Owners"
-readTime: "8 min"
+readTime: "8"
 keywords: ["landlord insurance Georgia", "rental property insurance Augusta GA", "landlord liability coverage", "Georgia rental property insurance requirements", "Columbia County landlord insurance"]
 image: "/images/blog/landlord-insurance-georgia-rental-property-guide.jpg"
 imageAlt: "Two-story brick Southern home with a covered front porch at golden hour"
@@ -65,7 +65,7 @@ Landlord insurance typically costs 15% to 25% more than a comparable homeowners 
 
 For the Augusta metro area — including Evans, Grovetown, Martinez, and Columbia County — you can generally expect to pay between $1,000 and $3,000 per year for a standard single-family rental property, depending on the home's age, condition, construction type, and the coverage limits you select. According to [Steadily](https://www.steadily.com/states/georgia), the average annual premium for a Georgia landlord policy is approximately $1,081 for a standard home, though properties with higher dwelling coverage or in areas with elevated weather risk will pay more.
 
-That cost is fully tax-deductible as a rental property operating expense. If you're not already deducting your insurance premiums, check out our guide on [rental property tax deductions](/blog/rental-property-tax-deductions-georgia-landlord/).
+That cost is fully tax-deductible as a rental property operating expense. If you're not already deducting your insurance premiums, check out our guide on [rental property tax deductions](/blog/rental-property-tax-deductions-georgia-landlords/).
 
 ## Umbrella Policies: Extra Protection for Multi-Property Owners
 

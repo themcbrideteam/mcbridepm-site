@@ -1,0 +1,32 @@
+---
+layout: base.njk
+title: "Page Not Found | McBride Property Management"
+description: "The page you're looking for doesn't exist or has moved."
+permalink: /404.html
+robots: "noindex, follow"
+eleventyExcludeFromCollections: true
+---
+
+{% block content %}
+<section class="page-header">
+  <div class="container">
+    <h1>We Couldn't Find That Page</h1>
+    <p>The page you're looking for doesn't exist or has moved—our site recently changed addresses, so some older links have new homes.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container content-narrow">
+    <h2>Here's where you probably want to go</h2>
+    <ul style="margin: 1.5rem 0 2rem 1.5rem; line-height: 2.2;">
+      <li><a href="/services/">Property management services</a> — what we handle for owners</li>
+      <li><a href="/contact/">Free rental analysis</a> — find out what your property should rent for</li>
+      <li><a href="/rentals/">Available rentals</a> — homes for rent across the CSRA</li>
+      <li><a href="/blog/">Owner and investor guides</a> — 50+ articles on the Augusta rental market</li>
+      <li><a href="/resources/">Owner resources</a> — free checklists, worksheets, and guides</li>
+    </ul>
+    <p>Looking for a specific city? <a href="/augusta/">Augusta</a>, <a href="/evans/">Evans</a>, <a href="/grovetown/">Grovetown</a>, <a href="/martinez/">Martinez</a>, <a href="/north-augusta/">North Augusta</a>, or <a href="/aiken/">Aiken</a>.</p>
+    <p style="margin-top: 2rem;">Can't find what you need? Call us at <a href="tel:{{ site.phoneTel }}"><strong>{{ site.phone }}</strong></a> and we'll point you in the right direction.</p>
+  </div>
+</section>
+{% endblock %}

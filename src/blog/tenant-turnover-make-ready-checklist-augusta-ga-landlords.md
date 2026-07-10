@@ -3,7 +3,7 @@ title: "Tenant Turnover and Make-Ready: A Step-by-Step Checklist for Augusta-Are
 description: "Learn how to handle tenant turnover efficiently with this make-ready checklist for Augusta, GA landlords. Reduce vacancy time and protect your rental income."
 date: 2026-05-20
 category: "Property Owners"
-readTime: "8 min"
+readTime: "8"
 keywords: ["tenant turnover Augusta GA", "make-ready checklist rental property", "rental turnover process Georgia", "reduce vacancy time Augusta landlord", "property management Augusta GA"]
 howTo:
   name: "How to Handle Tenant Turnover on an Augusta-Area Rental Property"

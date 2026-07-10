@@ -3,7 +3,7 @@ title: "Lease Renewal Strategies That Keep Good Tenants in Your Augusta-Area Ren
 description: "Practical lease renewal strategies for Augusta, GA landlords to reduce turnover costs, retain quality tenants, and maximize rental income in Columbia and Richmond County."
 date: 2026-05-15
 category: "Property Owners"
-readTime: "7 min"
+readTime: "7"
 keywords: ["lease renewal Augusta GA", "tenant retention landlord tips", "rental property lease renewal Georgia", "reduce tenant turnover Augusta", "Columbia County landlord lease strategies"]
 image: "/images/blog/lease-renewal-strategies-augusta-ga-landlords.jpg"
 imageAlt: "Welcoming Southern home with rocking chairs on a covered porch at golden hour"

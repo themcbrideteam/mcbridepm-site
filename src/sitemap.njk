@@ -8,18 +8,17 @@ layout: false
 {%- set staticPages = ['/', '/about/', '/services/', '/why-hire/', '/contact/', '/rentals/', '/blog/', '/augusta/', '/evans/', '/martinez/', '/grovetown/', '/harlem/', '/hephzibah/', '/appling/', '/north-augusta/', '/aiken/', '/graniteville/', '/referral/', '/owner-faqs/', '/resident-faqs/', '/resources/', '/privacy/', '/terms/'] -%}
 {% for url in staticPages %}
   <url>
-      <loc>{{ site.url }}{{ url }}</loc>
-          <lastmod>{{ page.date | isoDate }}</lastmod>
-              <changefreq>{% if url == '/' %}weekly{% else %}monthly{% endif %}</changefreq>
-                  <priority>{% if url == '/' %}1.0{% elif url == '/contact/' or url == '/services/' %}0.9{% elif url == '/owner-faqs/' or url == '/resident-faqs/' or url == '/resources/' %}0.7{% elif url == '/privacy/' or url == '/terms/' %}0.3{% else %}0.8{% endif %}</priority>
-                    </url>
-                    {% endfor %}
-                    {% for post in collections.blog %}
-                      <url>
-                          <loc>{{ site.url }}{{ post.url }}</loc>
-                              <lastmod>{{ post.date | isoDate }}</lastmod>
-                                  <changefreq>monthly</changefreq>
-                                      <priority>0.7</priority>
-                                        </url>
-                                        {% endfor %}
-                                        </urlset>
+    <loc>{{ site.url }}{{ url }}</loc>
+    <changefreq>{% if url == '/' %}weekly{% else %}monthly{% endif %}</changefreq>
+    <priority>{% if url == '/' %}1.0{% elif url == '/contact/' or url == '/services/' %}0.9{% elif url == '/owner-faqs/' or url == '/resident-faqs/' or url == '/resources/' %}0.7{% elif url == '/privacy/' or url == '/terms/' %}0.3{% else %}0.8{% endif %}</priority>
+  </url>
+{% endfor %}
+{% for post in collections.blog %}
+  <url>
+    <loc>{{ site.url }}{{ post.url }}</loc>
+    <lastmod>{{ (post.data.dateModified or post.date) | isoDate }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+{% endfor %}
+</urlset>

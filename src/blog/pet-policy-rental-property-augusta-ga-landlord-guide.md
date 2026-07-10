@@ -3,7 +3,7 @@ title: "Pet Policy for Your Rental Property in Augusta, GA: A Landlord's Complet
 description: "How to create a pet policy for your Augusta-area rental property. Covers Georgia pet deposit laws, pet rent, service animals, and Fair Housing compliance."
 date: 2026-05-14
 category: "Property Owners"
-readTime: "8 min"
+readTime: "8"
 keywords: ["pet policy rental property Augusta GA", "Georgia pet deposit laws landlords", "service animal rental property Georgia", "pet rent Augusta rental", "landlord pet policy Columbia County GA"]
 image: "/images/blog/pet-policy-rental-property-augusta-ga-landlord-guide.jpg"
 imageAlt: "Friendly golden retriever lying on a sunlit hardwood floor in a clean rental home interior"

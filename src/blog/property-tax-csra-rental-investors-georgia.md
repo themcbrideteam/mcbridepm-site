@@ -75,7 +75,7 @@ Augusta-Richmond County carries a combined millage rate of approximately **28.84
 | Columbia County (incorporated) | 27.937 mills | $2,458 | 1.12% |
 | Richmond County / Augusta | 28.849 mills | $2,539 | 1.15% |
 
-The annual gap — roughly **$278 between unincorporated Columbia County and Richmond County** on the same purchase price — partially explains why investors have consistently [favored Columbia County over Augusta city](/why-columbia-county-outperforms-augusta-rental-investors/). The lower millage is a structural NOI advantage that compounds each year you hold the property. It doesn't close on its own.
+The annual gap — roughly **$278 between unincorporated Columbia County and Richmond County** on the same purchase price — partially explains why investors have consistently [favored Columbia County over Augusta city](/blog/why-columbia-county-outperforms-augusta-rental-investors/). The lower millage is a structural NOI advantage that compounds each year you hold the property. It doesn't close on its own.
 
 Millage rates are set annually by each county's Board of Commissioners and Board of Education. The [Georgia Department of Revenue publishes each county's millage digest](https://dor.georgia.gov/local-government-services/digest-compliance/property-tax-millage-rates) each year, and Columbia County's tax commissioner maintains a detailed [tax calculation worksheet](https://www.columbiacountyga.gov/196/Tax-Calculation-Process-Tax-Worksheet) that lets you walk through the full calculation for any parcel. Both are worth bookmarking.
 
@@ -143,7 +143,7 @@ Here's how to build it correctly:
 
 For a verified expenses worksheet with CSRA-specific benchmarks — including property tax, insurance, maintenance reserves, and vacancy factors — download the [McBride PM Operating Expenses Worksheet](/pdfs/McBride-PM_Operating-Expenses-Worksheet.pdf). It's the same tool we walk investors through during onboarding, and it builds in the county-specific tax math for Columbia and Richmond County parcels.
 
-For a broader look at how property tax fits into the full NOI picture, the [CSRA rental property cash flow analysis](/csra-rental-property-cash-flow-analysis-augusta-ga/) walks through gross rent to net operating income with verified 2026 benchmarks.
+For a broader look at how property tax fits into the full NOI picture, the [CSRA rental property cash flow analysis](/blog/csra-rental-property-cash-flow-analysis-augusta-ga/) walks through gross rent to net operating income with verified 2026 benchmarks.
 
 ## How to Appeal Your Assessment — and When It's Worth It
 
@@ -169,7 +169,7 @@ McBride Property Management works through this calculation with every investor w
 
 If you're buying in [Evans](/evans/), [Augusta](/augusta/), or [Grovetown](/grovetown/) and want a second set of eyes on your numbers before you close, [request a free rental analysis at our contact page](/contact/). We'll walk through the full expense model — including where your property tax estimate sits relative to the county's current tax roll and any pending reassessment risk.
 
-Two related guides worth reading alongside this one: our breakdown of [what Georgia's HB 399 requires of out-of-state landlords](/georgia-hb-399-csra-out-of-state-landlord-compliance/) — the 2025 law requiring a licensed Georgia broker as your in-state representative — and the comprehensive [out-of-state investor guide to buying CSRA rentals](/out-of-state-rental-investor-guide-augusta-ga/). For the full field reference, download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) — a 12-page reference covering acquisition, operations, and compliance for CSRA property owners.
+Two related guides worth reading alongside this one: our breakdown of [what Georgia's HB 399 requires of out-of-state landlords](/blog/georgia-hb-399-csra-out-of-state-landlord-compliance/) — the 2025 law requiring a licensed Georgia broker as your in-state representative — and the comprehensive [out-of-state investor guide to buying CSRA rentals](/blog/out-of-state-rental-investor-guide-augusta-ga/). For the full field reference, download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) — a 12-page reference covering acquisition, operations, and compliance for CSRA property owners.
 
 ---
 

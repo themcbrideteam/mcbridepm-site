@@ -3,7 +3,7 @@ title: "Summer Maintenance Checklist for Augusta-Area Rental Properties"
 description: "A seasonal maintenance checklist to protect your Augusta, GA rental property from summer heat, humidity, and storms before costly damage hits."
 date: 2026-05-01
 category: "Property Owners"
-readTime: "8 min"
+readTime: "8"
 keywords: ["summer maintenance rental property Augusta GA", "landlord maintenance checklist Georgia", "HVAC maintenance rental property", "rental property summer prep Columbia County", "property management Augusta maintenance"]
 howTo:
   name: "Summer Maintenance Checklist for an Augusta-Area Rental Property"

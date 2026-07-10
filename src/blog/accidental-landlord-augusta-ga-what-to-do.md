@@ -3,7 +3,7 @@ title: "Accidental Landlord in Augusta, GA? Here's Exactly What to Do Next"
 description: "Became an accidental landlord in Augusta, GA? Step-by-step guide covering insurance, legal requirements, rent pricing, and property management options."
 date: 2026-04-16
 category: "Property Owners"
-readTime: "7 min"
+readTime: "7"
 keywords: ["accidental landlord Augusta GA", "rent out home Augusta Georgia", "PCS landlord Fort Gordon", "accidental landlord what to do", "property management Augusta GA"]
 image: "/images/blog/accidental-landlord-augusta-ga-what-to-do.jpg"
 imageAlt: "Single-family Southern home with a blank for-rent sign in the front yard at golden hour"

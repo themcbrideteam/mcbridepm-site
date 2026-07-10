@@ -12,12 +12,12 @@ keywords: "property management Augusta GA, Evans property management, CSRA prope
 <!-- HERO SECTION -->
   <section class="hero">
     <div class="container">
-      <h1>Augusta Property Management Built on Experience, Driven by Results</h1>
-      <p>Protect your investment and maximize your income with professional property management. We handle the details so you can focus on your financial goals.</p>
+      <h1>Augusta Property Management, Managed Like It's Our Own</h1>
+      <p>Tenant screening, rent collection, maintenance, and clear monthly reporting for residential owners across the CSRA—handled by a local, third-generation real estate team licensed in Georgia and South Carolina.</p>
       <div class="hero-buttons">
         <a href="/contact/" class="btn btn-primary btn-lg">Get a Free Rental Analysis</a>
-        <a href="/rentals/" class="btn btn-outline btn-lg">View Available Rentals</a>
       </div>
+      <p class="hero-alt-link"><a href="/rentals/">Looking for a home to rent? Browse available rentals &rarr;</a></p>
     </div>
   </section>
 
@@ -52,8 +52,8 @@ keywords: "property management Augusta GA, Evans property management, CSRA prope
   <section class="section">
     <div class="container">
       <h2>Property Management for Owners Who Want More Than a Vendor</h2>
-      <p style="max-width: 800px; margin-bottom: 1.5rem;">At McBride Property Management, we're not just another management company. We're your strategic partner in real estate. With over a decade of experience across the CSRA region, we've built our reputation on delivering results that exceed expectations. From comprehensive tenant screening to proactive maintenance coordination, we handle every aspect of your property so you can enjoy peace of mind and strong returns.</p>
-      <p style="max-width: 800px; margin-bottom: 2rem;">We believe in transparency, responsiveness, and a hands-on approach to property management. Your success is our success, and we're committed to protecting your investment while maximizing your income.</p>
+      <p style="max-width: 800px; margin-bottom: 1.5rem;">Most of our owners never planned to be landlords. A PCS order moved you away from the CSRA and you kept the house. You inherited a property. You bought a rental from out of state and need eyes you trust on the ground. Whatever brought you here, the job is the same: protect the asset, keep it rented to a well-screened resident, and send you a statement you can actually read.</p>
+      <p style="max-width: 800px; margin-bottom: 2rem;">That's the whole service. One local team—backed by a decade in Augusta-area real estate and licensed in both Georgia and South Carolina—screens every adult applicant, coordinates maintenance with licensed and insured vendors, enforces the lease, and reports to you monthly. No long-term contract: if we stop earning it, you can leave.</p>
       <a href="/services/" class="btn btn-navy">Explore Our Services</a>
     </div>
   </section>
@@ -165,9 +165,9 @@ keywords: "property management Augusta GA, Evans property management, CSRA prope
           <a href="/harlem/" class="area-tag">Harlem</a>
           <a href="/hephzibah/" class="area-tag">Hephzibah</a>
           <a href="/appling/" class="area-tag">Appling</a>
-          <a href="/contact/" class="area-tag">Thomson</a>
-          <a href="/contact/" class="area-tag">Columbia County</a>
-          <a href="/contact/" class="area-tag">Richmond County</a>
+          <span class="area-tag">Thomson</span>
+          <span class="area-tag">Columbia County</span>
+          <span class="area-tag">Richmond County</span>
         </div>
       </div>
 
@@ -177,10 +177,11 @@ keywords: "property management Augusta GA, Evans property management, CSRA prope
           <a href="/north-augusta/" class="area-tag">North Augusta</a>
           <a href="/aiken/" class="area-tag">Aiken</a>
           <a href="/graniteville/" class="area-tag">Graniteville</a>
-          <a href="/contact/" class="area-tag">Edgefield</a>
-          <a href="/contact/" class="area-tag">Beech Island</a>
-          <a href="/contact/" class="area-tag">Aiken County</a>
+          <span class="area-tag">Edgefield</span>
+          <span class="area-tag">Beech Island</span>
+          <span class="area-tag">Aiken County</span>
         </div>
+        <p style="margin-top: 1.5rem; font-size: .9rem; color: #555;">Own a rental in a nearby community that isn't listed? <a href="/contact/" style="text-decoration: underline;">Ask us</a> — we cover most of the CSRA.</p>
       </div>
     </div>
   </section>
@@ -215,6 +216,40 @@ keywords: "property management Augusta GA, Evans property management, CSRA prope
     </div>
   </section>
 
+  <!-- HOW IT WORKS -->
+  <section class="section">
+    <div class="container content-narrow">
+      <h2 style="text-align: center; margin-bottom: 1rem;">What Happens After You Reach Out</h2>
+      <p style="text-align: center; max-width: 650px; margin: 0 auto 1.5rem;">No mystery and no sales cycle—here's the path from first contact to your first owner statement.</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Request your free rental analysis</h3>
+            <p>Tell us about the property and we'll send a defensible market rent number—built on real CSRA comps—within 1 business day. No obligation.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Onboard in one to two weeks</h3>
+            <p>Property condition review, professional listing photography, transfer of any existing lease and deposit, and your owner portal set up with direct deposit. If the home is occupied, your residents feel no disruption.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>We run the property—you review the statement</h3>
+            <p>Screening, rent collection, 24/7 maintenance triage, and renewals, summarized in a clear monthly owner statement with real-time portal access. With no long-term contract, we earn your business every month.</p>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 2rem;">
+        <a href="/contact/" class="btn btn-navy">Start with the Free Analysis</a>
+      </div>
+    </div>
+  </section>
+
   <!-- CTA SECTION: RENTAL ANALYSIS -->
   <section class="cta-section">
     <div class="container">
@@ -230,32 +265,18 @@ keywords: "property management Augusta GA, Evans property management, CSRA prope
       <h2 style="text-align: center; margin-bottom: 3rem;">Property Management Insights for Augusta Owners</h2>
 
       <div class="grid grid-3">
-        <div class="blog-card">
-          <div class="blog-card-img">🏠</div>
+        {%- for post in collections.blog %}{% if loop.index <= 3 %}
+        <article class="blog-card">
+          {% if post.data.image %}
+          <a href="{{ post.url }}" class="blog-card-img" tabindex="-1" aria-hidden="true"><img src="{{ post.data.image }}" alt="" width="1408" height="768" loading="lazy"></a>
+          {% endif %}
           <div class="blog-card-body">
-            <span class="tag">Property Owners</span>
-            <h3><a href="/blog/why-hire-property-manager/">Why Hire a Property Manager in Augusta, GA</a></h3>
-            <p>Most property owners in Augusta and Columbia County find that hiring a professional property manager transforms their investment experience.</p>
+            <span class="tag">{{ post.data.category or 'Property Owners' }}</span>
+            <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+            <p>{{ post.data.description }}</p>
           </div>
-        </div>
-
-        <div class="blog-card">
-          <div class="blog-card-img">🔑</div>
-          <div class="blog-card-body">
-            <span class="tag">Tenants</span>
-            <h3><a href="/blog/renting-in-augusta/">Renting in Augusta, GA: What Tenants Need to Know</a></h3>
-            <p>Your guide to finding the right rental in Augusta, Columbia County, and the Fort Gordon area. From neighborhoods to applications.</p>
-          </div>
-        </div>
-
-        <div class="blog-card">
-          <div class="blog-card-img">📝</div>
-          <div class="blog-card-body">
-            <span class="tag">Coming Soon</span>
-            <h3><a href="/blog/">More Posts on the Way</a></h3>
-            <p>Market updates, maintenance tips, and expert advice for property owners and tenants in the Augusta area. Check back soon.</p>
-          </div>
-        </div>
+        </article>
+        {% endif %}{% endfor -%}
       </div>
 
       <div style="text-align: center; margin-top: 3rem;">

@@ -3,7 +3,7 @@ title: "North Augusta, SC Rental Investment Guide: Why Investors Are Crossing th
 description: "North Augusta SC rental investment guide for landlords. Market data, rental rates, tax benefits, and what's driving demand in Aiken County's fastest-growing city."
 date: 2026-04-17
 category: "Property Owners"
-readTime: "7 min"
+readTime: "7"
 keywords: ["North Augusta SC rental investment", "Aiken County rental property", "North Augusta property management", "rental market North Augusta", "Augusta area rental investment"]
 image: "/images/blog/north-augusta-sc-rental-investment-guide.jpg"
 imageAlt: "North Augusta South Carolina residential view with mature hardwoods and the Savannah River corridor in the distance"

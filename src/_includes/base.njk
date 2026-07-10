@@ -10,7 +10,7 @@
   {% set _fullTitle = title if (title and (' | ' in title)) else ((title + ' | ' + site.name) if title else site.name) %}
   {% set _ogTitle = ogTitle or _fullTitle %}
   {% set _ogDescription = ogDescription or description or 'Professional property management for residential property owners across the CSRA.' %}
-  {% set _ogImage = ogImage or (site.url + '/og-image.jpg') %}
+  {% set _ogImage = ogImage or (site.url + image if image else site.url + '/og-image.jpg') %}
 
   <!-- Open Graph Tags -->
   <meta property="og:title" content="{{ _ogTitle }}">
@@ -18,56 +18,52 @@
   <meta property="og:type" content="{{ ogType or 'website' }}">
   <meta property="og:image" content="{{ _ogImage }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:locale" content="en_US">
 
   <title>{{ _fullTitle }}</title>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Fonts (preconnect first so the CSS request can reuse the connection) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
   <!-- Styles -->
   <link rel="stylesheet" href="/css/styles.css">
 
   <!-- Canonical, robots, sitemap -->
-    <link rel="canonical" href="{{ canonical or (site.url + page.url) }}">
-      <meta name="robots" content="{{ robots or 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' }}">
-        <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+  <link rel="canonical" href="{{ canonical or (site.url + page.url) }}">
+  <meta name="robots" content="{{ robots or 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' }}">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 
-          <!-- Favicons -->
-            <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
-              <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
-                <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-                  <link rel="manifest" href="/site.webmanifest">
-                    <meta name="theme-color" content="#1a3a5c">
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#060644">
 
-                      <!-- Twitter Card -->
-                        <meta name="twitter:card" content="summary_large_image">
-                          <meta name="twitter:title" content="{{ _ogTitle }}">
-                            <meta name="twitter:description" content="{{ _ogDescription }}">
-                              <meta name="twitter:image" content="{{ _ogImage }}">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ _ogTitle }}">
+  <meta name="twitter:description" content="{{ _ogDescription }}">
+  <meta name="twitter:image" content="{{ _ogImage }}">
 
-                                <!-- OG site_name -->
-                                  <meta property="og:site_name" content="{{ site.name }}">
-                                    <meta property="og:image:width" content="1200">
-                                      <meta property="og:image:height" content="630">
-                                        <meta property="og:locale" content="en_US">
+  <!-- Geo signals -->
+  <meta name="geo.region" content="US-GA">
+  <meta name="geo.placename" content="Evans, Georgia">
+  <meta name="geo.position" content="{{ site.latitude }};{{ site.longitude }}">
+  <meta name="ICBM" content="{{ site.latitude }}, {{ site.longitude }}">
 
-                                          <!-- Geo signals -->
-                                            <meta name="geo.region" content="US-GA">
-                                              <meta name="geo.placename" content="Evans, Georgia">
-                                                <meta name="geo.position" content="{{ site.latitude }};{{ site.longitude }}">
-                                                  <meta name="ICBM" content="{{ site.latitude }}, {{ site.longitude }}">
+  <!-- Performance -->
+  <link rel="dns-prefetch" href="https://c21magnolia.appfolio.com">
 
-                                                    <!-- Performance -->
-                                                      <link rel="preconnect" href="https://fonts.googleapis.com">
-                                                        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                                                          <link rel="dns-prefetch" href="https://c21magnolia.appfolio.com">
+  <!-- Search Console verification -->
+  {% if site.buildVerifications.googleSiteVerification %}<meta name="google-site-verification" content="{{ site.buildVerifications.googleSiteVerification }}">{% endif %}
+  {% if site.buildVerifications.bingSiteVerification %}<meta name="msvalidate.01" content="{{ site.buildVerifications.bingSiteVerification }}">{% endif %}
 
-                                                            <!-- Search Console verification -->
-                                                              {% if site.buildVerifications.googleSiteVerification %}<meta name="google-site-verification" content="{{ site.buildVerifications.googleSiteVerification }}">{% endif %}
-                                                                {% if site.buildVerifications.bingSiteVerification %}<meta name="msvalidate.01" content="{{ site.buildVerifications.bingSiteVerification }}">{% endif %}
-
-                                                                  <!-- Schema.org JSON-LD graph -->
-                                                                    {% include "schema/site-graph.njk" %}
+  <!-- Schema.org JSON-LD graph -->
+  {% include "schema/site-graph.njk" %}
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TDYZD9289V"></script>
@@ -79,12 +75,11 @@
     gtag('config', 'G-TDYZD9289V');
   </script>
 
-  <!-- Netlify Identity (required for Decap CMS login) -->
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
   {% block head %}{% endblock %}
 </head>
 <body>
+
+  <a class="skip-link" href="#main">Skip to main content</a>
 
   <!-- TOP BAR -->
   <div class="topbar">
@@ -115,15 +110,15 @@
     <div class="container">
       <a href="/" class="logo">McBride <span>PM</span></a>
 
-      <button class="hamburger" aria-label="Toggle navigation menu">
+      <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
         <span></span>
         <span></span>
         <span></span>
       </button>
 
-      <ul class="nav-links">
+      <ul class="nav-links" id="nav-links">
         <li class="dropdown">
-          <a href="#residents">Residents</a>
+          <a href="/rentals/">Residents</a>
           <div class="dropdown-menu">
             <a href="/rentals/">Available Properties</a>
             <a href="/resident-faqs/">Resident FAQs</a>
@@ -132,7 +127,7 @@
         </li>
 
         <li class="dropdown">
-          <a href="#owners">Owners</a>
+          <a href="/services/">Owners</a>
           <div class="dropdown-menu">
             <a href="/services/">PM Services</a>
             <a href="/why-hire/">Why Hire Us</a>
@@ -142,7 +137,7 @@
         </li>
 
         <li class="dropdown">
-          <a href="#areas">Areas We Serve</a>
+          <a href="/#all-areas">Areas We Serve</a>
           <div class="dropdown-menu">
             <a href="/augusta/">Augusta</a>
             <a href="/evans/">Evans</a>
@@ -158,6 +153,7 @@
           </div>
         </li>
 
+        <li><a href="/about/">About</a></li>
         <li><a href="/resources/">Resources</a></li>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/referral/">Agent Referral</a></li>
@@ -167,9 +163,11 @@
     </div>
   </nav>
 
+  <main id="main">
   {% block content %}
     {{ content | safe }}
   {% endblock %}
+  </main>
 
   <!-- FOOTER -->
   <footer class="footer">
@@ -180,14 +178,15 @@
           <p style="margin-bottom: 1rem;">{{ site.address }}<br>{{ site.city }}</p>
           <p style="margin-bottom: .5rem;"><strong><a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a></strong></p>
           <p style="margin-bottom: 1.5rem;"><strong><a href="mailto:{{ site.email }}">{{ site.email }}</a></strong></p>
-          <div class="tagline">Guiding you home.</div>
+          <div class="tagline">Managed like it's our own.</div>
         </div>
 
         <div>
-          <h4>Quick Links</h4>
+          <div class="footer-heading">Quick Links</div>
           <ul>
             <li><a href="/services/">Our Services</a></li>
             <li><a href="/why-hire/">Why Hire Us</a></li>
+            <li><a href="/about/">About Us</a></li>
             <li><a href="/blog/">Blog</a></li>
             <li><a href="/contact/">Contact Us</a></li>
             <li><a href="/contact/">Free Rental Analysis</a></li>
@@ -195,7 +194,7 @@
         </div>
 
         <div>
-          <h4>Areas We Serve</h4>
+          <div class="footer-heading">Areas We Serve</div>
           <ul>
             <li><a href="/augusta/">Augusta</a></li>
             <li><a href="/evans/">Evans</a></li>
@@ -212,7 +211,7 @@
         </div>
 
         <div>
-          <h4>Portal Access</h4>
+          <div class="footer-heading">Portal Access</div>
           <ul>
             <li><a href="{{ site.ownerPortal }}">Owner Portal</a></li>
             <li><a href="{{ site.residentPortal }}">Resident Portal</a></li>
@@ -230,18 +229,8 @@
     </div>
   </footer>
 
-  <script src="/js/main.js"></script>
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
+  <script src="/js/main.js" defer></script>
+  <script>if (/^#(invite_token|recovery_token|confirmation_token|email_change_token)=/.test(location.hash)) location.replace('/admin/' + location.hash);</script>
 
   {% block scripts %}{% endblock %}
 </body>

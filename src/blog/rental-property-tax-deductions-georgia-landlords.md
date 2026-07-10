@@ -3,7 +3,7 @@ title: "Rental Property Tax Deductions Every Georgia Landlord Should Know in 202
 description: "A complete guide to rental property tax deductions for Augusta, GA landlords in 2026, including depreciation, bonus depreciation, QBI, and more."
 date: 2026-04-27
 category: "Property Owners"
-readTime: "8 min"
+readTime: "8"
 keywords: ["rental property tax deductions Georgia", "landlord tax deductions Augusta GA", "rental property depreciation 2026", "bonus depreciation rental property", "QBI deduction landlord"]
 image: "/images/blog/rental-property-tax-deductions-georgia-landlords.jpg"
 imageAlt: "Clean home office with a laptop printed papers and a coffee mug in warm afternoon light"

@@ -3,7 +3,7 @@ title: "The Georgia Eviction Process: A Step-by-Step Guide for Augusta-Area Land
 description: "Learn the Georgia eviction process step by step, from the Safe at Home Act notice to the writ of possession, for landlords in Augusta, Evans, and Columbia County."
 date: 2026-04-22
 category: "Property Owners"
-readTime: "8 min"
+readTime: "8"
 keywords: ["Georgia eviction process", "Augusta landlord eviction", "dispossessory Georgia", "Safe at Home Act Georgia", "eviction timeline Augusta GA"]
 howTo:
   name: "How to Evict a Tenant in Georgia (Dispossessory Process)"

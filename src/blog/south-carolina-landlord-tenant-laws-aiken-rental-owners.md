@@ -3,7 +3,7 @@ title: "South Carolina Landlord-Tenant Laws Every Aiken Area Rental Owner Should
 description: "Key SC landlord-tenant laws for rental property owners in Aiken, North Augusta, and Beech Island. Security deposits, evictions, maintenance, and how SC differs from Georgia."
 date: 2026-04-19
 category: "Property Owners"
-readTime: "8 min"
+readTime: "8"
 keywords: ["South Carolina landlord tenant laws", "Aiken SC rental property", "North Augusta landlord requirements", "SC security deposit law", "CSRA rental property management"]
 image: "/images/blog/south-carolina-landlord-tenant-laws-aiken-rental-owners.jpg"
 imageAlt: "Historic Aiken South Carolina downtown street with restored brick storefronts under live oaks"

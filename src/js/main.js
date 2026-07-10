@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (hamburger) {
     hamburger.addEventListener('click', () => {
-      navLinks.classList.toggle('active');
+      const open = navLinks.classList.toggle('active');
+      hamburger.setAttribute('aria-expanded', open ? 'true' : 'false');
     });
   }
 
@@ -32,16 +33,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // FAQ accordion
   document.querySelectorAll('.faq-question').forEach(btn => {
+    btn.setAttribute('aria-expanded', 'false');
     btn.addEventListener('click', () => {
       const item = btn.parentElement;
       const wasOpen = item.classList.contains('open');
 
       // Close all
       document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      document.querySelectorAll('.faq-question').forEach(b => b.setAttribute('aria-expanded', 'false'));
 
       // Open clicked (if it wasn't already open)
       if (!wasOpen) {
         item.classList.add('open');
+        btn.setAttribute('aria-expanded', 'true');
       }
     });
   });
@@ -113,6 +117,6 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         navbar.style.boxShadow = '0 2px 12px rgba(0,0,0,.06)';
       }
-    });
+    }, { passive: true });
   }
 });
