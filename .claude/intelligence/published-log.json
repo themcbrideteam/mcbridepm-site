@@ -1,16 +1,920 @@
 {
   "_meta": {
-    "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report. On the FIRST run after this file is committed, the routine backfills records for all existing src/blog/*.md posts (reading each frontmatter) before appending today's. Until then, posts[] is empty and content-map.json carries the coverage signal.",
-    "recordShape": {
-      "slug": "string", "title": "string", "date": "YYYY-MM-DD",
-      "cluster": "one of content-map clusters", "subtopic": "string",
-      "persona": "P1|P2|P3|P4|P5", "intent": "informational|commercial|transactional|comparison|local|navigational",
-      "cities": ["string"], "primaryKeyword": "string",
-      "entities": ["string"], "questionsAnswered": ["string"],
-      "internalLinks": 0, "externalCitations": 0, "wordCount": 0,
-      "schema": ["BlogPosting", "FAQPage"], "type": "new|refresh"
-    },
-    "bootstrapped": false
+    "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
+    "bootstrapped": true,
+    "bootstrappedDate": "2026-07-12",
+    "totalPosts": 70
   },
-  "posts": []
+  "posts": [
+    {
+      "slug": "renting-in-augusta",
+      "title": "Renting in Augusta, GA: What Tenants Need to Know",
+      "date": "2026-03-31",
+      "cluster": "city-guides",
+      "persona": "P5",
+      "primaryKeyword": "",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "why-hire-property-manager",
+      "title": "Why Hire a Property Manager in Augusta, GA",
+      "date": "2026-03-31",
+      "cluster": "owner-education",
+      "persona": "P3",
+      "primaryKeyword": "",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "moving-to-augusta-ga-rental-tips-military-families",
+      "title": "Moving to Augusta, GA: Rental Tips for Military Families",
+      "date": "2026-04-01",
+      "cluster": "military-pcs",
+      "persona": "P5",
+      "primaryKeyword": "military rental Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "renters-insurance-georgia-what-it-covers",
+      "title": "Georgia Renters Insurance: What It Covers and Why It Matters",
+      "date": "2026-04-01",
+      "cluster": "insurance",
+      "persona": "P5",
+      "primaryKeyword": "renters insurance Georgia",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "security-deposit-best-practices-georgia",
+      "title": "Security Deposit Best Practices for Augusta, GA Landlords",
+      "date": "2026-04-01",
+      "cluster": "laws-compliance",
+      "persona": "P3",
+      "primaryKeyword": "security deposit Georgia",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "why-columbia-county-outperforms-augusta-rental-investors",
+      "title": "Why Columbia County Outperforms Augusta for Rental Investors",
+      "date": "2026-04-02",
+      "cluster": "market-reports",
+      "persona": "P4",
+      "primaryKeyword": "Columbia County rental investment",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "living-in-evans-ga-rental-tenants-guide",
+      "title": "Living in Evans, GA: What Rental Tenants Need to Know",
+      "date": "2026-04-03",
+      "cluster": "city-guides",
+      "persona": "P5",
+      "primaryKeyword": "renting in Evans GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "tenant-screening-process-augusta-ga-landlords",
+      "title": "What to Look for in a Tenant Screening Process",
+      "date": "2026-04-03",
+      "cluster": "leasing-screening",
+      "persona": "P3",
+      "primaryKeyword": "tenant screening Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "grovetown-harlem-growth-corridor-rental-investment",
+      "title": "Grovetown and Harlem: Augusta's Next Rental Investment Corridor",
+      "date": "2026-04-04",
+      "cluster": "market-reports",
+      "persona": "P4",
+      "primaryKeyword": "Grovetown GA rental investment",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "how-to-apply-for-rental-mcbride-property-management",
+      "title": "How to Apply for a Rental in Augusta with McBride PM",
+      "date": "2026-04-04",
+      "cluster": "leasing-screening",
+      "persona": "P5",
+      "primaryKeyword": "apply for rental Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "1031-exchange-basics-augusta-rental-investors",
+      "title": "1031 Exchange Basics for Augusta Rental Property Investors",
+      "date": "2026-04-05",
+      "cluster": "investing",
+      "persona": "P3",
+      "primaryKeyword": "1031 exchange Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "how-maintenance-requests-affect-tenant-retention",
+      "title": "How Maintenance Requests Affect Tenant Retention",
+      "date": "2026-04-05",
+      "cluster": "maintenance",
+      "persona": "P3",
+      "primaryKeyword": "tenant retention Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "fort-eisenhower-military-tenant-rental-demand-augusta",
+      "title": "Fort Gordon Rental Demand: A Guide for Landlords",
+      "date": "2026-04-06",
+      "cluster": "military-pcs",
+      "persona": "P1",
+      "primaryKeyword": "Fort Gordon rental demand",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "martinez-ga-neighborhood-guide-renters",
+      "title": "Martinez, GA Neighborhood Guide for Renters",
+      "date": "2026-04-06",
+      "cluster": "city-guides",
+      "persona": "P5",
+      "primaryKeyword": "Martinez GA rentals",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "when-to-raise-rent-augusta-rental-property",
+      "title": "When to Raise Rent on Your Augusta Rental Property",
+      "date": "2026-04-07",
+      "cluster": "rent-collection-pricing",
+      "persona": "P3",
+      "primaryKeyword": "when to raise rent Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "accidental-landlord-augusta-ga-what-to-do",
+      "title": "Accidental Landlord in Augusta, GA? Here's Exactly What to Do Next",
+      "date": "2026-04-16",
+      "cluster": "accidental-landlord",
+      "persona": "P2",
+      "primaryKeyword": "accidental landlord Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "north-augusta-sc-rental-investment-guide",
+      "title": "North Augusta, SC Rental Investment Guide: Why Investors Are Crossing the River",
+      "date": "2026-04-17",
+      "cluster": "market-reports",
+      "persona": "P4",
+      "primaryKeyword": "North Augusta SC rental investment",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "south-carolina-landlord-tenant-laws-aiken-rental-owners",
+      "title": "South Carolina Landlord-Tenant Laws Every Aiken Area Rental Owner Should Know",
+      "date": "2026-04-19",
+      "cluster": "laws-compliance",
+      "persona": "P3",
+      "primaryKeyword": "South Carolina landlord tenant laws",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "georgia-eviction-process-landlord-guide",
+      "title": "The Georgia Eviction Process: A Step-by-Step Guide for Augusta-Area Landlords",
+      "date": "2026-04-22",
+      "cluster": "evictions",
+      "persona": "P3",
+      "primaryKeyword": "Georgia eviction process",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "rental-property-tax-deductions-georgia-landlords",
+      "title": "Rental Property Tax Deductions Every Georgia Landlord Should Know in 2026",
+      "date": "2026-04-27",
+      "cluster": "taxes",
+      "persona": "P3",
+      "primaryKeyword": "rental property tax deductions Georgia",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "summer-maintenance-checklist-augusta-rental-property",
+      "title": "Summer Maintenance Checklist for Augusta-Area Rental Properties",
+      "date": "2026-05-01",
+      "cluster": "maintenance",
+      "persona": "P3",
+      "primaryKeyword": "summer maintenance rental property Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "landlord-insurance-georgia-rental-property-guide",
+      "title": "Landlord Insurance in Georgia: What Augusta-Area Rental Property Owners Need to Know",
+      "date": "2026-05-12",
+      "cluster": "insurance",
+      "persona": "P3",
+      "primaryKeyword": "landlord insurance Georgia",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "pet-policy-rental-property-augusta-ga-landlord-guide",
+      "title": "Pet Policy for Your Rental Property in Augusta, GA: A Landlord's Complete Guide",
+      "date": "2026-05-14",
+      "cluster": "leasing-screening",
+      "persona": "P3",
+      "primaryKeyword": "pet policy rental property Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "lease-renewal-strategies-augusta-ga-landlords",
+      "title": "Lease Renewal Strategies That Keep Good Tenants in Your Augusta-Area Rental",
+      "date": "2026-05-15",
+      "cluster": "leasing-screening",
+      "persona": "P3",
+      "primaryKeyword": "lease renewal Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "single-family-vs-multifamily-rental-investment-augusta-ga",
+      "title": "Single-Family vs. Multifamily Rental Investment in Augusta, GA",
+      "date": "2026-05-16",
+      "cluster": "investing",
+      "persona": "P3",
+      "primaryKeyword": "multifamily investment Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "how-to-price-rental-property-augusta-ga",
+      "title": "How to Price Your Rental Property in the Augusta, GA Area",
+      "date": "2026-05-17",
+      "cluster": "rent-collection-pricing",
+      "persona": "P3",
+      "primaryKeyword": "how to price rental property Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "tenant-turnover-make-ready-checklist-augusta-ga-landlords",
+      "title": "Tenant Turnover and Make-Ready: A Step-by-Step Checklist for Augusta-Area Landlords",
+      "date": "2026-05-20",
+      "cluster": "maintenance",
+      "persona": "P3",
+      "primaryKeyword": "tenant turnover Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "scra-lease-termination-fort-gordon-landlord-guide",
+      "title": "What Augusta-Area Landlords Must Know About SCRA Lease Breaks",
+      "date": "2026-05-24",
+      "cluster": "laws-compliance",
+      "persona": "P3",
+      "primaryKeyword": "SCRA lease termination Augusta GA landlord",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "four-demand-anchors-augusta-ga-rental-market",
+      "title": "Four Demand Anchors Behind Augusta, GA's Resilient Rental Market",
+      "date": "2026-05-25",
+      "cluster": "market-reports",
+      "persona": "P4",
+      "primaryKeyword": "Augusta GA rental market investment 2026",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "grovetown-ga-rental-guide-tenants",
+      "title": "Renting in Grovetown, GA: Your Complete 2026 Tenant Guide",
+      "date": "2026-05-26",
+      "cluster": "city-guides",
+      "persona": "P5",
+      "primaryKeyword": "",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "rent-or-sell-inherited-home-georgia-augusta",
+      "title": "Rent or Sell an Inherited Home in Augusta, GA: A Complete Guide",
+      "date": "2026-05-27",
+      "cluster": "accidental-landlord",
+      "persona": "P2",
+      "primaryKeyword": "inherited home Augusta GA rent or sell",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "csra-rental-property-cash-flow-analysis-augusta-ga",
+      "title": "Augusta Rental Property Cash Flow Analysis: A 2026 Breakdown",
+      "date": "2026-05-28",
+      "cluster": "investing",
+      "persona": "P3",
+      "primaryKeyword": "rental property cash flow Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "pcs-fort-gordon-rent-home-landlord-timeline",
+      "title": "Rent Your Home Before PCS From Fort Gordon: The 60-Day Plan",
+      "date": "2026-05-29",
+      "cluster": "military-pcs",
+      "persona": "P1",
+      "primaryKeyword": "rent home before PCS Fort Gordon Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "housing-choice-voucher-landlord-guide-augusta-ga",
+      "title": "Housing Choice Vouchers in the CSRA: A Landlord's Honest Guide",
+      "date": "2026-05-30",
+      "cluster": "laws-compliance",
+      "persona": "P3",
+      "primaryKeyword": "Section 8 landlord Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "georgia-safe-at-home-act-landlord-guide-augusta-ga",
+      "title": "Georgia's Safe at Home Act: An Augusta Landlord's Complete Guide",
+      "date": "2026-05-31",
+      "cluster": "laws-compliance",
+      "persona": "P3",
+      "primaryKeyword": "Georgia Safe at Home Act landlord",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "out-of-state-rental-investor-guide-augusta-ga",
+      "title": "How Out-of-State Investors Buy Rental Property in Augusta, GA",
+      "date": "2026-06-01",
+      "cluster": "investing",
+      "persona": "P4",
+      "primaryKeyword": "buy rental property Augusta GA out of state",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "true-cost-self-managing-rental-property-csra",
+      "title": "The True Cost of Self-Managing Your CSRA Rental Property (2026)",
+      "date": "2026-06-07",
+      "cluster": "owner-education",
+      "persona": "P3",
+      "primaryKeyword": "self-managing rental property Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "georgia-hb-399-csra-out-of-state-landlord-compliance",
+      "title": "Georgia HB 399 Compliance Guide for CSRA Out-of-State Landlords",
+      "date": "2026-06-08",
+      "cluster": "laws-compliance",
+      "persona": "P3",
+      "primaryKeyword": "Georgia HB 399 out-of-state landlord",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "fort-gordon-bah-rental-pricing-csra-2026",
+      "title": "Fort Gordon BAH 2026: How to Price Your CSRA Rental Property",
+      "date": "2026-06-09",
+      "cluster": "military-pcs",
+      "persona": "P1",
+      "primaryKeyword": "Fort Gordon BAH rates 2026",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "columbia-county-home-wont-sell-rent-it-out",
+      "title": "Columbia County Home Won't Sell in 2026? Here's the Rental Math",
+      "date": "2026-06-10",
+      "cluster": "accidental-landlord",
+      "persona": "P2",
+      "primaryKeyword": "home won't sell Columbia County GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "renting-in-north-augusta-sc-tenant-guide",
+      "title": "Renting in North Augusta, SC: Your Complete 2026 Tenant Guide",
+      "date": "2026-06-11",
+      "cluster": "city-guides",
+      "persona": "P5",
+      "primaryKeyword": "renting in North Augusta SC",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "augusta-rental-market-mid-2026-update",
+      "title": "Augusta Rental Market: Mid-2026 Update for CSRA Property Owners",
+      "date": "2026-06-12",
+      "cluster": "market-reports",
+      "persona": "P3",
+      "primaryKeyword": "Augusta GA rental market 2026",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "georgia-tenant-breaks-lease-early-landlord-guide",
+      "title": "When a Tenant Breaks Their Lease in Georgia: Augusta Landlord's Guide",
+      "date": "2026-06-13",
+      "cluster": "evictions",
+      "persona": "P3",
+      "primaryKeyword": "tenant breaks lease Georgia landlord",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "switching-to-property-manager-csra-augusta-ga",
+      "title": "Switching to a Property Manager in Augusta, GA: What to Expect",
+      "date": "2026-06-14",
+      "cluster": "owner-education",
+      "persona": "P3",
+      "primaryKeyword": "switching to property manager Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "depreciation-recapture-selling-rental-property-georgia",
+      "title": "What Georgia Landlords Owe When They Sell a Rental Property",
+      "date": "2026-06-15",
+      "cluster": "taxes",
+      "persona": "P3",
+      "primaryKeyword": "selling rental property taxes Georgia",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "section-121-military-exception-fort-gordon-pcs-landlords",
+      "title": "Section 121 Military Exception for Fort Gordon PCS Landlords",
+      "date": "2026-06-16",
+      "cluster": "taxes",
+      "persona": "P1",
+      "primaryKeyword": "section 121 military exclusion PCS landlord",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "llc-rental-property-augusta-georgia",
+      "title": "Should Augusta Landlords Put Rental Properties in an LLC?",
+      "date": "2026-06-17",
+      "cluster": "investing",
+      "persona": "P3",
+      "primaryKeyword": "LLC for rental property Georgia",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "capex-planning-csra-rental-properties",
+      "title": "CapEx Planning for CSRA Rental Properties: What to Budget in 2026",
+      "date": "2026-06-18",
+      "cluster": "investing",
+      "persona": "P3",
+      "primaryKeyword": "rental property capital expenditures Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "dscr-loans-csra-rental-investors-augusta-ga",
+      "title": "DSCR Loans for CSRA Rental Investors: How the Augusta Numbers Work in 2026",
+      "date": "2026-06-19",
+      "cluster": "investing",
+      "persona": "P4",
+      "primaryKeyword": "DSCR loan Augusta GA rental property",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "inherited-rental-property-existing-tenants-georgia",
+      "title": "Inherited a Georgia Rental With Existing Tenants: What to Do",
+      "date": "2026-06-20",
+      "cluster": "accidental-landlord",
+      "persona": "P2",
+      "primaryKeyword": "inherited rental property Georgia existing tenants",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "csra-rental-remote-management-pcs-landlord",
+      "title": "Managing Your CSRA Rental Remotely After Fort Gordon PCS",
+      "date": "2026-06-21",
+      "cluster": "military-pcs",
+      "persona": "P1",
+      "primaryKeyword": "manage CSRA rental property after PCS",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "georgia-tenant-rights-2026-csra-renter-guide",
+      "title": "Georgia Tenant Rights in 2026: The CSRA Renter's Complete Guide",
+      "date": "2026-06-22",
+      "cluster": "laws-compliance",
+      "persona": "P5",
+      "primaryKeyword": "Georgia tenant rights 2026",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "property-tax-csra-rental-investors-georgia",
+      "title": "Property Taxes on CSRA Rental Properties: An Investor's Complete Guide",
+      "date": "2026-06-23",
+      "cluster": "taxes",
+      "persona": "P3",
+      "primaryKeyword": "property tax rental property Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "georgia-lease-agreement-clauses-csra-landlords-2026",
+      "title": "Georgia Lease Agreement Clauses Every CSRA Landlord Needs in 2026",
+      "date": "2026-06-24",
+      "cluster": "laws-compliance",
+      "persona": "P3",
+      "primaryKeyword": "Georgia lease agreement landlord",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "mold-moisture-rental-property-augusta-ga-landlord-guide",
+      "title": "Mold in Your CSRA Rental Property: What Georgia Law Requires",
+      "date": "2026-06-25",
+      "cluster": "maintenance",
+      "persona": "P3",
+      "primaryKeyword": "mold rental property Georgia landlord",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "georgia-month-to-month-lease-csra-landlords",
+      "title": "Georgia Month-to-Month Lease: What CSRA Landlords Must Know",
+      "date": "2026-06-26",
+      "cluster": "laws-compliance",
+      "persona": "P3",
+      "primaryKeyword": "month-to-month lease Georgia landlord",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "rental-application-fraud-csra-landlords-2026",
+      "title": "Fake Pay Stubs and Rental Fraud: A CSRA Landlord's 2026 Guide",
+      "date": "2026-06-27",
+      "cluster": "leasing-screening",
+      "persona": "P3",
+      "primaryKeyword": "rental application fraud Georgia landlord",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "csra-rental-emergency-playbook-pcs-landlords",
+      "title": "CSRA Rental Emergency Playbook for Fort Gordon PCS Landlords",
+      "date": "2026-06-28",
+      "cluster": "military-pcs",
+      "persona": "P1",
+      "primaryKeyword": "rental property emergency Augusta GA landlord",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "hurricane-season-csra-rental-property-landlord-guide",
+      "title": "Storm Season and Your CSRA Rental Property: A Georgia Landlord's Guide",
+      "date": "2026-06-29",
+      "cluster": "insurance",
+      "persona": "P3",
+      "primaryKeyword": "storm season rental property Georgia landlord",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "evans-grovetown-martinez-augusta-csra-rental-investment-guide",
+      "title": "Evans, Grovetown, or Augusta: CSRA Rental Investment Guide",
+      "date": "2026-06-30",
+      "cluster": "investing",
+      "persona": "P4",
+      "primaryKeyword": "best neighborhoods buy rental property Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "georgia-hoa-rental-restrictions-csra-landlords",
+      "title": "HOA Rental Restrictions in Georgia: CSRA Landlord Guide 2026",
+      "date": "2026-07-01",
+      "cluster": "laws-compliance",
+      "persona": "P3",
+      "primaryKeyword": "HOA rental restrictions Georgia",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "rent-out-augusta-home-before-job-relocation",
+      "title": "Renting Out Your Augusta, GA Home Before a Job Relocation",
+      "date": "2026-07-02",
+      "cluster": "accidental-landlord",
+      "persona": "P2",
+      "primaryKeyword": "rent out home before relocating Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "georgia-security-deposit-return-csra-tenant-guide",
+      "title": "How to Get Your Security Deposit Back in Georgia: CSRA Tenant Guide",
+      "date": "2026-07-03",
+      "cluster": "evictions",
+      "persona": "P5",
+      "primaryKeyword": "security deposit return Georgia",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "fort-gordon-rental-investment-case-csra-2026",
+      "title": "The Fort Gordon Rental Investment Case: 2026 CSRA Market Data",
+      "date": "2026-07-04",
+      "cluster": "military-pcs",
+      "persona": "P4",
+      "primaryKeyword": "Fort Gordon rental investment CSRA 2026",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "va-loan-pcs-rental-fort-gordon-2026",
+      "title": "Renting Out Your VA Home After Fort Gordon PCS: 2026 Rules",
+      "date": "2026-07-05",
+      "cluster": "military-pcs",
+      "persona": "P1",
+      "primaryKeyword": "VA loan rental property Fort Gordon PCS",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "wellstar-columbia-county-hospital-csra-rental-market",
+      "title": "Columbia County's First Hospital Opens: CSRA Rental Market Impact",
+      "date": "2026-07-06",
+      "cluster": "market-reports",
+      "persona": "P4",
+      "primaryKeyword": "Columbia County rental market hospital 2026",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "pest-control-rental-property-georgia-landlord-guide",
+      "title": "Georgia Rental Pest Control: What Landlords Must Do in 2026",
+      "date": "2026-07-07",
+      "cluster": "laws-compliance",
+      "persona": "P3",
+      "primaryKeyword": "pest control rental property Georgia landlord",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "fair-housing-compliance-csra-landlords-2026",
+      "title": "Fair Housing Compliance for Augusta-Area Landlords in 2026",
+      "date": "2026-07-08",
+      "cluster": "laws-compliance",
+      "persona": "P3",
+      "primaryKeyword": "fair housing compliance landlord Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "non-paying-tenant-fort-gordon-pcs-landlord-georgia",
+      "title": "When Your CSRA Tenant Stops Paying Rent: Fort Gordon PCS Playbook",
+      "date": "2026-07-09",
+      "cluster": "military-pcs",
+      "persona": "P1",
+      "primaryKeyword": "tenant not paying rent Georgia PCS landlord",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "hvac-csra-rental-property-landlord-guide-augusta-ga",
+      "title": "Who Pays for HVAC in Your Georgia Rental? Augusta Landlord's Guide",
+      "date": "2026-07-12",
+      "cluster": "maintenance",
+      "persona": "P3",
+      "primaryKeyword": "HVAC landlord responsibility Augusta GA",
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new"
+    }
+  ]
 }

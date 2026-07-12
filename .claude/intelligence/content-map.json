@@ -1,108 +1,286 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "55 live posts in src/blog/ as of 2026-06-25",
+    "builtFrom": "70 live posts in src/blog/ as of 2026-07-12",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher."
   },
   "clusters": {
     "taxes": {
-      "coverage": 0.85, "authority": "high",
-      "posts": ["depreciation-recapture-selling-rental-property-georgia", "rental-property-tax-deductions-georgia-landlords", "property-tax-csra-rental-investors-georgia", "section-121-military-exception-fort-gordon-pcs-landlords", "1031-exchange-basics-augusta-rental-investors"],
-      "gaps": ["Schedule E walkthrough for first-year landlords", "cost segregation for SFR", "1099 / year-end tax-doc checklist for owners"]
+      "coverage": 0.85,
+      "authority": "high",
+      "posts": [
+        "depreciation-recapture-selling-rental-property-georgia",
+        "rental-property-tax-deductions-georgia-landlords",
+        "property-tax-csra-rental-investors-georgia",
+        "section-121-military-exception-fort-gordon-pcs-landlords",
+        "1031-exchange-basics-augusta-rental-investors"
+      ],
+      "gaps": [
+        "Schedule E walkthrough for first-year landlords",
+        "cost segregation for SFR",
+        "1099 / year-end tax-doc checklist for owners"
+      ]
     },
     "laws-compliance": {
-      "coverage": 0.75, "authority": "high",
-      "posts": ["georgia-safe-at-home-act-landlord-guide-augusta-ga", "georgia-hb-399-csra-out-of-state-landlord-compliance", "georgia-tenant-rights-2026-csra-renter-guide", "security-deposit-best-practices-georgia", "south-carolina-landlord-tenant-laws-aiken-rental-owners", "scra-lease-termination-fort-gordon-landlord-guide", "housing-choice-voucher-landlord-guide-augusta-ga", "georgia-lease-agreement-clauses-csra-landlords-2026"],
-      "gaps": ["Fair Housing for CSRA landlords (plain-English compliance guide)", "assistance/service animals vs pet policy (HUD reasonable accommodation)", "habitability + local code/min-housing standards", "rental licensing requirements by CSRA jurisdiction"]
+      "coverage": 0.75,
+      "authority": "high",
+      "posts": [
+        "georgia-safe-at-home-act-landlord-guide-augusta-ga",
+        "georgia-hb-399-csra-out-of-state-landlord-compliance",
+        "georgia-tenant-rights-2026-csra-renter-guide",
+        "security-deposit-best-practices-georgia",
+        "south-carolina-landlord-tenant-laws-aiken-rental-owners",
+        "scra-lease-termination-fort-gordon-landlord-guide",
+        "housing-choice-voucher-landlord-guide-augusta-ga",
+        "georgia-lease-agreement-clauses-csra-landlords-2026"
+      ],
+      "gaps": [
+        "Fair Housing for CSRA landlords (plain-English compliance guide)",
+        "assistance/service animals vs pet policy (HUD reasonable accommodation)",
+        "habitability + local code/min-housing standards",
+        "rental licensing requirements by CSRA jurisdiction"
+      ]
     },
     "military-pcs": {
-      "coverage": 0.85, "authority": "high",
-      "posts": ["fort-eisenhower-military-tenant-rental-demand-augusta", "fort-gordon-bah-rental-pricing-csra-2026", "pcs-fort-gordon-rent-home-landlord-timeline", "csra-rental-remote-management-pcs-landlord", "moving-to-augusta-ga-rental-tips-military-families", "scra-lease-termination-fort-gordon-landlord-guide", "section-121-military-exception-fort-gordon-pcs-landlords"],
-      "gaps": ["BAH 2027 rate-change impact on CSRA rents"],
-      "refreshFlags": ["fort-eisenhower-military-tenant-rental-demand-augusta — slug + title use the DEPRECATED base name; Fort Gordon was reverted in 2025. Refresh/rename to Fort Gordon, add redirect."]
+      "coverage": 0.85,
+      "authority": "high",
+      "posts": [
+        "fort-eisenhower-military-tenant-rental-demand-augusta",
+        "fort-gordon-bah-rental-pricing-csra-2026",
+        "pcs-fort-gordon-rent-home-landlord-timeline",
+        "csra-rental-remote-management-pcs-landlord",
+        "moving-to-augusta-ga-rental-tips-military-families",
+        "scra-lease-termination-fort-gordon-landlord-guide",
+        "section-121-military-exception-fort-gordon-pcs-landlords"
+      ],
+      "gaps": [
+        "BAH 2027 rate-change impact on CSRA rents"
+      ],
+      "refreshFlags": [
+        "fort-eisenhower-military-tenant-rental-demand-augusta \u2014 slug + title use the DEPRECATED base name; Fort Gordon was reverted in 2025. Refresh/rename to Fort Gordon, add redirect."
+      ]
     },
     "investing": {
-      "coverage": 0.80, "authority": "high",
-      "posts": ["1031-exchange-basics-augusta-rental-investors", "csra-rental-property-cash-flow-analysis-augusta-ga", "dscr-loans-csra-rental-investors-augusta-ga", "single-family-vs-multifamily-rental-investment-augusta-ga", "out-of-state-rental-investor-guide-augusta-ga", "llc-rental-property-augusta-georgia", "capex-planning-csra-rental-properties"],
-      "gaps": ["first rental purchase: step-by-step for a CSRA beginner", "cap rate vs cash-on-cash explainer with Augusta examples", "BRRRR feasibility in the CSRA", "financing options compared (conventional vs DSCR vs portfolio)"]
+      "coverage": 0.8,
+      "authority": "high",
+      "posts": [
+        "1031-exchange-basics-augusta-rental-investors",
+        "csra-rental-property-cash-flow-analysis-augusta-ga",
+        "dscr-loans-csra-rental-investors-augusta-ga",
+        "single-family-vs-multifamily-rental-investment-augusta-ga",
+        "out-of-state-rental-investor-guide-augusta-ga",
+        "llc-rental-property-augusta-georgia",
+        "capex-planning-csra-rental-properties"
+      ],
+      "gaps": [
+        "first rental purchase: step-by-step for a CSRA beginner",
+        "cap rate vs cash-on-cash explainer with Augusta examples",
+        "BRRRR feasibility in the CSRA",
+        "financing options compared (conventional vs DSCR vs portfolio)"
+      ]
     },
     "market-reports": {
-      "coverage": 0.70, "authority": "medium",
-      "posts": ["augusta-rental-market-mid-2026-update", "four-demand-anchors-augusta-ga-rental-market", "why-columbia-county-outperforms-augusta-rental-investors", "grovetown-harlem-growth-corridor-rental-investment", "north-augusta-sc-rental-investment-guide"],
-      "gaps": ["CSRA rental market Q4 2026 update (quarterly cadence)", "Evans rental market deep-dive", "Aiken SC rental market report", "rent-growth + vacancy trend recap 2026"]
+      "coverage": 0.7,
+      "authority": "medium",
+      "posts": [
+        "augusta-rental-market-mid-2026-update",
+        "four-demand-anchors-augusta-ga-rental-market",
+        "why-columbia-county-outperforms-augusta-rental-investors",
+        "grovetown-harlem-growth-corridor-rental-investment",
+        "north-augusta-sc-rental-investment-guide"
+      ],
+      "gaps": [
+        "CSRA rental market Q4 2026 update (quarterly cadence)",
+        "Evans rental market deep-dive",
+        "Aiken SC rental market report",
+        "rent-growth + vacancy trend recap 2026"
+      ]
     },
     "accidental-landlord": {
-      "coverage": 0.75, "authority": "high",
-      "posts": ["accidental-landlord-augusta-ga-what-to-do", "columbia-county-home-wont-sell-rent-it-out", "inherited-rental-property-existing-tenants-georgia", "rent-or-sell-inherited-home-georgia-augusta"],
-      "gaps": ["divorce + the marital rental property in GA", "converting a former primary residence to a rental (insurance/tax/mortgage steps)"]
+      "coverage": 0.75,
+      "authority": "high",
+      "posts": [
+        "accidental-landlord-augusta-ga-what-to-do",
+        "columbia-county-home-wont-sell-rent-it-out",
+        "inherited-rental-property-existing-tenants-georgia",
+        "rent-or-sell-inherited-home-georgia-augusta"
+      ],
+      "gaps": [
+        "divorce + the marital rental property in GA",
+        "converting a former primary residence to a rental (insurance/tax/mortgage steps)"
+      ]
     },
     "insurance": {
-      "coverage": 0.60, "authority": "medium",
-      "posts": ["landlord-insurance-georgia-rental-property-guide", "renters-insurance-georgia-what-it-covers"],
-      "gaps": ["flood / windstorm exposure for CSRA rentals", "requiring + verifying tenant renters insurance (owner process)", "liability + umbrella coverage for landlords"]
+      "coverage": 0.6,
+      "authority": "medium",
+      "posts": [
+        "landlord-insurance-georgia-rental-property-guide",
+        "renters-insurance-georgia-what-it-covers"
+      ],
+      "gaps": [
+        "flood / windstorm exposure for CSRA rentals",
+        "requiring + verifying tenant renters insurance (owner process)",
+        "liability + umbrella coverage for landlords"
+      ]
     },
     "leasing-screening": {
-      "coverage": 0.55, "authority": "medium",
-      "posts": ["tenant-screening-process-augusta-ga-landlords", "how-to-apply-for-rental-mcbride-property-management", "georgia-lease-agreement-clauses-csra-landlords-2026", "lease-renewal-strategies-augusta-ga-landlords", "pet-policy-rental-property-augusta-ga-landlord-guide"],
-      "gaps": ["how to market + photograph a CSRA rental to lease fast", "showings + applicant flow (self-show vs agent)", "move-in inspection done right", "income/credit screening criteria explained (Fair-Housing-safe)"]
+      "coverage": 0.55,
+      "authority": "medium",
+      "posts": [
+        "tenant-screening-process-augusta-ga-landlords",
+        "how-to-apply-for-rental-mcbride-property-management",
+        "georgia-lease-agreement-clauses-csra-landlords-2026",
+        "lease-renewal-strategies-augusta-ga-landlords",
+        "pet-policy-rental-property-augusta-ga-landlord-guide"
+      ],
+      "gaps": [
+        "how to market + photograph a CSRA rental to lease fast",
+        "showings + applicant flow (self-show vs agent)",
+        "move-in inspection done right",
+        "income/credit screening criteria explained (Fair-Housing-safe)"
+      ]
     },
     "rent-collection-pricing": {
-      "coverage": 0.40, "authority": "medium",
-      "posts": ["how-to-price-rental-property-augusta-ga", "when-to-raise-rent-augusta-rental-property"],
-      "gaps": ["late rent + delinquency process in GA (fees, grace, notices)", "online rent collection + autopay (owner/tenant)", "pricing a renewal vs a new lease"]
+      "coverage": 0.4,
+      "authority": "medium",
+      "posts": [
+        "how-to-price-rental-property-augusta-ga",
+        "when-to-raise-rent-augusta-rental-property"
+      ],
+      "gaps": [
+        "late rent + delinquency process in GA (fees, grace, notices)",
+        "online rent collection + autopay (owner/tenant)",
+        "pricing a renewal vs a new lease"
+      ]
     },
     "evictions": {
-      "coverage": 0.40, "authority": "medium",
-      "posts": ["georgia-eviction-process-landlord-guide", "georgia-tenant-breaks-lease-early-landlord-guide"],
-      "gaps": ["South Carolina eviction process (Aiken/North Augusta owners)", "dispossessory in Richmond vs Columbia County magistrate court", "eviction costs + timeline budget", "cash-for-keys vs eviction decision"]
+      "coverage": 0.4,
+      "authority": "medium",
+      "posts": [
+        "georgia-eviction-process-landlord-guide",
+        "georgia-tenant-breaks-lease-early-landlord-guide"
+      ],
+      "gaps": [
+        "South Carolina eviction process (Aiken/North Augusta owners)",
+        "dispossessory in Richmond vs Columbia County magistrate court",
+        "eviction costs + timeline budget",
+        "cash-for-keys vs eviction decision"
+      ]
     },
     "maintenance": {
-      "coverage": 0.35, "authority": "low",
-      "posts": ["how-maintenance-requests-affect-tenant-retention", "mold-moisture-rental-property-augusta-ga-landlord-guide", "summer-maintenance-checklist-augusta-rental-property", "tenant-turnover-make-ready-checklist-augusta-ga-landlords"],
-      "gaps": ["HVAC in CSRA rentals (who pays, lifespan, summer failures)", "plumbing + water-heater repair-or-replace", "roof + gutter maintenance for GA humidity", "winterization checklist", "emergency vs routine maintenance (owner policy)", "fall/spring seasonal maintenance"]
+      "coverage": 0.5,
+      "authority": "medium",
+      "posts": [
+        "how-maintenance-requests-affect-tenant-retention",
+        "mold-moisture-rental-property-augusta-ga-landlord-guide",
+        "summer-maintenance-checklist-augusta-rental-property",
+        "tenant-turnover-make-ready-checklist-augusta-ga-landlords",
+        "hvac-csra-rental-property-landlord-guide-augusta-ga"
+      ],
+      "gaps": [
+        "plumbing + water-heater repair-or-replace",
+        "roof + gutter maintenance for GA humidity",
+        "winterization checklist",
+        "emergency vs routine maintenance (owner policy)",
+        "fall/spring seasonal maintenance"
+      ]
     },
     "owner-education": {
-      "coverage": 0.60, "authority": "high",
-      "posts": ["why-hire-property-manager", "switching-to-property-manager-csra-augusta-ga", "true-cost-self-managing-rental-property-csra"],
-      "gaps": ["how PM fees actually work (flat vs % vs leasing fee) — transparent breakdown", "reading your owner statement", "what onboarding with McBride looks like, step by step"]
+      "coverage": 0.6,
+      "authority": "high",
+      "posts": [
+        "why-hire-property-manager",
+        "switching-to-property-manager-csra-augusta-ga",
+        "true-cost-self-managing-rental-property-csra"
+      ],
+      "gaps": [
+        "how PM fees actually work (flat vs % vs leasing fee) \u2014 transparent breakdown",
+        "reading your owner statement",
+        "what onboarding with McBride looks like, step by step"
+      ]
     },
     "tenant-education": {
-      "coverage": 0.55, "authority": "medium",
-      "posts": ["georgia-tenant-rights-2026-csra-renter-guide", "renters-insurance-georgia-what-it-covers", "how-to-apply-for-rental-mcbride-property-management"],
-      "gaps": ["tenant move-out + deposit-return process (what to expect)", "how to break a lease the right way (tenant side)", "submitting a maintenance request that gets fixed fast"]
+      "coverage": 0.55,
+      "authority": "medium",
+      "posts": [
+        "georgia-tenant-rights-2026-csra-renter-guide",
+        "renters-insurance-georgia-what-it-covers",
+        "how-to-apply-for-rental-mcbride-property-management"
+      ],
+      "gaps": [
+        "tenant move-out + deposit-return process (what to expect)",
+        "how to break a lease the right way (tenant side)",
+        "submitting a maintenance request that gets fixed fast"
+      ]
     },
     "city-guides": {
-      "coverage": 0.60, "authority": "medium",
-      "posts": ["renting-in-augusta", "living-in-evans-ga-rental-tenants-guide", "martinez-ga-neighborhood-guide-renters", "grovetown-ga-rental-guide-tenants", "renting-in-north-augusta-sc-tenant-guide", "north-augusta-sc-rental-investment-guide"],
-      "gaps": ["Hephzibah rental guide", "Aiken SC tenant guide", "Appling / Columbia County north rental guide", "Augusta owner/investor city guide (current ones are tenant-facing)"]
+      "coverage": 0.6,
+      "authority": "medium",
+      "posts": [
+        "renting-in-augusta",
+        "living-in-evans-ga-rental-tenants-guide",
+        "martinez-ga-neighborhood-guide-renters",
+        "grovetown-ga-rental-guide-tenants",
+        "renting-in-north-augusta-sc-tenant-guide",
+        "north-augusta-sc-rental-investment-guide"
+      ],
+      "gaps": [
+        "Hephzibah rental guide",
+        "Aiken SC tenant guide",
+        "Appling / Columbia County north rental guide",
+        "Augusta owner/investor city guide (current ones are tenant-facing)"
+      ]
     },
     "hoa": {
-      "coverage": 0.0, "authority": "low", "posts": [],
-      "gaps": ["renting in a CSRA HOA: rules, leasing caps, owner obligations", "HOA violations + who pays (owner vs tenant)"]
+      "coverage": 0.45,
+      "authority": "medium",
+      "posts": [
+        "georgia-hoa-rental-restrictions-csra-landlords"
+      ],
+      "gaps": [
+        "HOA violations + who pays (owner vs tenant)"
+      ]
     },
     "vendor-management": {
-      "coverage": 0.0, "authority": "low", "posts": [],
-      "gaps": ["how a PM vets + manages CSRA maintenance vendors", "DIY vs licensed contractor: when a repair legally needs a pro in GA"]
+      "coverage": 0.0,
+      "authority": "low",
+      "posts": [],
+      "gaps": [
+        "how a PM vets + manages CSRA maintenance vendors",
+        "DIY vs licensed contractor: when a repair legally needs a pro in GA"
+      ]
     },
     "inspections": {
-      "coverage": 0.10, "authority": "low", "posts": [],
-      "gaps": ["move-in / move-out inspection guide (owner)", "annual / periodic inspections: what we check and why", "drive-by + preventive inspection cadence"]
+      "coverage": 0.1,
+      "authority": "low",
+      "posts": [],
+      "gaps": [
+        "move-in / move-out inspection guide (owner)",
+        "annual / periodic inspections: what we check and why",
+        "drive-by + preventive inspection cadence"
+      ]
     },
     "technology": {
-      "coverage": 0.0, "authority": "low", "posts": [],
-      "gaps": ["owner + tenant portals (AppFolio) — what they do", "online applications + screening tech", "online maintenance requests + tracking"]
+      "coverage": 0.0,
+      "authority": "low",
+      "posts": [],
+      "gaps": [
+        "owner + tenant portals (AppFolio) \u2014 what they do",
+        "online applications + screening tech",
+        "online maintenance requests + tracking"
+      ]
     }
   },
   "priorityQueue": [
-    "maintenance: HVAC in CSRA rentals — who pays, lifespan, summer failures (P1/P3, owner)",
     "evictions: South Carolina eviction process for Aiken/North Augusta owners (P3/P4)",
     "rent-collection-pricing: late rent + delinquency process in Georgia (P1/P2/P3)",
-    "laws-compliance: assistance/service animals vs pet policy — HUD reasonable accommodation (P3, high AEO + compliance value)",
-    "hoa: renting a home in a CSRA HOA — rules, leasing caps, obligations (P2/P3)",
-    "owner-education: how property management fees actually work — transparent breakdown (P3/P4, high conversion)",
+    "laws-compliance: assistance/service animals vs pet policy \u2014 HUD reasonable accommodation (P3, high AEO + compliance value)",
+    "owner-education: how property management fees actually work \u2014 transparent breakdown (P3/P4, high conversion)",
     "inspections: move-in / move-out inspection guide done right (P1/P2)",
     "maintenance: plumbing + water-heater repair-or-replace (P1/P3)",
     "city-guides: Hephzibah rental guide (P5)",
-    "market-reports: CSRA rental market Q4 2026 update (multi-persona)"
+    "hoa: HOA violations + who pays (owner vs tenant) (P2/P3)",
+    "market-reports: CSRA rental market Q4 2026 update (multi-persona)",
+    "maintenance: winterization checklist for CSRA rentals (P3, fall-season)"
   ]
 }
