@@ -10,7 +10,8 @@ Continuously evolve this into the highest-performing residential property manage
 
 - Company: McBride Property Management, Evans, GA. Serves the CSRA (Augusta GA metro + Aiken SC area). ~208 doors (July 2026), goal 1,000 by 2030. Growth targets: 240 doors by end of Q3 2026, 275 by year-end.
 - Audience: residential property OWNERS first (accidental landlords, military PCS families, out-of-state investors, 1–25 door investors); tenants secondary.
-- Owner phone (706) 420-4883 · Tenant phone (706) 339-2874 · 609 Ponder Place Drive, Suite B, Evans, GA 30809.
+- Main site phone (706) 339-2874 (tenant/general line — most site callers are tenants; per Noah, July 2026) · Owner line (706) 420-4883 (owner-specific placements only) · 609 Ponder Place Drive, Suite B, Evans, GA 30809.
+- General site email robert@mcbride-pm.com · amber@themcbrideteam.com stays on owner-lead placements and receives rental-analysis form notifications (Netlify dashboard).
 - Key offer: McBride Owner Guarantee (Tenant Guarantee as hero). Check `mcbride-aios/02-mcbride-pm/knowledge/` for current terms before writing offer copy.
 - Broader business context lives in the sibling repo `~/mcbride-aios` (`02-mcbride-pm/` and `90-shared/brand/mcbride-pm-brand.md` — the brand doc is authoritative for voice and visual identity).
 
