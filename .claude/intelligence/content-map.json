@@ -57,7 +57,7 @@
         "BAH 2027 rate-change impact on CSRA rents"
       ],
       "refreshFlags": [
-        "fort-eisenhower-military-tenant-rental-demand-augusta \u2014 slug + title use the DEPRECATED base name; Fort Gordon was reverted in 2025. Refresh/rename to Fort Gordon, add redirect."
+        "fort-eisenhower-military-tenant-rental-demand-augusta — slug + title use the DEPRECATED base name; Fort Gordon was reverted in 2025. Refresh/rename to Fort Gordon, add redirect."
       ]
     },
     "investing": {
@@ -194,7 +194,7 @@
         "true-cost-self-managing-rental-property-csra"
       ],
       "gaps": [
-        "how PM fees actually work (flat vs % vs leasing fee) \u2014 transparent breakdown",
+        "how PM fees actually work (flat vs % vs leasing fee) — transparent breakdown",
         "reading your owner statement",
         "what onboarding with McBride looks like, step by step"
       ]
@@ -251,11 +251,12 @@
       ]
     },
     "inspections": {
-      "coverage": 0.1,
-      "authority": "low",
-      "posts": [],
+      "coverage": 0.4,
+      "authority": "medium",
+      "posts": [
+        "move-in-move-out-inspection-rental-property-georgia-landlords"
+      ],
       "gaps": [
-        "move-in / move-out inspection guide (owner)",
         "annual / periodic inspections: what we check and why",
         "drive-by + preventive inspection cadence"
       ]
@@ -265,7 +266,7 @@
       "authority": "low",
       "posts": [],
       "gaps": [
-        "owner + tenant portals (AppFolio) \u2014 what they do",
+        "owner + tenant portals (AppFolio) — what they do",
         "online applications + screening tech",
         "online maintenance requests + tracking"
       ]
@@ -274,13 +275,13 @@
   "priorityQueue": [
     "evictions: South Carolina eviction process for Aiken/North Augusta owners (P3/P4)",
     "rent-collection-pricing: late rent + delinquency process in Georgia (P1/P2/P3)",
-    "laws-compliance: assistance/service animals vs pet policy \u2014 HUD reasonable accommodation (P3, high AEO + compliance value)",
-    "owner-education: how property management fees actually work \u2014 transparent breakdown (P3/P4, high conversion)",
-    "inspections: move-in / move-out inspection guide done right (P1/P2)",
+    "laws-compliance: assistance/service animals vs pet policy — HUD reasonable accommodation (P3, high AEO + compliance value)",
+    "owner-education: how property management fees actually work — transparent breakdown (P3/P4, high conversion)",
     "maintenance: plumbing + water-heater repair-or-replace (P1/P3)",
     "city-guides: Hephzibah rental guide (P5)",
     "hoa: HOA violations + who pays (owner vs tenant) (P2/P3)",
     "market-reports: CSRA rental market Q4 2026 update (multi-persona)",
-    "maintenance: winterization checklist for CSRA rentals (P3, fall-season)"
+    "maintenance: winterization checklist for CSRA rentals (P3, fall-season)",
+    "inspections: annual / periodic inspections — what PMs check and why (P1/P3)"
   ]
 }

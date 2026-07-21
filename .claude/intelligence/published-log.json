@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 70
+    "totalPosts": 71
   },
   "posts": [
     {
@@ -913,6 +913,54 @@
       "schema": [
         "BlogPosting",
         "FAQPage"
+      ],
+      "type": "new"
+    },
+    {
+      "slug": "move-in-move-out-inspection-rental-property-georgia-landlords",
+      "title": "Move-In and Move-Out Inspections: Georgia Landlord's Guide",
+      "date": "2026-07-21",
+      "cluster": "inspections",
+      "subtopic": "move-in and move-out inspection procedures",
+      "persona": "P2",
+      "intent": "procedural/legal-guide",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Augusta",
+        "Columbia County"
+      ],
+      "primaryKeyword": "move-in inspection rental property Georgia landlord",
+      "entities": [
+        "O.C.G.A. § 44-7-33",
+        "O.C.G.A. § 44-7-34",
+        "O.C.G.A. § 44-7-35",
+        "O.C.G.A. § 44-7-36",
+        "Safe at Home Act",
+        "HB 404",
+        "Columbia County Magistrate Court",
+        "Richmond County Magistrate Court",
+        "Fort Gordon",
+        "Evans GA",
+        "Grovetown GA"
+      ],
+      "questionsAnswered": [
+        "Does Georgia law require a move-in inspection?",
+        "What happens if I skip the move-in inspection?",
+        "How long to return security deposit in Georgia?",
+        "What can a landlord deduct from security deposit?",
+        "What is normal wear and tear?",
+        "When is the move-out inspection required?",
+        "Can photos replace written inspection?",
+        "What is the bad faith penalty for deposit?"
+      ],
+      "internalLinks": 11,
+      "externalCitations": 5,
+      "wordCount": 3230,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
       ],
       "type": "new"
     }
