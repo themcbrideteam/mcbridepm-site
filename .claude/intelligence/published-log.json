@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 71
+    "totalPosts": 72
   },
   "posts": [
     {
@@ -932,10 +932,10 @@
       ],
       "primaryKeyword": "move-in inspection rental property Georgia landlord",
       "entities": [
-        "O.C.G.A. § 44-7-33",
-        "O.C.G.A. § 44-7-34",
-        "O.C.G.A. § 44-7-35",
-        "O.C.G.A. § 44-7-36",
+        "O.C.G.A. \u00a7 44-7-33",
+        "O.C.G.A. \u00a7 44-7-34",
+        "O.C.G.A. \u00a7 44-7-35",
+        "O.C.G.A. \u00a7 44-7-36",
         "Safe at Home Act",
         "HB 404",
         "Columbia County Magistrate Court",
@@ -963,6 +963,60 @@
         "HowTo"
       ],
       "type": "new"
+    },
+    {
+      "slug": "property-management-maintenance-vendors-csra-augusta-ga",
+      "title": "How Property Managers Vet Maintenance Vendors in the CSRA",
+      "date": "2026-07-22",
+      "cluster": "vendor-management",
+      "subtopic": "vendor vetting, contractor licensing, work order process, owner visibility",
+      "persona": "P3/P4 multi-persona",
+      "intent": "educational/trust-building",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Augusta",
+        "Martinez",
+        "North Augusta",
+        "Aiken",
+        "Columbia County"
+      ],
+      "primaryKeyword": "property management maintenance vendors Augusta GA",
+      "entities": [
+        "O.C.G.A. Title 43",
+        "O.C.G.A. \u00a7 34-9",
+        "Georgia State Construction Industry Licensing Board",
+        "EPA Section 608",
+        "Safe at Home Act HB 404",
+        "NARPM",
+        "AppFolio",
+        "HB 399",
+        "Evans GA",
+        "Grovetown GA",
+        "Augusta GA",
+        "Columbia County",
+        "Fort Gordon"
+      ],
+      "questionsAnswered": [
+        "Does a property manager use licensed contractors?",
+        "Can a property manager use unlicensed contractors to save money?",
+        "How does a PM choose which vendor to send?",
+        "Do property managers mark up vendor invoices?",
+        "What happens if a vendor does poor work?",
+        "How do out-of-state owners see maintenance activity?",
+        "Does Georgia law require a licensed plumber?",
+        "What is a maintenance reserve?"
+      ],
+      "internalLinks": 11,
+      "externalCitations": 4,
+      "wordCount": 2650,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none \u2014 Imagen API key invalid this run"
     }
   ]
 }
