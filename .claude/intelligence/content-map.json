@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "72 live posts in src/blog/ as of 2026-07-22",
+    "builtFrom": "73 live posts in src/blog/ as of 2026-07-23",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher."
   },
   "clusters": {
@@ -264,19 +264,19 @@
       ]
     },
     "technology": {
-      "coverage": 0.0,
-      "authority": "low",
-      "posts": [],
+      "coverage": 0.4,
+      "authority": "medium",
+      "posts": [
+        "appfolio-owner-portal-property-management-augusta-ga"
+      ],
       "gaps": [
-        "owner + tenant portals (AppFolio) \u2014 what they do",
-        "online applications + screening tech",
-        "online maintenance requests + tracking"
+        "online applications + screening tech \u2014 how applicants apply and what owners see",
+        "online maintenance requests + tracking \u2014 tenant-side walkthrough"
       ]
     }
   },
   "priorityQueue": [
     "evictions: South Carolina eviction process for Aiken/North Augusta owners (P3/P4)",
-    "technology: owner + tenant portals (AppFolio) \u2014 what they do (P3/P4, trust/transparency)",
     "rent-collection-pricing: late rent + delinquency process in Georgia (P1/P2/P3)",
     "laws-compliance: assistance/service animals vs pet policy \u2014 HUD reasonable accommodation (P3, high AEO + compliance value)",
     "owner-education: how property management fees actually work \u2014 transparent breakdown (P3/P4, high conversion)",
@@ -285,6 +285,8 @@
     "hoa: HOA violations + who pays (owner vs tenant) (P2/P3)",
     "market-reports: CSRA rental market Q4 2026 update (multi-persona)",
     "maintenance: winterization checklist for CSRA rentals (P3, fall-season)",
-    "inspections: annual / periodic inspections \u2014 what PMs check and why (P1/P3)"
+    "inspections: annual / periodic inspections \u2014 what PMs check and why (P1/P3)",
+    "technology: online applications + screening tech \u2014 how applicants apply and what owners see (P3/P4)",
+    "accidental-landlord: converting a primary residence to a rental \u2014 insurance, mortgage, tax steps (P2)"
   ]
 }

@@ -1017,6 +1017,50 @@
       ],
       "type": "new",
       "imageStatus": "none \u2014 Imagen API key invalid this run"
+    },
+    {
+      "slug": "appfolio-owner-portal-property-management-augusta-ga",
+      "title": "The AppFolio Owner Portal, Explained for CSRA Property Owners",
+      "date": "2026-07-23",
+      "cluster": "technology",
+      "subtopic": "AppFolio owner portal features, resident portal, property management transparency, 24/7 data access",
+      "persona": "P3/P4",
+      "intent": "educational/trust-building/conversion",
+      "cities": ["Evans", "Augusta", "Martinez", "Grovetown", "Columbia County", "CSRA"],
+      "primaryKeyword": "AppFolio owner portal property management Augusta GA",
+      "entities": [
+        "AppFolio",
+        "McBride Property Management",
+        "Noah McBride",
+        "Amber McBride",
+        "O.C.G.A. \u00a7 44-7-50",
+        "Evans GA",
+        "Augusta GA",
+        "Martinez GA",
+        "Grovetown GA",
+        "RentCafe",
+        "Zillow",
+        "Fort Gordon",
+        "Columbia County"
+      ],
+      "questionsAnswered": [
+        "What does the AppFolio owner portal show?",
+        "How often are owner statements updated in AppFolio?",
+        "Can I see my tenant's payment history in the owner portal?",
+        "Can I submit maintenance requests through the owner portal?",
+        "How do I access my 1099 in AppFolio?",
+        "Can I see all my properties in one view in AppFolio?",
+        "What does the AppFolio resident portal let tenants do?",
+        "Is the AppFolio owner portal available on mobile?",
+        "What can the owner portal not do?",
+        "How do I get access to the AppFolio owner portal?"
+      ],
+      "internalLinks": 13,
+      "externalCitations": 4,
+      "wordCount": 2550,
+      "schema": ["BlogPosting", "FAQPage", "HowTo"],
+      "type": "new",
+      "imageStatus": "none \u2014 Imagen API key invalid this run (second consecutive run)"
     }
   ]
 }
