@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 72
+    "totalPosts": 74
   },
   "posts": [
     {
@@ -1026,7 +1026,14 @@
       "subtopic": "AppFolio owner portal features, resident portal, property management transparency, 24/7 data access",
       "persona": "P3/P4",
       "intent": "educational/trust-building/conversion",
-      "cities": ["Evans", "Augusta", "Martinez", "Grovetown", "Columbia County", "CSRA"],
+      "cities": [
+        "Evans",
+        "Augusta",
+        "Martinez",
+        "Grovetown",
+        "Columbia County",
+        "CSRA"
+      ],
       "primaryKeyword": "AppFolio owner portal property management Augusta GA",
       "entities": [
         "AppFolio",
@@ -1058,9 +1065,65 @@
       "internalLinks": 13,
       "externalCitations": 4,
       "wordCount": 2550,
-      "schema": ["BlogPosting", "FAQPage", "HowTo"],
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
       "type": "new",
       "imageStatus": "none \u2014 Imagen API key invalid this run (second consecutive run)"
+    },
+    {
+      "slug": "georgia-tenant-late-rent-landlord-guide",
+      "title": "Tenant Late on Rent in Georgia: Your Step-by-Step Action Plan",
+      "date": "2026-07-24",
+      "cluster": "rent-collection-pricing",
+      "subtopic": "late-rent delinquency process, 3-day demand notice, dispossessory timeline",
+      "persona": "P2",
+      "intent": "procedural / decision-support",
+      "cities": [
+        "Augusta",
+        "Evans",
+        "Martinez",
+        "Grovetown",
+        "Harlem",
+        "Hephzibah"
+      ],
+      "primaryKeyword": "tenant late on rent Georgia landlord",
+      "entities": [
+        "O.C.G.A. \u00a7 44-7-50",
+        "Safe at Home Act (HB 404)",
+        "Columbia County Magistrate Court",
+        "Richmond County Magistrate Court",
+        "AppFolio",
+        "Defense Manpower Data Center (DMDC)"
+      ],
+      "questionsAnswered": [
+        "Does Georgia have a grace period?",
+        "How much can I charge for late fee in Georgia?",
+        "What is the 3-day notice and how to serve it?",
+        "How long does Columbia County dispossessory take?",
+        "Should I accept partial rent?",
+        "Can I evict for one month nonpayment?",
+        "Military tenant SCRA check?",
+        "Can a PM handle this?"
+      ],
+      "internalLinks": 8,
+      "externalCitations": 6,
+      "wordCount": 2600,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imagesFailed": [
+        "hero",
+        "body1",
+        "body2",
+        "social"
+      ],
+      "imageFailReason": "API_KEY_INVALID"
     }
   ]
 }

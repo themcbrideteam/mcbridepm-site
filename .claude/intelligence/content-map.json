@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "73 live posts in src/blog/ as of 2026-07-23",
+    "builtFrom": "74 live posts in src/blog/ as of 2026-07-24",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher."
   },
   "clusters": {
@@ -141,14 +141,14 @@
       ]
     },
     "rent-collection-pricing": {
-      "coverage": 0.4,
+      "coverage": 0.55,
       "authority": "medium",
       "posts": [
         "how-to-price-rental-property-augusta-ga",
-        "when-to-raise-rent-augusta-rental-property"
+        "when-to-raise-rent-augusta-rental-property",
+        "georgia-tenant-late-rent-landlord-guide"
       ],
       "gaps": [
-        "late rent + delinquency process in GA (fees, grace, notices)",
         "online rent collection + autopay (owner/tenant)",
         "pricing a renewal vs a new lease"
       ]
@@ -277,7 +277,6 @@
   },
   "priorityQueue": [
     "evictions: South Carolina eviction process for Aiken/North Augusta owners (P3/P4)",
-    "rent-collection-pricing: late rent + delinquency process in Georgia (P1/P2/P3)",
     "laws-compliance: assistance/service animals vs pet policy \u2014 HUD reasonable accommodation (P3, high AEO + compliance value)",
     "owner-education: how property management fees actually work \u2014 transparent breakdown (P3/P4, high conversion)",
     "maintenance: plumbing + water-heater repair-or-replace (P1/P3)",
