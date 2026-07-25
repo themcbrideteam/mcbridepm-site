@@ -1,288 +1,251 @@
----
-layout: base.njk
-title: "McBride Property Management | Augusta, Evans & Aiken (CSRA)"
-description: "McBride Property Management — locally owned residential property management for the Augusta, Evans, and Aiken metro (CSRA). Tenant screening, rent collection, 24/7 maintenance, and clear financial reporting."
-ogTitle: "McBride Property Management — Augusta, Evans, Aiken (CSRA)"
-ogDescription: "Locally owned residential property management for the Augusta, Evans, and Aiken metro. 99% on-time rent collection, 14-day average days-on-market, no long-term contracts."
-ogImage: "https://mcbride-pm.com/og-image.jpg"
-keywords: "property management Augusta GA, Evans property management, CSRA property management, McBride Property Management"
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>McBride Property Management | Augusta, Evans &amp; Aiken (CSRA)</title>
+<meta name="description" content="Residential property management across the CSRA. Tenant screening, rent collection, maintenance, and clear monthly reporting — handled by a local, third-generation real estate team.">
+<link rel="canonical" href="https://mcbride-pm.com/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mcbride-pm.com/">
+<meta property="og:title" content="McBride Property Management | Augusta, Evans &amp; Aiken (CSRA)">
+<meta property="og:description" content="Tenant screening, rent collection, maintenance, and clear monthly reporting for residential owners across the CSRA.">
+<meta property="og:image" content="https://mcbride-pm.com/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "McBride Property Management",
+  "url": "https://mcbride-pm.com/",
+  "telephone": "+17064204883",
+  "email": "amber@themcbrideteam.com",
+  "description": "Residential property management for owners in the Central Savannah River Area: tenant screening, rent collection, maintenance coordination, financial reporting, and lease compliance.",
+  "parentOrganization": { "@type": "Organization", "name": "The McBride Team" },
+  "areaServed": [
+    "Augusta GA", "Evans GA", "Grovetown GA", "Martinez GA", "Harlem GA",
+    "Hephzibah GA", "Appling GA", "Columbia County GA", "Richmond County GA",
+    "North Augusta SC", "Aiken SC", "Graniteville SC"
+  ],
+  "knowsAbout": ["property management", "tenant screening", "rent collection", "rental property maintenance", "Georgia landlord-tenant law"]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/home.css">
+</head>
+<body>
 
-{% block content %}
-<!-- HERO SECTION -->
-  <section class="hero">
-    <div class="container">
-      <h1>Augusta Property Management, Managed Like It's Our Own</h1>
-      <p>Tenant screening, rent collection, maintenance, and clear monthly reporting for residential owners across the CSRA—handled by a local, third-generation real estate team licensed in Georgia and South Carolina.</p>
-      <div class="hero-buttons">
-        <a href="/contact/" class="btn btn-primary btn-lg">Get a Free Rental Analysis</a>
+<!-- Custom cursor (desktop only) -->
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+
+<!-- The tour: one fixed video behind the whole page, built from the
+     Rosewood Dr listing photos (Ken Burns pans + crossfades, front door
+     to backyard). Scrolling the site scrubs through the rooms. -->
+<div class="video-stage" aria-hidden="true">
+  <video muted playsinline preload="auto"
+         poster="assets/img/rosewood-front-twilight.jpg">
+    <source src="assets/video/rosewood-tour.mp4" type="video/mp4">
+  </video>
+  <div class="veil"></div>
+</div>
+
+<!-- Top nav -->
+<header class="nav" id="nav">
+  <a class="nav-logo" href="#top">McBride <span>PM</span></a>
+  <nav class="nav-links">
+    <a class="nav-util" href="https://mcbride-pm.com/rentals/">Available Rentals</a>
+    <a class="nav-util" href="https://c21magnolia.appfolio.com/oportal/users/log_in">Owner Portal</a>
+    <a class="nav-util" href="https://c21magnolia.appfolio.com/connect/users/sign_in">Resident Portal</a>
+    <a class="nav-phone" href="tel:7064204883">(706) 420-4883</a>
+    <a class="btn btn-small magnetic" href="#handoff">Free Rental Analysis</a>
+    <button class="nav-burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobile-menu">
+  <nav>
+    <a href="https://mcbride-pm.com/rentals/">Available Rentals</a>
+    <a href="https://c21magnolia.appfolio.com/oportal/users/log_in">Owner Portal</a>
+    <a href="https://c21magnolia.appfolio.com/connect/users/sign_in">Resident Portal</a>
+    <a href="#handoff">Free Rental Analysis</a>
+  </nav>
+  <div class="mobile-menu-contact">
+    <a href="tel:7064204883">(706) 420-4883</a>
+    <a href="mailto:amber@themcbrideteam.com">amber@themcbrideteam.com</a>
+  </div>
+</div>
+
+<!-- Journey rail -->
+<aside class="rail" aria-hidden="true">
+  <div class="rail-line"><div class="rail-progress"></div></div>
+  <ol>
+    <li data-room="curb"><span class="rail-dot"></span><span class="rail-label">The Curb</span></li>
+    <li data-room="door"><span class="rail-dot"></span><span class="rail-label">The Front Door</span></li>
+    <li data-room="living"><span class="rail-dot"></span><span class="rail-label">The Living Room</span></li>
+    <li data-room="office"><span class="rail-dot"></span><span class="rail-label">The Office</span></li>
+    <li data-room="study"><span class="rail-dot"></span><span class="rail-label">The Study</span></li>
+    <li data-room="handoff"><span class="rail-dot"></span><span class="rail-label">The Handoff</span></li>
+  </ol>
+</aside>
+
+<main id="top">
+
+  <!-- CHAPTER 1 — THE CURB (hero) -->
+  <section class="chapter hero" id="curb" data-glow>
+    <div class="chapter-content container">
+      <p class="kicker reveal-line">McBride Property Management · Augusta, Evans &amp; Aiken</p>
+      <h1>
+        <span class="reveal-line">Your rental,</span>
+        <span class="reveal-line">managed like</span>
+        <span class="reveal-line">it's <em>our own</em>.</span>
+      </h1>
+      <p class="lede reveal-line">Tenant screening, rent collection, maintenance, and clear monthly reporting for residential owners across the CSRA — handled by a local, third-generation real estate team licensed in Georgia and South Carolina.</p>
+      <div class="hero-ctas reveal-line">
+        <a class="btn magnetic" href="#handoff">Get a Free Rental Analysis</a>
+        <a class="link-arrow" href="#door">Step inside <span>→</span></a>
       </div>
-      <p class="hero-alt-link"><a href="/rentals/">Looking for a home to rent? Browse available rentals &rarr;</a></p>
     </div>
+    <div class="scroll-cue" aria-hidden="true"><span></span>Scroll to step inside</div>
   </section>
 
-  <!-- TRUST BAR -->
-  <section class="trust-bar">
-    <div class="container">
-      <div class="grid grid-4">
-        <div class="trust-stat">
-          <span class="number">99%</span>
-          <span class="label">of Tenants Pay on Time</span>
-        </div>
-        <div class="trust-stat">
-          <span class="number">14</span>
-          <span class="label">Average Days on Market</span>
-        </div>
-        <div class="trust-stat">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" style="margin: 0 auto .5rem; color: #b2995a;">
-            <path d="M16 2L22 10H24C25.1 10 26 10.9 26 12V26C26 27.1 25.1 28 24 28H8C6.9 28 6 27.1 6 26V12C6 10.9 6.9 10 8 10H10L16 2Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
-            <path d="M16 16C18.2 16 20 14.2 20 12C20 9.8 18.2 8 16 8C13.8 8 12 9.8 12 12C12 14.2 13.8 16 16 16Z" stroke="currentColor" stroke-width="1.5" fill="none"/>
-          </svg>
-          <span class="label">We Guarantee Our Tenant Placements</span>
-        </div>
-        <div class="trust-stat">
-          <span class="number">No</span>
-          <span class="label">Long-Term Contracts Required</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- WHO WE SERVE -->
-  <section class="section">
-    <div class="container">
-      <h2>Property Management for Owners Who Want More Than a Vendor</h2>
-      <p style="max-width: 800px; margin-bottom: 1.5rem;">Most of our owners never planned to be landlords. A PCS order moved you away from the CSRA and you kept the house. You inherited a property. You bought a rental from out of state and need eyes you trust on the ground. Whatever brought you here, the job is the same: protect the asset, keep it rented to a well-screened resident, and send you a statement you can actually read.</p>
-      <p style="max-width: 800px; margin-bottom: 2rem;">That's the whole service. One local team—backed by a decade in Augusta-area real estate and licensed in both Georgia and South Carolina—screens every adult applicant, coordinates maintenance with licensed and insured vendors, enforces the lease, and reports to you monthly. No long-term contract: if we stop earning it, you can leave.</p>
-      <a href="/services/" class="btn btn-navy">Explore Our Services</a>
-    </div>
-  </section>
-
-  <!-- SERVICES GRID -->
-  <section class="section section--light">
-    <div class="container">
-      <h2 style="text-align: center; margin-bottom: 3rem;">What We Handle — So You Don't Have To</h2>
-
-      <div class="grid grid-3">
-        <!-- Service Card 1: Property Marketing & Leasing -->
-        <div class="card">
-          <div class="card-icon">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="currentColor">
-              <path d="M14 2L22 6V14L14 18L6 14V6L14 2Z" opacity="0.3"/>
-              <path d="M4 16V24H24V16" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M8 16V12M14 16V10M20 16V12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <h3>Property Marketing & Leasing</h3>
-          <p>Professional photography, strategic online listing placement, and targeted marketing to fill vacancies quickly with qualified tenants.</p>
-        </div>
-
-        <!-- Service Card 2: Tenant Screening -->
-        <div class="card">
-          <div class="card-icon">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-              <circle cx="11" cy="8" r="4" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M6 14C6 12 8.5 11 11 11C13.5 11 16 12 16 14" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M18 12H26M22 16H26M18 20H26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-              <circle cx="22" cy="8" r="3" stroke="currentColor" stroke-width="1.5"/>
-            </svg>
-          </div>
-          <h3>Tenant Screening</h3>
-          <p>Comprehensive background checks, credit verification, and reference checks to ensure quality tenants and minimize risk.</p>
-        </div>
-
-        <!-- Service Card 3: Rent Collection -->
-        <div class="card">
-          <div class="card-icon">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-              <circle cx="14" cy="14" r="12" stroke="currentColor" stroke-width="1.5"/>
-              <circle cx="14" cy="14" r="6" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M14 10V18M11 14H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <h3>Rent Collection</h3>
-          <p>Automated payment systems, late fee management, and eviction procedures when necessary to maintain consistent cash flow.</p>
-        </div>
-
-        <!-- Service Card 4: Maintenance & Repairs -->
-        <div class="card">
-          <div class="card-icon">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-              <path d="M6 6L10 10M22 22L18 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-              <path d="M8 4L10 2L24 16L22 18L8 4Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-              <path d="M2 26H26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <h3>Maintenance & Repairs</h3>
-          <p>24/7 emergency maintenance response, preventative care programs, and vendor management to keep properties in excellent condition.</p>
-        </div>
-
-        <!-- Service Card 5: Financial Reporting -->
-        <div class="card">
-          <div class="card-icon">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-              <rect x="4" y="4" width="20" height="20" rx="2" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M4 10H24M8 14H10M8 18H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-              <path d="M14 14L18 18M18 14L14 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <h3>Financial Reporting</h3>
-          <p>Detailed monthly reports, online owner portal access, and transparent accounting to track performance and profitability.</p>
-        </div>
-
-        <!-- Service Card 6: Lease Management & Compliance -->
-        <div class="card">
-          <div class="card-icon">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-              <path d="M4 4H24V22C24 23.1 23.1 24 22 24H6C4.9 24 4 23.1 4 22V4Z" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M8 8H20M8 12H20M8 16H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <h3>Lease Management & Compliance</h3>
-          <p>Lease preparation, renewal management, and full compliance with local, state, and federal housing regulations.</p>
-        </div>
-      </div>
-
-      <div style="text-align: center; margin-top: 3rem;">
-        <a href="/services/" class="btn btn-navy">See All Services</a>
+  <!-- CHAPTER 2 — THE FRONT DOOR (trust) -->
+  <section class="chapter" id="door" data-glow>
+    <div class="chapter-content container">
+      <p class="chapter-num">01 — The Front Door</p>
+      <h2 class="split">You never planned to be a landlord. We planned for owners like you.</h2>
+      <p class="chapter-copy">A PCS order moved you away and you kept the house. You inherited a property. You invested from out of state and need eyes you trust on the ground. Whatever brought you here, the job is the same: protect the asset, keep it rented to a well-screened resident, and send you a statement you can actually read.</p>
+      <div class="stats">
+        <div class="stat"><strong data-count="99" data-suffix="%">0%</strong><span>of tenants pay on time</span></div>
+        <div class="stat"><strong data-count="14">0</strong><span>average days on market</span></div>
+        <div class="stat"><strong class="stat-word">Guaranteed</strong><span>tenant placements</span></div>
+        <div class="stat"><strong>24/7</strong><span>emergency maintenance response</span></div>
       </div>
     </div>
   </section>
 
-  <!-- AREAS WE SERVE -->
-  <section class="section" id="all-areas">
-    <div class="container">
-      <h2 style="text-align: center; margin-bottom: 1rem;">Local Property Management Across the CSRA</h2>
-      <p style="text-align: center; max-width: 700px; margin: 0 auto 3rem;">We serve residential property owners throughout the Central Savannah River Area, including communities in Georgia and South Carolina. With local expertise and regional reach, we understand the unique market dynamics of each area.</p>
-
-      <div style="margin-bottom: 2.5rem;">
-        <h3 style="font-size: 1.1rem; margin-bottom: 1rem; color: #060644;">Georgia</h3>
-        <div class="area-tags">
-          <a href="/augusta/" class="area-tag">Augusta</a>
-          <a href="/evans/" class="area-tag">Evans</a>
-          <a href="/grovetown/" class="area-tag">Grovetown</a>
-          <a href="/martinez/" class="area-tag">Martinez</a>
-          <a href="/harlem/" class="area-tag">Harlem</a>
-          <a href="/hephzibah/" class="area-tag">Hephzibah</a>
-          <a href="/appling/" class="area-tag">Appling</a>
-          <span class="area-tag">Thomson</span>
-          <span class="area-tag">Columbia County</span>
-          <span class="area-tag">Richmond County</span>
-        </div>
+  <!-- CHAPTER 3 — THE LIVING ROOM (services, horizontal track) -->
+  <section class="chapter chapter-horizontal" id="living">
+    <div class="horizontal-pin">
+      <div class="horizontal-head container">
+        <p class="chapter-num">02 — The Living Room</p>
+        <h2>What we handle — so you don't have to.</h2>
       </div>
+      <div class="track">
+        <article class="card tilt"><span class="card-index">1</span><h3>Marketing &amp; Leasing</h3><p>Professional photography and strategic listing placement to fill vacancies quickly with qualified tenants.</p></article>
+        <article class="card tilt"><span class="card-index">2</span><h3>Tenant Screening</h3><p>Background checks, credit verification, and reference checks on every adult applicant.</p></article>
+        <article class="card tilt"><span class="card-index">3</span><h3>Rent Collection</h3><p>Automated payments, late-fee management, and enforcement procedures that keep cash flow consistent.</p></article>
+        <article class="card tilt"><span class="card-index">4</span><h3>Maintenance &amp; Repairs</h3><p>24/7 emergency response and licensed, insured vendors who keep the property in shape.</p></article>
+        <article class="card tilt"><span class="card-index">5</span><h3>Financial Reporting</h3><p>Detailed monthly statements and online owner portal access — accounting you can actually read.</p></article>
+        <article class="card tilt"><span class="card-index">6</span><h3>Lease Compliance</h3><p>Lease preparation, renewals, and full compliance with local, state, and federal housing law.</p></article>
+      </div>
+    </div>
+  </section>
 
+  <!-- CHAPTER 4 — THE OFFICE (reporting + proof) -->
+  <section class="chapter" id="office" data-glow>
+    <div class="chapter-content container office-grid">
       <div>
-        <h3 style="font-size: 1.1rem; margin-bottom: 1rem; color: #060644;">South Carolina</h3>
-        <div class="area-tags">
-          <a href="/north-augusta/" class="area-tag">North Augusta</a>
-          <a href="/aiken/" class="area-tag">Aiken</a>
-          <a href="/graniteville/" class="area-tag">Graniteville</a>
-          <span class="area-tag">Edgefield</span>
-          <span class="area-tag">Beech Island</span>
-          <span class="area-tag">Aiken County</span>
-        </div>
-        <p style="margin-top: 1.5rem; font-size: .9rem; color: #555;">Own a rental in a nearby community that isn't listed? <a href="/contact/" style="text-decoration: underline;">Ask us</a> — we cover most of the CSRA.</p>
+        <p class="chapter-num">03 — The Office</p>
+        <h2 class="split">A statement you can read in two minutes, every month.</h2>
+        <p class="chapter-copy">Owner portal access, transparent accounting, and monthly reports that track performance and profitability. We collect rent, pay vendors, and show our work.</p>
       </div>
+      <figure class="quote tilt">
+        <blockquote>"Whenever I asked anything about the property he would be sure to get answers in a reasonable time. I would recommend them to anyone looking for reliable and friendly service."</blockquote>
+        <figcaption>Google review · Rated 4.9 of 5</figcaption>
+      </figure>
     </div>
   </section>
 
-  <!-- TESTIMONIALS (5-star Google reviews; live-synced at build when GOOGLE_PLACES_API_KEY is set) -->
-  <section class="section section--light">
-    <div class="container">
-      <h2 style="text-align: center; margin-bottom: .75rem;">What Property Owners Say About Working With Us</h2>
-      <p style="text-align: center; margin-bottom: 3rem; color: #555;">
-        {%- if googleReviews.live and googleReviews.count %}
-        Rated {{ googleReviews.rating }} of 5 by {{ googleReviews.count }} reviewers on Google.
-        {%- else %}
-        Five-star reviews from our Google Business Profile.
-        {%- endif %}
-      </p>
-
-      <div class="grid grid-3">
-        {%- for review in googleReviews.reviews %}
-        <div class="testimonial">
-          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
-          <p>"{{ review.text }}"</p>
-          <div class="author">{{ review.author }}</div>
-          <div class="role">Google review</div>
-        </div>
-        {%- endfor %}
+  <!-- CHAPTER 5 — THE STUDY (owner knowledge / blog) -->
+  <section class="chapter" id="study" data-glow>
+    <div class="chapter-content container">
+      <p class="chapter-num">04 — The Study</p>
+      <h2 class="split">Owner knowledge, written from inside the CSRA market.</h2>
+      <p class="chapter-copy">Georgia landlord law, Fort Gordon PCS playbooks, and Augusta-area rental strategy — from the team managing the doors, not a content farm.</p>
+      <div class="journal-grid">
+        <a class="journal-card tilt" href="/blog/non-paying-tenant-fort-gordon-pcs-landlord-georgia/">
+          <span class="card-index">Guide</span>
+          <h3>When Your CSRA Tenant Stops Paying Rent: Fort Gordon PCS Playbook</h3>
+          <span class="journal-more">Read the guide →</span>
+        </a>
+        <a class="journal-card tilt" href="/blog/fair-housing-compliance-csra-landlords-2026/">
+          <span class="card-index">Compliance</span>
+          <h3>Fair Housing Compliance for Augusta-Area Landlords in 2026</h3>
+          <span class="journal-more">Read the guide →</span>
+        </a>
+        <a class="journal-card tilt" href="/blog/pest-control-rental-property-georgia-landlord-guide/">
+          <span class="card-index">Maintenance</span>
+          <h3>Georgia Rental Pest Control: What Landlords Must Do in 2026</h3>
+          <span class="journal-more">Read the guide →</span>
+        </a>
       </div>
-
-      <p style="text-align: center; margin-top: 2rem; margin-bottom: 0;">
-        <a href="{{ site.social.googleBusinessProfile }}" rel="noopener" style="text-decoration: underline; text-underline-offset: 3px;">Read all our reviews on Google &rarr;</a>
-      </p>
+      <a class="link-arrow" href="/blog/">Browse all articles <span>→</span></a>
     </div>
   </section>
 
-  <!-- HOW IT WORKS -->
-  <section class="section">
-    <div class="container content-narrow">
-      <h2 style="text-align: center; margin-bottom: 1rem;">What Happens After You Reach Out</h2>
-      <p style="text-align: center; max-width: 650px; margin: 0 auto 1.5rem;">No mystery and no sales cycle—here's the path from first contact to your first owner statement.</p>
-      <div class="steps">
-        <div class="step">
-          <div class="step-number">1</div>
-          <div class="step-content">
-            <h3>Request your free rental analysis</h3>
-            <p>Tell us about the property and we'll send a defensible market rent number—built on real CSRA comps—within 1 business day. No obligation.</p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-number">2</div>
-          <div class="step-content">
-            <h3>Onboard in one to two weeks</h3>
-            <p>Property condition review, professional listing photography, transfer of any existing lease and deposit, and your owner portal set up with direct deposit. If the home is occupied, your residents feel no disruption.</p>
-          </div>
-        </div>
-        <div class="step">
-          <div class="step-number">3</div>
-          <div class="step-content">
-            <h3>We run the property—you review the statement</h3>
-            <p>Screening, rent collection, 24/7 maintenance triage, and renewals, summarized in a clear monthly owner statement with real-time portal access. With no long-term contract, we earn your business every month.</p>
-          </div>
-        </div>
+  <!-- CHAPTER 6 — THE HANDOFF (CTA) -->
+  <section class="chapter handoff" id="handoff" data-glow>
+    <div class="chapter-content container center">
+      <p class="chapter-num">05 — The Handoff</p>
+      <h2 class="split">Hand us the keys. Keep the ownership.</h2>
+      <p class="chapter-copy">Start with a free rental analysis — what your property should rent for, what it needs, and what we'd do in the first 30 days. And every placement is backed by our tenant guarantee.</p>
+      <div class="hero-ctas">
+        <a class="btn magnetic" href="tel:7064204883">Call (706) 420-4883</a>
+        <a class="btn btn-ghost magnetic" href="mailto:amber@themcbrideteam.com">Email Amber</a>
       </div>
-      <div style="text-align: center; margin-top: 2rem;">
-        <a href="/contact/" class="btn btn-navy">Start with the Free Analysis</a>
-      </div>
+      <p class="closer">Guiding you home.</p>
     </div>
   </section>
 
-  <!-- CTA SECTION: RENTAL ANALYSIS -->
-  <section class="cta-section">
-    <div class="container">
-      <h2>How Much Should You Be Charging for Your Rental?</h2>
-      <p>Many property owners either underprice their rentals or overprice them based on emotion instead of data. Our free rental analysis provides a market-backed price recommendation for your property, complete with comparable rentals and current market trends in your area.</p>
-      <a href="/contact/" class="btn btn-primary btn-lg">Get My Free Rental Analysis</a>
-    </div>
-  </section>
+</main>
 
-  <!-- BLOG PREVIEW -->
-  <section class="section">
-    <div class="container">
-      <h2 style="text-align: center; margin-bottom: 3rem;">Property Management Insights for Augusta Owners</h2>
+<footer class="footer">
+  <div class="container footer-grid">
+    <p class="footer-brand">McBride <span>PM</span></p>
+    <nav class="footer-links">
+      <a href="https://mcbride-pm.com/rentals/">Available Rentals</a>
+      <a href="https://c21magnolia.appfolio.com/oportal/users/log_in">Owner Portal</a>
+      <a href="https://c21magnolia.appfolio.com/connect/users/sign_in">Resident Portal</a>
+      <a href="tel:7064204883">(706) 420-4883</a>
+      <a href="mailto:amber@themcbrideteam.com">amber@themcbrideteam.com</a>
+    </nav>
+  </div>
+  <div class="container footer-rows">
+    <nav class="footer-row" aria-label="Explore">
+      <span class="footer-row-label">Explore</span>
+      <a href="/services/">PM Services</a>
+      <a href="/why-hire/">Why Hire Us</a>
+      <a href="/owner-faqs/">Owner FAQs</a>
+      <a href="/resident-faqs/">Resident FAQs</a>
+      <a href="/blog/">Blog</a>
+      <a href="/about/">About</a>
+      <a href="/referral/">Agent Referral</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+    <nav class="footer-row" aria-label="Areas we serve">
+      <span class="footer-row-label">Areas</span>
+      <a href="/augusta/">Augusta</a>
+      <a href="/evans/">Evans</a>
+      <a href="/grovetown/">Grovetown</a>
+      <a href="/martinez/">Martinez</a>
+      <a href="/harlem/">Harlem</a>
+      <a href="/hephzibah/">Hephzibah</a>
+      <a href="/appling/">Appling</a>
+      <a href="/north-augusta/">North Augusta</a>
+      <a href="/aiken/">Aiken</a>
+      <a href="/graniteville/">Graniteville</a>
+    </nav>
+  </div>
+</footer>
 
-      <div class="grid grid-3">
-        {%- for post in collections.blog %}{% if loop.index <= 3 %}
-        <article class="blog-card">
-          {% if post.data.image %}
-          <a href="{{ post.url }}" class="blog-card-img" tabindex="-1" aria-hidden="true"><img src="{{ post.data.image }}" alt="" width="1408" height="768" loading="lazy"></a>
-          {% endif %}
-          <div class="blog-card-body">
-            <span class="tag">{{ post.data.category or 'Property Owners' }}</span>
-            <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-            <p>{{ post.data.description }}</p>
-          </div>
-        </article>
-        {% endif %}{% endfor -%}
-      </div>
-
-      <div style="text-align: center; margin-top: 3rem;">
-        <a href="/blog/" class="btn btn-navy">Read the Blog</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-{% endblock %}
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>

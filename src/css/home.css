@@ -1,0 +1,323 @@
+/* McBride PM — cinematic walkthrough prototype
+   Brand: Navy #060644 · Gold #B2995A · White
+   Montserrat (headings 500/600) · Open Sans (body) */
+
+:root {
+  --navy: #060644;
+  --navy-deep: #04042e;
+  --gold: #B2995A;
+  --white: #ffffff;
+  --ink: rgba(255, 255, 255, 0.92);
+  --ink-soft: rgba(255, 255, 255, 0.72);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
+
+body {
+  font-family: "Open Sans", system-ui, sans-serif;
+  background: var(--navy-deep);
+  color: var(--ink);
+  line-height: 1.65;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 { font-family: "Montserrat", sans-serif; font-weight: 600; line-height: 1.12; }
+
+.container { width: min(1160px, 92vw); margin-inline: auto; }
+
+/* ---------- Cursor (desktop, fine pointer only) ---------- */
+.cursor-dot, .cursor-ring {
+  position: fixed; top: 0; left: 0; pointer-events: none; z-index: 9999;
+  border-radius: 50%; translate: -50% -50%; display: none;
+}
+.cursor-dot { width: 8px; height: 8px; background: var(--gold); }
+.cursor-ring {
+  width: 38px; height: 38px; border: 1px solid rgba(178, 153, 90, 0.65);
+  transition: width 0.25s, height 0.25s, border-color 0.25s;
+}
+body.cursor-active .cursor-dot, body.cursor-active .cursor-ring { display: block; }
+body.cursor-active, body.cursor-active a, body.cursor-active button { cursor: none; }
+body.cursor-hover .cursor-ring { width: 64px; height: 64px; border-color: var(--gold); }
+
+/* ---------- Video stage: one fixed walkthrough behind the whole page ---------- */
+.video-stage { position: fixed; inset: 0; z-index: 0; background: var(--navy-deep); }
+.video-stage video { width: 100%; height: 100%; object-fit: cover; display: block; }
+main, .footer { position: relative; z-index: 1; }
+
+/* ---------- Nav ---------- */
+.nav {
+  position: fixed; inset: 0 0 auto 0; z-index: 100;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 1.1rem clamp(1.2rem, 4vw, 3rem);
+  background: linear-gradient(rgba(4, 4, 46, 0.85), transparent);
+  transition: transform 0.4s ease;
+}
+.nav.nav-hidden { transform: translateY(-110%); }
+.nav-logo {
+  font-family: "Montserrat", sans-serif; font-weight: 700; font-size: 1.25rem;
+  color: var(--white); text-decoration: none; letter-spacing: 0.02em;
+}
+.nav-logo span { color: var(--gold); font-weight: 500; letter-spacing: 0.18em; }
+.nav-links { display: flex; align-items: center; gap: 1.6rem; }
+.nav-links a { color: var(--ink-soft); text-decoration: none; font-size: 0.95rem; font-weight: 600; }
+.nav-links a:hover { color: var(--white); }
+.nav-util { font-size: 0.82rem !important; letter-spacing: 0.04em; opacity: 0.85; }
+@media (max-width: 899px) {
+  .nav-util, .nav-phone { display: none; }
+  .nav-links { gap: 0.9rem; }
+}
+
+/* ---------- Burger + mobile menu ---------- */
+.nav-burger {
+  display: none; background: none; border: 0; padding: 10px; cursor: pointer;
+  flex-direction: column; gap: 5px;
+}
+.nav-burger span { width: 22px; height: 2px; background: var(--white); transition: transform 0.3s, opacity 0.3s; }
+html.menu-open .nav-burger span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+html.menu-open .nav-burger span:nth-child(2) { opacity: 0; }
+html.menu-open .nav-burger span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+@media (max-width: 899px) { .nav-burger { display: flex; } }
+
+.mobile-menu {
+  position: fixed; inset: 0; z-index: 95;
+  background: rgba(4, 4, 46, 0.96); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+  display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 3rem;
+  opacity: 0; pointer-events: none; transition: opacity 0.35s ease;
+}
+html.menu-open .mobile-menu { opacity: 1; pointer-events: auto; }
+html.menu-open { overflow: hidden; }
+.mobile-menu nav { display: flex; flex-direction: column; align-items: center; gap: 1.9rem; }
+.mobile-menu nav a {
+  font-family: "Montserrat", sans-serif; font-weight: 600; font-size: 1.5rem;
+  color: var(--white); text-decoration: none;
+}
+.mobile-menu nav a:active { color: var(--gold); }
+.mobile-menu-contact { display: flex; flex-direction: column; align-items: center; gap: 0.8rem; }
+.mobile-menu-contact a { color: var(--gold); text-decoration: none; font-size: 1rem; }
+@media (min-width: 900px) { .mobile-menu { display: none; } }
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-block; padding: 0.95rem 2.1rem; border-radius: 999px;
+  background: var(--gold); color: var(--navy); font-weight: 600; font-size: 1rem;
+  text-decoration: none; font-family: "Montserrat", sans-serif;
+  transition: box-shadow 0.3s;
+  will-change: transform;
+  -webkit-tap-highlight-color: transparent;
+}
+.btn:active { filter: brightness(1.08); }
+.btn:hover { box-shadow: 0 8px 40px rgba(178, 153, 90, 0.45); }
+.btn-small { padding: 0.6rem 1.4rem; font-size: 0.85rem; }
+.btn-ghost { background: transparent; border: 1px solid rgba(255, 255, 255, 0.5); color: var(--white); }
+.btn-ghost:hover { border-color: var(--gold); box-shadow: 0 8px 40px rgba(178, 153, 90, 0.25); }
+.link-arrow { color: var(--ink-soft); text-decoration: none; font-weight: 600; }
+.link-arrow span { display: inline-block; transition: transform 0.3s; color: var(--gold); }
+.link-arrow:hover span { transform: translateX(6px); }
+.link-arrow:hover { color: var(--white); }
+
+/* ---------- Journey rail ---------- */
+.rail {
+  position: fixed; right: clamp(0.8rem, 2.5vw, 2.4rem); top: 50%; translate: 0 -50%;
+  z-index: 90; display: flex; gap: 0.9rem;
+}
+.rail-line {
+  width: 1px; background: rgba(255, 255, 255, 0.18); position: relative;
+}
+.rail-progress {
+  position: absolute; top: 0; left: 0; width: 100%; height: 0%;
+  background: var(--gold);
+}
+.rail ol { list-style: none; display: flex; flex-direction: column; gap: 2.4rem; }
+.rail li { display: flex; align-items: center; gap: 0.6rem; justify-content: flex-end; }
+.rail-label {
+  font-family: "Montserrat", sans-serif; font-size: 0.68rem; font-weight: 500;
+  letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255, 255, 255, 0.4);
+  opacity: 0; transform: translateX(6px); transition: all 0.35s;
+}
+.rail-dot {
+  width: 7px; height: 7px; border-radius: 50%; background: rgba(255, 255, 255, 0.35);
+  transition: all 0.35s; flex-shrink: 0;
+}
+.rail li.active .rail-dot { background: var(--gold); box-shadow: 0 0 12px rgba(178, 153, 90, 0.8); }
+.rail li.active .rail-label { opacity: 1; transform: none; color: var(--gold); }
+@media (max-width: 899px) { .rail { display: none; } }
+
+/* ---------- Chapters ---------- */
+.chapter {
+  position: relative; min-height: 100vh; min-height: 100svh;
+  display: flex; align-items: center;
+  overflow: hidden;
+}
+.chapter-bg { position: absolute; inset: 0; z-index: 0; }
+.chapter-bg img, .chapter-bg video {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+  will-change: transform;
+}
+.veil {
+  position: absolute; inset: 0;
+  background: linear-gradient(105deg, rgba(4, 4, 46, 0.92) 0%, rgba(6, 6, 68, 0.72) 45%, rgba(6, 6, 68, 0.35) 100%);
+}
+.veil-heavy { background: rgba(4, 4, 46, 0.82); }
+
+/* cursor-following glow */
+[data-glow] .chapter-content::before {
+  content: ""; position: absolute; inset: 0; pointer-events: none; z-index: -1;
+  background: radial-gradient(560px circle at var(--mx, 50%) var(--my, 50%), rgba(178, 153, 90, 0.10), transparent 65%);
+}
+
+.chapter-content { position: relative; z-index: 2; padding: 8rem 0; }
+
+.kicker {
+  font-family: "Montserrat", sans-serif; font-size: 0.8rem; font-weight: 600;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold);
+  margin-bottom: 1.6rem;
+}
+.chapter-num {
+  font-family: "Montserrat", sans-serif; font-size: 0.78rem; font-weight: 500;
+  letter-spacing: 0.24em; text-transform: uppercase; color: var(--gold);
+  margin-bottom: 1.4rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.6rem, 7vw, 5.4rem); font-weight: 700; color: var(--white);
+  margin-bottom: 1.8rem; max-width: 14ch;
+}
+.hero h1 em { font-style: normal; color: var(--gold); }
+.hero h1 .reveal-line { display: block; }
+
+.lede { font-size: clamp(1rem, 1.6vw, 1.2rem); color: var(--ink-soft); max-width: 56ch; margin-bottom: 2.4rem; }
+.hero-ctas { display: flex; align-items: center; gap: 1.8rem; flex-wrap: wrap; }
+
+.scroll-cue {
+  position: absolute; bottom: 2rem; left: 50%; translate: -50% 0; z-index: 2;
+  font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55); display: flex; flex-direction: column; align-items: center; gap: 0.7rem;
+}
+.scroll-cue span { width: 1px; height: 44px; background: linear-gradient(var(--gold), transparent); display: block; }
+
+.chapter h2 { font-size: clamp(1.9rem, 4.4vw, 3.4rem); color: var(--white); max-width: 22ch; margin-bottom: 1.6rem; }
+.chapter-copy { max-width: 58ch; color: var(--ink-soft); font-size: clamp(0.98rem, 1.4vw, 1.12rem); }
+
+/* stats */
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 2.2rem; margin-top: 3.4rem; }
+.stat { min-width: 0; }
+.stat strong {
+  display: block; font-family: "Montserrat", sans-serif; font-weight: 600;
+  font-size: clamp(2rem, 4vw, 3.1rem); color: var(--gold); line-height: 1;
+  margin-bottom: 0.5rem; overflow-wrap: break-word;
+}
+/* word-based stats (e.g. "Guaranteed") scale down so they never collide with neighbors */
+.stat .stat-word { font-size: clamp(1.4rem, 2.2vw, 2rem); line-height: 1.15; padding-top: 0.35em; }
+.stat span { font-size: 0.9rem; color: var(--ink-soft); }
+
+/* ---------- Horizontal services track ---------- */
+.chapter-horizontal { display: block; }
+.horizontal-pin { position: relative; z-index: 2; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; gap: 3rem; padding: 6rem 0; }
+.horizontal-head h2 { margin-bottom: 0; }
+.track {
+  display: flex; gap: 1.6rem; padding-inline: max(4vw, (100vw - 1160px) / 2);
+  width: max-content;
+}
+.card {
+  width: clamp(260px, 26vw, 340px); flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px; padding: 2.2rem 1.9rem; backdrop-filter: blur(10px);
+  transition: border-color 0.3s, background 0.3s;
+  will-change: transform;
+}
+.card:hover { border-color: rgba(178, 153, 90, 0.6); background: rgba(255, 255, 255, 0.08); }
+.card-index {
+  font-family: "Montserrat", sans-serif; font-weight: 500; font-size: 0.78rem;
+  color: var(--gold); letter-spacing: 0.16em; display: block; margin-bottom: 1.1rem;
+}
+.card h3 { font-size: 1.18rem; color: var(--white); margin-bottom: 0.7rem; font-weight: 600; }
+.card p { font-size: 0.92rem; color: var(--ink-soft); }
+
+@media (max-width: 899px) {
+  .track { width: auto; flex-direction: column; padding-inline: 4vw; }
+  .card { width: 100%; }
+  .horizontal-pin { min-height: 0; }
+}
+
+/* ---------- Office chapter ---------- */
+.office-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 4rem; align-items: center; }
+@media (max-width: 899px) { .office-grid { grid-template-columns: 1fr; } }
+.quote {
+  background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.12);
+  border-left: 3px solid var(--gold); border-radius: 14px; padding: 2.4rem;
+  backdrop-filter: blur(10px); will-change: transform;
+}
+.quote blockquote { font-size: 1.06rem; color: var(--ink); margin-bottom: 1.2rem; }
+.quote figcaption { font-size: 0.82rem; color: var(--gold); font-family: "Montserrat", sans-serif; letter-spacing: 0.08em; }
+
+/* ---------- The Study (blog) ---------- */
+.journal-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.6rem;
+  margin: 2.6rem 0 2rem;
+}
+@media (max-width: 899px) { .journal-grid { grid-template-columns: 1fr; } }
+.journal-card {
+  display: flex; flex-direction: column; gap: 0.8rem;
+  background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px; padding: 2rem 1.8rem; backdrop-filter: blur(10px);
+  text-decoration: none; transition: border-color 0.3s, background 0.3s;
+  will-change: transform;
+}
+.journal-card:hover { border-color: rgba(178, 153, 90, 0.6); background: rgba(255, 255, 255, 0.08); }
+.journal-card h3 { font-size: 1.08rem; color: var(--white); font-weight: 600; line-height: 1.35; }
+.journal-more { font-size: 0.85rem; color: var(--gold); font-weight: 600; margin-top: auto; }
+
+/* ---------- Handoff ---------- */
+.center { text-align: center; display: flex; flex-direction: column; align-items: center; }
+.center h2, .center .chapter-copy { margin-inline: auto; }
+.center .hero-ctas { justify-content: center; margin-top: 2.4rem; }
+.closer {
+  margin-top: 4rem; font-family: "Montserrat", sans-serif; font-weight: 500;
+  font-size: 0.95rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold);
+}
+
+/* ---------- Footer ---------- */
+.footer { background: var(--navy-deep); border-top: 1px solid rgba(255, 255, 255, 0.1); padding: 2.4rem 0; }
+.footer-grid { display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
+.footer-brand { font-family: "Montserrat", sans-serif; font-weight: 700; font-size: 1.05rem; color: var(--white); }
+.footer-brand span { color: var(--gold); font-weight: 500; letter-spacing: 0.18em; }
+.footer-links { display: flex; gap: 1.6rem; flex-wrap: wrap; }
+.footer-links a { color: var(--ink-soft); text-decoration: none; font-size: 0.85rem; }
+.footer-links a:hover { color: var(--gold); }
+.footer-rows {
+  margin-top: 1.8rem; padding-top: 1.8rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex; flex-direction: column; gap: 1rem;
+}
+.footer-row { display: flex; gap: 0.4rem 1.3rem; flex-wrap: wrap; align-items: baseline; }
+.footer-row-label {
+  font-family: "Montserrat", sans-serif; font-size: 0.7rem; font-weight: 600;
+  letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold);
+  margin-right: 0.4rem;
+}
+.footer-row a { color: rgba(255, 255, 255, 0.55); text-decoration: none; font-size: 0.82rem; }
+.footer-row a:hover { color: var(--white); }
+
+/* ---------- Mobile polish ---------- */
+@media (max-width: 899px) {
+  .chapter-content { padding: 6.5rem 0 5rem; }
+  .hero h1 { font-size: clamp(2.5rem, 11vw, 3.4rem); }
+  .hero-ctas { flex-direction: column; align-items: stretch; gap: 1rem; width: 100%; max-width: 420px; }
+  .hero-ctas .btn { text-align: center; padding: 1.05rem 1.6rem; }
+  .hero-ctas .link-arrow { text-align: center; padding: 0.4rem 0; }
+  .center .hero-ctas { margin-inline: auto; }
+  .stats { grid-template-columns: 1fr 1fr; gap: 1.8rem 1.2rem; margin-top: 2.6rem; }
+  .office-grid { gap: 2.4rem; }
+  .quote { padding: 1.8rem; }
+  .scroll-cue { bottom: 1.2rem; }
+  .footer-grid { flex-direction: column; align-items: flex-start; }
+  .footer-links { flex-direction: column; gap: 0.9rem; }
+}
+
+/* ---------- Reveal helpers (JS sets initial states; these are no-JS fallbacks) ---------- */
+.reveal-line, .split, .chapter-copy, .stats, .chapter-num { opacity: 1; }
