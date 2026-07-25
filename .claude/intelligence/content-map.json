@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "74 live posts in src/blog/ as of 2026-07-24",
+    "builtFrom": "75 live posts in src/blog/ as of 2026-07-25",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher."
   },
   "clusters": {
@@ -214,7 +214,7 @@
       ]
     },
     "city-guides": {
-      "coverage": 0.6,
+      "coverage": 0.65,
       "authority": "medium",
       "posts": [
         "renting-in-augusta",
@@ -222,10 +222,10 @@
         "martinez-ga-neighborhood-guide-renters",
         "grovetown-ga-rental-guide-tenants",
         "renting-in-north-augusta-sc-tenant-guide",
-        "north-augusta-sc-rental-investment-guide"
+        "north-augusta-sc-rental-investment-guide",
+        "renting-in-hephzibah-ga-tenant-guide"
       ],
       "gaps": [
-        "Hephzibah rental guide",
         "Aiken SC tenant guide",
         "Appling / Columbia County north rental guide",
         "Augusta owner/investor city guide (current ones are tenant-facing)"
@@ -280,12 +280,14 @@
     "laws-compliance: assistance/service animals vs pet policy \u2014 HUD reasonable accommodation (P3, high AEO + compliance value)",
     "owner-education: how property management fees actually work \u2014 transparent breakdown (P3/P4, high conversion)",
     "maintenance: plumbing + water-heater repair-or-replace (P1/P3)",
-    "city-guides: Hephzibah rental guide (P5)",
     "hoa: HOA violations + who pays (owner vs tenant) (P2/P3)",
     "market-reports: CSRA rental market Q4 2026 update (multi-persona)",
     "maintenance: winterization checklist for CSRA rentals (P3, fall-season)",
     "inspections: annual / periodic inspections \u2014 what PMs check and why (P1/P3)",
     "technology: online applications + screening tech \u2014 how applicants apply and what owners see (P3/P4)",
     "accidental-landlord: converting a primary residence to a rental \u2014 insurance, mortgage, tax steps (P2)"
-  ]
+  ],
+  "notes": {
+    "imagen_api_key": "API key invalid for 4 consecutive runs (2026-07-22 through 2026-07-25). All posts published text-only. Key needs rotation before next run."
+  }
 }

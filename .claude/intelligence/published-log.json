@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 74
+    "totalPosts": 75
   },
   "posts": [
     {
@@ -1124,6 +1124,53 @@
         "social"
       ],
       "imageFailReason": "API_KEY_INVALID"
+    },
+    {
+      "slug": "renting-in-hephzibah-ga-tenant-guide",
+      "title": "Renting in Hephzibah, GA: Your Complete 2026 Tenant Guide",
+      "date": "2026-07-25",
+      "cluster": "city-guides",
+      "subtopic": "Hephzibah GA rental market, commute guide, tenant rights, application process",
+      "persona": "P5",
+      "intent": "informational/city-guide/tenant-conversion",
+      "cities": [
+        "Hephzibah",
+        "Augusta",
+        "Richmond County"
+      ],
+      "primaryKeyword": "renting in Hephzibah GA",
+      "entities": [
+        "Richmond County School System",
+        "Hephzibah High School",
+        "Fort Gordon Gate 5",
+        "Savannah River Site",
+        "Plant Vogtle",
+        "Augusta University Medical Center",
+        "Georgia Safe at Home Act (HB 404)",
+        "O.C.G.A. \u00a7 44-7-13",
+        "ZIP 30815",
+        "Highway 1 / Deans Bridge Road",
+        "LinkedIn Cities on the Rise 2026"
+      ],
+      "questionsAnswered": [
+        "How much does it cost to rent in Hephzibah GA?",
+        "How far is Hephzibah from Fort Gordon?",
+        "What school district serves Hephzibah?",
+        "Does Safe at Home Act apply in Richmond County?",
+        "Is Hephzibah a good commute to SRS?",
+        "Are pets allowed in Hephzibah rentals?",
+        "How do I apply through McBride PM?",
+        "Hephzibah vs Evans or Grovetown differences?"
+      ],
+      "internalLinks": 8,
+      "externalCitations": 4,
+      "wordCount": 2950,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "imageStatus": "none \u2014 Imagen API key invalid (fourth consecutive run)"
     }
   ]
 }
