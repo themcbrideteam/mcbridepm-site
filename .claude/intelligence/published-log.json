@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 75
+    "totalPosts": 76
   },
   "posts": [
     {
@@ -932,10 +932,10 @@
       ],
       "primaryKeyword": "move-in inspection rental property Georgia landlord",
       "entities": [
-        "O.C.G.A. \u00a7 44-7-33",
-        "O.C.G.A. \u00a7 44-7-34",
-        "O.C.G.A. \u00a7 44-7-35",
-        "O.C.G.A. \u00a7 44-7-36",
+        "O.C.G.A. § 44-7-33",
+        "O.C.G.A. § 44-7-34",
+        "O.C.G.A. § 44-7-35",
+        "O.C.G.A. § 44-7-36",
         "Safe at Home Act",
         "HB 404",
         "Columbia County Magistrate Court",
@@ -984,7 +984,7 @@
       "primaryKeyword": "property management maintenance vendors Augusta GA",
       "entities": [
         "O.C.G.A. Title 43",
-        "O.C.G.A. \u00a7 34-9",
+        "O.C.G.A. § 34-9",
         "Georgia State Construction Industry Licensing Board",
         "EPA Section 608",
         "Safe at Home Act HB 404",
@@ -1016,7 +1016,7 @@
         "HowTo"
       ],
       "type": "new",
-      "imageStatus": "none \u2014 Imagen API key invalid this run"
+      "imageStatus": "none — Imagen API key invalid this run"
     },
     {
       "slug": "appfolio-owner-portal-property-management-augusta-ga",
@@ -1040,7 +1040,7 @@
         "McBride Property Management",
         "Noah McBride",
         "Amber McBride",
-        "O.C.G.A. \u00a7 44-7-50",
+        "O.C.G.A. § 44-7-50",
         "Evans GA",
         "Augusta GA",
         "Martinez GA",
@@ -1071,7 +1071,7 @@
         "HowTo"
       ],
       "type": "new",
-      "imageStatus": "none \u2014 Imagen API key invalid this run (second consecutive run)"
+      "imageStatus": "none — Imagen API key invalid this run (second consecutive run)"
     },
     {
       "slug": "georgia-tenant-late-rent-landlord-guide",
@@ -1091,7 +1091,7 @@
       ],
       "primaryKeyword": "tenant late on rent Georgia landlord",
       "entities": [
-        "O.C.G.A. \u00a7 44-7-50",
+        "O.C.G.A. § 44-7-50",
         "Safe at Home Act (HB 404)",
         "Columbia County Magistrate Court",
         "Richmond County Magistrate Court",
@@ -1147,7 +1147,7 @@
         "Plant Vogtle",
         "Augusta University Medical Center",
         "Georgia Safe at Home Act (HB 404)",
-        "O.C.G.A. \u00a7 44-7-13",
+        "O.C.G.A. § 44-7-13",
         "ZIP 30815",
         "Highway 1 / Deans Bridge Road",
         "LinkedIn Cities on the Rise 2026"
@@ -1170,7 +1170,56 @@
         "FAQPage"
       ],
       "type": "new",
-      "imageStatus": "none \u2014 Imagen API key invalid (fourth consecutive run)"
+      "imageStatus": "none — Imagen API key invalid (fourth consecutive run)"
+    },
+    {
+      "slug": "annual-property-inspection-csra-rental-landlord-guide",
+      "title": "Annual Property Inspections for CSRA Rentals: What Gets Checked and Why",
+      "date": "2026-07-26",
+      "cluster": "inspections",
+      "subtopic": "annual inspection process, Georgia landlord entry rights, AppFolio reporting, tenant compliance, capital planning",
+      "persona": "P1",
+      "intent": "educational/trust-building/conversion",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Columbia County",
+        "Augusta",
+        "Fort Gordon"
+      ],
+      "primaryKeyword": "annual property inspection rental Augusta GA",
+      "entities": [
+        "O.C.G.A. § 44-7-16",
+        "O.C.G.A. § 44-7-50",
+        "O.C.G.A. § 44-7-13",
+        "Georgia Safe at Home Act (HB 404)",
+        "NARPM",
+        "AppFolio",
+        "Fort Gordon",
+        "Evans GA",
+        "Grovetown GA",
+        "Columbia County"
+      ],
+      "questionsAnswered": [
+        "Does Georgia law require landlords to give notice before an inspection?",
+        "How often should a landlord inspect a rental property in Georgia?",
+        "Can a tenant refuse a landlord inspection in Georgia?",
+        "What should a rental property inspection checklist include?",
+        "What happens if the property manager finds damage during an annual inspection?",
+        "Do annual inspections reduce eviction risk?",
+        "How do I see my propertys inspection report as an owner?",
+        "Does Georgias Safe at Home Act affect what a landlord must check during inspections?"
+      ],
+      "internalLinks": 13,
+      "externalCitations": 4,
+      "wordCount": 2600,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none — Imagen API key invalid (fifth consecutive run; key returns API_KEY_INVALID)"
     }
   ]
 }
