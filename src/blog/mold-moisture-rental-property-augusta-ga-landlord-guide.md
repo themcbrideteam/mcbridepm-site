@@ -225,7 +225,7 @@ See also our [tenant turnover make-ready checklist](/blog/tenant-turnover-make-r
 
 McBride Property Management conducts documented annual inspections, tracks every maintenance request with timestamped logs through AppFolio, and manages vendor dispatch for all properties in our portfolio — giving you the paper trail that matters if a habitability dispute arises. If you're managing on your own and want a professional second opinion before summer conditions peak, request a [free rental analysis at our contact page](/contact/).
 
-Download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for the full preventive maintenance framework. Or call us at **(706) 420-4883** — Amber McBride handles onboarding and can walk you through what our inspection process covers from day one.
+Download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for the full preventive maintenance framework. Or call us at **(706) 339-2874** — Amber McBride handles onboarding and can walk you through what our inspection process covers from day one.
 
 </div>
 
@@ -233,5 +233,5 @@ Download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Gu
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

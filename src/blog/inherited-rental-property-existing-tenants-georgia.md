@@ -229,7 +229,7 @@ This is general guidance from a property manager — not legal or tax advice; co
 
 **Inherited a CSRA rental and not sure where to start?** McBride Property Management works with heirs throughout Augusta, Evans, Martinez, and Grovetown who inherit occupied rental properties and need a fast, compliant path forward. We handle the tenant notifications, the deposit transfer documentation, the Safe at Home Act walkthrough, and the HB 399 designation — so you're not making it up as you go.
 
-[Request a free rental analysis](/contact/) or call us at **(706) 420-4883** to talk through your situation. You can also download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a fuller reference on Georgia landlord-tenant law, Safe at Home Act requirements, and what professional property management costs in the Augusta area.
+[Request a free rental analysis](/contact/) or call us at **(706) 339-2874** to talk through your situation. You can also download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a fuller reference on Georgia landlord-tenant law, Safe at Home Act requirements, and what professional property management costs in the Augusta area.
 
 </div>
 
@@ -264,5 +264,5 @@ This is general guidance from a property manager — not legal or tax advice; co
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

@@ -130,5 +130,5 @@ The right move is to run the numbers with your CPA before listing your property,
 Best regards,
 Noah McBride
 Broker | The McBride Team
-706.701.5940
+706.339.2874
 Guiding you home.

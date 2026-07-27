@@ -182,7 +182,7 @@ Our full-service model includes tenant screening, lease execution, maintenance d
 
 If you want to see how the math works for your specific property, the best first step is a [free rental analysis](/contact/). No pressure, no commitment — just a clear look at what your property should rent for, what professional management would actually cost you, and whether the numbers make sense for your situation.
 
-Call us at **(706) 420-4883** or [schedule your free analysis online](/contact/).
+Call us at **(706) 339-2874** or [schedule your free analysis online](/contact/).
 
 <div class="faq-section">
 <div class="faq-item">
@@ -215,5 +215,5 @@ Call us at **(706) 420-4883** or [schedule your free analysis online](/contact/)
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

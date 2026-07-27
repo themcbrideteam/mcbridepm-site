@@ -36,7 +36,7 @@ faqs:
   - question: "What can't the owner portal do that I need to contact McBride PM for?"
     answer: "The portal doesn't replace judgment calls. Questions about lease strategy, renewal negotiations, whether to approve an applicant, or how to handle a specific tenant situation require a conversation with Noah or Amber. The portal is your data layer; we're the decision layer."
   - question: "How do I get access to the AppFolio owner portal?"
-    answer: "New McBride PM clients receive portal access during onboarding. If you're an existing client who hasn't activated your portal login, contact amber@themcbrideteam.com and she'll get you set up within one business day."
+    answer: "New McBride PM clients receive portal access during onboarding. If you're an existing client who hasn't activated your portal login, contact ops@mcbride-pm.com and she'll get you set up within one business day."
 howTo:
   name: "How to Use Your AppFolio Owner Portal as a McBride PM Client"
   description: "A step-by-step walkthrough for new and existing McBride PM clients to get the most from their AppFolio owner dashboard."
@@ -75,7 +75,7 @@ When you sign a management agreement with us, we create an owner profile in AppF
 
 What the portal is **not**: a substitute for working with an experienced property manager. It shows you data. What to do with that data — whether to raise rent at renewal, how to handle a tenant who's consistently paying late, whether an HVAC repair is worth patching or it's time to replace the unit — those are judgment calls that require context, local market knowledge, and experience. That's what our team is here for. The portal is your data layer; we're the decision layer.
 
-It's also not the right channel for urgent situations. For anything time-sensitive, call us at **(706) 420-4883** or email Amber directly. Think of the portal as your 24/7 read access to your account, not your primary line for urgent issues.
+It's also not the right channel for urgent situations. For anything time-sensitive, call us at **(706) 339-2874** or email Amber directly. Think of the portal as your 24/7 read access to your account, not your primary line for urgent issues.
 
 ## Your Financial Dashboard: What the Numbers Actually Show
 
@@ -167,13 +167,13 @@ Knowing that your tenant's payment posted on the 3rd instead of the 1st is usefu
 
 Lease renewals are the same. Your portal will show your upcoming lease end date. Whether to offer a renewal, at what rate, for what term length — that's a market conversation. CSRA single-family home rents have held in a stable range of approximately $1,226 to $1,300 per month as of mid-2026 according to [RentCafe](https://www.rentcafe.com/average-rent-market-trends/us/ga/augusta/) and [Zillow](https://www.zillow.com/rental-manager/market-trends/augusta-ga/), but individual property performance varies significantly by condition, location, amenities, and tenant history. Our team knows what comparable properties in [Martinez](/martinez/), Grovetown, and Evans are renting for right now. That context is what you get in a renewal conversation — not from a dashboard.
 
-The [owner FAQ page](/owner-faqs/) covers many of the judgment-call questions that come up most often. If you've reviewed the FAQs and want to work through a specific situation, call us at **(706) 420-4883**.
+The [owner FAQ page](/owner-faqs/) covers many of the judgment-call questions that come up most often. If you've reviewed the FAQs and want to work through a specific situation, call us at **(706) 339-2874**.
 
 If you're currently self-managing and evaluating whether to hand off the work, the [true cost of self-managing in the CSRA](/true-cost-self-managing-rental-property-csra/) breaks down the actual time and financial costs — including the hidden cost of operating without real-time data infrastructure like AppFolio. And if you're already partway through the decision and wondering what the handoff looks like, [switching to a property manager](/switching-to-property-manager-csra-augusta-ga/) walks through what to expect during onboarding and transition.
 
 ## First Steps When You Get Portal Access
 
-If you're an existing McBride PM client who hasn't activated your portal login, email Amber at amber@themcbrideteam.com. She'll have your credentials out within one business day.
+If you're an existing McBride PM client who hasn't activated your portal login, email Amber at ops@mcbride-pm.com. She'll have your credentials out within one business day.
 
 If you're evaluating McBride PM as a property manager and want to understand what your experience as a client would look like in practice, the best starting point is a free rental analysis at [/contact/](/contact/). It gives you a current rent range for your property and a direct conversation with our team about how we operate — including a walkthrough of the AppFolio owner portal.
 
@@ -229,7 +229,7 @@ For a more comprehensive view of what property management should include beyond 
 </div>
 <div class="faq-item">
 <div class="faq-question">How do I get access to the AppFolio owner portal?</div>
-<div class="faq-answer">New McBride PM clients receive portal access during onboarding. If you're an existing client who hasn't activated your portal login, contact amber@themcbrideteam.com and she'll get you set up within one business day.</div>
+<div class="faq-answer">New McBride PM clients receive portal access during onboarding. If you're an existing client who hasn't activated your portal login, contact ops@mcbride-pm.com and she'll get you set up within one business day.</div>
 </div>
 </div>
 
@@ -239,7 +239,7 @@ For a more comprehensive view of what property management should include beyond 
 
 McBride Property Management clients get 24/7 owner portal access from day one — monthly statements, maintenance visibility, and your 1099 in one place, on any device. If you're evaluating whether to bring on a property manager, start with a [free rental analysis](/contact/). We'll review your property, give you a current rent range, and walk you through what the management relationship actually looks like in practice.
 
-Download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a comprehensive overview of what professional property management covers. Or call us directly at **(706) 420-4883** — Noah and Amber are both available for owner conversations.
+Download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a comprehensive overview of what professional property management covers. Or call us directly at **(706) 339-2874** — Noah and Amber are both available for owner conversations.
 
 </div>
 
@@ -247,5 +247,5 @@ Download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Gu
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

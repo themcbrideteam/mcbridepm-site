@@ -176,7 +176,7 @@ Two related guides worth reading alongside this one: our breakdown of [what Geor
 <div class="cta-box">
 
 **Run the real numbers before you close.**
-McBride Property Management offers a free rental analysis for investors evaluating CSRA properties. We verify county millage rates, model realistic property tax growth, and build a full first-year expense estimate so your NOI is accurate before you sign. Reach us at **(706) 420-4883** or [submit your property details online](/contact/).
+McBride Property Management offers a free rental analysis for investors evaluating CSRA properties. We verify county millage rates, model realistic property tax growth, and build a full first-year expense estimate so your NOI is accurate before you sign. Reach us at **(706) 339-2874** or [submit your property details online](/contact/).
 
 You can also [download the Operating Expenses Worksheet](/pdfs/McBride-PM_Operating-Expenses-Worksheet.pdf) and start running the numbers yourself — it includes Columbia County and Richmond County property tax calculations with current benchmarks.
 
@@ -213,5 +213,5 @@ You can also [download the Operating Expenses Worksheet](/pdfs/McBride-PM_Operat
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

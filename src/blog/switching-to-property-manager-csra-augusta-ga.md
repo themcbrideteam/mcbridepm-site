@@ -216,7 +216,7 @@ McBride Property Management handles single-family rentals across Evans, Martinez
 
 [Request a free rental analysis →](/contact/)
 
-Call us at **(706) 420-4883** — that's our owner line. A real person picks up.
+Call us at **(706) 339-2874** — that's our owner line. A real person picks up.
 
 </div>
 
@@ -251,5 +251,5 @@ Call us at **(706) 420-4883** — that's our owner line. A real person picks up.
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

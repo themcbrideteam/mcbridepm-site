@@ -144,4 +144,4 @@ Landlords in the Augusta area who treat tenant retention as an ongoing practice 
 
 ---
 
-If you're approaching lease renewal season and want help evaluating your options — or you'd rather hand off tenant management entirely — reach out to Noah McBride at [706.701.5940](tel:7067015940) or [contact McBride Property Management](/contact/) to talk through your situation. We manage single-family and multifamily rentals across the greater Augusta area, and we're happy to help you figure out the right approach for your property.
+If you're approaching lease renewal season and want help evaluating your options — or you'd rather hand off tenant management entirely — reach out to Noah McBride at [706.339.2874](tel:7063392874) or [contact McBride Property Management](/contact/) to talk through your situation. We manage single-family and multifamily rentals across the greater Augusta area, and we're happy to help you figure out the right approach for your property.

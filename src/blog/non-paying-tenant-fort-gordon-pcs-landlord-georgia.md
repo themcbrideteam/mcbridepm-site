@@ -243,7 +243,7 @@ And on the front end: proper tenant screening is the best insurance against reac
 
 **Managing your Fort Gordon rental from another duty station shouldn't mean managing a non-payment crisis alone.**
 
-McBride PM handles the full dispossessory process — from day-one written notice through sheriff enforcement — on your behalf, with every step documented in AppFolio and reported back to you in real time. If you're a PCS landlord currently self-managing, or about to receive orders, call **(706) 420-4883** or request a [free rental analysis at our contact page](/contact/). We'll review your current setup — lease structure, county filing venue, reserve position — and tell you plainly what's protecting you and what isn't.
+McBride PM handles the full dispossessory process — from day-one written notice through sheriff enforcement — on your behalf, with every step documented in AppFolio and reported back to you in real time. If you're a PCS landlord currently self-managing, or about to receive orders, call **(706) 339-2874** or request a [free rental analysis at our contact page](/contact/). We'll review your current setup — lease structure, county filing venue, reserve position — and tell you plainly what's protecting you and what isn't.
 
 Download the [PCS Landlord Quick-Start Guide](/pdfs/McBride-PM_PCS-Landlord-Quick-Start-Guide.pdf) for the full operational picture of managing a CSRA rental after Fort Gordon orders.
 
@@ -253,5 +253,5 @@ Download the [PCS Landlord Quick-Start Guide](/pdfs/McBride-PM_PCS-Landlord-Quic
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

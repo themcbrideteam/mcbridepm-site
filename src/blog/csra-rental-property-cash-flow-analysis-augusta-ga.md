@@ -300,7 +300,7 @@ Download it free at [/pdfs/McBride-PM_Operating-Expenses-Worksheet.pdf](/pdfs/Mc
 
 **Want a free rental analysis on a specific CSRA property?**
 
-McBride Property Management provides no-obligation rental analyses for properties throughout the CSRA — Evans, Grovetown, Martinez, Augusta, North Augusta, and Aiken. We'll pull current comparable rents, apply local expense benchmarks, and tell you honestly whether the numbers work. Reach us at [/contact/](/contact/) or call **(706) 420-4883**.
+McBride Property Management provides no-obligation rental analyses for properties throughout the CSRA — Evans, Grovetown, Martinez, Augusta, North Augusta, and Aiken. We'll pull current comparable rents, apply local expense benchmarks, and tell you honestly whether the numbers work. Reach us at [/contact/](/contact/) or call **(706) 339-2874**.
 
 Download the free [CSRA Operating Expenses Worksheet](/pdfs/McBride-PM_Operating-Expenses-Worksheet.pdf) to run your own model first.
 
@@ -310,5 +310,5 @@ Download the free [CSRA Operating Expenses Worksheet](/pdfs/McBride-PM_Operating
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

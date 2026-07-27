@@ -245,11 +245,11 @@ There's also a fair housing dimension worth noting. The Safe at Home Act's habit
 
 Managing pest compliance, lease clause language, and maintenance response protocols across even two CSRA rentals takes consistent attention — especially with Safe at Home Act obligations now in statute. McBride PM handles pest control coordination, licensed vendor relationships, and maintenance documentation as part of full-service management for Evans, Grovetown, Martinez, and Augusta-area properties.
 
-[Schedule a free rental analysis](/contact/) to see how our team handles the operational details — including the ones that create legal exposure when they slip. Download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a comprehensive overview of Georgia landlord obligations. Amber McBride leads our owner onboarding and can answer property-specific questions directly — reach our owner line at **(706) 420-4883**.
+[Schedule a free rental analysis](/contact/) to see how our team handles the operational details — including the ones that create legal exposure when they slip. Download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a comprehensive overview of Georgia landlord obligations. Amber McBride leads our owner onboarding and can answer property-specific questions directly — reach our owner line at **(706) 339-2874**.
 
 ---
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

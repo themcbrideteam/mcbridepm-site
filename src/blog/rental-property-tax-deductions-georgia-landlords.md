@@ -143,4 +143,4 @@ The tax code rewards landlords who understand it. You don’t need to become a t
 
 Tax strategy and property management go hand in hand. When your properties are well-managed with clean financials, accurate maintenance records, and proper documentation, you’re positioned to capture every deduction you’re entitled to.
 
-If you own rental property in Augusta, Columbia County, Aiken, or the surrounding CSRA and want a management partner who takes the financial side as seriously as the operational side, reach out to Noah McBride at [McBride Property Management](/contact/) — call 706.701.5940 or [contact us online](/contact/).
+If you own rental property in Augusta, Columbia County, Aiken, or the surrounding CSRA and want a management partner who takes the financial side as seriously as the operational side, reach out to Noah McBride at [McBride Property Management](/contact/) — call 706.339.2874 or [contact us online](/contact/).

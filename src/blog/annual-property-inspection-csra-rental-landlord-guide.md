@@ -148,7 +148,7 @@ An inspection report is only as useful as the follow-up it generates. Here's wha
 
 **Routine maintenance items** (clogged HVAC filter, burned-out exterior bulb, loose cabinet hinge) are addressed immediately through our [vendor network](/blog/property-management-maintenance-vendors-csra-augusta-ga/) with a work order at no additional management fee. Owners receive a notification when the work order is completed and an invoice appears in AppFolio.
 
-**Maintenance items requiring owner authorization** (water heater approaching end of service life, wood rot on a soffit board, HVAC refrigerant charge needed) are reported to the owner with the inspector's notes, photos, and Amber's recommended action. Owners approve repairs through the portal or by phone at (706) 420-4883. Nothing exceeding the owner's authorization threshold is completed without explicit approval.
+**Maintenance items requiring owner authorization** (water heater approaching end of service life, wood rot on a soffit board, HVAC refrigerant charge needed) are reported to the owner with the inspector's notes, photos, and Amber's recommended action. Owners approve repairs through the portal or by phone at (706) 339-2874. Nothing exceeding the owner's authorization threshold is completed without explicit approval.
 
 **Tenant compliance items** (unauthorized occupant, unapproved pet, altered fixture) trigger a written cure notice to the tenant via AppFolio's communication module. The cure notice documents the violation with reference to the lease clause, specifies what action must be taken and by what date, and is sent via both email and mail to create a delivery record. Most violations cure within the notice period. When they don't, the record becomes the foundation of the [dispossessory filing](/blog/georgia-eviction-process-landlord-guide/).
 
@@ -233,7 +233,7 @@ If you're weighing property managers for a CSRA rental — or wondering whether 
 
 McBride Property Management conducts documented, photo-reported annual inspections on every property we manage — with findings routed directly to your AppFolio owner portal, wherever you are. If you're a Fort Gordon PCS landlord managing a property remotely, or a Columbia County owner who hasn't been inside their rental in more than a year, a [free rental analysis](/contact/) is the first step.
 
-Download the [Annual Property Inspection form](/pdfs/McBride-PM_Annual-Property-Inspection.pdf) to see exactly what we document on every property. Or call Amber at **(706) 420-4883** to talk through what a transition to professional management would look like for your property.
+Download the [Annual Property Inspection form](/pdfs/McBride-PM_Annual-Property-Inspection.pdf) to see exactly what we document on every property. Or call Amber at **(706) 339-2874** to talk through what a transition to professional management would look like for your property.
 
 </div>
 
@@ -241,5 +241,5 @@ Download the [Annual Property Inspection form](/pdfs/McBride-PM_Annual-Property-
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

@@ -141,4 +141,4 @@ The accidental landlords who do well aren't the ones who got lucky. They're the 
 
 ---
 
-Becoming an accidental landlord doesn't have to mean becoming an overwhelmed one. If you own a property in the Augusta area and you're not sure what to do next, Noah McBride and the team at McBride Property Management can walk you through your options — no pressure, no obligation. Call 706.701.5940 or [get in touch here](/contact/).
+Becoming an accidental landlord doesn't have to mean becoming an overwhelmed one. If you own a property in the Augusta area and you're not sure what to do next, Noah McBride and the team at McBride Property Management can walk you through your options — no pressure, no obligation. Call 706.339.2874 or [get in touch here](/contact/).

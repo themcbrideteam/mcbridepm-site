@@ -250,7 +250,7 @@ McBride Property Management manages rentals across Evans, Grovetown, Martinez, a
 
 [Request a free rental analysis →](/contact/) or download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) to start your due diligence today.
 
-Call **(706) 420-4883** to speak with our team directly.
+Call **(706) 339-2874** to speak with our team directly.
 
 </div>
 
@@ -258,5 +258,5 @@ Call **(706) 420-4883** to speak with our team directly.
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

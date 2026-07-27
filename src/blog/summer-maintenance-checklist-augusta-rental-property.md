@@ -174,4 +174,4 @@ Our team conducts regular property inspections that catch maintenance issues bef
 
 ---
 
-Need help getting your rental properties summer-ready? Noah McBride and the team at [McBride Property Management](/contact/) work with landlords across the Augusta metro to keep their investments protected year-round. Call 706.701.5940 or [reach out online](/contact/) to talk about your property.
+Need help getting your rental properties summer-ready? Noah McBride and the team at [McBride Property Management](/contact/) work with landlords across the Augusta metro to keep their investments protected year-round. Call 706.339.2874 or [reach out online](/contact/) to talk about your property.

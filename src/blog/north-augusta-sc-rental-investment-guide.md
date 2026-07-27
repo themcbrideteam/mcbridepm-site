@@ -110,7 +110,7 @@ Whether you already own property in [Augusta](/augusta/) or [Martinez](/martinez
 
 We handle [tenant screening](/blog/tenant-screening-process-augusta-ga-landlords/), lease execution, rent collection, maintenance coordination, and legal compliance on both sides of the state line. Our owners get one point of contact, one management system, and one team that knows both markets inside out.
 
-If you're running numbers on a North Augusta property and want a realistic rental estimate or want to talk through the investor math, give Noah McBride a call at **706.701.5940** or [reach out through our website](/contact/).
+If you're running numbers on a North Augusta property and want a realistic rental estimate or want to talk through the investor math, give Noah McBride a call at **706.339.2874** or [reach out through our website](/contact/).
 
 <div class="faq-section">
 <div class="faq-item">

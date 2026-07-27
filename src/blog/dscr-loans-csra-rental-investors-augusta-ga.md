@@ -188,7 +188,7 @@ If you're evaluating a CSRA property and want to know what the market rent would
 
 That analysis also gives you a ready-made reference when your lender orders the formal rent appraisal.
 
-[Request a free rental analysis](/contact/) or call us at **(706) 420-4883**.
+[Request a free rental analysis](/contact/) or call us at **(706) 339-2874**.
 
 </div>
 
@@ -219,5 +219,5 @@ That analysis also gives you a ready-made reference when your lender orders the 
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

@@ -146,7 +146,7 @@ Yes — a properly structured management agreement with a Georgia-licensed prope
 
 **The in-state operational presence.** Amber McBride, our Operations Manager, is Georgia-domiciled and manages day-to-day tenant communications, maintenance coordination, lease execution, and owner reporting from our Evans office. She is the practical in-state presence the statute envisions — reachable, responsive, and accountable.
 
-**The tenant disclosure.** Every McBride PM lease addendum includes a written disclosure that identifies McBride Property Management as the landlord's authorized representative under Georgia law, provides our physical office address in Evans, and gives tenants the direct contact information for Amber and the main office at **(706) 420-4883**. Tenants sign this addendum, creating a documented record of the disclosure.
+**The tenant disclosure.** Every McBride PM lease addendum includes a written disclosure that identifies McBride Property Management as the landlord's authorized representative under Georgia law, provides our physical office address in Evans, and gives tenants the direct contact information for Amber and the main office at **(706) 339-2874**. Tenants sign this addendum, creating a documented record of the disclosure.
 
 **The technology layer.** Out-of-state owners receive access to an AppFolio owner portal with real-time visibility into lease status, maintenance history, financial statements, and inspection reports. You have complete oversight of the property from anywhere in the country without needing to be the local point of contact for anything.
 
@@ -196,7 +196,7 @@ You can review the full text of HB 399 as signed by [Georgia Governor Kemp in th
 
 If you own a CSRA rental property from out of state — or you're approaching a PCS and considering renting your home instead of selling — [contact McBride Property Management](/contact/) for a free rental analysis. We'll tell you what your property should rent for in the current market, how quickly it should lease, and what a management agreement actually costs. You'll also have a Georgia-licensed broker as your HB 399-compliant local representative from day one.
 
-You can reach us at **(706) 420-4883** or download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a comprehensive reference on Georgia landlord-tenant law, market benchmarks, and operating expense norms. PCS homeowners will also find the [PCS Quick-Start Guide](/pdfs/McBride-PM_PCS-Landlord-Quick-Start-Guide.pdf) useful — it walks through the full process of converting your Fort Gordon home to a rental.
+You can reach us at **(706) 339-2874** or download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a comprehensive reference on Georgia landlord-tenant law, market benchmarks, and operating expense norms. PCS homeowners will also find the [PCS Quick-Start Guide](/pdfs/McBride-PM_PCS-Landlord-Quick-Start-Guide.pdf) useful — it walks through the full process of converting your Fort Gordon home to a rental.
 
 Our office is at 609 Ponder Place Drive, Suite B, Evans, GA 30809. We serve Augusta, Evans, Martinez, Grovetown, North Augusta, and the surrounding CSRA. [Learn more about our services](/services/) or [see why local owners hire us](/why-hire/).
 
@@ -204,5 +204,5 @@ Our office is at 609 Ponder Place Drive, Suite B, Evans, GA 30809. We serve Augu
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

@@ -281,7 +281,7 @@ The [Georgia Safe at Home Act guide](/blog/georgia-safe-at-home-act-landlord-gui
 
 **Renting an HOA home in the CSRA? Let's review your governing documents first.**
 
-McBride Property Management manages homes in Columbia County, Evans, Grovetown, and Martinez subdivisions — and HOA compliance is part of how we protect your investment. If you're not sure what your CC&Rs say about renting, have received a notice you don't understand, or want a second opinion before you list, request a free rental analysis at [mcbride-pm.com/contact](/contact/) or call **(706) 420-4883**. Amber McBride handles new-owner onboarding directly and can walk through your specific situation.
+McBride Property Management manages homes in Columbia County, Evans, Grovetown, and Martinez subdivisions — and HOA compliance is part of how we protect your investment. If you're not sure what your CC&Rs say about renting, have received a notice you don't understand, or want a second opinion before you list, request a free rental analysis at [mcbride-pm.com/contact](/contact/) or call **(706) 339-2874**. Amber McBride handles new-owner onboarding directly and can walk through your specific situation.
 
 Start with the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) — a free 12-page reference covering HOA compliance, tenant screening, Georgia lease requirements, and operating expense benchmarks for the Augusta area.
 
@@ -291,5 +291,5 @@ Start with the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

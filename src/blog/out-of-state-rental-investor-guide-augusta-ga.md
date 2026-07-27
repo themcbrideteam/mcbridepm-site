@@ -145,7 +145,7 @@ You are not buying a house — you are buying a small business. The property man
 
 **Negotiating power on the PM contract.** You can review the management agreement and push back on terms before you have any urgency to just get someone in the door. Maintenance markup policies (some CSRA PMs add 10–20% on top of vendor invoices), lease renewal fees, and owner portal quality are all things you want to assess with zero time pressure.
 
-McBride Property Management manages single-family rentals across [Columbia County](/services/), Richmond County, and Aiken County. Noah McBride and our operations manager Amber McBride handle PM selection calls for properties under active consideration — including a market rent assessment and a condition flags review based on local knowledge. Reach us through our [owner contact page](/contact/) or call **(706) 420-4883**. Our [why-hire page](/why-hire/) outlines what we include in management and how we report to owners.
+McBride Property Management manages single-family rentals across [Columbia County](/services/), Richmond County, and Aiken County. Noah McBride and our operations manager Amber McBride handle PM selection calls for properties under active consideration — including a market rent assessment and a condition flags review based on local knowledge. Reach us through our [owner contact page](/contact/) or call **(706) 339-2874**. Our [why-hire page](/why-hire/) outlines what we include in management and how we report to owners.
 
 When vetting any PM in the CSRA, these are the questions that separate professional operators from ones you'll be replacing in 18 months:
 
@@ -239,11 +239,11 @@ Higher gross yield in the city sometimes reflects more management intensity, old
 
 ---
 
-**Ready to evaluate a specific CSRA property before you buy?** McBride Property Management offers a free rental analysis for properties you're actively considering — including a market rent comp, a condition flags assessment based on local knowledge, and a realistic expense projection. Call **(706) 420-4883** or use our [owner contact form](/contact/) to get started. If you want to review what management includes before committing, our [services page](/services/) and [why-hire page](/why-hire/) cover the details. The [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) is a free download with local benchmarks to keep in your underwriting model.
+**Ready to evaluate a specific CSRA property before you buy?** McBride Property Management offers a free rental analysis for properties you're actively considering — including a market rent comp, a condition flags assessment based on local knowledge, and a realistic expense projection. Call **(706) 339-2874** or use our [owner contact form](/contact/) to get started. If you want to review what management includes before committing, our [services page](/services/) and [why-hire page](/why-hire/) cover the details. The [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) is a free download with local benchmarks to keep in your underwriting model.
 
 ---
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

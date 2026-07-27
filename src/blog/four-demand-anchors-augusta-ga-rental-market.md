@@ -226,7 +226,7 @@ If you want to understand how we price rentals and what comp methodology we use,
 
 **Ready to run real numbers on a specific CSRA property?**
 
-McBride Property Management provides free rental analysis for investors evaluating Augusta-area acquisitions — whether you're under contract or still comparing neighborhoods. Call **(706) 420-4883** or submit your property address through our [free rental analysis form](/contact/). We manage single-family homes across Columbia County, Richmond County, and Aiken County, and we work regularly with out-of-state owners who close before ever setting foot in the property.
+McBride Property Management provides free rental analysis for investors evaluating Augusta-area acquisitions — whether you're under contract or still comparing neighborhoods. Call **(706) 339-2874** or submit your property address through our [free rental analysis form](/contact/). We manage single-family homes across Columbia County, Richmond County, and Aiken County, and we work regularly with out-of-state owners who close before ever setting foot in the property.
 
 For a broader orientation to the CSRA rental landscape, download our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) — a 12-page reference covering operating expenses, market benchmarks, and management considerations for investors new to the area.
 
@@ -234,5 +234,5 @@ For a broader orientation to the CSRA rental landscape, download our [CSRA Landl
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

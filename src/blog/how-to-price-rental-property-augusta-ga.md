@@ -144,4 +144,4 @@ Before you publish that listing, run through this:
 
 If you'd rather skip the guesswork, Noah McBride and the team at McBride Property Management can run a full rental analysis for your property — no cost, no obligation. We'll pull current comps, factor in your property's specific features, and give you a pricing recommendation backed by what's actually happening in your local market.
 
-Call Noah directly at **706.701.5940**, reach our office at **(706) 339-2874**, or [request your free rental analysis online](/contact/).
+Call Noah directly at **706.339.2874**, reach our office at **(706) 339-2874**, or [request your free rental analysis online](/contact/).

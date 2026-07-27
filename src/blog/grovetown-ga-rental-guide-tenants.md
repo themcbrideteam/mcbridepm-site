@@ -245,5 +245,5 @@ Call our tenant and applicant line at **(706) 339-2874** to speak with someone d
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

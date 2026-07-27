@@ -4,7 +4,7 @@ Prioritized by business impact ÷ effort. Re-rank at the start of each cycle. Cy
 
 ## Blocked on Noah
 
-1. **Form email notifications (P0 remainder).** Forms verified working; notification hooks are not in my Netlify MCP surface on any plan (re-confirmed 2026-07-10 after account upgrade) and no local CLI token exists. Two paths: (a) Noah in UI — Project configuration → Notifications → Form submission notifications → Add notification → Email, once for amber@themcbrideteam.com and once for noah@themcbrideteam.com; or (b) Noah creates a Netlify personal access token (User settings → Applications → New access token) and hands it over — then I can set these hooks and any future Netlify config via API.
+1. **Form email notifications (P0 remainder).** Forms verified working; notification hooks are not in my Netlify MCP surface on any plan (re-confirmed 2026-07-10 after account upgrade) and no local CLI token exists. Two paths: (a) Noah in UI — Project configuration → Notifications → Form submission notifications → Add notification → Email, once for ops@mcbride-pm.com and once for noah@themcbrideteam.com; or (b) Noah creates a Netlify personal access token (User settings → Applications → New access token) and hands it over — then I can set these hooks and any future Netlify config via API.
 2. **Restrict the Google API key.** The Places key is live in Netlify env (secret, builds scope) and reviews sync works. Recommended hardening for Noah: Google Cloud Console → Credentials → this API key → API restrictions → restrict to "Places API" only (it currently works for any enabled API).
 3. **Owner Guarantee terms.** On hold per Noah (2026-07-10): guarantee terms not yet worked through internally. Revisit when terms are final; then build the guarantee page and unify the three differing phrasings on the site.
 4. **Scheduling link.** Contact page "Schedule a Consultation" currently falls back to a tel: link. A Calendly/Google booking page for Amber would restore one-click scheduling.
@@ -14,7 +14,7 @@ Prioritized by business impact ÷ effort. Re-rank at the start of each cycle. Cy
 
 - **Fee transparency: NO.** Noah declined publishing fees (2026-07-10). Keep "custom proposal" framing.
 - **License numbers in footer: NO.** Noah declined license numbers/links (2026-07-10).
-- **Public email:** `amber@themcbrideteam.com` (Noah's choice, 2026-07-10) — swapped site-wide; do not propose a mcbride-pm.com address again.
+- **Public email:** `ops@mcbride-pm.com` (Noah's choice, 2026-07-10) — swapped site-wide; do not propose a mcbride-pm.com address again.
 - **Testimonials:** the three quotes are real Google-review clients (Noah confirmed 2026-07-10); direction is live 5-star Google reviews only (see #2).
 
 ## Next up (no input needed)
@@ -42,5 +42,5 @@ Prioritized by business impact ÷ effort. Re-rank at the start of each cycle. Cy
 ## Done
 
 - **Cycle 2b (2026-07-10):** Google reviews live-sync ACTIVE — key provided by Noah, pipeline switched to legacy Places API (the service enabled on his project), place id ChIJYxrhbUDV-YgRkmcz85SUFB4 baked in, key stored as secret Netlify env var (builds scope). Homepage now renders real 5-star reviews + "Rated 4.9 of 5 by 7 reviewers" line, refreshed on every build (daily via auto-blog).
-- **Cycle 2 (2026-07-10):** Netlify Forms verified live end-to-end (test submission stored + deleted); public email → amber@themcbrideteam.com site-wide (14 files); testimonials rebuilt as attributed Google reviews with GBP link + Places-API live-sync pipeline; canonical Maps URL in sameAs.
+- **Cycle 2 (2026-07-10):** Netlify Forms verified live end-to-end (test submission stored + deleted); public email → ops@mcbride-pm.com site-wide (14 files); testimonials rebuilt as attributed Google reviews with GBP link + Places-API live-sync pipeline; canonical Maps URL in sameAs.
 - **Cycle 1 (2026-07-09):** images 299MB→19MB, cache/security headers, Identity widget removal, a11y pass (skip link, landmarks, ARIA, contrast, reduced motion), hero/slogan/CTA hierarchy, 3-step onboarding section, dynamic blog cards, services residential alignment, FAQPage schema dedup, per-post og:image, RealEstateAgent schema, 6 broken links, custom 404, sitemap lastmod, Fort Gordon naming, brand-voice cleanup. See `outputs/reports/2026-07-09-cycle-1.md`.

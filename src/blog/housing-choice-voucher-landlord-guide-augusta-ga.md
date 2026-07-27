@@ -213,7 +213,7 @@ If you want to run this comparison for your specific address, a [free rental ana
 
 McBride Property Management manages Housing Choice Voucher tenancies in the CSRA alongside conventional leases. For owners in our program, we handle PHA correspondence, inspection scheduling, HAP contract coordination, and monthly payment reconciliation. You see both the HAP and tenant portions in your monthly owner report without managing the administrative layer yourself.
 
-If you're currently self-managing and evaluating whether to add HCV tenancies to your portfolio, our [property management services page](/services/) outlines what the management relationship looks like. If you're already an owner with McBride PM and have questions about listing your specific property for voucher tenants, call **(706) 420-4883** or reach Amber McBride directly for onboarding coordination.
+If you're currently self-managing and evaluating whether to add HCV tenancies to your portfolio, our [property management services page](/services/) outlines what the management relationship looks like. If you're already an owner with McBride PM and have questions about listing your specific property for voucher tenants, call **(706) 339-2874** or reach Amber McBride directly for onboarding coordination.
 
 <div class="faq-section">
 <div class="faq-item">
@@ -244,7 +244,7 @@ If you're currently self-managing and evaluating whether to add HCV tenancies to
 
 McBride Property Management offers a free rental analysis that benchmarks your property's current market rate against FY2026 HUD payment standards — so you know before you engage whether participation makes financial sense. Download our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a full operating reference on managing rental property in Augusta and Columbia County.
 
-[Request your free rental analysis →](/contact/) or call **(706) 420-4883**.
+[Request your free rental analysis →](/contact/) or call **(706) 339-2874**.
 
 </div>
 
@@ -252,5 +252,5 @@ McBride Property Management offers a free rental analysis that benchmarks your p
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

@@ -245,11 +245,11 @@ NOAA's 2026 forecast projects a below-normal season—but below-normal is not ze
 
 **Storm season is not the time to discover your insurance has a gap or your vendor list is empty.**
 
-McBride Property Management manages rental properties across Evans, Grovetown, Martinez, Augusta, and North Augusta. When a significant weather event moves through the CSRA, managed properties are assessed and documented within 24 hours—owners receive a written condition report and repair plan, wherever they are. If you own a CSRA rental and want to understand how professional management handles storm events, request a free rental analysis at [mcbride-pm.com/contact/](/contact/) or call **(706) 420-4883**. Before you close this tab, download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf)—the property documentation template inside doubles as your pre-storm baseline.
+McBride Property Management manages rental properties across Evans, Grovetown, Martinez, Augusta, and North Augusta. When a significant weather event moves through the CSRA, managed properties are assessed and documented within 24 hours—owners receive a written condition report and repair plan, wherever they are. If you own a CSRA rental and want to understand how professional management handles storm events, request a free rental analysis at [mcbride-pm.com/contact/](/contact/) or call **(706) 339-2874**. Before you close this tab, download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf)—the property documentation template inside doubles as your pre-storm baseline.
 
 ---
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

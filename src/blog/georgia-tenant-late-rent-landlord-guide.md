@@ -243,7 +243,7 @@ McBride PM handles the delinquency process from day one — reminders, formal no
 
 Download our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for the complete landlord playbook, including delinquency, maintenance, and compliance checklists for Augusta-area properties.
 
-Call **(706) 420-4883** to talk through your situation.
+Call **(706) 339-2874** to talk through your situation.
 
 </div>
 
@@ -286,5 +286,5 @@ Call **(706) 420-4883** to talk through your situation.
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

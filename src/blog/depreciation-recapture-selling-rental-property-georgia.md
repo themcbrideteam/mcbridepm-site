@@ -203,7 +203,7 @@ Noah McBride and the team at McBride Property Management aren't CPAs, and this p
 
 McBride Property Management helps you document and organize the records that make your pre-sale tax analysis accurate — and coordinates the transition so a tenant-occupied sale runs smoothly. We're not accountants, but we work alongside owners and their CPAs at exactly this decision point.
 
-Call **(706) 420-4883** or [request a free consultation online](/contact/). If you're on the fence between selling and continuing to rent, we'll show you the current rent comp and cash flow projection for your property so you're comparing real scenarios, not guesses.
+Call **(706) 339-2874** or [request a free consultation online](/contact/). If you're on the fence between selling and continuing to rent, we'll show you the current rent comp and cash flow projection for your property so you're comparing real scenarios, not guesses.
 
 </div>
 
@@ -238,5 +238,5 @@ Call **(706) 420-4883** or [request a free consultation online](/contact/). If y
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

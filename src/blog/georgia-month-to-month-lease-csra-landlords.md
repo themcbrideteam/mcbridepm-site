@@ -175,7 +175,7 @@ Lease renewal decisions compound. A landlord who runs disciplined annual renewal
 
 This is exactly where Amber McBride and the McBride Property Management team spend time every June. We track lease expiration dates for every managed property across Evans, Grovetown, Augusta, and Martinez, send written renewal offers 60–75 days out, negotiate renewals with the owner's timeline and rent targets in mind, and document every tenancy transition with a signed agreement. Nothing falls through the cracks because the calendar discipline is built into the management system — not dependent on any individual remembering.
 
-If you're self-managing a CSRA rental and want a second set of eyes on your lease structure — or if you want to stop handling lease renewals, habitability compliance, and 60-day notice calendars yourself — our [free rental analysis](/contact/) is a 30-minute conversation that covers your current lease, your rent positioning, and whether professional management makes financial sense for your property. Call **(706) 420-4883** to schedule.
+If you're self-managing a CSRA rental and want a second set of eyes on your lease structure — or if you want to stop handling lease renewals, habitability compliance, and 60-day notice calendars yourself — our [free rental analysis](/contact/) is a 30-minute conversation that covers your current lease, your rent positioning, and whether professional management makes financial sense for your property. Call **(706) 339-2874** to schedule.
 
 <div class="faq-section">
 <div class="faq-item">
@@ -208,5 +208,5 @@ If you're self-managing a CSRA rental and want a second set of eyes on your leas
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

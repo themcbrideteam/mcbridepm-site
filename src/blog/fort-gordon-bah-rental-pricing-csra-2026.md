@@ -245,7 +245,7 @@ Noah McBride and Amber McBride work with PCS landlords throughout the Fort Gordo
 
 McBride Property Management handles PCS landlord onboarding across the CSRA — from comp analysis and BAH-aligned pricing to tenant screening and SCRA-compliant leases. If you are heading out on orders, start with a free rental analysis before you finalize your rent price. Amber McBride runs our owner intake and can have a comparable analysis on your specific address within 48 hours.
 
-[Request a free rental analysis →](/contact/) or call **(706) 420-4883**. Download our [PCS Landlord Quick-Start Guide](/pdfs/McBride-PM_PCS-Landlord-Quick-Start-Guide.pdf) for the complete pre-departure checklist.
+[Request a free rental analysis →](/contact/) or call **(706) 339-2874**. Download our [PCS Landlord Quick-Start Guide](/pdfs/McBride-PM_PCS-Landlord-Quick-Start-Guide.pdf) for the complete pre-departure checklist.
 
 </div>
 
@@ -253,5 +253,5 @@ McBride Property Management handles PCS landlord onboarding across the CSRA — 
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

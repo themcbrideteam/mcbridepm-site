@@ -208,7 +208,7 @@ If you can answer yes to all three, you're ready to move forward.
 
 ---
 
-**Ready to run the numbers on your Augusta-area home?** McBride Property Management offers a free, no-obligation rental analysis for Columbia County and Richmond County properties. We'll tell you what your home should rent for, what your net income looks like after expenses, and whether renting makes sense for your specific situation before you commit. Call **(706) 420-4883** or [submit your property details online](/contact/) and we'll have an analysis back to you within 24 hours.
+**Ready to run the numbers on your Augusta-area home?** McBride Property Management offers a free, no-obligation rental analysis for Columbia County and Richmond County properties. We'll tell you what your home should rent for, what your net income looks like after expenses, and whether renting makes sense for your specific situation before you commit. Call **(706) 339-2874** or [submit your property details online](/contact/) and we'll have an analysis back to you within 24 hours.
 
 If you're on a tight timeline, download the [McBride PM Pre-Rental Property Prep Checklist](/pdfs/McBride-PM_Pre-Rental-Property-Prep-Checklist.pdf) now—it's the fastest way to confirm what needs to happen before your first showing.
 
@@ -216,5 +216,5 @@ If you're on a tight timeline, download the [McBride PM Pre-Rental Property Prep
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

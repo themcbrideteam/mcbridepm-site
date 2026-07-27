@@ -124,12 +124,12 @@ You can't change your credit score overnight, but you can present yourself as a 
 
 Browse current listings on our [rentals page](/rentals/) and find your next home in Augusta, Evans, Grovetown, Martinez, or anywhere in the CSRA. If you have questions about a specific property or the application process, reach out to our [property management team](/services/) — we're here to help you move forward with confidence.
 
-Call or text us at 706.701.5940.
+Call or text us at 706.339.2874.
 
 Best regards,
 Noah McBride
 Broker | McBride Property Management
-706.701.5940
+706.339.2874
 Guiding you home.
 
 <div class="faq-section">

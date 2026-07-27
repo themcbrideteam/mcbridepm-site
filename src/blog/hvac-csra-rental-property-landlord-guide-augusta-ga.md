@@ -248,7 +248,7 @@ McBride Property Management handles HVAC emergencies, contractor coordination, a
 
 [Request a free rental analysis](/contact/) and find out what professional maintenance management looks like for your property. Download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a reference copy of the maintenance frameworks in this post.
 
-**Owner line: (706) 420-4883** · 609 Ponder Place Drive, Suite B, Evans, GA 30809
+**Owner line: (706) 339-2874** · 609 Ponder Place Drive, Suite B, Evans, GA 30809
 
 </div>
 
@@ -256,5 +256,5 @@ McBride Property Management handles HVAC emergencies, contractor coordination, a
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

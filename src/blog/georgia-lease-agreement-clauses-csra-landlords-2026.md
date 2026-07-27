@@ -271,7 +271,7 @@ For a broader reference on Georgia residential landlord-tenant law — including
 
 **Get a free rental analysis and lease review.**
 
-McBride Property Management manages residential rentals across Evans, Grovetown, Augusta, Martinez, and the greater CSRA. Our managed leases reflect current Georgia law — including all Safe at Home Act provisions — and are reviewed before every new tenancy. If you're self-managing and want a second opinion on your lease structure or a full rental analysis, [request one online](/contact/) or call **(706) 420-4883**.
+McBride Property Management manages residential rentals across Evans, Grovetown, Augusta, Martinez, and the greater CSRA. Our managed leases reflect current Georgia law — including all Safe at Home Act provisions — and are reviewed before every new tenancy. If you're self-managing and want a second opinion on your lease structure or a full rental analysis, [request one online](/contact/) or call **(706) 339-2874**.
 
 Download the free [McBride PM CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) — a 12-page reference covering Georgia landlord-tenant law, the Safe at Home Act, security deposit rules, the eviction process, and expense benchmarks for the Augusta area.
 
@@ -281,5 +281,5 @@ Download the free [McBride PM CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-L
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

@@ -240,5 +240,5 @@ Our [North Augusta](/north-augusta/) and [Aiken](/aiken/) city pages have additi
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

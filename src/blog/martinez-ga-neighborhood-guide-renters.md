@@ -88,7 +88,7 @@ If Martinez sounds like the right fit, here's how to move forward:
 1. **Browse current listings** on our [rentals page](/rentals/) — we update availability in real time
 2. **Narrow by neighborhood** based on your commute, budget, and space needs using the breakdown above
 3. **Apply online** through McBride Property Management — our [application process](/services/) is straightforward, and we walk you through every step
-4. **Schedule a showing** by calling or texting 706.701.5940
+4. **Schedule a showing** by calling or texting 706.339.2874
 
 We manage properties across Martinez, Evans, Grovetown, and the greater Augusta area. Whether you're relocating for Fort Gordon, starting a new position at Augusta University, or just ready for a change of scenery within the CSRA, McBride Property Management can help you find the right rental in the right neighborhood.
 

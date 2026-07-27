@@ -170,7 +170,7 @@ The decision to rent is the easy part. The execution is what separates a profita
 
 McBride Property Management handles the entire process — rental analysis, prep guidance, marketing, tenant screening, and lease execution — so you can focus on your move. Contact us for a free rental analysis and we'll tell you what your home should rent for, how long it should take to lease, and what you'll net each month.
 
-Call **(706) 420-4883** or [request your free rental analysis online](/contact/). Download the [PCS Landlord Quick-Start Guide](/pdfs/McBride-PM_PCS-Landlord-Quick-Start-Guide.pdf) for the condensed reference version.
+Call **(706) 339-2874** or [request your free rental analysis online](/contact/). Download the [PCS Landlord Quick-Start Guide](/pdfs/McBride-PM_PCS-Landlord-Quick-Start-Guide.pdf) for the condensed reference version.
 
 </div>
 
@@ -201,5 +201,5 @@ Call **(706) 420-4883** or [request your free rental analysis online](/contact/)
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

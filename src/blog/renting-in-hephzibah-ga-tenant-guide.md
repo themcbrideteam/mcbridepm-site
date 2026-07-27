@@ -306,5 +306,5 @@ Questions about a specific property, the application process, or what to expect 
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

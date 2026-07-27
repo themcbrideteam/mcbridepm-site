@@ -27,19 +27,19 @@ If reads 1, 3, or 4 fail, halt and report — do not publish on stale context. A
 
 **Company:** McBride Property Management ("McBride PM") — locally owned residential property management firm based in Evans, GA, serving the Central Savannah River Area (CSRA) across Georgia and South Carolina. Previously operated as Century 21 Magnolia Property Management; rebranded in 2026. Mention the rebrand only when historically relevant (e.g., a post about brand consistency, or when discussing C21 Magnolia legacy clients).
 
-**Broker of record:** Noah McBride (active GA + SC licensure). Noah's direct line for owner/broker conversations: 706.701.5940. Use this number only in the author signature at the bottom of posts.
+**Broker of record:** Noah McBride (active GA + SC licensure). Noah's direct line for owner/broker conversations: 706.339.2874. Use this number only in the author signature at the bottom of posts.
 
 **Operations Manager:** Amber McBride. Owns onboarding, AppFolio, vendor coordination, owner reporting. Reference Amber by name in posts where the topic touches onboarding, day-to-day operations, or "talk to a real person" CTAs.
 
 **Public phone numbers** — use them in this exact configuration:
-- **(706) 420-4883** — canonical owner / property-management line. Use in ALL owner-facing CTAs, in the in-body CTA block, and in any reference to "call us."
+- **(706) 339-2874** — canonical owner / property-management line. Use in ALL owner-facing CTAs, in the in-body CTA block, and in any reference to "call us."
 - **(706) 339-2874** — tenant / applicant line. Use ONLY in tenant-facing posts or sections targeted at renters and current residents.
-- **706.701.5940** — Noah's direct line. Author signature block only.
+- **706.339.2874** — Noah's direct line. Author signature block only.
 - DO NOT use 706-690-4330 anywhere. It is decommissioned.
 
 **Office:** 609 Ponder Place Drive, Suite B, Evans, GA 30809.
 
-**Email:** amber@themcbrideteam.com (still in use; do not change in posts).
+**Email:** ops@mcbride-pm.com (still in use; do not change in posts).
 
 **Slogan:** "Guiding you home."
 
@@ -316,7 +316,7 @@ A single styled CTA box, two paragraphs maximum, that gives the reader the next 
 - For owner posts (P1–P4): drive to `/contact/` for a free rental analysis; secondary CTA is the relevant PDF download (e.g., link the CSRA Field Guide for a research-heavy post, the PCS Quick-Start for any P1 post, the Operating Expenses Worksheet for a numbers-heavy post).
 - For tenant posts (P5): drive to `/rentals/` or `/resident-faqs/`.
 
-Always include the canonical owner phone (706) 420-4883 (or tenant phone (706) 339-2874 for P5 posts).
+Always include the canonical owner phone (706) 339-2874 (or tenant phone (706) 339-2874 for P5 posts).
 
 **(h) Author signature.**
 Final block. Format:
@@ -326,7 +326,7 @@ Final block. Format:
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*
 ```
 

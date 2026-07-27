@@ -108,7 +108,7 @@ Whether you're managing a single rental in North Augusta or assembling a mixed p
 
 ## Next Steps
 
-If you're evaluating your next acquisition or wondering whether your current portfolio mix is optimized, reach out to Noah McBride at 706.701.5940 or [contact us here](/contact/). We manage both single-family and multifamily properties across Augusta, Evans, Grovetown, Martinez, Aiken, and North Augusta — and we're happy to talk through the numbers on a specific deal before you commit.
+If you're evaluating your next acquisition or wondering whether your current portfolio mix is optimized, reach out to Noah McBride at 706.339.2874 or [contact us here](/contact/). We manage both single-family and multifamily properties across Augusta, Evans, Grovetown, Martinez, Aiken, and North Augusta — and we're happy to talk through the numbers on a specific deal before you commit.
 
 <div class="faq-section">
 <div class="faq-item">

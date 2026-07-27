@@ -105,7 +105,7 @@ If maintenance requests are piling up, tenants are leaving at [lease renewal](/b
 
 McBride Property Management serves landlords and property owners across [Augusta](/augusta/), Columbia County, Evans, Grovetown, Martinez, and the surrounding CSRA. We handle maintenance, tenant communication, leasing, and everything in between — so your rental works for you instead of the other way around.
 
-Ready to talk about what professional management looks like for your property? [Contact us](/contact/) or call Noah McBride directly at 706.701.5940.
+Ready to talk about what professional management looks like for your property? [Contact us](/contact/) or call Noah McBride directly at 706.339.2874.
 
 <div class="faq-section">
   <div class="faq-item">

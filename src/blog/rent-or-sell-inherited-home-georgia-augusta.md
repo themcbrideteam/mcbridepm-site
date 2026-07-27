@@ -28,7 +28,7 @@ faqs:
   - question: "What does Georgia's Safe at Home Act require from new landlords?"
     answer: "Georgia's Safe at Home Act (HB 404, effective July 1, 2024) requires rental properties to be fit for human habitation at lease signing and throughout the tenancy. Security deposits are capped at two months' rent. Cooling is now an explicitly required utility. Landlords must allow a three-business-day cure period before filing for non-payment eviction."
   - question: "Should I hire a property manager for an inherited rental home in the Augusta area?"
-    answer: "For first-time landlords who didn't plan to own a rental, professional management almost always justifies the 8–10% fee. You get legal compliance, tenant screening, maintenance coordination, and monthly reporting without the learning curve. McBride PM handles inherited-property rentals throughout the CSRA — call (706) 420-4883 for a free rental analysis."
+    answer: "For first-time landlords who didn't plan to own a rental, professional management almost always justifies the 8–10% fee. You get legal compliance, tenant screening, maintenance coordination, and monthly reporting without the learning curve. McBride PM handles inherited-property rentals throughout the CSRA — call (706) 339-2874 for a free rental analysis."
 howTo:
   name: "How to Decide Whether to Rent or Sell an Inherited Georgia Home"
   description: "A step-by-step process for heirs to confirm legal standing, assess the tax picture, and make a financially sound rent-or-sell decision for an inherited Augusta-area property."
@@ -233,7 +233,7 @@ Our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) 
 </div>
 <div class="faq-item">
 <div class="faq-question">Should I hire a property manager for an inherited rental home in the Augusta area?</div>
-<div class="faq-answer">For first-time landlords who didn't plan to own a rental, professional management almost always justifies the 8–10% fee. You get legal compliance, tenant screening, maintenance coordination, and monthly reporting without the learning curve. McBride PM handles inherited-property rentals throughout the CSRA — call (706) 420-4883 for a free rental analysis.</div>
+<div class="faq-answer">For first-time landlords who didn't plan to own a rental, professional management almost always justifies the 8–10% fee. You get legal compliance, tenant screening, maintenance coordination, and monthly reporting without the learning curve. McBride PM handles inherited-property rentals throughout the CSRA — call (706) 339-2874 for a free rental analysis.</div>
 </div>
 </div>
 
@@ -243,7 +243,7 @@ Our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) 
 
 **Ready to find out what your inherited property could rent for?**
 
-McBride Property Management provides free rental analyses for owners weighing the rent-or-sell decision. We'll give you a realistic comparable-market rent figure, an honest assessment of the property's make-ready requirements, and a straight answer on whether renting makes financial sense in the current CSRA market. Call us at **(706) 420-4883** or [submit your property details online](/contact/) — no obligation, and no pitch until you're ready.
+McBride Property Management provides free rental analyses for owners weighing the rent-or-sell decision. We'll give you a realistic comparable-market rent figure, an honest assessment of the property's make-ready requirements, and a straight answer on whether renting makes financial sense in the current CSRA market. Call us at **(706) 339-2874** or [submit your property details online](/contact/) — no obligation, and no pitch until you're ready.
 
 Download our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) to see what professional property management looks like from day one.
 
@@ -253,5 +253,5 @@ Download our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Gu
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

@@ -142,4 +142,4 @@ If you're a landlord in the Augusta area and you're not sure whether your insura
 
 ---
 
-**Have questions about insuring your Augusta-area rental property?** Noah McBride and the team at McBride Property Management work with landlords across Columbia County, Richmond County, and Aiken County every day. We can't write your insurance policy, but we can help you understand what you need and make sure your property is managed in a way that minimizes risk. Call Noah directly at **706.701.5940** or [reach out through our website](/contact/) to start the conversation.
+**Have questions about insuring your Augusta-area rental property?** Noah McBride and the team at McBride Property Management work with landlords across Columbia County, Richmond County, and Aiken County every day. We can't write your insurance policy, but we can help you understand what you need and make sure your property is managed in a way that minimizes risk. Call Noah directly at **706.339.2874** or [reach out through our website](/contact/) to start the conversation.

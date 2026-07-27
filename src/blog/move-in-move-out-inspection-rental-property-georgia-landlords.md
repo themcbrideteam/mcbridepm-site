@@ -260,7 +260,7 @@ For more on the legal context governing your Augusta-area rental, read our compl
 
 **Protect your deposit before the turnover — not after.**
 
-If you have a CSRA rental changing hands this summer and want professional inspection documentation that holds up in magistrate court, McBride Property Management handles the full process. Call **(706) 420-4883** or submit your property for a [free rental analysis](/contact/) — we'll tell you what your property is worth and how the transition works.
+If you have a CSRA rental changing hands this summer and want professional inspection documentation that holds up in magistrate court, McBride Property Management handles the full process. Call **(706) 339-2874** or submit your property for a [free rental analysis](/contact/) — we'll tell you what your property is worth and how the transition works.
 
 Download our [Move-In Inspection Checklist](/pdfs/McBride-PM_Move-In-Inspection-Checklist.pdf) and [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) to start with the right documentation framework today.
 
@@ -270,5 +270,5 @@ Download our [Move-In Inspection Checklist](/pdfs/McBride-PM_Move-In-Inspection-
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

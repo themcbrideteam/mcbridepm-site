@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }, 5000);
         })
         .catch(() => {
-          btn.textContent = 'Something went wrong — please call (706) 420-4883';
+          btn.textContent = 'Something went wrong — please call (706) 339-2874';
           btn.disabled = false;
           setTimeout(() => {
             btn.textContent = originalText;

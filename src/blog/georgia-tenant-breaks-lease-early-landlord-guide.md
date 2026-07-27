@@ -244,7 +244,7 @@ For a broader reference on Georgia landlord-tenant obligations, download our [CS
 
 McBride Property Management handles early terminations, deposit accounting, and documentation for every property we manage in Augusta, Evans, Grovetown, Martinez, and across the CSRA. When a tenant leaves early, we relist the same day, document the unit within 72 hours, and recover what's owed within Georgia's legal requirements.
 
-If you're managing this situation on your own and want a second opinion, or if you're ready to hand off the compliance work entirely, call **(706) 420-4883** or [reach us through our contact page](/contact/).
+If you're managing this situation on your own and want a second opinion, or if you're ready to hand off the compliance work entirely, call **(706) 339-2874** or [reach us through our contact page](/contact/).
 
 </div>
 
@@ -279,5 +279,5 @@ If you're managing this situation on your own and want a second opinion, or if y
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

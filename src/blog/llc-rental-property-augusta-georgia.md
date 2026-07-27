@@ -230,7 +230,7 @@ Whether your property is titled in your own name or inside an LLC, McBride Prope
 
 Download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a comprehensive reference covering Georgia landlord-tenant law, operating expense benchmarks, and property management best practices for Augusta-area owners.
 
-Call us at **(706) 420-4883**.
+Call us at **(706) 339-2874**.
 
 </div>
 
@@ -238,5 +238,5 @@ Call us at **(706) 420-4883**.
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

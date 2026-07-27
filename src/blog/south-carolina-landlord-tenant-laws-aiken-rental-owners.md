@@ -125,4 +125,4 @@ McBride Property Management serves landlords across the full CSRA, including [Ai
 
 ---
 
-**Need help managing your Aiken County or North Augusta rental property?** Noah McBride and the team at McBride Property Management handle compliance, maintenance, tenant placement, and everything in between — on both sides of the state line. Call 706.701.5940 or [reach out here](/contact/) to start a conversation.
+**Need help managing your Aiken County or North Augusta rental property?** Noah McBride and the team at McBride Property Management handle compliance, maintenance, tenant placement, and everything in between — on both sides of the state line. Call 706.339.2874 or [reach out here](/contact/) to start a conversation.

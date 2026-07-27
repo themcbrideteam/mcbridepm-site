@@ -196,7 +196,7 @@ The [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) 
 
 Managing Safe at Home Act compliance, maintenance documentation, and lease reviews across one or more CSRA rentals takes more time than it did three years ago. If you're finding that the legal overhead of self-managing is growing faster than the enjoyment of owning rental property, you're not alone — that's the common story we hear from owners who reach out to McBride Property Management for a first conversation.
 
-We handle habitability compliance, maintenance coordination, dated documentation, and lease preparation for owners in Augusta, Evans, Martinez, Grovetown, and North Augusta as part of our standard management service. Request a free rental analysis at [/contact/](/contact/) and we'll walk through your specific property and situation — or call **(706) 420-4883** to talk with our team directly. Additional owner guides and downloadable checklists are also available in the [owner resources library](/resources/).
+We handle habitability compliance, maintenance coordination, dated documentation, and lease preparation for owners in Augusta, Evans, Martinez, Grovetown, and North Augusta as part of our standard management service. Request a free rental analysis at [/contact/](/contact/) and we'll walk through your specific property and situation — or call **(706) 339-2874** to talk with our team directly. Additional owner guides and downloadable checklists are also available in the [owner resources library](/resources/).
 
 ---
 
@@ -231,5 +231,5 @@ We handle habitability compliance, maintenance coordination, dated documentation
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

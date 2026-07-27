@@ -102,4 +102,4 @@ The rental application process in Augusta and Columbia County is straightforward
   </div>
 </div>
 
-Have questions about renting in Augusta? **[Contact Robert Smith at (706) 420-4883](tel:7064204883)** or explore resources like the [National Apartment Association](https://www.naahq.org/) and [Military OneSource](https://www.militaryonesource.mil/) for additional tenant information.
+Have questions about renting in Augusta? **[Contact Robert Smith at (706) 339-2874](tel:7063392874)** or explore resources like the [National Apartment Association](https://www.naahq.org/) and [Military OneSource](https://www.militaryonesource.mil/) for additional tenant information.

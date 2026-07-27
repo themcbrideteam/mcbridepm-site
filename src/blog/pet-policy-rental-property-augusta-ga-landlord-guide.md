@@ -127,4 +127,4 @@ We manage pet policies as part of a comprehensive approach to protecting your pr
 
 ---
 
-Need help creating a pet policy that protects your investment and keeps you compliant with Georgia law? Noah McBride and the team at [McBride Property Management](/contact/) work with landlords across the Augusta metro every day. Call 706.701.5940 or [reach out online](/contact/) to talk through your options.
+Need help creating a pet policy that protects your investment and keeps you compliant with Georgia law? Noah McBride and the team at [McBride Property Management](/contact/) work with landlords across the Augusta metro every day. Call 706.339.2874 or [reach out online](/contact/) to talk through your options.

@@ -214,7 +214,7 @@ If your rental is in Evans or the surrounding Columbia County area, our [Evans](
 
 **Take CapEx surprises off your plate.** McBride Property Management's annual inspection process captures condition notes on every major system at your property—so you know what's aging before it fails, not after. We serve Evans, Grovetown, Martinez, Augusta, and the broader CSRA.
 
-[Request a free rental analysis](/contact/) to discuss your property's capital picture, or download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a comprehensive reference on CSRA operating benchmarks. Reach us directly at **(706) 420-4883**.
+[Request a free rental analysis](/contact/) to discuss your property's capital picture, or download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a comprehensive reference on CSRA operating benchmarks. Reach us directly at **(706) 339-2874**.
 
 </div>
 
@@ -222,5 +222,5 @@ If your rental is in Evans or the surrounding Columbia County area, our [Evans](
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

@@ -49,7 +49,7 @@ howTo:
     - name: "Walk the home against the Safe at Home Act checklist"
       text: "Check that HVAC, plumbing, electrical, roof, and weatherproofing all meet Georgia's habitability standard before your first showing. Repair anything that would fail — not because the law requires it at listing, but because a tenant who finds a defect on move-in day has legal remedies."
     - name: "Get a free rental analysis from McBride PM"
-      text: "A rental analysis matches your home's specific features against recent comparable leases in your neighborhood, producing a defensible price range based on actual transactions — not a national algorithm. Contact McBride PM at (706) 420-4883 or through the contact page. No obligation."
+      text: "A rental analysis matches your home's specific features against recent comparable leases in your neighborhood, producing a defensible price range based on actual transactions — not a national algorithm. Contact McBride PM at (706) 339-2874 or through the contact page. No obligation."
 ---
 
 <div class="snippet-box">
@@ -227,7 +227,7 @@ To put the broader numbers in context for your area: [Evans, GA](/evans/) and [G
 
 If you want to move forward, McBride Property Management manages properties under a full-service model — leasing, tenant screening, rent collection, Safe at Home Act compliance, maintenance coordination, and owner reporting through AppFolio. You don't need to be in the room for any of it.
 
-Start with a [free rental analysis at our contact page](/contact/) or call us at **(706) 420-4883**. The conversation will take 15 minutes and leave you with a clear picture of what your specific home would generate — so you can make this decision on numbers, not guesswork.
+Start with a [free rental analysis at our contact page](/contact/) or call us at **(706) 339-2874**. The conversation will take 15 minutes and leave you with a clear picture of what your specific home would generate — so you can make this decision on numbers, not guesswork.
 
 For an overview of what to do first when you realize you're becoming an unplanned landlord, the [accidental landlord guide](/blog/accidental-landlord-augusta-ga-what-to-do/) is a good starting point. And if you want to benchmark your home's rent against what comparable properties in the area are listing for, [pricing your rental property](/blog/how-to-price-rental-property-augusta-ga/) walks through the methodology.
 
@@ -239,7 +239,7 @@ For an overview of what to do first when you realize you're becoming an unplanne
 
 If your home hasn't sold and you're wondering whether renting is the right move, McBride Property Management will give you a property-specific rental projection — no obligation. Amber McBride will pull recent comparable leases in your neighborhood and walk through the full numbers with you.
 
-Call us at **(706) 420-4883**, email amber@themcbrideteam.com, or submit your property info at [mcbride-pm.com/contact/](/contact/). We also put together a downloadable [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) that covers the essentials of becoming a rental property owner in the Augusta area — it's free and a good read before your first decision.
+Call us at **(706) 339-2874**, email ops@mcbride-pm.com, or submit your property info at [mcbride-pm.com/contact/](/contact/). We also put together a downloadable [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) that covers the essentials of becoming a rental property owner in the Augusta area — it's free and a good read before your first decision.
 
 </div>
 
@@ -276,5 +276,5 @@ Call us at **(706) 420-4883**, email amber@themcbrideteam.com, or submit your pr
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

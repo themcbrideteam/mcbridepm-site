@@ -245,7 +245,7 @@ For landlords managing their first SCRA termination — or managing properties f
 
 McBride PM manages SCRA compliance, lease administration, and tenant communication for single-family rentals across Evans, Grovetown, Martinez, and greater Augusta. If you've received SCRA notice from a tenant — or want your lease reviewed before the next military applicant signs — [request a free rental analysis at mcbride-pm.com/contact/](/contact/).
 
-Download our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a 12-page reference on lease obligations, deposit rules, and property management in the Augusta area. Or call us directly: **(706) 420-4883**.
+Download our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a 12-page reference on lease obligations, deposit rules, and property management in the Augusta area. Or call us directly: **(706) 339-2874**.
 
 </div>
 
@@ -253,5 +253,5 @@ Download our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Gu
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

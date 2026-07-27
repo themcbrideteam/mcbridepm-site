@@ -180,7 +180,7 @@ Before you sign a management agreement, ask these directly:
 
 If a property manager can't answer these five questions directly and in writing, that tells you something concrete about the depth of their vendor management process. Amber McBride, our Operations Manager, handles vendor coordination and onboarding at McBride PM — she's the right person to walk you through our specific processes and how we handle each of these points for your property type.
 
-You can review our [services page](/services/), [owner FAQs](/owner-faqs/), and our [why hire page](/why-hire/) for more on how we approach property management, and our [about page](/about/) for background on the team. Or call us directly at **(706) 420-4883** to talk through your specific situation.
+You can review our [services page](/services/), [owner FAQs](/owner-faqs/), and our [why hire page](/why-hire/) for more on how we approach property management, and our [about page](/about/) for background on the team. Or call us directly at **(706) 339-2874** to talk through your specific situation.
 
 ---
 
@@ -225,7 +225,7 @@ You can review our [services page](/services/), [owner FAQs](/owner-faqs/), and 
 
 If maintenance coordination — vetting contractors, dispatching after-hours calls, tracking invoices, and staying on top of compliance — is the part of owning a CSRA rental that costs you the most time and peace of mind, that's the core of what McBride PM handles. We manage properties in Evans, Grovetown, Augusta, Martinez, North Augusta, and Aiken with an approved vendor network built over years of local relationships.
 
-[Request a free rental analysis](/contact/) to talk through your property and what professional management would look like for your situation. Download our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a complete reference on managing CSRA rentals from purchase through operations. Or call Amber directly at **(706) 420-4883** — she handles owner onboarding and can answer your vendor-specific questions.
+[Request a free rental analysis](/contact/) to talk through your property and what professional management would look like for your situation. Download our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a complete reference on managing CSRA rentals from purchase through operations. Or call Amber directly at **(706) 339-2874** — she handles owner onboarding and can answer your vendor-specific questions.
 
 </div>
 
@@ -233,5 +233,5 @@ If maintenance coordination — vetting contractors, dispatching after-hours cal
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

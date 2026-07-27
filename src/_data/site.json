@@ -12,9 +12,9 @@
   "phoneTel": "7063392874",
   "phoneE164": "+17063392874",
   "phoneRole": "Main line — residents, applicants, and general inquiries",
-  "ownerPhone": "(706) 420-4883",
-  "ownerPhoneTel": "7064204883",
-  "ownerPhoneE164": "+17064204883",
+  "ownerPhone": "(706) 339-2874",
+  "ownerPhoneTel": "7063392874",
+  "ownerPhoneE164": "+17063392874",
   "ownerPhoneRole": "Owners / new property management inquiries",
   "tenantPhone": "(706) 339-2874",
   "tenantPhoneTel": "7063392874",
@@ -30,7 +30,7 @@
   "longitude": -82.1335,
   "ownerPortal": "https://c21magnolia.appfolio.com/oportal/users/log_in",
   "residentPortal": "https://c21magnolia.appfolio.com/connect/users/sign_in",
-  "amberEmail": "amber@themcbrideteam.com",
+  "amberEmail": "ops@mcbride-pm.com",
   "openingHours": [
     {
       "days": [

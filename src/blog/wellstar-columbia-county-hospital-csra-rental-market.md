@@ -207,7 +207,7 @@ Noah McBride and the McBride PM team are fielding questions on this from both cu
 
 Whether you already own in Evans, Grovetown, or Martinez — or you're evaluating your first purchase — McBride Property Management offers a free rental analysis benchmarked against current market conditions. We manage properties throughout the CSRA and work with both local and out-of-state owners who want accurate numbers, not optimistic projections.
 
-Call **(706) 420-4883** or [submit a free rental analysis request](/contact/). Download our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a comprehensive view of all the demand anchors shaping this market, or visit our [services page](/services/) to see how full-service management works.
+Call **(706) 339-2874** or [submit a free rental analysis request](/contact/). Download our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a comprehensive view of all the demand anchors shaping this market, or visit our [services page](/services/) to see how full-service management works.
 
 </div>
 
@@ -215,5 +215,5 @@ Call **(706) 420-4883** or [submit a free rental analysis request](/contact/). D
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

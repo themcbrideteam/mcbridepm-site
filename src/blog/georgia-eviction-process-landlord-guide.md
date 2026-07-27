@@ -199,4 +199,4 @@ The best eviction strategy is not needing one. A few practices that reduce your 
 
 ---
 
-Dealing with a difficult tenant situation on a rental property in Augusta, Evans, Grovetown, or anywhere in the CSRA? Noah McBride and the team at [McBride Property Management](/contact/) can help you navigate the process or take it off your plate entirely. Call **706.701.5940** or [reach out online](/contact/) to talk through your options.
+Dealing with a difficult tenant situation on a rental property in Augusta, Evans, Grovetown, or anywhere in the CSRA? Noah McBride and the team at [McBride Property Management](/contact/) can help you navigate the process or take it off your plate entirely. Call **706.339.2874** or [reach out online](/contact/) to talk through your options.

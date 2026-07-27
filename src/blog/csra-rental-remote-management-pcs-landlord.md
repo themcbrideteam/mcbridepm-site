@@ -234,7 +234,7 @@ The one thing that helps every military landlord across all three paths: **start
 
 McBride PM works specifically with Fort Gordon military owners managing their Evans or Grovetown rental from another duty station or overseas. We provide monthly statements with attached work orders, written annual inspections, a 24/7 emergency maintenance line, and the kind of communication cadence that actually works across time zones.
 
-[Download our PCS Landlord Quick-Start Guide](/pdfs/McBride-PM_PCS-Landlord-Quick-Start-Guide.pdf) — it covers the pre-departure checklist and the communication setup our remote owners use from day one. Or [request a free rental analysis](/contact/) to talk through your property's current situation. Call us at **(706) 420-4883** — we know the military timeline, and we work around it.
+[Download our PCS Landlord Quick-Start Guide](/pdfs/McBride-PM_PCS-Landlord-Quick-Start-Guide.pdf) — it covers the pre-departure checklist and the communication setup our remote owners use from day one. Or [request a free rental analysis](/contact/) to talk through your property's current situation. Call us at **(706) 339-2874** — we know the military timeline, and we work around it.
 
 </div>
 
@@ -242,5 +242,5 @@ McBride PM works specifically with Fort Gordon military owners managing their Ev
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

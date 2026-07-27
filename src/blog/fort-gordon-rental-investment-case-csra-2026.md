@@ -147,7 +147,7 @@ Noah McBride, broker and owner, has worked with investors from California, New Y
 
 For out-of-state buyers building a due-diligence checklist, the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) walks through the practical mechanics of owning a Georgia rental from a distance — inspections, tenant screening standards, and what to expect from a property management relationship.
 
-[Request your free rental analysis at mcbride-pm.com/contact](/contact/) or call **(706) 420-4883**.
+[Request your free rental analysis at mcbride-pm.com/contact](/contact/) or call **(706) 339-2874**.
 
 </div>
 
@@ -182,5 +182,5 @@ For out-of-state buyers building a due-diligence checklist, the [CSRA Landlord F
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

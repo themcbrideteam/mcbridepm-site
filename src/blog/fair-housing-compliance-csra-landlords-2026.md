@@ -200,7 +200,7 @@ If you own one or more rentals in the Augusta area — Evans, Grovetown, Martine
 
 Download our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a broader reference on Georgia rental law, maintenance standards, and operational benchmarks.
 
-**Call us at (706) 420-4883.** We work with owners across the CSRA — from Aiken County, SC to Columbia County, GA — and have been doing it long enough to have seen what a fair housing complaint actually costs a small landlord.
+**Call us at (706) 339-2874.** We work with owners across the CSRA — from Aiken County, SC to Columbia County, GA — and have been doing it long enough to have seen what a fair housing complaint actually costs a small landlord.
 
 </div>
 
@@ -235,5 +235,5 @@ Download our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Gu
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

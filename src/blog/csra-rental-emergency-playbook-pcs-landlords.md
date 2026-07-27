@@ -291,7 +291,7 @@ If you're also thinking ahead to the financial picture—depreciation, Schedule 
 
 **Ready to hand off emergency coordination before your next PCS?**
 
-McBride Property Management handles emergency repair dispatch, vendor coordination, and tenant communication for rental properties across Evans, Grovetown, Martinez, and Augusta. If you're approaching a PCS date or currently managing a CSRA property from a distance, request a free rental analysis at [mcbride-pm.com/contact/](/contact/) or call **(706) 420-4883**. Amber McBride oversees owner onboarding and will walk you through exactly what transfers to us on day one.
+McBride Property Management handles emergency repair dispatch, vendor coordination, and tenant communication for rental properties across Evans, Grovetown, Martinez, and Augusta. If you're approaching a PCS date or currently managing a CSRA property from a distance, request a free rental analysis at [mcbride-pm.com/contact/](/contact/) or call **(706) 339-2874**. Amber McBride oversees owner onboarding and will walk you through exactly what transfers to us on day one.
 
 Download the [PCS Landlord Quick-Start Guide](/pdfs/McBride-PM_PCS-Landlord-Quick-Start-Guide.pdf) for the complete pre-departure setup checklist.
 
@@ -299,5 +299,5 @@ Download the [PCS Landlord Quick-Start Guide](/pdfs/McBride-PM_PCS-Landlord-Quic
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*

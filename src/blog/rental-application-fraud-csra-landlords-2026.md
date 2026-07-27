@@ -191,7 +191,7 @@ If running income verification on every application feels like more process than
 
 McBride PM's full-service property management includes compliant tenant screening as a standard component—not an add-on. Noah McBride, our principal broker, reviews placement decisions on properties where fraud risk is elevated (higher-rent single-family homes, recent prior evictions on record, complex income documentation). Every placement we make is backed by a written screening record we maintain on the owner's behalf.
 
-If you're managing your CSRA rental yourself and have questions about whether your current screening process is as strong as it should be, the [contact page](/contact/) has our free rental analysis form—or call us at (706) 420-4883. The [owner FAQ page](/owner-faqs/) also covers common screening questions we hear from self-managing landlords making the switch to professional management.
+If you're managing your CSRA rental yourself and have questions about whether your current screening process is as strong as it should be, the [contact page](/contact/) has our free rental analysis form—or call us at (706) 339-2874. The [owner FAQ page](/owner-faqs/) also covers common screening questions we hear from self-managing landlords making the switch to professional management.
 
 For additional resources, the [resources page](/resources/) links to several owner-facing guides, including the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) and the [pre-rental property prep checklist](/pdfs/McBride-PM_Pre-Rental-Property-Prep-Checklist.pdf) for landlords preparing a home for the leasing market.
 
@@ -232,7 +232,7 @@ For additional resources, the [resources page](/resources/) links to several own
 
 McBride Property Management handles compliant, documented tenant screening as a standard part of full-service management for CSRA owner-clients. If you're self-managing and want to know whether your current process is as strong as it should be, [request a free rental analysis](/contact/)—we'll review your property and give you a straight assessment.
 
-You can also [download our Tenant Screening Standards PDF](/pdfs/McBride-PM_Tenant-Screening-Standards.pdf) to see the exact income, credit, and documentation criteria we apply to every applicant. Call us directly at **(706) 420-4883** to talk through a specific situation.
+You can also [download our Tenant Screening Standards PDF](/pdfs/McBride-PM_Tenant-Screening-Standards.pdf) to see the exact income, credit, and documentation criteria we apply to every applicant. Call us directly at **(706) 339-2874** to talk through a specific situation.
 
 </div>
 
@@ -240,5 +240,5 @@ You can also [download our Tenant Screening Standards PDF](/pdfs/McBride-PM_Tena
 
 **Noah McBride, Broker**
 McBride Property Management
-706.701.5940
+706.339.2874
 *Guiding you home.*
