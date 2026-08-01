@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 76
+    "totalPosts": 77
   },
   "posts": [
     {
@@ -932,10 +932,10 @@
       ],
       "primaryKeyword": "move-in inspection rental property Georgia landlord",
       "entities": [
-        "O.C.G.A. § 44-7-33",
-        "O.C.G.A. § 44-7-34",
-        "O.C.G.A. § 44-7-35",
-        "O.C.G.A. § 44-7-36",
+        "O.C.G.A. \u00a7 44-7-33",
+        "O.C.G.A. \u00a7 44-7-34",
+        "O.C.G.A. \u00a7 44-7-35",
+        "O.C.G.A. \u00a7 44-7-36",
         "Safe at Home Act",
         "HB 404",
         "Columbia County Magistrate Court",
@@ -984,7 +984,7 @@
       "primaryKeyword": "property management maintenance vendors Augusta GA",
       "entities": [
         "O.C.G.A. Title 43",
-        "O.C.G.A. § 34-9",
+        "O.C.G.A. \u00a7 34-9",
         "Georgia State Construction Industry Licensing Board",
         "EPA Section 608",
         "Safe at Home Act HB 404",
@@ -1016,7 +1016,7 @@
         "HowTo"
       ],
       "type": "new",
-      "imageStatus": "none — Imagen API key invalid this run"
+      "imageStatus": "none \u2014 Imagen API key invalid this run"
     },
     {
       "slug": "appfolio-owner-portal-property-management-augusta-ga",
@@ -1040,7 +1040,7 @@
         "McBride Property Management",
         "Noah McBride",
         "Amber McBride",
-        "O.C.G.A. § 44-7-50",
+        "O.C.G.A. \u00a7 44-7-50",
         "Evans GA",
         "Augusta GA",
         "Martinez GA",
@@ -1071,7 +1071,7 @@
         "HowTo"
       ],
       "type": "new",
-      "imageStatus": "none — Imagen API key invalid this run (second consecutive run)"
+      "imageStatus": "none \u2014 Imagen API key invalid this run (second consecutive run)"
     },
     {
       "slug": "georgia-tenant-late-rent-landlord-guide",
@@ -1091,7 +1091,7 @@
       ],
       "primaryKeyword": "tenant late on rent Georgia landlord",
       "entities": [
-        "O.C.G.A. § 44-7-50",
+        "O.C.G.A. \u00a7 44-7-50",
         "Safe at Home Act (HB 404)",
         "Columbia County Magistrate Court",
         "Richmond County Magistrate Court",
@@ -1147,7 +1147,7 @@
         "Plant Vogtle",
         "Augusta University Medical Center",
         "Georgia Safe at Home Act (HB 404)",
-        "O.C.G.A. § 44-7-13",
+        "O.C.G.A. \u00a7 44-7-13",
         "ZIP 30815",
         "Highway 1 / Deans Bridge Road",
         "LinkedIn Cities on the Rise 2026"
@@ -1170,7 +1170,7 @@
         "FAQPage"
       ],
       "type": "new",
-      "imageStatus": "none — Imagen API key invalid (fourth consecutive run)"
+      "imageStatus": "none \u2014 Imagen API key invalid (fourth consecutive run)"
     },
     {
       "slug": "annual-property-inspection-csra-rental-landlord-guide",
@@ -1189,9 +1189,9 @@
       ],
       "primaryKeyword": "annual property inspection rental Augusta GA",
       "entities": [
-        "O.C.G.A. § 44-7-16",
-        "O.C.G.A. § 44-7-50",
-        "O.C.G.A. § 44-7-13",
+        "O.C.G.A. \u00a7 44-7-16",
+        "O.C.G.A. \u00a7 44-7-50",
+        "O.C.G.A. \u00a7 44-7-13",
         "Georgia Safe at Home Act (HB 404)",
         "NARPM",
         "AppFolio",
@@ -1219,7 +1219,63 @@
         "HowTo"
       ],
       "type": "new",
-      "imageStatus": "none — Imagen API key invalid (fifth consecutive run; key returns API_KEY_INVALID)"
+      "imageStatus": "none \u2014 Imagen API key invalid (fifth consecutive run; key returns API_KEY_INVALID)"
+    },
+    {
+      "slug": "south-carolina-eviction-process-aiken-north-augusta-landlords",
+      "title": "South Carolina Eviction Process: Aiken Area Landlord's Step-by-Step Guide",
+      "date": "2026-08-01",
+      "cluster": "evictions",
+      "subtopic": "SC ejectment procedure, Aiken County magistrate court, notice requirements, Writ of Ejectment, contested evictions, SCRA military tenants",
+      "persona": "P4",
+      "intent": "educational/legal-reference/trust-building",
+      "cities": [
+        "Aiken",
+        "North Augusta",
+        "Aiken County"
+      ],
+      "primaryKeyword": "South Carolina eviction process Aiken landlord",
+      "entities": [
+        "SC Code \u00a7 27-37-10",
+        "SC Code Title 27 Chapter 37",
+        "SC Code \u00a7 27-40-440",
+        "SC Code \u00a7 27-40-650",
+        "SC Code \u00a7 22-3-340",
+        "South Carolina Residential Landlord and Tenant Act",
+        "Aiken County Magistrate Court",
+        "North Augusta Magistrate Court",
+        "SCCA 732",
+        "Servicemembers Civil Relief Act (SCRA)",
+        "North Augusta SC",
+        "Aiken SC",
+        "Savannah River Site",
+        "USC Aiken",
+        "Rule to Show Cause",
+        "Writ of Ejectment",
+        "Application for Ejectment"
+      ],
+      "questionsAnswered": [
+        "How long does SC eviction take?",
+        "What notice is required before SC eviction?",
+        "Where do I file eviction in Aiken County?",
+        "How much does SC eviction cost?",
+        "Can I evict a military tenant in SC?",
+        "How is SC eviction different from Georgia dispossessory?",
+        "What is a Rule to Show Cause in SC?",
+        "Can a tenant appeal SC eviction?",
+        "What is a Writ of Ejectment in SC?",
+        "What happens if tenant doesn't leave after 24 hours?"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 4,
+      "wordCount": 2700,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none \u2014 Imagen API key invalid (sixth consecutive run; key returns API_KEY_INVALID)"
     }
   ]
 }

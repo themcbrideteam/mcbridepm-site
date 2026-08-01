@@ -1,10 +1,10 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "76 live posts in src/blog/ as of 2026-07-26",
+    "builtFrom": "77 live posts in src/blog/ as of 2026-08-01",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
-      "imagen_api_key": "API key invalid for 4 consecutive runs (2026-07-22 through 2026-07-25). All posts published text-only. Key needs rotation before next run."
+      "imagen_api_key": "API key invalid for 6 consecutive runs (2026-07-22 through 2026-08-01). All posts published text-only. Key AIzaSyDlRo8BgIOcS2XhTHQDpT53emfAXG_lVFU tested and returns API_KEY_INVALID. Key needs rotation before next run."
     }
   },
   "clusters": {
@@ -60,7 +60,7 @@
         "BAH 2027 rate-change impact on CSRA rents"
       ],
       "refreshFlags": [
-        "fort-eisenhower-military-tenant-rental-demand-augusta — slug + title use DEPRECATED base name; Fort Gordon was reverted in 2025. Priority: refresh/rename to Fort Gordon, add redirect in src/_redirects. Schedule for next run."
+        "fort-eisenhower-military-tenant-rental-demand-augusta \u2014 slug + title use DEPRECATED base name; Fort Gordon was reverted in 2025. Priority: refresh/rename to Fort Gordon, add redirect in src/_redirects. Schedule for next run."
       ]
     },
     "investing": {
@@ -157,14 +157,14 @@
       ]
     },
     "evictions": {
-      "coverage": 0.4,
+      "coverage": 0.55,
       "authority": "medium",
       "posts": [
         "georgia-eviction-process-landlord-guide",
-        "georgia-tenant-breaks-lease-early-landlord-guide"
+        "georgia-tenant-breaks-lease-early-landlord-guide",
+        "south-carolina-eviction-process-aiken-north-augusta-landlords"
       ],
       "gaps": [
-        "South Carolina eviction process (Aiken/North Augusta owners)",
         "dispossessory in Richmond vs Columbia County magistrate court",
         "eviction costs + timeline budget",
         "cash-for-keys vs eviction decision"
@@ -197,7 +197,7 @@
         "true-cost-self-managing-rental-property-csra"
       ],
       "gaps": [
-        "how PM fees actually work (flat vs % vs leasing fee) — transparent breakdown",
+        "how PM fees actually work (flat vs % vs leasing fee) \u2014 transparent breakdown",
         "reading your owner statement",
         "what onboarding with McBride looks like, step by step"
       ]
@@ -273,23 +273,22 @@
         "appfolio-owner-portal-property-management-augusta-ga"
       ],
       "gaps": [
-        "online applications + screening tech — how applicants apply and what owners see",
-        "online maintenance requests + tracking — tenant-side walkthrough"
+        "online applications + screening tech \u2014 how applicants apply and what owners see",
+        "online maintenance requests + tracking \u2014 tenant-side walkthrough"
       ]
     }
   },
   "priorityQueue": [
-    "evictions: South Carolina eviction process for Aiken/North Augusta owners (P3/P4)",
-    "laws-compliance: assistance/service animals vs pet policy — HUD reasonable accommodation (P3, high AEO + compliance value)",
-    "owner-education: how property management fees actually work — transparent breakdown (P3/P4, high conversion)",
+    "laws-compliance: assistance/service animals vs pet policy \u2014 HUD reasonable accommodation (P3, high AEO + compliance value)",
+    "owner-education: how property management fees actually work \u2014 transparent breakdown (P3/P4, high conversion)",
     "maintenance: plumbing + water-heater repair-or-replace (P1/P3)",
     "hoa: HOA violations + who pays (owner vs tenant) (P2/P3)",
     "market-reports: CSRA rental market Q4 2026 update (multi-persona)",
     "maintenance: winterization checklist for CSRA rentals (P3, fall-season)",
-    "vendor-management: DIY vs licensed contractor — when a repair legally needs a pro in GA (P2/P3)",
+    "vendor-management: DIY vs licensed contractor \u2014 when a repair legally needs a pro in GA (P2/P3)",
     "inspections: drive-by + preventive inspection cadence (P1/P3)",
-    "technology: online applications + screening tech — how applicants apply and what owners see (P3/P4)",
-    "accidental-landlord: converting a primary residence to a rental — insurance, mortgage, tax steps (P2)"
+    "technology: online applications + screening tech \u2014 how applicants apply and what owners see (P3/P4)",
+    "accidental-landlord: converting a primary residence to a rental \u2014 insurance, mortgage, tax steps (P2)"
   ],
   "notes": {
     "imagen_api_key": "API key invalid for 5 consecutive runs (2026-07-22 through 2026-07-26). All posts published text-only. Key AIzaSyDlRo8BgIOcS2XhTHQDpT53emfAXG_lVFU tested and returns API_KEY_INVALID. Key needs rotation before next run."
