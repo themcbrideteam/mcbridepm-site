@@ -1,10 +1,10 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "77 live posts in src/blog/ as of 2026-08-01",
+    "builtFrom": "78 live posts in src/blog/ as of 2026-08-08",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
-      "imagen_api_key": "API key invalid for 6 consecutive runs (2026-07-22 through 2026-08-01). All posts published text-only. Key AIzaSyDlRo8BgIOcS2XhTHQDpT53emfAXG_lVFU tested and returns API_KEY_INVALID. Key needs rotation before next run."
+      "imagen_api_key": "API key invalid for 7 consecutive runs (2026-07-22 through 2026-08-08). All posts published text-only. Key AIzaSyDlRo8BgIOcS2XhTHQDpT53emfAXG_lVFU tested and returns API_KEY_INVALID. Key needs rotation."
     }
   },
   "clusters": {
@@ -25,7 +25,7 @@
       ]
     },
     "laws-compliance": {
-      "coverage": 0.75,
+      "coverage": 0.82,
       "authority": "high",
       "posts": [
         "georgia-safe-at-home-act-landlord-guide-augusta-ga",
@@ -35,11 +35,10 @@
         "south-carolina-landlord-tenant-laws-aiken-rental-owners",
         "scra-lease-termination-fort-gordon-landlord-guide",
         "housing-choice-voucher-landlord-guide-augusta-ga",
-        "georgia-lease-agreement-clauses-csra-landlords-2026"
+        "georgia-lease-agreement-clauses-csra-landlords-2026",
+        "service-animal-esa-rental-property-georgia-landlord-guide"
       ],
       "gaps": [
-        "Fair Housing for CSRA landlords (plain-English compliance guide)",
-        "assistance/service animals vs pet policy (HUD reasonable accommodation)",
         "habitability + local code/min-housing standards",
         "rental licensing requirements by CSRA jurisdiction"
       ]
@@ -279,7 +278,6 @@
     }
   },
   "priorityQueue": [
-    "laws-compliance: assistance/service animals vs pet policy \u2014 HUD reasonable accommodation (P3, high AEO + compliance value)",
     "owner-education: how property management fees actually work \u2014 transparent breakdown (P3/P4, high conversion)",
     "maintenance: plumbing + water-heater repair-or-replace (P1/P3)",
     "hoa: HOA violations + who pays (owner vs tenant) (P2/P3)",

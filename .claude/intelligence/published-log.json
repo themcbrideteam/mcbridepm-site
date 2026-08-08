@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 77
+    "totalPosts": 78
   },
   "posts": [
     {
@@ -1276,6 +1276,60 @@
       ],
       "type": "new",
       "imageStatus": "none \u2014 Imagen API key invalid (sixth consecutive run; key returns API_KEY_INVALID)"
+    },
+    {
+      "slug": "service-animal-esa-rental-property-georgia-landlord-guide",
+      "title": "Service Animals and ESAs in Georgia Rentals: Landlord Guide 2026",
+      "date": "2026-08-08",
+      "cluster": "laws-compliance",
+      "subtopic": "assistance animals, ESA accommodation, HUD 2026 enforcement shift, service animal vs ESA, Fair Housing documentation",
+      "persona": "P3",
+      "intent": "educational/legal-reference/compliance",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Augusta",
+        "Martinez",
+        "Columbia County"
+      ],
+      "primaryKeyword": "service animal emotional support animal rental property Georgia",
+      "entities": [
+        "42 U.S.C. \u00a7 3604",
+        "Fair Housing Act",
+        "HUD FHEO May 22 2026 memorandum",
+        "FHEO-2020-01 (rescinded)",
+        "FHEO-2013-01 (rescinded)",
+        "O.C.G.A. \u00a7\u00a7 8-3-200 through 8-3-223",
+        "Georgia Commission on Equal Opportunity",
+        "Americans with Disabilities Act (ADA)",
+        "Executive Order 14219",
+        "Evans GA",
+        "Grovetown GA",
+        "Augusta GA",
+        "Martinez GA",
+        "Fort Gordon",
+        "Columbia County"
+      ],
+      "questionsAnswered": [
+        "Can I charge a pet deposit for a service animal or ESA?",
+        "What changed with HUD's May 2026 ESA guidance?",
+        "What documentation can I request for an ESA?",
+        "Can I deny an ESA request in Georgia?",
+        "Does Georgia state law add ESA protections beyond federal law?",
+        "What if my lease says no pets?",
+        "Do I have to accommodate exotic animals as ESAs?",
+        "What is the difference between a service animal and an ESA for landlords?"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 3,
+      "wordCount": 2600,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none \u2014 Imagen API key invalid (seventh consecutive run; key returns API_KEY_INVALID)"
     }
   ]
 }
