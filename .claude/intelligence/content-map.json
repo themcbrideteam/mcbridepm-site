@@ -1,10 +1,10 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "78 live posts in src/blog/ as of 2026-08-08",
+    "builtFrom": "79 live posts in src/blog/ as of 2026-08-18",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
-      "imagen_api_key": "API key invalid for 7 consecutive runs (2026-07-22 through 2026-08-08). All posts published text-only. Key AIzaSyDlRo8BgIOcS2XhTHQDpT53emfAXG_lVFU tested and returns API_KEY_INVALID. Key needs rotation."
+      "imagen_api_key": "API key invalid for 8+ consecutive runs (2026-07-22 through 2026-08-18). All posts published text-only. Key AIzaSyDlRo8BgIOcS2XhTHQDpT53emfAXG_lVFU returns API_KEY_INVALID. Key needs rotation."
     }
   },
   "clusters": {
@@ -244,13 +244,13 @@
       ]
     },
     "vendor-management": {
-      "coverage": 0.35,
-      "authority": "medium",
+      "coverage": 0.55,
+      "authority": "high",
       "posts": [
-        "property-management-maintenance-vendors-csra-augusta-ga"
+        "property-management-maintenance-vendors-csra-augusta-ga",
+        "diy-vs-licensed-contractor-georgia-rental-property-repairs"
       ],
       "gaps": [
-        "DIY vs licensed contractor: when a repair legally needs a pro in GA",
         "how a PM handles emergency after-hours repairs (owner perspective)"
       ]
     },
@@ -278,12 +278,13 @@
     }
   },
   "priorityQueue": [
+    "military-pcs: refresh fort-eisenhower-military-tenant-rental-demand-augusta slug \u2014 DEPRECATED 'Fort Eisenhower' name; add redirect in src/_redirects (URGENT)",
     "owner-education: how property management fees actually work \u2014 transparent breakdown (P3/P4, high conversion)",
-    "maintenance: plumbing + water-heater repair-or-replace (P1/P3)",
     "hoa: HOA violations + who pays (owner vs tenant) (P2/P3)",
-    "market-reports: CSRA rental market Q4 2026 update (multi-persona)",
-    "maintenance: winterization checklist for CSRA rentals (P3, fall-season)",
-    "vendor-management: DIY vs licensed contractor \u2014 when a repair legally needs a pro in GA (P2/P3)",
+    "maintenance: plumbing + water-heater repair-or-replace (P1/P3) \u2014 links to today's new post for contractor guidance",
+    "market-reports: CSRA rental market Q3/Q4 2026 update (multi-persona)",
+    "maintenance: winterization checklist for CSRA rentals (P3, fall-season \u2014 timely October pub)",
+    "vendor-management: how PM handles emergency after-hours repairs (owner perspective) (P3/P4)",
     "inspections: drive-by + preventive inspection cadence (P1/P3)",
     "technology: online applications + screening tech \u2014 how applicants apply and what owners see (P3/P4)",
     "accidental-landlord: converting a primary residence to a rental \u2014 insurance, mortgage, tax steps (P2)"

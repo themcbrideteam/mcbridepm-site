@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 78
+    "totalPosts": 79
   },
   "posts": [
     {
@@ -1330,6 +1330,53 @@
       ],
       "type": "new",
       "imageStatus": "none \u2014 Imagen API key invalid (seventh consecutive run; key returns API_KEY_INVALID)"
+    },
+    {
+      "slug": "diy-vs-licensed-contractor-georgia-rental-property-repairs",
+      "title": "DIY or Licensed Contractor? Georgia Rental Repairs That Require a Pro",
+      "date": "2026-08-18",
+      "cluster": "vendor-management",
+      "subtopic": "DIY vs licensed contractor - when a repair legally needs a pro in Georgia",
+      "persona": "P2/P3",
+      "intent": "informational/compliance",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "licensed contractor rental property Georgia",
+      "entities": [
+        "O.C.G.A. \u00a7 43-41",
+        "O.C.G.A. \u00a7 43-14",
+        "O.C.G.A. \u00a7 44-7-13",
+        "O.C.G.A. \u00a7 44-7-14",
+        "Georgia Safe at Home Act (HB 404)",
+        "Georgia Construction Industry Licensing Board",
+        "Georgia Secretary of State",
+        "Columbia County Building Standards Department",
+        "GOALS portal"
+      ],
+      "questionsAnswered": [
+        "Do I need a licensed contractor for rental repairs in Georgia?",
+        "What is Georgia's $2,500 contractor licensing threshold?",
+        "Which trades always require a license in Georgia?",
+        "Do I need permits for rental property repairs?",
+        "What happens if I hire an unlicensed contractor?",
+        "How does the Safe at Home Act affect repair decisions?"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 3,
+      "wordCount": 2900,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "images": "none - API key invalid"
     }
   ]
 }
