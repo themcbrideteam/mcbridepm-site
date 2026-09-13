@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "79 live posts in src/blog/ as of 2026-08-18",
+    "builtFrom": "80 live posts in src/blog/ as of 2026-09-13",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
       "imagen_api_key": "API key invalid for 8+ consecutive runs (2026-07-22 through 2026-08-18). All posts published text-only. Key AIzaSyDlRo8BgIOcS2XhTHQDpT53emfAXG_lVFU returns API_KEY_INVALID. Key needs rotation."
@@ -82,17 +82,17 @@
       ]
     },
     "market-reports": {
-      "coverage": 0.7,
-      "authority": "medium",
+      "coverage": 0.78,
+      "authority": "high",
       "posts": [
         "augusta-rental-market-mid-2026-update",
         "four-demand-anchors-augusta-ga-rental-market",
         "why-columbia-county-outperforms-augusta-rental-investors",
         "grovetown-harlem-growth-corridor-rental-investment",
-        "north-augusta-sc-rental-investment-guide"
+        "north-augusta-sc-rental-investment-guide",
+        "csra-rental-market-fall-2026-update-investors"
       ],
       "gaps": [
-        "CSRA rental market Q4 2026 update (quarterly cadence)",
         "Evans rental market deep-dive",
         "Aiken SC rental market report",
         "rent-growth + vacancy trend recap 2026"
@@ -282,7 +282,6 @@
     "owner-education: how property management fees actually work \u2014 transparent breakdown (P3/P4, high conversion)",
     "hoa: HOA violations + who pays (owner vs tenant) (P2/P3)",
     "maintenance: plumbing + water-heater repair-or-replace (P1/P3) \u2014 links to today's new post for contractor guidance",
-    "market-reports: CSRA rental market Q3/Q4 2026 update (multi-persona)",
     "maintenance: winterization checklist for CSRA rentals (P3, fall-season \u2014 timely October pub)",
     "vendor-management: how PM handles emergency after-hours repairs (owner perspective) (P3/P4)",
     "inspections: drive-by + preventive inspection cadence (P1/P3)",

@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 79
+    "totalPosts": 80
   },
   "posts": [
     {
@@ -1377,6 +1377,48 @@
       ],
       "type": "new",
       "images": "none - API key invalid"
+    },
+    {
+      "slug": "csra-rental-market-fall-2026-update-investors",
+      "title": "CSRA Rental Market: Fall 2026 Update for Out-of-State Investors",
+      "date": "2026-09-13",
+      "cluster": "market-reports",
+      "subtopic": "Q3/Q4 2026 market update \u2014 Wellstar opening, Fort Gordon cyber campus, rent trends",
+      "persona": "P4",
+      "intent": "investment-research",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "North Augusta"
+      ],
+      "primaryKeyword": "CSRA rental market fall 2026",
+      "entities": [
+        "Wellstar Columbia County Medical Center",
+        "Fort Gordon",
+        "SRS",
+        "Plant Vogtle",
+        "Columbia County",
+        "Evans GA",
+        "Grovetown GA"
+      ],
+      "questionsAnswered": [
+        "What are CSRA rents in fall 2026?",
+        "How does Wellstar affect rental demand?",
+        "Where are best investment submarkets?",
+        "What cap rates are realistic?",
+        "What is CSRA vacancy rate?"
+      ],
+      "internalLinks": 9,
+      "externalCitations": 5,
+      "wordCount": 3274,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "images": "none \u2014 API key invalid"
     }
   ]
 }
