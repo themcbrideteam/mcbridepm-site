@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "80 live posts in src/blog/ as of 2026-09-13",
+    "builtFrom": "81 live posts in src/blog/ as of 2026-09-16",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
       "imagen_api_key": "API key invalid for 8+ consecutive runs (2026-07-22 through 2026-08-18). All posts published text-only. Key AIzaSyDlRo8BgIOcS2XhTHQDpT53emfAXG_lVFU returns API_KEY_INVALID. Key needs rotation."
@@ -44,7 +44,7 @@
       ]
     },
     "military-pcs": {
-      "coverage": 0.85,
+      "coverage": 0.87,
       "authority": "high",
       "posts": [
         "fort-eisenhower-military-tenant-rental-demand-augusta",
@@ -53,14 +53,13 @@
         "csra-rental-remote-management-pcs-landlord",
         "moving-to-augusta-ga-rental-tips-military-families",
         "scra-lease-termination-fort-gordon-landlord-guide",
-        "section-121-military-exception-fort-gordon-pcs-landlords"
+        "section-121-military-exception-fort-gordon-pcs-landlords",
+        "fort-gordon-military-tenant-rental-demand-augusta"
       ],
       "gaps": [
         "BAH 2027 rate-change impact on CSRA rents"
       ],
-      "refreshFlags": [
-        "fort-eisenhower-military-tenant-rental-demand-augusta \u2014 slug + title use DEPRECATED base name; Fort Gordon was reverted in 2025. Priority: refresh/rename to Fort Gordon, add redirect in src/_redirects. Schedule for next run."
-      ]
+      "refreshFlags": []
     },
     "investing": {
       "coverage": 0.8,
@@ -278,7 +277,6 @@
     }
   },
   "priorityQueue": [
-    "military-pcs: refresh fort-eisenhower-military-tenant-rental-demand-augusta slug \u2014 DEPRECATED 'Fort Eisenhower' name; add redirect in src/_redirects (URGENT)",
     "owner-education: how property management fees actually work \u2014 transparent breakdown (P3/P4, high conversion)",
     "hoa: HOA violations + who pays (owner vs tenant) (P2/P3)",
     "maintenance: plumbing + water-heater repair-or-replace (P1/P3) \u2014 links to today's new post for contractor guidance",

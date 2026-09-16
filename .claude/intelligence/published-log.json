@@ -1419,6 +1419,51 @@
       ],
       "type": "new",
       "images": "none \u2014 API key invalid"
+    },
+    {
+      "slug": "fort-gordon-military-tenant-rental-demand-augusta",
+      "title": "Fort Gordon Rental Demand: The 2026 CSRA Landlord Guide",
+      "date": "2026-09-16",
+      "cluster": "military-pcs",
+      "subtopic": "Fort Gordon rental demand - BAH 2026 rates, SCRA compliance, neighborhood guide (refresh/slug-fix from fort-eisenhower-military-tenant-rental-demand-augusta)",
+      "persona": "P1",
+      "intent": "landlord-education",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "North Augusta"
+      ],
+      "primaryKeyword": "Fort Gordon rental demand Augusta GA landlords",
+      "entities": [
+        "Fort Gordon",
+        "Army Cyber Center of Excellence",
+        "Basic Allowance for Housing",
+        "SCRA",
+        "Columbia County",
+        "Evans GA",
+        "Grovetown GA",
+        "Defense Travel Management Office",
+        "AHRN"
+      ],
+      "questionsAnswered": [
+        "What are 2026 BAH rates at Fort Gordon?",
+        "How does SCRA lease termination work?",
+        "Where do military families prefer to live near Fort Gordon?",
+        "How do I price my rental for military tenants?",
+        "How do I market my property to military families?"
+      ],
+      "internalLinks": 12,
+      "externalCitations": 4,
+      "wordCount": 2450,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "refresh",
+      "refreshOf": "fort-eisenhower-military-tenant-rental-demand-augusta",
+      "images": "none \u2014 API key invalid"
     }
   ]
 }

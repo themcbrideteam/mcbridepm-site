@@ -1,3 +1,6 @@
+# Blog slug corrections
+/blog/fort-eisenhower-military-tenant-rental-demand-augusta/ /blog/fort-gordon-military-tenant-rental-demand-augusta/ 301!
+
 # Legacy domain: c21magnoliapm.com -> mcbride-pm.com (page-for-page 301s)
 # These rules only fire once c21magnoliapm.com is added as a domain alias
 # on this Netlify site. Update the homepage fallbacks (marked TODO) when
