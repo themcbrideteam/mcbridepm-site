@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 80
+    "totalPosts": 81
   },
   "posts": [
     {
@@ -1464,6 +1464,55 @@
       "type": "refresh",
       "refreshOf": "fort-eisenhower-military-tenant-rental-demand-augusta",
       "images": "none \u2014 API key invalid"
+    },
+    {
+      "slug": "fall-maintenance-checklist-csra-rental-property-landlords",
+      "title": "Fall Rental Property Maintenance Checklist for CSRA Landlords",
+      "date": "2026-09-20",
+      "cluster": "maintenance",
+      "subtopic": "fall/winterization seasonal maintenance checklist",
+      "persona": "P3",
+      "intent": "educational/conversion",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Augusta",
+        "Martinez",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "fall maintenance checklist rental property Augusta GA",
+      "entities": [
+        "Safe at Home Act",
+        "HB 404",
+        "O.C.G.A. 44-7-13",
+        "O.C.G.A. 44-7-12",
+        "Columbia County",
+        "Richmond County",
+        "Evans",
+        "Grovetown",
+        "Fort Gordon"
+      ],
+      "questionsAnswered": [
+        "When should CSRA landlords schedule HVAC service for fall?",
+        "Does Georgia law require landlords to provide heat?",
+        "Are outdoor faucets a landlord responsibility in Georgia?",
+        "What is the right gutter cleaning timing for Augusta-area rentals?",
+        "Can I pass fall maintenance costs to tenants?",
+        "What should I look for in a fall roof inspection?",
+        "How much should I budget for fall maintenance?",
+        "Do I need to notify tenants before fall maintenance inspections?"
+      ],
+      "internalLinks": 11,
+      "externalCitations": 5,
+      "wordCount": 2875,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "images": "none (API key invalid)"
     }
   ]
 }

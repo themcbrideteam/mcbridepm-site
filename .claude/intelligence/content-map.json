@@ -1,10 +1,10 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "81 live posts in src/blog/ as of 2026-09-16",
+    "builtFrom": "82 live posts in src/blog/ as of 2026-09-20",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
-      "imagen_api_key": "API key invalid for 8+ consecutive runs (2026-07-22 through 2026-08-18). All posts published text-only. Key AIzaSyDlRo8BgIOcS2XhTHQDpT53emfAXG_lVFU returns API_KEY_INVALID. Key needs rotation."
+      "imagen_api_key": "API key invalid for 9 consecutive runs (2026-07-22 through 2026-09-20). All posts published text-only. Key AIzaSyDlRo8BgIOcS2XhTHQDpT53emfAXG_lVFU returns API_KEY_INVALID. Key needs rotation."
     }
   },
   "clusters": {
@@ -169,21 +169,20 @@
       ]
     },
     "maintenance": {
-      "coverage": 0.5,
+      "coverage": 0.62,
       "authority": "medium",
       "posts": [
         "how-maintenance-requests-affect-tenant-retention",
         "mold-moisture-rental-property-augusta-ga-landlord-guide",
         "summer-maintenance-checklist-augusta-rental-property",
         "tenant-turnover-make-ready-checklist-augusta-ga-landlords",
-        "hvac-csra-rental-property-landlord-guide-augusta-ga"
+        "hvac-csra-rental-property-landlord-guide-augusta-ga",
+        "fall-maintenance-checklist-csra-rental-property-landlords"
       ],
       "gaps": [
         "plumbing + water-heater repair-or-replace",
         "roof + gutter maintenance for GA humidity",
-        "winterization checklist",
-        "emergency vs routine maintenance (owner policy)",
-        "fall/spring seasonal maintenance"
+        "emergency vs routine maintenance (owner policy)"
       ]
     },
     "owner-education": {
@@ -280,7 +279,6 @@
     "owner-education: how property management fees actually work \u2014 transparent breakdown (P3/P4, high conversion)",
     "hoa: HOA violations + who pays (owner vs tenant) (P2/P3)",
     "maintenance: plumbing + water-heater repair-or-replace (P1/P3) \u2014 links to today's new post for contractor guidance",
-    "maintenance: winterization checklist for CSRA rentals (P3, fall-season \u2014 timely October pub)",
     "vendor-management: how PM handles emergency after-hours repairs (owner perspective) (P3/P4)",
     "inspections: drive-by + preventive inspection cadence (P1/P3)",
     "technology: online applications + screening tech \u2014 how applicants apply and what owners see (P3/P4)",
