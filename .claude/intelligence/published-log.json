@@ -1513,6 +1513,46 @@
       ],
       "type": "new",
       "images": "none (API key invalid)"
+    },
+    {
+      "slug": "hoa-violation-tenant-rental-property-georgia-landlord",
+      "title": "HOA Violations and Rental Properties: Who Pays the Fine in Georgia?",
+      "date": "2026-09-21",
+      "cluster": "hoa",
+      "subtopic": "tenant-caused HOA violations, fine responsibility, lease clauses",
+      "persona": "P2",
+      "intent": "education + conversion",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "HOA violation rental property Georgia landlord",
+      "entities": [
+        "O.C.G.A. \u00a7 44-3-223",
+        "Georgia Property Owners Association Act",
+        "SB 406",
+        "Columbia County",
+        "Evans GA",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "Who pays HOA fine when tenant causes violation in Georgia?",
+        "How to include HOA fine clause in Georgia lease?",
+        "What does SB 406 change about HOA fines?",
+        "What are common HOA violations tenants cause?",
+        "What is an HOA Rules Addendum?"
+      ],
+      "internalLinks": 8,
+      "externalCitations": 3,
+      "wordCount": 2850,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "images": "none (API key invalid)"
     }
   ]
 }

@@ -232,14 +232,13 @@
       ]
     },
     "hoa": {
-      "coverage": 0.45,
-      "authority": "medium",
+      "coverage": 0.62,
+      "authority": "medium-high",
       "posts": [
-        "georgia-hoa-rental-restrictions-csra-landlords"
+        "georgia-hoa-rental-restrictions-csra-landlords",
+        "hoa-violation-tenant-rental-property-georgia-landlord"
       ],
-      "gaps": [
-        "HOA violations + who pays (owner vs tenant)"
-      ]
+      "gaps": []
     },
     "vendor-management": {
       "coverage": 0.55,
@@ -277,7 +276,6 @@
   },
   "priorityQueue": [
     "owner-education: how property management fees actually work \u2014 transparent breakdown (P3/P4, high conversion)",
-    "hoa: HOA violations + who pays (owner vs tenant) (P2/P3)",
     "maintenance: plumbing + water-heater repair-or-replace (P1/P3) \u2014 links to today's new post for contractor guidance",
     "vendor-management: how PM handles emergency after-hours repairs (owner perspective) (P3/P4)",
     "inspections: drive-by + preventive inspection cadence (P1/P3)",
