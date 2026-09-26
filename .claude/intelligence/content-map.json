@@ -4,7 +4,7 @@
     "builtFrom": "82 live posts in src/blog/ as of 2026-09-20",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
-      "imagen_api_key": "API key invalid for 9 consecutive runs (2026-07-22 through 2026-09-20). All posts published text-only. Key AIzaSyDlRo8BgIOcS2XhTHQDpT53emfAXG_lVFU returns API_KEY_INVALID. Key needs rotation."
+      "imagen_api_key": "API key invalid for 10 consecutive runs (2026-07-22 through 2026-09-26). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation."
     }
   },
   "clusters": {
@@ -186,15 +186,15 @@
       ]
     },
     "owner-education": {
-      "coverage": 0.6,
+      "coverage": 0.75,
       "authority": "high",
       "posts": [
         "why-hire-property-manager",
         "switching-to-property-manager-csra-augusta-ga",
-        "true-cost-self-managing-rental-property-csra"
+        "true-cost-self-managing-rental-property-csra",
+        "property-management-fees-augusta-ga-2026"
       ],
       "gaps": [
-        "how PM fees actually work (flat vs % vs leasing fee) \u2014 transparent breakdown",
         "reading your owner statement",
         "what onboarding with McBride looks like, step by step"
       ]
@@ -275,14 +275,16 @@
     }
   },
   "priorityQueue": [
-    "owner-education: how property management fees actually work \u2014 transparent breakdown (P3/P4, high conversion)",
-    "maintenance: plumbing + water-heater repair-or-replace (P1/P3) \u2014 links to today's new post for contractor guidance",
+    "owner-education: reading your owner statement \u2014 what every line item means (P3/P4)",
+    "maintenance: plumbing + water-heater repair-or-replace decision guide (P1/P3)",
     "vendor-management: how PM handles emergency after-hours repairs (owner perspective) (P3/P4)",
     "inspections: drive-by + preventive inspection cadence (P1/P3)",
     "technology: online applications + screening tech \u2014 how applicants apply and what owners see (P3/P4)",
-    "accidental-landlord: converting a primary residence to a rental \u2014 insurance, mortgage, tax steps (P2)"
+    "accidental-landlord: converting a primary residence to a rental \u2014 insurance, mortgage, tax steps (P2)",
+    "taxes: Schedule E walkthrough for first-year CSRA landlords (P2/P3)",
+    "leasing-screening: how to market + photograph a CSRA rental to lease fast (P3)"
   ],
   "notes": {
-    "imagen_api_key": "API key invalid for 5 consecutive runs (2026-07-22 through 2026-07-26). All posts published text-only. Key AIzaSyDlRo8BgIOcS2XhTHQDpT53emfAXG_lVFU tested and returns API_KEY_INVALID. Key needs rotation before next run."
+    "imagen_api_key": "API key invalid for 10 consecutive runs (2026-07-22 through 2026-09-26). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation before next run."
   }
 }

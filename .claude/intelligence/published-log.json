@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 81
+    "totalPosts": 82
   },
   "posts": [
     {
@@ -1553,6 +1553,57 @@
       ],
       "type": "new",
       "images": "none (API key invalid)"
+    },
+    {
+      "slug": "property-management-fees-augusta-ga-2026",
+      "title": "Property Management Fees in Augusta, GA: A Transparent 2026 Breakdown",
+      "date": "2026-09-26",
+      "cluster": "owner-education",
+      "subtopic": "PM fee structures — management %, leasing fee, renewal fee, maintenance markup, flat vs percentage, all-in annual cost model",
+      "persona": "P3/P4 multi-persona",
+      "intent": "educational/conversion — pre-signup research for owners considering professional management",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "Columbia County",
+        "Aiken"
+      ],
+      "primaryKeyword": "property management fees Augusta GA",
+      "entities": [
+        "NARPM",
+        "iPropertyManagement",
+        "TurboTenant",
+        "AppFolio",
+        "O.C.G.A. Title 44",
+        "Safe at Home Act",
+        "Fort Gordon",
+        "Evans GA",
+        "Grovetown GA",
+        "Columbia County",
+        "Aiken SC"
+      ],
+      "questionsAnswered": [
+        "What is the average property management fee in Augusta GA?",
+        "What is a leasing fee and how much does it cost?",
+        "What is a lease renewal fee?",
+        "Do property managers mark up maintenance costs?",
+        "Are property management fees tax-deductible in Georgia?",
+        "Flat fee vs percentage management fee — which is better?",
+        "What should I budget for total PM costs in the CSRA?",
+        "When are property management fees charged?"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 3,
+      "wordCount": 2550,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "images": "none — API key invalid (10th consecutive run; Imagen key returns API_KEY_INVALID — key needs rotation)"
     }
   ]
 }
