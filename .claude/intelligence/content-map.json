@@ -263,13 +263,13 @@
       ]
     },
     "technology": {
-      "coverage": 0.4,
-      "authority": "medium",
+      "coverage": 0.65,
+      "authority": "medium-high",
       "posts": [
-        "appfolio-owner-portal-property-management-augusta-ga"
+        "appfolio-owner-portal-property-management-augusta-ga",
+        "online-rental-applications-property-management-csra-guide"
       ],
       "gaps": [
-        "online applications + screening tech \u2014 how applicants apply and what owners see",
         "online maintenance requests + tracking \u2014 tenant-side walkthrough"
       ]
     }
@@ -279,12 +279,12 @@
     "maintenance: plumbing + water-heater repair-or-replace decision guide (P1/P3)",
     "vendor-management: how PM handles emergency after-hours repairs (owner perspective) (P3/P4)",
     "inspections: drive-by + preventive inspection cadence (P1/P3)",
-    "technology: online applications + screening tech \u2014 how applicants apply and what owners see (P3/P4)",
     "accidental-landlord: converting a primary residence to a rental \u2014 insurance, mortgage, tax steps (P2)",
     "taxes: Schedule E walkthrough for first-year CSRA landlords (P2/P3)",
-    "leasing-screening: how to market + photograph a CSRA rental to lease fast (P3)"
+    "leasing-screening: how to market + photograph a CSRA rental to lease fast (P3)",
+    "technology: online maintenance requests + tracking \u2014 tenant-side walkthrough (P5)"
   ],
   "notes": {
-    "imagen_api_key": "API key invalid for 10 consecutive runs (2026-07-22 through 2026-09-26). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation before next run."
+    "imagen_api_key": "API key invalid for 11 consecutive runs (2026-07-22 through 2026-09-27). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation \u2014 escalate to Noah."
   }
 }

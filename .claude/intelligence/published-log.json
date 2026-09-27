@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 82
+    "totalPosts": 83
   },
   "posts": [
     {
@@ -1604,6 +1604,59 @@
       ],
       "type": "new",
       "images": "none — API key invalid (10th consecutive run; Imagen key returns API_KEY_INVALID — key needs rotation)"
+    },
+    {
+      "slug": "online-rental-applications-property-management-csra-guide",
+      "title": "Online Tenant Applications in the CSRA: How the Full Process Works",
+      "date": "2026-09-27",
+      "cluster": "technology",
+      "subtopic": "online application workflow — listing syndication, AppFolio tenant application portal, TransUnion screening, FCRA adverse action, digital lease e-signature",
+      "persona": "P1",
+      "intent": "educational/trust-building/conversion — PCS landlord understanding remote application management",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "Columbia County",
+        "Fort Gordon"
+      ],
+      "primaryKeyword": "online tenant application property management Augusta GA",
+      "entities": [
+        "AppFolio",
+        "TransUnion",
+        "Fair Credit Reporting Act (15 U.S.C. §§ 1681 et seq.)",
+        "15 U.S.C. § 1681m",
+        "HUD FHEO criminal records guidance 2016",
+        "O.C.G.A. § 44-7-31",
+        "O.C.G.A. § 10-12-1 (Georgia Electronic Records and Signatures Act)",
+        "Defense Manpower Data Center (DMDC)",
+        "Fort Gordon",
+        "Evans GA",
+        "Grovetown GA",
+        "Columbia County",
+        "Army Cyber Center of Excellence"
+      ],
+      "questionsAnswered": [
+        "Can I approve or reject tenant applications myself in AppFolio?",
+        "How long does it take from application to signed lease in the CSRA?",
+        "What does McBride PM's online rental application ask for?",
+        "What screening services are used for CSRA applications?",
+        "Can a Fort Gordon military applicant use BAH orders instead of a paystub?",
+        "What is the application fee for McBride PM rentals?",
+        "What happens if an application is denied?",
+        "How do I see a signed lease as the property owner?"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 4,
+      "wordCount": 2730,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "images": "none — API key invalid (11th consecutive run; key returns API_KEY_INVALID)"
     }
   ]
 }
