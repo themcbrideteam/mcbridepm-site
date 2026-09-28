@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "82 live posts in src/blog/ as of 2026-09-20",
+    "builtFrom": "84 live posts in src/blog/ as of 2026-09-28",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
       "imagen_api_key": "API key invalid for 10 consecutive runs (2026-07-22 through 2026-09-26). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation."
@@ -200,17 +200,17 @@
       ]
     },
     "tenant-education": {
-      "coverage": 0.55,
+      "coverage": 0.68,
       "authority": "medium",
       "posts": [
         "georgia-tenant-rights-2026-csra-renter-guide",
         "renters-insurance-georgia-what-it-covers",
-        "how-to-apply-for-rental-mcbride-property-management"
+        "how-to-apply-for-rental-mcbride-property-management",
+        "maintenance-request-tenant-guide-csra-rental"
       ],
       "gaps": [
         "tenant move-out + deposit-return process (what to expect)",
-        "how to break a lease the right way (tenant side)",
-        "submitting a maintenance request that gets fixed fast"
+        "how to break a lease the right way (tenant side)"
       ]
     },
     "city-guides": {
