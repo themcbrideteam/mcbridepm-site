@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "84 live posts in src/blog/ as of 2026-09-28",
+    "builtFrom": "85 live posts in src/blog/ as of 2026-09-29",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
       "imagen_api_key": "API key invalid for 10 consecutive runs (2026-07-22 through 2026-09-26). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation."
@@ -98,17 +98,17 @@
       ]
     },
     "accidental-landlord": {
-      "coverage": 0.75,
+      "coverage": 0.85,
       "authority": "high",
       "posts": [
         "accidental-landlord-augusta-ga-what-to-do",
         "columbia-county-home-wont-sell-rent-it-out",
         "inherited-rental-property-existing-tenants-georgia",
-        "rent-or-sell-inherited-home-georgia-augusta"
+        "rent-or-sell-inherited-home-georgia-augusta",
+        "converting-primary-residence-to-rental-georgia-checklist"
       ],
       "gaps": [
-        "divorce + the marital rental property in GA",
-        "converting a former primary residence to a rental (insurance/tax/mortgage steps)"
+        "divorce + the marital rental property in GA"
       ]
     },
     "insurance": {
@@ -279,9 +279,10 @@
     "maintenance: plumbing + water-heater repair-or-replace decision guide (P1/P3)",
     "vendor-management: how PM handles emergency after-hours repairs (owner perspective) (P3/P4)",
     "inspections: drive-by + preventive inspection cadence (P1/P3)",
-    "accidental-landlord: converting a primary residence to a rental \u2014 insurance, mortgage, tax steps (P2)",
-    "taxes: Schedule E walkthrough for first-year CSRA landlords (P2/P3)",
+    "accidental-landlord: divorce + the marital rental property in Georgia (P2)",
+    "taxes: Schedule E walkthrough for first-year CSRA landlords \u2014 cross-links to the new conversion post (P2/P3)",
     "leasing-screening: how to market + photograph a CSRA rental to lease fast (P3)",
+    "evictions: cash-for-keys vs eviction decision in Georgia (P3/P4)",
     "technology: online maintenance requests + tracking \u2014 tenant-side walkthrough (P5)"
   ],
   "notes": {

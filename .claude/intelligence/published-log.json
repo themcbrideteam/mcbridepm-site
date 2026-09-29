@@ -1657,6 +1657,48 @@
       ],
       "type": "new",
       "images": "none — API key invalid (11th consecutive run; key returns API_KEY_INVALID)"
+    },
+    {
+      "slug": "converting-primary-residence-to-rental-georgia-checklist",
+      "title": "Converting Your Georgia Home to a Rental: The Complete Checklist",
+      "date": "2026-09-29",
+      "cluster": "accidental-landlord",
+      "subtopic": "converting primary residence to rental — mortgage, insurance, tax, Safe at Home Act, HB 399",
+      "persona": "P2",
+      "intent": "education + conversion",
+      "cities": ["Evans", "Grovetown", "Martinez", "Augusta", "North Augusta", "Columbia County"],
+      "primaryKeyword": "converting primary residence to rental property Georgia",
+      "entities": [
+        "IRS Publication 527",
+        "IRS Publication 925",
+        "Georgia Safe at Home Act HB 404",
+        "Georgia HB 399",
+        "O.C.G.A. § 43-40-25",
+        "O.C.G.A. Title 44 Chapter 7",
+        "IRC §121",
+        "Evans GA",
+        "Grovetown GA",
+        "Fort Gordon",
+        "McBride Property Management",
+        "Noah McBride",
+        "Amber McBride"
+      ],
+      "questionsAnswered": [
+        "Does converting my home to a rental violate my mortgage?",
+        "Does my homeowners insurance cover a rental?",
+        "When does depreciation start on a converted rental in Georgia?",
+        "Can I still use Section 121 exclusion after renting my home?",
+        "What does the Georgia Safe at Home Act require?",
+        "Do I need a property manager if I move out of Georgia?",
+        "How much does landlord insurance cost in Georgia?",
+        "Should I form an LLC before renting my Georgia home?"
+      ],
+      "internalLinks": 11,
+      "externalCitations": 3,
+      "wordCount": 2550,
+      "schema": ["BlogPosting", "FAQPage", "HowTo"],
+      "type": "new",
+      "images": "none (API key invalid)"
     }
   ]
 }
