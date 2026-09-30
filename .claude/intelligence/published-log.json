@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 83
+    "totalPosts": 88
   },
   "posts": [
     {
@@ -1699,6 +1699,47 @@
       "schema": ["BlogPosting", "FAQPage", "HowTo"],
       "type": "new",
       "images": "none (API key invalid)"
+    },
+    {
+      "slug": "cash-for-keys-vs-eviction-georgia-csra-landlords",
+      "title": "Cash for Keys vs. Eviction in Georgia: When to Negotiate, When to File",
+      "date": "2026-09-30",
+      "cluster": "evictions",
+      "subtopic": "cash-for-keys agreement vs dispossessory Georgia — when to negotiate, when to file, cost comparison",
+      "persona": "P4",
+      "intent": "educational / trust-building / conversion",
+      "cities": ["Grovetown", "Augusta", "Columbia County", "Richmond County", "Aiken", "North Augusta"],
+      "primaryKeyword": "cash for keys Georgia landlord",
+      "entities": [
+        "O.C.G.A. Title 44 Chapter 7",
+        "O.C.G.A. § 44-7-50",
+        "O.C.G.A. § 44-7-55",
+        "Georgia Safe at Home Act HB 404",
+        "Richmond County Magistrate Court",
+        "Columbia County Magistrate Court",
+        "McBride Property Management",
+        "Noah McBride",
+        "Amber McBride",
+        "Grovetown GA",
+        "Augusta GA",
+        "Fort Gordon"
+      ],
+      "questionsAnswered": [
+        "Is cash for keys legal in Georgia?",
+        "How much should I offer for cash for keys in Georgia?",
+        "How long does a Georgia eviction take?",
+        "What does it cost to file a dispossessory in Augusta or Columbia County?",
+        "What happens if the tenant takes the money and doesn't leave?",
+        "Does the Safe at Home Act affect the eviction process?",
+        "Should I pursue a money judgment when evicting for nonpayment?",
+        "Can my property manager handle a Georgia dispossessory without me being present?"
+      ],
+      "internalLinks": 9,
+      "externalCitations": 3,
+      "wordCount": 2200,
+      "schema": ["BlogPosting", "FAQPage", "HowTo"],
+      "type": "new",
+      "images": "none — Imagen API key invalid (12th consecutive run)"
     }
   ]
 }

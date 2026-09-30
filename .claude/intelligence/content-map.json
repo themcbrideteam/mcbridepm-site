@@ -155,17 +155,17 @@
       ]
     },
     "evictions": {
-      "coverage": 0.55,
-      "authority": "medium",
+      "coverage": 0.68,
+      "authority": "medium-high",
       "posts": [
         "georgia-eviction-process-landlord-guide",
         "georgia-tenant-breaks-lease-early-landlord-guide",
-        "south-carolina-eviction-process-aiken-north-augusta-landlords"
+        "south-carolina-eviction-process-aiken-north-augusta-landlords",
+        "cash-for-keys-vs-eviction-georgia-csra-landlords"
       ],
       "gaps": [
-        "dispossessory in Richmond vs Columbia County magistrate court",
-        "eviction costs + timeline budget",
-        "cash-for-keys vs eviction decision"
+        "dispossessory in Richmond vs Columbia County magistrate court — cost + timeline comparison",
+        "eviction costs + timeline budget (full owner expense model)"
       ]
     },
     "maintenance": {
@@ -278,14 +278,15 @@
     "owner-education: reading your owner statement \u2014 what every line item means (P3/P4)",
     "maintenance: plumbing + water-heater repair-or-replace decision guide (P1/P3)",
     "vendor-management: how PM handles emergency after-hours repairs (owner perspective) (P3/P4)",
+    "taxes: Schedule E walkthrough for first-year CSRA landlords \u2014 cross-links to the conversion post (P2/P3)",
+    "leasing-screening: how to market + photograph a CSRA rental to lease fast (P3)",
     "inspections: drive-by + preventive inspection cadence (P1/P3)",
     "accidental-landlord: divorce + the marital rental property in Georgia (P2)",
-    "taxes: Schedule E walkthrough for first-year CSRA landlords \u2014 cross-links to the new conversion post (P2/P3)",
-    "leasing-screening: how to market + photograph a CSRA rental to lease fast (P3)",
-    "evictions: cash-for-keys vs eviction decision in Georgia (P3/P4)",
+    "evictions: dispossessory in Richmond vs Columbia County magistrate court \u2014 cost + timeline comparison (P3/P4)",
+    "insurance: requiring + verifying tenant renters insurance \u2014 owner process (P3)",
     "technology: online maintenance requests + tracking \u2014 tenant-side walkthrough (P5)"
   ],
   "notes": {
-    "imagen_api_key": "API key invalid for 11 consecutive runs (2026-07-22 through 2026-09-27). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation \u2014 escalate to Noah."
+    "imagen_api_key": "API key invalid for 12 consecutive runs (2026-07-22 through 2026-09-30). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation \u2014 escalate to Noah immediately. Each post is missing hero + body images; adding images retroactively once key is rotated would significantly improve click-through from organic and GBP."
   }
 }
