@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 88
+    "totalPosts": 89
   },
   "posts": [
     {
@@ -1699,6 +1699,62 @@
       "schema": ["BlogPosting", "FAQPage", "HowTo"],
       "type": "new",
       "images": "none (API key invalid)"
+    },
+    {
+      "slug": "renting-in-aiken-sc-tenant-guide",
+      "title": "Renting in Aiken, SC: Your Complete 2026 Tenant Guide",
+      "date": "2026-10-01",
+      "cluster": "city-guides",
+      "subtopic": "Aiken SC rental guide — rent prices, SRS commute, neighborhoods, SC SCRLTA tenant rights, security deposits, application process",
+      "persona": "P5",
+      "intent": "informational/city-guide/tenant-conversion",
+      "cities": [
+        "Aiken",
+        "Aiken County",
+        "North Augusta",
+        "Graniteville",
+        "Warrenville",
+        "Evans",
+        "Grovetown"
+      ],
+      "primaryKeyword": "renting in Aiken SC",
+      "entities": [
+        "Savannah River Site (SRS)",
+        "SC Code §27-40-410",
+        "SC Code §27-40-440",
+        "SC Code §27-40-530",
+        "SC Code §27-40-710(B)",
+        "SC Code §27-40-770",
+        "South Carolina Residential Landlord and Tenant Act (SCRLTA)",
+        "HUD Fair Market Rents Aiken County 2026",
+        "Rolls-Royce Solutions America",
+        "AGY",
+        "Kimberly-Clark",
+        "USC Aiken",
+        "Aiken County Magistrate Court",
+        "RentCafe",
+        "Fair Housing Act",
+        "AppFolio"
+      ],
+      "questionsAnswered": [
+        "What is average rent in Aiken SC 2026?",
+        "How far is Aiken SC from SRS?",
+        "What SC tenant rights apply to Aiken rentals?",
+        "Is there a security deposit cap in South Carolina?",
+        "How long to return security deposit in SC?",
+        "Can landlord enter rental without notice in SC?",
+        "What notice before SC eviction for nonpayment?",
+        "Can I have pets in Aiken SC rental?"
+      ],
+      "internalLinks": 14,
+      "externalCitations": 5,
+      "wordCount": 3007,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "images": "none — Imagen API key invalid (13th consecutive run; API_KEY_INVALID)"
     },
     {
       "slug": "cash-for-keys-vs-eviction-georgia-csra-landlords",

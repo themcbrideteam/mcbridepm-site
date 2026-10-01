@@ -1,10 +1,10 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "85 live posts in src/blog/ as of 2026-09-29",
+    "builtFrom": "89 live posts in src/blog/ as of 2026-10-01",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
-      "imagen_api_key": "API key invalid for 10 consecutive runs (2026-07-22 through 2026-09-26). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation."
+      "imagen_api_key": "API key invalid for 13 consecutive runs (2026-07-22 through 2026-10-01). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation — URGENT: escalate to Noah."
     }
   },
   "clusters": {
@@ -214,8 +214,8 @@
       ]
     },
     "city-guides": {
-      "coverage": 0.65,
-      "authority": "medium",
+      "coverage": 0.72,
+      "authority": "medium-high",
       "posts": [
         "renting-in-augusta",
         "living-in-evans-ga-rental-tenants-guide",
@@ -223,10 +223,10 @@
         "grovetown-ga-rental-guide-tenants",
         "renting-in-north-augusta-sc-tenant-guide",
         "north-augusta-sc-rental-investment-guide",
-        "renting-in-hephzibah-ga-tenant-guide"
+        "renting-in-hephzibah-ga-tenant-guide",
+        "renting-in-aiken-sc-tenant-guide"
       ],
       "gaps": [
-        "Aiken SC tenant guide",
         "Appling / Columbia County north rental guide",
         "Augusta owner/investor city guide (current ones are tenant-facing)"
       ]
