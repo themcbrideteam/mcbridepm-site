@@ -1559,9 +1559,9 @@
       "title": "Property Management Fees in Augusta, GA: A Transparent 2026 Breakdown",
       "date": "2026-09-26",
       "cluster": "owner-education",
-      "subtopic": "PM fee structures — management %, leasing fee, renewal fee, maintenance markup, flat vs percentage, all-in annual cost model",
+      "subtopic": "PM fee structures \u2014 management %, leasing fee, renewal fee, maintenance markup, flat vs percentage, all-in annual cost model",
       "persona": "P3/P4 multi-persona",
-      "intent": "educational/conversion — pre-signup research for owners considering professional management",
+      "intent": "educational/conversion \u2014 pre-signup research for owners considering professional management",
       "cities": [
         "Evans",
         "Grovetown",
@@ -1590,7 +1590,7 @@
         "What is a lease renewal fee?",
         "Do property managers mark up maintenance costs?",
         "Are property management fees tax-deductible in Georgia?",
-        "Flat fee vs percentage management fee — which is better?",
+        "Flat fee vs percentage management fee \u2014 which is better?",
         "What should I budget for total PM costs in the CSRA?",
         "When are property management fees charged?"
       ],
@@ -1603,16 +1603,16 @@
         "HowTo"
       ],
       "type": "new",
-      "images": "none — API key invalid (10th consecutive run; Imagen key returns API_KEY_INVALID — key needs rotation)"
+      "images": "none \u2014 API key invalid (10th consecutive run; Imagen key returns API_KEY_INVALID \u2014 key needs rotation)"
     },
     {
       "slug": "online-rental-applications-property-management-csra-guide",
       "title": "Online Tenant Applications in the CSRA: How the Full Process Works",
       "date": "2026-09-27",
       "cluster": "technology",
-      "subtopic": "online application workflow — listing syndication, AppFolio tenant application portal, TransUnion screening, FCRA adverse action, digital lease e-signature",
+      "subtopic": "online application workflow \u2014 listing syndication, AppFolio tenant application portal, TransUnion screening, FCRA adverse action, digital lease e-signature",
       "persona": "P1",
-      "intent": "educational/trust-building/conversion — PCS landlord understanding remote application management",
+      "intent": "educational/trust-building/conversion \u2014 PCS landlord understanding remote application management",
       "cities": [
         "Evans",
         "Grovetown",
@@ -1625,11 +1625,11 @@
       "entities": [
         "AppFolio",
         "TransUnion",
-        "Fair Credit Reporting Act (15 U.S.C. §§ 1681 et seq.)",
-        "15 U.S.C. § 1681m",
+        "Fair Credit Reporting Act (15 U.S.C. \u00a7\u00a7 1681 et seq.)",
+        "15 U.S.C. \u00a7 1681m",
         "HUD FHEO criminal records guidance 2016",
-        "O.C.G.A. § 44-7-31",
-        "O.C.G.A. § 10-12-1 (Georgia Electronic Records and Signatures Act)",
+        "O.C.G.A. \u00a7 44-7-31",
+        "O.C.G.A. \u00a7 10-12-1 (Georgia Electronic Records and Signatures Act)",
         "Defense Manpower Data Center (DMDC)",
         "Fort Gordon",
         "Evans GA",
@@ -1656,26 +1656,33 @@
         "HowTo"
       ],
       "type": "new",
-      "images": "none — API key invalid (11th consecutive run; key returns API_KEY_INVALID)"
+      "images": "none \u2014 API key invalid (11th consecutive run; key returns API_KEY_INVALID)"
     },
     {
       "slug": "converting-primary-residence-to-rental-georgia-checklist",
       "title": "Converting Your Georgia Home to a Rental: The Complete Checklist",
       "date": "2026-09-29",
       "cluster": "accidental-landlord",
-      "subtopic": "converting primary residence to rental — mortgage, insurance, tax, Safe at Home Act, HB 399",
+      "subtopic": "converting primary residence to rental \u2014 mortgage, insurance, tax, Safe at Home Act, HB 399",
       "persona": "P2",
       "intent": "education + conversion",
-      "cities": ["Evans", "Grovetown", "Martinez", "Augusta", "North Augusta", "Columbia County"],
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "North Augusta",
+        "Columbia County"
+      ],
       "primaryKeyword": "converting primary residence to rental property Georgia",
       "entities": [
         "IRS Publication 527",
         "IRS Publication 925",
         "Georgia Safe at Home Act HB 404",
         "Georgia HB 399",
-        "O.C.G.A. § 43-40-25",
+        "O.C.G.A. \u00a7 43-40-25",
         "O.C.G.A. Title 44 Chapter 7",
-        "IRC §121",
+        "IRC \u00a7121",
         "Evans GA",
         "Grovetown GA",
         "Fort Gordon",
@@ -1696,7 +1703,11 @@
       "internalLinks": 11,
       "externalCitations": 3,
       "wordCount": 2550,
-      "schema": ["BlogPosting", "FAQPage", "HowTo"],
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
       "type": "new",
       "images": "none (API key invalid)"
     },
@@ -1705,7 +1716,7 @@
       "title": "Renting in Aiken, SC: Your Complete 2026 Tenant Guide",
       "date": "2026-10-01",
       "cluster": "city-guides",
-      "subtopic": "Aiken SC rental guide — rent prices, SRS commute, neighborhoods, SC SCRLTA tenant rights, security deposits, application process",
+      "subtopic": "Aiken SC rental guide \u2014 rent prices, SRS commute, neighborhoods, SC SCRLTA tenant rights, security deposits, application process",
       "persona": "P5",
       "intent": "informational/city-guide/tenant-conversion",
       "cities": [
@@ -1720,11 +1731,11 @@
       "primaryKeyword": "renting in Aiken SC",
       "entities": [
         "Savannah River Site (SRS)",
-        "SC Code §27-40-410",
-        "SC Code §27-40-440",
-        "SC Code §27-40-530",
-        "SC Code §27-40-710(B)",
-        "SC Code §27-40-770",
+        "SC Code \u00a727-40-410",
+        "SC Code \u00a727-40-440",
+        "SC Code \u00a727-40-530",
+        "SC Code \u00a727-40-710(B)",
+        "SC Code \u00a727-40-770",
         "South Carolina Residential Landlord and Tenant Act (SCRLTA)",
         "HUD Fair Market Rents Aiken County 2026",
         "Rolls-Royce Solutions America",
@@ -1754,22 +1765,29 @@
         "FAQPage"
       ],
       "type": "new",
-      "images": "none — Imagen API key invalid (13th consecutive run; API_KEY_INVALID)"
+      "images": "none \u2014 Imagen API key invalid (13th consecutive run; API_KEY_INVALID)"
     },
     {
       "slug": "cash-for-keys-vs-eviction-georgia-csra-landlords",
       "title": "Cash for Keys vs. Eviction in Georgia: When to Negotiate, When to File",
       "date": "2026-09-30",
       "cluster": "evictions",
-      "subtopic": "cash-for-keys agreement vs dispossessory Georgia — when to negotiate, when to file, cost comparison",
+      "subtopic": "cash-for-keys agreement vs dispossessory Georgia \u2014 when to negotiate, when to file, cost comparison",
       "persona": "P4",
       "intent": "educational / trust-building / conversion",
-      "cities": ["Grovetown", "Augusta", "Columbia County", "Richmond County", "Aiken", "North Augusta"],
+      "cities": [
+        "Grovetown",
+        "Augusta",
+        "Columbia County",
+        "Richmond County",
+        "Aiken",
+        "North Augusta"
+      ],
       "primaryKeyword": "cash for keys Georgia landlord",
       "entities": [
         "O.C.G.A. Title 44 Chapter 7",
-        "O.C.G.A. § 44-7-50",
-        "O.C.G.A. § 44-7-55",
+        "O.C.G.A. \u00a7 44-7-50",
+        "O.C.G.A. \u00a7 44-7-55",
         "Georgia Safe at Home Act HB 404",
         "Richmond County Magistrate Court",
         "Columbia County Magistrate Court",
@@ -1793,9 +1811,55 @@
       "internalLinks": 9,
       "externalCitations": 3,
       "wordCount": 2200,
-      "schema": ["BlogPosting", "FAQPage", "HowTo"],
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
       "type": "new",
-      "images": "none — Imagen API key invalid (12th consecutive run)"
+      "images": "none \u2014 Imagen API key invalid (12th consecutive run)"
+    },
+    {
+      "slug": "lease-renewal-pricing-csra-rental-property-owners",
+      "title": "How to Price a Lease Renewal for Your Augusta, GA Rental",
+      "date": "2026-10-02",
+      "cluster": "rent-collection-pricing",
+      "subtopic": "pricing a renewal vs a new lease",
+      "persona": "P3",
+      "intent": "decision-framework",
+      "cities": [
+        "Augusta",
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Columbia County"
+      ],
+      "primaryKeyword": "lease renewal pricing Augusta GA",
+      "entities": [
+        "Fort Gordon",
+        "Savannah River Site",
+        "Augusta University Medical Center",
+        "Wellstar MCG",
+        "Columbia County",
+        "AppFolio"
+      ],
+      "questionsAnswered": [
+        "How much notice before raising rent in Georgia?",
+        "What does CSRA tenant turnover cost?",
+        "Should I raise rent at lease renewal?",
+        "How to structure a lease renewal offer?",
+        "When to not renew a tenant lease?"
+      ],
+      "internalLinks": 9,
+      "externalCitations": 3,
+      "wordCount": 3050,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "images": "none-api-key-invalid"
     }
   ]
 }
