@@ -1860,6 +1860,62 @@
       ],
       "type": "new",
       "images": "none-api-key-invalid"
+    },
+    {
+      "slug": "marketing-csra-rental-property-lease-fast-augusta-ga",
+      "title": "How to Market Your Rental Property in Augusta, GA in 2026",
+      "date": "2026-10-03",
+      "cluster": "leasing-screening",
+      "subtopic": "rental property marketing — listing photography, platform selection, pricing strategy, inquiry management funnel",
+      "persona": "P3",
+      "intent": "educational/conversion",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "market rental property Augusta GA",
+      "entities": [
+        "Zillow",
+        "Facebook Marketplace",
+        "AHRN / MilitaryByOwner",
+        "Apartments.com",
+        "AppFolio",
+        "TurboTenant",
+        "Fort Gordon",
+        "O.C.G.A. § 44-7-16",
+        "Columbia County School District",
+        "Evans GA ZIP 30809",
+        "Grovetown GA ZIP 30813",
+        "Martinez GA ZIP 30907",
+        "Wellstar MCG",
+        "Noah McBride",
+        "Amber McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "How quickly can I lease a CSRA rental?",
+        "What platforms should I use to advertise a rental in Augusta GA?",
+        "Do I need a professional photographer for my rental listing?",
+        "How do I price my CSRA rental to lease fast without overpricing?",
+        "Should I list my rental while the tenant is still living there?",
+        "What is the most common reason CSRA rentals sit vacant too long?",
+        "Do move-in incentives help CSRA rentals lease faster?",
+        "Can a property manager handle the full marketing process without my involvement?"
+      ],
+      "internalLinks": 9,
+      "externalCitations": 4,
+      "wordCount": 2500,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "images": "none — Imagen API key invalid (15th consecutive run; API_KEY_INVALID — key needs rotation)"
     }
   ]
 }
