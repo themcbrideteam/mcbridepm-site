@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "91 live posts in src/blog/ as of 2026-10-03",
+    "builtFrom": "92 live posts in src/blog/ as of 2026-10-04",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
       "imagen_api_key": "API key invalid for 13 consecutive runs (2026-07-22 through 2026-10-01). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation \u2014 URGENT: escalate to Noah."
@@ -241,15 +241,14 @@
       "gaps": []
     },
     "vendor-management": {
-      "coverage": 0.55,
+      "coverage": 0.78,
       "authority": "high",
       "posts": [
         "property-management-maintenance-vendors-csra-augusta-ga",
-        "diy-vs-licensed-contractor-georgia-rental-property-repairs"
+        "diy-vs-licensed-contractor-georgia-rental-property-repairs",
+        "after-hours-rental-emergencies-csra-property-manager"
       ],
-      "gaps": [
-        "how a PM handles emergency after-hours repairs (owner perspective)"
-      ]
+      "gaps": []
     },
     "inspections": {
       "coverage": 0.65,
@@ -277,14 +276,14 @@
   "priorityQueue": [
     "owner-education: reading your owner statement \u2014 what every line item means (P3/P4)",
     "maintenance: plumbing + water-heater repair-or-replace decision guide (P1/P3)",
-    "vendor-management: how PM handles emergency after-hours repairs (owner perspective) (P3/P4)",
     "taxes: Schedule E walkthrough for first-year CSRA landlords \u2014 cross-links to the conversion post (P2/P3)",
     "leasing-screening: showings + applicant flow \u2014 self-show vs agent, CSRA walkthrough (P3)",
     "inspections: drive-by + preventive inspection cadence (P1/P3)",
     "accidental-landlord: divorce + the marital rental property in Georgia (P2)",
     "evictions: dispossessory in Richmond vs Columbia County magistrate court \u2014 cost + timeline comparison (P3/P4)",
     "insurance: requiring + verifying tenant renters insurance \u2014 owner process (P3)",
-    "technology: online maintenance requests + tracking \u2014 tenant-side walkthrough (P5)"
+    "technology: online maintenance requests + tracking \u2014 tenant-side walkthrough (P5)",
+    "market-reports: Evans GA rental market deep-dive \u2014 submarket data, rental ranges, employer anchors (P4)"
   ],
   "notes": {
     "imagen_api_key": "API key invalid for 15 consecutive runs (2026-07-22 through 2026-10-03). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation \u2014 URGENT: escalate to Noah."

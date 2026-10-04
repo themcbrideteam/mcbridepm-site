@@ -1916,6 +1916,58 @@
       ],
       "type": "new",
       "images": "none — Imagen API key invalid (15th consecutive run; API_KEY_INVALID — key needs rotation)"
+    },
+    {
+      "slug": "after-hours-rental-emergencies-csra-property-manager",
+      "title": "How Your CSRA Property Manager Handles After-Hours Emergencies",
+      "date": "2026-10-04",
+      "cluster": "vendor-management",
+      "subtopic": "after-hours emergency repair response — dispatch protocol, Georgia habitability law, owner notification chain, maintenance reserve",
+      "persona": "P1",
+      "intent": "educational/trust-building/conversion — PCS landlord understanding emergency response before handing over keys",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "Columbia County",
+        "Fort Gordon"
+      ],
+      "primaryKeyword": "emergency property management rental Augusta GA",
+      "entities": [
+        "O.C.G.A. § 44-7-13",
+        "O.C.G.A. § 44-7-14.1",
+        "Georgia Safe at Home Act (HB 404)",
+        "O.C.G.A. Title 43",
+        "AppFolio",
+        "Fort Gordon",
+        "Evans GA",
+        "Grovetown GA",
+        "Columbia County",
+        "Noah McBride",
+        "Amber McBride",
+        "McBride Property Management",
+        "NARPM"
+      ],
+      "questionsAnswered": [
+        "What counts as an emergency repair at a rental property in Georgia?",
+        "Does a property manager call me before authorizing an emergency repair?",
+        "How does my property manager reach me if I'm overseas on a PCS?",
+        "What is the Safe at Home Act's effect on emergency repair timelines?",
+        "How do I find out what my property manager spent on an emergency repair?",
+        "Can a property manager authorize a major repair without my approval?",
+        "What is a maintenance reserve and why do I need one?",
+        "What should I ask a property manager about emergency response before signing a contract?"
+      ],
+      "internalLinks": 11,
+      "externalCitations": 3,
+      "wordCount": 3343,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "images": "none — Imagen API key invalid (16th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
     }
   ]
 }
