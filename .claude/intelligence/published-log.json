@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 89
+    "totalPosts": 90
   },
   "posts": [
     {
@@ -1968,6 +1968,71 @@
       ],
       "type": "new",
       "images": "none — Imagen API key invalid (16th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
+    },
+    {
+      "slug": "evans-ga-rental-market-investor-guide-2026",
+      "title": "Evans, GA Rental Market 2026: What Investors Need to Know",
+      "date": "2026-10-05",
+      "cluster": "market-reports",
+      "subtopic": "Evans GA rental market deep-dive — rent prices, demand drivers (Fort Gordon, Wellstar CCMC, SRS, AU Med), neighborhood analysis, yield estimates, out-of-state buyer checklist",
+      "persona": "P4",
+      "intent": "investment-research/conversion",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "Columbia County",
+        "Aiken"
+      ],
+      "primaryKeyword": "Evans GA rental market 2026 investors",
+      "entities": [
+        "Fort Gordon",
+        "U.S. Army Cyber Center of Excellence",
+        "U.S. Cyber Command",
+        "NSA Georgia",
+        "Wellstar Columbia County Medical Center",
+        "Augusta University Medical Center",
+        "Wellstar MCG",
+        "Savannah River Site",
+        "Savannah River Nuclear Solutions",
+        "Columbia County School District",
+        "Augusta Economic Development Authority",
+        "Fort Gordon Alliance",
+        "IRS Publication 527",
+        "Georgia HB 399",
+        "O.C.G.A. § 44-7-13",
+        "Georgia Safe at Home Act HB 404",
+        "Evans GA ZIP 30809",
+        "Grovetown GA ZIP 30813",
+        "Martinez GA ZIP 30907",
+        "Noah McBride",
+        "Amber McBride",
+        "McBride Property Management",
+        "Riverwood Plantation",
+        "Evans Towne Center"
+      ],
+      "questionsAnswered": [
+        "What is average rent in Evans GA 2026?",
+        "Is Evans GA good for rental investment?",
+        "How far is Evans from Fort Gordon?",
+        "What school district is Evans GA?",
+        "What is vacancy rate in Evans GA?",
+        "What cap rate is realistic in Evans GA?",
+        "What employers drive demand near Evans?",
+        "Does McBride PM manage Evans GA properties?",
+        "Which Evans neighborhoods command premium rents?",
+        "How does Evans compare to other CSRA submarkets?"
+      ],
+      "internalLinks": 11,
+      "externalCitations": 5,
+      "wordCount": 2949,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "images": "none — Imagen API key invalid (17th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
     }
   ]
 }

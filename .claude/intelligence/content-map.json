@@ -1,10 +1,10 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "92 live posts in src/blog/ as of 2026-10-04",
+    "builtFrom": "93 live posts in src/blog/ as of 2026-10-05",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
-      "imagen_api_key": "API key invalid for 13 consecutive runs (2026-07-22 through 2026-10-01). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation \u2014 URGENT: escalate to Noah."
+      "imagen_api_key": "API key invalid for 17 consecutive runs (2026-07-22 through 2026-10-05). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation \u2014 URGENT: escalate to Noah."
     }
   },
   "clusters": {
@@ -81,7 +81,7 @@
       ]
     },
     "market-reports": {
-      "coverage": 0.78,
+      "coverage": 0.83,
       "authority": "high",
       "posts": [
         "augusta-rental-market-mid-2026-update",
@@ -89,10 +89,10 @@
         "why-columbia-county-outperforms-augusta-rental-investors",
         "grovetown-harlem-growth-corridor-rental-investment",
         "north-augusta-sc-rental-investment-guide",
-        "csra-rental-market-fall-2026-update-investors"
+        "csra-rental-market-fall-2026-update-investors",
+        "evans-ga-rental-market-investor-guide-2026"
       ],
       "gaps": [
-        "Evans rental market deep-dive",
         "Aiken SC rental market report",
         "rent-growth + vacancy trend recap 2026"
       ]
