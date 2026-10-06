@@ -2033,6 +2033,62 @@
       ],
       "type": "new",
       "images": "none — Imagen API key invalid (17th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
+    },
+    {
+      "slug": "water-heater-repair-replace-csra-rental-property-landlord-guide",
+      "title": "Water Heater Repair vs. Replace for CSRA Rental Properties: The Owner's Guide",
+      "date": "2026-10-06",
+      "cluster": "maintenance",
+      "subtopic": "water heater repair vs. replace decision framework — age, failure type, cost analysis, tank vs. tankless, Georgia habitability law, IRS tax treatment",
+      "persona": "P3",
+      "intent": "decision-framework/educational/conversion",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Augusta",
+        "Martinez",
+        "Columbia County"
+      ],
+      "primaryKeyword": "water heater repair or replace rental property Georgia",
+      "entities": [
+        "O.C.G.A. § 44-7-13",
+        "Safe at Home Act (HB 404)",
+        "O.C.G.A. § 43-14",
+        "IRS de minimis safe harbor (Treasury Reg. § 1.263(a)-1(f))",
+        "IRS 27.5-year residential depreciation",
+        "Fort Gordon",
+        "Evans GA",
+        "Grovetown GA",
+        "Columbia County",
+        "Augusta GA",
+        "Riverwood Plantation",
+        "Savannah River Site",
+        "Rheem",
+        "HomeServe",
+        "Noah McBride",
+        "Amber McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "Does Georgia law require landlords to provide hot water?",
+        "How long does a water heater last in a rental property?",
+        "What does it cost to replace a water heater in Augusta GA?",
+        "Is a water heater replacement a repair or capital improvement for taxes?",
+        "Should I upgrade to tankless in my rental?",
+        "How quickly must a landlord fix a broken water heater in Georgia?",
+        "Can I charge a tenant for water heater replacement?",
+        "What are warning signs a water heater needs replacing?"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 3,
+      "wordCount": 2750,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "images": "none — Imagen API key invalid (18th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
     }
   ]
 }
