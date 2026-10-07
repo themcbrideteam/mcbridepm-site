@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 90
+    "totalPosts": 91
   },
   "posts": [
     {
@@ -2089,6 +2089,61 @@
       ],
       "type": "new",
       "images": "none — Imagen API key invalid (18th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
+    },
+    {
+      "slug": "renters-insurance-requirements-csra-landlords-georgia",
+      "title": "How Georgia Landlords Require and Verify Renters Insurance",
+      "date": "2026-10-07",
+      "cluster": "insurance",
+      "subtopic": "requiring + verifying tenant renters insurance — lease clause, coverage minimums, COI verification, lapse response",
+      "persona": "P3",
+      "intent": "educational/compliance/conversion — small intentional landlord adding renters insurance requirement to their lease",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "Columbia County",
+        "Fort Gordon"
+      ],
+      "primaryKeyword": "require renters insurance Georgia landlord",
+      "entities": [
+        "O.C.G.A. Title 44 Chapter 7",
+        "Georgia Safe at Home Act (HB 404)",
+        "Fair Housing Act",
+        "Georgia Department of Community Affairs (DCA)",
+        "Georgia DCA Landlord-Tenant Handbook",
+        "AppFolio",
+        "Georgia Association of Realtors (GAR)",
+        "Fort Gordon",
+        "Evans GA",
+        "Grovetown GA",
+        "Martinez GA",
+        "Columbia County",
+        "McBride Property Management",
+        "Noah McBride",
+        "Amber McBride"
+      ],
+      "questionsAnswered": [
+        "Can a Georgia landlord legally require renters insurance?",
+        "What minimum renters insurance coverage should I require?",
+        "How do I verify a tenant has active renters insurance?",
+        "What happens if a tenant's renters insurance lapses mid-lease?",
+        "Does requiring renters insurance violate Fair Housing law?",
+        "How much does renters insurance cost tenants in Georgia?",
+        "Should I be listed as additional insured or additional interested party?",
+        "Can I require renters insurance for a tenant who is already on a lease?"
+      ],
+      "internalLinks": 12,
+      "externalCitations": 4,
+      "wordCount": 2600,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "images": "none — Imagen API key invalid (19th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
     }
   ]
 }
