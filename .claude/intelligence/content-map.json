@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "95 live posts in src/blog/ as of 2026-10-07",
+    "builtFrom": "96 live posts in src/blog/ as of 2026-10-08",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
       "imagen_api_key": "API key invalid for 19 consecutive runs (2026-07-22 through 2026-10-07). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation \u2014 URGENT: escalate to Noah."
@@ -169,7 +169,7 @@
       ]
     },
     "maintenance": {
-      "coverage": 0.70,
+      "coverage": 0.7,
       "authority": "medium-high",
       "posts": [
         "how-maintenance-requests-affect-tenant-retention",
@@ -251,15 +251,14 @@
       "gaps": []
     },
     "inspections": {
-      "coverage": 0.65,
-      "authority": "medium",
+      "coverage": 0.78,
+      "authority": "medium-high",
       "posts": [
         "move-in-move-out-inspection-rental-property-georgia-landlords",
-        "annual-property-inspection-csra-rental-landlord-guide"
+        "annual-property-inspection-csra-rental-landlord-guide",
+        "rental-property-inspection-schedule-csra-landlord-guide"
       ],
-      "gaps": [
-        "drive-by + preventive inspection cadence"
-      ]
+      "gaps": []
     },
     "technology": {
       "coverage": 0.65,
@@ -278,12 +277,13 @@
     "taxes: Schedule E walkthrough for first-year CSRA landlords \u2014 cross-links to the conversion post (P2/P3)",
     "accidental-landlord: divorce + the marital rental property in Georgia (P2)",
     "leasing-screening: showings + applicant flow \u2014 self-show vs agent, CSRA walkthrough (P3)",
-    "inspections: drive-by + preventive inspection cadence (P1/P3)",
+
     "evictions: dispossessory in Richmond vs Columbia County magistrate court \u2014 cost + timeline comparison (P3/P4)",
     "insurance: liability + umbrella coverage for CSRA landlords (P3/P4)",
     "technology: online maintenance requests + tracking \u2014 tenant-side walkthrough (P5)",
     "maintenance: roof + gutter maintenance for GA humidity (P3)",
-    "market-reports: Aiken SC rental market report \u2014 SRS demand, rent ranges, investor guide (P4)"
+    "market-reports: Aiken SC rental market report \u2014 SRS demand, rent ranges, investor guide (P4)",
+    "rent-collection-pricing: online rent collection + autopay \u2014 owner and tenant walkthroughs (P3)"
   ],
   "notes": {
     "imagen_api_key": "API key invalid for 19 consecutive runs (2026-07-22 through 2026-10-07). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation \u2014 URGENT: escalate to Noah."

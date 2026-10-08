@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 91
+    "totalPosts": 92
   },
   "posts": [
     {
@@ -1866,7 +1866,7 @@
       "title": "How to Market Your Rental Property in Augusta, GA in 2026",
       "date": "2026-10-03",
       "cluster": "leasing-screening",
-      "subtopic": "rental property marketing — listing photography, platform selection, pricing strategy, inquiry management funnel",
+      "subtopic": "rental property marketing \u2014 listing photography, platform selection, pricing strategy, inquiry management funnel",
       "persona": "P3",
       "intent": "educational/conversion",
       "cities": [
@@ -1886,7 +1886,7 @@
         "AppFolio",
         "TurboTenant",
         "Fort Gordon",
-        "O.C.G.A. § 44-7-16",
+        "O.C.G.A. \u00a7 44-7-16",
         "Columbia County School District",
         "Evans GA ZIP 30809",
         "Grovetown GA ZIP 30813",
@@ -1915,16 +1915,16 @@
         "HowTo"
       ],
       "type": "new",
-      "images": "none — Imagen API key invalid (15th consecutive run; API_KEY_INVALID — key needs rotation)"
+      "images": "none \u2014 Imagen API key invalid (15th consecutive run; API_KEY_INVALID \u2014 key needs rotation)"
     },
     {
       "slug": "after-hours-rental-emergencies-csra-property-manager",
       "title": "How Your CSRA Property Manager Handles After-Hours Emergencies",
       "date": "2026-10-04",
       "cluster": "vendor-management",
-      "subtopic": "after-hours emergency repair response — dispatch protocol, Georgia habitability law, owner notification chain, maintenance reserve",
+      "subtopic": "after-hours emergency repair response \u2014 dispatch protocol, Georgia habitability law, owner notification chain, maintenance reserve",
       "persona": "P1",
-      "intent": "educational/trust-building/conversion — PCS landlord understanding emergency response before handing over keys",
+      "intent": "educational/trust-building/conversion \u2014 PCS landlord understanding emergency response before handing over keys",
       "cities": [
         "Evans",
         "Grovetown",
@@ -1935,8 +1935,8 @@
       ],
       "primaryKeyword": "emergency property management rental Augusta GA",
       "entities": [
-        "O.C.G.A. § 44-7-13",
-        "O.C.G.A. § 44-7-14.1",
+        "O.C.G.A. \u00a7 44-7-13",
+        "O.C.G.A. \u00a7 44-7-14.1",
         "Georgia Safe at Home Act (HB 404)",
         "O.C.G.A. Title 43",
         "AppFolio",
@@ -1967,14 +1967,14 @@
         "FAQPage"
       ],
       "type": "new",
-      "images": "none — Imagen API key invalid (16th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
+      "images": "none \u2014 Imagen API key invalid (16th consecutive run; API_KEY_INVALID \u2014 key needs rotation URGENT)"
     },
     {
       "slug": "evans-ga-rental-market-investor-guide-2026",
       "title": "Evans, GA Rental Market 2026: What Investors Need to Know",
       "date": "2026-10-05",
       "cluster": "market-reports",
-      "subtopic": "Evans GA rental market deep-dive — rent prices, demand drivers (Fort Gordon, Wellstar CCMC, SRS, AU Med), neighborhood analysis, yield estimates, out-of-state buyer checklist",
+      "subtopic": "Evans GA rental market deep-dive \u2014 rent prices, demand drivers (Fort Gordon, Wellstar CCMC, SRS, AU Med), neighborhood analysis, yield estimates, out-of-state buyer checklist",
       "persona": "P4",
       "intent": "investment-research/conversion",
       "cities": [
@@ -2001,7 +2001,7 @@
         "Fort Gordon Alliance",
         "IRS Publication 527",
         "Georgia HB 399",
-        "O.C.G.A. § 44-7-13",
+        "O.C.G.A. \u00a7 44-7-13",
         "Georgia Safe at Home Act HB 404",
         "Evans GA ZIP 30809",
         "Grovetown GA ZIP 30813",
@@ -2032,14 +2032,14 @@
         "FAQPage"
       ],
       "type": "new",
-      "images": "none — Imagen API key invalid (17th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
+      "images": "none \u2014 Imagen API key invalid (17th consecutive run; API_KEY_INVALID \u2014 key needs rotation URGENT)"
     },
     {
       "slug": "water-heater-repair-replace-csra-rental-property-landlord-guide",
       "title": "Water Heater Repair vs. Replace for CSRA Rental Properties: The Owner's Guide",
       "date": "2026-10-06",
       "cluster": "maintenance",
-      "subtopic": "water heater repair vs. replace decision framework — age, failure type, cost analysis, tank vs. tankless, Georgia habitability law, IRS tax treatment",
+      "subtopic": "water heater repair vs. replace decision framework \u2014 age, failure type, cost analysis, tank vs. tankless, Georgia habitability law, IRS tax treatment",
       "persona": "P3",
       "intent": "decision-framework/educational/conversion",
       "cities": [
@@ -2051,10 +2051,10 @@
       ],
       "primaryKeyword": "water heater repair or replace rental property Georgia",
       "entities": [
-        "O.C.G.A. § 44-7-13",
+        "O.C.G.A. \u00a7 44-7-13",
         "Safe at Home Act (HB 404)",
-        "O.C.G.A. § 43-14",
-        "IRS de minimis safe harbor (Treasury Reg. § 1.263(a)-1(f))",
+        "O.C.G.A. \u00a7 43-14",
+        "IRS de minimis safe harbor (Treasury Reg. \u00a7 1.263(a)-1(f))",
         "IRS 27.5-year residential depreciation",
         "Fort Gordon",
         "Evans GA",
@@ -2088,16 +2088,16 @@
         "HowTo"
       ],
       "type": "new",
-      "images": "none — Imagen API key invalid (18th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
+      "images": "none \u2014 Imagen API key invalid (18th consecutive run; API_KEY_INVALID \u2014 key needs rotation URGENT)"
     },
     {
       "slug": "renters-insurance-requirements-csra-landlords-georgia",
       "title": "How Georgia Landlords Require and Verify Renters Insurance",
       "date": "2026-10-07",
       "cluster": "insurance",
-      "subtopic": "requiring + verifying tenant renters insurance — lease clause, coverage minimums, COI verification, lapse response",
+      "subtopic": "requiring + verifying tenant renters insurance \u2014 lease clause, coverage minimums, COI verification, lapse response",
       "persona": "P3",
-      "intent": "educational/compliance/conversion — small intentional landlord adding renters insurance requirement to their lease",
+      "intent": "educational/compliance/conversion \u2014 small intentional landlord adding renters insurance requirement to their lease",
       "cities": [
         "Evans",
         "Grovetown",
@@ -2143,7 +2143,47 @@
         "HowTo"
       ],
       "type": "new",
-      "images": "none — Imagen API key invalid (19th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
+      "images": "none \u2014 Imagen API key invalid (19th consecutive run; API_KEY_INVALID \u2014 key needs rotation URGENT)"
+    },
+    {
+      "slug": "rental-property-inspection-schedule-csra-landlord-guide",
+      "title": "CSRA Rental Property Inspection Schedule: What Happens Between Annual Walkthroughs",
+      "date": "2026-10-08",
+      "cluster": "inspections",
+      "subtopic": "drive-by and preventive inspection cadence",
+      "persona": "P1",
+      "intent": "educational/trust-building",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Columbia County"
+      ],
+      "primaryKeyword": "rental property inspection schedule CSRA",
+      "entities": [
+        "McBride Property Management",
+        "AppFolio",
+        "Fort Gordon",
+        "Cyber Center of Excellence",
+        "Evans GA",
+        "Grovetown GA",
+        "Georgia Safe at Home Act",
+        "Columbia County"
+      ],
+      "questionsAnswered": [
+        "How often does property manager inspect rental CSRA",
+        "What is a drive-by inspection Georgia",
+        "How do I get inspection reports remotely",
+        "What does GA Safe at Home Act require for inspections"
+      ],
+      "internalLinks": 11,
+      "externalCitations": 4,
+      "wordCount": 2719,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "images": "none (Imagen API key invalid)"
     }
   ]
 }
