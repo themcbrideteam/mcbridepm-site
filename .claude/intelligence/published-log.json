@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 92
+    "totalPosts": 93
   },
   "posts": [
     {
@@ -2184,6 +2184,63 @@
       ],
       "type": "new",
       "images": "none (Imagen API key invalid)"
+    },
+    {
+      "slug": "dispossessory-richmond-columbia-county-georgia-landlord-guide",
+      "title": "CSRA Dispossessory Guide: Richmond County vs. Columbia County",
+      "date": "2026-10-09",
+      "cluster": "evictions",
+      "subtopic": "dispossessory process comparison — Richmond County (Augusta) vs. Columbia County (Evans) magistrate courts: fees, timelines, service, hearing schedule, cure rights",
+      "persona": "P3/P4",
+      "intent": "educational/decision-framework/trust-building",
+      "cities": [
+        "Augusta",
+        "Evans",
+        "Richmond County",
+        "Columbia County",
+        "Grovetown"
+      ],
+      "primaryKeyword": "dispossessory Richmond County Columbia County Georgia landlord",
+      "entities": [
+        "O.C.G.A. § 44-7-50",
+        "O.C.G.A. § 44-7-51(b)",
+        "O.C.G.A. § 44-7-52",
+        "O.C.G.A. § 44-7-55(c)",
+        "O.C.G.A. § 44-7-7",
+        "O.C.G.A. § 15-10-41(b)(1)",
+        "Georgia Safe at Home Act (HB 404)",
+        "Richmond County Magistrate Court",
+        "Columbia County Magistrate Court",
+        "Augusta-Richmond County Judicial Center",
+        "Fort Gordon",
+        "Defense Manpower Data Center (DMDC)",
+        "Evans GA",
+        "Augusta GA",
+        "Grovetown GA",
+        "Columbia County",
+        "Noah McBride",
+        "Amber McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "How much does it cost to file dispossessory in Richmond County GA?",
+        "How long does Georgia dispossessory take from filing to possession?",
+        "Does Georgia require notice to quit before filing dispossessory?",
+        "Where do I file dispossessory — landlord's county or property's county?",
+        "Can a tenant stop a Georgia dispossessory after it's filed?",
+        "Can I represent myself in magistrate court for dispossessory?",
+        "What happens if tenant appeals the dispossessory judgment?",
+        "Does Safe at Home Act affect the dispossessory process?"
+      ],
+      "internalLinks": 11,
+      "externalCitations": 5,
+      "wordCount": 2550,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "images": "none — Imagen API key invalid (20th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
     }
   ]
 }

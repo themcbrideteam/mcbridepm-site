@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "96 live posts in src/blog/ as of 2026-10-08",
+    "builtFrom": "97 live posts in src/blog/ as of 2026-10-09",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
       "imagen_api_key": "API key invalid for 19 consecutive runs (2026-07-22 through 2026-10-07). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation \u2014 URGENT: escalate to Noah."
@@ -155,16 +155,16 @@
       ]
     },
     "evictions": {
-      "coverage": 0.68,
-      "authority": "medium-high",
+      "coverage": 0.76,
+      "authority": "high",
       "posts": [
         "georgia-eviction-process-landlord-guide",
         "georgia-tenant-breaks-lease-early-landlord-guide",
         "south-carolina-eviction-process-aiken-north-augusta-landlords",
-        "cash-for-keys-vs-eviction-georgia-csra-landlords"
+        "cash-for-keys-vs-eviction-georgia-csra-landlords",
+        "dispossessory-richmond-columbia-county-georgia-landlord-guide"
       ],
       "gaps": [
-        "dispossessory in Richmond vs Columbia County magistrate court \u2014 cost + timeline comparison",
         "eviction costs + timeline budget (full owner expense model)"
       ]
     },
