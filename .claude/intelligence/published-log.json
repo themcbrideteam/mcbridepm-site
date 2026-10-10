@@ -2190,7 +2190,7 @@
       "title": "CSRA Dispossessory Guide: Richmond County vs. Columbia County",
       "date": "2026-10-09",
       "cluster": "evictions",
-      "subtopic": "dispossessory process comparison — Richmond County (Augusta) vs. Columbia County (Evans) magistrate courts: fees, timelines, service, hearing schedule, cure rights",
+      "subtopic": "dispossessory process comparison \u2014 Richmond County (Augusta) vs. Columbia County (Evans) magistrate courts: fees, timelines, service, hearing schedule, cure rights",
       "persona": "P3/P4",
       "intent": "educational/decision-framework/trust-building",
       "cities": [
@@ -2202,12 +2202,12 @@
       ],
       "primaryKeyword": "dispossessory Richmond County Columbia County Georgia landlord",
       "entities": [
-        "O.C.G.A. § 44-7-50",
-        "O.C.G.A. § 44-7-51(b)",
-        "O.C.G.A. § 44-7-52",
-        "O.C.G.A. § 44-7-55(c)",
-        "O.C.G.A. § 44-7-7",
-        "O.C.G.A. § 15-10-41(b)(1)",
+        "O.C.G.A. \u00a7 44-7-50",
+        "O.C.G.A. \u00a7 44-7-51(b)",
+        "O.C.G.A. \u00a7 44-7-52",
+        "O.C.G.A. \u00a7 44-7-55(c)",
+        "O.C.G.A. \u00a7 44-7-7",
+        "O.C.G.A. \u00a7 15-10-41(b)(1)",
         "Georgia Safe at Home Act (HB 404)",
         "Richmond County Magistrate Court",
         "Columbia County Magistrate Court",
@@ -2226,7 +2226,7 @@
         "How much does it cost to file dispossessory in Richmond County GA?",
         "How long does Georgia dispossessory take from filing to possession?",
         "Does Georgia require notice to quit before filing dispossessory?",
-        "Where do I file dispossessory — landlord's county or property's county?",
+        "Where do I file dispossessory \u2014 landlord's county or property's county?",
         "Can a tenant stop a Georgia dispossessory after it's filed?",
         "Can I represent myself in magistrate court for dispossessory?",
         "What happens if tenant appeals the dispossessory judgment?",
@@ -2240,7 +2240,60 @@
         "FAQPage"
       ],
       "type": "new",
-      "images": "none — Imagen API key invalid (20th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
+      "images": "none \u2014 Imagen API key invalid (20th consecutive run; API_KEY_INVALID \u2014 key needs rotation URGENT)"
+    },
+    {
+      "slug": "schedule-e-first-year-landlord-georgia-csra",
+      "title": "Schedule E for First-Year Georgia Landlords: CSRA Filing Guide",
+      "date": "2026-10-10",
+      "cluster": "taxes",
+      "subtopic": "Schedule E walkthrough for first-year CSRA landlords",
+      "persona": "P2",
+      "intent": "educational \u2014 tax filing orientation",
+      "cities": [
+        "Evans",
+        "Augusta",
+        "Grovetown",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "Schedule E rental property Georgia",
+      "entities": [
+        "IRS Schedule E",
+        "Form 4562",
+        "IRS Publication 527",
+        "IRC 469",
+        "MACRS",
+        "OBBBA",
+        "Form 8582",
+        "Georgia DOR",
+        "Columbia County",
+        "Evans GA",
+        "Tax Foundation",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "What form do I use to report rental income in Georgia?",
+        "Can I deduct a rental property loss against wages?",
+        "What is the depreciation period for a rental home?",
+        "Does Georgia tax rental income differently?",
+        "Difference between repair and capital improvement",
+        "When does a rental property place in service?",
+        "How do I report security deposits on Schedule E?",
+        "Is mortgage principal deductible?",
+        "Can I deduct property management fees?",
+        "What happens if I only rented part-year?"
+      ],
+      "internalLinks": 13,
+      "externalCitations": 3,
+      "wordCount": 2500,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none \u2014 API_KEY_INVALID (key needs rotation)"
     }
   ]
 }
