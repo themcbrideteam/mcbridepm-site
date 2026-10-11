@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "98 live posts in src/blog/ as of 2026-10-10",
+    "builtFrom": "99 live posts in src/blog/ as of 2026-10-11",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
       "imagen_api_key": "API key invalid for 19 consecutive runs (2026-07-22 through 2026-10-07). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation \u2014 URGENT: escalate to Noah."
@@ -98,18 +98,17 @@
       ]
     },
     "accidental-landlord": {
-      "coverage": 0.85,
+      "coverage": 0.92,
       "authority": "high",
       "posts": [
         "accidental-landlord-augusta-ga-what-to-do",
         "columbia-county-home-wont-sell-rent-it-out",
         "inherited-rental-property-existing-tenants-georgia",
         "rent-or-sell-inherited-home-georgia-augusta",
-        "converting-primary-residence-to-rental-georgia-checklist"
+        "converting-primary-residence-to-rental-georgia-checklist",
+        "divorce-rental-property-georgia-csra-landlords"
       ],
-      "gaps": [
-        "divorce + the marital rental property in GA"
-      ]
+      "gaps": []
     },
     "insurance": {
       "coverage": 0.72,
@@ -274,16 +273,17 @@
   },
   "priorityQueue": [
     "owner-education: reading your owner statement \u2014 what every line item means (P3/P4)",
-    "accidental-landlord: divorce + the marital rental property in Georgia (P2)",
     "leasing-screening: showings + applicant flow \u2014 self-show vs agent, CSRA walkthrough (P3)",
-    "evictions: dispossessory in Richmond vs Columbia County magistrate court \u2014 cost + timeline comparison (P3/P4)",
     "insurance: liability + umbrella coverage for CSRA landlords (P3/P4)",
     "technology: online maintenance requests + tracking \u2014 tenant-side walkthrough (P5)",
     "maintenance: roof + gutter maintenance for GA humidity (P3)",
     "market-reports: Aiken SC rental market report \u2014 SRS demand, rent ranges, investor guide (P4)",
-    "rent-collection-pricing: online rent collection + autopay \u2014 owner and tenant walkthroughs (P3)"
+    "rent-collection-pricing: online rent collection + autopay \u2014 owner and tenant walkthroughs (P3)",
+    "taxes: 1099 + year-end tax-doc checklist for owners (P3)",
+    "tenant-education: tenant move-out + deposit-return process \u2014 what to expect (P5)",
+    "leasing-screening: income + credit screening criteria explained, Fair-Housing-safe (P3)"
   ],
   "notes": {
-    "imagen_api_key": "API key invalid for 20 consecutive runs (2026-07-22 through 2026-10-10). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation \u2014 URGENT: escalate to Noah."
+    "imagen_api_key": "API key invalid for 21 consecutive runs (2026-07-22 through 2026-10-11). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key needs rotation \u2014 URGENT: escalate to Noah."
   }
 }

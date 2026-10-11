@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 93
+    "totalPosts": 94
   },
   "posts": [
     {
@@ -2294,6 +2294,62 @@
       ],
       "type": "new",
       "imageStatus": "none \u2014 API_KEY_INVALID (key needs rotation)"
+    },
+    {
+      "slug": "divorce-rental-property-georgia-csra-landlords",
+      "title": "Divorce and Your Rental Property in Georgia: What CSRA Owners Must Know",
+      "date": "2026-10-11",
+      "cluster": "accidental-landlord",
+      "subtopic": "divorce + marital rental property \u2014 equitable distribution, buyout, quitclaim deed, mortgage, tenant lease survival, IRC \u00a7 1041 basis inheritance, automatic standing order",
+      "persona": "P2",
+      "intent": "educational/decision-framework/conversion",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "divorce rental property Georgia",
+      "entities": [
+        "O.C.G.A. \u00a7 19-5-13",
+        "O.C.G.A. \u00a7 44-7-33",
+        "O.C.G.A. \u00a7 48-6-21(8)",
+        "Ga. Code \u00a7 19-1-1 (automatic standing order)",
+        "IRC \u00a7 1041",
+        "Temp. Reg. \u00a7 1.1041-1T",
+        "IRS Publication 504",
+        "IRS Publication 527",
+        "Section 1250 unrecaptured gain",
+        "Fort Gordon",
+        "Evans GA",
+        "Grovetown GA",
+        "Columbia County",
+        "McBride Property Management",
+        "Noah McBride",
+        "Amber McBride"
+      ],
+      "questionsAnswered": [
+        "Is a rental property marital property in Georgia if only one spouse is on the deed?",
+        "Does a quitclaim deed remove my spouse from the mortgage?",
+        "What happens to the tenant lease when a Georgia rental property changes hands in a divorce?",
+        "Who collects rent during a pending Georgia divorce?",
+        "Does transferring a rental property to a spouse trigger capital gains taxes?",
+        "Who gets to claim depreciation after a divorce?",
+        "What is Georgia's automatic standing order?",
+        "Does Georgia charge real estate transfer tax on divorce property transfers?"
+      ],
+      "internalLinks": 11,
+      "externalCitations": 4,
+      "wordCount": 2850,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "images": "none \u2014 Imagen API key invalid (21st consecutive run; API_KEY_INVALID \u2014 key needs rotation URGENT)"
     }
   ]
 }
