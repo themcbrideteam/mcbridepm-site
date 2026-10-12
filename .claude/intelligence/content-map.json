@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "99 live posts in src/blog/ as of 2026-10-11",
+    "builtFrom": "100 live posts in src/blog/ as of 2026-10-12",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
       "imagen_api_key": "API key invalid for 19 consecutive runs (2026-07-22 through 2026-10-07). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation \u2014 URGENT: escalate to Noah."
@@ -199,16 +199,16 @@
       ]
     },
     "tenant-education": {
-      "coverage": 0.68,
-      "authority": "medium",
+      "coverage": 0.77,
+      "authority": "medium-high",
       "posts": [
         "georgia-tenant-rights-2026-csra-renter-guide",
         "renters-insurance-georgia-what-it-covers",
         "how-to-apply-for-rental-mcbride-property-management",
-        "maintenance-request-tenant-guide-csra-rental"
+        "maintenance-request-tenant-guide-csra-rental",
+        "how-to-move-out-csra-rental-keep-security-deposit"
       ],
       "gaps": [
-        "tenant move-out + deposit-return process (what to expect)",
         "how to break a lease the right way (tenant side)"
       ]
     },
@@ -280,8 +280,8 @@
     "market-reports: Aiken SC rental market report \u2014 SRS demand, rent ranges, investor guide (P4)",
     "rent-collection-pricing: online rent collection + autopay \u2014 owner and tenant walkthroughs (P3)",
     "taxes: 1099 + year-end tax-doc checklist for owners (P3)",
-    "tenant-education: tenant move-out + deposit-return process \u2014 what to expect (P5)",
-    "leasing-screening: income + credit screening criteria explained, Fair-Housing-safe (P3)"
+    "leasing-screening: income + credit screening criteria explained, Fair-Housing-safe (P3)",
+    "tenant-education: how to break a lease early the right way (tenant side) (P5)"
   ],
   "notes": {
     "imagen_api_key": "API key invalid for 21 consecutive runs (2026-07-22 through 2026-10-11). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key needs rotation \u2014 URGENT: escalate to Noah."

@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 94
+    "totalPosts": 99
   },
   "posts": [
     {
@@ -2350,6 +2350,62 @@
       ],
       "type": "new",
       "images": "none \u2014 Imagen API key invalid (21st consecutive run; API_KEY_INVALID \u2014 key needs rotation URGENT)"
+    },
+    {
+      "slug": "how-to-move-out-csra-rental-keep-security-deposit",
+      "title": "How to Move Out of a CSRA Rental and Keep Your Security Deposit",
+      "date": "2026-10-12",
+      "cluster": "tenant-education",
+      "subtopic": "tenant move-out process \u2014 notice requirements, move-out inspection, wear & tear vs damage, cleaning checklist, security deposit return timeline, dispute process",
+      "persona": "P5",
+      "intent": "informational/tenant-education/conversion",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Augusta",
+        "Martinez",
+        "North Augusta",
+        "Aiken",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "CSRA tenant move-out checklist deposit return",
+      "entities": [
+        "O.C.G.A. \u00a7 44-7-7",
+        "O.C.G.A. \u00a7 44-7-33",
+        "O.C.G.A. \u00a7 44-7-34",
+        "O.C.G.A. \u00a7 44-7-35",
+        "Georgia DCA Landlord-Tenant Handbook",
+        "Georgia Safe at Home Act (HB 404)",
+        "Columbia County Magistrate Court",
+        "Richmond County Magistrate Court",
+        "AppFolio",
+        "Evans GA",
+        "Grovetown GA",
+        "Augusta GA",
+        "McBride Property Management",
+        "Noah McBride",
+        "Amber McBride"
+      ],
+      "questionsAnswered": [
+        "How much notice before moving out of Georgia rental?",
+        "When must landlord return deposit in Georgia?",
+        "Can Georgia landlord charge cleaning fee at move-out?",
+        "What is normal wear and tear in Georgia?",
+        "What if landlord misses 30-day deposit return deadline?",
+        "Does landlord have to do move-out inspection in Georgia?",
+        "Can I dispute deposit deductions in Augusta magistrate court?",
+        "Do I need written notice to vacate in Georgia?"
+      ],
+      "internalLinks": 8,
+      "externalCitations": 5,
+      "wordCount": 2650,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "images": "none \u2014 Imagen API key invalid (22nd consecutive run; API_KEY_INVALID)"
     }
   ]
 }
