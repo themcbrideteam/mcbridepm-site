@@ -2406,6 +2406,47 @@
       ],
       "type": "new",
       "images": "none \u2014 Imagen API key invalid (22nd consecutive run; API_KEY_INVALID)"
+    },
+    {
+      "slug": "umbrella-insurance-rental-property-georgia-csra",
+      "title": "Umbrella Insurance for CSRA Rental Properties: An Investor's Guide",
+      "date": "2026-10-13",
+      "cluster": "insurance",
+      "subtopic": "umbrella + excess liability coverage",
+      "persona": "P4",
+      "intent": "educational / decision-support",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Augusta",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "umbrella insurance rental property Georgia",
+      "entities": [
+        "O.C.G.A. \u00a744-7-14",
+        "O.C.G.A. \u00a744-7-13",
+        "Columbia County",
+        "Evans GA",
+        "Grovetown GA",
+        "CSRA"
+      ],
+      "questionsAnswered": [
+        "What is umbrella insurance for rental properties?",
+        "How much landlord liability coverage do I need in Georgia?",
+        "Personal vs commercial umbrella for LLC-owned rentals",
+        "Does Georgia law hold landlords liable for tenant injuries?",
+        "How much does umbrella insurance cost for a Georgia rental?"
+      ],
+      "internalLinks": 8,
+      "externalCitations": 4,
+      "wordCount": 2800,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "images": "none - API_KEY_INVALID"
     }
   ]
 }

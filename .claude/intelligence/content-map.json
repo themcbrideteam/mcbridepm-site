@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "100 live posts in src/blog/ as of 2026-10-12",
+    "builtFrom": "101 live posts in src/blog/ as of 2026-10-13",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
       "imagen_api_key": "API key invalid for 19 consecutive runs (2026-07-22 through 2026-10-07). All posts published text-only. Key returns API_KEY_INVALID. Key needs rotation \u2014 URGENT: escalate to Noah."
@@ -111,16 +111,16 @@
       "gaps": []
     },
     "insurance": {
-      "coverage": 0.72,
-      "authority": "medium-high",
+      "coverage": 0.82,
+      "authority": "high",
       "posts": [
         "landlord-insurance-georgia-rental-property-guide",
         "renters-insurance-georgia-what-it-covers",
-        "renters-insurance-requirements-csra-landlords-georgia"
+        "renters-insurance-requirements-csra-landlords-georgia",
+        "umbrella-insurance-rental-property-georgia-csra"
       ],
       "gaps": [
-        "flood / windstorm exposure for CSRA rentals",
-        "liability + umbrella coverage for landlords"
+        "flood / windstorm exposure for CSRA rentals"
       ]
     },
     "leasing-screening": {
@@ -274,7 +274,6 @@
   "priorityQueue": [
     "owner-education: reading your owner statement \u2014 what every line item means (P3/P4)",
     "leasing-screening: showings + applicant flow \u2014 self-show vs agent, CSRA walkthrough (P3)",
-    "insurance: liability + umbrella coverage for CSRA landlords (P3/P4)",
     "technology: online maintenance requests + tracking \u2014 tenant-side walkthrough (P5)",
     "maintenance: roof + gutter maintenance for GA humidity (P3)",
     "market-reports: Aiken SC rental market report \u2014 SRS demand, rent ranges, investor guide (P4)",
