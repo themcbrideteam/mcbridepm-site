@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 99
+    "totalPosts": 100
   },
   "posts": [
     {
@@ -2447,6 +2447,47 @@
       ],
       "type": "new",
       "images": "none - API_KEY_INVALID"
+    },
+    {
+      "slug": "aiken-sc-rental-market-investor-guide-2026",
+      "title": "Aiken, SC Rental Market 2026: What Investors Need to Know",
+      "date": "2026-10-14",
+      "cluster": "market-reports",
+      "subtopic": "Aiken SC rental market investor guide",
+      "persona": "P4",
+      "intent": "market-research",
+      "cities": [
+        "Aiken SC",
+        "North Augusta SC",
+        "CSRA"
+      ],
+      "primaryKeyword": "Aiken SC rental market 2026",
+      "entities": [
+        "Savannah River Site",
+        "SRS",
+        "Aiken Association of REALTORS",
+        "SCRLTA",
+        "Western SC Economic Development Partnership",
+        "SRNS",
+        "AGY",
+        "Aiken County"
+      ],
+      "questionsAnswered": [
+        "what are rents in Aiken SC 2026",
+        "cap rates Aiken SC",
+        "should I invest in Aiken SC",
+        "SRS rental demand Aiken",
+        "SC landlord law Aiken"
+      ],
+      "internalLinks": 8,
+      "externalCitations": 6,
+      "wordCount": 2400,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "images": "none - API key invalid (INVALID_ARGUMENT, run 22)"
     }
   ]
 }
