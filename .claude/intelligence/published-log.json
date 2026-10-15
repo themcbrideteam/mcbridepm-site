@@ -2488,6 +2488,64 @@
       ],
       "type": "new",
       "images": "none - API key invalid (INVALID_ARGUMENT, run 22)"
+    },
+    {
+      "slug": "rental-property-showings-csra-landlord-guide",
+      "title": "How to Show Your CSRA Rental and Sign a Tenant Fast: 2026 Guide",
+      "date": "2026-10-15",
+      "cluster": "leasing-screening",
+      "subtopic": "property showings + applicant flow — self-show lockbox, owner-guided, PM-guided comparison, Georgia entry rules, Fair Housing compliance, showing-to-lease timeline",
+      "persona": "P3",
+      "intent": "educational/decision-framework/conversion",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "Columbia County",
+        "Richmond County",
+        "Aiken County"
+      ],
+      "primaryKeyword": "rental property showings Augusta GA",
+      "entities": [
+        "O.C.G.A. § 44-7-1",
+        "Fair Housing Act (42 U.S.C. § 3604)",
+        "Fair Credit Reporting Act (15 U.S.C. §§ 1681 et seq.)",
+        "O.C.G.A. § 10-12-1 (Georgia Electronic Records and Signatures Act)",
+        "Georgia Rule 186-2-.03 (Commission on Equal Opportunity, amended Feb 2026)",
+        "HUD April 2024 screening guidance",
+        "Georgia DCA Landlord-Tenant Handbook",
+        "AppFolio",
+        "TransUnion",
+        "Rently",
+        "Fort Gordon",
+        "Columbia County School District",
+        "Evans GA ZIP 30809",
+        "Grovetown GA ZIP 30813",
+        "Noah McBride",
+        "Amber McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "Does Georgia law require notice before showing rental property?",
+        "Can I use a lockbox for self-showings in Georgia?",
+        "What Fair Housing rules apply during a rental showing?",
+        "How many showings to find a tenant in the CSRA?",
+        "Should I show while tenant is still living there?",
+        "What pre-screening questions can I legally ask?",
+        "Fastest way from showing to signed lease in CSRA?",
+        "When should I hand showings to a property manager?"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 4,
+      "wordCount": 3192,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "images": "none — Imagen API key invalid (23rd consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
     }
   ]
 }

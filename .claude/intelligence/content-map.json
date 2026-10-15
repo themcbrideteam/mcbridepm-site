@@ -4,7 +4,7 @@
     "builtFrom": "102 live posts in src/blog/ as of 2026-10-14",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
-      "imagen_api_key": "API key invalid for 22 consecutive runs (2026-07-22 through 2026-10-14). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key needs rotation \u2014 URGENT: escalate to Noah."
+      "imagen_api_key": "API key invalid for 23 consecutive runs (2026-07-22 through 2026-10-15). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key needs rotation — URGENT: escalate to Noah."
     }
   },
   "clusters": {
@@ -124,7 +124,7 @@
       ]
     },
     "leasing-screening": {
-      "coverage": 0.65,
+      "coverage": 0.72,
       "authority": "medium-high",
       "posts": [
         "tenant-screening-process-augusta-ga-landlords",
@@ -132,10 +132,10 @@
         "georgia-lease-agreement-clauses-csra-landlords-2026",
         "lease-renewal-strategies-augusta-ga-landlords",
         "pet-policy-rental-property-augusta-ga-landlord-guide",
-        "marketing-csra-rental-property-lease-fast-augusta-ga"
+        "marketing-csra-rental-property-lease-fast-augusta-ga",
+        "rental-property-showings-csra-landlord-guide"
       ],
       "gaps": [
-        "showings + applicant flow (self-show vs agent)",
         "move-in inspection done right",
         "income/credit screening criteria explained (Fair-Housing-safe)"
       ]
@@ -267,21 +267,21 @@
         "online-rental-applications-property-management-csra-guide"
       ],
       "gaps": [
-        "online maintenance requests + tracking \u2014 tenant-side walkthrough"
+        "online maintenance requests + tracking — tenant-side walkthrough"
       ]
     }
   },
   "priorityQueue": [
-    "owner-education: reading your owner statement \u2014 what every line item means (P3/P4)",
-    "leasing-screening: showings + applicant flow \u2014 self-show vs agent, CSRA walkthrough (P3)",
-    "technology: online maintenance requests + tracking \u2014 tenant-side walkthrough (P5)",
+    "owner-education: reading your owner statement — what every line item means (P3/P4)",
+    "technology: online maintenance requests + tracking — tenant-side walkthrough (P5)",
     "maintenance: roof + gutter maintenance for GA humidity (P3)",
-    "rent-collection-pricing: online rent collection + autopay \u2014 owner and tenant walkthroughs (P3)",
+    "rent-collection-pricing: online rent collection + autopay — owner and tenant walkthroughs (P3)",
     "taxes: 1099 + year-end tax-doc checklist for owners (P3)",
     "leasing-screening: income + credit screening criteria explained, Fair-Housing-safe (P3)",
-    "tenant-education: how to break a lease early the right way (tenant side) (P5)"
+    "tenant-education: how to break a lease early the right way (tenant side) (P5)",
+    "laws-compliance: habitability + local code/minimum housing standards for CSRA landlords (P3)"
   ],
   "notes": {
-    "imagen_api_key": "API key invalid for 22 consecutive runs (2026-07-22 through 2026-10-14). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key needs rotation \u2014 URGENT: escalate to Noah."
+    "imagen_api_key": "API key invalid for 23 consecutive runs (2026-07-22 through 2026-10-15). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key needs rotation — URGENT: escalate to Noah."
   }
 }
