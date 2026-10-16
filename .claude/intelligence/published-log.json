@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 100
+    "totalPosts": 103
   },
   "posts": [
     {
@@ -2488,6 +2488,61 @@
       ],
       "type": "new",
       "images": "none - API key invalid (INVALID_ARGUMENT, run 22)"
+    },
+    {
+      "slug": "reading-owner-statement-property-management-augusta-ga",
+      "title": "Your AppFolio Owner Statement Explained: Every Line Item",
+      "date": "2026-10-16",
+      "cluster": "owner-education",
+      "subtopic": "AppFolio owner statement line items — income, expenses, distribution, reserve, year-end tax context",
+      "persona": "P3",
+      "intent": "educational/transparency/trust-building — small landlord understanding their monthly PM statement",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Augusta",
+        "Martinez",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "owner statement property management Augusta GA",
+      "entities": [
+        "AppFolio",
+        "NARPM",
+        "IRS Publication 527",
+        "Georgia DCA Landlord-Tenant Handbook",
+        "O.C.G.A. § 44-7-13",
+        "Schedule E",
+        "1099-MISC",
+        "IRC § 27.5-year depreciation",
+        "Evans GA",
+        "Grovetown GA",
+        "Columbia County",
+        "McBride Property Management",
+        "Noah McBride",
+        "Amber McBride"
+      ],
+      "questionsAnswered": [
+        "How often does McBride PM send owner statements?",
+        "What is the management fee line on my owner statement?",
+        "Why does my statement show a reserve balance?",
+        "What does owner distribution mean?",
+        "When should I expect my year-end statement for taxes?",
+        "What if I see a charge I don't recognize?",
+        "Can I download my owner statement as a PDF?",
+        "Does the owner statement replace a Schedule E or 1099?",
+        "What is a leasing fee and when does it appear?",
+        "Why is my distribution lower than last month?"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 4,
+      "wordCount": 2774,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "images": "none — Imagen API key invalid (24th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
     },
     {
       "slug": "rental-property-showings-csra-landlord-guide",

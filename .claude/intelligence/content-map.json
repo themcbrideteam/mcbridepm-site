@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "102 live posts in src/blog/ as of 2026-10-14",
+    "builtFrom": "103 live posts in src/blog/ as of 2026-10-16",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
       "imagen_api_key": "API key invalid for 23 consecutive runs (2026-07-22 through 2026-10-15). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key needs rotation — URGENT: escalate to Noah."
@@ -185,16 +185,16 @@
       ]
     },
     "owner-education": {
-      "coverage": 0.75,
+      "coverage": 0.82,
       "authority": "high",
       "posts": [
         "why-hire-property-manager",
         "switching-to-property-manager-csra-augusta-ga",
         "true-cost-self-managing-rental-property-csra",
-        "property-management-fees-augusta-ga-2026"
+        "property-management-fees-augusta-ga-2026",
+        "reading-owner-statement-property-management-augusta-ga"
       ],
       "gaps": [
-        "reading your owner statement",
         "what onboarding with McBride looks like, step by step"
       ]
     },
@@ -272,7 +272,6 @@
     }
   },
   "priorityQueue": [
-    "owner-education: reading your owner statement — what every line item means (P3/P4)",
     "technology: online maintenance requests + tracking — tenant-side walkthrough (P5)",
     "maintenance: roof + gutter maintenance for GA humidity (P3)",
     "rent-collection-pricing: online rent collection + autopay — owner and tenant walkthroughs (P3)",
