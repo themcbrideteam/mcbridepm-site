@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 103
+    "totalPosts": 105
   },
   "posts": [
     {
@@ -2494,9 +2494,9 @@
       "title": "Your AppFolio Owner Statement Explained: Every Line Item",
       "date": "2026-10-16",
       "cluster": "owner-education",
-      "subtopic": "AppFolio owner statement line items — income, expenses, distribution, reserve, year-end tax context",
+      "subtopic": "AppFolio owner statement line items \u2014 income, expenses, distribution, reserve, year-end tax context",
       "persona": "P3",
-      "intent": "educational/transparency/trust-building — small landlord understanding their monthly PM statement",
+      "intent": "educational/transparency/trust-building \u2014 small landlord understanding their monthly PM statement",
       "cities": [
         "Evans",
         "Grovetown",
@@ -2511,10 +2511,10 @@
         "NARPM",
         "IRS Publication 527",
         "Georgia DCA Landlord-Tenant Handbook",
-        "O.C.G.A. § 44-7-13",
+        "O.C.G.A. \u00a7 44-7-13",
         "Schedule E",
         "1099-MISC",
-        "IRC § 27.5-year depreciation",
+        "IRC \u00a7 27.5-year depreciation",
         "Evans GA",
         "Grovetown GA",
         "Columbia County",
@@ -2542,17 +2542,25 @@
         "FAQPage"
       ],
       "type": "new",
-      "images": "none — Imagen API key invalid (24th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
+      "images": "none \u2014 Imagen API key invalid (24th consecutive run; API_KEY_INVALID \u2014 key needs rotation URGENT)"
     },
     {
       "slug": "year-end-tax-checklist-pcs-landlord-csra-2026",
       "title": "Year-End Tax Checklist for CSRA Rental Property Owners: Your 2026 Guide",
       "date": "2026-10-17",
       "cluster": "taxes",
-      "subtopic": "year-end tax document checklist — 1099-MISC from PM, Schedule E line mapping, Georgia nonresident Form 500, deductions CSRA landlords miss, December 31 action items",
+      "subtopic": "year-end tax document checklist \u2014 1099-MISC from PM, Schedule E line mapping, Georgia nonresident Form 500, deductions CSRA landlords miss, December 31 action items",
       "persona": "P1",
-      "intent": "educational/seasonal/decision-framework — PCS landlord managing remotely, preparing year-end tax package",
-      "cities": ["Evans", "Grovetown", "Martinez", "Augusta", "Columbia County", "Richmond County", "Fort Gordon"],
+      "intent": "educational/seasonal/decision-framework \u2014 PCS landlord managing remotely, preparing year-end tax package",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "Columbia County",
+        "Richmond County",
+        "Fort Gordon"
+      ],
       "primaryKeyword": "year-end tax documents rental property CSRA Georgia",
       "entities": [
         "IRS Publication 527",
@@ -2562,7 +2570,7 @@
         "1099-MISC",
         "1099-NEC",
         "Georgia Form 500",
-        "O.C.G.A. § 48-7-1",
+        "O.C.G.A. \u00a7 48-7-1",
         "MACRS 27.5-year depreciation",
         "AppFolio",
         "Fort Gordon",
@@ -2588,16 +2596,20 @@
       "internalLinks": 14,
       "externalCitations": 4,
       "wordCount": 3020,
-      "schema": ["BlogPosting", "FAQPage", "HowTo"],
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
       "type": "new",
-      "images": "none — Imagen API key invalid (25th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
+      "images": "none \u2014 Imagen API key invalid (25th consecutive run; API_KEY_INVALID \u2014 key needs rotation URGENT)"
     },
     {
       "slug": "rental-property-showings-csra-landlord-guide",
       "title": "How to Show Your CSRA Rental and Sign a Tenant Fast: 2026 Guide",
       "date": "2026-10-15",
       "cluster": "leasing-screening",
-      "subtopic": "property showings + applicant flow — self-show lockbox, owner-guided, PM-guided comparison, Georgia entry rules, Fair Housing compliance, showing-to-lease timeline",
+      "subtopic": "property showings + applicant flow \u2014 self-show lockbox, owner-guided, PM-guided comparison, Georgia entry rules, Fair Housing compliance, showing-to-lease timeline",
       "persona": "P3",
       "intent": "educational/decision-framework/conversion",
       "cities": [
@@ -2611,10 +2623,10 @@
       ],
       "primaryKeyword": "rental property showings Augusta GA",
       "entities": [
-        "O.C.G.A. § 44-7-1",
-        "Fair Housing Act (42 U.S.C. § 3604)",
-        "Fair Credit Reporting Act (15 U.S.C. §§ 1681 et seq.)",
-        "O.C.G.A. § 10-12-1 (Georgia Electronic Records and Signatures Act)",
+        "O.C.G.A. \u00a7 44-7-1",
+        "Fair Housing Act (42 U.S.C. \u00a7 3604)",
+        "Fair Credit Reporting Act (15 U.S.C. \u00a7\u00a7 1681 et seq.)",
+        "O.C.G.A. \u00a7 10-12-1 (Georgia Electronic Records and Signatures Act)",
         "Georgia Rule 186-2-.03 (Commission on Equal Opportunity, amended Feb 2026)",
         "HUD April 2024 screening guidance",
         "Georgia DCA Landlord-Tenant Handbook",
@@ -2648,7 +2660,58 @@
         "HowTo"
       ],
       "type": "new",
-      "images": "none — Imagen API key invalid (23rd consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
+      "images": "none \u2014 Imagen API key invalid (23rd consecutive run; API_KEY_INVALID \u2014 key needs rotation URGENT)"
+    },
+    {
+      "slug": "roof-gutter-maintenance-csra-rental-property-georgia",
+      "title": "Roof and Gutter Maintenance for Your CSRA Rental Property",
+      "date": "2026-10-18",
+      "cluster": "maintenance",
+      "subtopic": "roof and gutter maintenance, Georgia habitability law, CSRA climate factors, CapEx planning, cleaning schedule",
+      "persona": "P3",
+      "intent": "educational/legal-reference/CapEx-planning/conversion",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Augusta",
+        "Martinez",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "roof gutter maintenance rental property Augusta GA",
+      "entities": [
+        "O.C.G.A. \u00a7 44-7-13",
+        "O.C.G.A. \u00a7 44-7-2(b)",
+        "O.C.G.A. \u00a7 44-7-16",
+        "Georgia Safe at Home Act (HB 404)",
+        "National Roofing Contractors Association (NRCA)",
+        "Loblolly Pine",
+        "Columbia County",
+        "Evans GA (ZIP 30809)",
+        "Grovetown GA (ZIP 30813)",
+        "Fort Gordon",
+        "AppFolio"
+      ],
+      "questionsAnswered": [
+        "How often should landlords clean gutters on a CSRA rental?",
+        "Who is responsible for roof and gutter maintenance in a Georgia rental?",
+        "What does Georgia Safe at Home Act say about habitability and roofs?",
+        "What should I budget for roof and gutter maintenance on a CSRA rental?",
+        "When should a CSRA landlord replace vs. repair a roof?",
+        "Can a Georgia tenant deduct gutter cleaning from rent?",
+        "What roofing materials hold up best in Augusta GA climate?",
+        "Does McBride PM handle gutter maintenance for owners?"
+      ],
+      "internalLinks": 14,
+      "externalCitations": 3,
+      "wordCount": 3078,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none \u2014 Imagen API key invalid (24th consecutive run; key returns 400 INVALID_ARGUMENT on both content-map stored key and routine prompt key)"
     }
   ]
 }
