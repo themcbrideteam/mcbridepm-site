@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 105
+    "totalPosts": 106
   },
   "posts": [
     {
@@ -932,10 +932,10 @@
       ],
       "primaryKeyword": "move-in inspection rental property Georgia landlord",
       "entities": [
-        "O.C.G.A. \u00a7 44-7-33",
-        "O.C.G.A. \u00a7 44-7-34",
-        "O.C.G.A. \u00a7 44-7-35",
-        "O.C.G.A. \u00a7 44-7-36",
+        "O.C.G.A. § 44-7-33",
+        "O.C.G.A. § 44-7-34",
+        "O.C.G.A. § 44-7-35",
+        "O.C.G.A. § 44-7-36",
         "Safe at Home Act",
         "HB 404",
         "Columbia County Magistrate Court",
@@ -984,7 +984,7 @@
       "primaryKeyword": "property management maintenance vendors Augusta GA",
       "entities": [
         "O.C.G.A. Title 43",
-        "O.C.G.A. \u00a7 34-9",
+        "O.C.G.A. § 34-9",
         "Georgia State Construction Industry Licensing Board",
         "EPA Section 608",
         "Safe at Home Act HB 404",
@@ -1016,7 +1016,7 @@
         "HowTo"
       ],
       "type": "new",
-      "imageStatus": "none \u2014 Imagen API key invalid this run"
+      "imageStatus": "none — Imagen API key invalid this run"
     },
     {
       "slug": "appfolio-owner-portal-property-management-augusta-ga",
@@ -1040,7 +1040,7 @@
         "McBride Property Management",
         "Noah McBride",
         "Amber McBride",
-        "O.C.G.A. \u00a7 44-7-50",
+        "O.C.G.A. § 44-7-50",
         "Evans GA",
         "Augusta GA",
         "Martinez GA",
@@ -1071,7 +1071,7 @@
         "HowTo"
       ],
       "type": "new",
-      "imageStatus": "none \u2014 Imagen API key invalid this run (second consecutive run)"
+      "imageStatus": "none — Imagen API key invalid this run (second consecutive run)"
     },
     {
       "slug": "georgia-tenant-late-rent-landlord-guide",
@@ -1091,7 +1091,7 @@
       ],
       "primaryKeyword": "tenant late on rent Georgia landlord",
       "entities": [
-        "O.C.G.A. \u00a7 44-7-50",
+        "O.C.G.A. § 44-7-50",
         "Safe at Home Act (HB 404)",
         "Columbia County Magistrate Court",
         "Richmond County Magistrate Court",
@@ -1147,7 +1147,7 @@
         "Plant Vogtle",
         "Augusta University Medical Center",
         "Georgia Safe at Home Act (HB 404)",
-        "O.C.G.A. \u00a7 44-7-13",
+        "O.C.G.A. § 44-7-13",
         "ZIP 30815",
         "Highway 1 / Deans Bridge Road",
         "LinkedIn Cities on the Rise 2026"
@@ -1170,7 +1170,7 @@
         "FAQPage"
       ],
       "type": "new",
-      "imageStatus": "none \u2014 Imagen API key invalid (fourth consecutive run)"
+      "imageStatus": "none — Imagen API key invalid (fourth consecutive run)"
     },
     {
       "slug": "annual-property-inspection-csra-rental-landlord-guide",
@@ -1189,9 +1189,9 @@
       ],
       "primaryKeyword": "annual property inspection rental Augusta GA",
       "entities": [
-        "O.C.G.A. \u00a7 44-7-16",
-        "O.C.G.A. \u00a7 44-7-50",
-        "O.C.G.A. \u00a7 44-7-13",
+        "O.C.G.A. § 44-7-16",
+        "O.C.G.A. § 44-7-50",
+        "O.C.G.A. § 44-7-13",
         "Georgia Safe at Home Act (HB 404)",
         "NARPM",
         "AppFolio",
@@ -1219,7 +1219,7 @@
         "HowTo"
       ],
       "type": "new",
-      "imageStatus": "none \u2014 Imagen API key invalid (fifth consecutive run; key returns API_KEY_INVALID)"
+      "imageStatus": "none — Imagen API key invalid (fifth consecutive run; key returns API_KEY_INVALID)"
     },
     {
       "slug": "south-carolina-eviction-process-aiken-north-augusta-landlords",
@@ -1236,11 +1236,11 @@
       ],
       "primaryKeyword": "South Carolina eviction process Aiken landlord",
       "entities": [
-        "SC Code \u00a7 27-37-10",
+        "SC Code § 27-37-10",
         "SC Code Title 27 Chapter 37",
-        "SC Code \u00a7 27-40-440",
-        "SC Code \u00a7 27-40-650",
-        "SC Code \u00a7 22-3-340",
+        "SC Code § 27-40-440",
+        "SC Code § 27-40-650",
+        "SC Code § 22-3-340",
         "South Carolina Residential Landlord and Tenant Act",
         "Aiken County Magistrate Court",
         "North Augusta Magistrate Court",
@@ -1275,7 +1275,7 @@
         "HowTo"
       ],
       "type": "new",
-      "imageStatus": "none \u2014 Imagen API key invalid (sixth consecutive run; key returns API_KEY_INVALID)"
+      "imageStatus": "none — Imagen API key invalid (sixth consecutive run; key returns API_KEY_INVALID)"
     },
     {
       "slug": "service-animal-esa-rental-property-georgia-landlord-guide",
@@ -1294,12 +1294,12 @@
       ],
       "primaryKeyword": "service animal emotional support animal rental property Georgia",
       "entities": [
-        "42 U.S.C. \u00a7 3604",
+        "42 U.S.C. § 3604",
         "Fair Housing Act",
         "HUD FHEO May 22 2026 memorandum",
         "FHEO-2020-01 (rescinded)",
         "FHEO-2013-01 (rescinded)",
-        "O.C.G.A. \u00a7\u00a7 8-3-200 through 8-3-223",
+        "O.C.G.A. §§ 8-3-200 through 8-3-223",
         "Georgia Commission on Equal Opportunity",
         "Americans with Disabilities Act (ADA)",
         "Executive Order 14219",
@@ -1329,7 +1329,7 @@
         "HowTo"
       ],
       "type": "new",
-      "imageStatus": "none \u2014 Imagen API key invalid (seventh consecutive run; key returns API_KEY_INVALID)"
+      "imageStatus": "none — Imagen API key invalid (seventh consecutive run; key returns API_KEY_INVALID)"
     },
     {
       "slug": "diy-vs-licensed-contractor-georgia-rental-property-repairs",
@@ -1349,10 +1349,10 @@
       ],
       "primaryKeyword": "licensed contractor rental property Georgia",
       "entities": [
-        "O.C.G.A. \u00a7 43-41",
-        "O.C.G.A. \u00a7 43-14",
-        "O.C.G.A. \u00a7 44-7-13",
-        "O.C.G.A. \u00a7 44-7-14",
+        "O.C.G.A. § 43-41",
+        "O.C.G.A. § 43-14",
+        "O.C.G.A. § 44-7-13",
+        "O.C.G.A. § 44-7-14",
         "Georgia Safe at Home Act (HB 404)",
         "Georgia Construction Industry Licensing Board",
         "Georgia Secretary of State",
@@ -1383,7 +1383,7 @@
       "title": "CSRA Rental Market: Fall 2026 Update for Out-of-State Investors",
       "date": "2026-09-13",
       "cluster": "market-reports",
-      "subtopic": "Q3/Q4 2026 market update \u2014 Wellstar opening, Fort Gordon cyber campus, rent trends",
+      "subtopic": "Q3/Q4 2026 market update — Wellstar opening, Fort Gordon cyber campus, rent trends",
       "persona": "P4",
       "intent": "investment-research",
       "cities": [
@@ -1418,7 +1418,7 @@
         "FAQPage"
       ],
       "type": "new",
-      "images": "none \u2014 API key invalid"
+      "images": "none — API key invalid"
     },
     {
       "slug": "fort-gordon-military-tenant-rental-demand-augusta",
@@ -1463,7 +1463,7 @@
       ],
       "type": "refresh",
       "refreshOf": "fort-eisenhower-military-tenant-rental-demand-augusta",
-      "images": "none \u2014 API key invalid"
+      "images": "none — API key invalid"
     },
     {
       "slug": "fall-maintenance-checklist-csra-rental-property-landlords",
@@ -1530,7 +1530,7 @@
       ],
       "primaryKeyword": "HOA violation rental property Georgia landlord",
       "entities": [
-        "O.C.G.A. \u00a7 44-3-223",
+        "O.C.G.A. § 44-3-223",
         "Georgia Property Owners Association Act",
         "SB 406",
         "Columbia County",
@@ -1559,9 +1559,9 @@
       "title": "Property Management Fees in Augusta, GA: A Transparent 2026 Breakdown",
       "date": "2026-09-26",
       "cluster": "owner-education",
-      "subtopic": "PM fee structures \u2014 management %, leasing fee, renewal fee, maintenance markup, flat vs percentage, all-in annual cost model",
+      "subtopic": "PM fee structures — management %, leasing fee, renewal fee, maintenance markup, flat vs percentage, all-in annual cost model",
       "persona": "P3/P4 multi-persona",
-      "intent": "educational/conversion \u2014 pre-signup research for owners considering professional management",
+      "intent": "educational/conversion — pre-signup research for owners considering professional management",
       "cities": [
         "Evans",
         "Grovetown",
@@ -1590,7 +1590,7 @@
         "What is a lease renewal fee?",
         "Do property managers mark up maintenance costs?",
         "Are property management fees tax-deductible in Georgia?",
-        "Flat fee vs percentage management fee \u2014 which is better?",
+        "Flat fee vs percentage management fee — which is better?",
         "What should I budget for total PM costs in the CSRA?",
         "When are property management fees charged?"
       ],
@@ -1603,16 +1603,16 @@
         "HowTo"
       ],
       "type": "new",
-      "images": "none \u2014 API key invalid (10th consecutive run; Imagen key returns API_KEY_INVALID \u2014 key needs rotation)"
+      "images": "none — API key invalid (10th consecutive run; Imagen key returns API_KEY_INVALID — key needs rotation)"
     },
     {
       "slug": "online-rental-applications-property-management-csra-guide",
       "title": "Online Tenant Applications in the CSRA: How the Full Process Works",
       "date": "2026-09-27",
       "cluster": "technology",
-      "subtopic": "online application workflow \u2014 listing syndication, AppFolio tenant application portal, TransUnion screening, FCRA adverse action, digital lease e-signature",
+      "subtopic": "online application workflow — listing syndication, AppFolio tenant application portal, TransUnion screening, FCRA adverse action, digital lease e-signature",
       "persona": "P1",
-      "intent": "educational/trust-building/conversion \u2014 PCS landlord understanding remote application management",
+      "intent": "educational/trust-building/conversion — PCS landlord understanding remote application management",
       "cities": [
         "Evans",
         "Grovetown",
@@ -1625,11 +1625,11 @@
       "entities": [
         "AppFolio",
         "TransUnion",
-        "Fair Credit Reporting Act (15 U.S.C. \u00a7\u00a7 1681 et seq.)",
-        "15 U.S.C. \u00a7 1681m",
+        "Fair Credit Reporting Act (15 U.S.C. §§ 1681 et seq.)",
+        "15 U.S.C. § 1681m",
         "HUD FHEO criminal records guidance 2016",
-        "O.C.G.A. \u00a7 44-7-31",
-        "O.C.G.A. \u00a7 10-12-1 (Georgia Electronic Records and Signatures Act)",
+        "O.C.G.A. § 44-7-31",
+        "O.C.G.A. § 10-12-1 (Georgia Electronic Records and Signatures Act)",
         "Defense Manpower Data Center (DMDC)",
         "Fort Gordon",
         "Evans GA",
@@ -1656,14 +1656,14 @@
         "HowTo"
       ],
       "type": "new",
-      "images": "none \u2014 API key invalid (11th consecutive run; key returns API_KEY_INVALID)"
+      "images": "none — API key invalid (11th consecutive run; key returns API_KEY_INVALID)"
     },
     {
       "slug": "converting-primary-residence-to-rental-georgia-checklist",
       "title": "Converting Your Georgia Home to a Rental: The Complete Checklist",
       "date": "2026-09-29",
       "cluster": "accidental-landlord",
-      "subtopic": "converting primary residence to rental \u2014 mortgage, insurance, tax, Safe at Home Act, HB 399",
+      "subtopic": "converting primary residence to rental — mortgage, insurance, tax, Safe at Home Act, HB 399",
       "persona": "P2",
       "intent": "education + conversion",
       "cities": [
@@ -1680,9 +1680,9 @@
         "IRS Publication 925",
         "Georgia Safe at Home Act HB 404",
         "Georgia HB 399",
-        "O.C.G.A. \u00a7 43-40-25",
+        "O.C.G.A. § 43-40-25",
         "O.C.G.A. Title 44 Chapter 7",
-        "IRC \u00a7121",
+        "IRC §121",
         "Evans GA",
         "Grovetown GA",
         "Fort Gordon",
@@ -1716,7 +1716,7 @@
       "title": "Renting in Aiken, SC: Your Complete 2026 Tenant Guide",
       "date": "2026-10-01",
       "cluster": "city-guides",
-      "subtopic": "Aiken SC rental guide \u2014 rent prices, SRS commute, neighborhoods, SC SCRLTA tenant rights, security deposits, application process",
+      "subtopic": "Aiken SC rental guide — rent prices, SRS commute, neighborhoods, SC SCRLTA tenant rights, security deposits, application process",
       "persona": "P5",
       "intent": "informational/city-guide/tenant-conversion",
       "cities": [
@@ -1731,11 +1731,11 @@
       "primaryKeyword": "renting in Aiken SC",
       "entities": [
         "Savannah River Site (SRS)",
-        "SC Code \u00a727-40-410",
-        "SC Code \u00a727-40-440",
-        "SC Code \u00a727-40-530",
-        "SC Code \u00a727-40-710(B)",
-        "SC Code \u00a727-40-770",
+        "SC Code §27-40-410",
+        "SC Code §27-40-440",
+        "SC Code §27-40-530",
+        "SC Code §27-40-710(B)",
+        "SC Code §27-40-770",
         "South Carolina Residential Landlord and Tenant Act (SCRLTA)",
         "HUD Fair Market Rents Aiken County 2026",
         "Rolls-Royce Solutions America",
@@ -1765,14 +1765,14 @@
         "FAQPage"
       ],
       "type": "new",
-      "images": "none \u2014 Imagen API key invalid (13th consecutive run; API_KEY_INVALID)"
+      "images": "none — Imagen API key invalid (13th consecutive run; API_KEY_INVALID)"
     },
     {
       "slug": "cash-for-keys-vs-eviction-georgia-csra-landlords",
       "title": "Cash for Keys vs. Eviction in Georgia: When to Negotiate, When to File",
       "date": "2026-09-30",
       "cluster": "evictions",
-      "subtopic": "cash-for-keys agreement vs dispossessory Georgia \u2014 when to negotiate, when to file, cost comparison",
+      "subtopic": "cash-for-keys agreement vs dispossessory Georgia — when to negotiate, when to file, cost comparison",
       "persona": "P4",
       "intent": "educational / trust-building / conversion",
       "cities": [
@@ -1786,8 +1786,8 @@
       "primaryKeyword": "cash for keys Georgia landlord",
       "entities": [
         "O.C.G.A. Title 44 Chapter 7",
-        "O.C.G.A. \u00a7 44-7-50",
-        "O.C.G.A. \u00a7 44-7-55",
+        "O.C.G.A. § 44-7-50",
+        "O.C.G.A. § 44-7-55",
         "Georgia Safe at Home Act HB 404",
         "Richmond County Magistrate Court",
         "Columbia County Magistrate Court",
@@ -1817,7 +1817,7 @@
         "HowTo"
       ],
       "type": "new",
-      "images": "none \u2014 Imagen API key invalid (12th consecutive run)"
+      "images": "none — Imagen API key invalid (12th consecutive run)"
     },
     {
       "slug": "lease-renewal-pricing-csra-rental-property-owners",
@@ -1866,7 +1866,7 @@
       "title": "How to Market Your Rental Property in Augusta, GA in 2026",
       "date": "2026-10-03",
       "cluster": "leasing-screening",
-      "subtopic": "rental property marketing \u2014 listing photography, platform selection, pricing strategy, inquiry management funnel",
+      "subtopic": "rental property marketing — listing photography, platform selection, pricing strategy, inquiry management funnel",
       "persona": "P3",
       "intent": "educational/conversion",
       "cities": [
@@ -1886,7 +1886,7 @@
         "AppFolio",
         "TurboTenant",
         "Fort Gordon",
-        "O.C.G.A. \u00a7 44-7-16",
+        "O.C.G.A. § 44-7-16",
         "Columbia County School District",
         "Evans GA ZIP 30809",
         "Grovetown GA ZIP 30813",
@@ -1915,16 +1915,16 @@
         "HowTo"
       ],
       "type": "new",
-      "images": "none \u2014 Imagen API key invalid (15th consecutive run; API_KEY_INVALID \u2014 key needs rotation)"
+      "images": "none — Imagen API key invalid (15th consecutive run; API_KEY_INVALID — key needs rotation)"
     },
     {
       "slug": "after-hours-rental-emergencies-csra-property-manager",
       "title": "How Your CSRA Property Manager Handles After-Hours Emergencies",
       "date": "2026-10-04",
       "cluster": "vendor-management",
-      "subtopic": "after-hours emergency repair response \u2014 dispatch protocol, Georgia habitability law, owner notification chain, maintenance reserve",
+      "subtopic": "after-hours emergency repair response — dispatch protocol, Georgia habitability law, owner notification chain, maintenance reserve",
       "persona": "P1",
-      "intent": "educational/trust-building/conversion \u2014 PCS landlord understanding emergency response before handing over keys",
+      "intent": "educational/trust-building/conversion — PCS landlord understanding emergency response before handing over keys",
       "cities": [
         "Evans",
         "Grovetown",
@@ -1935,8 +1935,8 @@
       ],
       "primaryKeyword": "emergency property management rental Augusta GA",
       "entities": [
-        "O.C.G.A. \u00a7 44-7-13",
-        "O.C.G.A. \u00a7 44-7-14.1",
+        "O.C.G.A. § 44-7-13",
+        "O.C.G.A. § 44-7-14.1",
         "Georgia Safe at Home Act (HB 404)",
         "O.C.G.A. Title 43",
         "AppFolio",
@@ -1967,14 +1967,14 @@
         "FAQPage"
       ],
       "type": "new",
-      "images": "none \u2014 Imagen API key invalid (16th consecutive run; API_KEY_INVALID \u2014 key needs rotation URGENT)"
+      "images": "none — Imagen API key invalid (16th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
     },
     {
       "slug": "evans-ga-rental-market-investor-guide-2026",
       "title": "Evans, GA Rental Market 2026: What Investors Need to Know",
       "date": "2026-10-05",
       "cluster": "market-reports",
-      "subtopic": "Evans GA rental market deep-dive \u2014 rent prices, demand drivers (Fort Gordon, Wellstar CCMC, SRS, AU Med), neighborhood analysis, yield estimates, out-of-state buyer checklist",
+      "subtopic": "Evans GA rental market deep-dive — rent prices, demand drivers (Fort Gordon, Wellstar CCMC, SRS, AU Med), neighborhood analysis, yield estimates, out-of-state buyer checklist",
       "persona": "P4",
       "intent": "investment-research/conversion",
       "cities": [
@@ -2001,7 +2001,7 @@
         "Fort Gordon Alliance",
         "IRS Publication 527",
         "Georgia HB 399",
-        "O.C.G.A. \u00a7 44-7-13",
+        "O.C.G.A. § 44-7-13",
         "Georgia Safe at Home Act HB 404",
         "Evans GA ZIP 30809",
         "Grovetown GA ZIP 30813",
@@ -2032,14 +2032,14 @@
         "FAQPage"
       ],
       "type": "new",
-      "images": "none \u2014 Imagen API key invalid (17th consecutive run; API_KEY_INVALID \u2014 key needs rotation URGENT)"
+      "images": "none — Imagen API key invalid (17th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
     },
     {
       "slug": "water-heater-repair-replace-csra-rental-property-landlord-guide",
       "title": "Water Heater Repair vs. Replace for CSRA Rental Properties: The Owner's Guide",
       "date": "2026-10-06",
       "cluster": "maintenance",
-      "subtopic": "water heater repair vs. replace decision framework \u2014 age, failure type, cost analysis, tank vs. tankless, Georgia habitability law, IRS tax treatment",
+      "subtopic": "water heater repair vs. replace decision framework — age, failure type, cost analysis, tank vs. tankless, Georgia habitability law, IRS tax treatment",
       "persona": "P3",
       "intent": "decision-framework/educational/conversion",
       "cities": [
@@ -2051,10 +2051,10 @@
       ],
       "primaryKeyword": "water heater repair or replace rental property Georgia",
       "entities": [
-        "O.C.G.A. \u00a7 44-7-13",
+        "O.C.G.A. § 44-7-13",
         "Safe at Home Act (HB 404)",
-        "O.C.G.A. \u00a7 43-14",
-        "IRS de minimis safe harbor (Treasury Reg. \u00a7 1.263(a)-1(f))",
+        "O.C.G.A. § 43-14",
+        "IRS de minimis safe harbor (Treasury Reg. § 1.263(a)-1(f))",
         "IRS 27.5-year residential depreciation",
         "Fort Gordon",
         "Evans GA",
@@ -2088,16 +2088,16 @@
         "HowTo"
       ],
       "type": "new",
-      "images": "none \u2014 Imagen API key invalid (18th consecutive run; API_KEY_INVALID \u2014 key needs rotation URGENT)"
+      "images": "none — Imagen API key invalid (18th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
     },
     {
       "slug": "renters-insurance-requirements-csra-landlords-georgia",
       "title": "How Georgia Landlords Require and Verify Renters Insurance",
       "date": "2026-10-07",
       "cluster": "insurance",
-      "subtopic": "requiring + verifying tenant renters insurance \u2014 lease clause, coverage minimums, COI verification, lapse response",
+      "subtopic": "requiring + verifying tenant renters insurance — lease clause, coverage minimums, COI verification, lapse response",
       "persona": "P3",
-      "intent": "educational/compliance/conversion \u2014 small intentional landlord adding renters insurance requirement to their lease",
+      "intent": "educational/compliance/conversion — small intentional landlord adding renters insurance requirement to their lease",
       "cities": [
         "Evans",
         "Grovetown",
@@ -2143,7 +2143,7 @@
         "HowTo"
       ],
       "type": "new",
-      "images": "none \u2014 Imagen API key invalid (19th consecutive run; API_KEY_INVALID \u2014 key needs rotation URGENT)"
+      "images": "none — Imagen API key invalid (19th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
     },
     {
       "slug": "rental-property-inspection-schedule-csra-landlord-guide",
@@ -2190,7 +2190,7 @@
       "title": "CSRA Dispossessory Guide: Richmond County vs. Columbia County",
       "date": "2026-10-09",
       "cluster": "evictions",
-      "subtopic": "dispossessory process comparison \u2014 Richmond County (Augusta) vs. Columbia County (Evans) magistrate courts: fees, timelines, service, hearing schedule, cure rights",
+      "subtopic": "dispossessory process comparison — Richmond County (Augusta) vs. Columbia County (Evans) magistrate courts: fees, timelines, service, hearing schedule, cure rights",
       "persona": "P3/P4",
       "intent": "educational/decision-framework/trust-building",
       "cities": [
@@ -2202,12 +2202,12 @@
       ],
       "primaryKeyword": "dispossessory Richmond County Columbia County Georgia landlord",
       "entities": [
-        "O.C.G.A. \u00a7 44-7-50",
-        "O.C.G.A. \u00a7 44-7-51(b)",
-        "O.C.G.A. \u00a7 44-7-52",
-        "O.C.G.A. \u00a7 44-7-55(c)",
-        "O.C.G.A. \u00a7 44-7-7",
-        "O.C.G.A. \u00a7 15-10-41(b)(1)",
+        "O.C.G.A. § 44-7-50",
+        "O.C.G.A. § 44-7-51(b)",
+        "O.C.G.A. § 44-7-52",
+        "O.C.G.A. § 44-7-55(c)",
+        "O.C.G.A. § 44-7-7",
+        "O.C.G.A. § 15-10-41(b)(1)",
         "Georgia Safe at Home Act (HB 404)",
         "Richmond County Magistrate Court",
         "Columbia County Magistrate Court",
@@ -2226,7 +2226,7 @@
         "How much does it cost to file dispossessory in Richmond County GA?",
         "How long does Georgia dispossessory take from filing to possession?",
         "Does Georgia require notice to quit before filing dispossessory?",
-        "Where do I file dispossessory \u2014 landlord's county or property's county?",
+        "Where do I file dispossessory — landlord's county or property's county?",
         "Can a tenant stop a Georgia dispossessory after it's filed?",
         "Can I represent myself in magistrate court for dispossessory?",
         "What happens if tenant appeals the dispossessory judgment?",
@@ -2240,7 +2240,7 @@
         "FAQPage"
       ],
       "type": "new",
-      "images": "none \u2014 Imagen API key invalid (20th consecutive run; API_KEY_INVALID \u2014 key needs rotation URGENT)"
+      "images": "none — Imagen API key invalid (20th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
     },
     {
       "slug": "schedule-e-first-year-landlord-georgia-csra",
@@ -2249,7 +2249,7 @@
       "cluster": "taxes",
       "subtopic": "Schedule E walkthrough for first-year CSRA landlords",
       "persona": "P2",
-      "intent": "educational \u2014 tax filing orientation",
+      "intent": "educational — tax filing orientation",
       "cities": [
         "Evans",
         "Augusta",
@@ -2293,14 +2293,14 @@
         "HowTo"
       ],
       "type": "new",
-      "imageStatus": "none \u2014 API_KEY_INVALID (key needs rotation)"
+      "imageStatus": "none — API_KEY_INVALID (key needs rotation)"
     },
     {
       "slug": "divorce-rental-property-georgia-csra-landlords",
       "title": "Divorce and Your Rental Property in Georgia: What CSRA Owners Must Know",
       "date": "2026-10-11",
       "cluster": "accidental-landlord",
-      "subtopic": "divorce + marital rental property \u2014 equitable distribution, buyout, quitclaim deed, mortgage, tenant lease survival, IRC \u00a7 1041 basis inheritance, automatic standing order",
+      "subtopic": "divorce + marital rental property — equitable distribution, buyout, quitclaim deed, mortgage, tenant lease survival, IRC § 1041 basis inheritance, automatic standing order",
       "persona": "P2",
       "intent": "educational/decision-framework/conversion",
       "cities": [
@@ -2313,12 +2313,12 @@
       ],
       "primaryKeyword": "divorce rental property Georgia",
       "entities": [
-        "O.C.G.A. \u00a7 19-5-13",
-        "O.C.G.A. \u00a7 44-7-33",
-        "O.C.G.A. \u00a7 48-6-21(8)",
-        "Ga. Code \u00a7 19-1-1 (automatic standing order)",
-        "IRC \u00a7 1041",
-        "Temp. Reg. \u00a7 1.1041-1T",
+        "O.C.G.A. § 19-5-13",
+        "O.C.G.A. § 44-7-33",
+        "O.C.G.A. § 48-6-21(8)",
+        "Ga. Code § 19-1-1 (automatic standing order)",
+        "IRC § 1041",
+        "Temp. Reg. § 1.1041-1T",
         "IRS Publication 504",
         "IRS Publication 527",
         "Section 1250 unrecaptured gain",
@@ -2349,14 +2349,14 @@
         "HowTo"
       ],
       "type": "new",
-      "images": "none \u2014 Imagen API key invalid (21st consecutive run; API_KEY_INVALID \u2014 key needs rotation URGENT)"
+      "images": "none — Imagen API key invalid (21st consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
     },
     {
       "slug": "how-to-move-out-csra-rental-keep-security-deposit",
       "title": "How to Move Out of a CSRA Rental and Keep Your Security Deposit",
       "date": "2026-10-12",
       "cluster": "tenant-education",
-      "subtopic": "tenant move-out process \u2014 notice requirements, move-out inspection, wear & tear vs damage, cleaning checklist, security deposit return timeline, dispute process",
+      "subtopic": "tenant move-out process — notice requirements, move-out inspection, wear & tear vs damage, cleaning checklist, security deposit return timeline, dispute process",
       "persona": "P5",
       "intent": "informational/tenant-education/conversion",
       "cities": [
@@ -2371,10 +2371,10 @@
       ],
       "primaryKeyword": "CSRA tenant move-out checklist deposit return",
       "entities": [
-        "O.C.G.A. \u00a7 44-7-7",
-        "O.C.G.A. \u00a7 44-7-33",
-        "O.C.G.A. \u00a7 44-7-34",
-        "O.C.G.A. \u00a7 44-7-35",
+        "O.C.G.A. § 44-7-7",
+        "O.C.G.A. § 44-7-33",
+        "O.C.G.A. § 44-7-34",
+        "O.C.G.A. § 44-7-35",
         "Georgia DCA Landlord-Tenant Handbook",
         "Georgia Safe at Home Act (HB 404)",
         "Columbia County Magistrate Court",
@@ -2405,7 +2405,7 @@
         "FAQPage"
       ],
       "type": "new",
-      "images": "none \u2014 Imagen API key invalid (22nd consecutive run; API_KEY_INVALID)"
+      "images": "none — Imagen API key invalid (22nd consecutive run; API_KEY_INVALID)"
     },
     {
       "slug": "umbrella-insurance-rental-property-georgia-csra",
@@ -2424,8 +2424,8 @@
       ],
       "primaryKeyword": "umbrella insurance rental property Georgia",
       "entities": [
-        "O.C.G.A. \u00a744-7-14",
-        "O.C.G.A. \u00a744-7-13",
+        "O.C.G.A. §44-7-14",
+        "O.C.G.A. §44-7-13",
         "Columbia County",
         "Evans GA",
         "Grovetown GA",
@@ -2494,9 +2494,9 @@
       "title": "Your AppFolio Owner Statement Explained: Every Line Item",
       "date": "2026-10-16",
       "cluster": "owner-education",
-      "subtopic": "AppFolio owner statement line items \u2014 income, expenses, distribution, reserve, year-end tax context",
+      "subtopic": "AppFolio owner statement line items — income, expenses, distribution, reserve, year-end tax context",
       "persona": "P3",
-      "intent": "educational/transparency/trust-building \u2014 small landlord understanding their monthly PM statement",
+      "intent": "educational/transparency/trust-building — small landlord understanding their monthly PM statement",
       "cities": [
         "Evans",
         "Grovetown",
@@ -2511,10 +2511,10 @@
         "NARPM",
         "IRS Publication 527",
         "Georgia DCA Landlord-Tenant Handbook",
-        "O.C.G.A. \u00a7 44-7-13",
+        "O.C.G.A. § 44-7-13",
         "Schedule E",
         "1099-MISC",
-        "IRC \u00a7 27.5-year depreciation",
+        "IRC § 27.5-year depreciation",
         "Evans GA",
         "Grovetown GA",
         "Columbia County",
@@ -2542,16 +2542,16 @@
         "FAQPage"
       ],
       "type": "new",
-      "images": "none \u2014 Imagen API key invalid (24th consecutive run; API_KEY_INVALID \u2014 key needs rotation URGENT)"
+      "images": "none — Imagen API key invalid (24th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
     },
     {
       "slug": "year-end-tax-checklist-pcs-landlord-csra-2026",
       "title": "Year-End Tax Checklist for CSRA Rental Property Owners: Your 2026 Guide",
       "date": "2026-10-17",
       "cluster": "taxes",
-      "subtopic": "year-end tax document checklist \u2014 1099-MISC from PM, Schedule E line mapping, Georgia nonresident Form 500, deductions CSRA landlords miss, December 31 action items",
+      "subtopic": "year-end tax document checklist — 1099-MISC from PM, Schedule E line mapping, Georgia nonresident Form 500, deductions CSRA landlords miss, December 31 action items",
       "persona": "P1",
-      "intent": "educational/seasonal/decision-framework \u2014 PCS landlord managing remotely, preparing year-end tax package",
+      "intent": "educational/seasonal/decision-framework — PCS landlord managing remotely, preparing year-end tax package",
       "cities": [
         "Evans",
         "Grovetown",
@@ -2570,7 +2570,7 @@
         "1099-MISC",
         "1099-NEC",
         "Georgia Form 500",
-        "O.C.G.A. \u00a7 48-7-1",
+        "O.C.G.A. § 48-7-1",
         "MACRS 27.5-year depreciation",
         "AppFolio",
         "Fort Gordon",
@@ -2602,14 +2602,14 @@
         "HowTo"
       ],
       "type": "new",
-      "images": "none \u2014 Imagen API key invalid (25th consecutive run; API_KEY_INVALID \u2014 key needs rotation URGENT)"
+      "images": "none — Imagen API key invalid (25th consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
     },
     {
       "slug": "rental-property-showings-csra-landlord-guide",
       "title": "How to Show Your CSRA Rental and Sign a Tenant Fast: 2026 Guide",
       "date": "2026-10-15",
       "cluster": "leasing-screening",
-      "subtopic": "property showings + applicant flow \u2014 self-show lockbox, owner-guided, PM-guided comparison, Georgia entry rules, Fair Housing compliance, showing-to-lease timeline",
+      "subtopic": "property showings + applicant flow — self-show lockbox, owner-guided, PM-guided comparison, Georgia entry rules, Fair Housing compliance, showing-to-lease timeline",
       "persona": "P3",
       "intent": "educational/decision-framework/conversion",
       "cities": [
@@ -2623,10 +2623,10 @@
       ],
       "primaryKeyword": "rental property showings Augusta GA",
       "entities": [
-        "O.C.G.A. \u00a7 44-7-1",
-        "Fair Housing Act (42 U.S.C. \u00a7 3604)",
-        "Fair Credit Reporting Act (15 U.S.C. \u00a7\u00a7 1681 et seq.)",
-        "O.C.G.A. \u00a7 10-12-1 (Georgia Electronic Records and Signatures Act)",
+        "O.C.G.A. § 44-7-1",
+        "Fair Housing Act (42 U.S.C. § 3604)",
+        "Fair Credit Reporting Act (15 U.S.C. §§ 1681 et seq.)",
+        "O.C.G.A. § 10-12-1 (Georgia Electronic Records and Signatures Act)",
         "Georgia Rule 186-2-.03 (Commission on Equal Opportunity, amended Feb 2026)",
         "HUD April 2024 screening guidance",
         "Georgia DCA Landlord-Tenant Handbook",
@@ -2660,7 +2660,7 @@
         "HowTo"
       ],
       "type": "new",
-      "images": "none \u2014 Imagen API key invalid (23rd consecutive run; API_KEY_INVALID \u2014 key needs rotation URGENT)"
+      "images": "none — Imagen API key invalid (23rd consecutive run; API_KEY_INVALID — key needs rotation URGENT)"
     },
     {
       "slug": "roof-gutter-maintenance-csra-rental-property-georgia",
@@ -2680,9 +2680,9 @@
       ],
       "primaryKeyword": "roof gutter maintenance rental property Augusta GA",
       "entities": [
-        "O.C.G.A. \u00a7 44-7-13",
-        "O.C.G.A. \u00a7 44-7-2(b)",
-        "O.C.G.A. \u00a7 44-7-16",
+        "O.C.G.A. § 44-7-13",
+        "O.C.G.A. § 44-7-2(b)",
+        "O.C.G.A. § 44-7-16",
         "Georgia Safe at Home Act (HB 404)",
         "National Roofing Contractors Association (NRCA)",
         "Loblolly Pine",
@@ -2711,7 +2711,63 @@
         "HowTo"
       ],
       "type": "new",
-      "imageStatus": "none \u2014 Imagen API key invalid (24th consecutive run; key returns 400 INVALID_ARGUMENT on both content-map stored key and routine prompt key)"
+      "imageStatus": "none — Imagen API key invalid (24th consecutive run; key returns 400 INVALID_ARGUMENT on both content-map stored key and routine prompt key)"
+    },
+    {
+      "slug": "breaking-lease-early-georgia-csra-tenant-guide",
+      "title": "How to Break a Lease Early in Georgia: A CSRA Renter's Complete Guide",
+      "date": "2026-10-19",
+      "cluster": "tenant-education",
+      "subtopic": "early lease termination Georgia tenant — SCRA, § 44-7-23 family violence exit, constructive eviction, negotiated buyout",
+      "persona": "P5",
+      "intent": "educational/legal-reference/tenant-guide",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Columbia County",
+        "Richmond County",
+        "Fort Gordon"
+      ],
+      "primaryKeyword": "how to break a lease early Georgia tenant",
+      "entities": [
+        "O.C.G.A. § 44-7-22",
+        "O.C.G.A. § 44-7-23",
+        "O.C.G.A. § 44-7-13",
+        "O.C.G.A. § 44-7-34",
+        "50 U.S.C. § 3955",
+        "Servicemembers Civil Relief Act (SCRA)",
+        "Georgia Safe at Home Act (HB 404)",
+        "SB 413 (2025-2026 session)",
+        "Peterson v. P.C. Towers, L.P.",
+        "Fort Gordon",
+        "Army Cyber Center of Excellence",
+        "Evans GA",
+        "Grovetown GA",
+        "Columbia County Magistrate Court",
+        "Richmond County Magistrate Court",
+        "AppFolio"
+      ],
+      "questionsAnswered": [
+        "Can I break a lease early in Georgia for any reason?",
+        "How much notice do I have to give to break a lease in Georgia?",
+        "What happens if I just stop paying rent and move out in Georgia?",
+        "Can a landlord charge an early termination fee in Georgia?",
+        "Does Georgia require landlords to try to re-rent after a tenant leaves early?",
+        "Can I break my lease if I get PCS orders at Fort Gordon?",
+        "What is constructive eviction in Georgia?",
+        "How long does a landlord have to return my security deposit after I move out?"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 4,
+      "wordCount": 2200,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none — Imagen API key invalid (25th consecutive run; key provided in routine prompt also returns API_KEY_INVALID)"
     }
   ]
 }
