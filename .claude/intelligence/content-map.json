@@ -1,10 +1,10 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "106 live posts in src/blog/ as of 2026-10-19",
+    "builtFrom": "107 live posts in src/blog/ as of 2026-10-20",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
-      "imagen_api_key": "API key invalid for 23 consecutive runs (2026-07-22 through 2026-10-15). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key needs rotation — URGENT: escalate to Noah."
+      "imagen_api_key": "API key invalid for 26 consecutive runs (2026-07-22 through 2026-10-20). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation — URGENT: escalate to Noah."
     }
   },
   "clusters": {
@@ -141,17 +141,16 @@
       ]
     },
     "rent-collection-pricing": {
-      "coverage": 0.68,
-      "authority": "medium-high",
+      "coverage": 0.76,
+      "authority": "high",
       "posts": [
         "how-to-price-rental-property-augusta-ga",
         "when-to-raise-rent-augusta-rental-property",
         "georgia-tenant-late-rent-landlord-guide",
-        "lease-renewal-pricing-csra-rental-property-owners"
+        "lease-renewal-pricing-csra-rental-property-owners",
+        "csra-property-manager-rent-collection-owner-distributions"
       ],
-      "gaps": [
-        "online rent collection + autopay (owner/tenant)"
-      ]
+      "gaps": []
     },
     "evictions": {
       "coverage": 0.76,
@@ -272,17 +271,17 @@
   },
   "priorityQueue": [
     "technology: online maintenance requests + tracking — tenant-side walkthrough (P5)",
-    "rent-collection-pricing: online rent collection + autopay — owner and tenant walkthroughs (P3)",
     "leasing-screening: income + credit screening criteria explained, Fair-Housing-safe (P3)",
-    "tenant-education: how to break a lease early the right way (tenant side) (P5)",
     "laws-compliance: habitability + local code/minimum housing standards for CSRA landlords (P3)",
     "taxes: cost segregation for SFR rental property Georgia (P4)",
     "owner-education: what onboarding with McBride looks like, step by step (P2)",
     "maintenance: emergency vs routine maintenance — owner policy and response SLA (P1/P3)",
     "city-guides: Appling / north Columbia County rental guide for owners (P4)",
-    "investing: first rental purchase step-by-step for a CSRA beginner (P3/P4)"
+    "investing: first rental purchase step-by-step for a CSRA beginner (P3/P4)",
+    "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) — publish after DoD December announcement",
+    "insurance: flood and windstorm exposure for CSRA rental properties (P3/P4)"
   ],
   "notes": {
-    "imagen_api_key": "API key invalid for 23 consecutive runs (2026-07-22 through 2026-10-15). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key needs rotation — URGENT: escalate to Noah."
+    "imagen_api_key": "API key invalid for 26 consecutive runs (2026-07-22 through 2026-10-20). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation — URGENT: escalate to Noah."
   }
 }

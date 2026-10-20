@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 106
+    "totalPosts": 107
   },
   "posts": [
     {
@@ -2712,6 +2712,58 @@
       ],
       "type": "new",
       "imageStatus": "none — Imagen API key invalid (24th consecutive run; key returns 400 INVALID_ARGUMENT on both content-map stored key and routine prompt key)"
+    },
+    {
+      "slug": "csra-property-manager-rent-collection-owner-distributions",
+      "title": "How a CSRA Property Manager Collects Rent and Pays Owners",
+      "date": "2026-10-20",
+      "cluster": "rent-collection-pricing",
+      "subtopic": "online rent collection, ACH clearing windows, autopay, owner distributions, PCS overseas accounts, maintenance reserve, AppFolio payment cycle",
+      "persona": "P1/P3",
+      "intent": "educational/operational/trust-building — PCS landlord and small intentional landlord understanding how rent flows and when they get paid",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Augusta",
+        "Columbia County",
+        "Fort Gordon"
+      ],
+      "primaryKeyword": "rent collection property management Augusta GA",
+      "entities": [
+        "AppFolio",
+        "NACHA Operating Rules",
+        "ACH Network",
+        "O.C.G.A. § 44-7-13",
+        "O.C.G.A. § 44-7-50",
+        "IRS Publication 527",
+        "Fort Gordon",
+        "Evans GA",
+        "Grovetown GA",
+        "Columbia County",
+        "Noah McBride",
+        "Amber McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "When does a property manager deposit rent into my account?",
+        "How does a tenant pay rent through AppFolio?",
+        "Can I set up automatic ACH distribution as an owner?",
+        "What happens if a tenant pays rent late?",
+        "Can I receive distributions in an overseas bank account?",
+        "What is deducted from my owner distribution?",
+        "Can I see tenant payment status without calling the office?",
+        "Does McBride PM charge a fee for owner distributions?"
+      ],
+      "internalLinks": 12,
+      "externalCitations": 4,
+      "wordCount": 2400,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none — Imagen API key invalid (26th consecutive run; routine prompt key also returns API_KEY_INVALID — key rotation URGENT)"
     },
     {
       "slug": "breaking-lease-early-georgia-csra-tenant-guide",
