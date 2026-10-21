@@ -2820,6 +2820,64 @@
       ],
       "type": "new",
       "imageStatus": "none — Imagen API key invalid (25th consecutive run; key provided in routine prompt also returns API_KEY_INVALID)"
+    },
+    {
+      "slug": "appling-ga-rental-investment-north-columbia-county",
+      "title": "Appling, GA Rental Investment: The North Columbia County Guide",
+      "date": "2026-10-21",
+      "cluster": "city-guides",
+      "subtopic": "Appling GA (ZIP 30802) rental investment guide — Google data center campus impact, workforce housing demand, rent comps, cap rate modeling, comparison to Evans/Grovetown",
+      "persona": "P4",
+      "intent": "investment-research/conversion — out-of-state investor evaluating north Columbia County as a rental market",
+      "cities": [
+        "Appling",
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Columbia County",
+        "Augusta"
+      ],
+      "primaryKeyword": "Appling GA rental investment north Columbia County",
+      "entities": [
+        "Google LLC",
+        "Alphabet Inc.",
+        "Columbia County Development Authority",
+        "Fort Gordon",
+        "Army Cyber Center of Excellence",
+        "Savannah River Site",
+        "Wellstar Columbia County Medical Center",
+        "Columbia County School District",
+        "Georgia Safe at Home Act (HB 404)",
+        "Appling GA ZIP 30802",
+        "Evans GA ZIP 30809",
+        "Grovetown GA ZIP 30813",
+        "Martinez GA ZIP 30907",
+        "Highway 221",
+        "I-20",
+        "Noah McBride",
+        "Amber McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "Is Appling GA a good place to invest in rental property?",
+        "What ZIP code is Appling GA?",
+        "How far is Appling from Fort Gordon?",
+        "What is average rent in Appling GA?",
+        "Will the Google data center increase rents in Appling?",
+        "Is Appling in the Columbia County School District?",
+        "How does Appling compare to Evans or Grovetown for rental investment?",
+        "Does McBride Property Management manage rentals in Appling?"
+      ],
+      "internalLinks": 16,
+      "externalCitations": 4,
+      "wordCount": 3078,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none — Imagen API key invalid (27th consecutive run; key returns API_KEY_INVALID — escalate to Noah)"
     }
   ]
 }

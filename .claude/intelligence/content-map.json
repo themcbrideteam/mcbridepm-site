@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "107 live posts in src/blog/ as of 2026-10-20",
+    "builtFrom": "108 live posts in src/blog/ as of 2026-10-21",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
       "imagen_api_key": "API key invalid for 26 consecutive runs (2026-07-22 through 2026-10-20). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation — URGENT: escalate to Noah."
@@ -211,8 +211,8 @@
       "gaps": []
     },
     "city-guides": {
-      "coverage": 0.72,
-      "authority": "medium-high",
+      "coverage": 0.78,
+      "authority": "high",
       "posts": [
         "renting-in-augusta",
         "living-in-evans-ga-rental-tenants-guide",
@@ -221,10 +221,10 @@
         "renting-in-north-augusta-sc-tenant-guide",
         "north-augusta-sc-rental-investment-guide",
         "renting-in-hephzibah-ga-tenant-guide",
-        "renting-in-aiken-sc-tenant-guide"
+        "renting-in-aiken-sc-tenant-guide",
+        "appling-ga-rental-investment-north-columbia-county"
       ],
       "gaps": [
-        "Appling / Columbia County north rental guide",
         "Augusta owner/investor city guide (current ones are tenant-facing)"
       ]
     },
@@ -276,8 +276,8 @@
     "taxes: cost segregation for SFR rental property Georgia (P4)",
     "owner-education: what onboarding with McBride looks like, step by step (P2)",
     "maintenance: emergency vs routine maintenance — owner policy and response SLA (P1/P3)",
-    "city-guides: Appling / north Columbia County rental guide for owners (P4)",
     "investing: first rental purchase step-by-step for a CSRA beginner (P3/P4)",
+    "city-guides: Augusta owner/investor city guide — demand drivers, cap rates, submarket comparison (P4)",
     "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) — publish after DoD December announcement",
     "insurance: flood and windstorm exposure for CSRA rental properties (P3/P4)"
   ],
