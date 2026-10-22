@@ -2822,6 +2822,25 @@
       "imageStatus": "none — Imagen API key invalid (25th consecutive run; key provided in routine prompt also returns API_KEY_INVALID)"
     },
     {
+      "slug": "csra-property-manager-rent-collection-owner-distributions",
+      "title": "How a CSRA Property Manager Collects Rent and Pays Owners",
+      "date": "2026-10-20",
+      "cluster": "rent-collection-pricing",
+      "subtopic": "online rent collection, ACH clearing windows, autopay, owner distributions, PCS overseas accounts, maintenance reserve, AppFolio payment cycle",
+      "persona": "P1/P3",
+      "intent": "educational/operational/trust-building — PCS landlord and small intentional landlord understanding how rent flows and when they get paid",
+      "cities": ["Evans", "Grovetown", "Augusta", "Columbia County", "Fort Gordon"],
+      "primaryKeyword": "rent collection property management Augusta GA",
+      "entities": ["AppFolio", "NACHA Operating Rules", "ACH Network", "O.C.G.A. § 44-7-13", "O.C.G.A. § 44-7-50", "IRS Publication 527", "Fort Gordon", "Evans GA", "Grovetown GA", "Columbia County", "Noah McBride", "Amber McBride", "McBride Property Management"],
+      "questionsAnswered": ["When does a property manager deposit rent into my account?", "How does a tenant pay rent through AppFolio?", "Can I set up automatic ACH distribution as an owner?", "What happens if a tenant pays rent late?", "Can I receive distributions in an overseas bank account?", "What is deducted from my owner distribution?", "Can I see tenant payment status without calling the office?", "Does McBride PM charge a fee for owner distributions?"],
+      "internalLinks": 12,
+      "externalCitations": 4,
+      "wordCount": 2400,
+      "schema": ["BlogPosting", "FAQPage", "HowTo"],
+      "type": "new",
+      "imageStatus": "none — Imagen API key invalid (26th consecutive run; routine prompt key also returns API_KEY_INVALID — key rotation URGENT)"
+    },
+    {
       "slug": "appling-ga-rental-investment-north-columbia-county",
       "title": "Appling, GA Rental Investment: The North Columbia County Guide",
       "date": "2026-10-21",
@@ -2878,6 +2897,60 @@
       ],
       "type": "new",
       "imageStatus": "none — Imagen API key invalid (27th consecutive run; key returns API_KEY_INVALID — escalate to Noah)"
+    },
+    {
+      "slug": "emergency-maintenance-csra-rental-property-owner-guide",
+      "title": "Emergency Maintenance at Your CSRA Rental: The Owner's Guide",
+      "date": "2026-10-22",
+      "cluster": "maintenance",
+      "subtopic": "emergency vs routine maintenance — Georgia Safe at Home Act habitability requirements, spending authorization threshold, after-hours cost benchmarks, PCS owner setup before departure",
+      "persona": "P1",
+      "intent": "educational/operational/trust-building — PCS Fort Gordon landlord understanding emergency maintenance response, authorization thresholds, and how to configure their PM setup before leaving",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "Columbia County",
+        "Fort Gordon"
+      ],
+      "primaryKeyword": "emergency maintenance rental property Augusta GA",
+      "entities": [
+        "O.C.G.A. § 44-7-13(b)",
+        "O.C.G.A. § 44-7-14.1(a)",
+        "O.C.G.A. § 44-7-18",
+        "Safe at Home Act (HB 404)",
+        "Georgia Appleseed",
+        "Georgia DCA",
+        "AppFolio",
+        "Fort Gordon",
+        "Evans GA",
+        "Grovetown GA",
+        "Columbia County",
+        "Noah McBride",
+        "Amber McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "What counts as a maintenance emergency at a CSRA rental?",
+        "What does Georgia law say about emergency repairs at rental properties?",
+        "How quickly does McBride PM respond to maintenance emergencies?",
+        "What is the emergency spending authorization threshold?",
+        "What happens if I am deployed overseas and there is a maintenance emergency?",
+        "Does emergency maintenance cost more than routine repairs?",
+        "Who is responsible for emergency repairs — landlord or tenant?",
+        "How can I prevent maintenance emergencies before they become crises?"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 3,
+      "wordCount": 2700,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none — Imagen API key invalid (28th consecutive run; both stored key and routine prompt key return API_KEY_INVALID — escalate to Noah)"
     }
   ]
 }
