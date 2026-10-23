@@ -2951,6 +2951,60 @@
       ],
       "type": "new",
       "imageStatus": "none — Imagen API key invalid (28th consecutive run; both stored key and routine prompt key return API_KEY_INVALID — escalate to Noah)"
+    },
+    {
+      "slug": "hiring-property-manager-augusta-ga-onboarding-guide",
+      "title": "Hiring a Property Manager in Augusta, GA: The Owner Onboarding Guide",
+      "date": "2026-10-23",
+      "cluster": "owner-education",
+      "subtopic": "property manager onboarding process — management agreement, baseline inspection, owner portal setup, tenant placement, first distribution",
+      "persona": "P2",
+      "intent": "educational/procedural/trust-building/conversion — accidental landlord who just decided to hire a PM, understanding exactly what happens step by step",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "North Augusta",
+        "Columbia County"
+      ],
+      "primaryKeyword": "property management onboarding Augusta GA",
+      "entities": [
+        "O.C.G.A. § 43-40-1",
+        "O.C.G.A. § 44-7-31",
+        "O.C.G.A. § 10-12-1 (Georgia Electronic Records and Signatures Act)",
+        "Georgia Real Estate Commission",
+        "NARPM",
+        "AppFolio",
+        "Fort Gordon",
+        "Evans GA",
+        "Grovetown GA",
+        "Columbia County",
+        "Noah McBride",
+        "Amber McBride",
+        "McBride Property Management",
+        "TransUnion"
+      ],
+      "questionsAnswered": [
+        "How long does property management onboarding take in Augusta GA?",
+        "What documents do I need to provide when hiring a property manager in Georgia?",
+        "Does a Georgia property manager need a broker's license?",
+        "What is an onboarding inspection and why does it matter?",
+        "When do I get my first owner distribution after hiring a property manager?",
+        "Can onboarding be done completely remotely?",
+        "What is a maintenance reserve?",
+        "What should I look for in a Georgia property management agreement?"
+      ],
+      "internalLinks": 16,
+      "externalCitations": 4,
+      "wordCount": 2650,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none — Imagen API key invalid (29th consecutive run; API_KEY_INVALID — key needs rotation, URGENT escalate to Noah)"
     }
   ]
 }

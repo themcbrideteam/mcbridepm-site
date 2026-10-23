@@ -1,10 +1,10 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "110 live posts in src/blog/ as of 2026-10-22",
+    "builtFrom": "111 live posts in src/blog/ as of 2026-10-23",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
-      "imagen_api_key": "API key invalid for 28 consecutive runs (2026-07-22 through 2026-10-22). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation — URGENT: escalate to Noah."
+      "imagen_api_key": "API key invalid for 29 consecutive runs (2026-07-22 through 2026-10-23). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation — URGENT: escalate to Noah."
     }
   },
   "clusters": {
@@ -183,18 +183,17 @@
       "gaps": []
     },
     "owner-education": {
-      "coverage": 0.82,
+      "coverage": 0.92,
       "authority": "high",
       "posts": [
         "why-hire-property-manager",
         "switching-to-property-manager-csra-augusta-ga",
         "true-cost-self-managing-rental-property-csra",
         "property-management-fees-augusta-ga-2026",
-        "reading-owner-statement-property-management-augusta-ga"
+        "reading-owner-statement-property-management-augusta-ga",
+        "hiring-property-manager-augusta-ga-onboarding-guide"
       ],
-      "gaps": [
-        "what onboarding with McBride looks like, step by step"
-      ]
+      "gaps": []
     },
     "tenant-education": {
       "coverage": 0.85,
@@ -278,9 +277,10 @@
     "city-guides: Augusta owner/investor city guide — demand drivers, cap rates, submarket comparison (P4)",
     "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) — publish after DoD December announcement",
     "insurance: flood and windstorm exposure for CSRA rental properties (P3/P4)",
-    "leasing-screening: move-in inspection done right — liability documentation for CSRA landlords (P3)"
+    "leasing-screening: move-in inspection done right — liability documentation for CSRA landlords (P3)",
+    "investing: BRRRR feasibility in the CSRA — buy, rehab, rent, refinance, repeat (P4)"
   ],
   "notes": {
-    "imagen_api_key": "API key invalid for 28 consecutive runs (2026-07-22 through 2026-10-22). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation — URGENT: escalate to Noah."
+    "imagen_api_key": "API key invalid for 29 consecutive runs (2026-07-22 through 2026-10-23). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation — URGENT: escalate to Noah."
   }
 }
