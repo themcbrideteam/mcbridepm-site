@@ -3005,6 +3005,62 @@
       ],
       "type": "new",
       "imageStatus": "none — Imagen API key invalid (29th consecutive run; API_KEY_INVALID — key needs rotation, URGENT escalate to Noah)"
+    },
+    {
+      "slug": "georgia-rental-habitability-requirements-csra-landlords-2026",
+      "title": "Georgia Rental Habitability Law: Your CSRA Compliance Checklist",
+      "date": "2026-10-24",
+      "cluster": "laws-compliance",
+      "subtopic": "warranty of habitability — Safe at Home Act, O.C.G.A. § 44-7-13, pre-rental checklist, HUD HQS proxy, CSRA local conditions, tenant remedies",
+      "persona": "P2",
+      "intent": "educational/compliance/conversion",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "North Augusta",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "Georgia rental habitability requirements landlord",
+      "entities": [
+        "O.C.G.A. § 44-7-13",
+        "O.C.G.A. § 44-7-14",
+        "O.C.G.A. § 44-7-14.1",
+        "Georgia Safe at Home Act (HB 404)",
+        "HB 1171 (2026 session — not yet law)",
+        "HUD Housing Quality Standards",
+        "Augusta Housing Authority",
+        "Columbia County Magistrate Court",
+        "Richmond County Magistrate Court",
+        "Georgia Appleseed",
+        "NLIHC",
+        "Fort Gordon",
+        "Evans GA",
+        "Grovetown GA",
+        "Columbia County"
+      ],
+      "questionsAnswered": [
+        "What does Georgia's warranty of habitability require?",
+        "When did the Safe at Home Act take effect?",
+        "Can a Georgia tenant withhold rent for habitability failure?",
+        "What happens if I rent a property that fails habitability standards?",
+        "Does Georgia have a specific list of habitability requirements?",
+        "Does Columbia County require rental registration?",
+        "What did the Safe at Home Act change about utilities?",
+        "Can I fix habitability problems after move-in?"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 8,
+      "wordCount": 3050,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none — Imagen API key invalid (30th consecutive run; API_KEY_INVALID — URGENT escalate to Noah)"
     }
   ]
 }

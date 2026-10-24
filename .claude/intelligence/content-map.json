@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "111 live posts in src/blog/ as of 2026-10-23",
+    "builtFrom": "112 live posts in src/blog/ as of 2026-10-24",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
       "imagen_api_key": "API key invalid for 29 consecutive runs (2026-07-22 through 2026-10-23). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation — URGENT: escalate to Noah."
@@ -25,7 +25,7 @@
       ]
     },
     "laws-compliance": {
-      "coverage": 0.82,
+      "coverage": 0.87,
       "authority": "high",
       "posts": [
         "georgia-safe-at-home-act-landlord-guide-augusta-ga",
@@ -36,10 +36,10 @@
         "scra-lease-termination-fort-gordon-landlord-guide",
         "housing-choice-voucher-landlord-guide-augusta-ga",
         "georgia-lease-agreement-clauses-csra-landlords-2026",
-        "service-animal-esa-rental-property-georgia-landlord-guide"
+        "service-animal-esa-rental-property-georgia-landlord-guide",
+        "georgia-rental-habitability-requirements-csra-landlords-2026"
       ],
       "gaps": [
-        "habitability + local code/min-housing standards",
         "rental licensing requirements by CSRA jurisdiction"
       ]
     },
@@ -270,17 +270,17 @@
   "priorityQueue": [
     "technology: online maintenance requests + tracking — tenant-side walkthrough (P5)",
     "leasing-screening: income + credit screening criteria explained, Fair-Housing-safe (P3)",
-    "laws-compliance: habitability + local code/minimum housing standards for CSRA landlords (P3)",
-    "owner-education: what onboarding with McBride looks like, step by step (P2)",
+    "laws-compliance: rental licensing requirements by CSRA jurisdiction — is a license required in Augusta-Richmond County, Columbia County, Aiken County? (P3)",
     "taxes: cost segregation for SFR rental property Georgia (P4)",
     "investing: first rental purchase step-by-step for a CSRA beginner (P3/P4)",
     "city-guides: Augusta owner/investor city guide — demand drivers, cap rates, submarket comparison (P4)",
     "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) — publish after DoD December announcement",
     "insurance: flood and windstorm exposure for CSRA rental properties (P3/P4)",
     "leasing-screening: move-in inspection done right — liability documentation for CSRA landlords (P3)",
-    "investing: BRRRR feasibility in the CSRA — buy, rehab, rent, refinance, repeat (P4)"
+    "investing: BRRRR feasibility in the CSRA — buy, rehab, rent, refinance, repeat (P4)",
+    "evictions: eviction costs + timeline full owner expense model (P3/P4)"
   ],
   "notes": {
-    "imagen_api_key": "API key invalid for 29 consecutive runs (2026-07-22 through 2026-10-23). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation — URGENT: escalate to Noah."
+    "imagen_api_key": "API key invalid for 30 consecutive runs (2026-07-22 through 2026-10-24). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation — URGENT: escalate to Noah."
   }
 }
