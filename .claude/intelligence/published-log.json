@@ -3061,6 +3061,59 @@
       ],
       "type": "new",
       "imageStatus": "none — Imagen API key invalid (30th consecutive run; API_KEY_INVALID — URGENT escalate to Noah)"
+    },
+    {
+      "slug": "grovetown-ga-rental-market-investor-guide-2026",
+      "title": "Grovetown, GA Rental Market 2026: The Investor's Guide",
+      "date": "2026-10-25",
+      "cluster": "market-reports",
+      "subtopic": "Grovetown GA rental market deep-dive — Wellstar hospital opening, Google data center, Fort Gordon demand, rent/price data, cap rate analysis, submarket zones, new BTR supply",
+      "persona": "P4",
+      "intent": "investment-research/conversion",
+      "cities": [
+        "Grovetown",
+        "Columbia County",
+        "Evans",
+        "Augusta"
+      ],
+      "primaryKeyword": "Grovetown GA rental market 2026 investors",
+      "entities": [
+        "Wellstar Columbia County Medical Center",
+        "Google White Oak Technology Park",
+        "Fort Gordon",
+        "Army Cyber Center of Excellence",
+        "Columbia County School District",
+        "Columbia County Economic Development Authority",
+        "O.C.G.A. § 43-40-25",
+        "Georgia HB 399",
+        "ZIP 30813",
+        "Gordon Highway (US-78)",
+        "Interstate 20",
+        "Gateway Boulevard",
+        "Noah McBride",
+        "Amber McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "What are typical rents for single-family homes in Grovetown GA in 2026?",
+        "What is the median home price in Grovetown GA in 2026?",
+        "How close is Grovetown to Fort Gordon?",
+        "Does Wellstar Columbia County Medical Center affect Grovetown rental demand?",
+        "What cap rate can investors expect on Grovetown single-family rentals?",
+        "Is Grovetown a better rental investment than Evans GA?",
+        "What should I look for in a Grovetown rental property before buying?",
+        "Can an out-of-state investor buy and manage a Grovetown rental remotely?"
+      ],
+      "internalLinks": 12,
+      "externalCitations": 3,
+      "wordCount": 2600,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none — Imagen API key invalid (31st consecutive run; API_KEY_INVALID — URGENT escalate to Noah)"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "112 live posts in src/blog/ as of 2026-10-24",
+    "builtFrom": "113 live posts in src/blog/ as of 2026-10-25",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
-      "imagen_api_key": "API key invalid for 29 consecutive runs (2026-07-22 through 2026-10-23). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation — URGENT: escalate to Noah."
+      "imagen_api_key": "API key invalid for 29 consecutive runs (2026-07-22 through 2026-10-23). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
     }
   },
   "clusters": {
@@ -81,7 +81,7 @@
       ]
     },
     "market-reports": {
-      "coverage": 0.88,
+      "coverage": 0.91,
       "authority": "high",
       "posts": [
         "augusta-rental-market-mid-2026-update",
@@ -91,10 +91,12 @@
         "north-augusta-sc-rental-investment-guide",
         "csra-rental-market-fall-2026-update-investors",
         "evans-ga-rental-market-investor-guide-2026",
-        "aiken-sc-rental-market-investor-guide-2026"
+        "aiken-sc-rental-market-investor-guide-2026",
+        "grovetown-ga-rental-market-investor-guide-2026"
       ],
       "gaps": [
-        "rent-growth + vacancy trend recap 2026"
+        "rent-growth + vacancy trend recap 2026",
+        "Martinez GA rental market investor guide (only tenant-facing guide exists)"
       ]
     },
     "accidental-landlord": {
@@ -209,7 +211,7 @@
       "gaps": []
     },
     "city-guides": {
-      "coverage": 0.82,
+      "coverage": 0.85,
       "authority": "high",
       "posts": [
         "renting-in-augusta",
@@ -220,10 +222,12 @@
         "north-augusta-sc-rental-investment-guide",
         "renting-in-hephzibah-ga-tenant-guide",
         "renting-in-aiken-sc-tenant-guide",
-        "appling-ga-rental-investment-north-columbia-county"
+        "appling-ga-rental-investment-north-columbia-county",
+        "grovetown-ga-rental-market-investor-guide-2026"
       ],
       "gaps": [
-        "Augusta owner/investor city guide (current ones are tenant-facing)"
+        "Augusta owner/investor city guide (current ones are tenant-facing)",
+        "Martinez GA investor guide (only tenant guide exists)"
       ]
     },
     "hoa": {
@@ -263,24 +267,24 @@
         "online-rental-applications-property-management-csra-guide"
       ],
       "gaps": [
-        "online maintenance requests + tracking — tenant-side walkthrough"
+        "online maintenance requests + tracking \u2014 tenant-side walkthrough"
       ]
     }
   },
   "priorityQueue": [
-    "technology: online maintenance requests + tracking — tenant-side walkthrough (P5)",
+    "technology: online maintenance requests + tracking \u2014 tenant-side walkthrough (P5)",
     "leasing-screening: income + credit screening criteria explained, Fair-Housing-safe (P3)",
-    "laws-compliance: rental licensing requirements by CSRA jurisdiction — is a license required in Augusta-Richmond County, Columbia County, Aiken County? (P3)",
+    "laws-compliance: rental licensing requirements by CSRA jurisdiction \u2014 is a license required in Augusta-Richmond County, Columbia County, Aiken County? (P3)",
     "taxes: cost segregation for SFR rental property Georgia (P4)",
     "investing: first rental purchase step-by-step for a CSRA beginner (P3/P4)",
-    "city-guides: Augusta owner/investor city guide — demand drivers, cap rates, submarket comparison (P4)",
-    "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) — publish after DoD December announcement",
+    "city-guides: Augusta owner/investor city guide \u2014 demand drivers, cap rates, submarket comparison (P4)",
+    "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) \u2014 publish after DoD December announcement",
     "insurance: flood and windstorm exposure for CSRA rental properties (P3/P4)",
-    "leasing-screening: move-in inspection done right — liability documentation for CSRA landlords (P3)",
-    "investing: BRRRR feasibility in the CSRA — buy, rehab, rent, refinance, repeat (P4)",
+    "leasing-screening: move-in inspection done right \u2014 liability documentation for CSRA landlords (P3)",
+    "investing: BRRRR feasibility in the CSRA \u2014 buy, rehab, rent, refinance, repeat (P4)",
     "evictions: eviction costs + timeline full owner expense model (P3/P4)"
   ],
   "notes": {
-    "imagen_api_key": "API key invalid for 30 consecutive runs (2026-07-22 through 2026-10-24). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation — URGENT: escalate to Noah."
+    "imagen_api_key": "API key invalid for 31 consecutive runs (2026-07-22 through 2026-10-25). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
   }
 }
