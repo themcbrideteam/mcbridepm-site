@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 107
+    "totalPosts": 108
   },
   "posts": [
     {
@@ -3114,6 +3114,44 @@
       ],
       "type": "new",
       "imageStatus": "none — Imagen API key invalid (31st consecutive run; API_KEY_INVALID — URGENT escalate to Noah)"
+    },
+    {
+      "slug": "hoa-rental-rules-evans-grovetown-pcs-landlords",
+      "title": "HOA Rental Rules in Evans and Grovetown: A PCS Landlord Guide",
+      "date": "2026-10-26",
+      "cluster": "hoa",
+      "subtopic": "HOA rental approval process and SB 406 changes for PCS landlords",
+      "persona": "P1",
+      "intent": "Tactical guide — how to navigate HOA rental approval before Fort Gordon PCS departure",
+      "cities": ["Evans", "Grovetown", "Columbia County"],
+      "primaryKeyword": "HOA rental rules Evans GA Fort Gordon PCS landlord",
+      "entities": [
+        "Fort Gordon",
+        "Evans GA 30809",
+        "Grovetown GA 30813",
+        "Columbia County",
+        "Georgia Property Owners' Association Act",
+        "O.C.G.A. § 44-3-226(a)",
+        "Georgia SB 406",
+        "Georgia Property Owners' Bill of Rights Act",
+        "Georgia Secretary of State Property Owners' Associations Division"
+      ],
+      "questionsAnswered": [
+        "Can an HOA prevent me from renting after PCS orders?",
+        "What is an HOA rental cap and how do I find out if my community has one?",
+        "Do I need HOA approval before signing a lease?",
+        "What does Georgia SB 406 change for landlords?",
+        "Am I responsible when my tenant violates HOA rules?",
+        "Does grandfathering protect me after my tenant moves out?",
+        "What lease clauses do I need for HOA compliance?",
+        "What should I ask the HOA management company before listing?"
+      ],
+      "internalLinks": 11,
+      "externalCitations": 4,
+      "wordCount": 2500,
+      "schema": ["BlogPosting", "FAQPage"],
+      "type": "new",
+      "imageStatus": "none — Imagen API key invalid (32nd consecutive run; API_KEY_INVALID — URGENT escalate to Noah)"
     }
   ]
 }

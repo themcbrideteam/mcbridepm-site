@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "113 live posts in src/blog/ as of 2026-10-25",
+    "builtFrom": "114 live posts in src/blog/ as of 2026-10-26",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
       "imagen_api_key": "API key invalid for 29 consecutive runs (2026-07-22 through 2026-10-23). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
@@ -231,13 +231,17 @@
       ]
     },
     "hoa": {
-      "coverage": 0.62,
-      "authority": "medium-high",
+      "coverage": 0.74,
+      "authority": "high",
       "posts": [
         "georgia-hoa-rental-restrictions-csra-landlords",
-        "hoa-violation-tenant-rental-property-georgia-landlord"
+        "hoa-violation-tenant-rental-property-georgia-landlord",
+        "hoa-rental-rules-evans-grovetown-pcs-landlords"
       ],
-      "gaps": []
+      "gaps": [
+        "HOA condo association rental rules (Georgia Condominium Act — separate from POAA)",
+        "Specific Evans/Grovetown subdivision rental cap survey"
+      ]
     },
     "vendor-management": {
       "coverage": 0.78,
@@ -285,6 +289,6 @@
     "evictions: eviction costs + timeline full owner expense model (P3/P4)"
   ],
   "notes": {
-    "imagen_api_key": "API key invalid for 31 consecutive runs (2026-07-22 through 2026-10-25). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
+    "imagen_api_key": "API key invalid for 32 consecutive runs (2026-07-22 through 2026-10-26). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
   }
 }
