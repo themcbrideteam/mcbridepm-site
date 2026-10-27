@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "114 live posts in src/blog/ as of 2026-10-26",
+    "builtFrom": "115 live posts in src/blog/ as of 2026-10-27",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
       "imagen_api_key": "API key invalid for 29 consecutive runs (2026-07-22 through 2026-10-23). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
@@ -126,8 +126,8 @@
       ]
     },
     "leasing-screening": {
-      "coverage": 0.72,
-      "authority": "medium-high",
+      "coverage": 0.82,
+      "authority": "high",
       "posts": [
         "tenant-screening-process-augusta-ga-landlords",
         "how-to-apply-for-rental-mcbride-property-management",
@@ -135,11 +135,11 @@
         "lease-renewal-strategies-augusta-ga-landlords",
         "pet-policy-rental-property-augusta-ga-landlord-guide",
         "marketing-csra-rental-property-lease-fast-augusta-ga",
-        "rental-property-showings-csra-landlord-guide"
+        "rental-property-showings-csra-landlord-guide",
+        "tenant-screening-criteria-income-credit-csra-landlords"
       ],
       "gaps": [
-        "move-in inspection done right",
-        "income/credit screening criteria explained (Fair-Housing-safe)"
+        "move-in inspection done right"
       ]
     },
     "rent-collection-pricing": {
@@ -239,7 +239,7 @@
         "hoa-rental-rules-evans-grovetown-pcs-landlords"
       ],
       "gaps": [
-        "HOA condo association rental rules (Georgia Condominium Act — separate from POAA)",
+        "HOA condo association rental rules (Georgia Condominium Act \u2014 separate from POAA)",
         "Specific Evans/Grovetown subdivision rental cap survey"
       ]
     },
@@ -277,7 +277,6 @@
   },
   "priorityQueue": [
     "technology: online maintenance requests + tracking \u2014 tenant-side walkthrough (P5)",
-    "leasing-screening: income + credit screening criteria explained, Fair-Housing-safe (P3)",
     "laws-compliance: rental licensing requirements by CSRA jurisdiction \u2014 is a license required in Augusta-Richmond County, Columbia County, Aiken County? (P3)",
     "taxes: cost segregation for SFR rental property Georgia (P4)",
     "investing: first rental purchase step-by-step for a CSRA beginner (P3/P4)",
