@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "115 live posts in src/blog/ as of 2026-10-27",
+    "builtFrom": "116 live posts in src/blog/ as of 2026-10-28",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
       "imagen_api_key": "API key invalid for 29 consecutive runs (2026-07-22 through 2026-10-23). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
@@ -155,18 +155,17 @@
       "gaps": []
     },
     "evictions": {
-      "coverage": 0.76,
+      "coverage": 0.87,
       "authority": "high",
       "posts": [
         "georgia-eviction-process-landlord-guide",
         "georgia-tenant-breaks-lease-early-landlord-guide",
         "south-carolina-eviction-process-aiken-north-augusta-landlords",
         "cash-for-keys-vs-eviction-georgia-csra-landlords",
-        "dispossessory-richmond-columbia-county-georgia-landlord-guide"
+        "dispossessory-richmond-columbia-county-georgia-landlord-guide",
+        "eviction-cost-model-georgia-csra-landlords"
       ],
-      "gaps": [
-        "eviction costs + timeline budget (full owner expense model)"
-      ]
+      "gaps": []
     },
     "maintenance": {
       "coverage": 0.87,
@@ -285,7 +284,9 @@
     "insurance: flood and windstorm exposure for CSRA rental properties (P3/P4)",
     "leasing-screening: move-in inspection done right \u2014 liability documentation for CSRA landlords (P3)",
     "investing: BRRRR feasibility in the CSRA \u2014 buy, rehab, rent, refinance, repeat (P4)",
-    "evictions: eviction costs + timeline full owner expense model (P3/P4)"
+    "hoa: HOA condo association rental rules \u2014 Georgia Condominium Act vs POAA differences (P3)",
+    "market-reports: Martinez GA rental investor guide \u2014 only tenant guide exists (P4)",
+    "rent-collection-pricing: first-time landlord rent pricing calculator post (P2)"
   ],
   "notes": {
     "imagen_api_key": "API key invalid for 32 consecutive runs (2026-07-22 through 2026-10-26). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."

@@ -3246,6 +3246,59 @@
       ],
       "type": "new",
       "imageStatus": "none \u2014 Imagen API key invalid (33rd consecutive run; API_KEY_INVALID)"
+    },
+    {
+      "slug": "eviction-cost-model-georgia-csra-landlords",
+      "title": "Georgia Eviction Costs: The Full CSRA Landlord Expense Model",
+      "date": "2026-10-28",
+      "cluster": "evictions",
+      "subtopic": "full eviction expense model \u2014 5-category cost breakdown: court fees, lost rent, make-ready, vacancy carrying, re-leasing",
+      "persona": "P2",
+      "intent": "decision-support / risk-modeling / conversion",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Augusta",
+        "Martinez",
+        "Harlem",
+        "Richmond County",
+        "Columbia County"
+      ],
+      "primaryKeyword": "how much does eviction cost Georgia landlord",
+      "entities": [
+        "O.C.G.A. \u00a7\u00a7 44-7-50 through 44-7-59",
+        "Georgia Safe at Home Act HB 404",
+        "Richmond County Magistrate Court",
+        "Columbia County Magistrate Court",
+        "iPropertyManagement",
+        "Evans GA",
+        "Grovetown GA",
+        "Augusta GA",
+        "Fort Gordon",
+        "McBride Property Management",
+        "Noah McBride",
+        "Amber McBride"
+      ],
+      "questionsAnswered": [
+        "How much does a Georgia eviction cost in total?",
+        "What is the filing fee for a dispossessory in Georgia?",
+        "How long does the Georgia eviction process take?",
+        "What is the 3-day notice requirement under the Safe at Home Act?",
+        "Can a Georgia landlord recover attorney fees in an eviction?",
+        "What is the biggest single cost in a Georgia eviction?",
+        "How can a CSRA landlord reduce eviction costs?",
+        "What happens after the judge issues a writ of possession in Georgia?"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 3,
+      "wordCount": 2588,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none \u2014 Imagen API key invalid (34th consecutive run; API_KEY_INVALID)"
     }
   ]
 }
