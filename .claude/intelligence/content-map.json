@@ -1,10 +1,10 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "116 live posts in src/blog/ as of 2026-10-28",
+    "builtFrom": "117 live posts in src/blog/ as of 2026-10-29",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
-      "imagen_api_key": "API key invalid for 29 consecutive runs (2026-07-22 through 2026-10-23). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
+      "imagen_api_key": "API key invalid for 33 consecutive runs (2026-07-22 through 2026-10-29). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
     }
   },
   "clusters": {
@@ -25,7 +25,7 @@
       ]
     },
     "laws-compliance": {
-      "coverage": 0.87,
+      "coverage": 0.91,
       "authority": "high",
       "posts": [
         "georgia-safe-at-home-act-landlord-guide-augusta-ga",
@@ -37,11 +37,10 @@
         "housing-choice-voucher-landlord-guide-augusta-ga",
         "georgia-lease-agreement-clauses-csra-landlords-2026",
         "service-animal-esa-rental-property-georgia-landlord-guide",
-        "georgia-rental-habitability-requirements-csra-landlords-2026"
+        "georgia-rental-habitability-requirements-csra-landlords-2026",
+        "business-license-rental-property-csra-augusta-ga"
       ],
-      "gaps": [
-        "rental licensing requirements by CSRA jurisdiction"
-      ]
+      "gaps": []
     },
     "military-pcs": {
       "coverage": 0.87,
@@ -275,8 +274,7 @@
     }
   },
   "priorityQueue": [
-    "technology: online maintenance requests + tracking \u2014 tenant-side walkthrough (P5)",
-    "laws-compliance: rental licensing requirements by CSRA jurisdiction \u2014 is a license required in Augusta-Richmond County, Columbia County, Aiken County? (P3)",
+    "technology: online maintenance requests + tracking \u2014 tenant-side walkthrough (P5) \u2014 NOTE: existing post maintenance-request-tenant-guide-csra-rental covers submission; new post should focus on tracking/status workflow only",
     "taxes: cost segregation for SFR rental property Georgia (P4)",
     "investing: first rental purchase step-by-step for a CSRA beginner (P3/P4)",
     "city-guides: Augusta owner/investor city guide \u2014 demand drivers, cap rates, submarket comparison (P4)",

@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 115
+    "totalPosts": 117
   },
   "posts": [
     {
@@ -3299,6 +3299,68 @@
       ],
       "type": "new",
       "imageStatus": "none \u2014 Imagen API key invalid (34th consecutive run; API_KEY_INVALID)"
+    },
+    {
+      "slug": "business-license-rental-property-csra-augusta-ga",
+      "title": "Rental Property Business License Requirements in Augusta, GA",
+      "date": "2026-10-29",
+      "cluster": "laws-compliance",
+      "subtopic": "occupation tax / business license requirements for CSRA rental property owners \u2014 Augusta-Richmond County, Columbia County, Aiken SC, HB 399 overlay",
+      "persona": "P2",
+      "intent": "educational/compliance/conversion",
+      "cities": [
+        "Augusta",
+        "Evans",
+        "Martinez",
+        "Grovetown",
+        "North Augusta",
+        "Aiken",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "rental property business license Augusta GA",
+      "entities": [
+        "O.C.G.A. \u00a7 48-13-9",
+        "O.C.G.A. \u00a7 36-60-25",
+        "Georgia HB 399",
+        "SC Code \u00a7 6-1-820",
+        "Augusta-Richmond County License and Inspection Department",
+        "Columbia County Licensing Department",
+        "City of Aiken Business Licensing Office",
+        "Aiken County Business License Office",
+        "Fort Gordon",
+        "Evans GA",
+        "Grovetown GA",
+        "Augusta GA",
+        "Martinez GA",
+        "North Augusta SC",
+        "Aiken SC",
+        "Noah McBride",
+        "Amber McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "Does Georgia require a business license for rental property owners?",
+        "What is the Augusta-Richmond County Occupation Tax for landlords?",
+        "Does Columbia County require a business license for rental owners?",
+        "What happens if I rent without a business license in Augusta?",
+        "Do I need a business license for a single rental property?",
+        "Does an LLC still need a business license?",
+        "What does HB 399 require of out-of-state owners?",
+        "When does the Augusta business license expire?",
+        "What are Aiken SC rental licensing requirements?",
+        "Does Georgia allow rental property registration requirements?"
+      ],
+      "internalLinks": 8,
+      "externalCitations": 4,
+      "wordCount": 2650,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none \u2014 Imagen API key invalid (35th consecutive run; API_KEY_INVALID)"
     }
   ]
 }
