@@ -1,0 +1,12 @@
+{# Phones: keep the two lead actions in reach once the page's own CTAs scroll
+   away. /js/nav.js shows it; anything marked data-sticky-hide (and the
+   footer) hides it while on screen. A page can swap the gold button with
+   front matter `stickyCta: { label, href }` (the referral page does). #}
+<div class="sticky-cta" aria-label="Quick actions">
+  <a class="btn btn-ghost" href="tel:{{ site.phoneTel }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>Call</a>
+  {% if stickyCta and stickyCta.href %}
+  <a class="btn" href="{{ stickyCta.href }}">{{ stickyCta.label }}</a>
+  {% else %}
+  <a class="btn" href="/contact/" data-open-lead="sticky">Free Rental Analysis</a>
+  {% endif %}
+</div>

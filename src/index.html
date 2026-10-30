@@ -53,6 +53,7 @@ faqs:
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/css/core.css' | v }}">
 <link rel="stylesheet" href="{{ '/css/home.css' | v }}">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TDYZD9289V"></script>
 <script>
@@ -83,35 +84,7 @@ faqs:
   <div class="veil"></div>
 </div>
 
-<!-- Top nav -->
-<header class="nav" id="nav">
-  <a class="nav-logo" href="/" aria-label="McBride Property Management home">McBride <span>PM</span></a>
-  <nav class="nav-links" aria-label="Primary">
-    <a class="nav-util" href="/rentals/">Available Rentals</a>
-    <a class="nav-util" href="{{ site.ownerPortal }}">Owner Portal</a>
-    <a class="nav-util" href="{{ site.residentPortal }}">Resident Portal</a>
-    <a class="nav-phone" href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>
-    <a class="btn btn-small magnetic" href="/contact/" data-open-lead="nav">Free Rental Analysis</a>
-    <button class="nav-burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
-      <span></span><span></span><span></span>
-    </button>
-  </nav>
-</header>
-
-<!-- Mobile menu -->
-<div class="mobile-menu" id="mobile-menu">
-  <nav aria-label="Mobile">
-    <a href="/contact/" data-open-lead="menu">Free Rental Analysis</a>
-    <a href="/rentals/">Available Rentals</a>
-    <a href="/services/">Owner Services</a>
-    <a href="{{ site.ownerPortal }}">Owner Portal</a>
-    <a href="{{ site.residentPortal }}">Resident Portal</a>
-  </nav>
-  <div class="mobile-menu-contact">
-    <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>
-    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-  </div>
-</div>
+{% include "partials/header.njk" %}
 
 <!-- Journey rail -->
 <aside class="rail" aria-hidden="true">
@@ -142,7 +115,7 @@ faqs:
 
       <!-- One-field start: the address opens the two-step dialog at step 2.
            Without JS it falls back to /contact/?address=… -->
-      <form class="address-pill reveal-line" action="/contact/" method="get" data-address-start="hero">
+      <form class="address-pill reveal-line" action="/contact/" method="get" data-address-start="hero" data-sticky-hide>
         <label class="sr-only" for="hero-address">Your rental property's address</label>
         <input id="hero-address" name="address" type="text" autocomplete="street-address" placeholder="Your rental's address">
         <button class="btn" type="submit">Get My Free Rental Analysis</button>
@@ -279,7 +252,7 @@ faqs:
       </div>
 
       <!-- Same address-first start as the hero: opens the dialog at step 2 -->
-      <div class="start-card">
+      <div class="start-card" data-sticky-hide>
         <p class="start-kicker">Free rental analysis</p>
         <h3 class="start-title">What should your home rent for?</h3>
         <p class="start-sub">Enter the address. {{ site.contactName }}, our {{ site.contactTitle | lower }}, sends a rent range and a proposal within one business day.</p>
@@ -354,135 +327,14 @@ faqs:
 
 </main>
 
-<!-- Mobile: keep the two lead actions in reach once the hero scrolls away -->
-<div class="sticky-cta" aria-label="Quick actions">
-  <a class="btn btn-ghost" href="tel:{{ site.phoneTel }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>Call</a>
-  <a class="btn" href="/contact/" data-open-lead="sticky">Free Rental Analysis</a>
-</div>
+{% include "partials/sticky-cta.njk" %}
+{% include "partials/lead-dialog.njk" %}
 
-<!-- The rental-analysis form. Every "Free Rental Analysis" button and both
-     address boxes open this two-step dialog (address → contact details).
-     It is the page's only Netlify form; without JS the address boxes and
-     buttons fall back to /contact/, which posts the same form name. -->
-<dialog class="lead-dialog" id="lead-dialog" aria-labelledby="ld-kicker">
-  <div class="ld-shell">
-    <button class="ld-close" type="button" aria-label="Close" data-dialog-close><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
-    <p class="ld-kicker" id="ld-kicker">Free rental analysis</p>
-    <ol class="ld-progress" aria-hidden="true"><li class="is-on">1 · Property</li><li>2 · Contact</li></ol>
-
-    <form class="lead-form" name="rental-analysis" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="bot-field" novalidate>
-      <input type="hidden" name="form-name" value="rental-analysis">
-      <input type="hidden" name="page" value="/">
-      <input type="hidden" name="source" value="">
-      <p hidden><label>Don't fill this out: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
-
-      <div class="ld-step" data-step="1">
-        <h2 class="ld-title">Which property should we look at?</h2>
-        <p class="ld-sub">We'll compare it with nearby rentals and send you a recommended rent range.</p>
-        <div class="field">
-          <label for="ld-address">Property address</label>
-          <input id="ld-address" name="address" type="text" autocomplete="street-address" placeholder="123 Main St, Evans, GA" required minlength="5" aria-describedby="ld-address-err">
-          <p class="field-error" id="ld-address-err" hidden>Enter the property's street address.</p>
-        </div>
-        <button class="btn ld-wide" type="button" data-next>Continue <span class="btn-arrow" aria-hidden="true">→</span></button>
-      </div>
-
-      <div class="ld-step" data-step="2" hidden>
-        <h2 class="ld-title">Where should {{ site.contactFirstName }} send it?</h2>
-        <p class="ld-address"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span data-address-echo></span><button class="ld-change" type="button" data-back>Change</button></p>
-        <div class="field">
-          <label for="ld-name">Your name</label>
-          <input id="ld-name" name="fullName" type="text" autocomplete="name" required aria-describedby="ld-name-err">
-          <p class="field-error" id="ld-name-err" hidden>Enter your name.</p>
-        </div>
-        <div class="field-row">
-          <div class="field">
-            <label for="ld-phone">Phone <span>(fastest reply)</span></label>
-            <input id="ld-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel">
-          </div>
-          <div class="field">
-            <label for="ld-email">Email</label>
-            <input id="ld-email" name="email" type="email" autocomplete="email" required aria-describedby="ld-email-err">
-            <p class="field-error" id="ld-email-err" hidden>Enter a valid email address.</p>
-          </div>
-        </div>
-        <fieldset class="chips">
-          <legend>What best describes you? <span>(optional)</span></legend>
-          <div class="chip-row">
-            <label class="chip"><input type="radio" name="situation" value="Moving away (PCS or relocation) and keeping my home"><span>Moving away / PCS</span></label>
-            <label class="chip"><input type="radio" name="situation" value="Inherited a home or can't sell right now"><span>Inherited a home</span></label>
-            <label class="chip"><input type="radio" name="situation" value="I own rentals and manage them myself"><span>Managing it myself</span></label>
-            <label class="chip"><input type="radio" name="situation" value="Looking to switch property managers"><span>Switching managers</span></label>
-            <label class="chip"><input type="radio" name="situation" value="Buying an investment property"><span>Buying a rental</span></label>
-            <label class="chip"><input type="radio" name="situation" value="Something else"><span>Something else</span></label>
-          </div>
-        </fieldset>
-        <button class="btn ld-wide lead-submit" type="submit">Get My Free Rental Analysis</button>
-        <p class="lead-fine">{{ site.contactName }}, our {{ site.contactTitle | lower }}, replies within one business day. No obligation, no spam.</p>
-        <p class="lead-error" role="alert" hidden>Something went wrong sending your request. Please call <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a> or email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
-      </div>
-    </form>
-
-    <div class="lead-success" data-success hidden tabindex="-1">
-      <span class="ld-check" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span>
-      <h2 class="ld-title">Thanks<span data-first-name></span>. {{ site.contactFirstName }} has your request.</h2>
-      <p>{{ site.contactName }} will reply within one business day with your rent range and a proposal. Want to talk sooner? Call <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>.</p>
-      <button class="btn btn-ghost ld-wide" type="button" data-dialog-close>Back to the tour</button>
-    </div>
-  </div>
-</dialog>
-
-<footer class="footer">
-  <div class="container footer-grid">
-    <p class="footer-brand">McBride <span>PM</span></p>
-    <nav class="footer-links" aria-label="Portals and contact">
-      <a href="/rentals/">Available Rentals</a>
-      <a href="{{ site.ownerPortal }}">Owner Portal</a>
-      <a href="{{ site.residentPortal }}">Resident Portal</a>
-      <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>
-      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-    </nav>
-  </div>
-  <div class="container footer-rows">
-    <nav class="footer-row" aria-label="Explore">
-      <span class="footer-row-label">Explore</span>
-      <a href="/services/">PM Services</a>
-      <a href="/why-hire/">Why Hire Us</a>
-      <a href="/owner-faqs/">Owner FAQs</a>
-      <a href="/resident-faqs/">Resident FAQs</a>
-      <a href="/resources/">Resources</a>
-      <a href="/blog/">Blog</a>
-      <a href="/about/">About</a>
-      <a href="/referral/">Agent Referral</a>
-      <a href="/contact/">Contact</a>
-    </nav>
-    <nav class="footer-row" aria-label="Areas we serve">
-      <span class="footer-row-label">Areas</span>
-      <a href="/augusta/">Augusta</a>
-      <a href="/evans/">Evans</a>
-      <a href="/grovetown/">Grovetown</a>
-      <a href="/martinez/">Martinez</a>
-      <a href="/harlem/">Harlem</a>
-      <a href="/hephzibah/">Hephzibah</a>
-      <a href="/appling/">Appling</a>
-      <a href="/north-augusta/">North Augusta</a>
-      <a href="/aiken/">Aiken</a>
-      <a href="/graniteville/">Graniteville</a>
-    </nav>
-    <div class="footer-row footer-nap">
-      <span class="footer-row-label">Office</span>
-      <span>{{ site.name }} · {{ site.fullAddress }} · Mon–Fri, 9 AM–5 PM · Licensed in Georgia and South Carolina</span>
-    </div>
-    <div class="footer-row footer-legal">
-      <span>&copy; 2026 {{ site.name }}</span>
-      <a href="/privacy/">Privacy Policy</a>
-      <a href="/terms/">Terms of Service</a>
-    </div>
-  </div>
-</footer>
+{% include "partials/footer.njk" %}
 
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script src="{{ '/js/nav.js' | v }}"></script>
 <script src="{{ '/js/lead.js' | v }}"></script>
 <script src="{{ '/js/home.js' | v }}"></script>
 </body>

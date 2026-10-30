@@ -505,8 +505,18 @@ Authentication is provided by the system `gh` CLI installation; no token in this
 ```bash
 mkdir -p src/blog src/images/blog
 cp [staged-post.md] src/blog/[post-slug].md
-cp [staged-image.jpg] src/images/blog/[post-slug].jpg   # only if image was generated
+cp [staged-images]/[post-slug]*.jpg src/images/blog/   # EVERY generated image: hero, -2, -3, and the social image
 ```
+
+**Before committing, verify every image the post references exists** (added 2026-10-30: 11 posts shipped with 23 missing images, mostly the body images `-2`/`-3`, because only the hero was copied):
+
+```bash
+grep -oE '/images/blog/[^")]+' src/blog/[post-slug].md | sort -u | while read img; do
+  [ -f "src$img" ] || echo "MISSING $img"
+done
+```
+
+If anything prints MISSING, copy the file in; if it was never generated, remove that reference (the `<figure>` block, or the `image:` / `socialImage:` line) before you commit. The site build also drops figures whose file is missing, but the post should never depend on that.
 
 ### 8.3 Commit
 

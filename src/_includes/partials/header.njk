@@ -1,0 +1,69 @@
+{# Site header + mobile menu — one copy for the homepage and every inner page.
+   Behavior (dropdowns, burger, hide-on-scroll) lives in /js/nav.js. #}
+{% set u = page.url or "/" %}
+{% set ownerPages = ["/services/", "/why-hire/", "/owner-faqs/", "/resources/"] %}
+<header class="nav" id="nav">
+  <a class="nav-logo" href="/" aria-label="McBride Property Management home">McBride <span>PM</span></a>
+  <nav class="nav-links" aria-label="Primary">
+    <div class="nav-drop{% if u in ownerPages or '/blog/' in u %} is-current{% endif %}" data-drop>
+      <button class="nav-item nav-drop-btn" type="button" aria-expanded="false" aria-controls="drop-owners">Owners<svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5 6 6.5l5-5"/></svg></button>
+      <div class="nav-drop-menu" id="drop-owners">
+        <a href="/services/"{% if u == "/services/" %} aria-current="page"{% endif %}><strong>PM Services</strong><span>Leasing, screening, rent, maintenance, and reporting</span></a>
+        <a href="/why-hire/"{% if u == "/why-hire/" %} aria-current="page"{% endif %}><strong>Why Hire Us</strong><span>What changes when we take over your rental</span></a>
+        <a href="/owner-faqs/"{% if u == "/owner-faqs/" %} aria-current="page"{% endif %}><strong>Owner FAQs</strong><span>Fees, payouts, screening, and more</span></a>
+        <a href="/#all-areas"><strong>Areas We Serve</strong><span>Augusta, Evans, Aiken, and the CSRA</span></a>
+        <a href="/resources/"{% if u == "/resources/" %} aria-current="page"{% endif %}><strong>Resources</strong><span>Owner and resident guides</span></a>
+        <a href="/blog/"{% if '/blog/' in u %} aria-current="page"{% endif %}><strong>Blog</strong><span>Landlord guides written in the CSRA</span></a>
+      </div>
+    </div>
+    <a class="nav-item" href="/rentals/"{% if u == "/rentals/" %} aria-current="page"{% endif %}>Available Rentals</a>
+    <div class="nav-drop" data-drop>
+      <button class="nav-item nav-drop-btn" type="button" aria-expanded="false" aria-controls="drop-portals">Portals<svg class="nav-chev" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5 6 6.5l5-5"/></svg></button>
+      <div class="nav-drop-menu nav-drop-menu--compact" id="drop-portals">
+        <a href="{{ site.ownerPortal }}"><strong>Owner Portal</strong><span>Statements, payouts, and documents</span></a>
+        <a href="{{ site.residentPortal }}"><strong>Resident Portal</strong><span>Pay rent and request maintenance</span></a>
+      </div>
+    </div>
+    <a class="nav-item" href="/referral/"{% if u == "/referral/" %} aria-current="page"{% endif %}>Agent Referral</a>
+    <a class="nav-item nav-about" href="/about/"{% if u == "/about/" %} aria-current="page"{% endif %}>About</a>
+    <a class="nav-item nav-phone" href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>
+    <a class="btn btn-small magnetic" href="/contact/" data-open-lead="nav">Free Rental Analysis</a>
+    <button class="nav-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<div class="mobile-menu" id="mobile-menu">
+  <div class="mm-inner">
+    <a class="btn mm-cta" href="/contact/" data-open-lead="menu">Free Rental Analysis</a>
+    <div class="mm-groups">
+      <nav class="mm-group" aria-label="For owners">
+        <p class="mm-label">Owners</p>
+        <a href="/services/"{% if u == "/services/" %} aria-current="page"{% endif %}>PM Services</a>
+        <a href="/why-hire/"{% if u == "/why-hire/" %} aria-current="page"{% endif %}>Why Hire Us</a>
+        <a href="/owner-faqs/"{% if u == "/owner-faqs/" %} aria-current="page"{% endif %}>Owner FAQs</a>
+        <a href="/#all-areas">Areas We Serve</a>
+        <a href="/resources/"{% if u == "/resources/" %} aria-current="page"{% endif %}>Resources</a>
+        <a href="/blog/"{% if '/blog/' in u %} aria-current="page"{% endif %}>Blog</a>
+      </nav>
+      <nav class="mm-group" aria-label="For renters and residents">
+        <p class="mm-label">Renters &amp; residents</p>
+        <a href="/rentals/"{% if u == "/rentals/" %} aria-current="page"{% endif %}>Available Rentals</a>
+        <a href="{{ site.residentPortal }}">Resident Portal</a>
+        <a href="/resident-faqs/"{% if u == "/resident-faqs/" %} aria-current="page"{% endif %}>Resident FAQs</a>
+      </nav>
+      <nav class="mm-group" aria-label="More">
+        <p class="mm-label">More</p>
+        <a href="{{ site.ownerPortal }}">Owner Portal</a>
+        <a href="/referral/"{% if u == "/referral/" %} aria-current="page"{% endif %}>Agent Referral</a>
+        <a href="/about/"{% if u == "/about/" %} aria-current="page"{% endif %}>About</a>
+        <a href="/contact/"{% if u == "/contact/" %} aria-current="page"{% endif %}>Contact</a>
+      </nav>
+    </div>
+    <div class="mobile-menu-contact">
+      <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </div>
+  </div>
+</div>

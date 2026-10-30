@@ -227,16 +227,6 @@ mm.add(
       },
     });
 
-    /* ---------- Nav: hide on scroll down, show on scroll up ---------- */
-    const nav = document.getElementById("nav");
-    ScrollTrigger.create({
-      start: "top -80",
-      end: "max",
-      onUpdate: (self) => {
-        nav.classList.toggle("nav-hidden", self.direction === 1);
-      },
-    });
-
     /* ---------- Desktop-only pointer physics ---------- */
     if (desktop) {
       document.body.classList.add("cursor-active");
@@ -333,42 +323,7 @@ mm.add("(prefers-reduced-motion: reduce)", () => {
   });
 });
 
-/* ============================================================
-   MOBILE MENU — plain JS, runs regardless of motion preference
-   ============================================================ */
-const burger = document.querySelector(".nav-burger");
-if (burger) {
-  const setMenu = (open) => {
-    document.documentElement.classList.toggle("menu-open", open);
-    burger.setAttribute("aria-expanded", String(open));
-    burger.setAttribute("aria-label", open ? "Close menu" : "Open menu");
-  };
-  burger.addEventListener("click", () =>
-    setMenu(!document.documentElement.classList.contains("menu-open"))
-  );
-  document
-    .querySelectorAll(".mobile-menu a")
-    .forEach((a) => a.addEventListener("click", () => setMenu(false)));
-}
-
-/* ============================================================
-   MOBILE STICKY CTA — shows once the hero is gone, hides at the form
-   ============================================================ */
-const sticky = document.querySelector(".sticky-cta");
-if (sticky && "IntersectionObserver" in window) {
-  const seen = { curb: true, handoff: false, footer: false };
-  const update = () =>
-    sticky.classList.toggle("is-visible", !seen.curb && !seen.handoff && !seen.footer);
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach((en) => (seen[en.target.dataset.stickyKey] = en.isIntersecting));
-    update();
-  });
-  // "curb" is the hero's address box: the bar appears as soon as it scrolls away
-  [["curb", "#curb .address-pill"], ["handoff", "#handoff .start-card"], ["footer", ".footer"]].forEach(([key, sel]) => {
-    const el = document.querySelector(sel);
-    if (el) { el.dataset.stickyKey = key; io.observe(el); }
-  });
-}
+/* Header, mobile menu, and call bar: see /js/nav.js */
 
 /* Opening a FAQ changes page height — keep pinned/scrubbed positions true */
 document.querySelectorAll(".faq").forEach((d) =>

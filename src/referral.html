@@ -6,7 +6,9 @@ ogTitle: "Realtor Referral Program | McBride Property Management"
 ogDescription: "Earn up to $1,000+ per referral. Written non-compete, fast payouts, full transparency. Your clients stay yours."
 ogImage: "https://mcbride-pm.com/og-image.jpg"
 keywords: "Augusta property management referral fee, realtor referral program Augusta GA, property manager referral program Georgia, how much do property managers pay realtors for referrals Georgia, real estate agent referral Augusta"
-topbarText: "Realtor Referral Program — McBride Property Management"
+stickyCta:
+  label: "Refer a Client"
+  href: "#referral-form"
 breadcrumbs:
   - name: "Home"
     url: "/"
@@ -17,42 +19,13 @@ breadcrumbs:
 <style>
     /* ---- Referral Page Specific Styles ---- */
 
-    /* Sticky CTA */
-    .sticky-cta {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: #060644;
-        padding: .75rem 0;
-        z-index: 999;
-        box-shadow: 0 -4px 20px rgba(0,0,0,.15);
-        transform: translateY(100%);
-        transition: transform .3s ease;
-    }
-    .sticky-cta.visible { transform: translateY(0); }
-    .sticky-cta .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 1rem;
-    }
-    .sticky-cta p {
-        color: #fff;
-        margin: 0;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-        font-size: .95rem;
-    }
-    .sticky-cta .btn { white-space: nowrap; }
-
     /* Payout Tiers */
     .tier-card {
-        background: #fff;
-        border-radius: 12px;
+        background: var(--panel);
+        border-radius: 18px;
         padding: 2.5rem 2rem;
         text-align: center;
-        border: 2px solid #f0f0f0;
+        border: 1px solid var(--line);
         transition: all .25s;
         position: relative;
     }
@@ -72,7 +45,7 @@ breadcrumbs:
         left: 50%;
         transform: translateX(-50%);
         background: #b2995a;
-        color: #fff;
+        color: var(--white);
         padding: .3rem 1.25rem;
         border-radius: 20px;
         font-size: .75rem;
@@ -84,7 +57,7 @@ breadcrumbs:
     .tier-icon {
         width: 64px;
         height: 64px;
-        background: linear-gradient(135deg, #060644, #0d0d8a);
+        background: rgba(178, 153, 90, 0.14); border: 1px solid rgba(178, 153, 90, 0.5);
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -97,7 +70,7 @@ breadcrumbs:
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         font-size: 1rem;
-        color: #060644;
+        color: var(--white);
         margin-bottom: .5rem;
     }
     .tier-amount {
@@ -110,13 +83,13 @@ breadcrumbs:
     }
     .tier-desc {
         font-size: .9rem;
-        color: #666;
+        color: var(--ink-soft);
     }
 
     /* Calculator */
     .calc-wrapper {
-        background: #fff;
-        border-radius: 12px;
+        background: var(--panel);
+        border-radius: 18px;
         padding: 2.5rem;
         box-shadow: 0 4px 20px rgba(0,0,0,.06);
         max-width: 600px;
@@ -128,7 +101,7 @@ breadcrumbs:
         appearance: none;
         height: 8px;
         border-radius: 4px;
-        background: linear-gradient(to right, #b2995a 0%, #b2995a 50%, #ddd 50%, #ddd 100%);
+        background: linear-gradient(to right, #b2995a 0%, #b2995a 50%, rgba(255,255,255,.2) 50%, rgba(255,255,255,.2) 100%);
         outline: none;
         margin: 1.5rem 0;
     }
@@ -155,7 +128,7 @@ breadcrumbs:
     .calc-result {
         text-align: center;
         padding: 1.5rem;
-        background: #f7f7f5;
+        background: rgba(178, 153, 90, 0.1);
         border-radius: 8px;
         margin-top: 1rem;
     }
@@ -168,7 +141,7 @@ breadcrumbs:
     }
     .calc-result .label {
         font-size: .9rem;
-        color: #555;
+        color: var(--ink-soft);
         margin-top: .35rem;
     }
     .calc-doors {
@@ -176,12 +149,12 @@ breadcrumbs:
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         font-size: 1.25rem;
-        color: #060644;
+        color: var(--white);
     }
 
     /* Pledge Box */
     .pledge-box {
-        background: #f7f7f5;
+        background: rgba(178, 153, 90, 0.1);
         border-left: 4px solid #b2995a;
         border-radius: 0 8px 8px 0;
         padding: 2rem 2.5rem;
@@ -190,7 +163,7 @@ breadcrumbs:
     .pledge-box p {
         font-size: 1.05rem;
         font-style: italic;
-        color: #333;
+        color: var(--ink);
         margin-bottom: 0;
     }
 
@@ -219,7 +192,7 @@ breadcrumbs:
     .process-number {
         width: 80px;
         height: 80px;
-        background: #060644;
+        background: var(--navy-deep);
         color: #b2995a;
         border-radius: 50%;
         display: flex;
@@ -229,11 +202,11 @@ breadcrumbs:
         font-weight: 800;
         font-size: 1.75rem;
         margin: 0 auto 1.25rem;
-        border: 4px solid #fff;
+        border: 1px solid rgba(178, 153, 90, 0.7);
         box-shadow: 0 4px 16px rgba(0,0,0,.1);
     }
     .process-step h3 { font-size: 1.1rem; margin-bottom: .5rem; }
-    .process-step p { font-size: .9rem; color: #555; margin-bottom: 0; }
+    .process-step p { font-size: .9rem; color: var(--ink-soft); margin-bottom: 0; }
     @media (max-width: 700px) {
         .process-grid { grid-template-columns: 1fr; }
         .process-grid::before { display: none; }
@@ -261,7 +234,7 @@ breadcrumbs:
         left: 0;
         right: 0;
         bottom: 0;
-        background: linear-gradient(135deg, #060644 0%, #0d0d8a 100%);
+        background: radial-gradient(ellipse at 50% 0%, rgba(178, 153, 90, 0.16), transparent 60%);
         z-index: 0;
     }
     .referral-form-section .container {
@@ -269,8 +242,8 @@ breadcrumbs:
         z-index: 1;
     }
     .referral-form-card {
-        background: #fff;
-        border-radius: 12px;
+        background: var(--panel);
+        border-radius: 18px;
         padding: 3rem;
         box-shadow: 0 12px 40px rgba(0,0,0,.2);
         max-width: 700px;
@@ -279,11 +252,11 @@ breadcrumbs:
 
     /* Pillar cards */
     .pillar-card {
-        background: #fff;
-        border-radius: 12px;
+        background: var(--panel);
+        border-radius: 18px;
         padding: 2.5rem 2rem;
         box-shadow: 0 2px 12px rgba(0,0,0,.05);
-        border: 1px solid #f0f0f0;
+        border: 1px solid var(--line);
         text-align: center;
         transition: transform .2s, box-shadow .2s;
     }
@@ -294,7 +267,7 @@ breadcrumbs:
     .pillar-icon {
         width: 64px;
         height: 64px;
-        background: linear-gradient(135deg, #060644, #0d0d8a);
+        background: rgba(178, 153, 90, 0.14); border: 1px solid rgba(178, 153, 90, 0.5);
         border-radius: 14px;
         display: flex;
         align-items: center;
@@ -303,8 +276,6 @@ breadcrumbs:
         color: #b2995a;
     }
 
-    /* Add bottom padding for sticky CTA */
-    body { padding-bottom: 70px; }
     </style>
 {% endblock %}
 
@@ -349,7 +320,7 @@ breadcrumbs:
 <section class="section" id="why-partner">
     <div class="container">
         <h2 class="text-center mb-1">The Three Pillars of Our Partnership</h2>
-        <p class="text-center" style="max-width: 650px; margin: 0 auto 3rem; color: #555;">We built this program around what agents actually care about: protecting your relationships, your reputation, and your income.</p>
+        <p class="text-center" style="max-width: 650px; margin: 0 auto 3rem; color: var(--ink-soft);">We built this program around what agents actually care about: protecting your relationships, your reputation, and your income.</p>
         <div class="grid grid-3">
             <div class="pillar-card">
                 <div class="pillar-icon">
@@ -403,7 +374,7 @@ breadcrumbs:
 <section class="section section--light" id="how-it-works">
     <div class="container">
         <h2 class="text-center mb-1">How It Works</h2>
-        <p class="text-center" style="max-width: 600px; margin: 0 auto 3rem; color: #555;">Three steps. That's it. You refer, we manage, you get paid.</p>
+        <p class="text-center" style="max-width: 600px; margin: 0 auto 3rem; color: var(--ink-soft);">Three steps. That's it. You refer, we manage, you get paid.</p>
         <div class="process-grid">
             <div class="process-step">
                 <div class="process-number">1</div>
@@ -428,7 +399,7 @@ breadcrumbs:
 <section class="section" id="payouts">
     <div class="container">
         <h2 class="text-center mb-1">Referral Payout Tiers</h2>
-        <p class="text-center" style="max-width: 600px; margin: 0 auto 3rem; color: #555;">Straightforward, tiered payouts. The more doors, the higher the fee.</p>
+        <p class="text-center" style="max-width: 600px; margin: 0 auto 3rem; color: var(--ink-soft);">Straightforward, tiered payouts. The more doors, the higher the fee.</p>
         <div class="grid grid-3">
             <div class="tier-card">
                 <div class="tier-icon">
@@ -462,11 +433,11 @@ breadcrumbs:
 <section class="section section--light" id="calculator">
     <div class="container">
         <h2 class="text-center mb-1">Estimate Your Referral Earnings</h2>
-        <p class="text-center" style="max-width: 550px; margin: 0 auto 2.5rem; color: #555;">Drag the slider to see what your referrals could be worth this year.</p>
+        <p class="text-center" style="max-width: 550px; margin: 0 auto 2.5rem; color: var(--ink-soft);">Drag the slider to see what your referrals could be worth this year.</p>
         <div class="calc-wrapper">
             <div class="calc-doors"><span id="doorCount">1</span> Door<span id="doorPlural"></span> Referred</div>
             <input type="range" min="1" max="20" value="1" class="calc-slider" id="calcSlider">
-            <div style="display: flex; justify-content: space-between; font-size: .8rem; color: #888; margin-top: -1rem; margin-bottom: 1rem;">
+            <div style="display: flex; justify-content: space-between; font-size: .8rem; color: var(--ink-soft); margin-top: -1rem; margin-bottom: 1rem;">
                 <span>1 door</span>
                 <span>20 doors</span>
             </div>
@@ -483,7 +454,7 @@ breadcrumbs:
     <div class="container">
         <div class="referral-form-card">
             <h2 class="text-center" style="margin-bottom: .5rem;">Submit a Referral</h2>
-            <p class="text-center" style="color: #666; margin-bottom: 2rem;">Takes about 60 seconds. We'll confirm receipt within one business day.</p>
+            <p class="text-center" style="color: var(--ink-soft); margin-bottom: 2rem;">Takes about 60 seconds. We'll confirm receipt within one business day.</p>
 
             <form name="realtor-referral" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/referral-thank-you/">
                 <input type="hidden" name="form-name" value="realtor-referral">
@@ -530,12 +501,12 @@ breadcrumbs:
                 </div>
 
                 <div class="form-group">
-                    <label for="notes">Anything else we should know? <span style="font-weight: 400; color: #888;">(optional)</span></label>
+                    <label for="notes">Anything else we should know? <span style="font-weight: 400; color: var(--ink-soft);">(optional)</span></label>
                     <textarea id="notes" name="notes" rows="3" placeholder="Timeline, client situation, etc."></textarea>
                 </div>
 
                 <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; margin-top: .5rem;">Submit Referral</button>
-                <p style="text-align: center; font-size: .8rem; color: #888; margin-top: 1rem; margin-bottom: 0;">Your information is kept confidential and never shared with third parties.</p>
+                <p style="text-align: center; font-size: .8rem; color: var(--ink-soft); margin-top: 1rem; margin-bottom: 0;">Your information is kept confidential and never shared with third parties.</p>
             </form>
         </div>
     </div>
@@ -545,7 +516,7 @@ breadcrumbs:
 <section class="section" id="faq">
     <div class="container">
         <h2 class="text-center mb-1">Frequently Asked Questions</h2>
-        <p class="text-center" style="max-width: 600px; margin: 0 auto 2.5rem; color: #555;">Answers to the questions agents ask most about our referral program.</p>
+        <p class="text-center" style="max-width: 600px; margin: 0 auto 2.5rem; color: var(--ink-soft);">Answers to the questions agents ask most about our referral program.</p>
         <div style="max-width: 800px; margin: 0 auto;" class="faq">
             <div class="faq-item">
                 <button class="faq-question">Will you try to take my client's listing when they sell?</button>
@@ -601,26 +572,6 @@ breadcrumbs:
 
 {% block scripts %}
 <script>
-// Sticky CTA - show after scrolling past hero
-(function() {
-    var sticky = document.getElementById('stickyCta');
-    var hero = document.querySelector('.hero');
-    if (!sticky || !hero) return;
-    var shown = false;
-    function checkScroll() {
-        var trigger = hero.offsetTop + hero.offsetHeight;
-        if (window.scrollY > trigger && !shown) {
-            sticky.classList.add('visible');
-            shown = true;
-        } else if (window.scrollY <= trigger && shown) {
-            sticky.classList.remove('visible');
-            shown = false;
-        }
-    }
-    window.addEventListener('scroll', checkScroll, { passive: true });
-    checkScroll();
-})();
-
 // Payout Calculator
 (function() {
     var slider = document.getElementById('calcSlider');
@@ -641,7 +592,7 @@ breadcrumbs:
         amount.textContent = '$' + payout.toLocaleString();
         // Update slider gradient
         var pct = ((doors - 1) / 19) * 100;
-        slider.style.background = 'linear-gradient(to right, #b2995a 0%, #b2995a ' + pct + '%, #ddd ' + pct + '%, #ddd 100%)';
+        slider.style.background = 'linear-gradient(to right, #b2995a 0%, #b2995a ' + pct + '%, rgba(255,255,255,.2) ' + pct + '%, rgba(255,255,255,.2) 100%)';
     }
     slider.addEventListener('input', updateCalc);
     updateCalc();

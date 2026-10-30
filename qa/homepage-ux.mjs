@@ -71,6 +71,21 @@ const buttonGeometry = (page, sel) => page.evaluate((sel) => [...document.queryS
   return { text: b.textContent.trim().replace(/\s+/g, ' ').slice(0, 32), h: Math.round(r.height), w: Math.round(r.width), centerOff: off, visible: r.width > 0 && r.height > 0 };
 }).filter(x => x.visible), sel);
 
+// Buttons whose label breaks onto a second line (measured on the text itself, icons ignored)
+const wrappedButtons = (page) => page.evaluate(() => [...document.querySelectorAll('.btn')].filter(b => {
+  const r = b.getBoundingClientRect();
+  if (!r.width || !r.height || getComputedStyle(b).display === 'none') return false;
+  const lines = new Set();
+  const w = document.createTreeWalker(b, NodeFilter.SHOW_TEXT);
+  let t;
+  while ((t = w.nextNode())) {
+    if (!t.textContent.trim()) continue;
+    const rg = document.createRange(); rg.selectNodeContents(t);
+    [...rg.getClientRects()].filter(x => x.width > 1).forEach(x => lines.add(Math.round(x.top / 6)));
+  }
+  return lines.size > 1;
+}).map(b => b.textContent.trim().replace(/\s+/g, ' ')));
+
 /* ================= 1. Layout sweep per viewport ================= */
 const VIEWPORTS = [
   ['desk1920', { width: 1920, height: 1080 }, false],
@@ -99,6 +114,8 @@ for (const [name, vp, mobile] of VIEWPORTS) {
   const heroBtns = await buttonGeometry(page, '.hero .btn, .nav .btn');
   ok(`${name}: hero/nav button labels vertically centered`, heroBtns.every(b => Math.abs(b.centerOff) <= 2), JSON.stringify(heroBtns));
   ok(`${name}: hero/nav buttons stay on one line`, heroBtns.every(b => b.h <= 54), JSON.stringify(heroBtns.map(b => b.h)));
+  const wrapped = await wrappedButtons(page);
+  ok(`${name}: no button label wraps to two lines`, !wrapped.length, wrapped.join(' | '));
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - innerWidth);
   ok(`${name}: no sideways scroll`, overflow <= 0, `overflow ${overflow}px`);
 
