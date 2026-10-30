@@ -11,6 +11,20 @@ module.exports = function (eleventyConfig) {
     return `${url}?v=${hash}`;
   });
 
+  // "/images/blog/x.jpg" | exists → true when the file is in src/. Guards
+  // post hero and share images the auto-blog references but never saved.
+  eleventyConfig.addFilter("exists", (url) => !!url && fs.existsSync("src" + url));
+
+  // Blog figures whose image file was never saved (the auto-blog sometimes
+  // skips the image step) are dropped instead of showing a broken image.
+  eleventyConfig.addTransform("drop-missing-figures", (content, outputPath) => {
+    if (!outputPath || !outputPath.endsWith(".html") || !content.includes("blog-figure")) return content;
+    return content.replace(/<figure class="blog-figure">[\s\S]*?<\/figure>/g, (figure) => {
+      const src = (figure.match(/<img[^>]+src="(\/[^"]+)"/) || [])[1];
+      return src && !fs.existsSync("src" + src) ? "" : figure;
+    });
+  });
+
   // Pass through static assets
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");

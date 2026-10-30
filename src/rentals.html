@@ -25,8 +25,8 @@ breadcrumbs:
   <!-- Listings Section -->
   <div class="content-section">
     <div class="container">
-      <!-- Tenant Turner Listings Widget -->
-      <div id="ttWidget"></div>
+      <!-- Tenant Turner Listings Widget (light by design: it sits on a white board) -->
+      <div class="listing-board"><div id="ttWidget"></div></div>
       <script>
         try {
           window.tenantTurnerListingsWidget = {
@@ -76,14 +76,14 @@ breadcrumbs:
           })()
         } catch (err) { if (console) { console.warn('TT widget error: ' + err); } }
       </script>
-      <div style="text-align: center; margin-top: 2rem; padding: 1.5rem; border: 1px solid #e3e3e3; border-radius: 8px;">
-        <p style="margin: 0 0 .75rem; color: #333;">Listings not loading, or want to see everything in one list?</p>
+      <div class="listing-help">
+        <p style="margin: 0 0 .75rem; color: var(--ink-soft);">Listings not loading, or want to see everything in one list?</p>
         <a href="{{ site.rentalsListings }}" class="btn btn-primary">See All Available Homes &rarr;</a>
-        <p style="margin: .75rem 0 0; color: #6b6b6b; font-size: .85rem;">Questions about a home? Call <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a> or email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+        <p style="margin: .75rem 0 0; color: var(--ink-soft); font-size: .85rem;">Questions about a home? Call <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a> or email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
       </div>
 
       <h2 class="text-center mb-3" style="margin-top: 3rem;">How It Works</h2>
-      <p class="text-center" style="color: #666; margin-bottom: 2rem; font-size: 0.95rem;">Browse listings above, schedule a showing at a time that works for you, and submit your application online.</p>
+      <p class="text-center" style="color: var(--ink-soft); margin-bottom: 2rem; font-size: 0.95rem;">Browse listings above, schedule a showing at a time that works for you, and submit your application online.</p>
     </div>
   </div>
 

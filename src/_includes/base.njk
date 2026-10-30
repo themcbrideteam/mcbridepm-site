@@ -10,7 +10,7 @@
   {% set _fullTitle = title if (title and (' | ' in title)) else ((title + ' | ' + site.name) if title else site.name) %}
   {% set _ogTitle = ogTitle or _fullTitle %}
   {% set _ogDescription = ogDescription or description or 'Professional property management for residential property owners across the CSRA.' %}
-  {% set _ogImage = ogImage or (site.url + image if image else site.url + '/og-image.jpg') %}
+  {% set _ogImage = ogImage or (site.url + image if (image and (image | exists)) else site.url + '/og-image.jpg') %}
 
   <!-- Open Graph Tags -->
   <meta property="og:title" content="{{ _ogTitle }}">
@@ -28,8 +28,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 
-  <!-- Styles -->
+  <!-- Styles: shared core (header, buttons, dialog, footer), then inner pages -->
+  <link rel="stylesheet" href="{{ '/css/core.css' | v }}">
   <link rel="stylesheet" href="{{ '/css/styles.css' | v }}">
+
+  {# Backdrop photo behind the page header, by section; front matter `stage` overrides #}
+  {% set stageMap = {
+    "/services/": "rosewood-kitchen", "/why-hire/": "rosewood-kitchen",
+    "/about/": "kingsway-front-twilight", "/contact/": "kingsway-front-twilight", "/referral/": "kingsway-front-twilight",
+    "/thank-you/": "kingsway-front-twilight", "/referral-thank-you/": "kingsway-front-twilight",
+    "/rentals/": "rosewood-interior", "/resident-faqs/": "rosewood-interior", "/owner-faqs/": "rosewood-interior", "/resources/": "rosewood-interior",
+    "/augusta/": "canterbury-aerial", "/evans/": "canterbury-aerial", "/grovetown/": "canterbury-aerial", "/martinez/": "canterbury-aerial",
+    "/harlem/": "canterbury-aerial", "/hephzibah/": "canterbury-aerial", "/appling/": "canterbury-aerial",
+    "/north-augusta/": "canterbury-aerial", "/aiken/": "canterbury-aerial", "/graniteville/": "canterbury-aerial"
+  } %}
+  {% set stageImg = stage or stageMap[page.url] or ("rosewood-interior" if "/blog/" in page.url else "rosewood-front-twilight") %}
+  <link rel="preload" as="image" imagesrcset="/assets/img/stage/{{ stageImg }}-1080.jpg 1080w, /assets/img/stage/{{ stageImg }}-1920.jpg 1920w" imagesizes="100vw" fetchpriority="high">
 
   <!-- Canonical, robots, sitemap -->
   <link rel="canonical" href="{{ canonical or (site.url + page.url) }}">
@@ -81,87 +95,12 @@
 
   <a class="skip-link" href="#main">Skip to main content</a>
 
-  <!-- TOP BAR -->
-  <div class="topbar">
-    <div class="container">
-      {% if topbarText %}
-      <span>{{ topbarText }}</span>
-      <div class="topbar-links">
-        <a href="{{ site.ownerPortal }}">Owner Portal</a>
-        <a href="{{ site.residentPortal }}">Resident Portal</a>
-        <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>
-      </div>
-      {% else %}
-      <div class="topbar-links">
-        <a href="{{ site.ownerPortal }}">Owner Portal</a>
-        <a href="{{ site.residentPortal }}">Resident Portal</a>
-        <a href="/rentals/">Available Rentals</a>
-      </div>
-      <div class="topbar-links">
-        <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-      </div>
-      {% endif %}
-    </div>
+  <div class="page-stage" aria-hidden="true">
+    <img src="/assets/img/stage/{{ stageImg }}-1920.jpg" srcset="/assets/img/stage/{{ stageImg }}-1080.jpg 1080w, /assets/img/stage/{{ stageImg }}-1920.jpg 1920w" sizes="100vw" alt="" decoding="async">
+    <div class="veil"></div>
   </div>
 
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <div class="container">
-      <a href="/" class="logo">McBride <span>PM</span></a>
-
-      <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-
-      <ul class="nav-links" id="nav-links">
-        <li class="dropdown">
-          <a href="/rentals/">Residents</a>
-          <div class="dropdown-menu">
-            <a href="/rentals/">Available Properties</a>
-            <a href="/resident-faqs/">Resident FAQs</a>
-            <a href="{{ site.residentPortal }}">Resident Portal</a>
-          </div>
-        </li>
-
-        <li class="dropdown">
-          <a href="/services/">Owners</a>
-          <div class="dropdown-menu">
-            <a href="/services/">PM Services</a>
-            <a href="/why-hire/">Why Hire Us</a>
-            <a href="/owner-faqs/">Owner FAQs</a>
-            <a href="{{ site.ownerPortal }}">Owner Portal</a>
-          </div>
-        </li>
-
-        <li class="dropdown">
-          <a href="/#all-areas">Areas We Serve</a>
-          <div class="dropdown-menu">
-            <a href="/augusta/">Augusta</a>
-            <a href="/evans/">Evans</a>
-            <a href="/grovetown/">Grovetown</a>
-            <a href="/martinez/">Martinez</a>
-            <a href="/harlem/">Harlem</a>
-            <a href="/hephzibah/">Hephzibah</a>
-            <a href="/appling/">Appling</a>
-            <a href="/north-augusta/">North Augusta</a>
-            <a href="/aiken/">Aiken</a>
-            <a href="/graniteville/">Graniteville</a>
-            <a href="/#all-areas">See All Areas</a>
-          </div>
-        </li>
-
-        <li><a href="/about/">About</a></li>
-        <li><a href="/resources/">Resources</a></li>
-        <li><a href="/blog/">Blog</a></li>
-        <li><a href="/referral/">Agent Referral</a></li>
-        <li><a href="/contact/">Contact</a></li>
-        <li><a href="/contact/" class="btn btn-primary btn-sm">Free Rental Analysis</a></li>
-      </ul>
-    </div>
-  </nav>
+  {% include "partials/header.njk" %}
 
   <main id="main">
   {% block content %}
@@ -169,66 +108,11 @@
   {% endblock %}
   </main>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div>
-          <div class="footer-logo">McBride <span>PM</span></div>
-          <p style="margin-bottom: 1rem;">{{ site.address }}<br>{{ site.city }}</p>
-          <p style="margin-bottom: .5rem;"><strong><a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a></strong></p>
-          <p style="margin-bottom: 1.5rem;"><strong><a href="mailto:{{ site.email }}">{{ site.email }}</a></strong></p>
-          <div class="tagline">Managed like it's our own.</div>
-        </div>
+  {% include "partials/footer.njk" %}
+  {% if stickyCta !== false %}{% include "partials/sticky-cta.njk" %}{% endif %}
+  {% if page.url != "/contact/" %}{% include "partials/lead-dialog.njk" %}{% endif %}
 
-        <div>
-          <div class="footer-heading">Quick Links</div>
-          <ul>
-            <li><a href="/services/">Our Services</a></li>
-            <li><a href="/why-hire/">Why Hire Us</a></li>
-            <li><a href="/about/">About Us</a></li>
-            <li><a href="/blog/">Blog</a></li>
-            <li><a href="/contact/">Contact Us</a></li>
-            <li><a href="/contact/">Free Rental Analysis</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <div class="footer-heading">Areas We Serve</div>
-          <ul>
-            <li><a href="/augusta/">Augusta</a></li>
-            <li><a href="/evans/">Evans</a></li>
-            <li><a href="/grovetown/">Grovetown</a></li>
-            <li><a href="/martinez/">Martinez</a></li>
-            <li><a href="/harlem/">Harlem</a></li>
-            <li><a href="/hephzibah/">Hephzibah</a></li>
-            <li><a href="/appling/">Appling</a></li>
-            <li><a href="/north-augusta/">North Augusta</a></li>
-            <li><a href="/aiken/">Aiken</a></li>
-            <li><a href="/graniteville/">Graniteville</a></li>
-            <li><a href="/#all-areas">See All Areas</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <div class="footer-heading">Portal Access</div>
-          <ul>
-            <li><a href="{{ site.ownerPortal }}">Owner Portal</a></li>
-            <li><a href="{{ site.residentPortal }}">Resident Portal</a></li>
-            <li><a href="/rentals/">Available Rentals</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <div>&copy; 2026 {{ site.name }}. All rights reserved.</div>
-        <div>
-          <a href="/privacy/">Privacy Policy</a> | <a href="/terms/">Terms of Service</a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
+  <script src="{{ '/js/nav.js' | v }}" defer></script>
   <script src="{{ '/js/main.js' | v }}" defer></script>
   <script src="{{ '/js/lead.js' | v }}" defer></script>
   <script>if (/^#(invite_token|recovery_token|confirmation_token|email_change_token)=/.test(location.hash)) location.replace('/admin/' + location.hash);</script>

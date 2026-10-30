@@ -184,6 +184,11 @@
       each(progress, function (li) { li.classList.add("is-on"); });
     });
 
+    // Inner pages' own "…Rental Analysis" buttons link to /contact/; they open
+    // the dialog too, so no visitor has to load another page to ask
+    each(document.querySelectorAll('main a[href="/contact/"]'), function (a) {
+      if (!a.hasAttribute("data-open-lead") && /rental analysis/i.test(a.textContent)) a.dataset.openLead = "inline";
+    });
     each(document.querySelectorAll("[data-open-lead]"), function (el) {
       el.addEventListener("click", function (e) {
         e.preventDefault();
@@ -200,6 +205,20 @@
     });
     // Ads and emails can link straight to the form: mcbride-pm.com/#rental-analysis
     if (location.hash === "#rental-analysis") open("link");
+  } else {
+    // /contact/ has the form inline instead of the dialog: the header and
+    // menu buttons bring the visitor to it rather than reloading the page
+    var marker = document.querySelector('form input[name="form-name"][value="rental-analysis"]');
+    if (marker) {
+      each(document.querySelectorAll("[data-open-lead]"), function (el) {
+        el.addEventListener("click", function (e) {
+          e.preventDefault();
+          var first = marker.form.querySelector('input:not([type="hidden"]):not([name="bot-field"])');
+          marker.form.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "center" });
+          if (first) setTimeout(function () { first.focus({ preventScroll: true }); }, 500);
+        });
+      });
+    }
   }
 
   /* ---------- Click conversions ---------- */

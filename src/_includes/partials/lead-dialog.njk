@@ -1,0 +1,72 @@
+{# The rental-analysis form. Every "Free Rental Analysis" button and the
+   address boxes open this two-step dialog (address → contact details); it is
+   on every page except /contact/, which has the same form inline. Netlify
+   keeps one field list per form name, so the fields must match /contact/.
+   Without JS the buttons and address boxes fall back to /contact/. #}
+<dialog class="lead-dialog" id="lead-dialog" aria-labelledby="ld-kicker">
+  <div class="ld-shell">
+    <button class="ld-close" type="button" aria-label="Close" data-dialog-close><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    <p class="ld-kicker" id="ld-kicker">Free rental analysis</p>
+    <ol class="ld-progress" aria-hidden="true"><li class="is-on">1 · Property</li><li>2 · Contact</li></ol>
+
+    <form class="lead-form" name="rental-analysis" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+      <input type="hidden" name="form-name" value="rental-analysis">
+      <input type="hidden" name="page" value="{{ page.url }}">
+      <input type="hidden" name="source" value="">
+      <p hidden><label>Don't fill this out: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+
+      <div class="ld-step" data-step="1">
+        <h2 class="ld-title">Which property should we look at?</h2>
+        <p class="ld-sub">We'll compare it with nearby rentals and send you a recommended rent range.</p>
+        <div class="field">
+          <label for="ld-address">Property address</label>
+          <input id="ld-address" name="address" type="text" autocomplete="street-address" placeholder="123 Main St, Evans, GA" required minlength="5" aria-describedby="ld-address-err">
+          <p class="field-error" id="ld-address-err" hidden>Enter the property's street address.</p>
+        </div>
+        <button class="btn ld-wide" type="button" data-next>Continue <span class="btn-arrow" aria-hidden="true">→</span></button>
+      </div>
+
+      <div class="ld-step" data-step="2" hidden>
+        <h2 class="ld-title">Where should {{ site.contactFirstName }} send it?</h2>
+        <p class="ld-address"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span data-address-echo></span><button class="ld-change" type="button" data-back>Change</button></p>
+        <div class="field">
+          <label for="ld-name">Your name</label>
+          <input id="ld-name" name="fullName" type="text" autocomplete="name" required aria-describedby="ld-name-err">
+          <p class="field-error" id="ld-name-err" hidden>Enter your name.</p>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="ld-phone">Phone <span>(fastest reply)</span></label>
+            <input id="ld-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel">
+          </div>
+          <div class="field">
+            <label for="ld-email">Email</label>
+            <input id="ld-email" name="email" type="email" autocomplete="email" required aria-describedby="ld-email-err">
+            <p class="field-error" id="ld-email-err" hidden>Enter a valid email address.</p>
+          </div>
+        </div>
+        <fieldset class="chips">
+          <legend>What best describes you? <span>(optional)</span></legend>
+          <div class="chip-row">
+            <label class="chip"><input type="radio" name="situation" value="Moving away (PCS or relocation) and keeping my home"><span>Moving away / PCS</span></label>
+            <label class="chip"><input type="radio" name="situation" value="Inherited a home or can't sell right now"><span>Inherited a home</span></label>
+            <label class="chip"><input type="radio" name="situation" value="I own rentals and manage them myself"><span>Managing it myself</span></label>
+            <label class="chip"><input type="radio" name="situation" value="Looking to switch property managers"><span>Switching managers</span></label>
+            <label class="chip"><input type="radio" name="situation" value="Buying an investment property"><span>Buying a rental</span></label>
+            <label class="chip"><input type="radio" name="situation" value="Something else"><span>Something else</span></label>
+          </div>
+        </fieldset>
+        <button class="btn ld-wide lead-submit" type="submit">Get My Free Rental Analysis</button>
+        <p class="lead-fine">{{ site.contactName }}, our {{ site.contactTitle | lower }}, replies within one business day. No obligation, no spam.</p>
+        <p class="lead-error" role="alert" hidden>Something went wrong sending your request. Please call <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a> or email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+      </div>
+    </form>
+
+    <div class="lead-success" data-success hidden tabindex="-1">
+      <span class="ld-check" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span>
+      <h2 class="ld-title">Thanks<span data-first-name></span>. {{ site.contactFirstName }} has your request.</h2>
+      <p>{{ site.contactName }} will reply within one business day with your rent range and a proposal. Want to talk sooner? Call <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>.</p>
+      <button class="btn btn-ghost ld-wide" type="button" data-dialog-close>{% if page.url == "/" %}Back to the tour{% else %}Keep reading{% endif %}</button>
+    </div>
+  </div>
+</dialog>

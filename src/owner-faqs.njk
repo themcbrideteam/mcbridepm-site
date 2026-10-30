@@ -44,24 +44,30 @@ faqs:
     answer: 'Contact Robert Smith, our head property manager, at (706) 339-2874 or robert@mcbride-pm.com to schedule a free consultation. We''ll discuss your property, your goals, and how our services can benefit you. During this call, we''ll answer your questions and provide a customized proposal with transparent pricing. Most properties transition into management within 1–2 weeks. If you want to do homework first, our <a href="/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf">CSRA Landlord Field Guide</a> and <a href="/pdfs/McBride-PM_Operating-Expenses-Worksheet.pdf">Operating Expenses Worksheet</a> are good places to start.'
 ---
 
+<section class="page-header">
+  <div class="container">
+    <div class="breadcrumb"><a href="/">Home</a> > Owner FAQs</div>
+    <h1>Owner FAQs</h1>
+    <p>Answers to the questions Augusta-area rental owners ask us most often &mdash; fees, onboarding, reporting, maintenance, evictions, and what working with McBride Property Management actually looks like.</p>
+  </div>
+</section>
+
 <section class="section">
   <div class="container" style="max-width: 820px;">
-    <h1>Owner FAQs</h1>
-    <p style="font-size: 1.1rem; color: #555;">Answers to the questions Augusta-area rental owners ask us most often &mdash; fees, onboarding, reporting, maintenance, evictions, and what working with McBride Property Management actually looks like.</p>
 
     <p style="margin-top: 1.5rem;">Don't see your question? <a href="/contact/">Get in touch</a> or call <a href="tel:7063392874">(706) 339-2874</a>.</p>
 
-    <hr style="margin: 2.5rem 0; border: 0; border-top: 1px solid #e3e3e3;">
+    <hr style="margin: 2.5rem 0; border: 0; border-top: 1px solid var(--line);">
 
     {% for q in faqs %}
     <div style="margin-bottom: 2rem;">
-      <h2 style="font-size: 1.25rem; color: #060644; margin-bottom: 0.6rem;">{{ q.question }}</h2>
-      <p style="line-height: 1.75; color: #333;">{{ q.answer | safe }}</p>
+      <h2 style="font-size: 1.25rem; color: var(--white); margin-bottom: 0.6rem;">{{ q.question }}</h2>
+      <p style="line-height: 1.75; color: var(--ink-soft);">{{ q.answer | safe }}</p>
     </div>
     {% endfor %}
 
-    <div style="background: #f5f1e8; border-left: 5px solid #b2995a; padding: 1.5rem 1.75rem; border-radius: 4px; margin-top: 3rem;">
-      <h3 style="color: #060644; margin: 0 0 0.5rem;">Ready to talk about your property?</h3>
+    <div class="note-panel">
+      <h3 style="color: var(--white); margin: 0 0 0.5rem;">Ready to talk about your property?</h3>
       <p style="margin: 0 0 1rem;">Get a free rental analysis with a market-backed price recommendation and projected cash flow for your specific property.</p>
       <a href="/contact/" class="btn btn-primary">Request a Free Rental Analysis</a>
     </div>
