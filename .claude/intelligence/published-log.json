@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 117
+    "totalPosts": 118
   },
   "posts": [
     {
@@ -3299,6 +3299,61 @@
       ],
       "type": "new",
       "imageStatus": "none \u2014 Imagen API key invalid (34th consecutive run; API_KEY_INVALID)"
+    },
+    {
+      "slug": "first-rental-property-csra-step-by-step-guide",
+      "title": "Buying Your First CSRA Rental Property: A 2026 Step-by-Step Guide",
+      "date": "2026-10-30",
+      "cluster": "investing",
+      "subtopic": "first rental property purchase step-by-step — cash-flow modeling, financing options, submarket selection, due diligence, landlord setup",
+      "persona": "P3/P4 multi-persona",
+      "intent": "educational/decision-framework/conversion — first-time investor preparing to buy in the CSRA",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "buy first rental property Augusta GA",
+      "entities": [
+        "HUD FY2026 Fair Market Rents Augusta metro",
+        "Freddie Mac PMMS 7.40% Oct 8 2026",
+        "IRS Publication 527",
+        "O.C.G.A. Title 44 Chapter 7",
+        "Georgia Safe at Home Act (HB 404)",
+        "Fort Gordon",
+        "Savannah River Site",
+        "Plant Vogtle",
+        "Augusta University Medical Center",
+        "Wellstar Columbia County Medical Center",
+        "Evans GA ZIP 30809",
+        "Grovetown GA ZIP 30813",
+        "Martinez GA ZIP 30907",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "questionsAnswered": [
+        "What credit score to buy rental property in Georgia?",
+        "How much down payment for investment property Augusta GA?",
+        "What cap rate to expect on a first CSRA rental?",
+        "Do I need an LLC before buying rental property in Georgia?",
+        "How long to close on a rental property in Augusta GA?",
+        "What are average rents in Evans and Grovetown GA 2026?",
+        "Self-manage or hire property manager for first rental?",
+        "Biggest mistake first-time CSRA landlords make?"
+      ],
+      "internalLinks": 18,
+      "externalCitations": 3,
+      "wordCount": 2850,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none — Imagen API key invalid (36th consecutive run; API_KEY_INVALID)"
     },
     {
       "slug": "business-license-rental-property-csra-augusta-ga",

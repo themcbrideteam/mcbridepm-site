@@ -1,7 +1,7 @@
 {
   "_meta": {
     "purpose": "Persistent topical-coverage map for the McBride PM daily blog. The routine reads this every run to publish into the weakest cluster, and updates it after every publish. Never delete history; only refine. coverage is 0-1 (share of the cluster's important subtopics covered well). authority is low|medium|high. Built 2026-06-25 from the live 55-post archive; the routine recalculates coverage after each post.",
-    "builtFrom": "117 live posts in src/blog/ as of 2026-10-29",
+    "builtFrom": "118 live posts in src/blog/ as of 2026-10-30",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
       "imagen_api_key": "API key invalid for 33 consecutive runs (2026-07-22 through 2026-10-29). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
@@ -61,7 +61,7 @@
       "refreshFlags": []
     },
     "investing": {
-      "coverage": 0.8,
+      "coverage": 0.87,
       "authority": "high",
       "posts": [
         "1031-exchange-basics-augusta-rental-investors",
@@ -70,10 +70,10 @@
         "single-family-vs-multifamily-rental-investment-augusta-ga",
         "out-of-state-rental-investor-guide-augusta-ga",
         "llc-rental-property-augusta-georgia",
-        "capex-planning-csra-rental-properties"
+        "capex-planning-csra-rental-properties",
+        "first-rental-property-csra-step-by-step-guide"
       ],
       "gaps": [
-        "first rental purchase: step-by-step for a CSRA beginner",
         "cap rate vs cash-on-cash explainer with Augusta examples",
         "BRRRR feasibility in the CSRA",
         "financing options compared (conventional vs DSCR vs portfolio)"
@@ -276,7 +276,6 @@
   "priorityQueue": [
     "technology: online maintenance requests + tracking \u2014 tenant-side walkthrough (P5) \u2014 NOTE: existing post maintenance-request-tenant-guide-csra-rental covers submission; new post should focus on tracking/status workflow only",
     "taxes: cost segregation for SFR rental property Georgia (P4)",
-    "investing: first rental purchase step-by-step for a CSRA beginner (P3/P4)",
     "city-guides: Augusta owner/investor city guide \u2014 demand drivers, cap rates, submarket comparison (P4)",
     "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) \u2014 publish after DoD December announcement",
     "insurance: flood and windstorm exposure for CSRA rental properties (P3/P4)",
@@ -284,7 +283,8 @@
     "investing: BRRRR feasibility in the CSRA \u2014 buy, rehab, rent, refinance, repeat (P4)",
     "hoa: HOA condo association rental rules \u2014 Georgia Condominium Act vs POAA differences (P3)",
     "market-reports: Martinez GA rental investor guide \u2014 only tenant guide exists (P4)",
-    "rent-collection-pricing: first-time landlord rent pricing calculator post (P2)"
+    "rent-collection-pricing: first-time landlord rent pricing calculator post (P2)",
+    "investing: cap rate vs cash-on-cash return explainer with Augusta examples (P3/P4)"
   ],
   "notes": {
     "imagen_api_key": "API key invalid for 32 consecutive runs (2026-07-22 through 2026-10-26). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
