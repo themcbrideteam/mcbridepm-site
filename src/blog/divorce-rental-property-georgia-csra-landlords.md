@@ -186,7 +186,7 @@ Once a divorce petition is served in Georgia, the **automatic standing order und
 
 Collecting monthly rent and paying the mortgage and operating expenses fall within ordinary business operations. The standing order is not a freeze; it's a restraint on extraordinary transfers. Problems arise when one spouse pockets rent without applying it to the mortgage and expenses, or when both spouses disagree about whether a repair should be authorized.
 
-**Best practice while the case is pending:** open a dedicated rental account in both names, direct the tenant to pay into that account, pay all operating expenses from it, and keep records of every transaction. The net income — or deficit — becomes part of the marital accounting. Amber McBride, our operations manager, can set up a management arrangement that holds rent in a transparent, documented account, which simplifies the accounting for both attorneys.
+**Best practice while the case is pending:** open a dedicated rental account in both names, direct the tenant to pay into that account, pay all operating expenses from it, and keep records of every transaction. The net income — or deficit — becomes part of the marital accounting. We can set up a management arrangement that holds rent in a transparent, documented account, which simplifies the accounting for both attorneys.
 
 If the rental is in only one spouse's name, that spouse remains the landlord of record and is responsible for operations. The court may consider the rental income stream in the overall equitable distribution analysis — offsetting it against other assets that went to the other spouse.
 
@@ -219,7 +219,7 @@ You can also get the full operational picture from our [CSRA Landlord Field Guid
 
 **Ready to sort out the rental side of your situation?**
 
-If you've recently become the sole owner of a CSRA rental property — whether through divorce, inheritance, or relocation — we can walk through the numbers with you at no obligation. A [free rental analysis](/contact/) gives you the current rental value, a realistic expense model, and a clear comparison of self-managing versus professional management. You can reach our office at **(706) 339-2874** or connect with Amber McBride directly through the [owner FAQ page](/owner-faqs/) for questions about onboarding an existing tenancy.
+If you've recently become the sole owner of a CSRA rental property — whether through divorce, inheritance, or relocation — we can walk through the numbers with you at no obligation. A [free rental analysis](/contact/) gives you the current rental value, a realistic expense model, and a clear comparison of self-managing versus professional management. You can reach our office at **(706) 339-2874**, email [robert@mcbride-pm.com](mailto:robert@mcbride-pm.com), or start with our [owner FAQ page](/owner-faqs/) for questions about onboarding an existing tenancy.
 
 Download the [Operating Expenses Worksheet](/pdfs/McBride-PM_Operating-Expenses-Worksheet.pdf) to model your real cash flow as a solo owner, or the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for the Georgia-specific legal and operational overview.
 

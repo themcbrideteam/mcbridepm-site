@@ -50,63 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Netlify form submission + GA4 lead event
-  document.querySelectorAll('form[data-netlify]').forEach(form => {
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const btn = form.querySelector('button[type="submit"]');
-      const originalText = btn.textContent;
-      btn.disabled = true;
-      btn.textContent = 'Sending...';
-
-      const data = new FormData(form);
-      if (!data.get('form-name')) {
-        data.set('form-name', form.getAttribute('name') || '');
-      }
-
-      fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(data).toString()
-      })
-        .then((res) => {
-          if (!res.ok) throw new Error('Form submit failed: ' + res.status);
-          if (typeof gtag === 'function') {
-            gtag('event', 'generate_lead', {
-              form_name: form.getAttribute('name') || 'unknown',
-              page_location: window.location.href
-            });
-          }
-          btn.textContent = "Submitted! We'll be in touch.";
-          btn.style.background = '#060644';
-          form.reset();
-          setTimeout(() => {
-            btn.textContent = originalText;
-            btn.style.background = '';
-            btn.disabled = false;
-          }, 5000);
-        })
-        .catch(() => {
-          btn.textContent = 'Something went wrong — please call (706) 339-2874';
-          btn.disabled = false;
-          setTimeout(() => {
-            btn.textContent = originalText;
-          }, 6000);
-        });
-    });
-  });
-
-  // GA4 phone-call click tracking
-  document.querySelectorAll('a[href^="tel:"]').forEach(link => {
-    link.addEventListener('click', () => {
-      if (typeof gtag === 'function') {
-        gtag('event', 'phone_call_click', {
-          phone_number: link.getAttribute('href').replace('tel:', ''),
-          page_location: window.location.href
-        });
-      }
-    });
-  });
+  // Forms and conversion tracking: see /js/lead.js
 
   // Sticky nav shadow
   const navbar = document.querySelector('.navbar');

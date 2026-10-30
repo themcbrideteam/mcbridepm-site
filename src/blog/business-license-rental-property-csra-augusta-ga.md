@@ -191,7 +191,7 @@ Year-end is the right time to act. The Augusta-Richmond County Business Tax Cert
 - [ ] Register the LLC for the Occupation Tax in each jurisdiction where it operates
 - [ ] Make sure the certificate is in the LLC's name, not just the property owner's personal name
 
-Amber McBride, our Operations Manager, handles this process for McBride PM clients as part of onboarding. If you're self-managing and unsure where your compliance stands, our [free rental analysis](/contact/) is the right place to start — we'll walk through your property's requirements during the consultation.
+We handle this process for McBride PM clients as part of onboarding. If you're self-managing and unsure where your compliance stands, our [free rental analysis](/contact/) is the right place to start — we'll walk through your property's requirements during the consultation.
 
 Download our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a comprehensive overview of Georgia and South Carolina compliance requirements for CSRA property owners.
 

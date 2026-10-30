@@ -158,7 +158,7 @@ After the inspection process, you have **30 days total** from obtaining possessi
 - Missing items: fixtures, appliances, keys, garage remotes
 - Lease violations that left a physical impact on the property
 
-Amber McBride, who oversees the onboarding and inspection process for McBride Property Management, notes that the most common error new landlords make at move-out is simply waiting. The three-business-day window is not forgiving — missing it is a forfeit, not a delay.
+In our experience, the most common error new landlords make at move-out is simply waiting. The three-business-day window is not forgiving — missing it is a forfeit, not a delay.
 
 For detailed answers about the deposit cycle — including certified mail requirements and what to do when a tenant's forwarding address is unknown — see our [owner FAQ hub](/owner-faqs/).
 

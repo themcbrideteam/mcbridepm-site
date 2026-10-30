@@ -112,7 +112,7 @@ A property manager handles:
 - **Rent collection and accounting** — ACH deposits to your bank, monthly owner statements through AppFolio, year-end 1099 preparation
 - **Renewal and turnover management** — proactive lease renewal outreach, move-out inspections, security deposit settlement
 
-Amber McBride, our Operations Manager at McBride Property Management, manages the owner onboarding process and AppFolio setup. The typical timeline from signed management agreement to first tenant placement is two to three weeks for a property in good showing condition. If you're 45 days out from your departure, that's plenty of time.
+Our team manages the owner onboarding process and AppFolio setup. The typical timeline from signed management agreement to first tenant placement is two to three weeks for a property in good showing condition. If you're 45 days out from your departure, that's plenty of time.
 
 One thing Fort Gordon landlords specifically need in their lease: SCRA-compliant early termination language. Your tenant may be in the same situation you are — they'll PCS out and need to break the lease. A properly drafted SCRA clause means the break is handled cleanly and legally, without dispute. McBride PM leases include this language as standard. For a deep look at how SCRA lease breaks work and what landlords are and aren't entitled to, see our [SCRA lease termination guide for Fort Gordon landlords](/blog/scra-lease-termination-fort-gordon-landlord-guide/).
 

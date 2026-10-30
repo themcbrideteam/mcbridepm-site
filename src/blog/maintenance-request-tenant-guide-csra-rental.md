@@ -101,7 +101,7 @@ McBride PM uses AppFolio to manage maintenance for all CSRA rentals. Your reside
 
 **Step 1 — Confirm it is not an emergency.** Run through the table above before logging in. If it belongs in the left column, stop and call.
 
-**Step 2 — Log in to your resident portal.** Your welcome email from McBride PM contains your portal link. If you've lost it or haven't set up your account yet, call our office at **(706) 339-2874** during business hours and Amber McBride can resend your setup invite. The portal is available 24/7 from any browser or mobile device.
+**Step 2 — Log in to your resident portal.** Your welcome email from McBride PM contains your portal link. If you've lost it or haven't set up your account yet, call our office at **(706) 339-2874** during business hours and we can resend your setup invite. The portal is available 24/7 from any browser or mobile device.
 
 **Step 3 — Navigate to Maintenance → New Request.** The tab is in the left sidebar on desktop or the navigation menu on mobile. Click "New Maintenance Request."
 

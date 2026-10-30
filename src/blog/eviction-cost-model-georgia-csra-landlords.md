@@ -203,7 +203,7 @@ If you've recently become a landlord for the first time, the [Converting Your Ge
 
 ### 3. Keep a funded make-ready reserve
 
-A workable rule of thumb for CSRA single-family rentals: hold 1% of the property's value in a dedicated maintenance and turnover reserve. On a $200,000 Evans home, that's $2,000 — enough to cover an emergency make-ready without touching your mortgage or personal cash flow. Amber McBride, our operations manager, builds this conversation into every new owner onboarding so the reserve is funded before the first tenant moves in.
+A workable rule of thumb for CSRA single-family rentals: hold 1% of the property's value in a dedicated maintenance and turnover reserve. On a $200,000 Evans home, that's $2,000 — enough to cover an emergency make-ready without touching your mortgage or personal cash flow. We build this conversation into every new owner onboarding so the reserve is funded before the first tenant moves in.
 
 If you want a structured model for operating expense budgeting, the [McBride PM services page](/services/) explains how McBride PM handles reserve management for CSRA property owners, and our [owner FAQ page](/owner-faqs/) covers common reserve and make-ready questions in plain language.
 
@@ -254,7 +254,7 @@ McBride PM handles the full dispossessory process for property owners in Evans, 
 
 Request a [free rental analysis](/contact/) to see how your current or planned rental compares to CSRA benchmarks, and what tenant screening and operational processes can do to reduce your worst-case risk. Download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a full reference on landlord obligations and rights in Augusta and Columbia County.
 
-Call **(706) 339-2874** or fill out the contact form. Noah McBride and Amber McBride respond within one business day.
+Call **(706) 339-2874**, email [robert@mcbride-pm.com](mailto:robert@mcbride-pm.com), or fill out the contact form. Our team responds within one business day.
 
 </div>
 

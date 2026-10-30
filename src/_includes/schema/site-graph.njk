@@ -33,7 +33,7 @@
             "hasOfferCatalog": {
                 "@type": "OfferCatalog",
                 "name": "Property Management Services",
-                "itemListElement": [{% for svc in site.services %}{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "{{ svc }}"}}{% if not loop.last %},{% endif %}{% endfor %}]
+                "itemListElement": [{% for svc in site.services %}{"@type": "Offer", "itemOffered": {"@type": "Service", "name": {{ svc | dump | safe }}}}{% if not loop.last %},{% endif %}{% endfor %}]
             }
         },
         {
@@ -48,8 +48,8 @@
             "@type": "WebPage",
             "@id": "{{ site.url }}{{ page.url }}#webpage",
             "url": "{{ site.url }}{{ page.url }}",
-            "name": "{{ title or site.name }}",
-            "description": "{{ description or site.description }}",
+            "name": {{ (title or site.name) | dump | safe }},
+            "description": {{ (description or site.description) | dump | safe }},
             "isPartOf": {"@id": "{{ site.url }}/#website"},
             "about": {"@id": "{{ site.url }}/#organization"},
             "inLanguage": "en-US"{% if breadcrumbs %},

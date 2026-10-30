@@ -8,10 +8,11 @@ Continuously evolve this into the highest-performing residential property manage
 
 ## Business facts
 
-- Company: McBride Property Management, Evans, GA. Serves the CSRA (Augusta GA metro + Aiken SC area). ~208 doors (July 2026), goal 1,000 by 2030. Growth targets: 240 doors by end of Q3 2026, 275 by year-end.
+- Company: McBride Property Management, Evans, GA. Serves the CSRA (Augusta GA metro + Aiken SC area). 245 active units in AppFolio (2026-10-30), goal 1,000 by 2030. Growth targets: 240 doors by end of Q3 2026, 275 by year-end.
 - Audience: residential property OWNERS first (accidental landlords, military PCS families, out-of-state investors, 1–25 door investors); tenants secondary.
-- Main site phone (706) 339-2874 (tenant/general line — most site callers are tenants; per Noah, July 2026) · Owner line (706) 339-2874 (owner-specific placements only) · 609 Ponder Place Drive, Suite B, Evans, GA 30809.
-- General site email robert@mcbride-pm.com · ops@mcbride-pm.com stays on owner-lead placements and receives rental-analysis form notifications (Netlify dashboard).
+- One phone line for everyone: (706) 339-2874 · 609 Ponder Place Drive, Suite B, Evans, GA 30809.
+- **All new inquiries go to Robert Smith, Head Property Manager — robert@mcbride-pm.com** (Noah, 2026-10-30). It is the only public email; ops@mcbride-pm.com is no longer used on the site. Amber is no longer the owner contact — don't name her anywhere. Use `site.email` / `site.contactName` from `src/_data/site.json` instead of hard-coding.
+- Don't publish portfolio statistics (days on market, on-time %, vacancy) unless they're in `site.json`. The "14 days on market" and "99% on time" claims were retired 2026-10-30 because AppFolio didn't support them; the approved count is `doorsManaged` (shown as "240+").
 - Key offer: McBride Owner Guarantee (Tenant Guarantee as hero). Check `mcbride-aios/02-mcbride-pm/knowledge/` for current terms before writing offer copy.
 - Broader business context lives in the sibling repo `~/mcbride-aios` (`02-mcbride-pm/` and `90-shared/brand/mcbride-pm-brand.md` — the brand doc is authoritative for voice and visual identity).
 
@@ -28,6 +29,8 @@ Continuously evolve this into the highest-performing residential property manage
 - `npm run build` (Eleventy → `_site/`), `npm run serve` for local dev. Node via Homebrew (`export PATH="/opt/homebrew/bin:$PATH"` if npm not found).
 - Netlify builds from GitHub `main` (`npx @11ty/eleventy`, publish `_site`). Pushing main IS deploying — build and verify locally first.
 - Blog automation lives in `.claude/blog-skill/` with content map in `.claude/intelligence/` — respect its coverage map when adding posts.
+- Forms: Netlify strips `data-netlify` from published HTML, so `src/js/lead.js` finds forms by their hidden `form-name` input. Netlify keeps ONE field list per form name — the homepage and /contact/ `rental-analysis` forms must keep identical fields (`page`, `source`, `address`, `fullName`, `phone`, `email`, `situation`).
+- The homepage (`src/index.html`) is a standalone Nunjucks page (no layout) with its own `home.css`/`home.js`; it pulls schema from `_includes/schema/site-graph.njk` and FAQs from its front matter.
 
 ## Operating loop (every work session)
 

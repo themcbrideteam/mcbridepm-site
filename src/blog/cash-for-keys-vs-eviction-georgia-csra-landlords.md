@@ -193,7 +193,7 @@ When the situation warrants a cash-for-keys offer, we:
 - Disburse payment only at confirmed vacate with documented key surrender
 - Complete the move-out inspection within 24 hours
 
-When dispossessory is the right call, Amber McBride coordinates filing, court scheduling, and sheriff service — keeping the out-of-state owner updated at each stage without requiring them to manage the legal process from a different time zone.
+When dispossessory is the right call, our team coordinates filing, court scheduling, and sheriff service — keeping the out-of-state owner updated at each stage without requiring them to manage the legal process from a different time zone.
 
 The strength of your lease language also affects which path is faster — if your lease has clean late-fee provisions and documented notice requirements per [Georgia's required lease clauses](/blog/georgia-lease-agreement-clauses-csra-landlords-2026/), a dispossessory proceeds more smoothly. For owners who want the full owner-side picture, our [owner FAQs page](/owner-faqs/) covers how we handle delinquency, what you can expect from the dispossessory timeline, and how maintenance history affects contested hearings. The [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) also covers the eviction framework alongside tenant screening, lease requirements, and maintenance obligations — a useful reference if you're building out your operating knowledge.
 

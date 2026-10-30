@@ -134,7 +134,7 @@ The math usually favors capturing the large middle of the BAH distribution rathe
 
 This is not an argument for underpricing. If your home is a 4-bedroom with updated finishes in a newer Evans subdivision, $2,200 is appropriate — that sits within BAH for O-3 through O-4 with dependents. The alignment strategy means matching your price to the BAH tier that fits your specific home, not simply defaulting to the lowest number that fills the vacancy.
 
-McBride PM offers a free rental analysis for Fort Gordon-area owners through our [contact page](/contact/). Amber McBride runs our owner intake and can have a comparable rental analysis ready within 48 hours — before you finalize your rent price.
+McBride PM offers a free rental analysis for Fort Gordon-area owners through our [contact page](/contact/). We can have a comparable rental analysis ready within 48 hours — before you finalize your rent price.
 
 ---
 
@@ -206,7 +206,7 @@ Understanding this market structure is part of what makes BAH alignment more tha
 
 If you are evaluating whether to keep your Fort Gordon-area home as a long-term rental or sell it before your PCS, the [owner FAQs on our website](/owner-faqs/) walk through the core decision framework. For a data-based look at why Columbia County has historically outperformed the Augusta city core for rental investors, see our analysis on the [Columbia County vs. Augusta rental market comparison](/blog/why-columbia-county-outperforms-augusta-rental-investors/).
 
-Noah McBride and Amber McBride work with PCS landlords throughout the Fort Gordon footprint — from the [Grovetown](/grovetown/) subdivisions near Gate 6 to the [Evans](/evans/) neighborhoods off Fury's Ferry. Pricing your property correctly for the military market is the single most impactful decision you will make before you leave.
+Our team works with PCS landlords throughout the Fort Gordon footprint — from the [Grovetown](/grovetown/) subdivisions near Gate 6 to the [Evans](/evans/) neighborhoods off Fury's Ferry. Pricing your property correctly for the military market is the single most impactful decision you will make before you leave.
 
 ---
 
@@ -243,7 +243,7 @@ Noah McBride and Amber McBride work with PCS landlords throughout the Fort Gordo
 
 **Pricing a Fort Gordon-area home and want to know where it lands against 2026 BAH?**
 
-McBride Property Management handles PCS landlord onboarding across the CSRA — from comp analysis and BAH-aligned pricing to tenant screening and SCRA-compliant leases. If you are heading out on orders, start with a free rental analysis before you finalize your rent price. Amber McBride runs our owner intake and can have a comparable analysis on your specific address within 48 hours.
+McBride Property Management handles PCS landlord onboarding across the CSRA — from comp analysis and BAH-aligned pricing to tenant screening and SCRA-compliant leases. If you are heading out on orders, start with a free rental analysis before you finalize your rent price. We can have a comparable analysis on your specific address within 48 hours.
 
 [Request a free rental analysis →](/contact/) or call **(706) 339-2874**. Download our [PCS Landlord Quick-Start Guide](/pdfs/McBride-PM_PCS-Landlord-Quick-Start-Guide.pdf) for the complete pre-departure checklist.
 

@@ -187,7 +187,7 @@ With proper 48-hour advance written notice to your tenant (as required by [O.C.G
 - No moisture staining visible on ceilings or walls from fall rains
 - Attic access hatch is insulated and closed
 
-For owners managing remotely from another duty station or another state, this walk-through is worth combining with the scheduled [annual property inspection](https://mcbride-pm.com/blog/annual-property-inspection-csra-rental-landlord-guide/) that produces a dated photo record. If you're managing through McBride PM, Amber McBride coordinates this documentation through AppFolio so it's accessible to owners whenever you need it.
+For owners managing remotely from another duty station or another state, this walk-through is worth combining with the scheduled [annual property inspection](https://mcbride-pm.com/blog/annual-property-inspection-csra-rental-landlord-guide/) that produces a dated photo record. If you're managing through McBride PM, we coordinate this documentation through AppFolio so it's accessible to owners whenever you need it.
 
 ## The Cost Math: Fall Maintenance vs. Reactive Repairs
 

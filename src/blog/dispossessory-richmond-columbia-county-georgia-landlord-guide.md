@@ -246,7 +246,7 @@ Judges move quickly through dispossessory dockets. You have roughly five to ten 
 
 **Facing a nonpayment situation at your CSRA rental?**
 
-McBride Property Management handles the full dispossessory process — demand letters, filing, hearing attendance, and Marshal coordination — so you don't have to manage it from a distance or take time off work. Amber McBride coordinates the documentation and owner communication from first notice through final possession. See our [full property management services](/services/) or browse the [owner FAQs](/owner-faqs/) to understand how we handle delinquency situations.
+McBride Property Management handles the full dispossessory process — demand letters, filing, hearing attendance, and Marshal coordination — so you don't have to manage it from a distance or take time off work. We coordinate the documentation and owner communication from first notice through final possession. See our [full property management services](/services/) or browse the [owner FAQs](/owner-faqs/) to understand how we handle delinquency situations.
 
 [Request a free rental analysis](/contact/) to talk through your situation, or download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a comprehensive reference on Georgia landlord-tenant law. Call **(706) 339-2874** to speak with us directly.
 

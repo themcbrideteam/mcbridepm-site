@@ -163,7 +163,7 @@ When something breaks, your property manager calls the vendor and gets it fixed.
 
 What you do: review your monthly owner statement, fund your reserve account (plan $3,000–$5,000 for routine repair reserves on a typical single-family home), and make decisions when they're presented to you—not hunt them down yourself.
 
-Amber McBride, our operations manager, handles owner onboarding and sets up your owner portal directly. She coordinates vendor relationships, communicates transparently on any repair that exceeds the pre-authorized threshold in your management agreement, and keeps your property running to the standards your tenant expects and Georgia law requires.
+Our team handles owner onboarding and sets up your owner portal directly. We coordinate vendor relationships, communicate transparently on any repair that exceeds the pre-authorized threshold in your management agreement, and keep your property running to the standards your tenant expects and Georgia law requires.
 
 The owner-manager relationship works best when expectations are set at the beginning—not three months later when your water heater fails at 11 PM on a Saturday. That conversation happens during onboarding. The [owner FAQ page](/owner-faqs/) covers the most common questions about what property management includes, what you pay, and how the money flows to you each month.
 

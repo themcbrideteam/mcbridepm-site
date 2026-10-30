@@ -171,6 +171,15 @@ ogType: article
   .cta-box .contact-info a:hover {
     text-decoration: underline;
   }
+  .cta-box .cta-renters {
+    margin: 1.5rem 0 0;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .cta-box .cta-renters a {
+    color: #b2995a;
+    font-weight: 600;
+  }
   .author-sig {
     margin-top: 3rem;
     padding-top: 2rem;
@@ -341,11 +350,13 @@ ogType: article
     <div class="cta-box">
       <h3>{{ ctaTitle or 'Ready to Talk Property Management?' }}</h3>
       <p>{{ ctaText or 'McBride Property Management handles the details while you enjoy the returns.' }}</p>
+      <a href="/contact/" class="btn btn-primary btn-lg">Get a Free Rental Analysis</a>
       <div class="contact-info">
-        <p>Talk to our team about your property</p>
+        <p>Or talk to our team about your property</p>
         <p><a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a><br>
         <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
       </div>
+      <p class="cta-renters">Looking for a home to rent? <a href="/rentals/">See available rentals &rarr;</a></p>
     </div>
 
     <!-- Author -->

@@ -29,7 +29,7 @@ If reads 1, 3, or 4 fail, halt and report — do not publish on stale context. A
 
 **Broker of record:** Noah McBride (active GA + SC licensure). Noah's direct line for owner/broker conversations: 706.339.2874. Use this number only in the author signature at the bottom of posts.
 
-**Operations Manager:** Amber McBride. Owns onboarding, AppFolio, vendor coordination, owner reporting. Reference Amber by name in posts where the topic touches onboarding, day-to-day operations, or "talk to a real person" CTAs.
+**Staff names (updated 2026-10-30, Noah):** Do NOT name any staff member in posts other than Noah McBride. Amber is no longer the owner contact — never mention her. All new inquiries go to Robert Smith, Head Property Manager, but reach him through the email address below rather than by naming him in body copy, so posts stay correct when roles change. Describe operations as the company or the team ("our team handles onboarding", "we flag aging water heaters"). Never invent quotes attributed to any person, staff or client.
 
 **Public phone numbers** — use them in this exact configuration:
 - **(706) 339-2874** — canonical owner / property-management line. Use in ALL owner-facing CTAs, in the in-body CTA block, and in any reference to "call us."
@@ -39,7 +39,9 @@ If reads 1, 3, or 4 fail, halt and report — do not publish on stale context. A
 
 **Office:** 609 Ponder Place Drive, Suite B, Evans, GA 30809.
 
-**Email:** ops@mcbride-pm.com (still in use; do not change in posts).
+**Email:** robert@mcbride-pm.com — the ONLY email address for owner, resident, and applicant CTAs (Noah, 2026-10-30: all new inquiries go to Robert). Never use ops@mcbride-pm.com, amber@, or any other address in posts.
+
+**Company statistics:** Never publish a portfolio statistic (days on market, on-time rent %, vacancy rate, retention, review counts) unless it appears in `src/_data/site.json`. The old "14 days on market" and "99% on time" figures are retired; AppFolio did not support them (2026-10-30). The approved count is `doorsManaged` in site.json, shown as "{n}+ rental homes".
 
 **Slogan:** "Guiding you home."
 
@@ -286,7 +288,7 @@ Write in second person ("you / your"). Don't tell the reader what the post will 
 - **Required extractables (every post):** at least ONE comparison table AND at least ONE checklist or numbered step-by-step list. These are what LLMs quote — not optional.
 - May add more tables/ordered lists where they earn their place.
 - Mention "McBride Property Management" or "McBride PM" naturally 3–4 times across the post (not stuffed).
-- Reference Noah McBride or Amber McBride by name once each where natural — this is an E-E-A-T signal.
+- Reference Noah McBride (broker) by name once where natural — this is an E-E-A-T signal. Name no other staff member.
 - Local entity density: drop in at least 5 named local entities (specific cities, counties, ZIP codes, employers, landmarks, statutes). Specificity is what wins both human trust and AI citation.
 
 **(d) Internal links.**

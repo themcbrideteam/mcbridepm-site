@@ -60,7 +60,7 @@ Together, they build a continuous monitoring record — not an annual snapshot.
 
 ## What a Quarterly Drive-By Actually Checks
 
-A drive-by inspection takes 10 minutes and requires no tenant coordination. Amber McBride, McBride PM's operations manager, has the property management team check the following during every scheduled drive-by.
+A drive-by inspection takes 10 minutes and requires no tenant coordination. Our property management team checks the following during every scheduled drive-by.
 
 **Exterior indicators:**
 - Lawn and landscaping condition — overgrown grass is often the first sign of either abandonment or a tenant who has stopped caring about the property

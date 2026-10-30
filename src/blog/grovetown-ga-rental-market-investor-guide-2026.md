@@ -197,7 +197,7 @@ For more on the broader CSRA market context, the [four demand anchors behind Aug
 
 ## How McBride PM Handles Grovetown Properties
 
-McBride Property Management manages rental properties throughout Grovetown, Evans, Martinez, and Augusta. Amber McBride leads our owner onboarding process — she's who you'll talk to when you're ready to set up management before or immediately after closing.
+McBride Property Management manages rental properties throughout Grovetown, Evans, Martinez, and Augusta. When you're ready to set up management before or immediately after closing, our team will walk you through owner onboarding.
 
 For an out-of-state buyer, the sequence looks like this: you identify a property, we run a rental analysis against live comps, you make an offer, and we coordinate the make-ready and marketing the moment you close. Our owners in ZIP 30813 typically see units go under application within 21–28 days of listing.
 
@@ -209,7 +209,7 @@ Visit the [Grovetown area page](/grovetown/) or the [Evans and surrounding area 
 
 Submit your property address through our [free rental analysis form](/contact/) and we'll give you a verified rent range, an expense model using CSRA benchmarks, and an honest assessment of that submarket. No pitch, no pressure.
 
-Call us at **(706) 339-2874** or reach Amber directly through the contact form. Georgia HB 399 requires out-of-state landlords to have a licensed in-state representative — our management agreement satisfies that requirement from day one.
+Call us at **(706) 339-2874**, email [robert@mcbride-pm.com](mailto:robert@mcbride-pm.com), or reach us through the contact form. Georgia HB 399 requires out-of-state landlords to have a licensed in-state representative — our management agreement satisfies that requirement from day one.
 
 Download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) or the [Operating Expenses Worksheet](/pdfs/McBride-PM_Operating-Expenses-Worksheet.pdf) to start underwriting before we talk.
 

@@ -32,7 +32,7 @@ Rental rates in Evans tend to run higher than Augusta proper, and for good reaso
 
 These numbers fluctuate with seasonal demand. Spring and summer — when PCS orders drop and families relocate before the school year — tend to push prices and competition higher. If you have flexibility on your move-in date, late fall and winter often offer more negotiating room.
 
-Amber McBride, property manager at McBride Property Management, notes that tenants who are pre-approved and responsive during the application process tend to secure their top-choice properties. "In Evans, well-maintained rentals don't sit on the market long. If you see something you like, being prepared to move quickly makes a real difference."
+Tenants who are pre-approved and responsive during the application process tend to secure their top-choice properties. In Evans, well-maintained rentals don't sit on the market long, so if you see something you like, being prepared to move quickly makes a real difference.
 
 ## Neighborhoods and Subdivisions Worth Knowing
 

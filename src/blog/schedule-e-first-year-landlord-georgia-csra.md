@@ -239,7 +239,7 @@ For a broader view of every deduction available across the life of a Georgia ren
 
 **Ready to simplify the financial side of owning a rental in the CSRA?**
 
-McBride Property Management provides owners with clear monthly statements, year-end income and expense summaries formatted for your CPA, and the day-to-day management that turns a rental into a genuinely passive investment. Amber McBride leads our owner onboarding process and can walk you through exactly what reporting you'll receive from day one.
+McBride Property Management provides owners with clear monthly statements, year-end income and expense summaries formatted for your CPA, and the day-to-day management that turns a rental into a genuinely passive investment. During onboarding, we'll walk you through exactly what reporting you'll receive from day one.
 
 [Request a free rental analysis for your property](/contact/) — or call **(706) 339-2874** to talk through your situation directly. You can also download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a comprehensive reference on owning rental property in the Augusta market.
 

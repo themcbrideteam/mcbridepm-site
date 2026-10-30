@@ -221,7 +221,7 @@ And for owners weighing whether to rent or sell in a different context — an in
 
 If you're seriously evaluating the rental conversion, the next step is a market-based rental analysis — not a number from a national platform, but a projection built from recent comparable leases in your specific neighborhood.
 
-Amber McBride at McBride Property Management runs these regularly. She pulls active and recently closed leases in your zip code, adjusts for the specific features of your property, and gives you a defensible price range based on what real tenants are actually paying — not what an algorithm thinks they should pay. The analysis is free and carries no obligation.
+McBride Property Management runs these regularly. We pull active and recently closed leases in your zip code, adjust for the specific features of your property, and give you a defensible price range based on what real tenants are actually paying — not what an algorithm thinks they should pay. The analysis is free and carries no obligation.
 
 To put the broader numbers in context for your area: [Evans, GA](/evans/) and [Grovetown, GA](/grovetown/) are both strong markets for single-family rentals right now. The Fort Gordon demand anchor, the Columbia County School District boundary advantages for families, and the steady stream of SRS and Wellstar MCG professionals mean that quality homes in good condition consistently find tenants.
 
@@ -237,9 +237,9 @@ For an overview of what to do first when you realize you're becoming an unplanne
 
 **Get a free rental analysis for your Columbia County home.**
 
-If your home hasn't sold and you're wondering whether renting is the right move, McBride Property Management will give you a property-specific rental projection — no obligation. Amber McBride will pull recent comparable leases in your neighborhood and walk through the full numbers with you.
+If your home hasn't sold and you're wondering whether renting is the right move, McBride Property Management will give you a property-specific rental projection — no obligation. We'll pull recent comparable leases in your neighborhood and walk through the full numbers with you.
 
-Call us at **(706) 339-2874**, email ops@mcbride-pm.com, or submit your property info at [mcbride-pm.com/contact/](/contact/). We also put together a downloadable [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) that covers the essentials of becoming a rental property owner in the Augusta area — it's free and a good read before your first decision.
+Call us at **(706) 339-2874**, email robert@mcbride-pm.com, or submit your property info at [mcbride-pm.com/contact/](/contact/). We also put together a downloadable [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) that covers the essentials of becoming a rental property owner in the Augusta area — it's free and a good read before your first decision.
 
 </div>
 

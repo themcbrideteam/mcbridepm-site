@@ -195,7 +195,7 @@ Before you close on any CSRA property, one compliance fact applies universally: 
 
 Non-compliant out-of-state landlords face legal exposure under O.C.G.A. § 44-7-25. Most out-of-state investors who sign a management agreement with McBride Property Management satisfy the HB 399 requirement on the day they onboard—the management agreement covers the statutory requirement automatically.
 
-Amber McBride, our Operations Manager, handles the onboarding process for new out-of-state owners. She coordinates the initial lease-up, sets up the owner's portal in AppFolio, and schedules the first property inspection cycle. Most owners are fully operational within 30 days of signing the management agreement. *This is general guidance from a property manager—not legal advice; consult a Georgia attorney for your situation.*
+Our team handles the onboarding process for new out-of-state owners. We coordinate the initial lease-up, set up the owner's portal in AppFolio, and schedule the first property inspection cycle. Most owners are fully operational within 30 days of signing the management agreement. *This is general guidance from a property manager—not legal advice; consult a Georgia attorney for your situation.*
 
 ---
 

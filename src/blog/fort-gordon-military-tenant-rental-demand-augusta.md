@@ -87,7 +87,7 @@ A property that's 12 minutes from the gate beats an equivalent property that's 3
 
 Military families operate on fixed report dates. When orders arrive, the search period is compressed to 60–90 days, and the family is often coordinating from across the country or from overseas. They cannot wait for a landlord to finish painting, replace the HVAC, or resolve a permit issue. A property that's clean, functional, and available on a specific date will win over a nicer property that's "almost ready."
 
-Amber McBride, operations manager at McBride Property Management, emphasizes this in every pre-listing consultation: "A make-ready completed before listing means you're competing for military tenants. A make-ready that runs into their move-in date means you're not in the running at all."
+The practical takeaway: a make-ready completed before listing means you're competing for military tenants. A make-ready that runs into their move-in date means you're not in the running at all.
 
 The [pre-rental property prep checklist](/pdfs/McBride-PM_Pre-Rental-Property-Prep-Checklist.pdf) covers the key items, but the short version is: fresh interior paint, clean carpet or refinished floors, working HVAC, no deferred repairs that a tenant would call about on day one.
 

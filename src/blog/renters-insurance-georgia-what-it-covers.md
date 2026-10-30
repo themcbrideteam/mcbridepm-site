@@ -14,7 +14,7 @@ Renters insurance in Georgia typically costs $15–$25 per month and covers your
 
 If you've been apartment or house hunting in Augusta, Evans, or anywhere in [Columbia County](/evans/), there's a good chance a landlord has already told you: "Renters insurance is required." A lot of tenants treat this as a minor box to check — they get the cheapest policy they can find, scan the declaration page, and move on.
 
-That would be a mistake. Renters insurance is one of the most cost-effective financial protections available to any tenant, and understanding what it actually does makes a real difference when something goes wrong. At **McBride Property Management**, Amber McBride and Noah McBride, our licensed property manager and broker team, have seen firsthand what happens when tenants are uninsured during a fire, a break-in, or a water loss event. The outcome is almost always far more painful than the $20/month policy would have cost.
+That would be a mistake. Renters insurance is one of the most cost-effective financial protections available to any tenant, and understanding what it actually does makes a real difference when something goes wrong. At **McBride Property Management**, our team has seen firsthand what happens when tenants are uninsured during a fire, a break-in, or a water loss event. The outcome is almost always far more painful than the $20/month policy would have cost.
 
 Here's what every renter in Georgia needs to know before signing a lease.
 
@@ -75,7 +75,7 @@ Some tenants find policies as low as $12/month through major carriers like State
 
 ## Tips for Getting the Right Policy
 
-Amber McBride, property manager at McBride Property Management, recommends tenants do three things before buying a policy:
+We recommend tenants do three things before buying a policy:
 
 1. **Make a home inventory** — photograph your belongings room by room and store the images in the cloud. This speeds up claims significantly and ensures you're not underinsured.
 2. **Request "replacement cost" coverage**, not "actual cash value." Replacement cost pays what it costs to buy new; actual cash value pays depreciated value. The difference matters when your 3-year-old TV gets stolen.

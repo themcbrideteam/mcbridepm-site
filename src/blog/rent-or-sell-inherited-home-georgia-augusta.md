@@ -130,7 +130,7 @@ Condition matters enormously. An inherited home with a 2008 kitchen, original HV
 
 One critical note: Zillow's "Zestimate Rent" tool is unreliable for single-family homes in suburban CSRA markets. It averages too broadly and often misses neighborhood-level differences that a local property manager sees every week. To get an accurate number for your specific property, you need a **comparative rental analysis from a manager who is actively placing tenants in your ZIP code**.
 
-Amber McBride at our office runs these analyses at no charge for owners considering management. Reach out via the [contact page](/contact/) and we can turn one around quickly once you have a confirmed address and basic property details.
+Our office runs these analyses at no charge for owners considering management. Reach out via the [contact page](/contact/) and we can turn one around quickly once you have a confirmed address and basic property details.
 
 <figure class="blog-figure">
   <img src="/images/blog/rent-or-sell-inherited-home-georgia-augusta-2.jpg" alt="Estate documents, a property deed, house keys, and a calculator arranged on a clean wooden desk in warm natural light" loading="lazy" width="1408" height="768">

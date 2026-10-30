@@ -157,7 +157,7 @@ One important gap that housing advocates and legal scholars have flagged: HB 404
 2. Photograph the problem with timestamps.
 3. Allow reasonable response time — an HVAC failure in July is urgent; a loose cabinet hinge is not.
 4. If the landlord does not respond within a reasonable period, contact Columbia County Code Compliance.
-5. If you rent through McBride Property Management, every maintenance request goes through our tracking system, and Amber McBride's team follows up on each one.
+5. If you rent through McBride Property Management, every maintenance request goes through our tracking system, and our team follows up on each one.
 
 <figure class="blog-figure">
   <img src="/images/blog/grovetown-ga-rental-guide-tenants-3.jpg" alt="Sunlit clean living room interior with hardwood floors and cream walls in a Southern rental home" loading="lazy" width="1408" height="768">
@@ -185,7 +185,7 @@ All residential leases in Grovetown are governed by Georgia landlord-tenant law 
 
 ## How to Apply for a Grovetown Rental Through McBride Property Management
 
-McBride Property Management manages single-family rentals across Grovetown, Evans, Martinez, and the broader Columbia County area. Amber McBride coordinates tenant onboarding and can answer specific questions about current availability, upcoming listings, and what the application process looks like for your situation.
+McBride Property Management manages single-family rentals across Grovetown, Evans, Martinez, and the broader Columbia County area. Our team coordinates tenant onboarding and can answer specific questions about current availability, upcoming listings, and what the application process looks like for your situation.
 
 Our screening process is consistent and publicly documented:
 

@@ -32,7 +32,7 @@ faqs:
   - question: "What is the biggest CapEx surprise for new CSRA landlords?"
     answer: "The convergence problem: on homes built in the 1990s and early 2000s, HVAC, water heater, and roof often hit end-of-life within the same 2–3 year window. Each is manageable alone; all three together can cost $25,000–$35,000 in a short period. Owners who track component ages avoid this—owners who don't get surprised by it."
   - question: "Does McBride PM help track capital expenditure planning for managed properties?"
-    answer: "Yes. McBride PM's AppFolio-based owner reports include inspection notes and flagged items for each property. Amber McBride coordinates with owners on capital planning timelines so that significant replacements can be budgeted and—when possible—timed to tenant turnover to minimize disruption."
+    answer: "Yes. McBride PM's AppFolio-based owner reports include inspection notes and flagged items for each property. Our team coordinates with owners on capital planning timelines so that significant replacements can be budgeted and—when possible—timed to tenant turnover to minimize disruption."
 howTo:
   name: "How to Build a CapEx Reserve Plan for a CSRA Rental Property"
   description: "A step-by-step process for Augusta-area rental property owners to estimate, fund, and manage capital expenditure reserves."
@@ -171,7 +171,7 @@ A functioning CapEx reserve system has three components: a tracking document, a 
 
 ## What CapEx Planning Looks Like Under Professional Management
 
-One of the less-visible benefits of professional property management is systematic CapEx coordination. When Amber McBride reviews a property and flags a 13-year-old HVAC unit in the annual inspection notes, that information goes into the owner's AppFolio report with a recommendation to budget for replacement within 18–24 months. The owner isn't surprised by a late-July emergency call—they have a capital line item already building.
+One of the less-visible benefits of professional property management is systematic CapEx coordination. When we review a property and flag a 13-year-old HVAC unit in the annual inspection notes, that information goes into the owner's AppFolio report with a recommendation to budget for replacement within 18–24 months. The owner isn't surprised by a late-July emergency call—they have a capital line item already building.
 
 Timing CapEx to tenant turnover also matters more than most owners realize. An HVAC replacement during an occupied lease is inconvenient for everyone involved; planned during the two-week window between tenants, it happens on the landlord's schedule rather than in response to a breakdown. That kind of coordination requires communication between the management team, the owner, and the vendor network—the kind of operational detail that gets lost when landlords are self-managing multiple properties or working from out of state.
 
@@ -204,7 +204,7 @@ If your rental is in Evans or the surrounding Columbia County area, our [Evans](
 </div>
 <div class="faq-item">
 <div class="faq-question">Does McBride PM help track capital expenditure planning for managed properties?</div>
-<div class="faq-answer">Yes. McBride PM's AppFolio-based owner reports include inspection notes and flagged items for each property. Amber McBride coordinates with owners on capital planning timelines so that significant replacements can be budgeted and—when possible—timed to tenant turnover to minimize disruption.</div>
+<div class="faq-answer">Yes. McBride PM's AppFolio-based owner reports include inspection notes and flagged items for each property. Our team coordinates with owners on capital planning timelines so that significant replacements can be budgeted and—when possible—timed to tenant turnover to minimize disruption.</div>
 </div>
 </div>
 

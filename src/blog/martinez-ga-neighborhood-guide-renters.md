@@ -51,7 +51,7 @@ The core of Martinez — established neighborhoods with homes built from the 197
 
 ### North Martinez (Fury's Ferry Area)
 
-The stretch along Fury's Ferry Road toward the river is quieter and more rural-feeling, with larger properties and more space between neighbors. If you're looking for a single-family rental with a big yard and don't mind being a few minutes further from the commercial corridors, this area delivers. Amber McBride, property manager at McBride Property Management, often recommends this area for families with pets or tenants who want outdoor space without the premium that newer Evans subdivisions command.
+The stretch along Fury's Ferry Road toward the river is quieter and more rural-feeling, with larger properties and more space between neighbors. If you're looking for a single-family rental with a big yard and don't mind being a few minutes further from the commercial corridors, this area delivers. We often recommend this area for families with pets or tenants who want outdoor space without the premium that newer Evans subdivisions command.
 
 ## Schools in the Martinez Area
 

@@ -216,7 +216,7 @@ Most of the issues McBride Property Management sees with VA PCS landlords who se
 
 **PCS orders arrive fast. The decisions they require don't have to be made blindly.**
 
-McBride PM handles Fort Gordon PCS landlord transitions regularly — from initial pricing and photography through lease execution, rent collection, and remote owner reporting via AppFolio. Amber McBride manages owner onboarding and ensures your property is set up correctly under Georgia HB 399 before the first tenant moves in. We also coordinate the servicer notification and insurance transition as part of our standard onboarding process.
+McBride PM handles Fort Gordon PCS landlord transitions regularly — from initial pricing and photography through lease execution, rent collection, and remote owner reporting via AppFolio. Our onboarding process ensures your property is set up correctly under Georgia HB 399 before the first tenant moves in. We also coordinate the servicer notification and insurance transition as part of our standard onboarding process.
 
 Download the [PCS Landlord Quick-Start Guide](/pdfs/McBride-PM_PCS-Landlord-Quick-Start-Guide.pdf) for the full operational checklist, then call us at **(706) 339-2874** or [request a free rental analysis at our contact page](/contact/) to find out what your Evans or Grovetown home would rent for right now. The [services overview at /services/](/services/) explains what we include and what our fee structure looks like.
 

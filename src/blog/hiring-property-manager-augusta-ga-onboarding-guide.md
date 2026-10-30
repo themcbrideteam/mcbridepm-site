@@ -36,7 +36,7 @@ howTo:
     - name: "Complete the baseline onboarding inspection"
       text: "McBride PM schedules a comprehensive baseline inspection of the property with photos and written notes. This creates the legal reference point for move-out inspections and security deposit claims, and identifies any repairs to complete before listing."
     - name: "Get access to your AppFolio owner portal"
-      text: "You receive login credentials to the AppFolio owner portal. Amber McBride walks new owners through the portal during onboarding so you know where to find statements, maintenance records, and uploaded lease documents."
+      text: "You receive login credentials to the AppFolio owner portal. We walk new owners through the portal during onboarding so you know where to find statements, maintenance records, and uploaded lease documents."
     - name: "Approve the listing and tenant placement plan"
       text: "McBride PM photographs the property, sets the listing price based on current CSRA market data, and syndicates the listing across Zillow, Apartments.com, AHRN, and other channels. Once applicants are screened, you review the recommendation and approve placement."
     - name: "Lease execution and move-in"
@@ -117,7 +117,7 @@ The inspection also serves a capital-planning function. A well-documented baseli
 - Access codes: keypad entry, alarm system, gate codes
 - Utility account numbers for any utilities currently in the owner's name
 
-Amber McBride coordinates the onboarding intake and inspection scheduling. Her job is to make this process as frictionless as possible for you — you don't need to be on-site for the inspection.
+Our team coordinates the onboarding intake and inspection scheduling. Our goal is to make this process as frictionless as possible for you — you don't need to be on-site for the inspection.
 
 ---
 
@@ -127,7 +127,7 @@ Once the inspection is complete and the documents are processed, we activate you
 
 AppFolio is the property management software McBride PM uses to track everything — rent collection, maintenance work orders, vendor invoices, owner statements, and lease documents. As the property owner, your portal gives you 24/7 read access to all of it. The [AppFolio owner portal walkthrough post](/blog/appfolio-owner-portal-property-management-augusta-ga/) covers exactly what you'll see there and what each section means.
 
-During onboarding, Amber walks every new owner through the portal on a brief call or screen share. By the time your first tenant moves in, you should know:
+During onboarding, we walk every new owner through the portal on a brief call or screen share. By the time your first tenant moves in, you should know:
 
 - Where to find your monthly owner statement
 - How to see a maintenance work order from open to closed
@@ -221,7 +221,7 @@ Here's what typically happens in the first 90 days:
 - **Month 2:** First full month of rental activity, first owner statement generated and distributed
 - **Month 3:** Rhythm established — you're getting monthly statements, any maintenance is being handled, the tenant is paying rent on time or the manager is addressing it per your agreement
 
-By the 90-day mark, you should feel like the hardest part is behind you. The property is producing income, you understand what the owner statement shows, and you know how to reach Amber McBride at ops@mcbride-pm.com if something needs your attention.
+By the 90-day mark, you should feel like the hardest part is behind you. The property is producing income, you understand what the owner statement shows, and you know how to reach us at [robert@mcbride-pm.com](mailto:robert@mcbride-pm.com) if something needs your attention.
 
 For owners coming to us from self-management, the biggest adjustment is usually the transition from doing everything yourself to getting an update when something happens. The [true cost of self-managing post](/blog/true-cost-self-managing-rental-property-csra/) walks through what that work actually costs in time and liability exposure before you hand it over — useful reading even after you've made the decision.
 

@@ -72,7 +72,7 @@ If the replacement property costs less than the one you sold, or if you pull cas
 
 ### Not Coordinating With Your Property Manager
 
-If you're selling a managed rental and buying another, your property management team needs to be in the loop. Amber McBride, property manager at McBride Property Management, works with investors during transitions to ensure tenant-occupied properties are handled properly during the exchange process — from lease assignments to [security deposit](/blog/security-deposit-best-practices-georgia/) transfers and move-out coordination.
+If you're selling a managed rental and buying another, your property management team needs to be in the loop. McBride Property Management works with investors during transitions to ensure tenant-occupied properties are handled properly during the exchange process — from lease assignments to [security deposit](/blog/security-deposit-best-practices-georgia/) transfers and move-out coordination.
 
 ## How a 1031 Exchange Fits Into a Long-Term Augusta Investment Strategy
 

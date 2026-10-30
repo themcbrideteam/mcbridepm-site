@@ -138,7 +138,7 @@ A standard owner statement shows:
 - **Net distribution:** the amount sent, the bank account it went to, and the initiation date
 - **Closing balance:** reserve on hand after the distribution
 
-If a line item is unfamiliar, click through in AppFolio to see the underlying work order, vendor invoice, or repair photo — without contacting the office. If you do have a question, Amber McBride, McBride PM's Operations Manager, reviews statements before they go out and is reachable for any clarification.
+If a line item is unfamiliar, click through in AppFolio to see the underlying work order, vendor invoice, or repair photo — without contacting the office. If you do have a question, our team reviews statements before they go out and is reachable for any clarification.
 
 The complete line-by-line explainer is in our [owner statement walkthrough](/blog/reading-owner-statement-property-management-augusta-ga/).
 

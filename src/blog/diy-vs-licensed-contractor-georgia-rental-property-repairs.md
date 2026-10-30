@@ -196,7 +196,7 @@ If you're evaluating whether self-managing a property in the Evans, Grovetown, o
 
 At McBride Property Management, every maintenance request that comes in gets categorized before it's dispatched. The first filter is trade type. Any repair involving electrical, plumbing, HVAC, or low-voltage goes to a licensed specialist in our vendor network—not a handyman, regardless of the apparent simplicity of the repair.
 
-Amber McBride runs the vendor coordination side of operations. We maintain relationships with multiple licensed contractors in each specialty category so that emergency repairs—a failed AC in August, a burst pipe in winter—get same-day or next-day response rather than a multi-week queue. Our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) includes a section on maintenance standards and what owners should expect from professional property management.
+Our team runs the vendor coordination side of operations. We maintain relationships with multiple licensed contractors in each specialty category so that emergency repairs—a failed AC in August, a burst pipe in winter—get same-day or next-day response rather than a multi-week queue. Our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) includes a section on maintenance standards and what owners should expect from professional property management.
 
 Permits are pulled for any work that requires one. After completion, permit inspection sign-offs go into the property file. When an owner sells—whether that's two years or twelve years from now—they hand the buyer documented evidence that every systems repair was permitted, inspected, and code-compliant.
 

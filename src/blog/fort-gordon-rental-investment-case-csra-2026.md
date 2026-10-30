@@ -97,7 +97,7 @@ The Pine Tree Terrace narrative — 76 new units, first since 2008 — is one da
 
 Fort Gordon's designation as the Army's Cyber Center of Excellence has concentrated a civilian and contractor workforce in the Augusta area that would not exist elsewhere in the region. The cleared workforce attached to classified programs at the installation is, by definition, geographically anchored. They cannot telework from Denver. They have to live near Fort Gordon, and most of the housing near Fort Gordon is off-post.
 
-Amber McBride, who manages McBride PM's property onboarding and tenant coordination, sees the civilian continuity firsthand: "We consistently hear from landlords in Evans and Grovetown that their military tenants are followed by civilian tenants who work at or near Fort Gordon. Once a property is inside that ecosystem, it rarely loses that demand base. The community is sticky in a way that a lot of military markets aren't."
+We see that civilian continuity firsthand. Owners in Evans and Grovetown consistently tell us their military tenants are followed by civilian tenants who work at or near Fort Gordon. Once a property is inside that ecosystem, it rarely loses that demand base. The community is sticky in a way that a lot of military markets aren't.
 
 That continuity — BAH tenant transitions to civilian tenant, same neighborhood, same employer anchor — is what a standard underwriting model does not capture. The Augusta market's 40%-below-national-median rent level is partly a function of not being fully discovered by institutional capital. That has historically benefited the small-scale investor who can move at the address level.
 

@@ -199,7 +199,7 @@ McBride PM receives all HOA correspondence for properties we manage. When a viol
 - We communicate with the HOA on the owner's behalf to request fine waiver when the violation is corrected promptly.
 - We maintain the documentation trail in case the violation becomes a pattern requiring lease enforcement.
 
-Amber McBride, our operations manager, coordinates vendor work when the violation involves something requiring contractor correction (fence removal, unauthorized structure taken down). Most first-time violations are resolved in two to three days without the owner being involved beyond the initial notification.
+Our team coordinates vendor work when the violation involves something requiring contractor correction (fence removal, unauthorized structure taken down). Most first-time violations are resolved in two to three days without the owner being involved beyond the initial notification.
 
 Our leases include both the compliance clause and the fine-reimbursement clause described above. We also deliver HOA governing documents to tenants at lease signing and obtain signed acknowledgments as a standard part of our onboarding process — which means we've built the enforcement foundation before the first tenant moves in.
 
@@ -262,7 +262,7 @@ A single missing lease clause can cost you hundreds of dollars you can't recover
 
 [Request a free rental analysis at /contact/](/contact/) to find out what your property should rent for and whether your current lease is protecting you the way it should. Or download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a broader reference on Georgia rental law, tenant screening, and operational best practices.
 
-Call us at **(706) 339-2874** or email ops@mcbride-pm.com.
+Call us at **(706) 339-2874** or email robert@mcbride-pm.com.
 
 </div>
 

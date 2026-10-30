@@ -63,7 +63,7 @@ The difference isn't that Augusta is bad — it's that Columbia County is more f
 
 Broker Noah McBride puts it this way: "The Columbia County market does a lot of the work for you. The demand is there. Your job as a landlord is to not get in its way — price fairly, maintain the property, and screen tenants carefully. That's where a good property manager earns their fee."
 
-Property manager Amber McBride adds: "We see it every time we onboard a new Columbia County listing. If the home is clean, priced right, and we have a strong application process in place, we're usually turning away qualified applicants. That's a great problem for an investor to have."
+We see that demand every time we onboard a new Columbia County listing. If the home is clean, priced right, and backed by a strong application process, we're usually turning away qualified applicants. That's a great problem for an investor to have.
 
 ---
 

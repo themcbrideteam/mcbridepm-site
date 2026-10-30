@@ -109,7 +109,7 @@ This is the piece most landlords can't find explained anywhere, because it's ope
 
 After you sign the management agreement, the PM schedules a baseline property inspection—typically within the first week. This is not a lease-violation audit. It's a documentation of current condition, a check that the existing lease is valid and compliant (this is where any gaps against Georgia's Safe at Home Act standards get identified early), and a deferred maintenance walkthrough that gives the PM an honest picture of what they're taking on.
 
-At McBride PM, Amber McBride runs onboarding. She'll request your lease, all addenda, and security deposit documentation directly—not through an impersonal intake form—because the specific details in your paperwork matter for how the first 90 days get managed.
+At McBride PM, our team runs onboarding. We'll request your lease, all addenda, and security deposit documentation directly—not through an impersonal intake form—because the specific details in your paperwork matter for how the first 90 days get managed.
 
 ### Days 7–14: Tenant notification of management change
 
@@ -212,7 +212,7 @@ Most owners report that by month three, their mental involvement with the proper
 
 **Ready to hand off your CSRA rental?**
 
-McBride Property Management handles single-family rentals across Evans, Martinez, Grovetown, Augusta, and North Augusta. We use AppFolio for owner reporting, and Amber McBride manages every new onboarding personally. If you have questions before you're ready to commit, a free rental analysis is the right starting point—we'll review your property, your existing lease setup, and tell you honestly what a professional management relationship would look like for your situation.
+McBride Property Management handles single-family rentals across Evans, Martinez, Grovetown, Augusta, and North Augusta. We use AppFolio for owner reporting, and our team manages every new onboarding directly. If you have questions before you're ready to commit, a free rental analysis is the right starting point—we'll review your property, your existing lease setup, and tell you honestly what a professional management relationship would look like for your situation.
 
 [Request a free rental analysis →](/contact/)
 

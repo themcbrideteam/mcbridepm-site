@@ -165,7 +165,7 @@ Out-of-state investors routinely underestimate property taxes because they ancho
 
 An owner-occupant who bought their home in 2019, claimed homestead, and has been paying taxes on a pre-2022 assessment can have a property tax bill that's $600–$900 below what you'll actually owe as an investor. That's not a minor rounding error — on a property cash-flowing $200 per month, that's three to four months of profit per year silently missing from your model.
 
-McBride Property Management works through this calculation with every investor we onboard into the CSRA market. Amber McBride coordinates the onboarding process and verifies current assessed values, taxing districts, and first-year expense estimates before we price the rental and begin marketing.
+McBride Property Management works through this calculation with every investor we onboard into the CSRA market. During onboarding, we verify current assessed values, taxing districts, and first-year expense estimates before we price the rental and begin marketing.
 
 If you're buying in [Evans](/evans/), [Augusta](/augusta/), or [Grovetown](/grovetown/) and want a second set of eyes on your numbers before you close, [request a free rental analysis at our contact page](/contact/). We'll walk through the full expense model — including where your property tax estimate sits relative to the county's current tax roll and any pending reassessment risk.
 

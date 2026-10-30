@@ -208,7 +208,7 @@ If your landlord refuses to complete a move-in inspection or sign a damage list,
 - Return all keys, garage openers, and access devices and get a written receipt
 - Provide a forwarding address in writing, since your landlord must mail the deposit and any itemized statement to you within 30 days
 
-If you're a McBride PM resident, our [Move-Out Inspection Checklist](/pdfs/McBride-PM_Move-Out-Inspection-Checklist.pdf) walks through this room by room. Our Operations Manager Amber McBride coordinates the move-out process for every departing resident, including the final inspection scheduling and deposit accounting in AppFolio.
+If you're a McBride PM resident, our [Move-Out Inspection Checklist](/pdfs/McBride-PM_Move-Out-Inspection-Checklist.pdf) walks through this room by room. Our team coordinates the move-out process for every departing resident, including the final inspection scheduling and deposit accounting in AppFolio.
 
 ### If a deposit dispute ends up in magistrate court
 

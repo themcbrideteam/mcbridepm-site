@@ -219,7 +219,7 @@ Late September through December is traditionally the slower leasing period in th
 
 **Fort Gordon PCS traffic continues year-round.** Unlike the civilian rental market, military-driven moves don't follow a spring-summer calendar. Service members receive assignment orders on 12-month rotation cycles. December and January PCS moves to Fort Gordon are common — incoming personnel from the Army Cyber Center of Excellence, the Signal Corps, and other commands cycle in constantly. A property priced correctly and live on the AppFolio syndication network will be in front of that incoming-assignment audience regardless of the month.
 
-If you have a property coming off lease in November or December, the right time to start the conversation about renewal versus re-listing pricing is now — not when a vacancy is already open. [Request a free rental analysis through our contact page](/contact/) and Amber McBride, our operations manager, can have a current comparable-market analysis to you within one business day of your request.
+If you have a property coming off lease in November or December, the right time to start the conversation about renewal versus re-listing pricing is now — not when a vacancy is already open. [Request a free rental analysis through our contact page](/contact/) and we can have a current comparable-market analysis to you within one business day of your request.
 
 ---
 
@@ -264,9 +264,9 @@ If you have a property coming off lease in November or December, the right time 
 
 **Your CSRA property, leased from wherever you are.**
 
-Whether your Evans or Grovetown home is vacant now or coming off lease in the next 60 days, McBride Property Management can have it listed, screened, and under a digital lease faster than most self-managed landlords can collect a single application. [Request a free rental analysis](/contact/) and Amber McBride will have current comparable-market data and a leasing plan to you within one business day. Or download the [PCS Landlord Quick-Start Guide](/pdfs/McBride-PM_PCS-Landlord-Quick-Start-Guide.pdf) for a complete walkthrough of how the process runs from orders to occupied.
+Whether your Evans or Grovetown home is vacant now or coming off lease in the next 60 days, McBride Property Management can have it listed, screened, and under a digital lease faster than most self-managed landlords can collect a single application. [Request a free rental analysis](/contact/) and we'll have current comparable-market data and a leasing plan to you within one business day. Or download the [PCS Landlord Quick-Start Guide](/pdfs/McBride-PM_PCS-Landlord-Quick-Start-Guide.pdf) for a complete walkthrough of how the process runs from orders to occupied.
 
-**Call (706) 339-2874** or reach us at ops@mcbride-pm.com. *This is general guidance from a property manager — not legal or tax advice; consult a Georgia attorney for your specific situation.*
+**Call (706) 339-2874** or reach us at robert@mcbride-pm.com. *This is general guidance from a property manager — not legal or tax advice; consult a Georgia attorney for your specific situation.*
 
 </div>
 

@@ -185,7 +185,7 @@ If you decide to proceed, here is the general sequence for a Georgia rental prop
 
 **Step 6: Open a dedicated LLC bank account.** All rent receipts and property expenses must flow through the LLC's account, not your personal account. Commingling funds is one of the fastest ways to get the corporate veil pierced if the liability shield is ever challenged.
 
-**Step 7: Notify your property manager.** Amber McBride handles owner onboarding and account transitions for McBride Property Management. If you are moving an existing managed property from personal title to an LLC, she will update the AppFolio owner account, the management agreement, and the 1099 reporting to reflect the new entity name. That transition typically takes one business day once the new LLC documents are in hand.
+**Step 7: Notify your property manager.** At McBride Property Management, our team handles owner onboarding and account transitions. If you are moving an existing managed property from personal title to an LLC, we will update the AppFolio owner account, the management agreement, and the 1099 reporting to reflect the new entity name. That transition typically takes one business day once the new LLC documents are in hand.
 
 **Step 8: Update the lease at next renewal.** The LLC is now the landlord of record, and the lease should match. Work this into the next renewal rather than amending the current lease mid-term.
 

@@ -209,7 +209,7 @@ These are the most common procedural errors that force a restart:
 
 For an out-of-state investor owning property in [North Augusta](/north-augusta/) or [Aiken](/aiken/), the eviction process exposes two friction points: you're in another state when things go wrong, and you're navigating a legal system you don't deal with regularly.
 
-A professional property manager handles the procedural sequence from notice to judgment, coordinates court filings, appears at hearings, and manages the constable coordination for the Writ of Ejectment — all without requiring you to book a flight. Amber McBride, our operations manager, specifically oversees the eviction workflow for McBride Property Management's South Carolina portfolio, coordinating with local SC counsel when a case becomes contested.
+A professional property manager handles the procedural sequence from notice to judgment, coordinates court filings, appears at hearings, and manages the constable coordination for the Writ of Ejectment — all without requiring you to book a flight. Our team oversees the eviction workflow for McBride Property Management's South Carolina portfolio, coordinating with local SC counsel when a case becomes contested.
 
 The deeper value is prevention. McBride PM's [tenant screening process](/services/) — income verification, rental history, criminal and eviction background checks — substantially reduces the probability that you'll need to use the eviction process in the first place. For our South Carolina properties, we use the same [screening standards](/pdfs/McBride-PM_Tenant-Screening-Standards.pdf) we apply across our Georgia portfolio, with additional attention to military-affiliated applicants and their SCRA status.
 

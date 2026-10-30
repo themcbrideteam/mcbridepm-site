@@ -189,7 +189,7 @@ What a competent CSRA property manager provides a remote owner goes beyond rent 
 - **Maintenance coordination** with a vetted local vendor network, without the owner needing to manage an unknown contractor from out of state
 - **Monthly financial reporting** in a format you can review from anywhere
 
-Amber McBride, McBride PM's operations manager, handles onboarding for new owners — including remote acquisitions where the owner hasn't visited the property in person. She can walk you through our management process, answer questions about specific neighborhoods, and connect you with the data you need before you're under contract.
+Our team handles onboarding for new owners — including remote acquisitions where the owner hasn't visited the property in person. We can walk you through our management process, answer questions about specific neighborhoods, and connect you with the data you need before you're under contract.
 
 If you want to understand how we price rentals and what comp methodology we use, our post on [how to price a rental property in Augusta](/blog/how-to-price-rental-property-augusta-ga/) walks through the process.
 
