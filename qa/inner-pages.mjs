@@ -94,6 +94,7 @@ const wrappedButtons = (page) => page.evaluate(() => [...document.querySelectorA
 }).map(b => b.textContent.trim().replace(/\s+/g, ' ')));
 
 const layoutChecks = (page) => page.evaluate(() => {
+  if (!document.getElementById('nav')) return { noNav: true, landed: location.href };
   const nav = document.getElementById('nav').getBoundingClientRect();
   const h1 = document.querySelector('main h1');
   const h1r = h1 ? h1.getBoundingClientRect() : null;
@@ -125,9 +126,14 @@ for (const [label, vp, mobile] of [['desk', { width: 1440, height: 900 }, false]
   for (const p of pages) {
     if (!mobile || FEATURED.includes(p) || !p.startsWith('/blog/')) {
       state.errors.length = 0;
-      await page.goto(base + p, { waitUntil: FEATURED.includes(p) ? 'networkidle2' : 'load', timeout: 60000 });
+      // A dropped connection retries; a real failure still throws on the third try
+      for (let tries = 1; ; tries++) {
+        try { await page.goto(base + p, { waitUntil: FEATURED.includes(p) ? 'networkidle2' : 'load', timeout: 60000 }); break; }
+        catch (e) { if (tries >= 3) throw e; await sleep(2000); }
+      }
       await sleep(FEATURED.includes(p) ? 900 : 150);
       const lc = await layoutChecks(page);
+      if (lc.noNav) { fails.nav.push(`${p} has no site header (landed on ${lc.landed})`); continue; }
       if (lc.overflow > 0) fails.overflow.push(`${p} +${lc.overflow}px`);
       if (!lc.navOneRow || lc.navH > 96) fails.nav.push(`${p} h=${lc.navH}`);
       if (lc.h1Clear === false) fails.h1.push(`${p} h1 top ${lc.h1Top}`);

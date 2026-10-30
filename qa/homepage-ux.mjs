@@ -28,6 +28,7 @@ async function newPage(vp, { mobile = false, postMode = 'ok', js = true, reduced
   page.on('request', r => {
     const u = r.url();
     if (/googletagmanager|google-analytics|analytics\.google/.test(u)) return r.abort();   // keep QA out of GA
+    if (/app\.netlify\.com|bugsnag|netlify-cdp/.test(u)) return r.abort();                // deploy-preview toolbar
     if (r.method() === 'POST') {
       state.posts.push(r.postData() || '');
       if (LIVE) return r.abort();
@@ -35,7 +36,7 @@ async function newPage(vp, { mobile = false, postMode = 'ok', js = true, reduced
     }
     r.continue();
   });
-  page.on('requestfailed', r => { if (!/\.mp4|google/.test(r.url())) state.errors.push('requestfailed: ' + r.url()); });
+  page.on('requestfailed', r => { if (!/\.mp4|google|app\.netlify\.com|bugsnag|netlify-cdp/.test(r.url())) state.errors.push('requestfailed: ' + r.url()); });
   await page.setJavaScriptEnabled(js);
   await page.setViewport({ ...vp, isMobile: mobile, hasTouch: mobile, deviceScaleFactor: mobile ? 2 : 1 });
   if (mobile) await page.setUserAgent(IPHONE);
