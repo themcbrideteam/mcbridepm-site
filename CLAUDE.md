@@ -30,6 +30,8 @@ Continuously evolve this into the highest-performing residential property manage
 - Netlify builds from GitHub `main` (`npx @11ty/eleventy`, publish `_site`). Pushing main IS deploying — build and verify locally first.
 - Blog automation lives in `.claude/blog-skill/` with content map in `.claude/intelligence/` — respect its coverage map when adding posts.
 - Forms: Netlify strips `data-netlify` from published HTML, so `src/js/lead.js` finds forms by their hidden `form-name` input. Netlify keeps ONE field list per form name — the homepage and /contact/ `rental-analysis` forms must keep identical fields (`page`, `source`, `address`, `fullName`, `phone`, `email`, `situation`).
+- The homepage's only form lives in the two-step `<dialog id="lead-dialog">` (address → contact). Every "Free Rental Analysis" button (`data-open-lead="<cta>"`) and both address boxes (`data-address-start="<cta>"`) open it; the `cta` lands in the `source` field and GA4 events. `/#rental-analysis` opens it on arrival. Without JS everything falls back to /contact/.
+- CSS/JS are cached a day (`netlify.toml`), so templates must load them through the `v` filter (`{{ '/css/home.css' | v }}` → `?v=<content hash>`). An unversioned URL serves returning visitors yesterday's file against today's HTML — that broke the homepage for returning visitors on 2026-10-30.
 - The homepage (`src/index.html`) is a standalone Nunjucks page (no layout) with its own `home.css`/`home.js`; it pulls schema from `_includes/schema/site-graph.njk` and FAQs from its front matter.
 
 ## Operating loop (every work session)

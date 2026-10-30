@@ -1,6 +1,16 @@
 const { DateTime } = require("luxon");
+const crypto = require("crypto");
+const fs = require("fs");
 
 module.exports = function (eleventyConfig) {
+  // Cache-busting: "/css/home.css" | v → "/css/home.css?v=<content hash>".
+  // netlify.toml caches CSS/JS for a day, so an unversioned URL keeps serving
+  // returning visitors yesterday's file against today's HTML.
+  eleventyConfig.addFilter("v", (url) => {
+    const hash = crypto.createHash("md5").update(fs.readFileSync("src" + url)).digest("hex").slice(0, 8);
+    return `${url}?v=${hash}`;
+  });
+
   // Pass through static assets
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");

@@ -26,7 +26,7 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3 { font-family: "Montserrat", sans-serif; font-weight: 600; line-height: 1.12; }
+h1, h2, h3 { font-family: "Montserrat", sans-serif; font-weight: 600; line-height: 1.12; text-wrap: balance; }
 
 .container { width: min(1160px, 92vw); margin-inline: auto; }
 
@@ -34,13 +34,17 @@ h1, h2, h3 { font-family: "Montserrat", sans-serif; font-weight: 600; line-heigh
 .cursor-dot, .cursor-ring {
   position: fixed; top: 0; left: 0; pointer-events: none; z-index: 9999;
   border-radius: 50%; translate: -50% -50%; display: none;
+  opacity: 0; transition: opacity 0.3s;
 }
 .cursor-dot { width: 8px; height: 8px; background: var(--gold); }
 .cursor-ring {
   width: 38px; height: 38px; border: 1px solid rgba(178, 153, 90, 0.65);
-  transition: width 0.25s, height 0.25s, border-color 0.25s;
+  transition: width 0.25s, height 0.25s, border-color 0.25s, opacity 0.3s;
 }
 body.cursor-active .cursor-dot, body.cursor-active .cursor-ring { display: block; }
+body.cursor-ready .cursor-dot, body.cursor-ready .cursor-ring { opacity: 1; }
+/* The dialog sits in the top layer, above the custom cursor: use the real one there */
+html.dialog-open .cursor-dot, html.dialog-open .cursor-ring { display: none; }
 body.cursor-active, body.cursor-active a, body.cursor-active button { cursor: none; }
 body.cursor-hover .cursor-ring { width: 64px; height: 64px; border-color: var(--gold); }
 
@@ -102,49 +106,70 @@ html.menu-open { overflow: hidden; }
 @media (min-width: 900px) { .mobile-menu { display: none; } }
 
 /* ---------- Buttons ---------- */
+/* One button box for <a> and <button> alike: explicit line-height and
+   min-height, so a link and a form button never render at different sizes. */
 .btn {
-  display: inline-block; padding: 0.95rem 2.1rem; border-radius: 999px;
-  background: var(--gold); color: var(--navy); font-weight: 600; font-size: 1rem;
-  text-decoration: none; font-family: "Montserrat", sans-serif;
-  transition: box-shadow 0.3s;
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.55rem;
+  min-height: 3.25rem; padding: 0.8rem 2rem; border-radius: 999px;
+  border: 1px solid transparent; background: var(--gold); color: var(--navy);
+  font-family: "Montserrat", sans-serif; font-weight: 600; font-size: 1rem;
+  line-height: 1.2; letter-spacing: 0.01em; text-align: center; text-decoration: none;
+  cursor: pointer; -webkit-appearance: none; appearance: none;
+  transition: box-shadow 0.3s, background-color 0.3s, border-color 0.3s;
   will-change: transform;
   -webkit-tap-highlight-color: transparent;
 }
-.btn:active { filter: brightness(1.08); }
-.btn:hover { box-shadow: 0 8px 40px rgba(178, 153, 90, 0.45); }
-.btn-small { padding: 0.6rem 1.4rem; font-size: 0.85rem; }
-.btn-ghost { background: transparent; border: 1px solid rgba(255, 255, 255, 0.5); color: var(--white); }
-.btn-ghost:hover { border-color: var(--gold); box-shadow: 0 8px 40px rgba(178, 153, 90, 0.25); }
+.btn:active { filter: brightness(1.06); }
+.btn:hover { background-color: #c2a964; box-shadow: 0 10px 36px rgba(178, 153, 90, 0.42); }
+.btn:disabled { opacity: 0.7; cursor: progress; }
+.btn svg {
+  width: 1.05em; height: 1.05em; flex-shrink: 0;
+  fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round;
+}
+.btn-arrow { display: inline-block; transition: transform 0.3s; }
+.btn:hover .btn-arrow { transform: translateX(4px); }
+.btn-small { min-height: 2.6rem; padding: 0.5rem 1.35rem; font-size: 0.86rem; }
+.btn-ghost {
+  background: rgba(4, 4, 46, 0.45); border-color: rgba(255, 255, 255, 0.38); color: var(--white);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+}
+.btn-ghost:hover { background-color: rgba(4, 4, 46, 0.6); border-color: var(--gold); box-shadow: 0 10px 36px rgba(178, 153, 90, 0.2); }
+.btn-ghost svg { color: var(--gold); }
 .link-arrow { color: var(--ink-soft); text-decoration: none; font-weight: 600; }
 .link-arrow span { display: inline-block; transition: transform 0.3s; color: var(--gold); }
 .link-arrow:hover span { transform: translateX(6px); }
 .link-arrow:hover { color: var(--white); }
 
 /* ---------- Journey rail ---------- */
+/* Dots sit on the line; the active room's label floats to their left and
+   only shows on screens wide enough that it can't cover the content. */
 .rail {
-  position: fixed; right: clamp(0.8rem, 2.5vw, 2.4rem); top: 50%; translate: 0 -50%;
-  z-index: 90; display: flex; gap: 0.9rem;
+  position: fixed; right: clamp(1rem, 2vw, 2rem); top: 50%; translate: 0 -50%;
+  z-index: 90;
 }
 .rail-line {
-  width: 1px; background: rgba(255, 255, 255, 0.18); position: relative;
+  position: absolute; top: 3px; bottom: 3px; right: 3px; width: 1px;
+  background: rgba(255, 255, 255, 0.18);
 }
 .rail-progress {
   position: absolute; top: 0; left: 0; width: 100%; height: 0%;
   background: var(--gold);
 }
-.rail ol { list-style: none; display: flex; flex-direction: column; gap: 2.4rem; }
-.rail li { display: flex; align-items: center; gap: 0.6rem; justify-content: flex-end; }
+.rail ol { position: relative; list-style: none; display: flex; flex-direction: column; gap: 2.3rem; }
+.rail li { position: relative; width: 7px; height: 7px; }
 .rail-label {
+  position: absolute; right: 1.2rem; top: 50%; translate: 0 -50%; white-space: nowrap;
   font-family: "Montserrat", sans-serif; font-size: 0.68rem; font-weight: 500;
-  letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255, 255, 255, 0.4);
-  opacity: 0; transform: translateX(6px); transition: all 0.35s;
+  letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold);
+  opacity: 0; transform: translateX(6px); transition: opacity 0.35s, transform 0.35s;
 }
 .rail-dot {
-  width: 7px; height: 7px; border-radius: 50%; background: rgba(255, 255, 255, 0.35);
-  transition: all 0.35s; flex-shrink: 0;
+  position: absolute; inset: 0; border-radius: 50%; background: rgba(255, 255, 255, 0.35);
+  transition: background-color 0.35s, box-shadow 0.35s;
 }
 .rail li.active .rail-dot { background: var(--gold); box-shadow: 0 0 12px rgba(178, 153, 90, 0.8); }
-.rail li.active .rail-label { opacity: 1; transform: none; color: var(--gold); }
+.rail li.active .rail-label { opacity: 1; transform: none; }
+@media (max-width: 1679px) { .rail-label { display: none; } }
 @media (max-width: 899px) { .rail { display: none; } }
 
 /* ---------- Chapters ---------- */
@@ -183,8 +208,10 @@ html.menu-open { overflow: hidden; }
   margin-bottom: 1.4rem;
 }
 
+/* Height-capped so the address box, proof line, and renter link all stay
+   above the fold on short laptop screens (1280×720 and the like). */
 .hero h1 {
-  font-size: clamp(2.6rem, 7vw, 5.4rem); font-weight: 700; color: var(--white);
+  font-size: clamp(2.6rem, min(7vw, 9.2vh), 5.4rem); font-weight: 700; color: var(--white);
   margin-bottom: 1.8rem; max-width: 14ch;
 }
 .hero h1 em { font-style: normal; color: var(--gold); }
@@ -397,12 +424,17 @@ body.cursor-active select, body.cursor-active summary { cursor: pointer; }
 .faq p { padding: 0 1.5rem 1.4rem; color: var(--ink-soft); font-size: 0.98rem; max-width: 70ch; }
 .faq p a { color: var(--gold); }
 
-/* ---------- The Handoff: steps + form ---------- */
+/* ---------- The Handoff: steps + start card ---------- */
+/* Desktop: copy and steps on the left, card beside them. Phones: the card
+   moves up under the headline so the address box comes before the steps. */
 .handoff-grid {
-  display: grid; grid-template-columns: 1fr minmax(340px, 460px); gap: 3rem 4.5rem; align-items: start;
+  display: grid; grid-template-columns: 1fr minmax(340px, 440px); gap: 0 4.5rem; align-items: center;
+  grid-template-areas: "copy card" "steps card";
 }
-.handoff-direct { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.4rem; }
-.handoff-direct .closer { margin: 0 0 0 auto; }
+.handoff-copy { grid-area: copy; align-self: end; }
+.handoff-steps { grid-area: steps; align-self: start; }
+.start-card { grid-area: card; }
+.handoff-steps .closer { margin-top: 2.6rem; }
 .steps-list { list-style: none; display: grid; gap: 1.4rem; margin-top: 2.6rem; }
 .steps-list li { display: grid; grid-template-columns: 2.6rem 1fr; gap: 1rem; align-items: start; }
 .steps-list li > span {
@@ -413,40 +445,117 @@ body.cursor-active select, body.cursor-active summary { cursor: pointer; }
 .steps-list h3 { font-size: 1.05rem; color: var(--white); margin-bottom: 0.25rem; }
 .steps-list p { font-size: 0.92rem; color: var(--ink-soft); }
 
-.lead-card {
-  background: rgba(4, 4, 46, 0.78); border: 1px solid rgba(178, 153, 90, 0.45);
+.start-card {
+  background: rgba(4, 4, 46, 0.8); border: 1px solid rgba(178, 153, 90, 0.45);
   border-radius: 22px; padding: 2.2rem 2rem; backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
 }
-.lead-title { font-size: 1.35rem; color: var(--white); margin-bottom: 0.5rem; }
-.lead-sub { font-size: 0.9rem; color: var(--ink-soft); margin-bottom: 1.5rem; }
+.start-kicker, .ld-kicker {
+  font-family: "Montserrat", sans-serif; font-size: 0.72rem; font-weight: 600;
+  letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.8rem;
+}
+.start-title { font-size: 1.45rem; color: var(--white); margin-bottom: 0.6rem; }
+.start-sub { font-size: 0.92rem; color: var(--ink-soft); margin-bottom: 1.4rem; }
+.address-stack { display: grid; gap: 0.7rem; }
+.address-stack input, .field input {
+  width: 100%; font: inherit; font-size: 1rem; color: var(--white);
+  background: rgba(255, 255, 255, 0.07); border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 12px; padding: 0.85rem 1rem; transition: border-color 0.2s, background-color 0.2s;
+}
+.address-stack input::placeholder, .field input::placeholder { color: rgba(255, 255, 255, 0.45); }
+.address-stack input:focus, .field input:focus { border-color: var(--gold); background-color: rgba(255, 255, 255, 0.1); outline: none; }
+.address-stack .btn { width: 100%; }
+.start-proof { list-style: none; display: grid; gap: 0.45rem; margin-top: 1.3rem; font-size: 0.88rem; color: var(--ink-soft); }
+.start-proof li { display: flex; gap: 0.6rem; align-items: baseline; }
+.start-proof li::before { content: "✓"; color: var(--gold); font-weight: 700; }
+.start-divider {
+  display: flex; align-items: center; gap: 0.8rem; margin: 1.5rem 0 1rem;
+  font-size: 0.7rem; letter-spacing: 0.16em; text-transform: uppercase; color: rgba(255, 255, 255, 0.5);
+}
+.start-divider::before, .start-divider::after { content: ""; flex: 1; height: 1px; background: rgba(255, 255, 255, 0.14); }
+.start-direct { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; }
+.start-direct .btn { padding-inline: 0.9rem; font-size: 0.88rem; white-space: nowrap; }
+
+/* ---------- Rental-analysis dialog ---------- */
+html.dialog-open { overflow: hidden; }
+.lead-dialog {
+  width: min(540px, calc(100vw - 2rem)); max-width: none; max-height: min(92vh, 860px);
+  margin: auto; padding: 0; overflow: auto; overscroll-behavior: contain;
+  border: 1px solid rgba(178, 153, 90, 0.45); border-radius: 24px;
+  background: linear-gradient(180deg, #0b0b5a 0%, var(--navy-deep) 100%); color: var(--ink);
+  box-shadow: 0 40px 120px rgba(0, 0, 0, 0.55);
+  cursor: auto;
+}
+.lead-dialog::backdrop { background: rgba(2, 2, 24, 0.62); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+.lead-dialog[open] { animation: ld-in 0.35s cubic-bezier(0.2, 0.8, 0.2, 1); }
+@keyframes ld-in { from { opacity: 0; transform: translateY(18px) scale(0.98); } }
+body.cursor-active .lead-dialog a, body.cursor-active .lead-dialog button, body.cursor-active .lead-dialog .chip { cursor: pointer; }
+.ld-shell { position: relative; padding: 2.1rem 2.2rem 2rem; }
+.ld-close {
+  position: absolute; top: 1rem; right: 1rem; width: 2.5rem; height: 2.5rem; border-radius: 50%;
+  display: grid; place-items: center; color: var(--white);
+  background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: border-color 0.2s;
+}
+.ld-close:hover { border-color: var(--gold); }
+.ld-close svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+.ld-kicker { padding-right: 3rem; margin-bottom: 1.2rem; }
+.ld-progress { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-bottom: 1.6rem; }
+.ld-progress li {
+  padding-top: 0.6rem; border-top: 2px solid rgba(255, 255, 255, 0.14);
+  font-family: "Montserrat", sans-serif; font-size: 0.7rem; font-weight: 600;
+  letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255, 255, 255, 0.45);
+  transition: color 0.3s, border-color 0.3s;
+}
+.ld-progress li.is-on { color: var(--white); border-top-color: var(--gold); }
+.ld-title { font-size: clamp(1.4rem, 2.6vw, 1.7rem); color: var(--white); line-height: 1.2; margin-bottom: 0.6rem; }
+.ld-sub { font-size: 0.95rem; color: var(--ink-soft); margin-bottom: 1.4rem; }
+.ld-step:not([hidden]) { animation: ld-step 0.35s ease; }
+@keyframes ld-step { from { opacity: 0; transform: translateX(14px); } }
+.ld-address {
+  display: flex; align-items: center; gap: 0.6rem; margin: 0.4rem 0 1.3rem; padding: 0.7rem 0.9rem;
+  border-radius: 12px; background: rgba(178, 153, 90, 0.12); border: 1px solid rgba(178, 153, 90, 0.35);
+  font-size: 0.92rem; color: var(--white);
+}
+.ld-address svg { width: 18px; height: 18px; flex-shrink: 0; fill: none; stroke: var(--gold); stroke-width: 1.8; }
+.ld-address span { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ld-change {
+  background: none; border: 0; padding: 0.2rem; font: inherit; font-size: 0.85rem; font-weight: 600;
+  color: var(--gold); text-decoration: underline; text-underline-offset: 3px;
+}
+.ld-wide { width: 100%; margin-top: 0.4rem; }
+.ld-check {
+  width: 3.2rem; height: 3.2rem; border-radius: 50%; display: grid; place-items: center; margin-bottom: 1.2rem;
+  background: rgba(178, 153, 90, 0.16); border: 1px solid var(--gold);
+}
+.ld-check svg { width: 24px; height: 24px; fill: none; stroke: var(--gold); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+
 .field { display: flex; flex-direction: column; gap: 0.4rem; margin-bottom: 1rem; min-width: 0; }
 .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 0.9rem; }
 .field label { font-size: 0.82rem; font-weight: 600; color: var(--ink); letter-spacing: 0.01em; }
 .field label span { font-weight: 400; color: var(--ink-soft); }
-.field input, .field select {
-  width: 100%; font: inherit; font-size: 1rem; color: var(--white);
-  background: rgba(255, 255, 255, 0.07); border: 1px solid rgba(255, 255, 255, 0.22);
-  border-radius: 10px; padding: 0.8rem 0.95rem; transition: border-color 0.2s, background 0.2s;
+.field input[aria-invalid="true"], .field input[aria-invalid="true"]:focus { border-color: #ff8f7d; }
+.field-error { font-size: 0.82rem; color: #ffb3a7; }
+.chips { border: 0; margin: 0.3rem 0 1.2rem; min-width: 0; }
+.chips legend { font-size: 0.82rem; font-weight: 600; color: var(--ink); margin-bottom: 0.6rem; }
+.chips legend span { font-weight: 400; color: var(--ink-soft); }
+.chip-row { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.chip { position: relative; }
+.chip input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.chip span {
+  display: inline-block; padding: 0.5rem 0.95rem; border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.22); background: rgba(255, 255, 255, 0.05);
+  font-size: 0.86rem; color: var(--ink); line-height: 1.3;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
 }
-.field input::placeholder { color: rgba(255, 255, 255, 0.45); }
-.field input:focus, .field select:focus { border-color: var(--gold); background: rgba(255, 255, 255, 0.1); outline: none; }
-.field select {
-  appearance: none; -webkit-appearance: none;
-  background-image: linear-gradient(45deg, transparent 50%, var(--gold) 50%), linear-gradient(135deg, var(--gold) 50%, transparent 50%);
-  background-position: calc(100% - 20px) 55%, calc(100% - 14px) 55%;
-  background-size: 6px 6px, 6px 6px; background-repeat: no-repeat; padding-right: 2.4rem;
-}
-.field select option { color: var(--navy); background: var(--white); }
-.lead-submit { width: 100%; border: 0; cursor: pointer; margin-top: 0.4rem; padding: 1.05rem 1.6rem; }
-.lead-submit:disabled { opacity: 0.7; cursor: progress; }
+.chip:hover span { border-color: rgba(178, 153, 90, 0.7); }
+.chip input:checked + span { background: var(--gold); border-color: var(--gold); color: var(--navy); font-weight: 600; }
+.chip input:focus-visible + span { outline: 2px solid var(--gold); outline-offset: 2px; }
 .lead-fine { font-size: 0.8rem; color: var(--ink-soft); margin-top: 0.9rem; text-align: center; }
-.lead-fine a, .lead-error a, .lead-success a { color: var(--gold); }
+.lead-fine a, .lead-error a, .lead-success a { color: var(--gold); white-space: nowrap; }
 .lead-error { margin-top: 0.9rem; font-size: 0.88rem; color: #ffd7a8; }
 .lead-success:focus { outline: none; }
-.lead-success h3 { font-size: 1.5rem; color: var(--white); margin-bottom: 0.8rem; }
-.lead-success p { color: var(--ink-soft); }
-.lead-success .chapter-num { margin-bottom: 1rem; }
+.lead-success p { color: var(--ink-soft); margin-bottom: 1.4rem; }
 
 /* ---------- Bands after the journey: areas + renters ---------- */
 .band {
@@ -487,8 +596,8 @@ body.cursor-active select, body.cursor-active summary { cursor: pointer; }
     transform: translateY(160%); transition: transform 0.35s ease;
   }
   .sticky-cta.is-visible { transform: none; }
-  .sticky-cta .btn { text-align: center; padding: 0.8rem 1.3rem; font-size: 0.95rem; }
-  html.menu-open .sticky-cta { display: none; }
+  .sticky-cta .btn { min-height: 3rem; padding: 0.6rem 1.25rem; font-size: 0.95rem; }
+  html.menu-open .sticky-cta, html.dialog-open .sticky-cta { display: none; }
   .footer { padding-bottom: 6rem; }
 }
 
@@ -501,22 +610,54 @@ body.cursor-active select, body.cursor-active summary { cursor: pointer; }
 @media (max-width: 899px) {
   .address-pill { flex-direction: column; align-items: stretch; border-radius: 18px; padding: 0.5rem; }
   .address-pill input { padding: 0.85rem 0.9rem; }
-  .address-pill .btn { width: 100%; text-align: center; padding: 1rem 1.2rem; }
+  .address-pill .btn { width: 100%; }
   .hero-proof { gap: 0.3rem 1rem; }
   .hero-proof span + span::before { display: none; }
   .renter-line { margin-top: 1.6rem; }
   .renter-line .link-arrow { margin-left: 0; white-space: nowrap; }
   .nav-logo, .nav .btn-small { white-space: nowrap; }
-  .handoff-grid { grid-template-columns: 1fr; gap: 2.4rem; }
-  .lead-card { padding: 1.7rem 1.3rem; }
-  .field-row { grid-template-columns: 1fr; }
-  .handoff-direct { justify-content: center; }
-  .handoff-direct .closer { margin: 1rem auto 0; width: 100%; text-align: center; }
+  .handoff-grid { grid-template-columns: 1fr; grid-template-areas: "copy" "card" "steps"; gap: 2.2rem; }
+  .handoff-steps .steps-list { margin-top: 0; }
+  .handoff-steps .closer { display: none; }
+  .start-card { padding: 1.7rem 1.3rem; }
   .renters-grid { grid-template-columns: 1fr; }
   .area-cols { grid-template-columns: 1fr; gap: 1.6rem; }
   .band { padding: 4.5rem 0; }
   .faq summary { padding: 1.1rem 1.15rem; }
   .faq p { padding: 0 1.15rem 1.2rem; }
+}
+
+/* Phones: the dialog becomes a bottom sheet; narrow cards stack their buttons */
+@media (max-width: 599px) {
+  .lead-dialog {
+    width: 100%; max-height: 94svh; margin: auto 0 0;
+    border-radius: 22px 22px 0 0; border-bottom: 0;
+  }
+  .lead-dialog[open] { animation: ld-sheet 0.4s cubic-bezier(0.2, 0.8, 0.2, 1); }
+  .ld-shell { padding: 1.5rem 1.25rem calc(1.5rem + env(safe-area-inset-bottom)); }
+  .field-row { grid-template-columns: 1fr; }
+}
+@keyframes ld-sheet { from { opacity: 0; transform: translateY(48px); } }
+@media (max-width: 599px) {
+  /* Kicker: break before the place names instead of starting a line with "·" */
+  .kicker-dot { display: none; }
+  .kicker-place { display: block; }
+}
+@media (max-width: 479px) {
+  .start-direct { grid-template-columns: 1fr; }
+  /* Full-width buttons keep "Get My Free Rental Analysis" on one line */
+  .address-pill .btn, .address-stack .btn, .ld-wide { padding-inline: 1rem; font-size: 0.95rem; }
+  .address-stack .btn-arrow, .ld-wide .btn-arrow { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .lead-dialog[open], .ld-step:not([hidden]) { animation: none; }
+}
+/* Short laptop screens: tighten the hero so the whole start sits above the fold */
+@media (min-width: 900px) and (max-height: 820px) {
+  .hero .chapter-content { padding: 6.5rem 0 4.5rem; }
+  .hero .lede { margin-bottom: 1.8rem; }
+  .hero h1 .kicker { margin-bottom: 1.1rem; }
+  .renter-line { margin-top: 1.4rem; }
 }
 
 /* ---------- Reveal helpers (JS sets initial states; these are no-JS fallbacks) ---------- */

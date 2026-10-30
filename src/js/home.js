@@ -151,7 +151,7 @@ mm.add(
       }
 
       const content = chapter.querySelectorAll(
-        ".chapter-num, h2, .chapter-copy, .quotes, .hero-ctas, .closer, .journal-grid, .faq-list, .steps-list, .lead-card, .handoff-direct, .chapter-content > .link-arrow, .office-link"
+        ".chapter-num, h2, .chapter-copy, .quotes, .hero-ctas, .closer, .journal-grid, .faq-list, .steps-list, .start-card, .chapter-content > .link-arrow, .office-link"
       );
       if (content.length) {
         gsap.from(content, {
@@ -249,12 +249,17 @@ mm.add(
       const ringX = gsap.quickTo(ring, "x", { duration: 0.38, ease: "power3" });
       const ringY = gsap.quickTo(ring, "y", { duration: 0.38, ease: "power3" });
 
+      // Hidden until the pointer first moves, so it never sits at 0,0
       window.addEventListener("mousemove", (e) => {
         dotX(e.clientX);
         dotY(e.clientY);
         ringX(e.clientX);
         ringY(e.clientY);
+        document.body.classList.add("cursor-ready");
       });
+      document.documentElement.addEventListener("mouseleave", () =>
+        document.body.classList.remove("cursor-ready")
+      );
 
       document.querySelectorAll("a, button, .card").forEach((el) => {
         el.addEventListener("mouseenter", () =>
@@ -319,7 +324,7 @@ mm.add("(prefers-reduced-motion: reduce)", () => {
     v.removeAttribute("autoplay");
   });
   gsap.set(
-    ".reveal-line, .chapter-num, .chapter h2, .chapter-copy, .quotes, .hero-ctas, .closer, .stats, .faq-list, .steps-list, .lead-card, .handoff-direct",
+    ".reveal-line, .chapter-num, .chapter h2, .chapter-copy, .quotes, .hero-ctas, .closer, .stats, .faq-list, .steps-list, .start-card",
     { clearProps: "all", opacity: 1 }
   );
   // Show final counter values immediately
@@ -358,7 +363,8 @@ if (sticky && "IntersectionObserver" in window) {
     entries.forEach((en) => (seen[en.target.dataset.stickyKey] = en.isIntersecting));
     update();
   });
-  [["curb", "#curb"], ["handoff", "#handoff .lead-card"], ["footer", ".footer"]].forEach(([key, sel]) => {
+  // "curb" is the hero's address box: the bar appears as soon as it scrolls away
+  [["curb", "#curb .address-pill"], ["handoff", "#handoff .start-card"], ["footer", ".footer"]].forEach(([key, sel]) => {
     const el = document.querySelector(sel);
     if (el) { el.dataset.stickyKey = key; io.observe(el); }
   });
