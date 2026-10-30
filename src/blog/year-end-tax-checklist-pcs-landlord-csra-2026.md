@@ -78,7 +78,7 @@ Your PM is the source of three critical documents. All three should arrive by Ja
 | **Maintenance Invoice Report** | Itemized repair and maintenance costs with vendor invoices | Jan 15–31 | Schedule E, Line 14 (Repairs) |
 | **Security Deposit Activity Summary** | Deposits held, applied, or returned | Jan 31 | Not a deduction — but required if a deposit was applied to damages (becomes income) |
 
-McBride PM delivers all of these through the [AppFolio owner portal](/blog/appfolio-owner-portal-property-management-augusta-ga/). If you haven't logged in recently, this is a good time to confirm your email address is current so the year-end package reaches you. Amber McBride coordinates the annual distribution; if anything looks off on your statement, she's the right first call.
+McBride PM delivers all of these through the [AppFolio owner portal](/blog/appfolio-owner-portal-property-management-augusta-ga/). If you haven't logged in recently, this is a good time to confirm your email address is current so the year-end package reaches you. Our team coordinates the annual distribution; if anything looks off on your statement, call our office at (706) 339-2874 or email [robert@mcbride-pm.com](mailto:robert@mcbride-pm.com).
 
 One point that trips up remote owners: the 1099-MISC reports **gross rent** — the total collected before management fees, repairs, and any other expenses are deducted. That's not your taxable income. Your Schedule E is what converts gross rent into net rental income (or a loss). The gross number on the 1099-MISC and the expenses on your owner statement reconcile on Schedule E. Your [owner statement line items](/blog/reading-owner-statement-property-management-augusta-ga/) are your deduction documentation.
 

@@ -34,9 +34,9 @@ faqs:
   - question: "Is the AppFolio owner portal available on mobile?"
     answer: "Yes. AppFolio has iOS and Android apps, and the owner portal is fully mobile-responsive. Out-of-state owners routinely check statements and work order status from their phones without needing to log into a desktop."
   - question: "What can't the owner portal do that I need to contact McBride PM for?"
-    answer: "The portal doesn't replace judgment calls. Questions about lease strategy, renewal negotiations, whether to approve an applicant, or how to handle a specific tenant situation require a conversation with Noah or Amber. The portal is your data layer; we're the decision layer."
+    answer: "The portal doesn't replace judgment calls. Questions about lease strategy, renewal negotiations, whether to approve an applicant, or how to handle a specific tenant situation require a conversation with our team. The portal is your data layer; we're the decision layer."
   - question: "How do I get access to the AppFolio owner portal?"
-    answer: "New McBride PM clients receive portal access during onboarding. If you're an existing client who hasn't activated your portal login, contact ops@mcbride-pm.com and she'll get you set up within one business day."
+    answer: "New McBride PM clients receive portal access during onboarding. If you're an existing client who hasn't activated your portal login, contact robert@mcbride-pm.com and she'll get you set up within one business day."
 howTo:
   name: "How to Use Your AppFolio Owner Portal as a McBride PM Client"
   description: "A step-by-step walkthrough for new and existing McBride PM clients to get the most from their AppFolio owner dashboard."
@@ -71,11 +71,11 @@ The AppFolio owner portal eliminates most of those calls. It's not a marketing c
 
 AppFolio is the property management platform McBride PM uses for accounting, maintenance dispatch, lease tracking, and owner reporting. According to [AppFolio's own documentation](https://www.appfolio.com/property-management-owner-experience), the owner portal is designed to give clients real-time visibility into property performance without requiring them to contact their manager for routine information.
 
-When you sign a management agreement with us, we create an owner profile in AppFolio and send you portal credentials. From that point forward, the portal is your window into everything financial and operational happening with your property. Amber McBride handles onboarding and typically gets new clients activated within one business day of signing.
+When you sign a management agreement with us, we create an owner profile in AppFolio and send you portal credentials. From that point forward, the portal is your window into everything financial and operational happening with your property. We typically get new clients activated within one business day of signing.
 
 What the portal is **not**: a substitute for working with an experienced property manager. It shows you data. What to do with that data — whether to raise rent at renewal, how to handle a tenant who's consistently paying late, whether an HVAC repair is worth patching or it's time to replace the unit — those are judgment calls that require context, local market knowledge, and experience. That's what our team is here for. The portal is your data layer; we're the decision layer.
 
-It's also not the right channel for urgent situations. For anything time-sensitive, call us at **(706) 339-2874** or email Amber directly. Think of the portal as your 24/7 read access to your account, not your primary line for urgent issues.
+It's also not the right channel for urgent situations. For anything time-sensitive, call us at **(706) 339-2874** or email [robert@mcbride-pm.com](mailto:robert@mcbride-pm.com). Think of the portal as your 24/7 read access to your account, not your primary line for urgent issues.
 
 ## Your Financial Dashboard: What the Numbers Actually Show
 
@@ -107,7 +107,7 @@ Here's a full comparison of what's in the portal versus what requires a direct c
 | Lease renewal negotiation | No | Requires a conversation with our team |
 | Vendor selection and dispatch | No | We handle vendor management |
 
-[Out-of-state investors managing CSRA properties](/out-of-state-rental-investor-guide-augusta-ga/) from Virginia, California, or the DC area use the financial dashboard as their primary daily check-in. No timezone-dependent phone calls required. If you want to cross-reference your portal data against CSRA expense benchmarks, download our [Operating Expenses Worksheet](/pdfs/McBride-PM_Operating-Expenses-Worksheet.pdf) — the line items map directly to what you'll see in your monthly statement.
+[Out-of-state investors managing CSRA properties](/blog/out-of-state-rental-investor-guide-augusta-ga/) from Virginia, California, or the DC area use the financial dashboard as their primary daily check-in. No timezone-dependent phone calls required. If you want to cross-reference your portal data against CSRA expense benchmarks, download our [Operating Expenses Worksheet](/pdfs/McBride-PM_Operating-Expenses-Worksheet.pdf) — the line items map directly to what you'll see in your monthly statement.
 
 With back-to-school season approaching, August and September are when many leases roll to renewal. Your portal will show your upcoming lease expiration date under the property's lease documents. If you see a renewal coming up and want to discuss rate strategy, that's the conversation to have with us now — not in week nine of a 12-month lease.
 
@@ -122,9 +122,9 @@ For [Evans](/evans/) and [Augusta](/augusta/) owners who travel frequently or li
 
 The documented work order history also matters legally. If a tenant later claims a repair was ignored or unreasonably delayed, you have a timestamped record showing when the request came in, when our team dispatched a vendor, and when the job was marked complete. That record lives in AppFolio — not in someone's text message thread or personal email inbox.
 
-For owners building capital reserves, the maintenance history is also a useful planning tool. If you've had three HVAC service calls across two summer seasons, that's a data-driven signal to budget for a full system replacement in the next 12 to 18 months rather than another repair. We wrote a detailed breakdown of [CapEx planning for CSRA rental properties](/capex-planning-csra-rental-properties/) if you want a framework for thinking through those numbers before you need them.
+For owners building capital reserves, the maintenance history is also a useful planning tool. If you've had three HVAC service calls across two summer seasons, that's a data-driven signal to budget for a full system replacement in the next 12 to 18 months rather than another repair. We wrote a detailed breakdown of [CapEx planning for CSRA rental properties](/blog/capex-planning-csra-rental-properties/) if you want a framework for thinking through those numbers before you need them.
 
-Owner-initiated maintenance requests can be submitted through the portal as well. If you visit the property, notice something that needs attention, and want it entered formally rather than texted to Amber, the portal creates a paper trail and routes directly to our dispatch queue.
+Owner-initiated maintenance requests can be submitted through the portal as well. If you visit the property, notice something that needs attention, and want it entered formally rather than texted to our team, the portal creates a paper trail and routes directly to our dispatch queue.
 
 ## What Your Residents See — and Why It Matters to You
 
@@ -138,7 +138,7 @@ The resident portal is AppFolio's tenant-facing product. Your residents use it s
 
 For residents with account questions or urgent maintenance needs, the dedicated tenant line is **(706) 339-2874**.
 
-The indirect benefit to you: tenants who can handle routine account management online are more satisfied with their rental experience. Self-service reduces friction at both ends. There's a clear connection between responsive, well-documented maintenance — including residents being able to track the status of their requests — and lease renewal rates. We wrote about [how maintenance response affects tenant retention](/how-maintenance-requests-affect-tenant-retention/) in a separate piece if you want the full breakdown.
+The indirect benefit to you: tenants who can handle routine account management online are more satisfied with their rental experience. Self-service reduces friction at both ends. There's a clear connection between responsive, well-documented maintenance — including residents being able to track the status of their requests — and lease renewal rates. We wrote about [how maintenance response affects tenant retention](/blog/how-maintenance-requests-affect-tenant-retention/) in a separate piece if you want the full breakdown.
 
 
 ## Documents, Tax Prep, and What's Waiting in January
@@ -169,11 +169,11 @@ Lease renewals are the same. Your portal will show your upcoming lease end date.
 
 The [owner FAQ page](/owner-faqs/) covers many of the judgment-call questions that come up most often. If you've reviewed the FAQs and want to work through a specific situation, call us at **(706) 339-2874**.
 
-If you're currently self-managing and evaluating whether to hand off the work, the [true cost of self-managing in the CSRA](/true-cost-self-managing-rental-property-csra/) breaks down the actual time and financial costs — including the hidden cost of operating without real-time data infrastructure like AppFolio. And if you're already partway through the decision and wondering what the handoff looks like, [switching to a property manager](/switching-to-property-manager-csra-augusta-ga/) walks through what to expect during onboarding and transition.
+If you're currently self-managing and evaluating whether to hand off the work, the [true cost of self-managing in the CSRA](/blog/true-cost-self-managing-rental-property-csra/) breaks down the actual time and financial costs — including the hidden cost of operating without real-time data infrastructure like AppFolio. And if you're already partway through the decision and wondering what the handoff looks like, [switching to a property manager](/blog/switching-to-property-manager-csra-augusta-ga/) walks through what to expect during onboarding and transition.
 
 ## First Steps When You Get Portal Access
 
-If you're an existing McBride PM client who hasn't activated your portal login, email Amber at ops@mcbride-pm.com. She'll have your credentials out within one business day.
+If you're an existing McBride PM client who hasn't activated your portal login, email [robert@mcbride-pm.com](mailto:robert@mcbride-pm.com). We'll have your credentials out within one business day.
 
 If you're evaluating McBride PM as a property manager and want to understand what your experience as a client would look like in practice, the best starting point is a free rental analysis at [/contact/](/contact/). It gives you a current rent range for your property and a direct conversation with our team about how we operate — including a walkthrough of the AppFolio owner portal.
 
@@ -225,11 +225,11 @@ For a more comprehensive view of what property management should include beyond 
 </div>
 <div class="faq-item">
 <div class="faq-question">What can't the owner portal do that I need to contact McBride PM for?</div>
-<div class="faq-answer">The portal doesn't replace judgment calls. Questions about lease strategy, renewal negotiations, whether to approve an applicant, or how to handle a specific tenant situation require a conversation with Noah or Amber. The portal is your data layer; we're the decision layer.</div>
+<div class="faq-answer">The portal doesn't replace judgment calls. Questions about lease strategy, renewal negotiations, whether to approve an applicant, or how to handle a specific tenant situation require a conversation with our team. The portal is your data layer; we're the decision layer.</div>
 </div>
 <div class="faq-item">
 <div class="faq-question">How do I get access to the AppFolio owner portal?</div>
-<div class="faq-answer">New McBride PM clients receive portal access during onboarding. If you're an existing client who hasn't activated your portal login, contact ops@mcbride-pm.com and she'll get you set up within one business day.</div>
+<div class="faq-answer">New McBride PM clients receive portal access during onboarding. If you're an existing client who hasn't activated your portal login, contact robert@mcbride-pm.com and she'll get you set up within one business day.</div>
 </div>
 </div>
 
@@ -239,7 +239,7 @@ For a more comprehensive view of what property management should include beyond 
 
 McBride Property Management clients get 24/7 owner portal access from day one — monthly statements, maintenance visibility, and your 1099 in one place, on any device. If you're evaluating whether to bring on a property manager, start with a [free rental analysis](/contact/). We'll review your property, give you a current rent range, and walk you through what the management relationship actually looks like in practice.
 
-Download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a comprehensive overview of what professional property management covers. Or call us directly at **(706) 339-2874** — Noah and Amber are both available for owner conversations.
+Download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a comprehensive overview of what professional property management covers. Or call us directly at **(706) 339-2874** — our team is available for owner conversations.
 
 </div>
 

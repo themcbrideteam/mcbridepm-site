@@ -35,7 +35,7 @@ Delayed maintenance doesn't just frustrate tenants. It compounds into real finan
 
 **Vacancy loss.** If a tenant leaves because of unresolved repairs, you're looking at one to three months of lost rent while you re-lease the unit. In the Augusta market, where average rents for a three-bedroom home range from $1,400 to $1,800 per month, that's $1,400–$5,400 in lost income — easily preventable.
 
-**Escalating repair costs.** A small roof leak ignored for six months becomes water damage, mold remediation, and drywall replacement. What could have been a $200 fix turns into a $3,000 project. Amber McBride, who oversees our property management operations, often reminds owners: "The cheapest repair is the one you do today."
+**Escalating repair costs.** A small roof leak ignored for six months becomes water damage, mold remediation, and drywall replacement. What could have been a $200 fix turns into a $3,000 project. The cheapest repair is the one you do today.
 
 **Legal exposure.** Georgia landlord-tenant law requires that landlords maintain habitable conditions. Under [O.C.G.A. § 44-7-14](https://law.justia.com/codes/georgia/title-44/chapter-7/article-1/section-44-7-14/), tenants can pursue remedies if a landlord fails to make necessary repairs after reasonable notice. Proactive maintenance isn't just good business — it's a legal obligation.
 

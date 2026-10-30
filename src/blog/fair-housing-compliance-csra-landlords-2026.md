@@ -186,7 +186,7 @@ The cost of a compliance audit — reviewing your listing language, your screeni
 
 Self-managing a rental in Evans, Martinez, or Augusta is legal, and many landlords do it competently. But the fair housing exposure inherent in self-management is real, and it compounds with each property. The screening decision you make inconsistently today is the complaint you defend two years from now.
 
-McBride Property Management operates with written, publicly available screening standards applied through AppFolio to every application. Every accommodation request is logged, acknowledged in writing, and resolved under a documented protocol. Amber McBride manages the onboarding and operational workflows that produce this documentation — the same records that function as a defense in any fair housing inquiry.
+McBride Property Management operates with written, publicly available screening standards applied through AppFolio to every application. Every accommodation request is logged, acknowledged in writing, and resolved under a documented protocol. Our team manages the onboarding and operational workflows that produce this documentation — the same records that function as a defense in any fair housing inquiry.
 
 This is one of the concrete risk-reduction arguments for professional management that our post on [the true cost of self-managing your CSRA rental](/blog/true-cost-self-managing-rental-property-csra/) covers alongside the time and financial calculations. If you're currently self-managing and wondering whether the compliance burden is worth outsourcing, the fair housing exposure alone is worth pricing into that analysis.
 

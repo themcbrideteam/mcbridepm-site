@@ -162,7 +162,7 @@ For a complete reference on Georgia landlord notice requirements, [Steadily's 20
 
 Once you've done the math and landed on a number, the renewal offer itself matters. A well-structured offer is harder to say no to than a terse rent increase notice.
 
-Here's the checklist Amber McBride uses when processing renewals for McBride PM owners across Evans, Grovetown, Martinez, and Augusta:
+Here's the checklist we use when processing renewals for McBride PM owners across Evans, Grovetown, Martinez, and Augusta:
 
 1. **Send 90 days before lease expiration** — not the Georgia minimum, but early enough that the tenant has real decision time without feeling ambushed.
 2. **Write a cover letter** of one paragraph explaining the context: market rents have moved, you've priced this competitively, you'd like them to stay. Don't apologize. Be direct and respectful.
@@ -196,7 +196,7 @@ Owners review the recommendation, approve or adjust the rate, and we handle ever
 
 If you're self-managing right now, the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) includes a renewal evaluation worksheet alongside the other operational frameworks most single-property owners need. And if you're at the point where the renewal conversation is one too many things to manage on your own, our [free rental analysis through the contact page](/contact/) is the right starting conversation — no commitment, and it gives you a current market number to work from regardless of what you decide.
 
-Call us at **(706) 339-2874** or reach Amber McBride at ops@mcbride-pm.com with questions about your specific renewal situation. If you want to understand how your tenant profile compares to what we see across the CSRA, that's exactly the kind of conversation our [owner FAQs](/owner-faqs/) can't fully replace.
+Call us at **(706) 339-2874** or email [robert@mcbride-pm.com](mailto:robert@mcbride-pm.com) with questions about your specific renewal situation. If you want to understand how your tenant profile compares to what we see across the CSRA, that's exactly the kind of conversation our [owner FAQs](/owner-faqs/) can't fully replace.
 
 ---
 

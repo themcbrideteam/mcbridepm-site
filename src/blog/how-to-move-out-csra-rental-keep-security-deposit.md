@@ -56,7 +56,7 @@ The single most common mistake CSRA tenants make when moving out is giving notic
 - Your forwarding address (this starts the 30-day deposit return clock — more on that below)
 - A request for a move-out inspection, if you want to attend
 
-McBride PM residents can submit notice through AppFolio. You can also use our [30-Day Notice to Vacate form](/pdfs/McBride-PM_30-Day-Notice-to-Vacate.pdf) and send it via certified mail or email to ops@mcbride-pm.com, keeping a copy for yourself. The delivery timestamp matters.
+McBride PM residents can submit notice through AppFolio. You can also use our [30-Day Notice to Vacate form](/pdfs/McBride-PM_30-Day-Notice-to-Vacate.pdf) and send it via certified mail or email to robert@mcbride-pm.com, keeping a copy for yourself. The delivery timestamp matters.
 
 *This is general guidance from a property manager — not legal advice; consult a Georgia attorney if your specific situation involves a dispute or an early termination.*
 
@@ -218,7 +218,7 @@ If you're still searching for a new home in the CSRA, browse [McBride PM's avail
 
 <div class="cta-block">
 
-**Searching for your next rental in Evans, Grovetown, or anywhere in the CSRA?** Browse [McBride PM's current vacancies](/rentals/) and apply online — the process typically takes five to seven business days from application to lease signing. Have questions before you apply? Visit our [resident FAQs](/resident-faqs/) or call us at **(706) 339-2874**. Amber McBride handles tenant onboarding and can walk you through the application process directly.
+**Searching for your next rental in Evans, Grovetown, or anywhere in the CSRA?** Browse [McBride PM's current vacancies](/rentals/) and apply online — the process typically takes five to seven business days from application to lease signing. Have questions before you apply? Visit our [resident FAQs](/resident-faqs/) or call us at **(706) 339-2874**. Our team handles tenant onboarding and can walk you through the application process directly.
 
 </div>
 

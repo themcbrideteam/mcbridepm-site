@@ -33,8 +33,8 @@ mm.add(
        condensed Rosewood tour from the hero to the final CTA. On mobile
        (or if the scrub encode fails) it plays as a gentle loop instead. */
     const stageVideo = document.querySelector(".video-stage video");
-    const FULL_SRC = "assets/video/rosewood-tour.mp4";
-    const MOBILE_SRC = "assets/video/rosewood-tour-mobile.mp4";
+    const FULL_SRC = "/assets/video/rosewood-tour.mp4";
+    const MOBILE_SRC = "/assets/video/rosewood-tour-mobile.mp4";
 
     function initGlobalScrub(video) {
       video.pause();
@@ -91,6 +91,9 @@ mm.add(
         () => !fellBack && initGlobalScrub(stageVideo),
         { once: true }
       );
+      // The markup ships preload="none" so nothing downloads until this
+      // point; pick the right encode, then start loading it.
+      stageVideo.preload = "auto";
       if (!desktop) {
         source.src = MOBILE_SRC;
         stageVideo.load();
@@ -113,6 +116,8 @@ mm.add(
         );
       } else if (stageVideo.readyState >= 1 && !fellBack) {
         initGlobalScrub(stageVideo);
+      } else {
+        stageVideo.load();
       }
     }
 
@@ -146,7 +151,7 @@ mm.add(
       }
 
       const content = chapter.querySelectorAll(
-        ".chapter-num, h2, .chapter-copy, .quote, .hero-ctas, .closer, .journal-grid, .chapter-content > .link-arrow"
+        ".chapter-num, h2, .chapter-copy, .quotes, .hero-ctas, .closer, .journal-grid, .faq-list, .steps-list, .lead-card, .handoff-direct, .chapter-content > .link-arrow, .office-link"
       );
       if (content.length) {
         gsap.from(content, {
@@ -198,7 +203,7 @@ mm.add(
     }
 
     /* ---------- Journey rail ---------- */
-    const rooms = ["curb", "door", "living", "office", "study", "handoff"];
+    const rooms = ["curb", "door", "living", "office", "study", "porch", "handoff"];
     rooms.forEach((id) => {
       ScrollTrigger.create({
         trigger: "#" + id,
@@ -314,7 +319,7 @@ mm.add("(prefers-reduced-motion: reduce)", () => {
     v.removeAttribute("autoplay");
   });
   gsap.set(
-    ".reveal-line, .chapter-num, .chapter h2, .chapter-copy, .quote, .hero-ctas, .closer, .stats",
+    ".reveal-line, .chapter-num, .chapter h2, .chapter-copy, .quotes, .hero-ctas, .closer, .stats, .faq-list, .steps-list, .lead-card, .handoff-direct",
     { clearProps: "all", opacity: 1 }
   );
   // Show final counter values immediately
@@ -340,6 +345,29 @@ if (burger) {
     .querySelectorAll(".mobile-menu a")
     .forEach((a) => a.addEventListener("click", () => setMenu(false)));
 }
+
+/* ============================================================
+   MOBILE STICKY CTA — shows once the hero is gone, hides at the form
+   ============================================================ */
+const sticky = document.querySelector(".sticky-cta");
+if (sticky && "IntersectionObserver" in window) {
+  const seen = { curb: true, handoff: false, footer: false };
+  const update = () =>
+    sticky.classList.toggle("is-visible", !seen.curb && !seen.handoff && !seen.footer);
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((en) => (seen[en.target.dataset.stickyKey] = en.isIntersecting));
+    update();
+  });
+  [["curb", "#curb"], ["handoff", "#handoff .lead-card"], ["footer", ".footer"]].forEach(([key, sel]) => {
+    const el = document.querySelector(sel);
+    if (el) { el.dataset.stickyKey = key; io.observe(el); }
+  });
+}
+
+/* Opening a FAQ changes page height — keep pinned/scrubbed positions true */
+document.querySelectorAll(".faq").forEach((d) =>
+  d.addEventListener("toggle", () => ScrollTrigger.refresh())
+);
 
 /* Recalculate positions once images have loaded (they change layout) */
 window.addEventListener("load", () => ScrollTrigger.refresh());

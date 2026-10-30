@@ -190,7 +190,7 @@ For landlords in Evans (ZIP 30809 or 30813), Grovetown (ZIP 30813), Martinez (ZI
 
 If you're managing your first rental and the checklist above felt overwhelming, that's a rational response. A professional property manager handles the habitability compliance piece as part of daily operations.
 
-At McBride Property Management, [our pre-rental process](/services/) includes a documented move-in inspection using a standardized checklist before every tenancy — the same kind of documentation the courts look for when habitability disputes arise. Amber McBride, our operations manager, coordinates maintenance responses so that when a tenant submits a written maintenance request, the clock starts immediately and the repair is tracked through our [AppFolio system](/blog/appfolio-owner-portal-property-management-augusta-ga/) from dispatch to completion.
+At McBride Property Management, [our pre-rental process](/services/) includes a documented move-in inspection using a standardized checklist before every tenancy — the same kind of documentation the courts look for when habitability disputes arise. Our team coordinates maintenance responses so that when a tenant submits a written maintenance request, the clock starts immediately and the repair is tracked through our [AppFolio system](/blog/appfolio-owner-portal-property-management-augusta-ga/) from dispatch to completion.
 
 For owners who are converting their primary residence to a rental for the first time — perhaps you're relocating for work or dealing with an inherited property — the transition to landlord compliance status can feel like a lot to navigate at once. Our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) covers the full landscape, including what Georgia law requires, how to structure your insurance, and what to budget for routine maintenance.
 
@@ -204,7 +204,7 @@ McBride Property Management offers a free rental analysis for property owners in
 
 [Request your free rental analysis →](/contact/) or download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) to work through the compliance checklist on your own.
 
-Call us at **(706) 339-2874** — Noah and Amber are here to help you start your rental the right way.
+Call us at **(706) 339-2874** or email [robert@mcbride-pm.com](mailto:robert@mcbride-pm.com) — our team is here to help you start your rental the right way.
 
 </div>
 

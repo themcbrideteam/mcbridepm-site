@@ -150,7 +150,7 @@ If your situation is active—an upcoming lease expiration, a property on the ma
 
 **Thinking about what your CSRA property is worth at mid-2026?**
 
-McBride Property Management offers a free rental analysis—we'll tell you exactly where your property sits against the current market, what it should rent for this summer, and whether there's a pricing adjustment worth making at your next renewal. Amber McBride oversees our owner onboarding process and can typically get a property evaluated and listed within two weeks of first contact.
+McBride Property Management offers a free rental analysis—we'll tell you exactly where your property sits against the current market, what it should rent for this summer, and whether there's a pricing adjustment worth making at your next renewal. We can typically get a property evaluated and listed within two weeks of first contact.
 
 [Request your free rental analysis](/contact/) or call us at **(706) 339-2874**. For a detailed market reference you can keep, download our [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf)—twelve pages of benchmarks, expense ranges, and compliance checklists specific to Columbia, Richmond, and Aiken counties.
 

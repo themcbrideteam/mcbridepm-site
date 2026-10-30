@@ -201,7 +201,7 @@ This isn't a binary choice — many investors in the CSRA hold properties in mul
 
 For an out-of-state investor, Appling presents a specific management challenge: it's a lower-volume submarket, which means getting vacancy periods right matters more than in Evans, where a well-priced listing fills within a week. You need a manager who knows the 30802 market — not one who defaults to marketing it like a Grovetown property.
 
-Amber McBride, our operations manager, handles the leasing and onboarding process for all McBride PM properties across Columbia County. She knows the local applicant pool, the vendors who service rural properties reliably, and the nuances of Columbia County's inspection requirements. For PCS landlords and out-of-state investors who've never set foot in Appling, that institutional knowledge is the difference between a property that leases in 18 days and one that sits for 65.
+Our team handles the leasing and onboarding process for all McBride PM properties across Columbia County. We know the local applicant pool, the vendors who service rural properties reliably, and the nuances of Columbia County's inspection requirements. For PCS landlords and out-of-state investors who've never set foot in Appling, that institutional knowledge is the difference between a property that leases in 18 days and one that sits for 65.
 
 Our [property management services](/services/) cover the full cycle: rental analysis, marketing, tenant screening, lease execution, rent collection, maintenance coordination, and owner reporting through AppFolio. We serve the entire CSRA, including the 30802 ZIP.
 

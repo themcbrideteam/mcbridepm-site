@@ -172,7 +172,7 @@ This post is a cost analysis, not a sales pitch. Self-managing genuinely works w
 
 **The numbers are tight enough that the fee changes the deal.** For a lower-rent property where a 10% fee compresses margins significantly, it's worth modeling carefully before committing to management.
 
-For most dual-income professionals with 1–3 rentals in Evans, Martinez, or Grovetown, the [cost-benefit case for professional management](/why-hire/) becomes clearer when you run all the numbers rather than just the management fee line. Amber McBride handles onboarding at McBride PM and regularly walks prospective clients through this comparison using their actual property data — often before they've decided whether to hire anyone.
+For most dual-income professionals with 1–3 rentals in Evans, Martinez, or Grovetown, the [cost-benefit case for professional management](/why-hire/) becomes clearer when you run all the numbers rather than just the management fee line. Our team regularly walks prospective clients through this comparison using their actual property data — often before they've decided whether to hire anyone.
 
 ## How McBride PM Fits In
 

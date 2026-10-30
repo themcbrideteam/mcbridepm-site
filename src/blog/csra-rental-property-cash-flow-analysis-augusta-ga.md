@@ -229,7 +229,7 @@ For the same property to hit positive cash-on-cash with 20% down at 7.25%, you'd
 
 ## Costs That Surprise First-Time Augusta-Area Landlords
 
-After years of working with property owners across Evans, Grovetown, Martinez, and Augusta city, Amber McBride (our Operations Manager) notes the same surprises show up repeatedly:
+After years of working with property owners across Evans, Grovetown, Martinez, and Augusta city, we see the same surprises show up repeatedly:
 
 **Turnover costs.** Every tenant change costs money — professional cleaning, touch-up paint, carpet treatment or replacement, re-key, and typically several small repairs the outgoing tenant didn't report. Budget $1,000–$2,500 per turnover for a 3-bedroom home in Columbia County. Amortized over a 2–3 year average tenancy, that's $350–$1,250 per year — and it almost never appears in an investor's initial pro forma.
 

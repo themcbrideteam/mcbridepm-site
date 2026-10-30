@@ -81,7 +81,7 @@ What most professionally drafted CSRA leases do is include a contractual grace p
 
 **The first step on any late-rent situation is to read your lease.** If it says the late fee triggers on the 5th and doesn't otherwise address a grace period, work from the 5th — not the 1st. If your lease doesn't mention a grace period at all, the tenant is in default the morning after the due date.
 
-This distinction — between a statutory grace period (which Georgia does not have) and a contractual grace period (which your lease may or may not provide) — is also why well-drafted [Georgia lease agreement clauses](/georgia-lease-agreement-clauses-csra-landlords-2026/) matter so much. A lease that is ambiguous about grace periods, late fees, and notice procedures can cost you weeks in a magistrate court proceeding.
+This distinction — between a statutory grace period (which Georgia does not have) and a contractual grace period (which your lease may or may not provide) — is also why well-drafted [Georgia lease agreement clauses](/blog/georgia-lease-agreement-clauses-csra-landlords-2026/) matter so much. A lease that is ambiguous about grace periods, late fees, and notice procedures can cost you weeks in a magistrate court proceeding.
 
 ---
 
@@ -99,7 +99,7 @@ Georgia courts apply a reasonableness standard to late fees. There is no statuto
 
 Two rules that override everything else: the fee must be explicitly stated in the lease (a verbal late fee is unenforceable in Georgia courts), and it must be charged consistently. If you waive it three months in a row and then try to collect it in month four, a court may find you've waived that right by course of dealing. Consistency is your protection.
 
-Amber McBride, our operations manager, reviews every lease before it goes to signature to make sure the late fee clause is unambiguous, the grace period is explicit, and the notice provisions match the updated requirements under the Safe at Home Act. Vague language costs more to litigate than the fee you're trying to collect.
+We review every lease before it goes to signature to make sure the late fee clause is unambiguous, the grace period is explicit, and the notice provisions match the updated requirements under the Safe at Home Act. Vague language costs more to litigate than the fee you're trying to collect.
 
 ---
 
@@ -153,7 +153,7 @@ If the tenant pays the **full amount owed** during the three-day window:
 
 - Accept the payment, record it in your rent collection system
 - No court action is warranted
-- Consider whether a pattern of late payment — even one that always resolves — warrants a conversation before lease renewal. Our [lease renewal strategies post](/lease-renewal-strategies-augusta-ga-landlords/) covers how to handle that conversation.
+- Consider whether a pattern of late payment — even one that always resolves — warrants a conversation before lease renewal. Our [lease renewal strategies post](/blog/lease-renewal-strategies-augusta-ga-landlords/) covers how to handle that conversation.
 
 If they pay **partial**:
 
@@ -184,7 +184,7 @@ The process from filing:
 
 For a tenant who doesn't contest, the full timeline from filing to writ of possession runs roughly **3–5 weeks** in Columbia County. Add 2–4 weeks if a hearing is scheduled. From your first written demand to the property being cleared: plan for **5–8 weeks** in an uncontested case, longer if the tenant files an answer.
 
-Our [full Georgia eviction process guide](/georgia-eviction-process-landlord-guide/) covers every stage of the dispossessory procedure in detail, including what to expect at a hearing and how to document your case.
+Our [full Georgia eviction process guide](/blog/georgia-eviction-process-landlord-guide/) covers every stage of the dispossessory procedure in detail, including what to expect at a hearing and how to document your case.
 
 
 ---
@@ -204,7 +204,7 @@ Here is the complete timeline from late rent to writ of possession:
 | After 7 days, no answer | Court issues default writ of possession | O.C.G.A. § 44-7-55 |
 | After writ | 48-hour courtesy notice; Marshal schedules eviction | Columbia County Marshal |
 
-**One situation not covered in this table:** a tenant who is active-duty military. Before filing any dispossessory against a military tenant, verify their active-duty status through the [Defense Manpower Data Center](https://www.dmdc.osd.mil/appj/scra/). The Servicemembers Civil Relief Act does not prevent eviction for nonpayment, but federal courts expect landlords to certify they've checked status before filing. For more detail, see our [SCRA lease termination guide for Fort Gordon landlords](/scra-lease-termination-fort-gordon-landlord-guide/).
+**One situation not covered in this table:** a tenant who is active-duty military. Before filing any dispossessory against a military tenant, verify their active-duty status through the [Defense Manpower Data Center](https://www.dmdc.osd.mil/appj/scra/). The Servicemembers Civil Relief Act does not prevent eviction for nonpayment, but federal courts expect landlords to certify they've checked status before filing. For more detail, see our [SCRA lease termination guide for Fort Gordon landlords](/blog/scra-lease-termination-fort-gordon-landlord-guide/).
 
 ---
 
@@ -213,7 +213,7 @@ Here is the complete timeline from late rent to writ of possession:
 These come up repeatedly in conversations with CSRA owners who've gone through this for the first time.
 
 **1. Waiting too long because they feel uncomfortable.**
-There is a real temptation to give it another week before doing anything formal — especially if you have a decent relationship with the tenant or feel bad about the situation. The problem: every day you wait adds to the total you're unlikely to collect. The [security deposit](/security-deposit-best-practices-georgia/) provides some protection, but it doesn't cover lost rent during a lengthy delay. Landlords who follow the formal process promptly — not aggressively, but consistently — have better financial outcomes than those who defer out of discomfort.
+There is a real temptation to give it another week before doing anything formal — especially if you have a decent relationship with the tenant or feel bad about the situation. The problem: every day you wait adds to the total you're unlikely to collect. The [security deposit](/blog/security-deposit-best-practices-georgia/) provides some protection, but it doesn't cover lost rent during a lengthy delay. Landlords who follow the formal process promptly — not aggressively, but consistently — have better financial outcomes than those who defer out of discomfort.
 
 **2. Accepting cash without documentation.**
 If a tenant shows up at your door with an envelope of cash and you take it without immediately updating your records and providing a written receipt, you've created a future dispute about whether rent was paid that month. Every payment should go through your rent collection system or be confirmed in writing. If you must accept cash, provide a dated, signed receipt immediately and update your ledger the same day.

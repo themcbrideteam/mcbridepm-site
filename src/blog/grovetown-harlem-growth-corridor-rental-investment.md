@@ -66,7 +66,7 @@ Opportunity doesn't mean you can skip the due diligence. Here are a few things M
 
 **Know the rental regulations.** Georgia is generally landlord-friendly, but Columbia County has its own nuances. Working with a local property manager like McBride Property Management means you're not guessing about lease compliance, [security deposit](/blog/security-deposit-best-practices-georgia/) rules, or maintenance response standards.
 
-Amber McBride, property manager at McBride Property Management, puts it simply: "The Grovetown-Harlem corridor gives investors what they need most — strong tenant demand, reasonable entry prices, and a growth trajectory that supports long-term appreciation. But the execution matters. How you screen tenants, handle maintenance, and price your rental makes the difference between a good investment and a headache."
+Put simply, the Grovetown-Harlem corridor gives investors what they need most — strong tenant demand, reasonable entry prices, and a growth trajectory that supports long-term appreciation. But the execution matters. How you screen tenants, handle maintenance, and price your rental makes the difference between a good investment and a headache.
 
 
 <figure class="blog-figure">

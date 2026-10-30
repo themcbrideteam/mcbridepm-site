@@ -33,7 +33,7 @@ Property taxes in Columbia County have risen steadily over the past several year
 
 ### Comparable Rentals Are Priced Higher
 
-Pull recent rental comps in your area. If similar three-bedroom homes in Evans or Grovetown are listing for $100–$200 more than what you're charging, you're leaving money on the table. Amber McBride, property manager at McBride Property Management, regularly runs comp analyses for owners across the CSRA. "We see landlords who haven't adjusted rent in three or four years," she says. "By the time they realize it, they're $200 below market and afraid to make the jump all at once."
+Pull recent rental comps in your area. If similar three-bedroom homes in Evans or Grovetown are listing for $100–$200 more than what you're charging, you're leaving money on the table. McBride Property Management regularly runs comp analyses for owners across the CSRA, and we see landlords who haven't adjusted rent in three or four years. By the time they realize it, they're $200 below market and afraid to make the jump all at once.
 
 ### Your Tenant Has Been in Place for Multiple Years
 

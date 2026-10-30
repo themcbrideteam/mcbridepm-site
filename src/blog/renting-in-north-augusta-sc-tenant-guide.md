@@ -193,7 +193,7 @@ Here's how it works:
 4. We conduct a background and credit review based on published criteria—those criteria are in the Tenant Screening Standards linked above, so you can review them before you apply.
 5. If approved, we'll walk through the lease terms together, complete the move-in inspection as a documented process, and confirm the property's condition in writing before you take possession.
 
-Amber McBride oversees tenant onboarding and is the right person to talk to if you have questions about the process, specific property details, or timeline. The goal is to get you into a property without ambiguity on either side—documented from day one.
+Our team handles tenant onboarding and can answer questions about the process, specific property details, or timeline. The goal is to get you into a property without ambiguity on either side—documented from day one.
 
 ---
 

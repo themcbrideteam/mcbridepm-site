@@ -21,7 +21,7 @@ faqs:
   - question: "When should I expect my year-end statement for taxes?"
     answer: "Your December statement (available mid-January) carries the full-year income and expense totals. Your 1099-MISC (or 1099-NEC for management fees, depending on structure) is issued by January 31. Bring both to your CPA along with the Operating Expenses Worksheet."
   - question: "What if I see a charge I don't recognize?"
-    answer: "Every expense line in AppFolio is tied to a work order or invoice. Log into your owner portal, click the charge, and the source document is attached. If something still doesn't add up, email ops@mcbride-pm.com with the statement date and line item — we'll pull the work order and invoice within one business day."
+    answer: "Every expense line in AppFolio is tied to a work order or invoice. Log into your owner portal, click the charge, and the source document is attached. If something still doesn't add up, email robert@mcbride-pm.com with the statement date and line item — we'll pull the work order and invoice within one business day."
   - question: "Can I download my owner statement as a PDF?"
     answer: "Yes. Log into your AppFolio owner portal, go to the Reports tab, select Owner Statement, choose your date range, and download as PDF. You can pull statements for any period since you came on board."
   - question: "Does the owner statement replace a Schedule E or a 1099?"
@@ -170,13 +170,13 @@ This is general guidance from a property manager — not legal or tax advice; ta
 ## Common Questions — and How to Flag a Discrepancy
 
 **"I see a $275 charge labeled 'Maintenance — Plumbing.' What happened?"**
-Log into the owner portal, click the line item, and the attached work order and invoice will show you the vendor, service date, and what was repaired. If you'd like more detail, email ops@mcbride-pm.com and Amber McBride can pull the full work order within one business day.
+Log into the owner portal, click the line item, and the attached work order and invoice will show you the vendor, service date, and what was repaired. If you'd like more detail, email robert@mcbride-pm.com and we can pull the full work order within one business day.
 
 **"My distribution is $200 lower than last month. Nothing seemed to change."**
 The most common causes: a maintenance call was completed, a renewal fee was charged, or the reserve was replenished after a prior draw. Open the expense section — each deduction has a description.
 
 **"I think I was overcharged for management fees this month."**
-The management fee is calculated on collected rent. If you see a different number than expected, divide the management fee by your collected rent. If the percentage doesn't match your contract, email ops@mcbride-pm.com with the statement date and the calculated percentage.
+The management fee is calculated on collected rent. If you see a different number than expected, divide the management fee by your collected rent. If the percentage doesn't match your contract, email robert@mcbride-pm.com with the statement date and the calculated percentage.
 
 **"The statement shows rent collected, but I know the tenant paid late."**
 Late rent that was collected during the statement period still appears in that month's income. If it was collected after the statement period closed, it appears next month. The statement date tells you the cutoff.
@@ -218,7 +218,7 @@ For owners newer to professional management, the [owner FAQs page](/owner-faqs/)
 </div>
 <div class="faq-item">
 <div class="faq-question">What if I see a charge I don't recognize?</div>
-<div class="faq-answer">Every expense line in AppFolio is tied to a work order or invoice. Log into your owner portal, click the charge, and the source document is attached. If something still doesn't add up, email ops@mcbride-pm.com with the statement date and line item — we'll pull the work order and invoice within one business day.</div>
+<div class="faq-answer">Every expense line in AppFolio is tied to a work order or invoice. Log into your owner portal, click the charge, and the source document is attached. If something still doesn't add up, email robert@mcbride-pm.com with the statement date and line item — we'll pull the work order and invoice within one business day.</div>
 </div>
 <div class="faq-item">
 <div class="faq-question">Can I download my owner statement as a PDF?</div>

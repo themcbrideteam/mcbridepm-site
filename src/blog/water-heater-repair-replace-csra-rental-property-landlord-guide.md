@@ -184,7 +184,7 @@ Coordinate replacement during a tenant turnover when the unit is unoccupied. You
 **3. Budget for it in advance.**
 A $1,300 water heater replacement on a property generating $1,600/month should be a budgeted CapEx item, not a surprise. McBride PM recommends holding a $50–$75/month capital reserve for appliances and systems on any single-family CSRA rental. The [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) includes a full reserve-funding framework.
 
-Amber McBride, McBride PM's Operations Manager, flags aging water heaters during annual inspections and adds a "replace within 12 months" notation to the owner's property report when a unit is approaching year 9–10. That gives owners a planning window rather than a crisis.
+We flag aging water heaters during annual inspections and add a "replace within 12 months" notation to the owner's property report when a unit is approaching year 9–10. That gives owners a planning window rather than a crisis.
 
 ## What to Do When the Call Comes
 

@@ -182,7 +182,7 @@ A properly serviced system is more likely to fail with warning signs a technicia
 
 The [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) includes a vendor tracking worksheet for logging contractor contacts, warranty dates, and service history — which matters when a technician needs to know the full history of a unit mid-repair.
 
-For properties managed by McBride PM, Amber McBride coordinates annual maintenance scheduling through our vendor network, logs service dates in AppFolio, and flags units approaching end-of-life thresholds during the annual inspection cycle. Owners receive this information in their owner statements and can plan capital expenditures with a real timeline rather than a surprise.
+For properties managed by McBride PM, we coordinate annual maintenance scheduling through our vendor network, log service dates in AppFolio, and flag units approaching end-of-life thresholds during the annual inspection cycle. Owners receive this information in their owner statements and can plan capital expenditures with a real timeline rather than a surprise.
 
 For the seasonal preparation context — what to check before summer arrives — the [summer maintenance checklist for Augusta rentals](/blog/summer-maintenance-checklist-augusta-rental-property/) covers the full pre-season protocol, with HVAC as the highest-priority item.
 

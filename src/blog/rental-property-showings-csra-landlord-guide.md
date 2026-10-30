@@ -159,7 +159,7 @@ Fair Housing rules apply at every stage of the leasing process: the listing lang
 | "We require renters insurance with at least $100,000 in liability coverage." | "Are you planning on having anyone else move in later?" |
 | "Monthly rent is $X. Security deposit is equal to one month's rent." | "We've had issues with certain types of tenants before." |
 
-The practical solution is a **showing script** — a short set of talking points used consistently for every tour. Noah McBride and Amber McBride both use standardized showing scripts when working with prospective residents; it keeps every showing conversation fully documented and defensible. Our [publicly available Tenant Screening Standards (PDF)](/pdfs/McBride-PM_Tenant-Screening-Standards.pdf) outlines the criteria applied in every application review, so owners and applicants alike know what to expect.
+The practical solution is a **showing script** — a short set of talking points used consistently for every tour. Our team uses standardized showing scripts when working with prospective residents; it keeps every showing conversation fully documented and defensible. Our [publicly available Tenant Screening Standards (PDF)](/pdfs/McBride-PM_Tenant-Screening-Standards.pdf) outlines the criteria applied in every application review, so owners and applicants alike know what to expect.
 
 *This is general guidance from a property manager — not legal advice; consult a Georgia real estate attorney for your specific situation.*
 
@@ -207,7 +207,7 @@ If you've run more than 10 showings and haven't received a single acceptable app
 
 For an owner with one or two properties in [Evans](/evans/) or Grovetown, running the leasing funnel yourself is entirely doable with the systems described here. But if you're fielding 15 inquiries a week, managing from out of state after a Fort Gordon PCS, or finding that the process is consuming your evenings and weekends, professional management pays for itself in recovered vacancy days and reduced Fair Housing exposure.
 
-McBride Property Management manages the complete leasing funnel for owners across the CSRA: listing photography and multi-platform syndication, lead pre-screening, showing coordination (in-person and self-show), application processing through AppFolio with TransUnion-backed screening, lease execution, and move-in inspection documentation. Amber McBride leads onboarding and coordinates applicant flow with the leasing team — owners typically receive a qualified executed lease without handling a single showing themselves.
+McBride Property Management manages the complete leasing funnel for owners across the CSRA: listing photography and multi-platform syndication, lead pre-screening, showing coordination (in-person and self-show), application processing through AppFolio with TransUnion-backed screening, lease execution, and move-in inspection documentation. Our team coordinates onboarding and applicant flow — owners typically receive a qualified executed lease without handling a single showing themselves.
 
 ---
 

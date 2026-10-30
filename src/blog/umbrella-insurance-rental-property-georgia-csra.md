@@ -158,7 +158,7 @@ A CSRA investor living in the DC area, personally worth $600,000 with $200,000 i
 | 4+ rentals or mixed LLC/personal | Portfolio commercial umbrella, reviewed annually |
 | Growing portfolio (5+ doors) | Full insurance audit with a Georgia-licensed independent agent |
 
-An important note: McBride PM doesn't sell insurance and can't recommend specific carriers. What Amber McBride's onboarding process does include is a conversation about your current insurance setup — because proper coverage is part of operating a well-run rental, and a gap in your coverage can affect how we handle maintenance authorization and emergency repairs on your behalf. For details on what that onboarding looks like, our [owner FAQ](/owner-faqs/) covers it.
+An important note: McBride PM doesn't sell insurance and can't recommend specific carriers. What our onboarding process does include is a conversation about your current insurance setup — because proper coverage is part of operating a well-run rental, and a gap in your coverage can affect how we handle maintenance authorization and emergency repairs on your behalf. For details on what that onboarding looks like, our [owner FAQ](/owner-faqs/) covers it.
 
 ---
 

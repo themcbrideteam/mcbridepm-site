@@ -110,7 +110,7 @@ If you allow a tenant to move in before written HOA approval arrives and the HOA
 
 Building this timeline into your leasing schedule is critical for PCS landlords. If you have a 90-day window from orders to departure and you find a qualified tenant in week six, the HOA approval process needs to be running in week six — not week nine when you're finalizing the lease.
 
-[McBride Property Management](/contact/) manages this process routinely for Evans and Grovetown owners. Amber McBride handles the HOA coordination — submitting applications, tracking approval status, and making sure an HOA processing delay doesn't blow a qualified tenant's move-in date while an owner is already stationed at a new duty station.
+[McBride Property Management](/contact/) manages this process routinely for Evans and Grovetown owners. Our team handles the HOA coordination — submitting applications, tracking approval status, and making sure an HOA processing delay doesn't blow a qualified tenant's move-in date while an owner is already stationed at a new duty station.
 
 ## Georgia O.C.G.A. § 44-3-226(a): The Grandfathering Protection and Its Limits
 

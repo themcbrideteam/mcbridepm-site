@@ -79,7 +79,7 @@ Before you photograph a single room, the property has to be ready for its close-
 5. **Depersonalize the space.** Remove any items left by the previous tenant. The property should read as a blank canvas.
 6. **Minor repairs visible to the eye.** A dripping faucet, a broken blind, a missing cabinet handle — fix these before you photograph. They're cheap, and their absence signals attentiveness. Their presence signals the opposite.
 
-McBride PM's [Pre-Rental Property Prep Checklist](/pdfs/McBride-PM_Pre-Rental-Property-Prep-Checklist.pdf) covers this in detail and is available as a free download. Amber McBride oversees the make-ready process for every property we manage; her standard is that no listing goes live until the property passes a walkthrough that mirrors what a careful tenant would notice on move-in day.
+McBride PM's [Pre-Rental Property Prep Checklist](/pdfs/McBride-PM_Pre-Rental-Property-Prep-Checklist.pdf) covers this in detail and is available as a free download. We oversee the make-ready process for every property we manage; our standard is that no listing goes live until the property passes a walkthrough that mirrors what a careful tenant would notice on move-in day.
 
 ## Photography That Gets Clicks in the CSRA
 

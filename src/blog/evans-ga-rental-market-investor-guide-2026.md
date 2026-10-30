@@ -107,7 +107,7 @@ Evans ZIP 30809 has meaningful variance by subdivision — a $1,700/month and a 
 
 **What drives the tier separation:** Age of construction matters less than kitchen and bath condition. Evans tenants in the $2,000+ range consistently expect updated kitchens — granite or quartz countertops, stainless appliances — a renovated master bathroom, and an HVAC system within 8–10 years of age. Properties that meet these criteria lease in 7–14 days from listing. Properties that don't, particularly those with dated laminate kitchens, run 30–45+ days.
 
-Amber McBride, who oversees leasing and tenant placement at McBride PM, notes that the single highest-ROI upgrade for Evans investors pricing above $1,900/month is almost always the kitchen counter replacement. It's the first photograph prospective tenants see in a listing and the first thing they mention at showings.
+In our experience leasing Evans homes, the single highest-ROI upgrade for investors pricing above $1,900/month is almost always the kitchen counter replacement. It's the first photograph prospective tenants see in a listing and the first thing they mention at showings.
 
 ## The Investment Math: What Returns Look Like in October 2026
 

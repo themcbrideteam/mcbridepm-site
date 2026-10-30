@@ -1,0 +1,28 @@
+---
+layout: base.njk
+title: "Thank You | McBride Property Management"
+description: "We received your request. Robert Smith, our head property manager, will reply within one business day."
+permalink: /thank-you/
+robots: "noindex, follow"
+eleventyExcludeFromCollections: true
+---
+
+<section class="page-header">
+  <div class="container">
+    <h1>Thanks — we received your request.</h1>
+    <p>{{ site.contactName }}, our {{ site.contactTitle | lower }}, will reply within one business day with your free rental analysis.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container content-narrow">
+    <h2>What happens next</h2>
+    <ol style="line-height: 1.9; padding-left: 1.2rem;">
+      <li><strong>We review your property.</strong> Comparable rentals near your address, the home's condition, and current demand.</li>
+      <li><strong>You get your rental analysis.</strong> A recommended rent range, anything we'd fix before listing, and a proposal with transparent pricing.</li>
+      <li><strong>You decide.</strong> No obligation. If it's a fit, most homes move into management within 1–2 weeks.</li>
+    </ol>
+    <p style="margin-top: 2rem;">Want to talk sooner? Call <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a> or email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+    <p>While you wait: <a href="/owner-faqs/">Owner FAQs</a> · <a href="/services/">Our services</a> · <a href="/blog/">Owner guides</a></p>
+  </div>
+</section>

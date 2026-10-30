@@ -48,7 +48,7 @@ What that means in practice:
 - Arrests without convictions should not be used as grounds for denial
 - Document your criteria and apply them consistently to every applicant
 
-Amber McBride, property manager at McBride Property Management, emphasizes the importance of consistency: "The biggest liability isn't running the background check — it's applying the results differently depending on who's applying. Your screening criteria need to be written down and followed the same way every time."
+Consistency matters most. The biggest liability isn't running the background check — it's applying the results differently depending on who's applying. Your screening criteria need to be written down and followed the same way every time.
 
 ---
 

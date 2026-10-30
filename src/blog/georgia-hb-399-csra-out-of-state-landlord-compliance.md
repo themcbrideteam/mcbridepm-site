@@ -108,7 +108,7 @@ Best practice is to include this disclosure in one of two places:
 
 If the property management company changes — which can happen during a management transition — the tenant must receive an updated disclosure with the new representative's information. This is a live, ongoing obligation, not a one-time checkbox.
 
-When McBride Property Management manages a CSRA property for an out-of-state owner, this disclosure is built into our standard lease package. Every tenant signs an addendum that identifies McBride PM as the landlord's authorized representative under O.C.G.A. § 44-7-25, names Amber McBride as the primary point of contact, and provides our Evans office address at 609 Ponder Place Drive, Suite B. There is no ambiguity about who to call, where to send legal notices, or who has authority to authorize repairs.
+When McBride Property Management manages a CSRA property for an out-of-state owner, this disclosure is built into our standard lease package. Every tenant signs an addendum that identifies McBride PM as the landlord's authorized representative under O.C.G.A. § 44-7-25 and provides our Evans office address at 609 Ponder Place Drive, Suite B. There is no ambiguity about who to call, where to send legal notices, or who has authority to authorize repairs.
 
 ## Why This Matters Most for Fort Gordon Homeowners on PCS
 
@@ -144,9 +144,9 @@ Yes — a properly structured management agreement with a Georgia-licensed prope
 
 **The broker of record.** Noah McBride holds an active Georgia real estate broker license. The management agreement names McBride Property Management, LLC as the managing broker for your property, satisfying the licensed broker requirement of HB 399.
 
-**The in-state operational presence.** Amber McBride, our Operations Manager, is Georgia-domiciled and manages day-to-day tenant communications, maintenance coordination, lease execution, and owner reporting from our Evans office. She is the practical in-state presence the statute envisions — reachable, responsive, and accountable.
+**The in-state operational presence.** McBride PM's team manages day-to-day tenant communications, maintenance coordination, lease execution, and owner reporting from our Evans office. That's the practical in-state presence the statute envisions — reachable, responsive, and accountable.
 
-**The tenant disclosure.** Every McBride PM lease addendum includes a written disclosure that identifies McBride Property Management as the landlord's authorized representative under Georgia law, provides our physical office address in Evans, and gives tenants the direct contact information for Amber and the main office at **(706) 339-2874**. Tenants sign this addendum, creating a documented record of the disclosure.
+**The tenant disclosure.** Every McBride PM lease addendum includes a written disclosure that identifies McBride Property Management as the landlord's authorized representative under Georgia law, provides our physical office address in Evans, and gives tenants the direct contact information for our main office at **(706) 339-2874**. Tenants sign this addendum, creating a documented record of the disclosure.
 
 **The technology layer.** Out-of-state owners receive access to an AppFolio owner portal with real-time visibility into lease status, maintenance history, financial statements, and inspection reports. You have complete oversight of the property from anywhere in the country without needing to be the local point of contact for anything.
 

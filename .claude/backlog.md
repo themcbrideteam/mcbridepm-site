@@ -4,17 +4,20 @@ Prioritized by business impact ÷ effort. Re-rank at the start of each cycle. Cy
 
 ## Blocked on Noah
 
-1. **Form email notifications (P0 remainder).** Forms verified working; notification hooks are not in my Netlify MCP surface on any plan (re-confirmed 2026-07-10 after account upgrade) and no local CLI token exists. Two paths: (a) Noah in UI — Project configuration → Notifications → Form submission notifications → Add notification → Email, once for ops@mcbride-pm.com and once for noah@themcbrideteam.com; or (b) Noah creates a Netlify personal access token (User settings → Applications → New access token) and hands it over — then I can set these hooks and any future Netlify config via API.
+1. **Form email notifications → robert@mcbride-pm.com (P0, 2026-10-30).** Noah ruled all new inquiries go to Robert. Notification hooks are still outside the Netlify MCP surface and there's no local CLI token. Noah in the UI: Project configuration → Notifications → Form submission notifications → Add notification → Email → robert@mcbride-pm.com (form: any, or `rental-analysis` + `realtor-referral`); remove the ops@ notification if one exists. Netlify only notifies for *verified* submissions — check the Spam list weekly until a direct n8n copy exists (idea below).
 2. **Restrict the Google API key.** The Places key is live in Netlify env (secret, builds scope) and reviews sync works. Recommended hardening for Noah: Google Cloud Console → Credentials → this API key → API restrictions → restrict to "Places API" only (it currently works for any enabled API).
 3. **Owner Guarantee terms.** On hold per Noah (2026-07-10): guarantee terms not yet worked through internally. Revisit when terms are final; then build the guarantee page and unify the three differing phrasings on the site.
-4. **Scheduling link.** Contact page "Schedule a Consultation" currently falls back to a tel: link. A Calendly/Google booking page for Amber would restore one-click scheduling.
+4. **Scheduling link.** Contact page "Schedule a Consultation" currently falls back to a tel: link. A Google booking page for Robert would restore one-click scheduling.
+6a. **Owner Guarantee + contract-term copy.** The site still says "Guaranteed tenant placements" and the owner/services FAQs still answer "No" to long-term contracts (Noah's July directive: don't pitch no-contracts). Needs Noah's actual terms before rewriting.
+6b. **Unverified copy claims to confirm:** About page "over 50 years of combined experience" and "no franchises"; blog process claims now in the company voice (weekly work-order audit, credentials within one business day, analysis within 48 hours).
 5. **Search Console / Bing verification.** Waiting on Noah (explained 2026-07-10): needs a Google Search Console property for mcbride-pm.com verified under noah@themcbrideteam.com, then either DNS verification or paste the meta-tag token into `site.json → buildVerifications`. Then submit sitemap and monitor the c21magnoliapm.com migration.
 
 ## Decided — do not re-raise
 
 - **Fee transparency: NO.** Noah declined publishing fees (2026-07-10). Keep "custom proposal" framing.
 - **License numbers in footer: NO.** Noah declined license numbers/links (2026-07-10).
-- **Public email:** `ops@mcbride-pm.com` (Noah's choice, 2026-07-10) — swapped site-wide; do not propose a mcbride-pm.com address again.
+- **Public email:** `robert@mcbride-pm.com` for every inquiry (Noah, 2026-10-30; supersedes the 7/10 and 7/27 ops@ choice). Amber is off the site.
+- **Portfolio stats:** only what's in `site.json` (`doorsManaged`). The 14-day DOM and 99% on-time claims are retired (2026-10-30).
 - **Testimonials:** the three quotes are real Google-review clients (Noah confirmed 2026-07-10); direction is live 5-star Google reviews only (see #2).
 
 ## Next up (no input needed)
@@ -34,12 +37,17 @@ Prioritized by business impact ÷ effort. Re-rank at the start of each cycle. Cy
 
 ## Ideas (not yet validated)
 
+- Direct lead copy to n8n (sendBeacon from `lead.js`) that emails Robert and logs the lead, so Akismet-held submissions can't be missed
+- Swap the /rentals/ Tenant Turner widget for Boom listings when Tenant Turner is cancelled (AppFolio listings link is the fallback already on the page)
+
 - Interactive rental analysis estimator (instant range from bed/bath/zip before form submit)
 - Owner onboarding checklist page mirroring the 3-step section
 - Quarterly CSRA market report as a gated lead magnet (ties into blog stats)
 - Review-collection loop: post-maintenance email asking happy owners for Google reviews (feeds #2)
 
 ## Done
+
+- **Cycle 3 (2026-10-30):** Homepage lead capture: address-first hero form, full `rental-analysis` form in the Handoff chapter (AJAX, on-page success, page/UTM/situation fields), mobile sticky CTA, renter path in hero + renters band. Amber removed site-wide (6 pages + 99 posts; blog skill + published-log fixed so new posts don't re-add her); every public email → robert@. AEO/GEO: homepage now carries the full schema graph + 7-question FAQPage, keyword H1, GA4, favicons, NAP footer, `#all-areas` section (fixed the broken nav anchor on every inner page); llms.txt history/stats corrected. Retired the unverified 14-day/99% stats everywhere. /thank-you/ and /referral-thank-you/ created (referral form was landing on a 404). main.js form handler never ran on prod (bound to `[data-netlify]`, which Netlify strips) — replaced by `lead.js`. Root favicon.ico/apple-touch-icon.png (were 404ing). Video now preload=none + JS picks the encode (phones no longer risk the 45 MB file). Fixed 10 broken /blog/ links. Report: `outputs/reports/2026-10-30-cycle-3.md`.
 
 - **Cycle 2b (2026-07-10):** Google reviews live-sync ACTIVE — key provided by Noah, pipeline switched to legacy Places API (the service enabled on his project), place id ChIJYxrhbUDV-YgRkmcz85SUFB4 baked in, key stored as secret Netlify env var (builds scope). Homepage now renders real 5-star reviews + "Rated 4.9 of 5 by 7 reviewers" line, refreshed on every build (daily via auto-blog).
 - **Cycle 2 (2026-07-10):** Netlify Forms verified live end-to-end (test submission stored + deleted); public email → ops@mcbride-pm.com site-wide (14 files); testimonials rebuilt as attributed Google reviews with GBP link + Places-API live-sync pipeline; canonical Maps URL in sameAs.

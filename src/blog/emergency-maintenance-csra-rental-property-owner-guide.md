@@ -47,7 +47,7 @@ howTo:
     - name: "Review your utility transfer list"
       text: "Confirm that utilities transferring to the tenant at move-in actually transferred. Landlord-paid utilities that weren't transferred become a liability gap — if the water goes out because the bill never moved, the habitability obligation lands on you."
     - name: "Schedule a pre-departure walkthrough"
-      text: "Request a pre-PCS inspection with Amber McBride. This catches deferred maintenance before a tenant inherits it — and before a routine issue becomes a winter emergency at 2am your time."
+      text: "Request a pre-PCS inspection from McBride PM. This catches deferred maintenance before a tenant inherits it — and before a routine issue becomes a winter emergency at 2am your time."
 ---
 
 <div class="snippet-box">
@@ -217,12 +217,12 @@ Log into your [owner portal](https://www.appfolio.com/) and confirm email notifi
 If a repair comes in over your emergency threshold, McBride PM needs someone stateside who can authorize. Provide a phone number and email in writing before departure: a family member, Power of Attorney holder, or trusted contact who understands the scope.
 
 **4. Clear known deferred maintenance before you leave.**
-Don't leave items for a tenant to discover in January. Ask Amber McBride for a pre-PCS walkthrough — she catches slow-draining sinks, aging water heaters, and weatherstripping gaps before they become 2 a.m. emergency calls from Evans.
+Don't leave items for a tenant to discover in January. Ask us for a pre-PCS walkthrough — it catches slow-draining sinks, aging water heaters, and weatherstripping gaps before they become 2 a.m. emergency calls from Evans.
 
 **5. Download and review the PCS Quick-Start Guide.**
 Our [PCS Landlord Quick-Start Guide](/pdfs/McBride-PM_PCS-Landlord-Quick-Start-Guide.pdf) covers the full owner setup: emergency contacts, AppFolio configuration, lease clause review, and the insurance checklist every PCS owner should complete before handing over keys.
 
-The pre-departure walkthrough and setup conversation with Amber typically takes 30–45 minutes and prevents the majority of first-year emergency calls. If you're approaching PCS orders and haven't had that conversation, start at [our owner inquiry form](/contact/).
+The pre-departure walkthrough and setup conversation with our team typically takes 30–45 minutes and prevents the majority of first-year emergency calls. If you're approaching PCS orders and haven't had that conversation, start at [our owner inquiry form](/contact/).
 
 ---
 
@@ -287,7 +287,7 @@ For the complete preventive maintenance schedule with CSRA cost ranges, see the 
 
 **If you're a Fort Gordon landlord approaching PCS orders, let's configure your emergency maintenance coverage before you leave.**
 
-A 30-minute conversation with Amber McBride covers your spending authorization, AppFolio setup, and any deferred maintenance items to address before your tenant moves in. We handle the operational layer so you can focus on your transition — not 2 a.m. repair approvals from a different time zone. [Request a free rental consultation →](/contact/)
+A 30-minute conversation with our team covers your spending authorization, AppFolio setup, and any deferred maintenance items to address before your tenant moves in. We handle the operational layer so you can focus on your transition — not 2 a.m. repair approvals from a different time zone. [Request a free rental consultation →](/contact/)
 
 Download the [PCS Landlord Quick-Start Guide](/pdfs/McBride-PM_PCS-Landlord-Quick-Start-Guide.pdf) for the complete pre-departure checklist. Call **(706) 339-2874** or start online at [mcbride-pm.com/contact](/contact/).
 

@@ -111,7 +111,7 @@ Your lease terminates 30 days after the landlord receives this notice. You are r
 
 **A note on 2025–2026 legislative activity:** The Georgia General Assembly was considering amendments to § 44-7-23 in its current session — SB 413 would revise definitions of qualifying orders, and HB 188 would extend related tenant protections. Check [legis.ga.gov](https://legis.ga.gov) or contact Georgia Legal Aid to confirm the current statutory language before you rely on it.
 
-If you need to use this exit while renting a McBride PM property, you may contact ops@mcbride-pm.com directly. Amber McBride, our operations manager, handles these tenant transitions with discretion and will guide you through the documentation process.
+If you need to use this exit while renting a McBride PM property, you may contact robert@mcbride-pm.com directly. Our team handles these tenant transitions with discretion and will guide you through the documentation process.
 
 ---
 
@@ -164,7 +164,7 @@ If you rent through McBride Property Management and need to start this process, 
 
 1. **Review your lease agreement.** Find the renewal, termination, and notice provisions. Check for an early termination clause before assuming the default rule applies.
 2. **Identify which exit, if any, applies.** Military orders? Protective order? Habitability issue? Confirm the required documentation is in your hands before you notify anyone.
-3. **Contact your property manager in writing.** Use the AppFolio resident portal or email ops@mcbride-pm.com. Do not give only verbal notice and assume it's on record.
+3. **Contact your property manager in writing.** Use the AppFolio resident portal or email robert@mcbride-pm.com. Do not give only verbal notice and assume it's on record.
 4. **Send formal written notice with required attachments.** Download the [30-Day Notice to Vacate form](/pdfs/McBride-PM_30-Day-Notice-to-Vacate.pdf). For statutory exits, attach the required documentation — copy of orders, copy of protective order, or police report as applicable. Send by certified mail with return receipt as a paper trail backup.
 5. **Continue paying rent through the notice period.** Stopping payment before the lease is formally terminated creates an independent unpaid-rent claim on top of the early termination issue. Don't give your landlord two problems to work with.
 6. **Document the unit's current condition.** Photograph and video every room before you start moving furniture. Save all AppFolio maintenance request records and communications.

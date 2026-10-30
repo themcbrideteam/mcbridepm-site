@@ -236,7 +236,7 @@ For owners who want to go deeper on the financial side of managing an [Evans](/e
 
 A significant portion of the single-family homes in our management portfolio sit in Columbia County subdivisions with active HOAs. It's a structural feature of the CSRA rental market, not an exception.
 
-When Amber McBride onboards a new owner-client, CC&R review is part of the intake process — not something we get around to later. We want to know, before we list a property, whether a rental cap exists, how close the community is to that cap, what notifications the owner must send, and whether any board-approval requirement is in the recorded documents. We've seen HOAs send notices that aren't backed by the CC&Rs, and we've also seen landlords miss a notification deadline that generated a fine they didn't see coming.
+When we onboard a new owner-client, CC&R review is part of the intake process — not something we get around to later. We want to know, before we list a property, whether a rental cap exists, how close the community is to that cap, what notifications the owner must send, and whether any board-approval requirement is in the recorded documents. We've seen HOAs send notices that aren't backed by the CC&Rs, and we've also seen landlords miss a notification deadline that generated a fine they didn't see coming.
 
 HOA compliance is part of [what full-service property management in the CSRA covers](/services/) — tracking required notices, submitting tenant information to the HOA when the CC&Rs require it, and watching for amendments that might affect your rental status. Out-of-state owners find this especially valuable. If your HOA sends a fine notice while you're managing from another state, the window to respond is often short.
 
@@ -281,7 +281,7 @@ The [Georgia Safe at Home Act guide](/blog/georgia-safe-at-home-act-landlord-gui
 
 **Renting an HOA home in the CSRA? Let's review your governing documents first.**
 
-McBride Property Management manages homes in Columbia County, Evans, Grovetown, and Martinez subdivisions — and HOA compliance is part of how we protect your investment. If you're not sure what your CC&Rs say about renting, have received a notice you don't understand, or want a second opinion before you list, request a free rental analysis at [mcbride-pm.com/contact](/contact/) or call **(706) 339-2874**. Amber McBride handles new-owner onboarding directly and can walk through your specific situation.
+McBride Property Management manages homes in Columbia County, Evans, Grovetown, and Martinez subdivisions — and HOA compliance is part of how we protect your investment. If you're not sure what your CC&Rs say about renting, have received a notice you don't understand, or want a second opinion before you list, request a free rental analysis at [mcbride-pm.com/contact](/contact/) or call **(706) 339-2874**. Our team handles new-owner onboarding directly and can walk through your specific situation.
 
 Start with the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) — a free 12-page reference covering HOA compliance, tenant screening, Georgia lease requirements, and operating expense benchmarks for the Augusta area.
 

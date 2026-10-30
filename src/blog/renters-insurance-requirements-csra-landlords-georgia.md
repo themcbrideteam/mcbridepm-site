@@ -145,7 +145,7 @@ This is where the requirement most often breaks down in practice. A landlord add
 
 Look up the carrier's customer service number independently (do not use a number the tenant provides) and call to confirm the policy number is active and in good standing. Fabricated insurance documents are not common, but they do happen. One phone call takes less time than a lease dispute.
 
-If you're using AppFolio as your [property management platform](/blog/appfolio-owner-portal-property-management-augusta-ga/), upload the verified declaration page or COI to the tenant's file directly and set a renewal reminder. Amber McBride, our operations manager, handles this verification step for every McBride PM-managed property.
+If you're using AppFolio as your [property management platform](/blog/appfolio-owner-portal-property-management-augusta-ga/), upload the verified declaration page or COI to the tenant's file directly and set a renewal reminder. Our team handles this verification step for every McBride PM-managed property.
 
 ## Monitoring for Policy Renewals and Lapses
 
@@ -262,7 +262,7 @@ The case for requiring it is not close. The requirement costs the landlord nothi
 
 McBride Property Management includes insurance proof collection, carrier verification, and lapse monitoring as part of every lease we administer. We track policy renewals, respond to cancellation notices, and document the cure process so you're covered whether you're in Evans or three time zones away. [Request a free rental analysis](/contact/) to see how our lease administration works—or download the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) for a complete reference on protecting your Augusta-area investment.
 
-**(706) 339-2874** · ops@mcbride-pm.com
+**(706) 339-2874** · robert@mcbride-pm.com
 
 </div>
 

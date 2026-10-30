@@ -16,8 +16,9 @@ breadcrumbs:
       <div class="breadcrumb">
         <a href="/">Home</a> > Available Rentals
       </div>
-      <h1>Available Rental Properties in Augusta, GA</h1>
-      <p>Browse our current listings and find your next home in the Augusta area</p>
+      <h1>Homes for Rent in Augusta, Evans &amp; Aiken</h1>
+      <p>Browse every home we have available across the CSRA, schedule a showing, and apply online.</p>
+      <p style="margin-top: 1rem;"><a href="{{ site.rentalsListings }}" class="btn btn-primary">View All Available Homes</a> <a href="{{ site.residentPortal }}" class="btn btn-outline" style="margin-left: .5rem;">Resident Portal</a></p>
     </div>
   </div>
 
@@ -75,10 +76,14 @@ breadcrumbs:
           })()
         } catch (err) { if (console) { console.warn('TT widget error: ' + err); } }
       </script>
-      <p style="text-align: center; color: #888; margin-top: 1rem; font-size: 0.85rem;">Browse available properties, schedule self-guided showings, and apply online — all in one place.</p>
+      <div style="text-align: center; margin-top: 2rem; padding: 1.5rem; border: 1px solid #e3e3e3; border-radius: 8px;">
+        <p style="margin: 0 0 .75rem; color: #333;">Listings not loading, or want to see everything in one list?</p>
+        <a href="{{ site.rentalsListings }}" class="btn btn-primary">See All Available Homes &rarr;</a>
+        <p style="margin: .75rem 0 0; color: #6b6b6b; font-size: .85rem;">Questions about a home? Call <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a> or email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+      </div>
 
       <h2 class="text-center mb-3" style="margin-top: 3rem;">How It Works</h2>
-      <p class="text-center" style="color: #666; margin-bottom: 2rem; font-size: 0.95rem;">Browse listings above, schedule a self-guided or agent-led showing at your convenience, and submit your application online — all through our Tenant Turner platform.</p>
+      <p class="text-center" style="color: #666; margin-bottom: 2rem; font-size: 0.95rem;">Browse listings above, schedule a showing at a time that works for you, and submit your application online.</p>
     </div>
   </div>
 
@@ -150,7 +155,7 @@ breadcrumbs:
           </div>
           <div class="contact-info-text">
             <h4>Email</h4>
-            <p><a href="mailto:robert@mcbride-pm.com">robert@mcbride-pm.com</a></p>
+            <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
           </div>
         </div>
       </div>
@@ -162,7 +167,7 @@ breadcrumbs:
     <div class="container text-center">
       <h2>Looking to Rent Out Your Property Instead?</h2>
       <p>Let McBride Property Management handle the tenant screening, maintenance, and accounting while you focus on your investment.</p>
-      <a href="/services/" class="btn btn-outline btn-lg">Learn About Our Services</a>
+      <a href="/contact/" class="btn btn-outline btn-lg">Get a Free Rental Analysis</a>
     </div>
   </div>
 

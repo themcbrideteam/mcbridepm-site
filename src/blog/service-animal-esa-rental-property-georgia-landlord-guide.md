@@ -161,7 +161,7 @@ Landlords are not required to accommodate every assistance animal request, train
 
 Every denial must be documented. If you deny an untrained ESA request, write down the specific grounds — insufficient documentation, direct-threat evidence, or significant damage risk — and retain those records.
 
-For properties managed by McBride PM, Amber McBride handles all accommodation documentation and written responses through the AppFolio file system, creating a complete audit trail that protects owners if a complaint is filed.
+For properties managed by McBride PM, we handle all accommodation documentation and written responses through the AppFolio file system, creating a complete audit trail that protects owners if a complaint is filed.
 
 ---
 

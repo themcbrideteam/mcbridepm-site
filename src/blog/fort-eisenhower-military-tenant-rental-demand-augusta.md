@@ -25,7 +25,7 @@ Fort Gordon isn't a small outpost. It's the Army's primary hub for cyber operati
 
 For property owners in [Augusta, GA](/augusta/) and Columbia County, that translates to a few practical realities. First, PCS (Permanent Change of Station) cycles mean families arrive year-round, with the heaviest volume between May and August. Second, many service members prefer off-post housing — especially those with families who want more space, better locations, and a neighborhood feel that on-post housing can't always provide. Third, BAH rates for the Augusta area provide a clear benchmark for what military tenants can afford, making rent pricing straightforward.
 
-Amber McBride, property manager at McBride Property Management, sees this firsthand. "We get a wave of inquiries every spring and summer from families arriving on PCS orders," she says. "They're motivated, they have verified income through BAH, and they're usually ready to sign a lease quickly because their report dates are firm."
+McBride Property Management sees this firsthand. We get a wave of inquiries every spring and summer from families arriving on PCS orders. They're motivated, they have verified income through BAH, and they're usually ready to sign a lease quickly because their report dates are firm.
 
 ## What Military Tenants Look For in a Rental Property
 

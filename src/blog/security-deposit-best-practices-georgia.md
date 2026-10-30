@@ -85,7 +85,7 @@ Best practices for the move-out process:
 
 Normal wear and tear — scuffs on walls, minor carpet traffic patterns, small nail holes — is not deductible. Significant damage, unapproved alterations, or excessive cleaning needs are.
 
-Amber McBride, property manager at McBride Property Management, notes that "the biggest mistake landlords make is trying to recoup more than they can document. If you don't have receipts and photos, a magistrate judge isn't going to award it."
+The biggest mistake landlords make is trying to recoup more than they can document. If you don't have receipts and photos, a magistrate judge isn't going to award it.
 
 ---
 

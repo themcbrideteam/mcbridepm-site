@@ -50,7 +50,7 @@ If you don't see something that fits right now, check back regularly — our inv
 
 ## Step 2: Schedule a Showing
 
-Once you've narrowed your search, schedule a showing. You can request one directly through the listing page or by calling our office. Amber McBride, our property manager, coordinates showings and can answer specific questions about a property's layout, utilities, and neighborhood before you visit in person.
+Once you've narrowed your search, schedule a showing. You can request one directly through the listing page or by calling our office. Our team coordinates showings and can answer specific questions about a property's layout, utilities, and neighborhood before you visit in person.
 
 Walking through a property before applying is always a good idea. Photos capture a lot, but they won't tell you about water pressure, natural light at different times of day, or how the street sounds at 6 p.m. on a weekday.
 

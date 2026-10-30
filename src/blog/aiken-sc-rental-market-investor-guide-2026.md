@@ -154,7 +154,7 @@ A working checklist for first-time Aiken buyers:
 6. **Engage a property manager before closing** — not after. The management agreement, lease, and tenant-placement process start at closing
 7. **Confirm your SC landlord insurance quote** before close — not all carriers write non-owner-occupied policies in Aiken County
 
-McBride Property Management manages rental properties across the CSRA including [Aiken](/aiken/) and North Augusta. If you want a ground-level read on the current market before you buy — typical days-to-lease, maintenance cost norms, tenant quality in a given ZIP — that's a conversation Amber McBride handles as part of our owner onboarding process. Reach us at [(706) 339-2874](tel:7063392874) or through the [free rental analysis form](/contact/).
+McBride Property Management manages rental properties across the CSRA including [Aiken](/aiken/) and North Augusta. If you want a ground-level read on the current market before you buy — typical days-to-lease, maintenance cost norms, tenant quality in a given ZIP — that's a conversation we have as part of our owner onboarding process. Reach us at [(706) 339-2874](tel:7063392874) or through the [free rental analysis form](/contact/).
 
 Our [owner FAQs](/owner-faqs/) cover the full management relationship in plain language, and the [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) includes CSRA-wide expense benchmarks including South Carolina properties.
 

@@ -1039,7 +1039,6 @@
         "AppFolio",
         "McBride Property Management",
         "Noah McBride",
-        "Amber McBride",
         "O.C.G.A. \u00a7 44-7-50",
         "Evans GA",
         "Augusta GA",
@@ -1687,8 +1686,7 @@
         "Grovetown GA",
         "Fort Gordon",
         "McBride Property Management",
-        "Noah McBride",
-        "Amber McBride"
+        "Noah McBride"
       ],
       "questionsAnswered": [
         "Does converting my home to a rental violate my mortgage?",
@@ -1793,7 +1791,6 @@
         "Columbia County Magistrate Court",
         "McBride Property Management",
         "Noah McBride",
-        "Amber McBride",
         "Grovetown GA",
         "Augusta GA",
         "Fort Gordon"
@@ -1893,7 +1890,6 @@
         "Martinez GA ZIP 30907",
         "Wellstar MCG",
         "Noah McBride",
-        "Amber McBride",
         "McBride Property Management"
       ],
       "questionsAnswered": [
@@ -1945,7 +1941,6 @@
         "Grovetown GA",
         "Columbia County",
         "Noah McBride",
-        "Amber McBride",
         "McBride Property Management",
         "NARPM"
       ],
@@ -2007,7 +2002,6 @@
         "Grovetown GA ZIP 30813",
         "Martinez GA ZIP 30907",
         "Noah McBride",
-        "Amber McBride",
         "McBride Property Management",
         "Riverwood Plantation",
         "Evans Towne Center"
@@ -2066,7 +2060,6 @@
         "Rheem",
         "HomeServe",
         "Noah McBride",
-        "Amber McBride",
         "McBride Property Management"
       ],
       "questionsAnswered": [
@@ -2121,8 +2114,7 @@
         "Martinez GA",
         "Columbia County",
         "McBride Property Management",
-        "Noah McBride",
-        "Amber McBride"
+        "Noah McBride"
       ],
       "questionsAnswered": [
         "Can a Georgia landlord legally require renters insurance?",
@@ -2219,7 +2211,6 @@
         "Grovetown GA",
         "Columbia County",
         "Noah McBride",
-        "Amber McBride",
         "McBride Property Management"
       ],
       "questionsAnswered": [
@@ -2327,8 +2318,7 @@
         "Grovetown GA",
         "Columbia County",
         "McBride Property Management",
-        "Noah McBride",
-        "Amber McBride"
+        "Noah McBride"
       ],
       "questionsAnswered": [
         "Is a rental property marital property in Georgia if only one spouse is on the deed?",
@@ -2384,8 +2374,7 @@
         "Grovetown GA",
         "Augusta GA",
         "McBride Property Management",
-        "Noah McBride",
-        "Amber McBride"
+        "Noah McBride"
       ],
       "questionsAnswered": [
         "How much notice before moving out of Georgia rental?",
@@ -2519,8 +2508,7 @@
         "Grovetown GA",
         "Columbia County",
         "McBride Property Management",
-        "Noah McBride",
-        "Amber McBride"
+        "Noah McBride"
       ],
       "questionsAnswered": [
         "How often does McBride PM send owner statements?",
@@ -2580,7 +2568,6 @@
         "Augusta GA",
         "Martinez GA",
         "Noah McBride",
-        "Amber McBride",
         "McBride Property Management"
       ],
       "questionsAnswered": [
@@ -2638,7 +2625,6 @@
         "Evans GA ZIP 30809",
         "Grovetown GA ZIP 30813",
         "Noah McBride",
-        "Amber McBride",
         "McBride Property Management"
       ],
       "questionsAnswered": [
@@ -2741,7 +2727,6 @@
         "Grovetown GA",
         "Columbia County",
         "Noah McBride",
-        "Amber McBride",
         "McBride Property Management"
       ],
       "questionsAnswered": [
@@ -2849,7 +2834,6 @@
         "Grovetown GA",
         "Columbia County",
         "Noah McBride",
-        "Amber McBride",
         "McBride Property Management"
       ],
       "questionsAnswered": [
@@ -2907,7 +2891,6 @@
         "Highway 221",
         "I-20",
         "Noah McBride",
-        "Amber McBride",
         "McBride Property Management"
       ],
       "questionsAnswered": [
@@ -2961,7 +2944,6 @@
         "Grovetown GA",
         "Columbia County",
         "Noah McBride",
-        "Amber McBride",
         "McBride Property Management"
       ],
       "questionsAnswered": [
@@ -3014,7 +2996,6 @@
         "Grovetown GA",
         "Columbia County",
         "Noah McBride",
-        "Amber McBride",
         "McBride Property Management",
         "TransUnion"
       ],
@@ -3124,7 +3105,6 @@
         "Interstate 20",
         "Gateway Boulevard",
         "Noah McBride",
-        "Amber McBride",
         "McBride Property Management"
       ],
       "questionsAnswered": [
@@ -3276,8 +3256,7 @@
         "Augusta GA",
         "Fort Gordon",
         "McBride Property Management",
-        "Noah McBride",
-        "Amber McBride"
+        "Noah McBride"
       ],
       "questionsAnswered": [
         "How much does a Georgia eviction cost in total?",
@@ -3305,9 +3284,9 @@
       "title": "Buying Your First CSRA Rental Property: A 2026 Step-by-Step Guide",
       "date": "2026-10-30",
       "cluster": "investing",
-      "subtopic": "first rental property purchase step-by-step — cash-flow modeling, financing options, submarket selection, due diligence, landlord setup",
+      "subtopic": "first rental property purchase step-by-step \u2014 cash-flow modeling, financing options, submarket selection, due diligence, landlord setup",
       "persona": "P3/P4 multi-persona",
-      "intent": "educational/decision-framework/conversion — first-time investor preparing to buy in the CSRA",
+      "intent": "educational/decision-framework/conversion \u2014 first-time investor preparing to buy in the CSRA",
       "cities": [
         "Evans",
         "Grovetown",
@@ -3353,7 +3332,7 @@
         "HowTo"
       ],
       "type": "new",
-      "imageStatus": "none — Imagen API key invalid (36th consecutive run; API_KEY_INVALID)"
+      "imageStatus": "none \u2014 Imagen API key invalid (36th consecutive run; API_KEY_INVALID)"
     },
     {
       "slug": "business-license-rental-property-csra-augusta-ga",
@@ -3391,7 +3370,6 @@
         "North Augusta SC",
         "Aiken SC",
         "Noah McBride",
-        "Amber McBride",
         "McBride Property Management"
       ],
       "questionsAnswered": [

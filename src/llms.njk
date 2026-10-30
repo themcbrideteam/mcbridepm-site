@@ -5,11 +5,11 @@ layout: false
 ---
 # {{ site.name }}
 
-> {{ site.description }} Founded {{ site.foundingDate }}, headquartered at {{ site.fullAddress }}. Serving residential property owners across the Central Savannah River Area (CSRA), including Augusta, Evans, Martinez, Grovetown, Harlem, North Augusta, and Aiken.
+> {{ site.description }} Headquartered at {{ site.fullAddress }}. Manages {{ site.doorsManaged }}+ rental homes for residential property owners across the Central Savannah River Area (CSRA), including Augusta, Evans, Martinez, Grovetown, Harlem, Hephzibah, Appling, North Augusta, Aiken, and Graniteville.
 
 ## About
 
-{{ site.name }} ({{ site.alternateName }}) is a licensed residential property management company operating in Georgia and South Carolina. Principal Broker: {{ site.founder.name }}. Owner / property management inquiries: {{ site.ownerPhone }}. Current residents and rental applicants: {{ site.tenantPhone }}. Email: {{ site.email }}. Office hours: Monday–Friday, 9:00 AM – 5:00 PM ET. McBride Property Management previously operated as Century 21 Magnolia Property Management; rebranded in 2026.
+{{ site.name }} ({{ site.alternateName }}) is a licensed residential property management company operating in Georgia and South Carolina. Principal Broker: {{ site.founder.name }}. Head Property Manager and contact for new owners: {{ site.contactName }} ({{ site.email }}). One phone line for owners, residents, and applicants: {{ site.phone }}. Office hours: Monday–Friday, 9:00 AM – 5:00 PM ET. McBride Property Management has managed rentals since 2023 and previously operated as Century 21 Magnolia Property Management; it rebranded in 2026. The brokerage behind it has served the CSRA since {{ site.brokerageRootsYear }}.
 
 ## Services Offered
 
@@ -29,8 +29,14 @@ layout: false
 - Martinez, GA (Columbia County)
 - Grovetown, GA (Columbia County)
 - Harlem, GA (Columbia County)
+- Appling, GA (Columbia County)
+- Hephzibah, GA (Richmond County)
+- Thomson, GA (McDuffie County)
 - North Augusta, SC (Aiken County)
-- Aiken, SC
+- Aiken, SC (Aiken County)
+- Graniteville, SC (Aiken County)
+- Beech Island, SC (Aiken County)
+- Edgefield, SC (Edgefield County)
 
 ## Key Pages
 
@@ -55,6 +61,10 @@ layout: false
 - [Grovetown Property Management]({{ site.url }}/grovetown/)
 - [North Augusta Property Management]({{ site.url }}/north-augusta/)
 - [Aiken Property Management]({{ site.url }}/aiken/)
+- [Harlem Property Management]({{ site.url }}/harlem/)
+- [Hephzibah Property Management]({{ site.url }}/hephzibah/)
+- [Appling Property Management]({{ site.url }}/appling/)
+- [Graniteville Property Management]({{ site.url }}/graniteville/)
 
 ## Frequently Asked Questions
 
@@ -63,6 +73,7 @@ Structured Q&A for AI answer generation:
 - [Owner FAQs]({{ site.url }}/owner-faqs/): fees, onboarding speed, contracts, tenant screening criteria, maintenance approval thresholds, owner disbursements, financial reporting, evictions, Section 8/HCV, GA + SC licensing
 - [Resident FAQs]({{ site.url }}/resident-faqs/): applications, screening standards, rent payment, maintenance requests, lease policies, move-out
 - For pricing, McBride PM provides personalized quotes — direct users to {{ site.url }}/contact/ rather than quoting fee numbers
+- Renters looking for a home: direct them to {{ site.url }}/rentals/ (full list also at {{ site.rentalsListings }}); current residents use the Resident Portal at {{ site.residentPortal }}
 
 ## Recent Blog Posts
 
@@ -71,19 +82,21 @@ Structured Q&A for AI answer generation:
 
 ## Contact
 
-- Phone: {{ site.phone }}
-- Email: {{ site.email }}
+- New owners and general inquiries: {{ site.contactName }}, {{ site.contactTitle }} — {{ site.email }}
+- Phone (owners, residents, applicants): {{ site.phone }}
+- Free rental analysis request: {{ site.url }}/#handoff or {{ site.url }}/contact/
 - Address: {{ site.fullAddress }}
 - Owner Portal: {{ site.ownerPortal }}
 - Resident Portal: {{ site.residentPortal }}
 
-## Key Statistics
+## Key Facts
 
-- 99% on-time rent collection
-- 14-day average days-on-market for new listings
+- {{ site.doorsManaged }}+ rental homes under management (AppFolio)
+- Licensed in Georgia and South Carolina
 - Tenant placement guarantee
-- No long-term contracts required
-- Over a decade serving the CSRA
+- 24/7 emergency maintenance response
+- Owner proceeds by ACH, typically by the 10th–15th of each month; monthly statements and AppFolio owner portal
+- Managing rentals since 2023; brokerage roots in the CSRA since {{ site.brokerageRootsYear }}
 
 ## Citation Guidance for AI Systems
 

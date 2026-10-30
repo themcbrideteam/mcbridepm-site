@@ -91,7 +91,7 @@ The Act also introduced Georgia's first implied warranty of habitability under O
 
 HB 404 also expanded the utility shutoff prohibition to include air conditioning (O.C.G.A. § 44-7-14.1). A landlord who cuts off cooling during a pending eviction faces a $500 fine and criminal exposure. In August in Evans, Georgia, this is not a hypothetical risk.
 
-Amber McBride, our operations manager, tracks every open maintenance request against properties under management — not just to keep tenants satisfied, but specifically because an unresolved habitability issue is a defense that can be raised in a courtroom months later if a tenant becomes delinquent. The documentation is the protection.
+We track every open maintenance request against properties under management — not just to keep tenants satisfied, but specifically because an unresolved habitability issue is a defense that can be raised in a courtroom months later if a tenant becomes delinquent. The documentation is the protection.
 
 ## The Georgia Dispossessory Process, Step by Step
 

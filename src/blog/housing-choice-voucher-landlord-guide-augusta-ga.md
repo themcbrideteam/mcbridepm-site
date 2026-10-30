@@ -141,7 +141,7 @@ Under HQS, inspectors check:
 
 Critical failures — exposed wiring, non-functional smoke detectors, broken heat or cooling — require correction within **24 hours**. Non-critical deficiencies (a cracked window latch, a loose handrail) give you **30 days** to repair.
 
-A well-maintained CSRA rental should have no difficulty with this list. If your property has known deferred maintenance, an HQS inspection will surface it — which is either an incentive to prepare ahead of time or a prompt to evaluate the property's overall condition against your investment return. Amber McBride, our operations manager at McBride Property Management, oversees annual inspections for properties in our management portfolio. Our [Annual Property Inspection form](/pdfs/McBride-PM_Annual-Property-Inspection.pdf) is available as a free download to use as a self-check before scheduling a PHA visit.
+A well-maintained CSRA rental should have no difficulty with this list. If your property has known deferred maintenance, an HQS inspection will surface it — which is either an incentive to prepare ahead of time or a prompt to evaluate the property's overall condition against your investment return. McBride Property Management handles annual inspections for properties in our management portfolio. Our [Annual Property Inspection form](/pdfs/McBride-PM_Annual-Property-Inspection.pdf) is available as a free download to use as a self-check before scheduling a PHA visit.
 
 ## The Real Advantages of Accepting Vouchers
 
@@ -213,7 +213,7 @@ If you want to run this comparison for your specific address, a [free rental ana
 
 McBride Property Management manages Housing Choice Voucher tenancies in the CSRA alongside conventional leases. For owners in our program, we handle PHA correspondence, inspection scheduling, HAP contract coordination, and monthly payment reconciliation. You see both the HAP and tenant portions in your monthly owner report without managing the administrative layer yourself.
 
-If you're currently self-managing and evaluating whether to add HCV tenancies to your portfolio, our [property management services page](/services/) outlines what the management relationship looks like. If you're already an owner with McBride PM and have questions about listing your specific property for voucher tenants, call **(706) 339-2874** or reach Amber McBride directly for onboarding coordination.
+If you're currently self-managing and evaluating whether to add HCV tenancies to your portfolio, our [property management services page](/services/) outlines what the management relationship looks like. If you're already an owner with McBride PM and have questions about listing your specific property for voucher tenants, call **(706) 339-2874** or email [robert@mcbride-pm.com](mailto:robert@mcbride-pm.com) for onboarding coordination.
 
 <div class="faq-section">
 <div class="faq-item">

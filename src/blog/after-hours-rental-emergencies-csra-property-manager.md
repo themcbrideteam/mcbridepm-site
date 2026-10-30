@@ -125,7 +125,7 @@ One of the most common frustrations remote owners report with previous property 
 
 **If the issue requires a capital expenditure decision** (e.g., the water heater is beyond repair and needs replacement): You receive a call — or a message to your designated backup contact — with two or three vendor bids and a recommendation. We do not replace major equipment on your account without your explicit authorization.
 
-Amber McBride, our operations manager who oversees the maintenance coordination workflow, runs a weekly audit of all open and recently closed work orders to confirm that every emergency event was documented and that no owner notifications fell through the cracks. That audit is part of what makes the AppFolio owner portal reliable: it's not just what a vendor tells us — it's a double-checked record.
+Our team runs a weekly audit of all open and recently closed work orders to confirm that every emergency event was documented and that no owner notifications fell through the cracks. That audit is part of what makes the AppFolio owner portal reliable: it's not just what a vendor tells us — it's a double-checked record.
 
 For Fort Gordon PCS landlords, we also maintain a "PCS notice" flag on your account that tells every team member: this owner is on active deployment. When that flag is set, every communication goes to both your primary email and your designated backup contact simultaneously.
 

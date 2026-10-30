@@ -151,7 +151,7 @@ Your PM agreement should include a specific pre-authorized repair limit—the do
 
 Here's why the threshold matters in practice: a standard HVAC diagnostic call and capacitor replacement in Augusta currently runs $280–$440, depending on the vendor and whether it's an after-hours call. If your threshold is $400, the PM handles it the same evening, the tenant has cold air, and you see the line item in your next monthly statement. If you require a phone call for anything over $100, you are the bottleneck in a situation that requires same-day action when you may be unreachable.
 
-Above the threshold, the PM contacts you for authorization. Set a clear communication channel for this—text is better than email for genuine emergencies. Specify that a late-night call or text is appropriate if a repair above the threshold is time-sensitive. Amber McBride manages repair approvals and owner communications at McBride PM, and our owner portal logs every request so you have a complete record regardless of time zone.
+Above the threshold, the PM contacts you for authorization. Set a clear communication channel for this—text is better than email for genuine emergencies. Specify that a late-night call or text is appropriate if a repair above the threshold is time-sensitive. At McBride PM, our team manages repair approvals and owner communications, and our owner portal logs every request so you have a complete record regardless of time zone.
 
 ### Fund an emergency cash reserve
 
@@ -291,7 +291,7 @@ If you're also thinking ahead to the financial picture—depreciation, Schedule 
 
 **Ready to hand off emergency coordination before your next PCS?**
 
-McBride Property Management handles emergency repair dispatch, vendor coordination, and tenant communication for rental properties across Evans, Grovetown, Martinez, and Augusta. If you're approaching a PCS date or currently managing a CSRA property from a distance, request a free rental analysis at [mcbride-pm.com/contact/](/contact/) or call **(706) 339-2874**. Amber McBride oversees owner onboarding and will walk you through exactly what transfers to us on day one.
+McBride Property Management handles emergency repair dispatch, vendor coordination, and tenant communication for rental properties across Evans, Grovetown, Martinez, and Augusta. If you're approaching a PCS date or currently managing a CSRA property from a distance, request a free rental analysis at [mcbride-pm.com/contact/](/contact/) or call **(706) 339-2874**. We'll walk you through exactly what transfers to us on day one.
 
 Download the [PCS Landlord Quick-Start Guide](/pdfs/McBride-PM_PCS-Landlord-Quick-Start-Guide.pdf) for the complete pre-departure setup checklist.
 

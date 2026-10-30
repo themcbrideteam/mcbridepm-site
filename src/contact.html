@@ -30,33 +30,54 @@ breadcrumbs:
         <h2>Request a Free Rental Analysis</h2>
         <p style="margin-bottom: 2rem;">Wondering what your property could rent for in today's market? We'll provide a detailed, no-obligation analysis based on current comps, market conditions, and our local expertise.</p>
 
-        <form id="analysisForm" style="max-width: 100%;" name="rental-analysis" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <form id="analysisForm" style="max-width: 100%;" name="rental-analysis" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="rental-analysis">
-          <p class="hidden" style="display:none"><label>Don't fill this out: <input name="bot-field"></label></p>
+          <input type="hidden" name="page" value="/contact/">
+          <input type="hidden" name="source" value="">
+          <p class="hidden" style="display:none"><label>Don't fill this out: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+          <div class="form-group">
+            <label for="address">Property Address</label>
+            <input type="text" id="address" name="address" autocomplete="street-address" placeholder="123 Main Street, Evans, GA 30809" required>
+          </div>
+
           <div class="form-group">
             <label for="fullName">Full Name</label>
-            <input type="text" id="fullName" name="fullName" required>
+            <input type="text" id="fullName" name="fullName" autocomplete="name" required>
           </div>
 
           <div class="form-inline">
             <div class="form-group" style="margin-bottom: 0;">
               <label for="email">Email</label>
-              <input type="email" id="email" name="email" required>
+              <input type="email" id="email" name="email" autocomplete="email" required>
             </div>
             <div class="form-group" style="margin-bottom: 0;">
-              <label for="phone">Phone <span style="font-weight: 400; color: #6b6b6b;">(optional)</span></label>
-              <input type="tel" id="phone" name="phone" placeholder="(706) 000-0000">
+              <label for="phone">Phone <span style="font-weight: 400; color: #6b6b6b;">(fastest reply)</span></label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel" placeholder="(706) 000-0000">
             </div>
           </div>
 
           <div class="form-group">
-            <label for="address">Property Address</label>
-            <input type="text" id="address" name="address" placeholder="123 Main Street, Evans, GA 30809" required>
+            <label for="situation">What best describes you? <span style="font-weight: 400; color: #6b6b6b;">(optional)</span></label>
+            <select id="situation" name="situation">
+              <option value="">Choose one</option>
+              <option>Moving away (PCS or relocation) and keeping my home</option>
+              <option>Inherited a home or can't sell right now</option>
+              <option>I own rentals and manage them myself</option>
+              <option>Looking to switch property managers</option>
+              <option>Buying an investment property</option>
+              <option>Something else</option>
+            </select>
           </div>
 
           <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Get My Free Rental Analysis</button>
-          <p style="font-size: .85rem; color: #6b6b6b; margin-top: .75rem; margin-bottom: 0; text-align: center;">No obligation. We'll send your analysis within 1 business day—no spam, no pressure.</p>
+          <p style="font-size: .85rem; color: #6b6b6b; margin-top: .75rem; margin-bottom: 0; text-align: center;">No obligation. Robert Smith, our head property manager, replies within 1 business day—no spam, no pressure.</p>
+          <p class="lead-error" role="alert" hidden style="color: #9b2c2c; margin-top: .75rem; text-align: center;">Something went wrong sending your request. Please call <a href="tel:7063392874">(706) 339-2874</a> or email <a href="mailto:robert@mcbride-pm.com">robert@mcbride-pm.com</a>.</p>
         </form>
+        <div data-success hidden tabindex="-1" style="padding: 2rem; border: 1px solid #e3e3e3; border-left: 4px solid #b2995a; border-radius: 8px; outline: none;">
+          <h3 style="margin-top: 0;">Thanks<span data-first-name></span>. We're on it.</h3>
+          <p style="margin-bottom: 0;">Robert will reply within one business day with your rental analysis. Want to talk sooner? Call <a href="tel:7063392874">(706) 339-2874</a>.</p>
+        </div>
+        <p style="font-size: .9rem; color: #6b6b6b; margin-top: 1.25rem;">Looking for a home to rent instead? <a href="/rentals/">See available rentals</a>.</p>
       </div>
 
       <!-- RIGHT: CONTACT INFORMATION -->
@@ -85,7 +106,7 @@ breadcrumbs:
           </div>
           <div class="contact-info-text">
             <h3>Phone</h3>
-            <p>Property owners: <a href="tel:7063392874">(706) 339-2874</a><br>Current residents &amp; applicants: <a href="tel:7063392874">(706) 339-2874</a></p>
+            <p><a href="tel:7063392874">(706) 339-2874</a><br><span style="color:#6b6b6b;font-size:.9rem;">One line for owners, residents, and applicants</span></p>
           </div>
         </div>
 
@@ -98,7 +119,7 @@ breadcrumbs:
           </div>
           <div class="contact-info-text">
             <h3>Email</h3>
-            <p>General: <a href="mailto:robert@mcbride-pm.com">robert@mcbride-pm.com</a><br>New Owners: <a href="mailto:ops@mcbride-pm.com">ops@mcbride-pm.com</a></p>
+            <p><a href="mailto:robert@mcbride-pm.com">robert@mcbride-pm.com</a><br><span style="color:#6b6b6b;font-size:.9rem;">Owners, residents, and applicants</span></p>
           </div>
         </div>
 
@@ -118,7 +139,7 @@ breadcrumbs:
         <!-- Schedule a Consultation -->
         <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #eee;">
           <h3>Schedule a Consultation</h3>
-          <p>Interested in professional management for your rental property? Call Amber, our Business Development Manager, for a 15-minute conversation about whether McBride PM is the right fit for you.</p>
+          <p>Interested in professional management for your rental property? Call Robert Smith, our head property manager, for a 15-minute conversation about whether McBride PM is the right fit for you.</p>
           <a href="tel:7063392874" class="btn btn-navy" style="display: inline-block;">Call (706) 339-2874</a>
         </div>
       </div>

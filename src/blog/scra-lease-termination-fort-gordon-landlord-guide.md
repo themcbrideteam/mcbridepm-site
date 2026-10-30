@@ -183,7 +183,7 @@ The best way to handle an SCRA situation is to build the process into your lease
 
 This language eliminates most disputes before they start. More practically, it signals to the military tenants evaluating your property that you understand the PCS process — which is a meaningful differentiator in the [Grovetown](/grovetown/) and Evans rental markets, where a large share of applicants are Fort Gordon soldiers who have been burned by uninformed landlords at a previous duty station.
 
-Operations Manager Amber McBride reviews all lease templates at McBride PM to ensure military clause language reflects current SCRA requirements — an area that sees periodic federal updates through National Defense Authorization Acts.
+At McBride PM, we review all lease templates to ensure military clause language reflects current SCRA requirements — an area that sees periodic federal updates through National Defense Authorization Acts.
 
 ## 2026 Fort Gordon BAH Rates — Knowing the Pricing Floor
 

@@ -37,7 +37,7 @@ As a general reference for the Augusta CSRA market:
 - **Martinez** is often slightly more affordable and offers a mix of older and newer rental stock
 - **[North Augusta](/north-augusta/), SC** is across the Savannah River and may offer different BAH considerations since it's technically a different state
 
-At **McBride Property Management**, Noah McBride (broker) and Amber McBride (property manager) work regularly with military families and can give you a clear picture of what your BAH will realistically cover in each submarket. Browse available [rentals here](/rentals/) to get a sense of current pricing before committing to a budget.
+At **McBride Property Management**, our team works regularly with military families and can give you a clear picture of what your BAH will realistically cover in each submarket. Browse available [rentals here](/rentals/) to get a sense of current pricing before committing to a budget.
 
 ---
 
@@ -75,7 +75,7 @@ The tradeoff is commute time. Evans runs 20–25 minutes from the main gate; Gro
 
 ## Working with McBride Property Management
 
-**McBride Property Management** specializes in residential rentals across Augusta, GA, Evans, Grovetown, Martinez, and the broader CSRA. Amber McBride, our licensed property manager, has firsthand experience helping service members navigate tight PCS timelines — from virtual showings to lease start dates that align with report dates. Noah McBride, our broker, makes sure every lease is legally sound and that military tenants understand their rights from day one.
+**McBride Property Management** specializes in residential rentals across Augusta, GA, Evans, Grovetown, Martinez, and the broader CSRA. Our team has firsthand experience helping service members navigate tight PCS timelines — from virtual showings to lease start dates that align with report dates. Noah McBride, our broker, makes sure every lease is legally sound and that military tenants understand their rights from day one.
 
 If you're PCS-ing to Fort Gordon and need a reliable local team, [reach out to us directly](/contact/). You can also explore our [property management services](/services/) or browse [rental listings](/rentals/) to get a feel for the market.
 

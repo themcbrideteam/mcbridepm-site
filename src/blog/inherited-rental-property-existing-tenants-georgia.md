@@ -181,7 +181,7 @@ Many inherited properties in the CSRA end up owned by heirs who live in Atlanta,
 
 Self-managing from another state is not a compliant option. If your tenant needs to serve you a formal notice and you have no valid in-state address on file, that notice has nowhere to go — and a court may rule that the tenant's obligations are suspended as a result.
 
-At McBride Property Management, we handle this designation regularly for out-of-state heirs who inherit CSRA properties. Amber McBride manages our onboarding process and can have a formal management agreement and tenant notification in place within days of you making contact. The [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) also covers the HB 399 requirement and its practical implications for non-resident owners.
+At McBride Property Management, we handle this designation regularly for out-of-state heirs who inherit CSRA properties. We can have a formal management agreement and tenant notification in place within days of you making contact. The [CSRA Landlord Field Guide](/pdfs/McBride-PM_CSRA-Landlord-Field-Guide.pdf) also covers the HB 399 requirement and its practical implications for non-resident owners.
 
 ## Should You Keep the Existing Tenant or Start Fresh at Lease End?
 

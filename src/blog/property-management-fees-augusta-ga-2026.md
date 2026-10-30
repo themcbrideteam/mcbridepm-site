@@ -207,7 +207,7 @@ Not every non-standard fee is a problem. The issue isn't what a company charges 
 - Monthly minimum that continues during vacancy
 - No itemized statement — you receive a net check with no supporting line items
 
-Amber McBride, our operations manager, walks every new owner through the full management agreement before signing. If you want to see exactly what our fee structure looks like — including the complete agreement — [request a free rental analysis](/contact/) and we'll send it over before any conversation about signing.
+We walk every new owner through the full management agreement before signing. If you want to see exactly what our fee structure looks like — including the complete agreement — [request a free rental analysis](/contact/) and we'll send it over before any conversation about signing.
 
 ## What These Fees Look Like Against Self-Management Costs
 

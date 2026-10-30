@@ -138,7 +138,7 @@ This happens more often than you'd expect. Landlords who converted a personal re
 
 The fix — if you catch this before you sell — is IRS Form 3115, the Application for Change in Accounting Method. This allows you to retroactively catch up on missed depreciation in the current tax year rather than amending multiple prior returns. It's not simple, but it means you at least collect the deductions before sale rather than just paying the recapture. This requires a CPA familiar with rental real estate, not a general tax preparer.
 
-If you've been working with McBride Property Management, your AppFolio owner account contains a documented income and expense history for every year under management. Amber McBride, our Operations Manager, can generate an ownership summary on request — which is often the starting point CPAs use when preparing to calculate the basis on an upcoming sale.
+If you've been working with McBride Property Management, your AppFolio owner account contains a documented income and expense history for every year under management. Our team can generate an ownership summary on request — which is often the starting point CPAs use when preparing to calculate the basis on an upcoming sale.
 
 ## Georgia's State Tax: No Capital Gains Break
 
