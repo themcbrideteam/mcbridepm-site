@@ -3394,6 +3394,53 @@
       ],
       "type": "new",
       "imageStatus": "none \u2014 Imagen API key invalid (35th consecutive run; API_KEY_INVALID)"
+    },
+    {
+      "slug": "appfolio-tenant-portal-guide-csra-rental",
+      "title": "Your AppFolio Resident Portal: A CSRA Renter's Complete Guide",
+      "date": "2026-10-31",
+      "cluster": "technology",
+      "subtopic": "AppFolio resident portal full-feature guide for tenants",
+      "persona": "P5",
+      "intent": "education + feature walkthrough",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "CSRA"
+      ],
+      "primaryKeyword": "AppFolio resident portal CSRA",
+      "entities": [
+        "AppFolio",
+        "O.C.G.A. Section 44-7-13",
+        "Georgia Safe at Home Act",
+        "Columbia County",
+        "Richmond County",
+        "Augusta Housing Authority",
+        "Fort Gordon"
+      ],
+      "questionsAnswered": [
+        "How do I log in to the AppFolio resident portal?",
+        "Can I pay rent through AppFolio?",
+        "How do I set up autopay?",
+        "How do I track my maintenance request status?",
+        "What does On Hold status mean?",
+        "What does Georgia law require for repairs?",
+        "How do I view my lease documents?",
+        "What fall maintenance should I request now?",
+        "How do I give notice to vacate?"
+      ],
+      "internalLinks": 12,
+      "externalCitations": 3,
+      "wordCount": 2650,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "images": "none - API key invalid (run 34)"
     }
   ]
 }

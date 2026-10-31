@@ -4,7 +4,7 @@
     "builtFrom": "118 live posts in src/blog/ as of 2026-10-30",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
-      "imagen_api_key": "API key invalid for 33 consecutive runs (2026-07-22 through 2026-10-29). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
+      "imagen_api_key": "API key invalid for 34 consecutive runs (2026-07-22 through 2026-10-31). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key needs rotation \u2014 URGENT: escalate to Noah."
     }
   },
   "clusters": {
@@ -262,19 +262,17 @@
       "gaps": []
     },
     "technology": {
-      "coverage": 0.65,
+      "coverage": 0.75,
       "authority": "medium-high",
       "posts": [
         "appfolio-owner-portal-property-management-augusta-ga",
-        "online-rental-applications-property-management-csra-guide"
+        "online-rental-applications-property-management-csra-guide",
+        "appfolio-tenant-portal-guide-csra-rental"
       ],
-      "gaps": [
-        "online maintenance requests + tracking \u2014 tenant-side walkthrough"
-      ]
+      "gaps": []
     }
   },
   "priorityQueue": [
-    "technology: online maintenance requests + tracking \u2014 tenant-side walkthrough (P5) \u2014 NOTE: existing post maintenance-request-tenant-guide-csra-rental covers submission; new post should focus on tracking/status workflow only",
     "taxes: cost segregation for SFR rental property Georgia (P4)",
     "city-guides: Augusta owner/investor city guide \u2014 demand drivers, cap rates, submarket comparison (P4)",
     "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) \u2014 publish after DoD December announcement",
