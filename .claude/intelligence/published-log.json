@@ -3441,6 +3441,62 @@
       ],
       "type": "new",
       "images": "none - API key invalid (run 34)"
+    },
+    {
+      "slug": "condo-association-rental-rules-georgia-csra-landlords",
+      "title": "Condo Association Rental Rules in Georgia: CSRA Landlord Guide",
+      "date": "2026-11-01",
+      "cluster": "hoa",
+      "subtopic": "Georgia Condominium Act vs POAA rental restrictions — grandfathering asymmetry, SB 406 scope, rental caps, board approval, CSRA condo market concentrations, pre-purchase due diligence",
+      "persona": "P3",
+      "intent": "educational/legal-reference/conversion — small intentional landlord evaluating or already owning a CSRA condo unit as a rental",
+      "cities": [
+        "Augusta",
+        "Evans",
+        "Grovetown",
+        "North Augusta",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "Georgia condo association rental rules landlord",
+      "entities": [
+        "O.C.G.A. § 44-3-70 et seq. (Georgia Condominium Act)",
+        "O.C.G.A. § 44-3-220 et seq. (Georgia POAA)",
+        "O.C.G.A. § 44-3-226",
+        "O.C.G.A. § 44-3-76",
+        "O.C.G.A. § 44-5-60",
+        "SB 406 / Act 715 (Georgia Property Owners' Bill of Rights Act)",
+        "Georgia Secretary of State Property Owners' Associations Division",
+        "South Carolina Horizontal Property Act (S.C. Code § 27-31-10)",
+        "FHA condo loan eligibility",
+        "Fannie Mae condo eligibility",
+        "Evans GA ZIP 30809",
+        "Grovetown GA ZIP 30813",
+        "Fort Gordon",
+        "Augusta University Medical Center",
+        "Wellstar MCG",
+        "Noah McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "Can a Georgia condo association prohibit renting out a unit?",
+        "How is a Georgia condo different from a HOA for rental rules?",
+        "Does SB 406 protect condo landlords from rental restrictions?",
+        "What is a rental cap in a condo association?",
+        "What should I look for in a condo declaration before buying to rent?",
+        "Are there CSRA condo communities where rental investment works well?",
+        "If a condo adopts a new rental restriction can I be forced to evict my tenant?",
+        "What due diligence checklist for condo rental purchase?"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 4,
+      "wordCount": 2600,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "imageStatus": "none — Imagen API key invalid (38th consecutive run; API_KEY_INVALID — URGENT: escalate to Noah)"
     }
   ]
 }

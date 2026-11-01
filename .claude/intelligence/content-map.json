@@ -229,15 +229,15 @@
       ]
     },
     "hoa": {
-      "coverage": 0.74,
+      "coverage": 0.85,
       "authority": "high",
       "posts": [
         "georgia-hoa-rental-restrictions-csra-landlords",
         "hoa-violation-tenant-rental-property-georgia-landlord",
-        "hoa-rental-rules-evans-grovetown-pcs-landlords"
+        "hoa-rental-rules-evans-grovetown-pcs-landlords",
+        "condo-association-rental-rules-georgia-csra-landlords"
       ],
       "gaps": [
-        "HOA condo association rental rules (Georgia Condominium Act \u2014 separate from POAA)",
         "Specific Evans/Grovetown subdivision rental cap survey"
       ]
     },
@@ -279,12 +279,12 @@
     "insurance: flood and windstorm exposure for CSRA rental properties (P3/P4)",
     "leasing-screening: move-in inspection done right \u2014 liability documentation for CSRA landlords (P3)",
     "investing: BRRRR feasibility in the CSRA \u2014 buy, rehab, rent, refinance, repeat (P4)",
-    "hoa: HOA condo association rental rules \u2014 Georgia Condominium Act vs POAA differences (P3)",
     "market-reports: Martinez GA rental investor guide \u2014 only tenant guide exists (P4)",
     "rent-collection-pricing: first-time landlord rent pricing calculator post (P2)",
-    "investing: cap rate vs cash-on-cash return explainer with Augusta examples (P3/P4)"
+    "investing: cap rate vs cash-on-cash return explainer with Augusta examples (P3/P4)",
+    "hoa: Specific Evans/Grovetown subdivision rental cap survey \u2014 which communities have active caps (P1/P3)"
   ],
   "notes": {
-    "imagen_api_key": "API key invalid for 32 consecutive runs (2026-07-22 through 2026-10-26). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
+    "imagen_api_key": "API key invalid for 38 consecutive runs (2026-07-22 through 2026-11-01). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
   }
 }
