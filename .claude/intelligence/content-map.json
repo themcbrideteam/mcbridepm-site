@@ -142,14 +142,15 @@
       ]
     },
     "rent-collection-pricing": {
-      "coverage": 0.76,
+      "coverage": 0.83,
       "authority": "high",
       "posts": [
         "how-to-price-rental-property-augusta-ga",
         "when-to-raise-rent-augusta-rental-property",
         "georgia-tenant-late-rent-landlord-guide",
         "lease-renewal-pricing-csra-rental-property-owners",
-        "csra-property-manager-rent-collection-owner-distributions"
+        "csra-property-manager-rent-collection-owner-distributions",
+        "first-time-landlord-rental-pricing-csra-augusta-ga"
       ],
       "gaps": []
     },
@@ -280,11 +281,11 @@
     "leasing-screening: move-in inspection done right \u2014 liability documentation for CSRA landlords (P3)",
     "investing: BRRRR feasibility in the CSRA \u2014 buy, rehab, rent, refinance, repeat (P4)",
     "market-reports: Martinez GA rental investor guide \u2014 only tenant guide exists (P4)",
-    "rent-collection-pricing: first-time landlord rent pricing calculator post (P2)",
     "investing: cap rate vs cash-on-cash return explainer with Augusta examples (P3/P4)",
-    "hoa: Specific Evans/Grovetown subdivision rental cap survey \u2014 which communities have active caps (P1/P3)"
+    "hoa: Specific Evans/Grovetown subdivision rental cap survey \u2014 which communities have active caps (P1/P3)",
+    "accidental-landlord: rent-or-self-manage decision framework for first-time Columbia County owners (P2)"
   ],
   "notes": {
-    "imagen_api_key": "API key invalid for 38 consecutive runs (2026-07-22 through 2026-11-01). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
+    "imagen_api_key": "API key invalid for 39 consecutive runs (2026-07-22 through 2026-11-02). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
   }
 }

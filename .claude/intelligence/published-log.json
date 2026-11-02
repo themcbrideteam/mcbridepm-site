@@ -3497,6 +3497,58 @@
       ],
       "type": "new",
       "imageStatus": "none — Imagen API key invalid (38th consecutive run; API_KEY_INVALID — URGENT: escalate to Noah)"
+    },
+    {
+      "slug": "first-time-landlord-rental-pricing-csra-augusta-ga",
+      "title": "How to Price Your First Rental Property in the Augusta, GA Area",
+      "date": "2026-11-02",
+      "cluster": "rent-collection-pricing",
+      "subtopic": "first-time rental pricing — comparable data methodology, feature adjustments, vacancy cost math, seasonal timing, emotional pricing traps",
+      "persona": "P2",
+      "intent": "educational/decision-support/conversion — accidental landlord who needs to price their first rental correctly",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Augusta",
+        "Martinez",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "how to price rental property first time Georgia",
+      "entities": [
+        "Zillow ZORI",
+        "Zumper rent research",
+        "HUD Fair Market Rent Augusta-Richmond County",
+        "Fort Gordon",
+        "Wellstar Columbia County Medical Center",
+        "Savannah River Site",
+        "Columbia County School District",
+        "Evans GA ZIP 30809",
+        "Grovetown GA ZIP 30813",
+        "Martinez GA ZIP 30907",
+        "Noah McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "How do I find comparable rental prices in Evans or Grovetown GA?",
+        "What is average rent for a 3-bedroom home in Augusta area?",
+        "Can I charge whatever I want for rent in Georgia?",
+        "Should I price my rental at or above my mortgage payment?",
+        "How does seasonal timing affect CSRA rental pricing?",
+        "What is the difference between market rent and HUD FMR?",
+        "Does a property manager help me price my first rental correctly?",
+        "What factors affect rental pricing in Evans vs Augusta proper?"
+      ],
+      "internalLinks": 11,
+      "externalCitations": 3,
+      "wordCount": 2650,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none — Imagen API key invalid (39th consecutive run; API_KEY_INVALID — URGENT: escalate to Noah)"
     }
   ]
 }
