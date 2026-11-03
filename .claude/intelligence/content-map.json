@@ -5,7 +5,8 @@
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
       "imagen_api_key": "API key invalid for 34 consecutive runs (2026-07-22 through 2026-10-31). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key needs rotation \u2014 URGENT: escalate to Noah."
-    }
+    },
+    "lastUpdated": "2026-11-03"
   },
   "clusters": {
     "taxes": {
@@ -210,7 +211,7 @@
       "gaps": []
     },
     "city-guides": {
-      "coverage": 0.85,
+      "coverage": 0.87,
       "authority": "high",
       "posts": [
         "renting-in-augusta",
@@ -222,11 +223,11 @@
         "renting-in-hephzibah-ga-tenant-guide",
         "renting-in-aiken-sc-tenant-guide",
         "appling-ga-rental-investment-north-columbia-county",
-        "grovetown-ga-rental-market-investor-guide-2026"
+        "grovetown-ga-rental-market-investor-guide-2026",
+        "martinez-ga-rental-market-investor-guide-2026"
       ],
       "gaps": [
-        "Augusta owner/investor city guide (current ones are tenant-facing)",
-        "Martinez GA investor guide (only tenant guide exists)"
+        "Augusta owner/investor city guide (current ones are tenant-facing)"
       ]
     },
     "hoa": {

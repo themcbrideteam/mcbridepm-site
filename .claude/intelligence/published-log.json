@@ -3447,9 +3447,9 @@
       "title": "Condo Association Rental Rules in Georgia: CSRA Landlord Guide",
       "date": "2026-11-01",
       "cluster": "hoa",
-      "subtopic": "Georgia Condominium Act vs POAA rental restrictions — grandfathering asymmetry, SB 406 scope, rental caps, board approval, CSRA condo market concentrations, pre-purchase due diligence",
+      "subtopic": "Georgia Condominium Act vs POAA rental restrictions \u2014 grandfathering asymmetry, SB 406 scope, rental caps, board approval, CSRA condo market concentrations, pre-purchase due diligence",
       "persona": "P3",
-      "intent": "educational/legal-reference/conversion — small intentional landlord evaluating or already owning a CSRA condo unit as a rental",
+      "intent": "educational/legal-reference/conversion \u2014 small intentional landlord evaluating or already owning a CSRA condo unit as a rental",
       "cities": [
         "Augusta",
         "Evans",
@@ -3460,14 +3460,14 @@
       ],
       "primaryKeyword": "Georgia condo association rental rules landlord",
       "entities": [
-        "O.C.G.A. § 44-3-70 et seq. (Georgia Condominium Act)",
-        "O.C.G.A. § 44-3-220 et seq. (Georgia POAA)",
-        "O.C.G.A. § 44-3-226",
-        "O.C.G.A. § 44-3-76",
-        "O.C.G.A. § 44-5-60",
+        "O.C.G.A. \u00a7 44-3-70 et seq. (Georgia Condominium Act)",
+        "O.C.G.A. \u00a7 44-3-220 et seq. (Georgia POAA)",
+        "O.C.G.A. \u00a7 44-3-226",
+        "O.C.G.A. \u00a7 44-3-76",
+        "O.C.G.A. \u00a7 44-5-60",
         "SB 406 / Act 715 (Georgia Property Owners' Bill of Rights Act)",
         "Georgia Secretary of State Property Owners' Associations Division",
-        "South Carolina Horizontal Property Act (S.C. Code § 27-31-10)",
+        "South Carolina Horizontal Property Act (S.C. Code \u00a7 27-31-10)",
         "FHA condo loan eligibility",
         "Fannie Mae condo eligibility",
         "Evans GA ZIP 30809",
@@ -3496,16 +3496,16 @@
         "FAQPage"
       ],
       "type": "new",
-      "imageStatus": "none — Imagen API key invalid (38th consecutive run; API_KEY_INVALID — URGENT: escalate to Noah)"
+      "imageStatus": "none \u2014 Imagen API key invalid (38th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
     },
     {
       "slug": "first-time-landlord-rental-pricing-csra-augusta-ga",
       "title": "How to Price Your First Rental Property in the Augusta, GA Area",
       "date": "2026-11-02",
       "cluster": "rent-collection-pricing",
-      "subtopic": "first-time rental pricing — comparable data methodology, feature adjustments, vacancy cost math, seasonal timing, emotional pricing traps",
+      "subtopic": "first-time rental pricing \u2014 comparable data methodology, feature adjustments, vacancy cost math, seasonal timing, emotional pricing traps",
       "persona": "P2",
-      "intent": "educational/decision-support/conversion — accidental landlord who needs to price their first rental correctly",
+      "intent": "educational/decision-support/conversion \u2014 accidental landlord who needs to price their first rental correctly",
       "cities": [
         "Evans",
         "Grovetown",
@@ -3548,7 +3548,41 @@
         "HowTo"
       ],
       "type": "new",
-      "imageStatus": "none — Imagen API key invalid (39th consecutive run; API_KEY_INVALID — URGENT: escalate to Noah)"
+      "imageStatus": "none \u2014 Imagen API key invalid (39th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
+    },
+    {
+      "slug": "martinez-ga-rental-market-investor-guide-2026",
+      "title": "Martinez, GA Rental Market 2026: An Investor's Complete Guide",
+      "date": "2026-11-03",
+      "cluster": "city-guides",
+      "subtopic": "martinez-submarket-investor-guide",
+      "persona": "P4",
+      "intent": "invest",
+      "cities": [
+        "Martinez",
+        "Columbia County",
+        "Evans",
+        "Grovetown"
+      ],
+      "primaryKeyword": "Martinez GA rental market 2026 investors",
+      "entities": [
+        "Martinez GA",
+        "ZIP 30907",
+        "Columbia County School District",
+        "Fort Gordon",
+        "Savannah River Site",
+        "Augusta University Medical Center",
+        "Washington Road"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 5,
+      "wordCount": 2200,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "imageStatus": "none \u2014 Imagen API key invalid (API_KEY_INVALID)"
     }
   ]
 }
