@@ -18,67 +18,42 @@ breadcrumbs:
       </div>
       <h1>Homes for Rent in Augusta, Evans &amp; Aiken</h1>
       <p>Browse every home we have available across the CSRA, schedule a showing, and apply online.</p>
-      <p style="margin-top: 1rem;"><a href="{{ site.rentalsListings }}" class="btn btn-primary">View All Available Homes</a> <a href="{{ site.residentPortal }}" class="btn btn-outline" style="margin-left: .5rem;">Resident Portal</a></p>
+      <p style="margin-top: 1rem;"><a href="#listings" class="btn btn-primary">View Available Homes</a> <a href="{{ site.residentPortal }}" class="btn btn-outline" style="margin-left: .5rem;">Resident Portal</a></p>
     </div>
   </div>
 
   <!-- Listings Section -->
   <div class="content-section">
     <div class="container">
-      <!-- Tenant Turner Listings Widget (light by design: it sits on a white board) -->
-      <div class="listing-board"><div id="ttWidget"></div></div>
+      <!-- Boom listings (BoomCRM). Showings, ID checks, and applications all happen inside the
+           widget. Keep allow="camera; microphone": Boom asks for a photo ID and selfie before a
+           self-guided showing, and netlify.toml's Permissions-Policy has to allow boom.rent too. -->
+      <div class="listing-board listing-board--boom" id="listings">
+        <iframe data-boom-embed src="{{ site.rentalsListings }}" id="boom-iframe" style="height:90vh;width:100%" title="Available rental homes" frameborder="0" allow="camera; microphone"></iframe>
+      </div>
       <script>
-        try {
-          window.tenantTurnerListingsWidget = {
-            connection: { customer_id: 36015, user_id: null },
-            environment: { root_path: 'https://app.tenantturner.com' },
-            tracking: {},
-            options: {
-              appearance__theme_color: '060644',
-              appearance__map_enabled: 0,
-              appearance__map_height: '800',
-              appearance__map_width: '100',
-              appearance__map_view: 'show_listings_first',
-              appearance__application_enabled: 1,
-              appearance__application_display_type: 'link',
-              appearance__waitlist_enabled: 1,
-              appearance__description_enabled: 1,
-              search__search_enabled: 1,
-              search__default_value: '',
-              filter__filter_enabled: 1,
-              filter__city_default_value: '',
-              filter__state_default_value: '',
-              filter__property_type_default_value: '',
-              filter__bedrooms_default_value: '',
-              filter__baths_default_value: '',
-              filter__pets_default_value: '',
-              sort__sort_enabled: 1,
-              sort__default_value: 'Most Recent'
-            }
-          };
-        } catch (err) { if (console) { console.warn('TT widget error: ' + err); } }
-        try {
-          (function () {
-            var w = window;
-            var tt = w.TenantTurner;
-            if (typeof tt !== "function") {
-              var d = document;
-              function l() {
-                var s = d.createElement('script');
-                s.type = 'text/javascript';
-                s.async = true;
-                s.src = window.tenantTurnerListingsWidget.environment.root_path + '/widget/widget.js';
-                var x = d.getElementById('ttWidget');
-                x.parentNode.insertBefore(s, x);
-              }
-              if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); }
-            }
-          })()
-        } catch (err) { if (console) { console.warn('TT widget error: ' + err); } }
+        /* Pass ad-click tags (gclid, utm_*) from this page's URL into the widget so Boom stores them on the lead. */
+        (function () {
+          var KEYS = ["gclid", "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content"];
+          var pageParams = new URLSearchParams(window.location.search);
+          document.querySelectorAll("iframe[data-boom-embed]").forEach(function (frame) {
+            try {
+              var src = new URL(frame.getAttribute("src"), window.location.href);
+              var changed = false;
+              KEYS.forEach(function (key) {
+                var value = pageParams.get(key);
+                if (value) { src.searchParams.set(key, value); changed = true; }
+              });
+              if (changed) frame.setAttribute("src", src.toString());
+            } catch (e) { /* leave the iframe untouched */ }
+          });
+        })();
       </script>
+      <!-- Sizes the widget to its content and bridges form submits to the data layer. Must load from boom.rent. -->
+      <script src="https://boom.rent/boom-embed.js?handoffMode=auto-height" async></script>
       <div class="listing-help">
-        <p style="margin: 0 0 .75rem; color: var(--ink-soft);">Listings not loading, or want to see everything in one list?</p>
-        <a href="{{ site.rentalsListings }}" class="btn btn-primary">See All Available Homes &rarr;</a>
+        <p style="margin: 0 0 .75rem; color: var(--ink-soft);">Listings not loading? Open them on their own page.</p>
+        <a href="{{ site.rentalsListings }}" class="btn btn-primary" target="_blank" rel="noopener">See All Available Homes &rarr;</a>
         <p style="margin: .75rem 0 0; color: var(--ink-soft); font-size: .85rem;">Questions about a home? Call <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a> or email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
       </div>
 
@@ -96,8 +71,8 @@ breadcrumbs:
         <div class="step">
           <div class="step-number"></div>
           <div class="step-content">
-            <h3>Browse Available Properties</h3>
-            <p>Explore our current listings above. Each property shows the address, bedrooms, bathrooms, square footage, and monthly rent. Click "Apply Now" on any property that interests you.</p>
+            <h3>Browse and Schedule a Showing</h3>
+            <p>Explore our current listings above. Each home shows the address, bedrooms, bathrooms, square footage, and monthly rent. Pick a showing time that works for you. Before a self-guided tour, you'll verify your identity with a photo of your ID and a quick selfie.</p>
           </div>
         </div>
 
@@ -105,7 +80,7 @@ breadcrumbs:
           <div class="step-number"></div>
           <div class="step-content">
             <h3>Submit Your Application</h3>
-            <p>Complete our secure online application through the AppFolio portal. Provide your personal information, employment details, rental history, and references. You'll pay a non-refundable application fee (typically $35-$50) at this time.</p>
+            <p>Click "Apply Now" on the home you want and complete our secure online application. You'll provide your personal information, income, and rental history, and you'll see the non-refundable application fee before you pay it.</p>
           </div>
         </div>
 
@@ -113,7 +88,7 @@ breadcrumbs:
           <div class="step-number"></div>
           <div class="step-content">
             <h3>Screening Review</h3>
-            <p>Our leasing team reviews your application, runs a background check, verifies employment, and contacts previous landlords. This process typically takes 1-3 business days. We'll contact you with the results and next steps.</p>
+            <p>Our leasing team reviews your application, including your credit, background, income, and rental history. This process typically takes 1-3 business days. We'll contact you with the results and next steps.</p>
           </div>
         </div>
 

@@ -73,7 +73,7 @@ The rental application process in Augusta and Columbia County is straightforward
 
 ### Use Self-Guided Showings Wisely
 
-**Smart showings:** Many properties now use platforms like Tenant Turner to offer self-guided tours. These are excellent opportunities to view homes on your timeline, but visit during different times of day (morning, afternoon, evening) to get a true sense of the neighborhood and surrounding area.
+**Smart showings:** Many properties now offer self-guided tours you can book online. These are excellent opportunities to view homes on your timeline, but visit during different times of day (morning, afternoon, evening) to get a true sense of the neighborhood and surrounding area.
 
 ### Ask Clear Questions
 

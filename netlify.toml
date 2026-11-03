@@ -11,7 +11,8 @@
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "SAMEORIGIN"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    # Boom's listings widget (/rentals/) needs the camera for its photo-ID check before showings
+    Permissions-Policy = 'camera=(self "https://boom.rent"), microphone=(self "https://boom.rent"), geolocation=()'
 
 [[headers]]
   for = "/images/*"

@@ -17,14 +17,14 @@ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 const results = [];
 const ok = (name, pass, detail = '') => { results.push({ name, pass, detail }); console.log(`${pass ? 'PASS' : 'FAIL'}  ${name}${detail && !pass ? '  — ' + detail : ''}`); };
 const IPHONE = 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1';
-// Third parties that aren't the site: analytics, the listings widget, Netlify's preview toolbar
-const NOISE = /googletagmanager|google-analytics|analytics\.google|tenantturner|app\.netlify\.com|bugsnag|netlify-cdp|fonts\.g/;
+// Third parties that aren't the site: analytics, the Boom listings widget, Netlify's preview toolbar
+const NOISE = /googletagmanager|google-analytics|analytics\.google|boom\.rent|boompay|app\.netlify\.com|bugsnag|netlify-cdp|fonts\.g/;
 
 async function newPage(vp, { mobile = false } = {}) {
   const page = await browser.newPage();
   const state = { errors: [], posts: [] };
   page.on('pageerror', e => state.errors.push('pageerror: ' + e.message));
-  page.on('console', m => { if (m.type() === 'error' && !/Failed to load resource|tenantturner|TT widget/i.test(m.text())) state.errors.push('console: ' + m.text()); });
+  page.on('console', m => { if (m.type() === 'error' && !/Failed to load resource|boom\.rent|boompay/i.test(m.text())) state.errors.push('console: ' + m.text()); });
   await page.setRequestInterception(true);
   page.on('request', r => {
     const u = r.url();

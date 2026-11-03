@@ -287,6 +287,10 @@ main a.portal-btn { text-decoration: none; }
   background: #fff; color: #222; border-radius: 22px; padding: clamp(0.8rem, 2.5vw, 1.6rem);
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.4); min-height: 320px;
 }
+/* Boom's widget is its own white page and sizes itself (boom-embed.js auto-height),
+   so the board drops its padding and only clips the corners; never give it a fixed height */
+.listing-board--boom { padding: 0; overflow: hidden; scroll-margin-top: 96px; }
+.listing-board--boom iframe { display: block; border: 0; }
 .listing-help {
   margin-top: 2rem; padding: 1.6rem; text-align: center; border-radius: 18px;
   background: var(--panel); border: 1px solid var(--line);
