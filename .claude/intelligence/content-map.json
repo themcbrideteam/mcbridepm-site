@@ -4,9 +4,9 @@
     "builtFrom": "118 live posts in src/blog/ as of 2026-10-30",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
-      "imagen_api_key": "API key invalid for 34 consecutive runs (2026-07-22 through 2026-10-31). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key needs rotation \u2014 URGENT: escalate to Noah."
+      "imagen_api_key": "API key invalid for 40 consecutive runs (2026-07-22 through 2026-11-04). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
     },
-    "lastUpdated": "2026-11-03"
+    "lastUpdated": "2026-11-04"
   },
   "clusters": {
     "taxes": {
@@ -113,17 +113,16 @@
       "gaps": []
     },
     "insurance": {
-      "coverage": 0.82,
+      "coverage": 0.91,
       "authority": "high",
       "posts": [
         "landlord-insurance-georgia-rental-property-guide",
         "renters-insurance-georgia-what-it-covers",
         "renters-insurance-requirements-csra-landlords-georgia",
-        "umbrella-insurance-rental-property-georgia-csra"
+        "umbrella-insurance-rental-property-georgia-csra",
+        "flood-windstorm-insurance-csra-rental-property-investor-guide"
       ],
-      "gaps": [
-        "flood / windstorm exposure for CSRA rentals"
-      ]
+      "gaps": []
     },
     "leasing-screening": {
       "coverage": 0.82,
@@ -278,15 +277,15 @@
     "taxes: cost segregation for SFR rental property Georgia (P4)",
     "city-guides: Augusta owner/investor city guide \u2014 demand drivers, cap rates, submarket comparison (P4)",
     "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) \u2014 publish after DoD December announcement",
-    "insurance: flood and windstorm exposure for CSRA rental properties (P3/P4)",
     "leasing-screening: move-in inspection done right \u2014 liability documentation for CSRA landlords (P3)",
     "investing: BRRRR feasibility in the CSRA \u2014 buy, rehab, rent, refinance, repeat (P4)",
-    "market-reports: Martinez GA rental investor guide \u2014 only tenant guide exists (P4)",
     "investing: cap rate vs cash-on-cash return explainer with Augusta examples (P3/P4)",
     "hoa: Specific Evans/Grovetown subdivision rental cap survey \u2014 which communities have active caps (P1/P3)",
-    "accidental-landlord: rent-or-self-manage decision framework for first-time Columbia County owners (P2)"
+    "accidental-landlord: rent-or-self-manage decision framework for first-time Columbia County owners (P2)",
+    "tenant-education: how to negotiate a lease renewal in Georgia \u2014 tenant perspective (P5)",
+    "market-reports: rent growth and vacancy trend recap Q3-Q4 2026 (P3/P4)"
   ],
   "notes": {
-    "imagen_api_key": "API key invalid for 39 consecutive runs (2026-07-22 through 2026-11-02). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
+    "imagen_api_key": "API key invalid for 40 consecutive runs (2026-07-22 through 2026-11-04). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
   }
 }

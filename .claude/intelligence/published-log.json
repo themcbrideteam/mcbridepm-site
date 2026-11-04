@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 118
+    "totalPosts": 123
   },
   "posts": [
     {
@@ -3583,6 +3583,51 @@
       ],
       "type": "new",
       "imageStatus": "none \u2014 Imagen API key invalid (API_KEY_INVALID)"
+    },
+    {
+      "slug": "flood-windstorm-insurance-csra-rental-property-investor-guide",
+      "title": "Flood and Windstorm Insurance for CSRA Rentals: Closing the Coverage Gap",
+      "date": "2026-11-04",
+      "cluster": "insurance",
+      "subtopic": "flood and windstorm coverage gaps for CSRA rental properties",
+      "persona": "P4",
+      "intent": "gap-fill \u2014 flood/windstorm exposure in the CSRA insurance cluster",
+      "cities": ["Augusta", "Evans", "Grovetown", "Martinez", "North Augusta", "Aiken"],
+      "primaryKeyword": "flood insurance rental property Augusta GA",
+      "entities": [
+        "Savannah River",
+        "Augusta-Richmond County",
+        "Columbia County",
+        "Aiken County",
+        "FEMA NFIP",
+        "Risk Rating 2.0",
+        "Zone AE",
+        "Zone A",
+        "Zone X",
+        "Fort Gordon",
+        "Savannah River Site",
+        "Georgia SB 35",
+        "O.C.G.A. \u00a7 33-24-46",
+        "USGS"
+      ],
+      "questionsAnswered": [
+        "Does standard landlord insurance cover flood in Georgia?",
+        "What FEMA flood zones exist in the CSRA?",
+        "When is NFIP flood insurance required for a CSRA rental?",
+        "What does windstorm coverage include and what are named-storm deductibles?",
+        "What is Georgia SB 35 and how does it affect landlords?",
+        "NFIP vs private flood insurance for rental property",
+        "Pre-purchase flood/insurance due diligence checklist"
+      ],
+      "internalLinks": 14,
+      "externalCitations": 6,
+      "wordCount": 2700,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "imageStatus": "none \u2014 Imagen API key invalid (API_KEY_INVALID) for 40th consecutive run"
     }
   ]
 }
