@@ -4,9 +4,9 @@
     "builtFrom": "118 live posts in src/blog/ as of 2026-10-30",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
-      "imagen_api_key": "API key invalid for 40 consecutive runs (2026-07-22 through 2026-11-04). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
+      "imagen_api_key": "API key invalid for 41 consecutive runs (2026-07-22 through 2026-11-05). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
     },
-    "lastUpdated": "2026-11-04"
+    "lastUpdated": "2026-11-05"
   },
   "clusters": {
     "taxes": {
@@ -100,7 +100,7 @@
       ]
     },
     "accidental-landlord": {
-      "coverage": 0.92,
+      "coverage": 0.94,
       "authority": "high",
       "posts": [
         "accidental-landlord-augusta-ga-what-to-do",
@@ -108,7 +108,8 @@
         "inherited-rental-property-existing-tenants-georgia",
         "rent-or-sell-inherited-home-georgia-augusta",
         "converting-primary-residence-to-rental-georgia-checklist",
-        "divorce-rental-property-georgia-csra-landlords"
+        "divorce-rental-property-georgia-csra-landlords",
+        "self-manage-vs-hire-property-manager-csra-accidental-landlord"
       ],
       "gaps": []
     },
@@ -281,11 +282,8 @@
     "investing: BRRRR feasibility in the CSRA \u2014 buy, rehab, rent, refinance, repeat (P4)",
     "investing: cap rate vs cash-on-cash return explainer with Augusta examples (P3/P4)",
     "hoa: Specific Evans/Grovetown subdivision rental cap survey \u2014 which communities have active caps (P1/P3)",
-    "accidental-landlord: rent-or-self-manage decision framework for first-time Columbia County owners (P2)",
     "tenant-education: how to negotiate a lease renewal in Georgia \u2014 tenant perspective (P5)",
-    "market-reports: rent growth and vacancy trend recap Q3-Q4 2026 (P3/P4)"
-  ],
-  "notes": {
-    "imagen_api_key": "API key invalid for 40 consecutive runs (2026-07-22 through 2026-11-04). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
-  }
+    "market-reports: rent growth and vacancy trend recap Q3-Q4 2026 (P3/P4)",
+    "military-pcs: What to look for in a Fort Gordon property manager \u2014 P1 buyer-guide for the PM selection decision"
+  ]
 }

@@ -3628,6 +3628,50 @@
       ],
       "type": "new",
       "imageStatus": "none \u2014 Imagen API key invalid (API_KEY_INVALID) for 40th consecutive run"
+    },
+    {
+      "slug": "self-manage-vs-hire-property-manager-csra-accidental-landlord",
+      "title": "Self-Manage or Hire a Property Manager? A CSRA Landlord's Decision Guide",
+      "date": "2026-11-05",
+      "cluster": "accidental-landlord",
+      "subtopic": "self-manage vs hire property manager \u2014 decision framework for CSRA accidental landlords",
+      "persona": "P2",
+      "intent": "decision-framework/conversion",
+      "cities": ["Evans", "Grovetown", "Martinez", "Augusta", "North Augusta", "Columbia County", "Richmond County"],
+      "primaryKeyword": "self-manage rental property Augusta GA",
+      "entities": [
+        "Zillow Research March 2026 accidental landlord study",
+        "Georgia HB 399 (Act 315)",
+        "O.C.G.A. \u00a7 44-7-33",
+        "O.C.G.A. \u00a7 44-7-34",
+        "O.C.G.A. \u00a7 44-7-35",
+        "Safe at Home Act (HB 404)",
+        "Fair Credit Reporting Act (15 U.S.C. \u00a7\u00a7 1681 et seq.)",
+        "O.C.G.A. Title 43-40",
+        "Fort Gordon",
+        "Evans GA",
+        "Grovetown GA",
+        "Columbia County",
+        "CSRA",
+        "Noah McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "Should I self-manage my CSRA rental or hire a property manager?",
+        "How much does a property manager cost in Augusta GA?",
+        "Can I self-manage my Georgia rental if I live out of state?",
+        "What is Georgia HB 399 and does it affect self-managing landlords?",
+        "How many hours per month does it take to self-manage?",
+        "What is the biggest mistake first-time CSRA landlords make when self-managing?",
+        "When should I switch from self-managing to a property manager?",
+        "Does a property manager save money compared to self-managing?"
+      ],
+      "internalLinks": 19,
+      "externalCitations": 4,
+      "wordCount": 2750,
+      "schema": ["BlogPosting", "FAQPage"],
+      "type": "new",
+      "imageStatus": "none \u2014 Imagen API key invalid (41st consecutive run; API_KEY_INVALID \u2014 escalation needed)"
     }
   ]
 }
