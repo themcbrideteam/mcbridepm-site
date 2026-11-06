@@ -3672,6 +3672,55 @@
       "schema": ["BlogPosting", "FAQPage"],
       "type": "new",
       "imageStatus": "none \u2014 Imagen API key invalid (41st consecutive run; API_KEY_INVALID \u2014 escalation needed)"
+    },
+    {
+      "slug": "brrrr-strategy-csra-augusta-ga-rental-investor-guide",
+      "title": "BRRRR Strategy in Augusta, GA: Does the CSRA Math Work in 2026?",
+      "date": "2026-11-06",
+      "cluster": "investing",
+      "subtopic": "BRRRR strategy feasibility in CSRA \u2014 ARV targets, rehab costs, DSCR refinance math, repeat cycle",
+      "persona": "P4",
+      "intent": "investment-research/education",
+      "cities": ["Grovetown", "Evans", "Augusta", "Martinez", "North Augusta", "Columbia County", "Richmond County", "Aiken County"],
+      "primaryKeyword": "BRRRR strategy Augusta GA",
+      "entities": [
+        "O.C.G.A. Title 43",
+        "O.C.G.A. \u00a7 44-7-33",
+        "Georgia Safe at Home Act (HB 404)",
+        "Servicemembers Civil Relief Act (SCRA)",
+        "DSCR loan",
+        "Alliance for Fort Gordon",
+        "Fort Gordon",
+        "Savannah River Site",
+        "Plant Vogtle",
+        "Augusta University Medical Center",
+        "Wellstar MCG",
+        "SFR Analytics",
+        "WRDW September 2026",
+        "Evans GA ZIP 30809",
+        "Grovetown GA ZIP 30813",
+        "Martinez GA ZIP 30907",
+        "North Augusta SC ZIP 29841",
+        "Aiken SC ZIP 29803",
+        "Noah McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "Does BRRRR strategy work in Augusta GA in 2026?",
+        "What ARV percentage to target for BRRRR in CSRA?",
+        "What DSCR loan rates are CSRA investors seeing in 2026?",
+        "What neighborhoods in Augusta GA are best for BRRRR investing?",
+        "What rehab costs to budget for BRRRR in CSRA?",
+        "How long does a BRRRR rehab take in Augusta GA?",
+        "What is typical cash-on-cash return for BRRRR in Augusta?",
+        "Do I need a property manager for a BRRRR rental in CSRA?"
+      ],
+      "internalLinks": 9,
+      "externalCitations": 5,
+      "wordCount": 2650,
+      "schema": ["BlogPosting", "FAQPage"],
+      "type": "new",
+      "imageStatus": "none \u2014 Imagen API key invalid (42nd consecutive run; API_KEY_INVALID)"
     }
   ]
 }

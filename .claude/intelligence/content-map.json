@@ -6,7 +6,7 @@
     "notes": {
       "imagen_api_key": "API key invalid for 41 consecutive runs (2026-07-22 through 2026-11-05). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
     },
-    "lastUpdated": "2026-11-05"
+    "lastUpdated": "2026-11-06"
   },
   "clusters": {
     "taxes": {
@@ -62,7 +62,7 @@
       "refreshFlags": []
     },
     "investing": {
-      "coverage": 0.87,
+      "coverage": 0.91,
       "authority": "high",
       "posts": [
         "1031-exchange-basics-augusta-rental-investors",
@@ -72,11 +72,11 @@
         "out-of-state-rental-investor-guide-augusta-ga",
         "llc-rental-property-augusta-georgia",
         "capex-planning-csra-rental-properties",
-        "first-rental-property-csra-step-by-step-guide"
+        "first-rental-property-csra-step-by-step-guide",
+        "brrrr-strategy-csra-augusta-ga-rental-investor-guide"
       ],
       "gaps": [
         "cap rate vs cash-on-cash explainer with Augusta examples",
-        "BRRRR feasibility in the CSRA",
         "financing options compared (conventional vs DSCR vs portfolio)"
       ]
     },
@@ -279,11 +279,11 @@
     "city-guides: Augusta owner/investor city guide \u2014 demand drivers, cap rates, submarket comparison (P4)",
     "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) \u2014 publish after DoD December announcement",
     "leasing-screening: move-in inspection done right \u2014 liability documentation for CSRA landlords (P3)",
-    "investing: BRRRR feasibility in the CSRA \u2014 buy, rehab, rent, refinance, repeat (P4)",
     "investing: cap rate vs cash-on-cash return explainer with Augusta examples (P3/P4)",
     "hoa: Specific Evans/Grovetown subdivision rental cap survey \u2014 which communities have active caps (P1/P3)",
     "tenant-education: how to negotiate a lease renewal in Georgia \u2014 tenant perspective (P5)",
     "market-reports: rent growth and vacancy trend recap Q3-Q4 2026 (P3/P4)",
-    "military-pcs: What to look for in a Fort Gordon property manager \u2014 P1 buyer-guide for the PM selection decision"
+    "military-pcs: What to look for in a Fort Gordon property manager \u2014 P1 buyer-guide for the PM selection decision",
+    "investing: financing options compared (conventional vs DSCR vs portfolio loan) for CSRA rental investors (P4)"
   ]
 }
