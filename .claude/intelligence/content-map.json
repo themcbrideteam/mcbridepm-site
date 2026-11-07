@@ -6,7 +6,7 @@
     "notes": {
       "imagen_api_key": "API key invalid for 41 consecutive runs (2026-07-22 through 2026-11-05). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
     },
-    "lastUpdated": "2026-11-06"
+    "lastUpdated": "2026-11-07"
   },
   "clusters": {
     "taxes": {
@@ -44,7 +44,7 @@
       "gaps": []
     },
     "military-pcs": {
-      "coverage": 0.87,
+      "coverage": 0.91,
       "authority": "high",
       "posts": [
         "fort-eisenhower-military-tenant-rental-demand-augusta",
@@ -54,10 +54,11 @@
         "moving-to-augusta-ga-rental-tips-military-families",
         "scra-lease-termination-fort-gordon-landlord-guide",
         "section-121-military-exception-fort-gordon-pcs-landlords",
-        "fort-gordon-military-tenant-rental-demand-augusta"
+        "fort-gordon-military-tenant-rental-demand-augusta",
+        "choosing-property-manager-fort-gordon-pcs-landlord"
       ],
       "gaps": [
-        "BAH 2027 rate-change impact on CSRA rents"
+        "BAH 2027 rate-change impact on CSRA rents — publish after DoD December announcement"
       ],
       "refreshFlags": []
     },
@@ -283,7 +284,6 @@
     "hoa: Specific Evans/Grovetown subdivision rental cap survey \u2014 which communities have active caps (P1/P3)",
     "tenant-education: how to negotiate a lease renewal in Georgia \u2014 tenant perspective (P5)",
     "market-reports: rent growth and vacancy trend recap Q3-Q4 2026 (P3/P4)",
-    "military-pcs: What to look for in a Fort Gordon property manager \u2014 P1 buyer-guide for the PM selection decision",
     "investing: financing options compared (conventional vs DSCR vs portfolio loan) for CSRA rental investors (P4)"
   ]
 }

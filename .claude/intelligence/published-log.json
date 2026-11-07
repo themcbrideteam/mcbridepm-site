@@ -3674,6 +3674,63 @@
       "imageStatus": "none \u2014 Imagen API key invalid (41st consecutive run; API_KEY_INVALID \u2014 escalation needed)"
     },
     {
+      "slug": "choosing-property-manager-fort-gordon-pcs-landlord",
+      "title": "How to Choose a Property Manager Before Your Fort Gordon PCS",
+      "date": "2026-11-07",
+      "cluster": "military-pcs",
+      "subtopic": "PM evaluation and selection guide for Fort Gordon PCS landlords — Georgia broker license verification, SCRA fluency test, trust account structure, remote communication protocols, 10-question interview framework, red flags checklist",
+      "persona": "P1",
+      "intent": "buyer-guide/educational/conversion — Fort Gordon PCS landlord selecting a property manager before departure",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "Columbia County",
+        "Fort Gordon"
+      ],
+      "primaryKeyword": "property manager Fort Gordon PCS landlord",
+      "entities": [
+        "O.C.G.A. Title 43 Chapter 40",
+        "O.C.G.A. § 43-40-1",
+        "O.C.G.A. § 43-40-29",
+        "O.C.G.A. § 43-40-30",
+        "O.C.G.A. § 43-40-24",
+        "50 U.S.C. § 3955 (SCRA)",
+        "Georgia Real Estate Commission (GREC)",
+        "NARPM Code of Ethics",
+        "Defense Manpower Data Center (DMDC)",
+        "AppFolio",
+        "Fort Gordon",
+        "Army Cyber Center of Excellence",
+        "Evans GA",
+        "Grovetown GA",
+        "Columbia County Magistrate Court",
+        "Richmond County Magistrate Court",
+        "Noah McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "Does Georgia require a property manager to hold a real estate license?",
+        "What SCRA experience should a Fort Gordon property manager have?",
+        "How do I verify a property manager's license in Georgia?",
+        "What is a maintenance authorization threshold and why does it matter for PCS landlords?",
+        "Can a property manager communicate with me if I'm deployed overseas?",
+        "How much should I budget for property management fees in the CSRA?",
+        "What is the single biggest red flag when interviewing a CSRA property manager?",
+        "How far in advance should I hire a property manager before my PCS date?"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 5,
+      "wordCount": 2650,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "imageStatus": "none — Imagen API key invalid (43rd consecutive run; API_KEY_INVALID — URGENT: escalate to Noah)"
+    },
+    {
       "slug": "brrrr-strategy-csra-augusta-ga-rental-investor-guide",
       "title": "BRRRR Strategy in Augusta, GA: Does the CSRA Math Work in 2026?",
       "date": "2026-11-06",
