@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 123
+    "totalPosts": 124
   },
   "posts": [
     {
@@ -3729,6 +3729,58 @@
       ],
       "type": "new",
       "imageStatus": "none — Imagen API key invalid (43rd consecutive run; API_KEY_INVALID — URGENT: escalate to Noah)"
+    },
+    {
+      "slug": "cap-rate-vs-cash-on-cash-csra-rental-investors-augusta-ga",
+      "title": "Cap Rate vs. Cash-on-Cash Return: Augusta Rental Investor's Guide",
+      "date": "2026-11-08",
+      "cluster": "investing",
+      "subtopic": "cap rate vs cash-on-cash return explainer with Augusta examples — negative leverage, GRM, Columbia County vs Richmond County submarket comparison",
+      "persona": "P3",
+      "intent": "educational/investor-metrics/decision-framework — small intentional landlord who needs to understand both metrics before evaluating a CSRA acquisition",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "cap rate vs cash on cash return rental property Augusta GA",
+      "entities": [
+        "Arbor Q2 2026 SFR Investment Trends Report",
+        "CRE Daily SFR cap rate analysis",
+        "IRS Publication 527",
+        "Fort Gordon",
+        "Savannah River Site",
+        "Wellstar Columbia County Medical Center",
+        "Augusta University Medical Center",
+        "Evans GA ZIP 30809",
+        "Grovetown GA ZIP 30813",
+        "Martinez GA ZIP 30907",
+        "Noah McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "What is a good cap rate for Augusta GA rental property in 2026?",
+        "What is cash-on-cash return and how do I calculate it?",
+        "What is the difference between cap rate and cash-on-cash?",
+        "Can a property have a reasonable cap rate but negative cash flow?",
+        "What CSRA cap rates are realistic in 2026?",
+        "How does the interest rate environment affect cash-on-cash in the CSRA?",
+        "What is a gross rent multiplier and when is it useful?",
+        "Should I focus on cap rate or cash-on-cash when buying in Augusta?"
+      ],
+      "internalLinks": 8,
+      "externalCitations": 3,
+      "wordCount": 2500,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none — Imagen API key invalid (44th consecutive run; API_KEY_INVALID — URGENT: escalate to Noah)"
     },
     {
       "slug": "brrrr-strategy-csra-augusta-ga-rental-investor-guide",

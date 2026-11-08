@@ -6,7 +6,7 @@
     "notes": {
       "imagen_api_key": "API key invalid for 41 consecutive runs (2026-07-22 through 2026-11-05). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
     },
-    "lastUpdated": "2026-11-07"
+    "lastUpdated": "2026-11-08"
   },
   "clusters": {
     "taxes": {
@@ -63,7 +63,7 @@
       "refreshFlags": []
     },
     "investing": {
-      "coverage": 0.91,
+      "coverage": 0.93,
       "authority": "high",
       "posts": [
         "1031-exchange-basics-augusta-rental-investors",
@@ -74,15 +74,15 @@
         "llc-rental-property-augusta-georgia",
         "capex-planning-csra-rental-properties",
         "first-rental-property-csra-step-by-step-guide",
-        "brrrr-strategy-csra-augusta-ga-rental-investor-guide"
+        "brrrr-strategy-csra-augusta-ga-rental-investor-guide",
+        "cap-rate-vs-cash-on-cash-csra-rental-investors-augusta-ga"
       ],
       "gaps": [
-        "cap rate vs cash-on-cash explainer with Augusta examples",
         "financing options compared (conventional vs DSCR vs portfolio)"
       ]
     },
     "market-reports": {
-      "coverage": 0.91,
+      "coverage": 0.93,
       "authority": "high",
       "posts": [
         "augusta-rental-market-mid-2026-update",
@@ -93,11 +93,11 @@
         "csra-rental-market-fall-2026-update-investors",
         "evans-ga-rental-market-investor-guide-2026",
         "aiken-sc-rental-market-investor-guide-2026",
-        "grovetown-ga-rental-market-investor-guide-2026"
+        "grovetown-ga-rental-market-investor-guide-2026",
+        "martinez-ga-rental-market-investor-guide-2026"
       ],
       "gaps": [
-        "rent-growth + vacancy trend recap 2026",
-        "Martinez GA rental market investor guide (only tenant-facing guide exists)"
+        "rent-growth + vacancy trend recap 2026"
       ]
     },
     "accidental-landlord": {
@@ -280,10 +280,11 @@
     "city-guides: Augusta owner/investor city guide \u2014 demand drivers, cap rates, submarket comparison (P4)",
     "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) \u2014 publish after DoD December announcement",
     "leasing-screening: move-in inspection done right \u2014 liability documentation for CSRA landlords (P3)",
-    "investing: cap rate vs cash-on-cash return explainer with Augusta examples (P3/P4)",
     "hoa: Specific Evans/Grovetown subdivision rental cap survey \u2014 which communities have active caps (P1/P3)",
     "tenant-education: how to negotiate a lease renewal in Georgia \u2014 tenant perspective (P5)",
     "market-reports: rent growth and vacancy trend recap Q3-Q4 2026 (P3/P4)",
-    "investing: financing options compared (conventional vs DSCR vs portfolio loan) for CSRA rental investors (P4)"
+    "investing: financing options compared (conventional vs DSCR vs portfolio loan) for CSRA rental investors (P4)",
+    "tenant-education: navigating AppFolio maintenance requests \u2014 what tenants need to know (P5)",
+    "owner-education: year-end financial review for CSRA rental portfolio owners (P3)"
   ]
 }
