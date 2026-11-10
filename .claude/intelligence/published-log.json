@@ -3830,6 +3830,62 @@
       "schema": ["BlogPosting", "FAQPage"],
       "type": "new",
       "imageStatus": "none \u2014 Imagen API key invalid (42nd consecutive run; API_KEY_INVALID)"
+    },
+    {
+      "slug": "move-in-inspection-documentation-csra-landlords-georgia",
+      "title": "Rental Move-In Inspection Documentation for Georgia Landlords",
+      "date": "2026-11-10",
+      "cluster": "leasing-screening",
+      "subtopic": "move-in inspection documentation standards \u2014 photo/video protocol, digital signatures, tenant signature requirements, magistrate court evidentiary standards, O.C.G.A. \u00a7\u00a7 44-7-33 through 44-7-36",
+      "persona": "P3",
+      "intent": "educational/legal-reference/conversion \u2014 small intentional landlord who wants defensible move-in documentation",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "Hephzibah",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "move-in inspection documentation Georgia landlord",
+      "entities": [
+        "O.C.G.A. \u00a7 44-7-33",
+        "O.C.G.A. \u00a7 44-7-34",
+        "O.C.G.A. \u00a7 44-7-35",
+        "O.C.G.A. \u00a7 44-7-36",
+        "O.C.G.A. \u00a7 10-12-1 (Georgia Electronic Records and Signatures Act)",
+        "Columbia County Magistrate Court",
+        "Richmond County Magistrate Court",
+        "AppFolio",
+        "NARPM",
+        "Evans GA ZIP 30809",
+        "Grovetown GA ZIP 30813",
+        "Martinez GA ZIP 30907",
+        "Noah McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "Does Georgia law require a written move-in inspection?",
+        "What does O.C.G.A. \u00a7 44-7-33 require for move-in inspections?",
+        "What happens if tenant refuses to sign move-in inspection in Georgia?",
+        "How many photos should a landlord take at move-in?",
+        "Can video replace a written checklist in Georgia?",
+        "When should the move-in inspection happen?",
+        "How does move-in documentation connect to security deposit deductions?",
+        "What is normal wear and tear vs. tenant damage in Georgia?",
+        "What documentation errors cost CSRA landlords their deposit claims?"
+      ],
+      "internalLinks": 9,
+      "externalCitations": 5,
+      "wordCount": 2650,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none \u2014 Imagen API key invalid (45th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
     }
   ]
 }

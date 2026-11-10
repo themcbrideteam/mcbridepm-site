@@ -6,7 +6,7 @@
     "notes": {
       "imagen_api_key": "API key invalid for 41 consecutive runs (2026-07-22 through 2026-11-05). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
     },
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-10"
   },
   "clusters": {
     "taxes": {
@@ -127,7 +127,7 @@
       "gaps": []
     },
     "leasing-screening": {
-      "coverage": 0.82,
+      "coverage": 0.88,
       "authority": "high",
       "posts": [
         "tenant-screening-process-augusta-ga-landlords",
@@ -137,11 +137,10 @@
         "pet-policy-rental-property-augusta-ga-landlord-guide",
         "marketing-csra-rental-property-lease-fast-augusta-ga",
         "rental-property-showings-csra-landlord-guide",
-        "tenant-screening-criteria-income-credit-csra-landlords"
+        "tenant-screening-criteria-income-credit-csra-landlords",
+        "move-in-inspection-documentation-csra-landlords-georgia"
       ],
-      "gaps": [
-        "move-in inspection done right"
-      ]
+      "gaps": []
     },
     "rent-collection-pricing": {
       "coverage": 0.83,
