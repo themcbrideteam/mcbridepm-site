@@ -3886,6 +3886,59 @@
       ],
       "type": "new",
       "imageStatus": "none \u2014 Imagen API key invalid (45th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
+    },
+    {
+      "slug": "year-end-rental-property-checklist-augusta-ga-landlords",
+      "title": "Year-End Rental Property Checklist for Augusta, GA Landlords",
+      "date": "2026-11-11",
+      "cluster": "owner-education",
+      "subtopic": "year-end financial review \u2014 owner statement reconciliation, NOI calculation, Schedule E prep, maintenance reserve assessment, Q1 renewal decisions, 2027 budget building",
+      "persona": "P3",
+      "intent": "educational/conversion \u2014 small intentional landlord preparing for year-end and planning 2027",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "year-end rental property checklist Augusta GA landlords",
+      "entities": [
+        "IRS Publication 527",
+        "IRS Schedule E",
+        "Form 1099-NEC",
+        "AppFolio",
+        "O.C.G.A. Title 44 Chapter 7",
+        "Fort Gordon",
+        "Wellstar Columbia County Medical Center",
+        "Evans GA ZIP 30809",
+        "Grovetown GA ZIP 30813",
+        "NARPM",
+        "Trulia rent trends",
+        "Noah McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "When should CSRA landlords run their year-end rental review?",
+        "What is the passive activity loss limit for rental property in 2026?",
+        "How do I know if my CSRA rental was profitable this year?",
+        "What maintenance should I schedule before December 31?",
+        "When do I need to send 1099-NEC to vendors?",
+        "How much notice before changing rent in Georgia?",
+        "What should a 2027 rental property budget include?",
+        "How do I pull my year-end owner statement from AppFolio?"
+      ],
+      "internalLinks": 14,
+      "externalCitations": 3,
+      "wordCount": 2850,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none \u2014 Imagen API key invalid (46th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
     }
   ]
 }

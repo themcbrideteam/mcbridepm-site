@@ -6,7 +6,7 @@
     "notes": {
       "imagen_api_key": "API key invalid for 41 consecutive runs (2026-07-22 through 2026-11-05). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
     },
-    "lastUpdated": "2026-11-10"
+    "lastUpdated": "2026-11-11"
   },
   "clusters": {
     "taxes": {
@@ -185,7 +185,7 @@
       "gaps": []
     },
     "owner-education": {
-      "coverage": 0.92,
+      "coverage": 0.95,
       "authority": "high",
       "posts": [
         "why-hire-property-manager",
@@ -193,7 +193,8 @@
         "true-cost-self-managing-rental-property-csra",
         "property-management-fees-augusta-ga-2026",
         "reading-owner-statement-property-management-augusta-ga",
-        "hiring-property-manager-augusta-ga-onboarding-guide"
+        "hiring-property-manager-augusta-ga-onboarding-guide",
+        "year-end-rental-property-checklist-augusta-ga-landlords"
       ],
       "gaps": []
     },
@@ -284,6 +285,6 @@
     "market-reports: rent growth and vacancy trend recap Q3-Q4 2026 (P3/P4)",
     "investing: financing options compared (conventional vs DSCR vs portfolio loan) for CSRA rental investors (P4)",
     "tenant-education: navigating AppFolio maintenance requests \u2014 what tenants need to know (P5)",
-    "owner-education: year-end financial review for CSRA rental portfolio owners (P3)"
+    "owner-education: year-end financial review for CSRA rental portfolio owners (P3) — PUBLISHED 2026-11-11"
   ]
 }
