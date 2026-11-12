@@ -163,6 +163,37 @@ DO NOT cite:
 
 ---
 
+## 4.5 Phase 2.5 — First-hand facts (what only we can say)
+
+Noah's ruling, 2026-11-12: the blog stays daily, and it gets stronger by putting our own data next to the research. A fact a reader can't get from any other site is what makes a post worth citing.
+
+Fetch two public files. A studio job on the `social-studio` branch of this repo rewrites them most days:
+
+```bash
+curl -fsS https://raw.githubusercontent.com/themcbrideteam/mcbridepm-site/social-studio/data/listings-summary.json -o /tmp/listings-summary.json || true
+curl -fsS https://raw.githubusercontent.com/themcbrideteam/mcbridepm-site/social-studio/data/site-facts.json -o /tmp/site-facts.json || true
+```
+
+- `listings-summary.json` — the homes McBride Property Management has listed for rent on `date`, by town and by bedroom count: `homes`, `rent_low`, `rent_high`.
+- `site-facts.json` — the Google rating and review count shown on the live homepage that day.
+
+**Every post carries at least one first-hand element**, placed where it helps the reader and never bolted on. In order of preference:
+
+1. **Our listings, dated.** Best for owner posts about rent, pricing, vacancy, a town, or a PCS decision: "As of November 12, 2026, the three-bedroom homes we have listed in Evans are asking $1,795 to $2,400 a month."
+2. **A real Google review, quoted exactly,** from `src/_data/reviews-fallback.json`, with the name as Google shows it, when the review speaks to the post's topic.
+3. **How we do it.** A process fact this site already states (`src/_data/site.json`, the services page, the owner and resident FAQs): "Owner payments go out by the 10th of the month." Only what the site already says.
+
+Rules for our numbers:
+
+- Use the listings file only if its `date` is within 7 days of today. Otherwise use element 2 or 3.
+- Say what it is: "homes we have listed" and "asking." Never "average rent," "market rent," or "what homes rent for." A few listings aren't a market; a market claim still needs a third-party source from §4.
+- Quote a bedroom group only when it has 2 or more homes. With 1, quote the town's full range. Never an address, and never a single home a reader could identify.
+- Put the date in the sentence.
+- Still banned (CLAUDE.md, Business facts): days on market, occupancy or vacancy rate, on-time payment rate, owner or tenant counts, revenue, and any AppFolio number that isn't in these two files or `site.json`.
+- If neither file loads and no review or site fact fits, publish without one and say so in the strategist report. Never block publication on this.
+
+---
+
 ## 5. Phase 3 — Pick the topic and persona
 
 Synthesize §2 (persona rotation balance) + §3 (archive) + §3.5 (weakest clusters, priorityQueue, refreshFlags) + §4 (current trends) into a single decision. **Default to publishing into the weakest cluster** that also fits the persona due in rotation (§2). Trend research (§4) is the tie-breaker and freshness layer — it shapes the *angle*, not whether you fill a gap. A genuinely urgent law/market story can override the gap pick; note that in the report.
@@ -177,6 +208,15 @@ The output of this step is a 3-line decision:
 Confirm against §3 + `published-log.json` that this is not a near-duplicate.
 
 **Refresh-vs-new gate.** If the topic overlaps an existing post by more than ~40% (same primary topic, persona, and geography), do NOT publish a competing post — **refresh the existing one** instead: update stats/laws/links, add FAQs, widen entity coverage, fix deprecated names, and (if the slug itself is wrong, e.g. "fort-eisenhower-…") add a same-title post at the corrected slug plus a redirect in `src/_redirects`. Also action any `refreshFlags` from §3.5 when they outrank a new topic. Log a refresh as `type: "refresh"` in `published-log.json` and skip §7 image generation unless the refresh needs new imagery. A stronger existing page usually beats a new thin one.
+
+**Refresh run, the first Sunday of each month (UTC).** Noah's ruling, 2026-11-12: keep renewing the blog around what's working. On that day the run renews one existing post and publishes no new one:
+
+1. **Pick the post.** Any `refreshFlags` first. Otherwise the post with the oldest `dateModified` (or `date`, if it has never been refreshed) in the cluster with the highest `authority`: a strong page is the one worth keeping current. Once `.claude/intelligence/performance.json` exists (Search Console is not connected as of 2026-11-12), prefer the post with the most impressions and an average position between 5 and 20.
+2. **Renew it.** Re-verify every statistic, statute, and link this run (§4 verification rule) and replace what is stale. Add a first-hand element (§4.5). Add or tighten FAQs. Fix deprecated names.
+3. **Mark it.** Set `dateModified: [today, UTC]` in its frontmatter. Keep `date`, the slug, and the primary keyword. Don't regenerate images unless one is missing.
+4. **Commit** as `Auto-blog refresh: [title] ([date])`, append a record to `published-log.json` with `type: "refresh"` and today's date, and write the strategist report as usual.
+
+A refresh is that day's one publication. If `published-log.json` already has a record dated today, new or refresh, halt.
 
 ### 5.5 Available internal link targets (live site as of last sitemap pull)
 
@@ -343,8 +383,9 @@ Quality gates a post must pass before it gets published:
 - Are the 3+ external citations to real, verifiable sources you fetched this run?
 - Do all internal links go to pages that actually exist (cross-check against §0 sitemap)?
 - Would this post be more useful than the top result currently ranking for the primary keyword?
+- Does it carry one first-hand element from §4.5, dated if it's a number?
 
-If you can't honestly answer yes to all six, rework before publishing.
+If you can't honestly answer yes to all seven, rework before publishing. (The one exception is §4.5's last rule.)
 
 ### 6.4 Legal and ethical guardrails
 
@@ -548,7 +589,7 @@ If push fails for auth: halt and report. Do not retry with a hardcoded token.
 
 In the SAME commit as the post (before §9 verify), update the intelligence files so tomorrow's run is smarter:
 
-1. **`published-log.json`** — append this post's record: slug, title, date, cluster, subtopic, persona, intent, cities, primaryKeyword, entities, questionsAnswered, internalLinks, externalCitations, wordCount, schema, type (`new`|`refresh`).
+1. **`published-log.json`** — append this post's record: slug, title, date, cluster, subtopic, persona, intent, cities, primaryKeyword, entities, questionsAnswered, internalLinks, externalCitations, wordCount, schema, type (`new`|`refresh`), and `firstHand` (which §4.5 element was used and the date of the file it came from, or `none`).
 2. **`content-map.json`** — add the slug to the cluster's `posts[]`, raise its `coverage`/`authority`, remove the gap you filled, and clear any `refreshFlags` you actioned.
 3. **Strategist report** — write `outputs/reports/strategist-report-<UTC-DATE>.md` (internal — Eleventy builds only `src/`, so `outputs/` is never web-routable). Include: topic + persona chosen and the gap/cluster it filled (or the post it refreshed); primary keyword + supporting entities used; internal links to add from older posts → this new post (specific slugs); the next refresh candidate; and a refreshed `priorityQueue` of the next 5–10 topics.
 
@@ -599,6 +640,8 @@ Persona: [P#] · Words: [N] · Internal links: [N] · External cites: [N] · Ima
 - Never block publication on image failure — drop the image fields and publish.
 - Every run MUST update `.claude/intelligence/content-map.json` + `published-log.json` and write the strategist report (§8.5). A run that publishes but doesn't update the brain is incomplete.
 - Prefer refreshing a strong existing post over publishing a thin near-duplicate (§5 refresh gate).
+- The first Sunday of each month (UTC) is a refresh run (§5). It publishes no new post.
+- Our own numbers come only from the two files in §4.5 and `site.json`, always with their date, and always as "homes we have listed," never as a market average.
 
 ## 11. If something is wrong
 
