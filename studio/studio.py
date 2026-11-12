@@ -173,21 +173,49 @@ def listing_photo(l):
         return fetch(l['img'].replace('/large.', '/medium.'), dest)
 
 
-def gallery(l, n=8):
-    """Photos from a listing's detail page, in the order AppFolio shows them. Extensions vary (jpg, png), so read them from the page."""
+# Images staff add to listings that are not photos of the home. Fingerprints are 16x16 average hashes.
+NOT_PHOTOS = [0xffff9a5f9fff0000e007e007f003ffffffffffffffffffff0000000000000000]   # the "Avoid scams" flyer
+
+
+def fingerprint(path):
+    from PIL import Image
+    px = list(Image.open(path).convert('L').resize((16, 16)).getdata())
+    avg = sum(px) / len(px)
+    return int(''.join('1' if v > avg else '0' for v in px), 2)
+
+
+def is_flyer(path):
+    try:
+        f = fingerprint(path)
+    except Exception:
+        return False
+    return any(bin(f ^ k).count('1') <= 40 for k in NOT_PHOTOS)
+
+
+def gallery(l, n=8, skip=()):
+    """Photos from a listing's detail page, in the order AppFolio shows them, without flyers or repeats.
+    Extensions vary (jpg, png), so they are read from the page. `skip` drops photos by position (0 is the first kept photo)."""
     dest = os.path.join(CACHE, 'detail', l['id'] + '.html')
     fetch(l['url'], dest)
     page = open(dest, encoding='utf8', errors='replace').read()
     found = {}
     for m in re.finditer(r'https://images\.cdn\.appfolio\.com/c21magnolia/images/([0-9a-f-]{36})/(large|medium)\.(jpg|jpeg|png)', page):
         found.setdefault(m.group(1), {})[m.group(2)] = m.group(3)
-    out = []
+    out, seen, kept = [], set(), 0
     for i, v in found.items():
         size = 'large' if 'large' in v else 'medium'
         try:
-            out.append(fetch(f'https://images.cdn.appfolio.com/c21magnolia/images/{i}/{size}.{v[size]}', os.path.join(CACHE, 'gallery', f'{i}.{v[size]}')))
+            f = fetch(f'https://images.cdn.appfolio.com/c21magnolia/images/{i}/{size}.{v[size]}', os.path.join(CACHE, 'gallery', f'{i}.{v[size]}'))
         except TaskError:
             continue
+        digest = hashlib.md5(open(f, 'rb').read()).hexdigest()
+        if digest in seen or is_flyer(f):
+            continue
+        seen.add(digest)
+        kept += 1
+        if kept - 1 in skip:
+            continue
+        out.append(f)
         if len(out) >= n:
             break
     return out
@@ -733,7 +761,7 @@ def preview_strip(video, od):
 def look_video_tour(task, od):
     """What It Rents For, built from a listing's own photos: slow push on each photo, facts panel below."""
     l = one_home(task)
-    shots = gallery(l, int(task.get('max_photos', 6))) or [listing_photo(l)]
+    shots = gallery(l, int(task.get('max_photos', 6)), set(task.get('skip_photos') or [])) or [listing_photo(l)]
     per = float(task.get('seconds_per_photo', 3.2))
     tmp = tempfile.mkdtemp(prefix='tour-')
     sq = f' · {e(l["sqft"])} sq ft' if l.get('sqft') else ''
