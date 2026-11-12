@@ -1,0 +1,32 @@
+{
+ "job_id": "2026-11-12-1603",
+ "rendered_at": "2026-11-12T21:03:49.713864Z",
+ "tasks": [
+  {
+   "id": "2026-11-17-S",
+   "look": "story-rental",
+   "status": "ok",
+   "files": [
+    "out/2026-11-12-1603/2026-11-17-S/01.jpg"
+   ],
+   "facts": {
+    "homes": [
+     {
+      "id": "1d09569a-8049-45b5-82c5-2fa6715aa073",
+      "address": "5105 Windmill Place, Evans, GA 30809",
+      "street": "5105 Windmill Place",
+      "city": "Evans",
+      "state": "GA",
+      "rent": "$2,600",
+      "bedbath": "4 bd / 2.5 ba",
+      "sqft": "2,658",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "5105 Windmill Place - Elegant 2600+ SqFt Home in Windmill Plantation",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/1d09569a-8049-45b5-82c5-2fa6715aa073"
+     }
+    ]
+   }
+  }
+ ]
+}
