@@ -1,0 +1,67 @@
+name: PM marketing studio
+# Renders the McBride PM social graphics and videos. This branch is a workspace, not the website:
+# never merge it into main. Source of truth for studio/ is the company vault.
+on:
+  push:
+    branches: [social-studio]
+    paths: ['jobs/**.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: pm-studio
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: social-studio
+      - name: Jobs waiting to render
+        id: jobs
+        run: |
+          : > todo.txt
+          for f in jobs/*.json; do
+            [ -e "$f" ] || continue
+            id=$(basename "$f" .json)
+            [ -f "out/$id/manifest.json" ] || echo "$f" >> todo.txt
+          done
+          cat todo.txt
+          echo "count=$(wc -l < todo.txt | tr -d ' ')" >> "$GITHUB_OUTPUT"
+          if [ -s todo.txt ] && grep -qE '"(captions|transcribe)" *: *("auto"|true)' $(cat todo.txt); then echo "whisper=1" >> "$GITHUB_OUTPUT"; else echo "whisper=0" >> "$GITHUB_OUTPUT"; fi
+      - name: Tools
+        if: steps.jobs.outputs.count != '0'
+        run: |
+          python3 -m pip install -q pillow
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-montserrat fonts-open-sans ffmpeg > /dev/null
+          fc-list | grep -ci montserrat
+          google-chrome --version || chromium-browser --version
+          ffmpeg -version | head -1
+      - name: Speech to text (only when a job asks for automatic captions)
+        if: steps.jobs.outputs.whisper == '1'
+        run: python3 -m pip install -q faster-whisper
+      - name: Render
+        if: steps.jobs.outputs.count != '0'
+        run: python3 studio/studio.py $(cat todo.txt)
+      - name: Publish results to this branch
+        if: steps.jobs.outputs.count != '0'
+        run: |
+          rm -f todo.txt
+          python3 - <<'PY'
+          import os, re, shutil, datetime
+          cut = (datetime.date.today() - datetime.timedelta(days=21)).isoformat()
+          for d, ext in (('out', ''), ('jobs', '.json')):
+              for name in os.listdir(d) if os.path.isdir(d) else []:
+                  m = re.match(r'(\d{4}-\d{2}-\d{2})', name)
+                  if m and m.group(1) < cut:
+                      p = os.path.join(d, name)
+                      shutil.rmtree(p) if os.path.isdir(p) else os.remove(p)
+          PY
+          git config user.name "McBride PM studio"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A out data jobs
+          git commit -q -m "studio: rendered $(date -u +%Y-%m-%dT%H:%MZ)" || echo "nothing new"
+          for i in 1 2 3; do git pull -q --rebase origin social-studio && git push -q origin HEAD:social-studio && break; sleep 5; done
