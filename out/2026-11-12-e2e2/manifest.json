@@ -1,0 +1,36 @@
+{
+ "job_id": "2026-11-12-e2e2",
+ "rendered_at": "2026-11-12T20:45:55.575433Z",
+ "tasks": [
+  {
+   "id": "2026-11-14-R",
+   "look": "video-tour",
+   "status": "ok",
+   "files": [
+    "out/2026-11-12-e2e2/2026-11-14-R/video.mp4",
+    "out/2026-11-12-e2e2/2026-11-14-R/cover.jpg",
+    "out/2026-11-12-e2e2/2026-11-14-R/preview.jpg"
+   ],
+   "facts": {
+    "homes": [
+     {
+      "id": "8b2f7215-e15a-46eb-b963-848fdcfdb444",
+      "address": "201 Nicklaus Court, Evans, GA 30908",
+      "street": "201 Nicklaus Court",
+      "city": "Evans",
+      "state": "GA",
+      "rent": "$2,400",
+      "bedbath": "3 bd / 2.5 ba",
+      "sqft": "1,838",
+      "avail": "NOW",
+      "pets": "Cats not allowed, Dogs not allowed",
+      "title": "201 Nicklaus Court - Fully Furnished",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/8b2f7215-e15a-46eb-b963-848fdcfdb444"
+     }
+    ],
+    "seconds": 21.4,
+    "photos_used": 6
+   }
+  }
+ ]
+}
