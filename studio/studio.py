@@ -116,7 +116,7 @@ def parse_listings(page):
             'bedbath': re.sub(r'\s+', ' ', facts.get('Bed / Bath', '')).strip(),
             'avail': re.sub(r'\s+', ' ', facts.get('Available', '')).strip(),
             'pets': g(r'js-listing-pet-policy">.*?</span>\s*(.*?)</span>'),
-            'img': img.replace('/medium.jpg', '/large.jpg') if img else '',
+            'img': img.replace('/medium.', '/large.') if img else '',
             'url': f'https://c21magnolia.appfolio.com/listings/detail/{uid}',
             'description': re.sub(r'\s+', ' ', desc)[:600],
         })
@@ -165,19 +165,32 @@ def rent_num(l):
 def listing_photo(l):
     if not l.get('img'):
         raise TaskError(f'listing {l["id"]} has no photo')
-    return fetch(l['img'], os.path.join(CACHE, 'listings', l['id'] + '.jpg'))
+    ext = os.path.splitext(l['img'].split('?')[0])[1] or '.jpg'
+    dest = os.path.join(CACHE, 'listings', l['id'] + ext)
+    try:
+        return fetch(l['img'], dest)
+    except TaskError:      # no large version: use the size the listings page itself shows
+        return fetch(l['img'].replace('/large.', '/medium.'), dest)
 
 
 def gallery(l, n=8):
-    """Photo URLs from a listing's detail page, in the order AppFolio shows them."""
+    """Photos from a listing's detail page, in the order AppFolio shows them. Extensions vary (jpg, png), so read them from the page."""
     dest = os.path.join(CACHE, 'detail', l['id'] + '.html')
     fetch(l['url'], dest)
     page = open(dest, encoding='utf8', errors='replace').read()
-    ids = []
-    for m in re.finditer(r'https://images\.cdn\.appfolio\.com/c21magnolia/images/([0-9a-f-]{36})/(?:large|medium|small)\.(?:jpg|jpeg|png)', page):
-        if m.group(1) not in ids:
-            ids.append(m.group(1))
-    return [fetch(f'https://images.cdn.appfolio.com/c21magnolia/images/{i}/large.jpg', os.path.join(CACHE, 'gallery', i + '.jpg')) for i in ids[:n]]
+    found = {}
+    for m in re.finditer(r'https://images\.cdn\.appfolio\.com/c21magnolia/images/([0-9a-f-]{36})/(large|medium)\.(jpg|jpeg|png)', page):
+        found.setdefault(m.group(1), {})[m.group(2)] = m.group(3)
+    out = []
+    for i, v in found.items():
+        size = 'large' if 'large' in v else 'medium'
+        try:
+            out.append(fetch(f'https://images.cdn.appfolio.com/c21magnolia/images/{i}/{size}.{v[size]}', os.path.join(CACHE, 'gallery', f'{i}.{v[size]}')))
+        except TaskError:
+            continue
+        if len(out) >= n:
+            break
+    return out
 
 
 # ------------------------------------------------------------------ photo references
