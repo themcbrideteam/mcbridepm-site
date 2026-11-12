@@ -975,6 +975,34 @@ def look_listings(task, od):
     return [], {'listings': [home_facts(l) for l in ls], 'count': len(ls)}
 
 
+def listings_summary(homes):
+    """What McBride PM has listed for rent today, by town and bedroom count. Public facts only (the same homes are on the
+    public listings page), with no addresses. The blog routine reads this file so a post can quote a real, dated rent range."""
+    def money(v):
+        m = re.sub(r'[^0-9]', '', str(v or '').split('.')[0])
+        return int(m) if m else None
+    def beds(v):
+        m = re.search(r'(\d+)\s*bd', str(v or ''), re.I)
+        return m.group(1) if m else ''
+    towns = {}
+    for h in homes:
+        rent = money(h.get('rent'))
+        if not rent or not h.get('city'):
+            continue
+        t = towns.setdefault(h['city'], {'homes': 0, 'rents': [], 'by_bedrooms': {}})
+        t['homes'] += 1
+        t['rents'].append(rent)
+        b = beds(h.get('bedbath'))
+        if b:
+            t['by_bedrooms'].setdefault(b, []).append(rent)
+    out = {'date': datetime.date.today().isoformat(), 'source': 'homes listed for rent by McBride Property Management on this date',
+           'homes_listed': sum(t['homes'] for t in towns.values()), 'towns': {}}
+    for name, t in sorted(towns.items()):
+        out['towns'][name] = {'homes': t['homes'], 'rent_low': min(t['rents']), 'rent_high': max(t['rents']),
+                              'by_bedrooms': {b: {'homes': len(r), 'rent_low': min(r), 'rent_high': max(r)} for b, r in sorted(t['by_bedrooms'].items())}}
+    return out
+
+
 def update_site_facts():
     """Once a run: read the Google rating and review count the live homepage shows, and how many homes are listed.
     Written to data/site-facts.json, with one line a day in data/review-history.csv, so the weekly audit can report review growth."""
@@ -990,7 +1018,9 @@ def update_site_facts():
     except Exception as ex:
         facts['error'] = f'homepage not read: {ex}'
     try:
-        facts['homes_listed'] = len(listings())
+        homes = listings()
+        facts['homes_listed'] = len(homes)
+        json.dump(listings_summary(homes), open(os.path.join(DATA, 'listings-summary.json'), 'w'), indent=1)
     except Exception:
         pass
     json.dump(facts, open(os.path.join(DATA, 'site-facts.json'), 'w'), indent=1)
