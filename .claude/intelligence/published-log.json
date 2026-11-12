@@ -3939,6 +3939,62 @@
       ],
       "type": "new",
       "imageStatus": "none \u2014 Imagen API key invalid (46th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
+    },
+    {
+      "slug": "lease-renewal-tenant-guide-georgia-csra",
+      "title": "Lease Renewal in Georgia: A CSRA Tenant's Complete Guide",
+      "date": "2026-11-12",
+      "cluster": "tenant-education",
+      "subtopic": "lease renewal from tenant perspective \u2014 notice timelines, O.C.G.A. \u00a7 44-7-7, rent increase rights, negotiation framework, non-renewal options, security deposit on move-out",
+      "persona": "P5",
+      "intent": "educational/decision-support/conversion \u2014 CSRA tenant approaching lease expiration who needs to understand Georgia law, negotiation strategy, and move-out rights",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "North Augusta",
+        "Aiken",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "lease renewal Georgia tenant CSRA",
+      "entities": [
+        "O.C.G.A. \u00a7 44-7-7",
+        "O.C.G.A. \u00a7 44-7-24",
+        "O.C.G.A. \u00a7 44-7-34",
+        "HUD Fair Housing Act",
+        "Zumper rent research Augusta June 2026",
+        "Trulia rent trends Augusta 2026",
+        "Rentometer Augusta-Richmond County",
+        "Fort Gordon",
+        "Savannah River Site",
+        "Evans GA ZIP 30809",
+        "Grovetown GA ZIP 30813",
+        "Martinez GA ZIP 30907",
+        "Noah McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "How much notice does my landlord have to give before my lease expires in Georgia?",
+        "Can my landlord raise my rent when my lease renews in Georgia?",
+        "What happens if I don't respond to a lease renewal offer in Georgia?",
+        "Can my landlord refuse to renew my lease in Georgia?",
+        "How much notice do I have to give if I'm not renewing my lease in Georgia?",
+        "What is the difference between a 1-year lease and month-to-month in Georgia?",
+        "What can I negotiate at lease renewal beyond the rent?",
+        "What should I do with my security deposit when I move out after a non-renewal?"
+      ],
+      "internalLinks": 9,
+      "externalCitations": 5,
+      "wordCount": 2700,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none \u2014 Imagen API key invalid (47th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
     }
   ]
 }

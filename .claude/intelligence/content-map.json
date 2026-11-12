@@ -6,7 +6,7 @@
     "notes": {
       "imagen_api_key": "API key invalid for 41 consecutive runs (2026-07-22 through 2026-11-05). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
     },
-    "lastUpdated": "2026-11-11"
+    "lastUpdated": "2026-11-12"
   },
   "clusters": {
     "taxes": {
@@ -199,7 +199,7 @@
       "gaps": []
     },
     "tenant-education": {
-      "coverage": 0.85,
+      "coverage": 0.88,
       "authority": "high",
       "posts": [
         "georgia-tenant-rights-2026-csra-renter-guide",
@@ -207,9 +207,12 @@
         "how-to-apply-for-rental-mcbride-property-management",
         "maintenance-request-tenant-guide-csra-rental",
         "how-to-move-out-csra-rental-keep-security-deposit",
-        "breaking-lease-early-georgia-csra-tenant-guide"
+        "breaking-lease-early-georgia-csra-tenant-guide",
+        "lease-renewal-tenant-guide-georgia-csra"
       ],
-      "gaps": []
+      "gaps": [
+        "navigating AppFolio maintenance requests — what tenants need to know (P5)"
+      ]
     },
     "city-guides": {
       "coverage": 0.87,
@@ -281,7 +284,7 @@
     "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) \u2014 publish after DoD December announcement",
     "leasing-screening: move-in inspection done right \u2014 liability documentation for CSRA landlords (P3)",
     "hoa: Specific Evans/Grovetown subdivision rental cap survey \u2014 which communities have active caps (P1/P3)",
-    "tenant-education: how to negotiate a lease renewal in Georgia \u2014 tenant perspective (P5)",
+    "tenant-education: lease renewal Georgia tenant CSRA \u2014 PUBLISHED 2026-11-12",
     "market-reports: rent growth and vacancy trend recap Q3-Q4 2026 (P3/P4)",
     "investing: financing options compared (conventional vs DSCR vs portfolio loan) for CSRA rental investors (P4)",
     "tenant-education: navigating AppFolio maintenance requests \u2014 what tenants need to know (P5)",
