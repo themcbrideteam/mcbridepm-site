@@ -1,8 +1,0 @@
-{"job_id":"test-a","tasks":[
- {"id":"listings","look":"listings"},
- {"id":"rb-columbia","look":"rent-board","area":"columbia","week_of":"2026-11-16","singles":2},
- {"id":"story","look":"story-rental","area":"columbia"},
- {"id":"cover-fixit","look":"reel-cover","photo":"listing:auto","lines":["what to do with","your pipes on a"],"punch":"25° NIGHT.","who":"Fix-It Minute · McBride Property Management"},
- {"id":"tour","look":"video-tour","area":"columbia","max_photos":5},
- {"id":"edit","look":"video-edit","clips":[{"src":"url:https://raw.githubusercontent.com/themcbrideteam/mcbridepm-site/main/src/assets/video/rosewood-tour-mobile.mp4","start":2,"end":10}],"hook":{"lines":["a quick look","inside a"],"punch":"MAKE-READY."},"captions":[{"t":3.0,"d":2.2,"text":"Fresh paint, room by room"},{"t":5.4,"d":2.2,"text":"Photos after, not before"}],"cover":{"lines":["a quick look inside a"],"punch":"MAKE-READY.","who":"McBride Property Management"},"endcard":{"title":"Managed like it is our own.","sub":"mcbride-pm.com"}}
-]}

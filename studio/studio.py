@@ -738,7 +738,7 @@ def look_video_tour(task, od):
              f"pad={W}:{H}:0:0:white[bg];[bg][1:v]overlay=0:0,format=yuv420p[v]",
              '-map', '[v]', '-map', '2:a', '-t', str(per), *ENC, '-c:a', 'aac', '-b:a', '160k', seg])
         segs.append(seg)
-    hook = task.get('hook') or {'lines': ['what', l['rent'], 'rents in'], 'punch': l['city'].upper() + '.'}
+    hook = task.get('hook') or {'lines': ['what ' + l['rent'], 'rents in'], 'punch': l['city'].upper() + '.'}
     cls, body = cover_html({'id': task['id'], 'lines': hook.get('lines'), 'punch': hook.get('punch')}, transparent=True)
     hook_png = shoot(cls, body, os.path.join(tmp, 'hook.png'), W, H, transparent=True)
     body_mp4 = concat(segs, os.path.join(tmp, 'body.mp4'), tmp)
