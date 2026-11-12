@@ -636,7 +636,8 @@ def look_rent_board(task, od):
         cls, b = polaroid(h, last=False)
         files.append(shoot(cls, b, os.path.join(od, f'{k + 2:02d}.jpg')))
     kw = {'tpl': 'keyword', 'word': task.get('keyword', 'LEASE'), 'gets': 'and we will send you the full list of homes for rent.',
-          'lines': ['Apply only at mcbride-pm.com/rentals.', 'We never take applications or payments through social media.']}
+          'lines': ['Apply only at mcbride-pm.com/rentals.', 'We never take applications or payments through social media.',
+                    'New homes post every Thursday. Follow to see them first.']}
     cls, b = slide(task, kw, 9, 10)
     files.append(shoot(cls, b, os.path.join(od, f'{len(singles) + 2:02d}.jpg')))
     return files, {'homes': [home_facts(h) for h in grid], 'area': AREA_LABEL.get(task.get('area') or 'all'), 'listed_total': len(listings()), 'in_area_total': len(homes)}
