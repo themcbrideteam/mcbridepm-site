@@ -414,6 +414,7 @@ REEL_CSS = """
 .cc .tx{position:absolute;left:60px;right:60px;top:300px;display:flex;flex-direction:column;align-items:center}
 .cc .tx span{display:inline-block;padding:10px 26px;font:800 64px/1.12 var(--h);letter-spacing:-.01em;border-radius:14px;text-align:center}
 .cc .w{background:#fff;color:var(--navy)} .cc .n{background:var(--gold);color:var(--navy);margin-top:-6px}
+.cc .tx .chip{margin-bottom:16px;padding:10px 20px 9px;border-radius:30px;background:var(--navy);color:var(--gold);font:700 22px/1 var(--h);letter-spacing:.2em;text-transform:uppercase}
 .cc .who{position:absolute;left:0;right:0;top:1500px;text-align:center}
 .cc .who b{display:inline-block;padding:14px 26px;border-radius:40px;background:var(--navy);border:1.5px solid rgba(178,153,90,.7);color:#fff;font:700 26px/1 var(--h)} .cc .who b i{font-style:normal;color:var(--gold)}
 .mm .series{position:absolute;left:84px;top:1150px;display:flex;align-items:center;gap:16px}
@@ -590,7 +591,7 @@ def polaroid(l, last=True, foot=None):
     sq = f' · {e(l["sqft"])} sq ft' if l.get('sqft') else ''
     return 'pm pol-c', f'''<div class="pol"><i class="tape"></i><div class="p cover" style="background-image:url('{furl(listing_photo(l))}')"></div>
 <div class="row"><b>{e(l['rent'])}</b><span>/mo</span></div><p class="bb">{e(bb(l['bedbath']))}{sq} · {e(l['city'])}</p><p class="stt">{e(l['street'])}</p></div>
-<div class="avail">{CIRCLE}{avail_text(l)}</div><div class="pc-wm">McBride<span>PROPERTY MANAGEMENT</span></div>{ft(last, foot or 'Apply only at mcbride-pm.com/rentals')}'''
+<div class="avail">{CIRCLE}{avail_text(l)}</div><div class="pc-wm">McBride<span>PROPERTY MANAGEMENT</span></div>{ft(last, foot or f'Apply only at mcbride-pm.com/rentals · {PM_PHONE}')}'''
 
 
 # ------------------------------------------------------------------ looks
@@ -682,7 +683,7 @@ def cover_html(task, transparent=False):
     if style == 'minute':
         title = e(task['title'])
         return 'rl mm', f'''{bg}<img class="logo" src="{LOGO_NAVY}"><div class="series"><i></i><span>{e(task.get('series', ''))}</span></div><h1>{title}</h1>'''
-    ws = ''.join(f'<span class="w">{e(l)}</span>' for l in task.get('lines') or [])
+    ws = (f'<span class="chip">{e(task["label"])}</span>' if task.get('label') else '') + ''.join(f'<span class="w">{e(l)}</span>' for l in task.get('lines') or [])
     punch = f'<span class="n">{e(task["punch"])}</span>' if task.get('punch') else ''
     who = f'<div class="who"><b>{e(task["who"]).replace("·", "<i>·</i>")}</b></div>' if task.get('who') and not transparent else ''
     return ('rl cc ov' if transparent else 'rl cc'), f'{bg}<div class="tx">{ws}{punch}</div>{who}'
@@ -767,7 +768,7 @@ def look_video_tour(task, od):
     sq = f' · {e(l["sqft"])} sq ft' if l.get('sqft') else ''
     frame = shoot('tour', f'''<div class="tab"><img src="{LOGO_NAVY}"><span>PROPERTY MANAGEMENT</span></div><div class="panel"></div>
 <div class="row"><b>{e(l['rent'])}</b><span>/mo</span></div><div class="bb">{e(bb(l['bedbath']))}{sq} · {e(l['city'])}</div><div class="stt">{e(l['street'])} · {avail_text(l)}</div>
-<div class="rule"></div><div class="ap">Apply only at mcbride-pm.com/rentals<span>We never take applications or payments through social media.</span></div>''',
+<div class="rule"></div><div class="ap">Apply only at mcbride-pm.com/rentals<span>McBride Property Management · {PM_PHONE}. We never take applications or payments through social media.</span></div>''',
                   os.path.join(tmp, 'frame.png'), W, H, transparent=True)
     segs = []
     n = int(per * FPS)
@@ -780,14 +781,14 @@ def look_video_tour(task, od):
              '-map', '[v]', '-map', '2:a', '-t', str(per), *ENC, '-c:a', 'aac', '-b:a', '160k', seg])
         segs.append(seg)
     hook = task.get('hook') or {'lines': ['what ' + l['rent'], 'rents in'], 'punch': l['city'].upper() + '.'}
-    cls, body = cover_html({'id': task['id'], 'lines': hook.get('lines'), 'punch': hook.get('punch')}, transparent=True)
+    cls, body = cover_html({'id': task['id'], 'label': hook.get('label', 'What It Rents For'), 'lines': hook.get('lines'), 'punch': hook.get('punch')}, transparent=True)
     hook_png = shoot(cls, body, os.path.join(tmp, 'hook.png'), W, H, transparent=True)
     body_mp4 = concat(segs, os.path.join(tmp, 'body.mp4'), tmp)
     hooked = os.path.join(tmp, 'hooked.mp4')
     run([ffmpeg(), '-y', '-i', body_mp4, '-loop', '1', '-t', '2.6', '-i', hook_png, '-filter_complex',
          "[1:v]format=rgba,fade=t=out:st=2.2:d=0.4:alpha=1[h];[0:v][h]overlay=0:0:enable='lt(t,2.6)',format=yuv420p[v]", '-map', '[v]', '-map', '0:a', *ENC, '-c:a', 'copy', hooked])
     out = concat([hooked, end_card(dict(task, endcard=task.get('endcard') or {'title': 'See every home for rent', 'sub': 'mcbride-pm.com/rentals'}), tmp)], os.path.join(od, 'video.mp4'), tmp)
-    cover_task = {'id': task['id'], 'photo': 'url:file', 'lines': hook.get('lines'), 'punch': hook.get('punch'), 'who': 'McBride Property Management'}
+    cover_task = {'id': task['id'], 'photo': 'url:file', 'label': hook.get('label', 'What It Rents For'), 'lines': hook.get('lines'), 'punch': hook.get('punch'), 'who': 'McBride Property Management'}
     cls, body = 'rl cc', f'''<div class="ph cover" style="background-image:url('{furl(shots[0])}')"></div><div class="veil"></div>''' + cover_html(dict(cover_task, photo='none'))[1]
     cover = shoot(cls, body, os.path.join(od, 'cover.jpg'), W, H)
     shutil.rmtree(tmp, ignore_errors=True)
@@ -902,7 +903,7 @@ def look_video_edit(task, od):
     fc = filt + (','.join(chain) if chain else 'null') + '[v0]'
     last = '[v0]'
     if task.get('hook'):
-        cls, body = cover_html({'id': task['id'], 'lines': task['hook'].get('lines'), 'punch': task['hook'].get('punch')}, transparent=True)
+        cls, body = cover_html({'id': task['id'], 'label': task['hook'].get('label'), 'lines': task['hook'].get('lines'), 'punch': task['hook'].get('punch')}, transparent=True)
         hook_png = shoot(cls, body, os.path.join(tmp, 'hook.png'), W, H, transparent=True)
         inputs += ['-loop', '1', '-t', '2.8', '-i', hook_png]
         fc += f";[1:v]format=rgba,fade=t=out:st=2.4:d=0.4:alpha=1[h];{last}[h]overlay=0:0:enable='lt(t,2.8)'[v1]"
