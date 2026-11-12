@@ -1,0 +1,588 @@
+{
+ "job_id": "test-a",
+ "rendered_at": "2026-11-12T20:33:40.438620Z",
+ "tasks": [
+  {
+   "id": "listings",
+   "look": "listings",
+   "status": "ok",
+   "files": [],
+   "facts": {
+    "listings": [
+     {
+      "id": "dcfa1754-9fcd-4a24-8e92-d4bb7eaa02f0",
+      "address": "1918 Dunham Ct, Augusta, GA 30906",
+      "street": "1918 Dunham Court",
+      "city": "Augusta",
+      "state": "GA",
+      "rent": "$1,295",
+      "bedbath": "3 bd / 1 ba",
+      "sqft": "1,323",
+      "avail": "NOW",
+      "pets": "Cats allowed, Small dogs allowed",
+      "title": "1918 Dunham Court - Fresh Paint",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/dcfa1754-9fcd-4a24-8e92-d4bb7eaa02f0"
+     },
+     {
+      "id": "b6b3b559-8830-496a-9427-c1b226e6d74e",
+      "address": "719 Bonnie Oaks, Evans, GA 30809",
+      "street": "719 Bonnie Oaks",
+      "city": "Evans",
+      "state": "GA",
+      "rent": "$2,250",
+      "bedbath": "5 bd / 3 ba",
+      "sqft": "3,412",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "719 Bonnie Oaks - 5 Bedroom and Much More",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/b6b3b559-8830-496a-9427-c1b226e6d74e"
+     },
+     {
+      "id": "6a3e791e-cd5b-40a8-a1aa-c17e78aa458a",
+      "address": "2072 Summerton Circle, Evans, GA 30809",
+      "street": "2072 Summerton Circle",
+      "city": "Evans",
+      "state": "GA",
+      "rent": "$1,895",
+      "bedbath": "3 bd / 2 ba",
+      "sqft": "1,640",
+      "avail": "NOW",
+      "pets": "Cats not allowed, Dogs not allowed",
+      "title": "2072 Summerton Cir. New Roof, New Floors, Fresh Paint | Greenbrier Schools | 3 Bed 2 Bath Single-Level in Evans",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/6a3e791e-cd5b-40a8-a1aa-c17e78aa458a"
+     },
+     {
+      "id": "2c6039cc-af1d-49ab-b4e8-120fc17440e2",
+      "address": "150 Ashbryne Drive, Martinez, GA 30907",
+      "street": "150 Ashbryne Drive",
+      "city": "Martinez",
+      "state": "GA",
+      "rent": "$1,850",
+      "bedbath": "3 bd / 3 ba",
+      "sqft": "1,485",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "150 Ashbyrne Dr",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/2c6039cc-af1d-49ab-b4e8-120fc17440e2"
+     },
+     {
+      "id": "143b9ea9-93f8-46a7-966b-91d671bb92f4",
+      "address": "2225 Martin Road, Augusta, GA 30906",
+      "street": "2225 Martin Road",
+      "city": "Augusta",
+      "state": "GA",
+      "rent": "$995",
+      "bedbath": "2 bd / 1 ba",
+      "sqft": "816",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "2225 Martin Road",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/143b9ea9-93f8-46a7-966b-91d671bb92f4"
+     },
+     {
+      "id": "708cd81e-0d3f-4fe7-ae25-312ce5731bd2",
+      "address": "343 Bay Meadows Drive, Aiken, SC 29803",
+      "street": "343 Bay Meadows Drive",
+      "city": "Aiken",
+      "state": "SC",
+      "rent": "$2,395",
+      "bedbath": "4 bd / 2.5 ba",
+      "sqft": "2,294",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "343 Bay Meadows - Kemper Downs Subdivision (Newer Construction)",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/708cd81e-0d3f-4fe7-ae25-312ce5731bd2"
+     },
+     {
+      "id": "2ab2d906-9086-4434-8469-5bc35e3da24a",
+      "address": "748 Neville Street, Grovetown, GA 30813",
+      "street": "748 Neville Street",
+      "city": "Grovetown",
+      "state": "GA",
+      "rent": "$1,895",
+      "bedbath": "4 bd / 2 ba",
+      "sqft": "1,742",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "748 Neville Street - Willow Oak Village Subdivision - Amenities Galore",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/2ab2d906-9086-4434-8469-5bc35e3da24a"
+     },
+     {
+      "id": "b52f2e2c-5370-4082-a940-387d6d73143a",
+      "address": "1833 Kissingbower Road, Augusta, GA 30904",
+      "street": "1833 Kissingbower Road",
+      "city": "Augusta",
+      "state": "GA",
+      "rent": "$2,050",
+      "bedbath": "3 bd / 3 ba",
+      "sqft": "2,163",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "1833 Kissingbower - Historic Charm Meets Modern Comfort",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/b52f2e2c-5370-4082-a940-387d6d73143a"
+     },
+     {
+      "id": "217a0b58-8511-42a5-90a3-4704cb014450",
+      "address": "2247 Archer Lane, Augusta, GA 30906",
+      "street": "2247 Archer Lane",
+      "city": "Augusta",
+      "state": "GA",
+      "rent": "$1,650",
+      "bedbath": "2 bd / 2 ba",
+      "sqft": "1,103",
+      "avail": "NOW",
+      "pets": "Cats allowed, Small dogs allowed",
+      "title": "2247 Archer Lane - Front Landscaping included in Rent",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/217a0b58-8511-42a5-90a3-4704cb014450"
+     },
+     {
+      "id": "7e1e1ce8-916a-4dda-b38e-644aa9e7df02",
+      "address": "343 Greendale Place, Evans, GA 30809",
+      "street": "343 Greendale Place",
+      "city": "Evans",
+      "state": "GA",
+      "rent": "$1,300",
+      "bedbath": "2 bd / 2 ba",
+      "sqft": "1,092",
+      "avail": "NOW",
+      "pets": "Cats not allowed, Dogs not allowed",
+      "title": "343 Greendale Place - Townhome in the Villages of Greenbier!",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/7e1e1ce8-916a-4dda-b38e-644aa9e7df02"
+     },
+     {
+      "id": "d128e028-67c0-4b60-845c-316a61812042",
+      "address": "3227 Colonel Court, Grovetown, GA 30813",
+      "street": "3227 Colonel Court",
+      "city": "Grovetown",
+      "state": "GA",
+      "rent": "$2,100",
+      "bedbath": "4 bd / 2.5 ba",
+      "sqft": "1,976",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/d128e028-67c0-4b60-845c-316a61812042"
+     },
+     {
+      "id": "0a782d11-c930-466b-9201-8559134d7bbb",
+      "address": "5334 Bull Street , Augusta, GA 30909",
+      "street": "5334 Bull Street ",
+      "city": "Augusta",
+      "state": "GA",
+      "rent": "$2,200",
+      "bedbath": "4 bd / 2.5 ba",
+      "sqft": "2,750",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "5334 Bull Street",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/0a782d11-c930-466b-9201-8559134d7bbb"
+     },
+     {
+      "id": "1d09569a-8049-45b5-82c5-2fa6715aa073",
+      "address": "5105 Windmill Place, Evans, GA 30809",
+      "street": "5105 Windmill Place",
+      "city": "Evans",
+      "state": "GA",
+      "rent": "$2,600",
+      "bedbath": "4 bd / 2.5 ba",
+      "sqft": "2,658",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "5105 Windmill Place - Elegant 2600+ SqFt Home in Windmill Plantation",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/1d09569a-8049-45b5-82c5-2fa6715aa073"
+     },
+     {
+      "id": "b5c8c17a-b337-421f-b877-ef268d85b319",
+      "address": "3237 Riverstone Drive, Martinez, GA 30907",
+      "street": "3237 Riverstone Drive",
+      "city": "Martinez",
+      "state": "GA",
+      "rent": "$2,995",
+      "bedbath": "5 bd / 3.5 ba",
+      "sqft": "3,766",
+      "avail": "NOW",
+      "pets": "Cats not allowed, Dogs not allowed",
+      "title": "3237 Riverstone Drive - Over 3700 Square Feet of Living Space",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/b5c8c17a-b337-421f-b877-ef268d85b319"
+     },
+     {
+      "id": "8b2f7215-e15a-46eb-b963-848fdcfdb444",
+      "address": "201 Nicklaus Court, Evans, GA 30908",
+      "street": "201 Nicklaus Court",
+      "city": "Evans",
+      "state": "GA",
+      "rent": "$2,400",
+      "bedbath": "3 bd / 2.5 ba",
+      "sqft": "1,838",
+      "avail": "NOW",
+      "pets": "Cats not allowed, Dogs not allowed",
+      "title": "201 Nicklaus Court - Fully Furnished",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/8b2f7215-e15a-46eb-b963-848fdcfdb444"
+     },
+     {
+      "id": "ae308eab-7e47-4d95-acb1-c01e4a65c25c",
+      "address": "3707 Millstone Run, Augusta, GA 30906",
+      "street": "3707 Millstone Run",
+      "city": "Augusta",
+      "state": "GA",
+      "rent": "$1,395",
+      "bedbath": "3 bd / 2 ba",
+      "sqft": "1,169",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "3707 Millstone Run",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/ae308eab-7e47-4d95-acb1-c01e4a65c25c"
+     },
+     {
+      "id": "3f0835d2-7198-48a6-81b8-c75e8827cdee",
+      "address": "1077 Williston Road, Aiken, SC 29803",
+      "street": "1077 Williston Road",
+      "city": "Aiken",
+      "state": "SC",
+      "rent": "$950",
+      "bedbath": "2 bd / 1 ba",
+      "sqft": "712",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "1077 Williston Road",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/3f0835d2-7198-48a6-81b8-c75e8827cdee"
+     },
+     {
+      "id": "0e202d4e-3713-45f0-87be-3227a4c2f7b2",
+      "address": "1837 Fenwick Street, Augusta, GA 30904",
+      "street": "1837 Fenwick Street",
+      "city": "Augusta",
+      "state": "GA",
+      "rent": "$1,000",
+      "bedbath": "2 bd / 1 ba",
+      "sqft": "1,183",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "1837 Fenwick",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/0e202d4e-3713-45f0-87be-3227a4c2f7b2"
+     },
+     {
+      "id": "457f3d1c-e37c-4199-b2cb-9fc225b4820c",
+      "address": "330 Gardenia Drive, Evans, GA 30809",
+      "street": "330 Gardenia Drive",
+      "city": "Evans",
+      "state": "GA",
+      "rent": "$2,295",
+      "bedbath": "4 bd / 3 ba",
+      "sqft": "2,837",
+      "avail": "NOW",
+      "pets": "Cats not allowed, Dogs not allowed",
+      "title": "330 Gardenia Drive - Greenbrier School District",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/457f3d1c-e37c-4199-b2cb-9fc225b4820c"
+     },
+     {
+      "id": "8e6103f7-492e-4824-a559-641c90171e28",
+      "address": "6036 Beadlow Street, Aiken, SC 29801",
+      "street": "6036 Beadlow Street",
+      "city": "Aiken",
+      "state": "SC",
+      "rent": "$1,790",
+      "bedbath": "3 bd / 2 ba",
+      "sqft": "1,376",
+      "avail": "NOW",
+      "pets": "Cats not allowed, Dogs not allowed",
+      "title": "6036 Beadlow Street - with swimming pool access",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/8e6103f7-492e-4824-a559-641c90171e28"
+     },
+     {
+      "id": "04ce1922-aaa0-450e-8541-884777548b68",
+      "address": "715 Hollis Ave, Grovetown, GA 30813",
+      "street": "715 Hollis Ave",
+      "city": "Grovetown",
+      "state": "GA",
+      "rent": "$1,950",
+      "bedbath": "4 bd / 2 ba",
+      "sqft": "1,774",
+      "avail": "NOW",
+      "pets": "Cats not allowed, Dogs allowed",
+      "title": "715 Hollis Ave - The Estates At Deer Hollow",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/04ce1922-aaa0-450e-8541-884777548b68"
+     },
+     {
+      "id": "c21de167-e357-4f7f-a207-5d0eec67c53a",
+      "address": "1017 Stevens Creek Road Unit E149, Augusta, GA 30907",
+      "street": "1017 Stevens Creek Road Unit E149",
+      "city": "Augusta",
+      "state": "GA",
+      "rent": "$1,100",
+      "bedbath": "2 bd / 1 ba",
+      "sqft": "920",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "1017 Stevens Creek Rd - Unit E149",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/c21de167-e357-4f7f-a207-5d0eec67c53a"
+     },
+     {
+      "id": "c3982523-f02f-46b2-a4c7-0af9324f406d",
+      "address": "539 Hunterdale Road, Evans, GA 30809",
+      "street": "539 Hunterdale Road",
+      "city": "Evans",
+      "state": "GA",
+      "rent": "$2,500",
+      "bedbath": "4 bd / 2.5 ba",
+      "sqft": "2,429",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "539 Hunterdale Road - swimming pool (upkeep included)",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/c3982523-f02f-46b2-a4c7-0af9324f406d"
+     },
+     {
+      "id": "c6e2585f-2f9a-45db-9770-60cdf81426de",
+      "address": "1407 Deer Hollow, Grovetown, GA 30813",
+      "street": "1407 Deer Hollow",
+      "city": "Grovetown",
+      "state": "GA",
+      "rent": "$2,600",
+      "bedbath": "5 bd / 3 ba",
+      "sqft": "2,361",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "1407 Deer Hollow Run - Deer Hollow Subdivision",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/c6e2585f-2f9a-45db-9770-60cdf81426de"
+     },
+     {
+      "id": "1c91d785-fc13-4c74-b108-ae81fb318297",
+      "address": "1827 Hicks Street, Augusta, GA 30904",
+      "street": "1827 Hicks Street",
+      "city": "Augusta",
+      "state": "GA",
+      "rent": "$950",
+      "bedbath": "1 bd / 1 ba",
+      "sqft": "890",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "1827 Hicks Street - Free months Rent",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/1c91d785-fc13-4c74-b108-ae81fb318297"
+     },
+     {
+      "id": "d1c1ecd1-2475-47f5-8a28-cd4e44e3ea42",
+      "address": "1739 Cornell Drive, Augusta, GA 30904",
+      "street": "1739 Cornell Drive",
+      "city": "Augusta",
+      "state": "GA",
+      "rent": "$1,450",
+      "bedbath": "4 bd / 1 ba",
+      "sqft": "1,412",
+      "avail": "NOW",
+      "pets": "Cats not allowed, Small dogs allowed",
+      "title": "1739 Cornell Drive - Landscaping Included",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/d1c1ecd1-2475-47f5-8a28-cd4e44e3ea42"
+     },
+     {
+      "id": "19c6a10b-cce8-4bdc-9a1d-b54154610963",
+      "address": "510 Laney Walker place, Augusta, GA 30901",
+      "street": "510 Laney Walker place",
+      "city": "Augusta",
+      "state": "GA",
+      "rent": "$1,250",
+      "bedbath": "4 bd / 1.5 ba",
+      "sqft": "1,174",
+      "avail": "NOW",
+      "pets": "Cats not allowed, Dogs allowed",
+      "title": "510 Laney Walker Place - not on main street",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/19c6a10b-cce8-4bdc-9a1d-b54154610963"
+     },
+     {
+      "id": "0c14091f-3e60-4989-a81f-3ff64e5a9878",
+      "address": "3322 Wheeler Road, Augusta, GA 30909",
+      "street": "3322 Wheeler Road",
+      "city": "Augusta",
+      "state": "GA",
+      "rent": "$4,100",
+      "bedbath": "4 bd / 3 ba",
+      "sqft": "4,000",
+      "avail": "NOW",
+      "pets": "Cats not allowed, Dogs not allowed",
+      "title": "3322 Wheeler Road - Fully Furnished",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/0c14091f-3e60-4989-a81f-3ff64e5a9878"
+     }
+    ],
+    "count": 28
+   }
+  },
+  {
+   "id": "rb-columbia",
+   "look": "rent-board",
+   "status": "ok",
+   "files": [
+    "out/test-a/rb-columbia/01.jpg",
+    "out/test-a/rb-columbia/02.jpg",
+    "out/test-a/rb-columbia/03.jpg",
+    "out/test-a/rb-columbia/04.jpg"
+   ],
+   "facts": {
+    "homes": [
+     {
+      "id": "b6b3b559-8830-496a-9427-c1b226e6d74e",
+      "address": "719 Bonnie Oaks, Evans, GA 30809",
+      "street": "719 Bonnie Oaks",
+      "city": "Evans",
+      "state": "GA",
+      "rent": "$2,250",
+      "bedbath": "5 bd / 3 ba",
+      "sqft": "3,412",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "719 Bonnie Oaks - 5 Bedroom and Much More",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/b6b3b559-8830-496a-9427-c1b226e6d74e"
+     },
+     {
+      "id": "6a3e791e-cd5b-40a8-a1aa-c17e78aa458a",
+      "address": "2072 Summerton Circle, Evans, GA 30809",
+      "street": "2072 Summerton Circle",
+      "city": "Evans",
+      "state": "GA",
+      "rent": "$1,895",
+      "bedbath": "3 bd / 2 ba",
+      "sqft": "1,640",
+      "avail": "NOW",
+      "pets": "Cats not allowed, Dogs not allowed",
+      "title": "2072 Summerton Cir. New Roof, New Floors, Fresh Paint | Greenbrier Schools | 3 Bed 2 Bath Single-Level in Evans",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/6a3e791e-cd5b-40a8-a1aa-c17e78aa458a"
+     },
+     {
+      "id": "2c6039cc-af1d-49ab-b4e8-120fc17440e2",
+      "address": "150 Ashbryne Drive, Martinez, GA 30907",
+      "street": "150 Ashbryne Drive",
+      "city": "Martinez",
+      "state": "GA",
+      "rent": "$1,850",
+      "bedbath": "3 bd / 3 ba",
+      "sqft": "1,485",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "150 Ashbyrne Dr",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/2c6039cc-af1d-49ab-b4e8-120fc17440e2"
+     },
+     {
+      "id": "2ab2d906-9086-4434-8469-5bc35e3da24a",
+      "address": "748 Neville Street, Grovetown, GA 30813",
+      "street": "748 Neville Street",
+      "city": "Grovetown",
+      "state": "GA",
+      "rent": "$1,895",
+      "bedbath": "4 bd / 2 ba",
+      "sqft": "1,742",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "748 Neville Street - Willow Oak Village Subdivision - Amenities Galore",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/2ab2d906-9086-4434-8469-5bc35e3da24a"
+     },
+     {
+      "id": "7e1e1ce8-916a-4dda-b38e-644aa9e7df02",
+      "address": "343 Greendale Place, Evans, GA 30809",
+      "street": "343 Greendale Place",
+      "city": "Evans",
+      "state": "GA",
+      "rent": "$1,300",
+      "bedbath": "2 bd / 2 ba",
+      "sqft": "1,092",
+      "avail": "NOW",
+      "pets": "Cats not allowed, Dogs not allowed",
+      "title": "343 Greendale Place - Townhome in the Villages of Greenbier!",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/7e1e1ce8-916a-4dda-b38e-644aa9e7df02"
+     },
+     {
+      "id": "d128e028-67c0-4b60-845c-316a61812042",
+      "address": "3227 Colonel Court, Grovetown, GA 30813",
+      "street": "3227 Colonel Court",
+      "city": "Grovetown",
+      "state": "GA",
+      "rent": "$2,100",
+      "bedbath": "4 bd / 2.5 ba",
+      "sqft": "1,976",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/d128e028-67c0-4b60-845c-316a61812042"
+     }
+    ],
+    "area": "Columbia County",
+    "listed_total": 28,
+    "in_area_total": 13
+   }
+  },
+  {
+   "id": "story",
+   "look": "story-rental",
+   "status": "ok",
+   "files": [
+    "out/test-a/story/01.jpg"
+   ],
+   "facts": {
+    "homes": [
+     {
+      "id": "c6e2585f-2f9a-45db-9770-60cdf81426de",
+      "address": "1407 Deer Hollow, Grovetown, GA 30813",
+      "street": "1407 Deer Hollow",
+      "city": "Grovetown",
+      "state": "GA",
+      "rent": "$2,600",
+      "bedbath": "5 bd / 3 ba",
+      "sqft": "2,361",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "1407 Deer Hollow Run - Deer Hollow Subdivision",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/c6e2585f-2f9a-45db-9770-60cdf81426de"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cover-fixit",
+   "look": "reel-cover",
+   "status": "ok",
+   "files": [
+    "out/test-a/cover-fixit/cover.jpg"
+   ],
+   "facts": {}
+  },
+  {
+   "id": "tour",
+   "look": "video-tour",
+   "status": "ok",
+   "files": [
+    "out/test-a/tour/video.mp4",
+    "out/test-a/tour/cover.jpg"
+   ],
+   "facts": {
+    "homes": [
+     {
+      "id": "6a3e791e-cd5b-40a8-a1aa-c17e78aa458a",
+      "address": "2072 Summerton Circle, Evans, GA 30809",
+      "street": "2072 Summerton Circle",
+      "city": "Evans",
+      "state": "GA",
+      "rent": "$1,895",
+      "bedbath": "3 bd / 2 ba",
+      "sqft": "1,640",
+      "avail": "NOW",
+      "pets": "Cats not allowed, Dogs not allowed",
+      "title": "2072 Summerton Cir. New Roof, New Floors, Fresh Paint | Greenbrier Schools | 3 Bed 2 Bath Single-Level in Evans",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/6a3e791e-cd5b-40a8-a1aa-c17e78aa458a"
+     }
+    ],
+    "seconds": 18.2,
+    "photos_used": 5
+   }
+  },
+  {
+   "id": "edit",
+   "look": "video-edit",
+   "status": "ok",
+   "files": [
+    "out/test-a/edit/video.mp4",
+    "out/test-a/edit/cover.jpg"
+   ],
+   "facts": {
+    "seconds": 8.0,
+    "clips_used": 1
+   }
+  }
+ ]
+}
