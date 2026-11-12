@@ -709,6 +709,14 @@ def concat(parts, out, tmp):
     return out
 
 
+def preview_strip(video, od):
+    """Six frames across the video in one image, so a reviewer can check a video without playing it."""
+    d = max(probe(video)['duration'], 1.0)
+    out = os.path.join(od, 'preview.jpg')
+    run([ffmpeg(), '-y', '-i', video, '-vf', f"fps=6/{d:.3f},scale=270:-2,tile=6x1", '-frames:v', '1', '-q:v', '4', out])
+    return out
+
+
 def look_video_tour(task, od):
     """What It Rents For, built from a listing's own photos: slow push on each photo, facts panel below."""
     l = one_home(task)
@@ -742,7 +750,7 @@ def look_video_tour(task, od):
     cls, body = 'rl cc', f'''<div class="ph cover" style="background-image:url('{furl(shots[0])}')"></div><div class="veil"></div>''' + cover_html(dict(cover_task, photo='none'))[1]
     cover = shoot(cls, body, os.path.join(od, 'cover.jpg'), W, H)
     shutil.rmtree(tmp, ignore_errors=True)
-    return [out, cover], {'homes': [home_facts(l)], 'seconds': round(len(shots) * per + 2.2, 1), 'photos_used': len(shots)}
+    return [out, cover, preview_strip(out, od)], {'homes': [home_facts(l)], 'seconds': round(len(shots) * per + 2.2, 1), 'photos_used': len(shots)}
 
 
 def ass_time(t):
@@ -875,6 +883,7 @@ def look_video_edit(task, od):
     else:
         shutil.copy(frame, os.path.join(od, 'cover.jpg'))
         files.append(os.path.join(od, 'cover.jpg'))
+    files.append(preview_strip(out, od))
     shutil.rmtree(tmp, ignore_errors=True)
     return files, facts
 

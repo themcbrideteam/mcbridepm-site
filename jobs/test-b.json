@@ -1,0 +1,5 @@
+{"job_id":"test-b","tasks":[
+ {"id":"tour","look":"video-tour","area":"columbia","max_photos":5},
+ {"id":"edit","look":"video-edit","clips":[{"src":"url:https://raw.githubusercontent.com/themcbrideteam/mcbridepm-site/main/src/assets/video/rosewood-tour-mobile.mp4","start":2,"end":10}],"hook":{"lines":["a quick look","inside a"],"punch":"MAKE-READY."},"captions":[{"t":3.0,"d":2.2,"text":"Fresh paint, room by room"},{"t":5.4,"d":2.2,"text":"Photos after, not before"}],"cover":{"lines":["a quick look inside a"],"punch":"MAKE-READY.","who":"McBride Property Management"},"endcard":{"title":"Managed like it is our own.","sub":"mcbride-pm.com"}},
+ {"id":"contact","look":"contact","items":["url:https://raw.githubusercontent.com/themcbrideteam/mcbridepm-site/main/src/assets/video/rosewood-tour-mobile.mp4","drive:1wqCiPYwoRCoZJ_N9yEoVE5IWvDD3LS9S"]}
+]}
