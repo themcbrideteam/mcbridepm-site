@@ -974,6 +974,34 @@ def look_listings(task, od):
     return [], {'listings': [home_facts(l) for l in ls], 'count': len(ls)}
 
 
+def update_site_facts():
+    """Once a run: read the Google rating and review count the live homepage shows, and how many homes are listed.
+    Written to data/site-facts.json, with one line a day in data/review-history.csv, so the weekly audit can report review growth."""
+    os.makedirs(DATA, exist_ok=True)
+    facts = {'date': datetime.date.today().isoformat()}
+    try:
+        req = urllib.request.Request('https://mcbride-pm.com/', headers={'User-Agent': UA})
+        page = urllib.request.urlopen(req, timeout=40).read().decode('utf8', 'replace')
+        m = re.search(r'Rated\s+([\d.]+)\s+of\s+5\s+by\s+([\d,]+)\s+Google reviewers', page)
+        if m:
+            facts['google_rating'] = float(m.group(1))
+            facts['google_reviews'] = int(m.group(2).replace(',', ''))
+    except Exception as ex:
+        facts['error'] = f'homepage not read: {ex}'
+    try:
+        facts['homes_listed'] = len(listings())
+    except Exception:
+        pass
+    json.dump(facts, open(os.path.join(DATA, 'site-facts.json'), 'w'), indent=1)
+    if 'google_reviews' in facts:
+        hist = os.path.join(DATA, 'review-history.csv')
+        lines = open(hist).read().splitlines() if os.path.exists(hist) else ['date,google_rating,google_reviews,homes_listed']
+        lines = [l for l in lines if not l.startswith(facts['date'])]
+        lines.append(f"{facts['date']},{facts['google_rating']},{facts['google_reviews']},{facts.get('homes_listed', '')}")
+        open(hist, 'w').write('\n'.join(lines) + '\n')
+    return facts
+
+
 LOOKS = {'pm-carousel': look_carousel, 'rent-board': look_rent_board, 'polaroid': look_polaroid, 'story-rental': look_story_rental,
          'reel-cover': look_reel_cover, 'gbp': look_gbp, 'video-tour': look_video_tour, 'video-edit': look_video_edit,
          'contact': look_contact, 'listings': look_listings}
@@ -1015,6 +1043,10 @@ def run_job(path):
             entry.update(status='error', error=f'{type(ex).__name__}: {ex}', trace=traceback.format_exc()[-800:])
             print('FAIL', tid, type(ex).__name__, ex)
         manifest['tasks'].append(entry)
+    try:
+        manifest['site_facts'] = update_site_facts()
+    except Exception as ex:   # never let the counter break a render
+        manifest['site_facts'] = {'error': str(ex)}
     json.dump(manifest, open(os.path.join(out_root, 'manifest.json'), 'w'), indent=1)
     return manifest
 
