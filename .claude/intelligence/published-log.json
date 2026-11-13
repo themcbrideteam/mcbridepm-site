@@ -3995,6 +3995,62 @@
       ],
       "type": "new",
       "imageStatus": "none \u2014 Imagen API key invalid (47th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
+    },
+    {
+      "slug": "cost-segregation-sfr-rental-property-georgia-csra",
+      "title": "Cost Segregation for Single-Family Rentals in Georgia: 2026 Guide",
+      "date": "2026-11-13",
+      "cluster": "taxes",
+      "subtopic": "cost segregation for SFR rental property \u2014 MACRS reclassification, 100% bonus depreciation (OBBBA P.L. 119-21), Form 3115 catch-up, passive activity rules, depreciation recapture",
+      "persona": "P4",
+      "intent": "educational/tax-strategy/year-end-planning",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Columbia County",
+        "Richmond County",
+        "Aiken County"
+      ],
+      "primaryKeyword": "cost segregation single family rental property Georgia",
+      "entities": [
+        "IRS Rev. Proc. 87-56",
+        "IRS Publication 946",
+        "IRS Form 3115",
+        "MACRS",
+        "One Big Beautiful Bill Act (P.L. 119-21)",
+        "American Society of Cost Segregation Professionals (ASCSP)",
+        "IRC \u00a7168(k) bonus depreciation",
+        "Section 1245 recapture",
+        "Section 1250 recapture",
+        "Evans GA",
+        "Grovetown GA",
+        "Martinez GA",
+        "Columbia County",
+        "Fort Gordon",
+        "Noah McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "What is cost segregation for a rental property?",
+        "Does cost segregation work for single-family rentals?",
+        "What is the 2026 bonus depreciation rate for rental property?",
+        "How much does a cost segregation study cost?",
+        "What components get reclassified in a cost segregation study?",
+        "Can I do cost segregation on a property I already own?",
+        "Do I need real estate professional status to benefit?",
+        "What happens to depreciation recapture when I sell?"
+      ],
+      "internalLinks": 9,
+      "externalCitations": 4,
+      "wordCount": 2650,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none \u2014 Imagen API key invalid (48th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
     }
   ]
 }

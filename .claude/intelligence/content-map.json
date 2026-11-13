@@ -6,11 +6,11 @@
     "notes": {
       "imagen_api_key": "API key invalid for 41 consecutive runs (2026-07-22 through 2026-11-05). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
     },
-    "lastUpdated": "2026-11-12"
+    "lastUpdated": "2026-11-13"
   },
   "clusters": {
     "taxes": {
-      "coverage": 0.91,
+      "coverage": 0.97,
       "authority": "high",
       "posts": [
         "depreciation-recapture-selling-rental-property-georgia",
@@ -19,11 +19,10 @@
         "section-121-military-exception-fort-gordon-pcs-landlords",
         "1031-exchange-basics-augusta-rental-investors",
         "schedule-e-first-year-landlord-georgia-csra",
-        "year-end-tax-checklist-pcs-landlord-csra-2026"
+        "year-end-tax-checklist-pcs-landlord-csra-2026",
+        "cost-segregation-sfr-rental-property-georgia-csra"
       ],
-      "gaps": [
-        "cost segregation for SFR"
-      ]
+      "gaps": []
     },
     "laws-compliance": {
       "coverage": 0.91,
@@ -279,7 +278,6 @@
     }
   },
   "priorityQueue": [
-    "taxes: cost segregation for SFR rental property Georgia (P4)",
     "city-guides: Augusta owner/investor city guide \u2014 demand drivers, cap rates, submarket comparison (P4)",
     "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) \u2014 publish after DoD December announcement",
     "leasing-screening: move-in inspection done right \u2014 liability documentation for CSRA landlords (P3)",
