@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 124
+    "totalPosts": 132
   },
   "posts": [
     {
@@ -4051,6 +4051,66 @@
       ],
       "type": "new",
       "imageStatus": "none \u2014 Imagen API key invalid (48th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
+    },
+    {
+      "slug": "online-rent-collection-csra-landlords-2026",
+      "title": "Online Rent Collection for CSRA Landlords: What Works in 2026",
+      "date": "2026-11-14",
+      "cluster": "technology",
+      "subtopic": "online rent collection tools \u2014 Zelle/Venmo legal risks, Georgia O.C.G.A. \u00a7 44-7-52 partial payment waiver, dedicated platform comparison, IRS 1099-K, 7-step setup checklist",
+      "persona": "P2",
+      "intent": "educational/legal-reference/conversion \u2014 accidental landlord self-managing who needs to transition from consumer payment apps to a compliant rent collection system",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "online rent collection landlord Georgia",
+      "entities": [
+        "O.C.G.A. \u00a7 44-7-52",
+        "O.C.G.A. \u00a7 44-7-11",
+        "O.C.G.A. \u00a7 44-7-7",
+        "IRS Publication 527",
+        "IRS Form 1099-K",
+        "Georgia DCA Landlord-Tenant Handbook",
+        "TurboTenant",
+        "Avail (Apartments.com)",
+        "Rentec Direct",
+        "Buildium",
+        "AppFolio",
+        "Zelle",
+        "Venmo",
+        "Evans GA ZIP 30809",
+        "Grovetown GA ZIP 30813",
+        "Columbia County Magistrate Court",
+        "Richmond County Magistrate Court",
+        "Noah McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "Can Georgia landlords require electronic rent payment only?",
+        "Is Zelle legal for rent collection in Georgia?",
+        "What happens if I accept partial rent via Venmo in Georgia?",
+        "Does Georgia law require a receipt for rent payment?",
+        "What is the best free rent collection platform for a small CSRA landlord?",
+        "How do rent collection apps handle late fees?",
+        "Do I need to report Zelle rent payments to the IRS?",
+        "What payment clause should I add to my Georgia lease?"
+      ],
+      "internalLinks": 9,
+      "externalCitations": 5,
+      "wordCount": 2650,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "firstHand": "listings-summary.json dated 2026-11-12 \u2014 Evans 3-bed $1,895-$2,400/mo context",
+      "imageStatus": "none \u2014 Imagen API key invalid (49th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
     }
   ]
 }

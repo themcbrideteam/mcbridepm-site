@@ -6,7 +6,7 @@
     "notes": {
       "imagen_api_key": "API key invalid for 41 consecutive runs (2026-07-22 through 2026-11-05). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
     },
-    "lastUpdated": "2026-11-13"
+    "lastUpdated": "2026-11-14"
   },
   "clusters": {
     "taxes": {
@@ -267,14 +267,17 @@
       "gaps": []
     },
     "technology": {
-      "coverage": 0.75,
+      "coverage": 0.83,
       "authority": "medium-high",
       "posts": [
         "appfolio-owner-portal-property-management-augusta-ga",
         "online-rental-applications-property-management-csra-guide",
-        "appfolio-tenant-portal-guide-csra-rental"
+        "appfolio-tenant-portal-guide-csra-rental",
+        "online-rent-collection-csra-landlords-2026"
       ],
-      "gaps": []
+      "gaps": [
+        "Smart home devices / keyless entry for CSRA rentals \u2014 P3/P2"
+      ]
     }
   },
   "priorityQueue": [
