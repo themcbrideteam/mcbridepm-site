@@ -4111,6 +4111,64 @@
       "type": "new",
       "firstHand": "listings-summary.json dated 2026-11-12 \u2014 Evans 3-bed $1,895-$2,400/mo context",
       "imageStatus": "none \u2014 Imagen API key invalid (49th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
+    },
+    {
+      "slug": "smart-home-upgrades-csra-rental-property-pcs-landlord-guide",
+      "title": "Smart Home Upgrades for Your CSRA Rental: A Fort Gordon PCS Landlord's Guide",
+      "date": "2026-11-15",
+      "cluster": "technology",
+      "subtopic": "smart home devices for PCS landlords \u2014 keyless smart locks, smart thermostats, WiFi leak sensors, exterior cameras, Georgia surveillance law, lease disclosure requirements",
+      "persona": "P1",
+      "intent": "educational/conversion \u2014 Fort Gordon PCS landlord installing remote-management technology before leaving the CSRA",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Augusta",
+        "Columbia County"
+      ],
+      "primaryKeyword": "smart home devices CSRA rental property PCS landlord",
+      "entities": [
+        "O.C.G.A. \u00a7 16-11-62(2)",
+        "O.C.G.A. \u00a7 16-11-69",
+        "O.C.G.A. \u00a7 16-11-66(a)",
+        "O.C.G.A. \u00a7 16-11-67",
+        "O.C.G.A. \u00a7 44-7-11",
+        "Georgia Safe at Home Act (HB 404)",
+        "One Big Beautiful Bill Act (P.L. 119-21)",
+        "IRS Publication 527",
+        "MACRS five-year personal property",
+        "Fort Gordon",
+        "Evans GA ZIP 30809",
+        "Grovetown GA ZIP 30813",
+        "Columbia County",
+        "Schlage Encode Plus",
+        "Yale Assure Lock 2",
+        "Kwikset SmartCode 955",
+        "AppFolio",
+        "Noah McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "Do I need to tell my tenant about a smart lock in Georgia?",
+        "Can I install security cameras inside my CSRA rental?",
+        "What is the best smart lock for a rental property in the CSRA?",
+        "Does a smart thermostat count as a tax deduction for a Georgia landlord?",
+        "What happens if my tenant reports a leak and I'm deployed?",
+        "How much does it cost to rekey a lock at tenant turnover in the CSRA?",
+        "Can a PCS landlord in another state control these devices remotely?",
+        "What smart home upgrades should I skip for a CSRA rental?"
+      ],
+      "internalLinks": 12,
+      "externalCitations": 3,
+      "wordCount": 3307,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "firstHand": "listings-summary.json dated 2026-11-12 \u2014 Evans 4-bed $2,295-$2,600/mo",
+      "imageStatus": "none \u2014 Imagen API key invalid (50th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
     }
   ]
 }
