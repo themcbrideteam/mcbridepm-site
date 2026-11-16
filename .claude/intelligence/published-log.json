@@ -4169,6 +4169,67 @@
       "type": "new",
       "firstHand": "listings-summary.json dated 2026-11-12 \u2014 Evans 4-bed $2,295-$2,600/mo",
       "imageStatus": "none \u2014 Imagen API key invalid (50th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
+    },
+    {
+      "slug": "augusta-ga-rental-property-investor-guide-2026",
+      "title": "Augusta, GA Rental Property Investment Guide 2026: Submarkets, Rents, and What Out-of-State Buyers Need to Know",
+      "date": "2026-11-16",
+      "cluster": "city-guides",
+      "subtopic": "Augusta GA owner/investor city guide \u2014 submarket breakdown, rent ranges by ZIP, gross yield vs net cap rate, sample deal underwriting, sight-unseen due diligence checklist",
+      "persona": "P4",
+      "intent": "investment-research/conversion \u2014 out-of-state investor evaluating Augusta GA as a rental market for the first time",
+      "cities": [
+        "Augusta",
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Richmond County",
+        "Columbia County"
+      ],
+      "primaryKeyword": "Augusta GA rental investment 2026",
+      "entities": [
+        "Fort Gordon",
+        "Army Cyber Center of Excellence",
+        "Savannah River Site (SRS)",
+        "Augusta University Medical Center",
+        "Wellstar MCG",
+        "Augusta National Golf Club",
+        "SFR Analytics",
+        "Zillow",
+        "Stacker/Redfin",
+        "LinkedIn Cities on the Rise 2026",
+        "Alliance for Fort Gordon",
+        "O.C.G.A. HB 399",
+        "FEMA flood zones",
+        "ZIP 30904",
+        "ZIP 30906",
+        "ZIP 30907",
+        "ZIP 30909",
+        "TopHap",
+        "Noah McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "What cap rate can I expect from an Augusta GA rental property in 2026?",
+        "How do Augusta proper rents compare to Evans and Grovetown?",
+        "What neighborhoods in Augusta are best for rental investment?",
+        "What is the median home price in Augusta GA in 2026?",
+        "How does Fort Gordon affect rental demand in Augusta?",
+        "Can I buy an Augusta rental property without visiting?",
+        "What is the typical gross rental yield in the Augusta metro?",
+        "Do I need a local property manager for a CSRA rental as an out-of-state owner?"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 5,
+      "wordCount": 2550,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "firstHand": "listings-summary.json dated 2026-11-16 \u2014 Augusta 12 homes: 2BR $995-$1,650, 3BR $1,295-$2,050, 4BR $1,250-$4,100",
+      "imageStatus": "none \u2014 Imagen API key invalid (51st consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
     }
   ]
 }

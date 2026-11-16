@@ -6,7 +6,7 @@
     "notes": {
       "imagen_api_key": "API key invalid for 50 consecutive runs (2026-07-22 through 2026-11-15). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation — URGENT: escalate to Noah."
     },
-    "lastUpdated": "2026-11-15"
+    "lastUpdated": "2026-11-16"
   },
   "clusters": {
     "taxes": {
@@ -214,7 +214,7 @@
       ]
     },
     "city-guides": {
-      "coverage": 0.87,
+      "coverage": 0.92,
       "authority": "high",
       "posts": [
         "renting-in-augusta",
@@ -227,11 +227,10 @@
         "renting-in-aiken-sc-tenant-guide",
         "appling-ga-rental-investment-north-columbia-county",
         "grovetown-ga-rental-market-investor-guide-2026",
-        "martinez-ga-rental-market-investor-guide-2026"
+        "martinez-ga-rental-market-investor-guide-2026",
+        "augusta-ga-rental-property-investor-guide-2026"
       ],
-      "gaps": [
-        "Augusta owner/investor city guide (current ones are tenant-facing)"
-      ]
+      "gaps": []
     },
     "hoa": {
       "coverage": 0.85,
@@ -280,13 +279,13 @@
     }
   },
   "priorityQueue": [
-    "city-guides: Augusta owner/investor city guide — demand drivers, cap rates, submarket comparison (P4)",
     "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) — publish after DoD December announcement",
     "hoa: Specific Evans/Grovetown subdivision rental cap survey — which communities have active caps (P1/P3)",
-    "tenant-education: lease renewal Georgia tenant CSRA — PUBLISHED 2026-11-12",
     "market-reports: rent growth and vacancy trend recap Q3-Q4 2026 (P3/P4)",
     "investing: financing options compared (conventional vs DSCR vs portfolio loan) for CSRA rental investors (P4)",
     "tenant-education: navigating AppFolio maintenance requests — what tenants need to know (P5)",
-    "owner-education: year-end financial review for CSRA rental portfolio owners (P3) — PUBLISHED 2026-11-11"
+    "city-guides: Augusta GA rental investment guide PUBLISHED 2026-11-16",
+    "accidental-landlord: divorce + rental property in Columbia County (P2) — still a gap in that persona arc",
+    "leasing-screening: tenant communication cadence — application to lease signing (P1/P2)"
   ]
 }
