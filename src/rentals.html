@@ -10,6 +10,11 @@ breadcrumbs:
 ---
 
 {% block content %}
+{# Boom's listings widget, as Boom supplied it (BoomCRM). Showings and applications happen inside
+   it. Keep allow="camera; microphone": Boom can ask for a photo ID and a selfie, and
+   netlify.toml's Permissions-Policy has to allow boom.rent too. The launch date and the Boom
+   address live in src/_data/boom.js. #}
+{% set boomFrame %}<iframe src="{{ boom.listingsUrl }}" id="boom-iframe" style="height:90vh;width:100%" title="Available rental homes" frameborder="0" allow="camera; microphone"></iframe>{% endset %}
 <!-- Page Header -->
   <div class="page-header">
     <div class="container">
@@ -18,69 +23,106 @@ breadcrumbs:
       </div>
       <h1>Homes for Rent in Augusta, Evans &amp; Aiken</h1>
       <p>Browse every home we have available across the CSRA, schedule a showing, and apply online.</p>
-      <p style="margin-top: 1rem;"><a href="{{ site.rentalsListings }}" class="btn btn-primary">View All Available Homes</a> <a href="{{ site.residentPortal }}" class="btn btn-outline" style="margin-left: .5rem;">Resident Portal</a></p>
+      <p style="margin-top: 1rem;">{% if boom.live %}<a href="#listings" class="btn btn-primary">View All Available Homes</a>{% else %}<a href="{{ site.rentalsListings }}" class="btn btn-primary" data-boom-href="#listings">View All Available Homes</a>{% endif %} <a href="{{ site.residentPortal }}" class="btn btn-outline" style="margin-left: .5rem;">Resident Portal</a></p>
     </div>
   </div>
 
   <!-- Listings Section -->
   <div class="content-section">
     <div class="container">
-      <!-- Tenant Turner Listings Widget (light by design: it sits on a white board) -->
-      <div class="listing-board"><div id="ttWidget"></div></div>
-      <script>
-        try {
-          window.tenantTurnerListingsWidget = {
-            connection: { customer_id: 36015, user_id: null },
-            environment: { root_path: 'https://app.tenantturner.com' },
-            tracking: {},
-            options: {
-              appearance__theme_color: '060644',
-              appearance__map_enabled: 0,
-              appearance__map_height: '800',
-              appearance__map_width: '100',
-              appearance__map_view: 'show_listings_first',
-              appearance__application_enabled: 1,
-              appearance__application_display_type: 'link',
-              appearance__waitlist_enabled: 1,
-              appearance__description_enabled: 1,
-              search__search_enabled: 1,
-              search__default_value: '',
-              filter__filter_enabled: 1,
-              filter__city_default_value: '',
-              filter__state_default_value: '',
-              filter__property_type_default_value: '',
-              filter__bedrooms_default_value: '',
-              filter__baths_default_value: '',
-              filter__pets_default_value: '',
-              sort__sort_enabled: 1,
-              sort__default_value: 'Most Recent'
-            }
-          };
-        } catch (err) { if (console) { console.warn('TT widget error: ' + err); } }
-        try {
-          (function () {
-            var w = window;
-            var tt = w.TenantTurner;
-            if (typeof tt !== "function") {
-              var d = document;
-              function l() {
-                var s = d.createElement('script');
-                s.type = 'text/javascript';
-                s.async = true;
-                s.src = window.tenantTurnerListingsWidget.environment.root_path + '/widget/widget.js';
-                var x = d.getElementById('ttWidget');
-                x.parentNode.insertBefore(s, x);
-              }
-              if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); }
-            }
-          })()
-        } catch (err) { if (console) { console.warn('TT widget error: ' + err); } }
-      </script>
+{% if boom.live %}
+      <!-- Boom listings (BoomCRM) -->
+      <div class="listing-board listing-board--boom" id="listings">{{ boomFrame | safe }}</div>
+      <script src="{{ boom.embedScript }}" async></script>
       <div class="listing-help">
         <p style="margin: 0 0 .75rem; color: var(--ink-soft);">Listings not loading, or want to see everything in one list?</p>
-        <a href="{{ site.rentalsListings }}" class="btn btn-primary">See All Available Homes &rarr;</a>
+        <a href="{{ boom.listingsUrl }}" class="btn btn-primary">See All Available Homes &rarr;</a>
         <p style="margin: .75rem 0 0; color: var(--ink-soft); font-size: .85rem;">Questions about a home? Call <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a> or email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
       </div>
+{% else %}
+      <!-- Tenant Turner until {{ boom.goLive }} (9:00 AM Eastern, Monday, November 23, 2026), Boom from
+           then on. The script below makes the switch in the visitor's browser at that moment, so
+           nothing has to be deployed on launch morning. The first build after launch drops this
+           branch and ships Boom only (src/_data/boom.js). Preview Boom early: /rentals/?listings=boom -->
+      <div class="listing-board" id="listings"><div id="ttWidget"></div></div>
+      <template id="boom-frame">{{ boomFrame | safe }}</template>
+      <div class="listing-help">
+        <p style="margin: 0 0 .75rem; color: var(--ink-soft);">Listings not loading, or want to see everything in one list?</p>
+        <a href="{{ site.rentalsListings }}" class="btn btn-primary" data-boom-href="{{ boom.listingsUrl }}">See All Available Homes &rarr;</a>
+        <p style="margin: .75rem 0 0; color: var(--ink-soft); font-size: .85rem;">Questions about a home? Call <a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a> or email <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+      </div>
+      <script>
+        (function () {
+          var preview = /[?&]listings=boom(&|$)/.test(window.location.search);
+          var boomIsLive = preview || Date.now() >= Date.parse("{{ boom.goLive }}");
+
+          if (boomIsLive) {
+            /* Boom: put the iframe on the board, then load Boom's sizing script */
+            var board = document.getElementById("listings");
+            board.className = "listing-board listing-board--boom";
+            board.innerHTML = "";
+            board.appendChild(document.getElementById("boom-frame").content.cloneNode(true));
+            var embed = document.createElement("script");
+            embed.src = "{{ boom.embedScript }}";
+            embed.async = true;
+            document.body.appendChild(embed);
+            /* The header button jumps to the widget; the fallback link opens Boom's own page */
+            var links = document.querySelectorAll("a[data-boom-href]");
+            for (var i = 0; i < links.length; i++) { links[i].setAttribute("href", links[i].getAttribute("data-boom-href")); }
+            return;
+          }
+
+          /* Tenant Turner listings widget, unchanged */
+          try {
+            window.tenantTurnerListingsWidget = {
+              connection: { customer_id: 36015, user_id: null },
+              environment: { root_path: 'https://app.tenantturner.com' },
+              tracking: {},
+              options: {
+                appearance__theme_color: '060644',
+                appearance__map_enabled: 0,
+                appearance__map_height: '800',
+                appearance__map_width: '100',
+                appearance__map_view: 'show_listings_first',
+                appearance__application_enabled: 1,
+                appearance__application_display_type: 'link',
+                appearance__waitlist_enabled: 1,
+                appearance__description_enabled: 1,
+                search__search_enabled: 1,
+                search__default_value: '',
+                filter__filter_enabled: 1,
+                filter__city_default_value: '',
+                filter__state_default_value: '',
+                filter__property_type_default_value: '',
+                filter__bedrooms_default_value: '',
+                filter__baths_default_value: '',
+                filter__pets_default_value: '',
+                sort__sort_enabled: 1,
+                sort__default_value: 'Most Recent'
+              }
+            };
+          } catch (err) { if (console) { console.warn('TT widget error: ' + err); } }
+          try {
+            (function () {
+              var w = window;
+              var tt = w.TenantTurner;
+              if (typeof tt !== "function") {
+                var d = document;
+                function l() {
+                  var s = d.createElement('script');
+                  s.type = 'text/javascript';
+                  s.async = true;
+                  s.src = window.tenantTurnerListingsWidget.environment.root_path + '/widget/widget.js';
+                  var x = d.getElementById('ttWidget');
+                  x.parentNode.insertBefore(s, x);
+                }
+                if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); }
+              }
+            })()
+          } catch (err) { if (console) { console.warn('TT widget error: ' + err); } }
+        })();
+      </script>
+{% endif %}
 
       <h2 class="text-center mb-3" style="margin-top: 3rem;">How It Works</h2>
       <p class="text-center" style="color: var(--ink-soft); margin-bottom: 2rem; font-size: 0.95rem;">Browse listings above, schedule a showing at a time that works for you, and submit your application online.</p>
@@ -105,7 +147,7 @@ breadcrumbs:
           <div class="step-number"></div>
           <div class="step-content">
             <h3>Submit Your Application</h3>
-            <p>Complete our secure online application through the AppFolio portal. Provide your personal information, employment details, rental history, and references. You'll pay a non-refundable application fee (typically $35-$50) at this time.</p>
+            <p>Complete our secure online application. Provide your personal information, employment details, rental history, and references. The application fee is non-refundable, and the amount is shown on each listing.</p>
           </div>
         </div>
 
