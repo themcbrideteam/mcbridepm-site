@@ -38,7 +38,7 @@ Prioritized by business impact ÷ effort. Re-rank at the start of each cycle. Cy
 ## Ideas (not yet validated)
 
 - Direct lead copy to n8n (sendBeacon from `lead.js`) that emails Robert and logs the lead, so Akismet-held submissions can't be missed
-- Swap the /rentals/ Tenant Turner widget for Boom listings when Tenant Turner is cancelled (AppFolio listings link is the fallback already on the page)
+- After Monday 2026-11-23 (Boom replaced Tenant Turner on /rentals/ at 9:00 AM Eastern): remove the Tenant Turner branch from `src/rentals.html`, the `live` switch from `src/_data/boom.js`, and `tenantturner` from `qa/inner-pages.mjs`; point `site.rentalsListings` at the Boom page
 
 - Interactive rental analysis estimator (instant range from bed/bath/zip before form submit)
 - Owner onboarding checklist page mirroring the 3-step section
