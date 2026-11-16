@@ -1,0 +1,38 @@
+{
+ "job_id": "2026-11-16-0516",
+ "rendered_at": "2026-11-16T10:17:28.724118Z",
+ "tasks": [
+  {
+   "id": "2026-11-18-S",
+   "look": "story-rental",
+   "status": "ok",
+   "files": [
+    "out/2026-11-16-0516/2026-11-18-S/01.jpg"
+   ],
+   "facts": {
+    "homes": [
+     {
+      "id": "7e1e1ce8-916a-4dda-b38e-644aa9e7df02",
+      "address": "343 Greendale Place, Evans, GA 30809",
+      "street": "343 Greendale Place",
+      "city": "Evans",
+      "state": "GA",
+      "rent": "$1,300",
+      "bedbath": "2 bd / 2 ba",
+      "sqft": "1,092",
+      "avail": "NOW",
+      "pets": "Cats not allowed, Dogs not allowed",
+      "title": "343 Greendale Place - Townhome in the Villages of Greenbier!",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/7e1e1ce8-916a-4dda-b38e-644aa9e7df02"
+     }
+    ]
+   }
+  }
+ ],
+ "site_facts": {
+  "date": "2026-11-16",
+  "google_rating": 4.8,
+  "google_reviews": 27,
+  "homes_listed": 26
+ }
+}

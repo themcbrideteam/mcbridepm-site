@@ -1,7 +1,7 @@
 {
- "date": "2026-11-12",
+ "date": "2026-11-16",
  "source": "homes listed for rent by McBride Property Management on this date",
- "homes_listed": 28,
+ "homes_listed": 26,
  "towns": {
   "Aiken": {
    "homes": 3,
@@ -53,7 +53,7 @@
    }
   },
   "Evans": {
-   "homes": 7,
+   "homes": 6,
    "rent_low": 1300,
    "rent_high": 2600,
    "by_bedrooms": {
@@ -71,22 +71,17 @@
      "homes": 3,
      "rent_low": 2295,
      "rent_high": 2600
-    },
-    "5": {
-     "homes": 1,
-     "rent_low": 2250,
-     "rent_high": 2250
     }
    }
   },
   "Grovetown": {
-   "homes": 4,
-   "rent_low": 1895,
+   "homes": 3,
+   "rent_low": 1950,
    "rent_high": 2600,
    "by_bedrooms": {
     "4": {
-     "homes": 3,
-     "rent_low": 1895,
+     "homes": 2,
+     "rent_low": 1950,
      "rent_high": 2100
     },
     "5": {
