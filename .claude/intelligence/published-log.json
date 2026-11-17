@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 132
+    "totalPosts": 133
   },
   "posts": [
     {
@@ -3592,7 +3592,14 @@
       "subtopic": "flood and windstorm coverage gaps for CSRA rental properties",
       "persona": "P4",
       "intent": "gap-fill \u2014 flood/windstorm exposure in the CSRA insurance cluster",
-      "cities": ["Augusta", "Evans", "Grovetown", "Martinez", "North Augusta", "Aiken"],
+      "cities": [
+        "Augusta",
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "North Augusta",
+        "Aiken"
+      ],
       "primaryKeyword": "flood insurance rental property Augusta GA",
       "entities": [
         "Savannah River",
@@ -3637,7 +3644,15 @@
       "subtopic": "self-manage vs hire property manager \u2014 decision framework for CSRA accidental landlords",
       "persona": "P2",
       "intent": "decision-framework/conversion",
-      "cities": ["Evans", "Grovetown", "Martinez", "Augusta", "North Augusta", "Columbia County", "Richmond County"],
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "North Augusta",
+        "Columbia County",
+        "Richmond County"
+      ],
       "primaryKeyword": "self-manage rental property Augusta GA",
       "entities": [
         "Zillow Research March 2026 accidental landlord study",
@@ -3669,7 +3684,10 @@
       "internalLinks": 19,
       "externalCitations": 4,
       "wordCount": 2750,
-      "schema": ["BlogPosting", "FAQPage"],
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
       "type": "new",
       "imageStatus": "none \u2014 Imagen API key invalid (41st consecutive run; API_KEY_INVALID \u2014 escalation needed)"
     },
@@ -3678,9 +3696,9 @@
       "title": "How to Choose a Property Manager Before Your Fort Gordon PCS",
       "date": "2026-11-07",
       "cluster": "military-pcs",
-      "subtopic": "PM evaluation and selection guide for Fort Gordon PCS landlords — Georgia broker license verification, SCRA fluency test, trust account structure, remote communication protocols, 10-question interview framework, red flags checklist",
+      "subtopic": "PM evaluation and selection guide for Fort Gordon PCS landlords \u2014 Georgia broker license verification, SCRA fluency test, trust account structure, remote communication protocols, 10-question interview framework, red flags checklist",
       "persona": "P1",
-      "intent": "buyer-guide/educational/conversion — Fort Gordon PCS landlord selecting a property manager before departure",
+      "intent": "buyer-guide/educational/conversion \u2014 Fort Gordon PCS landlord selecting a property manager before departure",
       "cities": [
         "Evans",
         "Grovetown",
@@ -3692,11 +3710,11 @@
       "primaryKeyword": "property manager Fort Gordon PCS landlord",
       "entities": [
         "O.C.G.A. Title 43 Chapter 40",
-        "O.C.G.A. § 43-40-1",
-        "O.C.G.A. § 43-40-29",
-        "O.C.G.A. § 43-40-30",
-        "O.C.G.A. § 43-40-24",
-        "50 U.S.C. § 3955 (SCRA)",
+        "O.C.G.A. \u00a7 43-40-1",
+        "O.C.G.A. \u00a7 43-40-29",
+        "O.C.G.A. \u00a7 43-40-30",
+        "O.C.G.A. \u00a7 43-40-24",
+        "50 U.S.C. \u00a7 3955 (SCRA)",
         "Georgia Real Estate Commission (GREC)",
         "NARPM Code of Ethics",
         "Defense Manpower Data Center (DMDC)",
@@ -3728,16 +3746,16 @@
         "FAQPage"
       ],
       "type": "new",
-      "imageStatus": "none — Imagen API key invalid (43rd consecutive run; API_KEY_INVALID — URGENT: escalate to Noah)"
+      "imageStatus": "none \u2014 Imagen API key invalid (43rd consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
     },
     {
       "slug": "cap-rate-vs-cash-on-cash-csra-rental-investors-augusta-ga",
       "title": "Cap Rate vs. Cash-on-Cash Return: Augusta Rental Investor's Guide",
       "date": "2026-11-08",
       "cluster": "investing",
-      "subtopic": "cap rate vs cash-on-cash return explainer with Augusta examples — negative leverage, GRM, Columbia County vs Richmond County submarket comparison",
+      "subtopic": "cap rate vs cash-on-cash return explainer with Augusta examples \u2014 negative leverage, GRM, Columbia County vs Richmond County submarket comparison",
       "persona": "P3",
-      "intent": "educational/investor-metrics/decision-framework — small intentional landlord who needs to understand both metrics before evaluating a CSRA acquisition",
+      "intent": "educational/investor-metrics/decision-framework \u2014 small intentional landlord who needs to understand both metrics before evaluating a CSRA acquisition",
       "cities": [
         "Evans",
         "Grovetown",
@@ -3780,7 +3798,7 @@
         "HowTo"
       ],
       "type": "new",
-      "imageStatus": "none — Imagen API key invalid (44th consecutive run; API_KEY_INVALID — URGENT: escalate to Noah)"
+      "imageStatus": "none \u2014 Imagen API key invalid (44th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
     },
     {
       "slug": "brrrr-strategy-csra-augusta-ga-rental-investor-guide",
@@ -3790,7 +3808,16 @@
       "subtopic": "BRRRR strategy feasibility in CSRA \u2014 ARV targets, rehab costs, DSCR refinance math, repeat cycle",
       "persona": "P4",
       "intent": "investment-research/education",
-      "cities": ["Grovetown", "Evans", "Augusta", "Martinez", "North Augusta", "Columbia County", "Richmond County", "Aiken County"],
+      "cities": [
+        "Grovetown",
+        "Evans",
+        "Augusta",
+        "Martinez",
+        "North Augusta",
+        "Columbia County",
+        "Richmond County",
+        "Aiken County"
+      ],
       "primaryKeyword": "BRRRR strategy Augusta GA",
       "entities": [
         "O.C.G.A. Title 43",
@@ -3827,7 +3854,10 @@
       "internalLinks": 9,
       "externalCitations": 5,
       "wordCount": 2650,
-      "schema": ["BlogPosting", "FAQPage"],
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
       "type": "new",
       "imageStatus": "none \u2014 Imagen API key invalid (42nd consecutive run; API_KEY_INVALID)"
     },
@@ -4230,6 +4260,64 @@
       "type": "new",
       "firstHand": "listings-summary.json dated 2026-11-16 \u2014 Augusta 12 homes: 2BR $995-$1,650, 3BR $1,295-$2,050, 4BR $1,250-$4,100",
       "imageStatus": "none \u2014 Imagen API key invalid (51st consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
+    },
+    {
+      "slug": "find-vet-contractors-csra-rental-property-georgia",
+      "title": "How CSRA Landlords Find and Vet Reliable Repair Contractors",
+      "date": "2026-11-17",
+      "cluster": "vendor-management",
+      "subtopic": "Finding, vetting, and managing repair contractors for CSRA rental properties \u2014 Georgia licensing rules (O.C.G.A. \u00a7 43-41-2), insurance requirements, 7-point vetting checklist, 5 trade categories, remote management practices",
+      "persona": "Multi (P2/P3/P4)",
+      "intent": "education/conversion \u2014 self-managing or evaluating management for CSRA rental owners who need a reliable contractor network",
+      "cities": [
+        "Augusta",
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Columbia County",
+        "Richmond County",
+        "Aiken"
+      ],
+      "primaryKeyword": "find reliable contractors rental property Augusta GA",
+      "entities": [
+        "O.C.G.A. \u00a7 43-41-2",
+        "O.C.G.A. \u00a7 43-41-17",
+        "Georgia Secretary of State",
+        "GOALS portal",
+        "EPA 608 certification",
+        "Georgia Safe at Home Act",
+        "BBB",
+        "BiggerPockets",
+        "WRDW",
+        "Noah McBride",
+        "McBride Property Management",
+        "Richmond County Magistrate Court",
+        "Columbia County Magistrate Court",
+        "Fort Gordon",
+        "Evans GA",
+        "Grovetown GA"
+      ],
+      "questionsAnswered": [
+        "Do I need a licensed contractor for every rental repair in Georgia?",
+        "How do I verify a Georgia contractor license?",
+        "What insurance should a contractor carry for my rental property?",
+        "What is the typical wait time to get a contractor in Augusta?",
+        "Can I use a handyman for most rental repairs in Georgia?",
+        "What should I put in writing before a contractor starts work?",
+        "How do out-of-state CSRA landlords manage contractors remotely?",
+        "What do I do if a contractor does poor work on my rental?"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 3,
+      "wordCount": 2490,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "firstHand": "listings-summary.json dated 2026-11-17 \u2014 Evans 3BR homes listed at $1,895-$2,400/month (2 homes)",
+      "imageStatus": "none \u2014 Imagen API key invalid (52nd consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
     }
   ]
 }

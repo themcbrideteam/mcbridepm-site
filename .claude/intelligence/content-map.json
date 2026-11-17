@@ -4,9 +4,9 @@
     "builtFrom": "118 live posts in src/blog/ as of 2026-10-30",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
-      "imagen_api_key": "API key invalid for 50 consecutive runs (2026-07-22 through 2026-11-15). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation — URGENT: escalate to Noah."
+      "imagen_api_key": "API key invalid for 52 consecutive runs (2026-07-22 through 2026-11-17). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
     },
-    "lastUpdated": "2026-11-16"
+    "lastUpdated": "2026-11-17"
   },
   "clusters": {
     "taxes": {
@@ -57,7 +57,7 @@
         "choosing-property-manager-fort-gordon-pcs-landlord"
       ],
       "gaps": [
-        "BAH 2027 rate-change impact on CSRA rents — publish after DoD December announcement"
+        "BAH 2027 rate-change impact on CSRA rents \u2014 publish after DoD December announcement"
       ],
       "refreshFlags": []
     },
@@ -210,7 +210,7 @@
         "lease-renewal-tenant-guide-georgia-csra"
       ],
       "gaps": [
-        "navigating AppFolio maintenance requests — what tenants need to know (P5)"
+        "navigating AppFolio maintenance requests \u2014 what tenants need to know (P5)"
       ]
     },
     "city-guides": {
@@ -246,12 +246,13 @@
       ]
     },
     "vendor-management": {
-      "coverage": 0.78,
+      "coverage": 0.86,
       "authority": "high",
       "posts": [
         "property-management-maintenance-vendors-csra-augusta-ga",
         "diy-vs-licensed-contractor-georgia-rental-property-repairs",
-        "after-hours-rental-emergencies-csra-property-manager"
+        "after-hours-rental-emergencies-csra-property-manager",
+        "find-vet-contractors-csra-rental-property-georgia"
       ],
       "gaps": []
     },
@@ -279,13 +280,13 @@
     }
   },
   "priorityQueue": [
-    "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) — publish after DoD December announcement",
-    "hoa: Specific Evans/Grovetown subdivision rental cap survey — which communities have active caps (P1/P3)",
+    "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) \u2014 publish after DoD December announcement",
+    "hoa: Specific Evans/Grovetown subdivision rental cap survey \u2014 which communities have active caps (P1/P3)",
     "market-reports: rent growth and vacancy trend recap Q3-Q4 2026 (P3/P4)",
     "investing: financing options compared (conventional vs DSCR vs portfolio loan) for CSRA rental investors (P4)",
-    "tenant-education: navigating AppFolio maintenance requests — what tenants need to know (P5)",
-    "city-guides: Augusta GA rental investment guide PUBLISHED 2026-11-16",
-    "accidental-landlord: divorce + rental property in Columbia County (P2) — still a gap in that persona arc",
-    "leasing-screening: tenant communication cadence — application to lease signing (P1/P2)"
+    "tenant-education: navigating AppFolio maintenance requests \u2014 what tenants need to know (P5)",
+    "accidental-landlord: divorce + rental property in Columbia County (P2) \u2014 still a gap in that persona arc (note: post exists on divorce topic; fresh angle could be buy-out + rental conversion)",
+    "leasing-screening: tenant communication cadence \u2014 application to lease signing (P1/P2)",
+    "vendor-management: how to handle a contractor who fails to show up or ghosts you \u2014 P3/P2 follow-on to new post"
   ]
 }
