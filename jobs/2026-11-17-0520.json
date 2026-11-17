@@ -1,0 +1,11 @@
+{"job_id": "2026-11-17-0520", "tasks": [
+  {"id": "2026-11-19-S", "look": "story-rental", "area": "all", "rotate_key": "2026-11-19", "skip": ["d1c1ecd1-2475-47f5-8a28-cd4e44e3ea42", "1d09569a-8049-45b5-82c5-2fa6715aa073", "7e1e1ce8-916a-4dda-b38e-644aa9e7df02"]},
+  {"id": "2026-11-19-E", "look": "pm-carousel", "cover_photo": "listing:auto", "slides": [
+    {"tpl": "cover", "eyebrow": "Field Notes", "title": "What we look for at every inspection.", "sub": "Three checks: water, air, and care."},
+    {"tpl": "tips", "eyebrow": "Check 1 · Water", "title": "Find the slow leak first.", "items": ["Under every sink, with a flashlight", "The water heater pan", "Stains on the ceilings"], "action": "A small drip can soften a subfloor for weeks before anyone calls."},
+    {"tpl": "tips", "eyebrow": "Check 2 · Air", "title": "Heat and air, before it fails.", "items": ["The air filter", "The vents", "The thermostat"], "action": "A filter left alone from December to May works the system twice as hard."},
+    {"tpl": "tips", "eyebrow": "Check 3 · Care", "title": "How the home is being kept.", "items": ["The yard", "Smoke alarms in place", "Anything the lease does not allow"]},
+    {"tpl": "statement", "theme": "navy", "eyebrow": "Field Notes", "title": "Small things caught early stay small.", "sub": "Every report and photo goes to the owner portal."},
+    {"tpl": "keyword", "word": "RENT", "gets": "and we will send you a free rental analysis.", "lines": ["McBride Property Management", "706.339.2874"]}
+  ]}
+]}
