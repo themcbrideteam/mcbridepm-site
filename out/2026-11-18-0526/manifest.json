@@ -1,0 +1,38 @@
+{
+ "job_id": "2026-11-18-0526",
+ "rendered_at": "2026-11-18T10:25:30.714030Z",
+ "tasks": [
+  {
+   "id": "2026-11-20-S",
+   "look": "story-rental",
+   "status": "ok",
+   "files": [
+    "out/2026-11-18-0526/2026-11-20-S/01.jpg"
+   ],
+   "facts": {
+    "homes": [
+     {
+      "id": "1c91d785-fc13-4c74-b108-ae81fb318297",
+      "address": "1827 Hicks Street, Augusta, GA 30904",
+      "street": "1827 Hicks Street",
+      "city": "Augusta",
+      "state": "GA",
+      "rent": "$950",
+      "bedbath": "1 bd / 1 ba",
+      "sqft": "890",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "1827 Hicks Street - Free months Rent",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/1c91d785-fc13-4c74-b108-ae81fb318297"
+     }
+    ]
+   }
+  }
+ ],
+ "site_facts": {
+  "date": "2026-11-18",
+  "google_rating": 4.8,
+  "google_reviews": 28,
+  "homes_listed": 26
+ }
+}
