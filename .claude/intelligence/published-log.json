@@ -4318,6 +4318,60 @@
       "type": "new",
       "firstHand": "listings-summary.json dated 2026-11-17 \u2014 Evans 3BR homes listed at $1,895-$2,400/month (2 homes)",
       "imageStatus": "none \u2014 Imagen API key invalid (52nd consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
+    },
+    {
+      "slug": "normal-wear-tear-tenant-damage-georgia-csra-landlord",
+      "title": "Normal Wear and Tear vs. Tenant Damage in Georgia: CSRA Landlord Guide",
+      "date": "2026-11-18",
+      "cluster": "security-deposit",
+      "subtopic": "Normal wear and tear vs. tenant damage \u2014 component-by-component guide, pro-rated deduction formula using useful life, 30-day return deadline, O.C.G.A. \u00a744-7-34 and \u00a744-7-35, itemized statement requirements, magistrate court evidence",
+      "persona": "P3",
+      "intent": "educational/conversion \u2014 small intentional landlord (1-3 rentals) deciding what to deduct from security deposit at lease-end, how to calculate pro-rated deductions, and how to stay legally defensible in Columbia County Magistrate Court",
+      "cities": [
+        "Evans",
+        "Augusta",
+        "Columbia County",
+        "Richmond County",
+        "Grovetown",
+        "Martinez",
+        "Aiken"
+      ],
+      "primaryKeyword": "normal wear and tear vs tenant damage Georgia",
+      "entities": [
+        "O.C.G.A. \u00a7 44-7-34",
+        "O.C.G.A. \u00a7 44-7-35",
+        "O.C.G.A. \u00a7 44-7-33",
+        "O.C.G.A. \u00a7 44-7-30.1",
+        "Safe at Home Act (H.B. 404 2024)",
+        "Columbia County Magistrate Court",
+        "Richmond County Magistrate Court",
+        "HUD Handbook 4350.3",
+        "HUD CNA e-Tool useful life guidelines",
+        "Noah McBride",
+        "McBride Property Management",
+        "Evans GA",
+        "Fort Gordon"
+      ],
+      "questionsAnswered": [
+        "What is the legal definition of normal wear and tear in Georgia?",
+        "Can I deduct carpet cleaning from a Georgia security deposit?",
+        "How do I pro-rate a security deposit deduction for partially worn carpet?",
+        "What is the Georgia security deposit limit after the Safe at Home Act?",
+        "What is the penalty for wrongfully withholding a security deposit in Georgia?",
+        "What evidence does Columbia County Magistrate Court expect?",
+        "What can Georgia landlords never deduct from a security deposit?",
+        "How long do Georgia landlords have to return a security deposit?"
+      ],
+      "internalLinks": 8,
+      "externalCitations": 5,
+      "wordCount": 2800,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "firstHand": "listings-summary.json dated 2026-11-18 \u2014 Evans 3BR homes listed at $1,895-$2,400/month (2 homes)",
+      "imageStatus": "none \u2014 Imagen API key invalid (53rd consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
     }
   ]
 }
