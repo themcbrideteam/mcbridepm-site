@@ -4372,6 +4372,57 @@
       "type": "new",
       "firstHand": "listings-summary.json dated 2026-11-18 \u2014 Evans 3BR homes listed at $1,895-$2,400/month (2 homes)",
       "imageStatus": "none \u2014 Imagen API key invalid (53rd consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
+    },
+    {
+      "slug": "rental-property-financing-csra-conventional-dscr-portfolio-loans",
+      "title": "Conventional, DSCR, or Portfolio Loan? Financing CSRA Rentals in 2026",
+      "date": "2026-11-19",
+      "cluster": "investing",
+      "subtopic": "rental property financing comparison \u2014 conventional vs DSCR vs portfolio loan for CSRA investors",
+      "persona": "P4",
+      "intent": "decision-framework/educational/conversion",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Augusta",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "rental property financing options Augusta GA",
+      "entities": [
+        "Fannie Mae Selling Guide B3-4.1-01",
+        "Freddie Mac PMMS November 5 2026",
+        "DSCR loan",
+        "non-QM mortgage",
+        "Evans GA",
+        "Columbia County",
+        "Fort Gordon",
+        "BiggerPockets",
+        "The Mortgage Reports",
+        "McBride Property Management",
+        "Noah McBride"
+      ],
+      "questionsAnswered": [
+        "What is the difference between a conventional investor loan and a DSCR loan?",
+        "What DSCR do CSRA rentals hit?",
+        "How many properties can I finance with Fannie Mae?",
+        "What is a portfolio loan for rental property?",
+        "Do DSCR loans allow LLC vesting in Georgia?",
+        "What down payment is required for CSRA rental?",
+        "What are investment property rates November 2026?",
+        "How do out-of-state investors get pre-qualified for CSRA purchase?"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 4,
+      "wordCount": 2800,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "firstHand": "listings-summary.json dated 2026-11-18 \u2014 Evans 3BR homes listed at $1,895\u2013$2,400/month (2 homes) used in DSCR calculation",
+      "imageStatus": "none \u2014 Imagen API key invalid (54th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
     }
   ]
 }
