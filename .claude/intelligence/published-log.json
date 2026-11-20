@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 133
+    "totalPosts": 138
   },
   "posts": [
     {
@@ -4423,6 +4423,57 @@
       "type": "new",
       "firstHand": "listings-summary.json dated 2026-11-18 \u2014 Evans 3BR homes listed at $1,895\u2013$2,400/month (2 homes) used in DSCR calculation",
       "imageStatus": "none \u2014 Imagen API key invalid (54th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
+    },
+    {
+      "slug": "csra-landlord-pre-rental-checklist",
+      "title": "CSRA Landlord Pre-Rental Checklist: What to Fix Before You List",
+      "date": "2026-11-20",
+      "cluster": "inspections",
+      "subtopic": "pre-rental property walkthrough \u2014 what to inspect and fix before listing a CSRA home as a rental",
+      "persona": "P2",
+      "intent": "educational/operational-checklist/conversion",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Augusta",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "pre-rental checklist Georgia landlord",
+      "entities": [
+        "O.C.G.A. \u00a7 44-7-13(b)",
+        "O.C.G.A. \u00a7 44-7-2(b)",
+        "Safe at Home Act (HB 404)",
+        "Evans GA",
+        "Grovetown GA",
+        "Columbia County",
+        "Richmond County",
+        "Fort Gordon",
+        "NLIHC",
+        "Georgia Appleseed",
+        "Zillow Augusta rental market"
+      ],
+      "questionsAnswered": [
+        "Does Georgia law require a pre-rental inspection?",
+        "What systems must work before a tenant moves in to a Georgia rental?",
+        "Can I rent a home as-is in Georgia?",
+        "How much does it cost to prepare a rental in Georgia?",
+        "What is a rental property make-ready in Augusta GA?",
+        "Who pays for pre-rental repairs \u2014 owner or property manager?",
+        "Difference between pre-rental inspection and move-in inspection?",
+        "Does Safe at Home Act apply to inherited properties?"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 3,
+      "wordCount": 2600,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "imageStatus": "none \u2014 Imagen API key invalid (55th consecutive run; API_KEY_INVALID). Key needs rotation \u2014 escalate to Noah.",
+      "firstHand": "listings-summary.json dated 2026-11-18: Evans 3BR $1,895-$2,400 (2 homes), Grovetown 4BR $1,950-$2,100 (2 homes)"
     }
   ]
 }

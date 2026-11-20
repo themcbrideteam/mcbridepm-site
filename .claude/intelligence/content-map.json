@@ -6,7 +6,7 @@
     "notes": {
       "imagen_api_key": "API key invalid for 54 consecutive runs (2026-07-22 through 2026-11-19). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
     },
-    "lastUpdated": "2026-11-19"
+    "lastUpdated": "2026-11-20"
   },
   "clusters": {
     "taxes": {
@@ -257,12 +257,13 @@
       "gaps": []
     },
     "inspections": {
-      "coverage": 0.78,
+      "coverage": 0.84,
       "authority": "medium-high",
       "posts": [
         "move-in-move-out-inspection-rental-property-georgia-landlords",
         "annual-property-inspection-csra-rental-landlord-guide",
-        "rental-property-inspection-schedule-csra-landlord-guide"
+        "rental-property-inspection-schedule-csra-landlord-guide",
+        "csra-landlord-pre-rental-checklist"
       ],
       "gaps": []
     },
