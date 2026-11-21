@@ -1,0 +1,38 @@
+{
+ "job_id": "2026-11-21-0520",
+ "rendered_at": "2026-11-21T10:17:05.056980Z",
+ "tasks": [
+  {
+   "id": "2026-11-23-S",
+   "look": "story-rental",
+   "status": "ok",
+   "files": [
+    "out/2026-11-21-0520/2026-11-23-S/01.jpg"
+   ],
+   "facts": {
+    "homes": [
+     {
+      "id": "b5c8c17a-b337-421f-b877-ef268d85b319",
+      "address": "3237 Riverstone Drive, Martinez, GA 30907",
+      "street": "3237 Riverstone Drive",
+      "city": "Martinez",
+      "state": "GA",
+      "rent": "$2,995",
+      "bedbath": "5 bd / 3.5 ba",
+      "sqft": "3,766",
+      "avail": "NOW",
+      "pets": "Cats not allowed, Dogs not allowed",
+      "title": "3237 Riverstone Drive - Over 3700 Square Feet of Living Space",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/b5c8c17a-b337-421f-b877-ef268d85b319"
+     }
+    ]
+   }
+  }
+ ],
+ "site_facts": {
+  "date": "2026-11-21",
+  "google_rating": 4.8,
+  "google_reviews": 29,
+  "homes_listed": 31
+ }
+}

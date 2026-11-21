@@ -1,10 +1,10 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-21",
  "source": "homes listed for rent by McBride Property Management on this date",
- "homes_listed": 26,
+ "homes_listed": 31,
  "towns": {
   "Aiken": {
-   "homes": 3,
+   "homes": 4,
    "rent_low": 950,
    "rent_high": 2395,
    "by_bedrooms": {
@@ -14,9 +14,9 @@
      "rent_high": 950
     },
     "3": {
-     "homes": 1,
+     "homes": 2,
      "rent_low": 1790,
-     "rent_high": 1790
+     "rent_high": 2000
     },
     "4": {
      "homes": 1,
@@ -26,7 +26,7 @@
    }
   },
   "Augusta": {
-   "homes": 12,
+   "homes": 15,
    "rent_low": 950,
    "rent_high": 4100,
    "by_bedrooms": {
@@ -36,12 +36,12 @@
      "rent_high": 950
     },
     "2": {
-     "homes": 4,
+     "homes": 6,
      "rent_low": 995,
      "rent_high": 1650
     },
     "3": {
-     "homes": 3,
+     "homes": 4,
      "rent_low": 1295,
      "rent_high": 2050
     },
@@ -53,9 +53,9 @@
    }
   },
   "Evans": {
-   "homes": 6,
+   "homes": 7,
    "rent_low": 1300,
-   "rent_high": 2600,
+   "rent_high": 2695,
    "by_bedrooms": {
     "2": {
      "homes": 1,
@@ -64,24 +64,29 @@
     },
     "3": {
      "homes": 2,
-     "rent_low": 1895,
+     "rent_low": 1850,
      "rent_high": 2400
     },
     "4": {
      "homes": 3,
      "rent_low": 2295,
      "rent_high": 2600
+    },
+    "5": {
+     "homes": 1,
+     "rent_low": 2695,
+     "rent_high": 2695
     }
    }
   },
   "Grovetown": {
-   "homes": 3,
-   "rent_low": 1950,
+   "homes": 2,
+   "rent_low": 2100,
    "rent_high": 2600,
    "by_bedrooms": {
     "4": {
-     "homes": 2,
-     "rent_low": 1950,
+     "homes": 1,
+     "rent_low": 2100,
      "rent_high": 2100
     },
     "5": {
@@ -105,6 +110,18 @@
      "homes": 1,
      "rent_low": 2995,
      "rent_high": 2995
+    }
+   }
+  },
+  "North Augusta": {
+   "homes": 1,
+   "rent_low": 2295,
+   "rent_high": 2295,
+   "by_bedrooms": {
+    "4": {
+     "homes": 1,
+     "rent_low": 2295,
+     "rent_high": 2295
     }
    }
   }
