@@ -6,7 +6,7 @@
     "notes": {
       "imagen_api_key": "API key invalid for 54 consecutive runs (2026-07-22 through 2026-11-19). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
     },
-    "lastUpdated": "2026-11-20"
+    "lastUpdated": "2026-11-21"
   },
   "clusters": {
     "taxes": {
@@ -81,7 +81,7 @@
       "gaps": []
     },
     "market-reports": {
-      "coverage": 0.93,
+      "coverage": 0.96,
       "authority": "high",
       "posts": [
         "augusta-rental-market-mid-2026-update",
@@ -93,11 +93,10 @@
         "evans-ga-rental-market-investor-guide-2026",
         "aiken-sc-rental-market-investor-guide-2026",
         "grovetown-ga-rental-market-investor-guide-2026",
-        "martinez-ga-rental-market-investor-guide-2026"
+        "martinez-ga-rental-market-investor-guide-2026",
+        "csra-rental-market-year-end-2026-landlords"
       ],
-      "gaps": [
-        "rent-growth + vacancy trend recap 2026"
-      ]
+      "gaps": []
     },
     "accidental-landlord": {
       "coverage": 0.94,
@@ -283,7 +282,6 @@
   "priorityQueue": [
     "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) \u2014 publish after DoD December announcement",
     "hoa: Specific Evans/Grovetown subdivision rental cap survey \u2014 which communities have active caps (P1/P3)",
-    "market-reports: rent growth and vacancy trend recap Q3-Q4 2026 (P3/P4)",
     "tenant-education: navigating AppFolio maintenance requests \u2014 what tenants need to know (P5)",
     "accidental-landlord: divorce + rental property in Columbia County (P2) \u2014 still a gap in that persona arc (note: post exists on divorce topic; fresh angle could be buy-out + rental conversion)",
     "leasing-screening: tenant communication cadence \u2014 application to lease signing (P1/P2)",

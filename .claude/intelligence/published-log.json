@@ -4474,6 +4474,68 @@
       "type": "new",
       "imageStatus": "none \u2014 Imagen API key invalid (55th consecutive run; API_KEY_INVALID). Key needs rotation \u2014 escalate to Noah.",
       "firstHand": "listings-summary.json dated 2026-11-18: Evans 3BR $1,895-$2,400 (2 homes), Grovetown 4BR $1,950-$2,100 (2 homes)"
+    },
+    {
+      "slug": "csra-rental-market-year-end-2026-landlords",
+      "title": "CSRA Rental Market Year-End 2026: What Every Owner Should Know",
+      "date": "2026-11-21",
+      "cluster": "market-reports",
+      "subtopic": "year-end 2026 CSRA rental market recap \u2014 rent trends by submarket, demand driver analysis, Columbia County vs Richmond County comparison, 2027 outlook for small landlords",
+      "persona": "P3",
+      "intent": "educational/decision-framework/conversion \u2014 small intentional landlord reviewing 2026 performance and planning 2027 renewal and pricing strategy",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "North Augusta",
+        "Aiken",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "CSRA rental market 2026 year-end landlord",
+      "entities": [
+        "RentCafe",
+        "Zumper",
+        "SFR Analytics",
+        "HUD Fair Market Rent FY2026 Augusta-Richmond County",
+        "Fort Gordon",
+        "Army Cyber Center of Excellence",
+        "Alliance for Fort Gordon",
+        "Savannah River Site",
+        "Augusta University Medical Center",
+        "Wellstar Columbia County Medical Center",
+        "USC Aiken",
+        "LinkedIn Cities on the Rise 2026",
+        "WRDW",
+        "Evans GA",
+        "Grovetown GA",
+        "Martinez GA",
+        "Columbia County",
+        "Richmond County",
+        "Noah McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "What are CSRA rental prices at year-end 2026?",
+        "Is the CSRA rental market growing or softening in 2026?",
+        "What is the HUD Fair Market Rent for Augusta GA in 2026?",
+        "How does Fort Gordon affect the CSRA rental market?",
+        "Should I raise rent at my CSRA lease renewal in 2027?",
+        "What is the best CSRA submarket for rental investment heading into 2027?",
+        "How do I find comparable rental prices for my CSRA property?",
+        "What should CSRA landlords budget for maintenance in 2027?"
+      ],
+      "internalLinks": 11,
+      "externalCitations": 6,
+      "wordCount": 2350,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "firstHand": "listings-summary.json dated 2026-11-21 \u2014 Evans 3BR $1,850-$2,400 (2 homes), 31 total homes listed",
+      "imageStatus": "none \u2014 Imagen API key invalid (56th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
     }
   ]
 }
