@@ -1,0 +1,11 @@
+{"job_id": "2026-11-22-0516", "tasks": [
+  {"id": "2026-11-24-S", "look": "story-rental", "area": "all", "rotate_key": "2026-11-24", "skip": ["d1c1ecd1-2475-47f5-8a28-cd4e44e3ea42", "1d09569a-8049-45b5-82c5-2fa6715aa073", "7e1e1ce8-916a-4dda-b38e-644aa9e7df02", "c6e2585f-2f9a-45db-9770-60cdf81426de", "1c91d785-fc13-4c74-b108-ae81fb318297", "b5c8c17a-b337-421f-b877-ef268d85b319"]},
+  {"id": "2026-11-24-B", "look": "pm-carousel", "cover_photo": "listing:auto", "slides": [
+    {"tpl": "cover", "eyebrow": "Fix-It Minute", "title": "The cheapest part in your rental protects the most expensive one.", "sub": "The air filter, in three steps."},
+    {"tpl": "step", "n": 1, "total": 3, "label": "Step", "title": "Read the size off the edge.", "body": "It's printed on the cardboard frame of the filter you pull out. Buy the same size and the same rating."},
+    {"tpl": "step", "n": 2, "total": 3, "label": "Step", "title": "Point the arrow at the unit.", "body": "The arrow on the frame shows which way the air moves. It points away from the vent and toward the system."},
+    {"tpl": "step", "n": 3, "total": 3, "label": "Step", "title": "Change it on a schedule.", "body": "Every 60 days from May through September, when the AC runs hardest here. Every 90 days the rest of the year."},
+    {"tpl": "statement", "theme": "navy", "eyebrow": "Why owners care", "title": "A clogged filter can freeze the coil. The repair is the owner's.", "sub": "Put filter changes in the lease with dates. We log filter condition at every annual inspection."},
+    {"tpl": "cta", "eyebrow": "Pass it on", "title": "Send this to someone who has never changed theirs.", "action": "Follow for one fix a week.", "lines": ["General information, not legal advice. Your lease says who changes the filter."]}
+  ]}
+]}
