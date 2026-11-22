@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 138
+    "totalPosts": 139
   },
   "posts": [
     {
@@ -4536,6 +4536,62 @@
       "type": "new",
       "firstHand": "listings-summary.json dated 2026-11-21 \u2014 Evans 3BR $1,850-$2,400 (2 homes), 31 total homes listed",
       "imageStatus": "none \u2014 Imagen API key invalid (56th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
+    },
+    {
+      "slug": "contractor-no-show-incomplete-work-csra-rental-georgia",
+      "title": "Contractor No-Show at Your CSRA Rental Property: What to Do",
+      "date": "2026-11-22",
+      "cluster": "vendor-management",
+      "subtopic": "What to do when a contractor no-shows, abandons a job, or delivers defective work at a CSRA rental \u2014 documentation checklist, Georgia habitability law (O.C.G.A. \u00a744-7-13/14), licensing board complaints (\u00a743-41-10), mechanic's lien risk (\u00a744-14-361), Magistrate Court recovery, pre-contract prevention",
+      "persona": "P2",
+      "intent": "education/conversion \u2014 accidental landlords and self-managing owners dealing with or wanting to prevent contractor failures at CSRA rental properties",
+      "cities": [
+        "Evans",
+        "Augusta",
+        "Grovetown",
+        "Martinez",
+        "North Augusta",
+        "Aiken",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "contractor no-show rental property Georgia landlord",
+      "entities": [
+        "O.C.G.A. \u00a744-7-13",
+        "O.C.G.A. \u00a744-7-14",
+        "O.C.G.A. \u00a743-41-2",
+        "O.C.G.A. \u00a743-41-10",
+        "O.C.G.A. \u00a744-14-361",
+        "O.C.G.A. \u00a744-7-30.1",
+        "Georgia Safe at Home Act",
+        "HB 404",
+        "Georgia Secretary of State",
+        "sos.ga.gov",
+        "Georgia Magistrate Court",
+        "Noah McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "What should I do immediately when a contractor doesn't show up at my rental?",
+        "Am I legally responsible if a contractor's incomplete work harms my tenant?",
+        "Can I withhold payment from a contractor who didn't finish the job?",
+        "What's the difference between a no-show, an abandonment, and defective work?",
+        "How do I file a complaint against a licensed contractor in Georgia?",
+        "Does a contractor have mechanic's lien rights on my property even if they abandoned the job?",
+        "What can I recover in Georgia Magistrate Court from a contractor who ghosted?",
+        "How does a property manager protect owners from contractor no-shows?"
+      ],
+      "internalLinks": 9,
+      "externalCitations": 4,
+      "wordCount": 2420,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "firstHand": "listings-summary.json dated 2026-11-22 \u2014 31 homes listed across Augusta metro",
+      "imageStatus": "none \u2014 Imagen API key invalid (57th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
     }
   ]
 }

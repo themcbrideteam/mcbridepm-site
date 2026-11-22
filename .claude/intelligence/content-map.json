@@ -4,9 +4,9 @@
     "builtFrom": "118 live posts in src/blog/ as of 2026-10-30",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
-      "imagen_api_key": "API key invalid for 54 consecutive runs (2026-07-22 through 2026-11-19). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
+      "imagen_api_key": "API key invalid for 57 consecutive runs (2026-07-22 through 2026-11-22). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
     },
-    "lastUpdated": "2026-11-21"
+    "lastUpdated": "2026-11-22"
   },
   "clusters": {
     "taxes": {
@@ -245,13 +245,14 @@
       ]
     },
     "vendor-management": {
-      "coverage": 0.86,
+      "coverage": 0.89,
       "authority": "high",
       "posts": [
         "property-management-maintenance-vendors-csra-augusta-ga",
         "diy-vs-licensed-contractor-georgia-rental-property-repairs",
         "after-hours-rental-emergencies-csra-property-manager",
-        "find-vet-contractors-csra-rental-property-georgia"
+        "find-vet-contractors-csra-rental-property-georgia",
+        "contractor-no-show-incomplete-work-csra-rental-georgia"
       ],
       "gaps": []
     },
@@ -285,7 +286,6 @@
     "tenant-education: navigating AppFolio maintenance requests \u2014 what tenants need to know (P5)",
     "accidental-landlord: divorce + rental property in Columbia County (P2) \u2014 still a gap in that persona arc (note: post exists on divorce topic; fresh angle could be buy-out + rental conversion)",
     "leasing-screening: tenant communication cadence \u2014 application to lease signing (P1/P2)",
-    "vendor-management: how to handle a contractor who fails to show up or ghosts you \u2014 P3/P2 follow-on to find-vet-contractors post",
     "investing: refinancing strategy for CSRA rentals (cash-out refi, DSCR refi timing) \u2014 P3/P4 follow-on to financing post"
   ]
 }
