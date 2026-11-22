@@ -1,0 +1,52 @@
+{
+ "job_id": "2026-11-22-0516",
+ "rendered_at": "2026-11-22T10:17:21.455227Z",
+ "tasks": [
+  {
+   "id": "2026-11-24-S",
+   "look": "story-rental",
+   "status": "ok",
+   "files": [
+    "out/2026-11-22-0516/2026-11-24-S/01.jpg"
+   ],
+   "facts": {
+    "homes": [
+     {
+      "id": "708cd81e-0d3f-4fe7-ae25-312ce5731bd2",
+      "address": "343 Bay Meadows Drive, Aiken, SC 29803",
+      "street": "343 Bay Meadows Drive",
+      "city": "Aiken",
+      "state": "SC",
+      "rent": "$2,395",
+      "bedbath": "4 bd / 2.5 ba",
+      "sqft": "2,294",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "343 Bay Meadows - Kemper Downs Subdivision (Newer Construction)",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/708cd81e-0d3f-4fe7-ae25-312ce5731bd2"
+     }
+    ]
+   }
+  },
+  {
+   "id": "2026-11-24-B",
+   "look": "pm-carousel",
+   "status": "ok",
+   "files": [
+    "out/2026-11-22-0516/2026-11-24-B/01.jpg",
+    "out/2026-11-22-0516/2026-11-24-B/02.jpg",
+    "out/2026-11-22-0516/2026-11-24-B/03.jpg",
+    "out/2026-11-22-0516/2026-11-24-B/04.jpg",
+    "out/2026-11-22-0516/2026-11-24-B/05.jpg",
+    "out/2026-11-22-0516/2026-11-24-B/06.jpg"
+   ],
+   "facts": {}
+  }
+ ],
+ "site_facts": {
+  "date": "2026-11-22",
+  "google_rating": 4.8,
+  "google_reviews": 29,
+  "homes_listed": 31
+ }
+}
