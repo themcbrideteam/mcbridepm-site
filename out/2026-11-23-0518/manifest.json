@@ -1,0 +1,38 @@
+{
+ "job_id": "2026-11-23-0518",
+ "rendered_at": "2026-11-23T10:17:23.518258Z",
+ "tasks": [
+  {
+   "id": "2026-11-25-S",
+   "look": "story-rental",
+   "status": "ok",
+   "files": [
+    "out/2026-11-23-0518/2026-11-25-S/01.jpg"
+   ],
+   "facts": {
+    "homes": [
+     {
+      "id": "6a3e791e-cd5b-40a8-a1aa-c17e78aa458a",
+      "address": "2072 Summerton Circle, Evans, GA 30809",
+      "street": "2072 Summerton Circle",
+      "city": "Evans",
+      "state": "GA",
+      "rent": "$1,850",
+      "bedbath": "3 bd / 2 ba",
+      "sqft": "1,640",
+      "avail": "NOW",
+      "pets": "Cats not allowed, Dogs not allowed",
+      "title": "2072 Summerton Cir - New Roof, New Floors, Fresh Paint | Greenbrier Schools | 3 Bed 2 Bath Single-Level in Evans",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/6a3e791e-cd5b-40a8-a1aa-c17e78aa458a"
+     }
+    ]
+   }
+  }
+ ],
+ "site_facts": {
+  "date": "2026-11-23",
+  "google_rating": 4.8,
+  "google_reviews": 29,
+  "homes_listed": 31
+ }
+}
