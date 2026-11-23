@@ -4592,6 +4592,65 @@
       "type": "new",
       "firstHand": "listings-summary.json dated 2026-11-22 \u2014 31 homes listed across Augusta metro",
       "imageStatus": "none \u2014 Imagen API key invalid (57th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
+    },
+    {
+      "slug": "winter-heat-maintenance-rights-csra-rental-tenant-guide",
+      "title": "Is Your Landlord Responsible for Heat? CSRA Renter's Winter Rights Guide",
+      "date": "2026-11-23",
+      "cluster": "tenant-education",
+      "subtopic": "Winter habitability rights for CSRA tenants \u2014 Georgia and SC heating obligations, frozen pipe responsibility, escalation options, and seasonal prep checklist",
+      "persona": "P5",
+      "intent": "educational/legal-reference/seasonal \u2014 tenants discovering heating rights before or during a winter maintenance situation",
+      "cities": [
+        "Evans",
+        "Augusta",
+        "Grovetown",
+        "Martinez",
+        "Aiken",
+        "North Augusta",
+        "Columbia County",
+        "Richmond County"
+      ],
+      "primaryKeyword": "landlord heating requirements Georgia rental tenant winter",
+      "entities": [
+        "O.C.G.A. \u00a7 44-7-13",
+        "Georgia Safe at Home Act (HB 404)",
+        "SC Code \u00a7 27-40-440",
+        "SC Code \u00a7 27-40-650",
+        "South Carolina Residential Landlord and Tenant Act",
+        "Georgia DCA Landlord-Tenant Handbook",
+        "Augusta code enforcement (706) 312-5050",
+        "Columbia County code compliance",
+        "Georgia Appleseed",
+        "Evans GA",
+        "Augusta GA",
+        "Grovetown GA",
+        "Aiken SC",
+        "North Augusta SC",
+        "Noah McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "Does my Georgia landlord have to provide heat?",
+        "How fast must my landlord fix broken heat in Georgia?",
+        "Who pays for frozen or burst pipes in a Georgia rental?",
+        "What to do if landlord ignores heating repair request?",
+        "Does SC law require landlords to maintain heat in Aiken or North Augusta?",
+        "Can I lower thermostat to save energy without voiding my lease?",
+        "Who is responsible for weatherstripping in a rental?",
+        "What should CSRA tenants do before a cold snap?"
+      ],
+      "internalLinks": 10,
+      "externalCitations": 5,
+      "wordCount": 2400,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "firstHand": "site-facts.json dated 2026-11-23 \u2014 4.8-star Google rating from 29 reviews cited as service quality signal in winter prep section",
+      "imageStatus": "none \u2014 Imagen API key invalid (58th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
     }
   ]
 }

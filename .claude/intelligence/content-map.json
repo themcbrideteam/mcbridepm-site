@@ -6,7 +6,7 @@
     "notes": {
       "imagen_api_key": "API key invalid for 57 consecutive runs (2026-07-22 through 2026-11-22). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
     },
-    "lastUpdated": "2026-11-22"
+    "lastUpdated": "2026-11-23"
   },
   "clusters": {
     "taxes": {
@@ -197,7 +197,7 @@
       "gaps": []
     },
     "tenant-education": {
-      "coverage": 0.88,
+      "coverage": 0.90,
       "authority": "high",
       "posts": [
         "georgia-tenant-rights-2026-csra-renter-guide",
@@ -206,11 +206,10 @@
         "maintenance-request-tenant-guide-csra-rental",
         "how-to-move-out-csra-rental-keep-security-deposit",
         "breaking-lease-early-georgia-csra-tenant-guide",
-        "lease-renewal-tenant-guide-georgia-csra"
+        "lease-renewal-tenant-guide-georgia-csra",
+        "winter-heat-maintenance-rights-csra-rental-tenant-guide"
       ],
-      "gaps": [
-        "navigating AppFolio maintenance requests \u2014 what tenants need to know (P5)"
-      ]
+      "gaps": []
     },
     "city-guides": {
       "coverage": 0.92,
