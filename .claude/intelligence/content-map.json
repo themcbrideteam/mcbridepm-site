@@ -6,7 +6,7 @@
     "notes": {
       "imagen_api_key": "API key invalid for 57 consecutive runs (2026-07-22 through 2026-11-22). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
     },
-    "lastUpdated": "2026-11-23"
+    "lastUpdated": "2026-11-24"
   },
   "clusters": {
     "taxes": {
@@ -63,7 +63,7 @@
       "refreshFlags": []
     },
     "investing": {
-      "coverage": 0.97,
+      "coverage": 0.99,
       "authority": "high",
       "posts": [
         "1031-exchange-basics-augusta-rental-investors",
@@ -76,7 +76,8 @@
         "first-rental-property-csra-step-by-step-guide",
         "brrrr-strategy-csra-augusta-ga-rental-investor-guide",
         "cap-rate-vs-cash-on-cash-csra-rental-investors-augusta-ga",
-        "rental-property-financing-csra-conventional-dscr-portfolio-loans"
+        "rental-property-financing-csra-conventional-dscr-portfolio-loans",
+        "cash-out-refinance-csra-rental-property-guide-2026"
       ],
       "gaps": []
     },
@@ -197,7 +198,7 @@
       "gaps": []
     },
     "tenant-education": {
-      "coverage": 0.90,
+      "coverage": 0.9,
       "authority": "high",
       "posts": [
         "georgia-tenant-rights-2026-csra-renter-guide",
@@ -284,7 +285,6 @@
     "hoa: Specific Evans/Grovetown subdivision rental cap survey \u2014 which communities have active caps (P1/P3)",
     "tenant-education: navigating AppFolio maintenance requests \u2014 what tenants need to know (P5)",
     "accidental-landlord: divorce + rental property in Columbia County (P2) \u2014 still a gap in that persona arc (note: post exists on divorce topic; fresh angle could be buy-out + rental conversion)",
-    "leasing-screening: tenant communication cadence \u2014 application to lease signing (P1/P2)",
-    "investing: refinancing strategy for CSRA rentals (cash-out refi, DSCR refi timing) \u2014 P3/P4 follow-on to financing post"
+    "leasing-screening: tenant communication cadence \u2014 application to lease signing (P1/P2)"
   ]
 }
