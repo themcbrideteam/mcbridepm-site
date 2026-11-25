@@ -1,0 +1,21 @@
+{
+ "job_id": "2026-11-25-0520b",
+ "rendered_at": "2026-11-25T10:18:54.528452Z",
+ "tasks": [
+  {
+   "id": "2026-11-27-G",
+   "look": "gbp",
+   "status": "ok",
+   "files": [
+    "out/2026-11-25-0520b/2026-11-27-G/01.jpg"
+   ],
+   "facts": {}
+  }
+ ],
+ "site_facts": {
+  "date": "2026-11-25",
+  "google_rating": 4.8,
+  "google_reviews": 29,
+  "homes_listed": 31
+ }
+}
