@@ -7,8 +7,8 @@ ogType: article
 {# Post styles live in /css/styles.css (dark theme, shared with every inner page) #}
 {# Social syndication metadata — consumed by the n8n GBP workflow #}
 {% if socialTeaser %}<meta name="social-teaser" content="{{ socialTeaser | replace("\n", " ") | trim }}">{% endif %}
-{% if socialImage %}<meta name="social-image" content="{{ site.url }}{{ socialImage }}">{% endif %}
-{% if socialImageAlt %}<meta name="social-image-alt" content="{{ socialImageAlt }}">{% endif %}
+{% if socialImage and (socialImage | exists) %}<meta name="social-image" content="{{ site.url }}{{ socialImage }}">
+{% if socialImageAlt %}<meta name="social-image-alt" content="{{ socialImageAlt }}">{% endif %}{% endif %}
 {% endblock %}
 
 {% block content %}

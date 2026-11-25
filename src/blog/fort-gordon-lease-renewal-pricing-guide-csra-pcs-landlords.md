@@ -5,6 +5,10 @@ date: 2026-11-25
 category: "Property Owners"
 readTime: "10"
 keywords: ["Fort Gordon lease renewal landlord 2027", "PCS landlord lease renewal CSRA", "BAH 2027 rental pricing Augusta GA", "military tenant lease renewal Georgia", "CSRA rental renewal timing"]
+image: "/images/blog/fort-gordon-lease-renewal-pricing-guide-csra-pcs-landlords.jpg"
+imageAlt: "Brick ranch home on a tree-lined street in Evans, Georgia in late autumn, tall pines and pine straw beds in afternoon sun"
+socialImage: "/images/blog/fort-gordon-lease-renewal-pricing-guide-csra-pcs-landlords-social.jpg"
+socialImageAlt: "Navy front door with a wreath on a brick ranch home at dusk"
 socialTeaser: |
   Your Evans or Grovetown rental lease ends in January or February. The BAH 2027 rates aren't out yet — DoD typically releases them in mid-December. What do you do right now?
 
@@ -80,6 +84,10 @@ If your property is currently rented at or above the E-7 rate, your tenant pool 
 This is general guidance from a property manager — not legal or tax advice; talk to a Georgia attorney and a CPA for your specific situation.
 
 
+<figure class="blog-figure">
+  <img src="/images/blog/fort-gordon-lease-renewal-pricing-guide-csra-pcs-landlords-2.jpg" alt="Lease renewal paperwork in a folder on an oak table with a pen, house keys, and a coffee mug" loading="lazy" width="1408" height="768">
+</figure>
+
 ## BAH 2027: What to Expect and What to Do Before the Announcement
 
 As of November 2026, DoD has not published the 2027 BAH rates for the Fort Gordon area. Based on the [FY 2027 defense budget request analyzed by the Military Officers Association of America (MOAA)](https://www.moaa.org/content/publications-and-media/news-articles/2026-news-articles/advocacy/rebuilding-the-housing-benefit-moaas-work-toward-100-bah-continues/), the administration requested a 6.2% BAH increase for FY 2027. That figure is a congressional request, not a final DoD rate — the actual rate depends on the annual local rental survey DoD conducts, and it varies by Military Housing Area.
@@ -128,6 +136,10 @@ The written offer should include the new monthly rent, the new lease term, the r
 
 If your tenant is managed through McBride Property Management, this renewal process runs through the owner portal in [AppFolio](/blog/appfolio-owner-portal-property-management-augusta-ga/), where you can review the offer terms before they're sent and receive the tenant's signed renewal digitally — from wherever your orders have taken you.
 
+
+<figure class="blog-figure">
+  <img src="/images/blog/fort-gordon-lease-renewal-pricing-guide-csra-pcs-landlords-3.jpg" alt="Empty, freshly painted living room with oak floors, a brick fireplace, and afternoon light through shutters" loading="lazy" width="1408" height="768">
+</figure>
 
 ## If Your Military Tenant Is PCSing Out
 
