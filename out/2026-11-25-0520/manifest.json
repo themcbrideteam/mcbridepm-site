@@ -1,0 +1,142 @@
+{
+ "job_id": "2026-11-25-0520",
+ "rendered_at": "2026-11-25T10:17:37.638025Z",
+ "tasks": [
+  {
+   "id": "2026-11-27-S",
+   "look": "story-rental",
+   "status": "ok",
+   "files": [
+    "out/2026-11-25-0520/2026-11-27-S/01.jpg"
+   ],
+   "facts": {
+    "homes": [
+     {
+      "id": "0a782d11-c930-466b-9201-8559134d7bbb",
+      "address": "5334 Bull Street , Augusta, GA 30909",
+      "street": "5334 Bull Street ",
+      "city": "Augusta",
+      "state": "GA",
+      "rent": "$2,200",
+      "bedbath": "4 bd / 2.5 ba",
+      "sqft": "2,750",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "5334 Bull Street",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/0a782d11-c930-466b-9201-8559134d7bbb"
+     }
+    ]
+   }
+  },
+  {
+   "id": "2026-11-27-D",
+   "look": "rent-board",
+   "status": "ok",
+   "files": [
+    "out/2026-11-25-0520/2026-11-27-D/01.jpg",
+    "out/2026-11-25-0520/2026-11-27-D/02.jpg",
+    "out/2026-11-25-0520/2026-11-27-D/03.jpg",
+    "out/2026-11-25-0520/2026-11-27-D/04.jpg",
+    "out/2026-11-25-0520/2026-11-27-D/05.jpg",
+    "out/2026-11-25-0520/2026-11-27-D/06.jpg"
+   ],
+   "facts": {
+    "homes": [
+     {
+      "id": "ee4829cd-ab5d-4eea-81bf-d67ad16ddaed",
+      "address": "435 St. Julian Place, North Augusta, SC 29860",
+      "street": "435 St. Julian Place",
+      "city": "North Augusta",
+      "state": "SC",
+      "rent": "$2,295",
+      "bedbath": "4 bd / 3 ba",
+      "sqft": "2,397",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "435 St. Julian Place - Butlers Mills",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/ee4829cd-ab5d-4eea-81bf-d67ad16ddaed"
+     },
+     {
+      "id": "3e3451e9-8d69-44ca-9e34-5f432d7d809e",
+      "address": "1580 Goshen Road, Unit B, Augusta, GA 30906",
+      "street": "1580 Goshen Road, Unit B",
+      "city": "Augusta",
+      "state": "GA",
+      "rent": "$1,650",
+      "bedbath": "3 bd / 2.5 ba",
+      "sqft": "1,966",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "1580 Goshen Road Unit B",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/3e3451e9-8d69-44ca-9e34-5f432d7d809e"
+     },
+     {
+      "id": "4cbe2cb4-9195-47f0-b121-a6232734278f",
+      "address": "3044 Collier Drive, Augusta, GA 30906",
+      "street": "3044 Collier Drive",
+      "city": "Augusta",
+      "state": "GA",
+      "rent": "$1,050",
+      "bedbath": "2 bd / 1 ba",
+      "sqft": "672",
+      "avail": "NOW",
+      "pets": "Cats not allowed, Dogs not allowed",
+      "title": "3044 Collier Road",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/4cbe2cb4-9195-47f0-b121-a6232734278f"
+     },
+     {
+      "id": "99dd9936-cf75-45df-b3db-194ca033a48f",
+      "address": "104 Ellerston Drive, Evans, GA 30809",
+      "street": "104 Ellerston Drive",
+      "city": "Evans",
+      "state": "GA",
+      "rent": "$2,695",
+      "bedbath": "5 bd / 3 ba",
+      "sqft": "2,511",
+      "avail": "NOW",
+      "pets": "Cats allowed, Dogs allowed",
+      "title": "104 Ellerston Drive - Southwind Subdivision",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/99dd9936-cf75-45df-b3db-194ca033a48f"
+     },
+     {
+      "id": "d96f1893-1df5-4edd-bcfa-89c756d2da1b",
+      "address": "1220 Heard Ave, Augusta, GA 30904",
+      "street": "1220 Heard Ave",
+      "city": "Augusta",
+      "state": "GA",
+      "rent": "$1,095",
+      "bedbath": "2 bd / 1 ba",
+      "sqft": "1,310",
+      "avail": "NOW",
+      "pets": "Cats allowed, Small dogs allowed",
+      "title": "1220 Heard - Where History Meets Modern Living",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/d96f1893-1df5-4edd-bcfa-89c756d2da1b"
+     },
+     {
+      "id": "dcfa1754-9fcd-4a24-8e92-d4bb7eaa02f0",
+      "address": "1918 Dunham Ct, Augusta, GA 30906",
+      "street": "1918 Dunham Court",
+      "city": "Augusta",
+      "state": "GA",
+      "rent": "$1,295",
+      "bedbath": "3 bd / 1 ba",
+      "sqft": "1,323",
+      "avail": "NOW",
+      "pets": "Cats allowed, Small dogs allowed",
+      "title": "1918 Dunham Court - Fresh Paint",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/dcfa1754-9fcd-4a24-8e92-d4bb7eaa02f0"
+     }
+    ],
+    "area": "the CSRA",
+    "listed_total": 31,
+    "in_area_total": 31
+   }
+  }
+ ],
+ "site_facts": {
+  "date": "2026-11-25",
+  "google_rating": 4.8,
+  "google_reviews": 29,
+  "homes_listed": 31
+ }
+}
