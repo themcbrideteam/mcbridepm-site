@@ -53,8 +53,19 @@ The footer on the homepage now says: "The home in the walkthrough is an AI-gener
 - `netlify.toml` — year-long caching and the AVIF content type for `/assets/tour/`.
 - `qa/homepage-ux.mjs` — new checks: the page opens on the curb, every chapter shows its own photo, the camera moves, scrolling back returns to the curb, the right crop loads for the screen, reduced motion and no-JS still show the right room. `qa/serve.mjs` serves AVIF.
 
+## Verified
+
+Against a local build served by `qa/serve.mjs`:
+
+- `qa/homepage-ux.mjs`: 253 of 253. Six screen sizes (1920×1080 down to 360×740), every form path, reduced motion, no JavaScript, and the new walkthrough checks.
+- `qa/inner-pages.mjs`: 44 of 44 across every page in the sitemap, desktop and phone.
+- Every chapter looked at on desktop (1280, 1440, 1920 wide) and on a phone-sized screen.
+
+The first homepage run was 252 of 253: Boom's listings frame on /rentals/ was cancelled as the test moved on. The suite now ignores failed requests to Boom's own addresses.
+
 ## Not covered
 
 - Real iOS Safari and Android hardware (headless Chrome with phone settings only).
+- The Netlify deploy preview and production. Run both suites with `--live` once the pull request is open, and confirm `/assets/tour/*.avif` is served as `image/avif`.
 - The inner pages still sit on the Rosewood, Kings Way, and Canterbury listing photos.
 - `og-image.jpg` (the link-preview image) is unchanged.
