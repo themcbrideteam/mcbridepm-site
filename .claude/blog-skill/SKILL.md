@@ -551,11 +551,12 @@ You do not copy image files. The **Blog images** workflow saves them after your 
 ```bash
 python3 scripts/blog-images.py --check
 grep -oE '/images/blog/[^")]+' src/blog/[post-slug].md | sort -u | while read img; do
+  [ -f "src$img" ] && continue    # already saved in the repo (a refreshed older post)
   grep -q "\"src$img\"" image-jobs/[post-slug].json 2>/dev/null || echo "NOT QUEUED $img"
 done
 ```
 
-If anything prints NOT QUEUED, that image was never made: remove its reference (the `<figure>` block, or the `image:` / `socialImage:` lines) before you commit.
+If anything prints NOT QUEUED, that image is neither saved in the repo nor in the job file: remove its reference (the `<figure>` block, or the `image:` / `socialImage:` lines) before you commit.
 
 ### 8.3 Commit
 
