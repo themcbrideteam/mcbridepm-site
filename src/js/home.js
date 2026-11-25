@@ -1,9 +1,51 @@
-/* McBride PM — cinematic walkthrough prototype
-   GSAP 3 + ScrollTrigger. Reduced-motion visitors get the static page. */
+/* McBride PM — homepage walkthrough
+   GSAP 3 + ScrollTrigger. Reduced-motion visitors get the static page,
+   with the room behind each chapter still changing as they read. */
 
 gsap.registerPlugin(ScrollTrigger);
 
 const mm = gsap.matchMedia();
+
+/* ============================================================
+   THE TOUR — seven photographs of one home, one per chapter
+   ============================================================
+   Each .tour-scene is named for its chapter (data-scene="office" sits
+   behind #office), so the room on screen always matches the chapter being
+   read, however tall that chapter is on a given screen. */
+const tour = document.querySelector(".tour");
+const scenes = [...document.querySelectorAll(".tour-scene")];
+const chapterOf = (scene) => document.getElementById(scene.dataset.scene);
+
+/* Only the first scene ships with the page. The rest are filled in here:
+   in order once the page has loaded, and at once if the visitor gets near
+   one before its turn. */
+function loadScene(scene) {
+  if (!scene || scene.dataset.asked) return Promise.resolve();
+  scene.dataset.asked = "1";
+  const img = scene.querySelector("img");
+  scene.querySelectorAll("source[data-srcset]").forEach((source) => {
+    source.srcset = source.dataset.srcset;
+  });
+  if (img.dataset.src) img.src = img.dataset.src;
+  const ready = img.decode
+    ? img.decode().catch(() => {})
+    : new Promise((done) => (img.onload = img.onerror = done));
+  return ready.then(() => scene.classList.add("is-loaded"));
+}
+function loadRest(i) {
+  if (i >= scenes.length) return;
+  loadScene(scenes[i]).then(() => setTimeout(() => loadRest(i + 1), 120));
+}
+const saveData = !!(navigator.connection && navigator.connection.saveData);
+
+/* How the camera moves through a room while its chapter is on screen.
+   Every move keeps the picture larger than the screen, so no edge shows. */
+const DRIFT = {
+  in: [{ scale: 1.06, xPercent: 0, yPercent: 0 }, { scale: 1.17, xPercent: 0, yPercent: 0 }],
+  out: [{ scale: 1.17, xPercent: 0, yPercent: 0 }, { scale: 1.06, xPercent: 0, yPercent: 0 }],
+  left: [{ scale: 1.1, xPercent: -2.2, yPercent: 0 }, { scale: 1.1, xPercent: 2.2, yPercent: 0 }],
+  right: [{ scale: 1.1, xPercent: 2.2, yPercent: 0 }, { scale: 1.1, xPercent: -2.2, yPercent: 0 }],
+};
 
 /* ============================================================
    FULL EXPERIENCE — motion allowed
@@ -16,6 +58,29 @@ mm.add(
   (ctx) => {
     const { noMotionPref, desktop } = ctx.conditions;
     if (!noMotionPref) return;
+    const undo = [];
+    scenes.forEach((scene) => scene.classList.remove("is-covered"));
+
+    /* ---------- Horizontal services track (desktop only) ----------
+       Created first: it adds scroll length to the page, and every trigger
+       made after it measures the page with that length in place. */
+    if (desktop) {
+      const track = document.querySelector(".track");
+      const pin = document.querySelector(".horizontal-pin");
+      const distance = () => Math.max(0, track.scrollWidth - window.innerWidth);
+      gsap.to(track, {
+        x: () => -distance(),
+        ease: "none", // required: keeps scroll and position 1:1
+        scrollTrigger: {
+          trigger: "#living",
+          pin: pin,
+          start: "top top",
+          end: () => "+=" + distance(),
+          scrub: 0.5,
+          invalidateOnRefresh: true,
+        },
+      });
+    }
 
     /* ---------- Hero entrance ---------- */
     gsap.from(".hero .reveal-line", {
@@ -26,99 +91,74 @@ mm.add(
       stagger: 0.12,
       delay: 0.2,
     });
+    // The curb settles into frame as the page opens
+    gsap.from(scenes[0].querySelector(".tour-cam"), { scale: 1.09, duration: 2.8, ease: "power2.out" });
 
-    /* ---------- The walkthrough: one video, the whole page ----------
-       A fixed full-screen video sits behind every chapter. On desktop,
-       total page scroll drives video.currentTime — the visitor walks the
-       condensed Rosewood tour from the hero to the final CTA. On mobile
-       (or if the scrub encode fails) it plays as a gentle loop instead. */
-    const stageVideo = document.querySelector(".video-stage video");
-    const FULL_SRC = "/assets/video/rosewood-tour.mp4";
-    const MOBILE_SRC = "/assets/video/rosewood-tour-mobile.mp4";
+    /* ---------- The walkthrough ----------
+       Three layers per scene, one job each, so no two tweens fight:
+         img          the slow camera move while the room is on screen
+         .tour-cam    settling into the room on the way in
+         .tour-scene  fading in, then pushing toward its doorway on the way out
+       A room is walked into as its chapter's top edge crosses the screen. */
+    scenes.forEach((scene, i) => {
+      const chapter = chapterOf(scene);
+      const next = scenes[i + 1] && chapterOf(scenes[i + 1]);
+      const [from, to] = DRIFT[scene.dataset.drift] || DRIFT.in;
 
-    function initGlobalScrub(video) {
-      video.pause();
-      const proxy = { t: 0 };
-      gsap.to(proxy, {
-        t: () => video.duration || 0,
+      gsap.fromTo(scene.querySelector("img"), from, {
+        ...to,
         ease: "none",
         scrollTrigger: {
-          trigger: "main",
-          start: "top top",
-          end: "max", // full document scroll, pin spacers included
-          scrub: 1.2, // heavier easing so the playhead glides instead of stepping
-          invalidateOnRefresh: true,
-        },
-        onUpdate: () => {
-          if (video.readyState >= 2) video.currentTime = proxy.t;
+          trigger: chapter,
+          start: i ? "top bottom" : "top top",
+          endTrigger: next || chapter,
+          end: next ? "top 20%" : "max",
+          scrub: 0.8,
         },
       });
-    }
 
-    function playAsLoop(video, src) {
-      const source = video.querySelector("source");
-      if (src) {
-        source.addEventListener(
-          "error",
-          () => {
-            source.src = FULL_SRC;
-            video.load();
-            video.play().catch(() => {});
+      if (!i) return;
+      const behind = scenes[i - 1];
+      const walk = gsap.timeline({
+        defaults: { ease: "none" },
+        scrollTrigger: {
+          id: "walk-" + i,
+          trigger: chapter,
+          start: "top 88%",
+          end: "top 22%",
+          scrub: 0.7,
+          onToggle: () => {
+            loadScene(scene);
+            loadScene(scenes[i + 1]);
           },
-          { once: true }
-        );
-        source.src = src;
-        video.load();
-      }
-      video.loop = true;
-      video.play().catch(() => {});
-    }
+        },
+        // Once this room fully covers the last one, stop drawing the last one
+        onUpdate: () => behind.classList.toggle("is-covered", walk.progress() >= 1),
+      });
+      walk
+        .fromTo(behind, { scale: 1 }, { scale: 1.32, ease: "power2.in", duration: 1 }, 0)
+        .fromTo(scene, { autoAlpha: 0 }, { autoAlpha: 1, ease: "power1.inOut", duration: 0.5 }, 0.36)
+        .fromTo(scene.querySelector(".tour-cam"), { scale: 1.14 }, { scale: 1, ease: "power2.out", duration: 0.64 }, 0.36);
+    });
+    const syncCovered = () =>
+      scenes.forEach((scene, i) => {
+        const st = scenes[i + 1] && ScrollTrigger.getById("walk-" + (i + 1));
+        if (st) scene.classList.toggle("is-covered", st.progress >= 1);
+      });
+    ScrollTrigger.addEventListener("refresh", syncCovered);
+    undo.push(() => ScrollTrigger.removeEventListener("refresh", syncCovered));
 
-    if (stageVideo) {
-      // Every device scrubs. Phones load the light 720p dense-keyframe
-      // encode; scrubbing avoids mobile autoplay policies entirely.
-      const source = stageVideo.querySelector("source");
-      let fellBack = false;
-      const fallBack = () => {
-        if (fellBack) return;
-        fellBack = true;
-        playAsLoop(stageVideo, FULL_SRC);
+    // Desktop: the house leans a few pixels toward the pointer, for depth
+    if (desktop) {
+      const rig = document.querySelector(".tour-rig");
+      const rigX = gsap.quickTo(rig, "x", { duration: 1.4, ease: "power3" });
+      const rigY = gsap.quickTo(rig, "y", { duration: 1.4, ease: "power3" });
+      const lean = (e) => {
+        rigX((0.5 - e.clientX / window.innerWidth) * 20);
+        rigY((0.5 - e.clientY / window.innerHeight) * 12);
       };
-      stageVideo.addEventListener("error", fallBack, { once: true });
-      source.addEventListener("error", fallBack, { once: true });
-      stageVideo.addEventListener(
-        "loadedmetadata",
-        () => !fellBack && initGlobalScrub(stageVideo),
-        { once: true }
-      );
-      // The markup ships preload="none" so nothing downloads until this
-      // point; pick the right encode, then start loading it.
-      stageVideo.preload = "auto";
-      if (!desktop) {
-        source.src = MOBILE_SRC;
-        stageVideo.load();
-        // iOS won't paint seeked frames until the video has "played" once:
-        // a muted play/pause on first touch unlocks frame rendering.
-        window.addEventListener(
-          "touchstart",
-          () => {
-            if (fellBack) return;
-            const t = stageVideo.currentTime;
-            stageVideo
-              .play()
-              .then(() => {
-                stageVideo.pause();
-                stageVideo.currentTime = t;
-              })
-              .catch(() => {});
-          },
-          { once: true, passive: true }
-        );
-      } else if (stageVideo.readyState >= 1 && !fellBack) {
-        initGlobalScrub(stageVideo);
-      } else {
-        stageVideo.load();
-      }
+      window.addEventListener("mousemove", lean, { passive: true });
+      undo.push(() => window.removeEventListener("mousemove", lean));
     }
 
     // Hero copy dissolves as the visitor starts walking
@@ -129,27 +169,8 @@ mm.add(
       scrollTrigger: { trigger: ".hero", start: "top top", end: "60% top", scrub: true },
     });
 
-    /* ---------- Chapter walk-in effect (Ken Burns scrub per room) ---------- */
+    /* ---------- Chapter copy walks in ---------- */
     document.querySelectorAll(".chapter:not(.hero)").forEach((chapter) => {
-      const bg = chapter.querySelector(".chapter-bg img, .chapter-bg video");
-      if (bg) {
-        gsap.fromTo(
-          bg,
-          { scale: 1.22, yPercent: -4 },
-          {
-            scale: 1,
-            yPercent: 0,
-            ease: "none",
-            scrollTrigger: {
-              trigger: chapter,
-              start: "top bottom",
-              end: "bottom top",
-              scrub: 0.6,
-            },
-          }
-        );
-      }
-
       const content = chapter.querySelectorAll(
         ".chapter-num, h2, .chapter-copy, .quotes, .hero-ctas, .closer, .journal-grid, .faq-list, .steps-list, .start-card, .chapter-content > .link-arrow, .office-link"
       );
@@ -182,25 +203,6 @@ mm.add(
         onUpdate: () => (el.textContent = Math.round(proxy.v) + suffix),
       });
     });
-
-    /* ---------- Horizontal services track (desktop only) ---------- */
-    if (desktop) {
-      const track = document.querySelector(".track");
-      const pin = document.querySelector(".horizontal-pin");
-      const distance = () => Math.max(0, track.scrollWidth - window.innerWidth);
-      gsap.to(track, {
-        x: () => -distance(),
-        ease: "none", // required: keeps scroll and position 1:1
-        scrollTrigger: {
-          trigger: "#living",
-          pin: pin,
-          start: "top top",
-          end: () => "+=" + distance(),
-          scrub: 0.5,
-          invalidateOnRefresh: true,
-        },
-      });
-    }
 
     /* ---------- Journey rail ---------- */
     const rooms = ["curb", "door", "living", "office", "study", "porch", "handoff"];
@@ -301,6 +303,8 @@ mm.add(
         });
       });
     }
+
+    return () => undo.forEach((fn) => fn());
   }
 );
 
@@ -308,10 +312,26 @@ mm.add(
    REDUCED MOTION — everything visible, no scroll effects
    ============================================================ */
 mm.add("(prefers-reduced-motion: reduce)", () => {
-  // Stop the hero video; its poster frame (Rosewood at twilight) shows instead
-  document.querySelectorAll("video[autoplay]").forEach((v) => {
-    v.pause();
-    v.removeAttribute("autoplay");
+  // The room behind each chapter still changes, as a plain fade with no
+  // camera movement. Rooms already passed stay stacked underneath, so the
+  // fade never dips to the bare background.
+  tour.classList.add("tour--fade");
+  scenes.forEach((scene) => scene.classList.remove("is-covered"));
+  const show = (upTo) => scenes.forEach((scene, i) => scene.classList.toggle("is-active", i <= upTo));
+  scenes.forEach((scene, i) => {
+    const next = scenes[i + 1] && chapterOf(scenes[i + 1]);
+    ScrollTrigger.create({
+      trigger: chapterOf(scene),
+      start: i ? "top 60%" : "top bottom",
+      endTrigger: next || chapterOf(scene),
+      end: next ? "top 60%" : "max",
+      onToggle: (self) => {
+        if (!self.isActive) return;
+        loadScene(scene);
+        loadScene(scenes[i + 1]);
+        show(i);
+      },
+    });
   });
   gsap.set(
     ".reveal-line, .chapter-num, .chapter h2, .chapter-copy, .quotes, .hero-ctas, .closer, .stats, .faq-list, .steps-list, .start-card",
@@ -321,6 +341,10 @@ mm.add("(prefers-reduced-motion: reduce)", () => {
   document.querySelectorAll("[data-count]").forEach((el) => {
     el.textContent = el.dataset.count + (el.dataset.suffix || "");
   });
+  return () => {
+    tour.classList.remove("tour--fade");
+    show(0);
+  };
 });
 
 /* Header, mobile menu, and call bar: see /js/nav.js */
@@ -330,5 +354,11 @@ document.querySelectorAll(".faq").forEach((d) =>
   d.addEventListener("toggle", () => ScrollTrigger.refresh())
 );
 
-/* Recalculate positions once images have loaded (they change layout) */
-window.addEventListener("load", () => ScrollTrigger.refresh());
+/* Once the page has loaded: recalculate positions (images change layout),
+   then bring in the rest of the home, one room at a time. On a data-saver
+   connection each room waits until the visitor is about to walk into it. */
+window.addEventListener("load", () => {
+  ScrollTrigger.refresh();
+  loadScene(scenes[1]);
+  if (!saveData) loadRest(2);
+});

@@ -20,6 +20,18 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
+# The homepage walkthrough photos. Their file names carry a content hash
+# (scripts/tour/build.mjs), so a changed photo is a new URL and these can be kept for a year.
+[[headers]]
+  for = "/assets/tour/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/assets/tour/*.avif"
+  [headers.values]
+    Content-Type = "image/avif"
+
 [[headers]]
   for = "/pdfs/*"
   [headers.values]

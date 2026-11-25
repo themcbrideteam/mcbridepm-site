@@ -5,7 +5,7 @@
 // Needs puppeteer-core (PUPPETEER_CORE, default: ~/code/mcbride-team-site) and Google Chrome.
 import os from 'node:os';
 import fs from 'node:fs';
-const { default: puppeteer } = await import(process.env.PUPPETEER_CORE || `${os.homedir()}/code/mcbride-team-site/node_modules/puppeteer-core/lib/puppeteer/puppeteer-core.js`);
+const { default: puppeteer } = await import(process.env.PUPPETEER_CORE || `${os.homedir()}/code/mcbride-team-site/node_modules/puppeteer-core/lib/esm/puppeteer/puppeteer-core.js`);
 const [,, base, out, liveFlag] = process.argv;
 const LIVE = liveFlag === '--live';
 fs.mkdirSync(out, { recursive: true });

@@ -1,0 +1,112 @@
+{
+  "note": "The homepage walkthrough: seven photographs of ONE made-up home, in chapter order. Every image is an AI-generated illustration made in Runway (Noah's workspace) on 2026-11-25. None is a real listing or a home we manage, and the homepage footer says so. Brief: a Southern charmer near Augusta, GA in the $350K-$600K range (about 2,800 sq ft, white painted brick, navy front door). `taskId` re-downloads the original from Runway; the files in masters/ are those originals as JPEG; where a scene says `retouched`, retouch.mjs made the master from the original (node scripts/tour/retouch.mjs <original.png> <id>). `id` must match the chapter's id in src/index.html. `focus` is where the walk-through zoom aims, as a fraction of the frame [x, y]. `portraitX` is the horizontal center of the phone crop. `wideCrop` [left, top, width] cuts the wide-screen photo from a 16:9 window of the master, and `pos` sets which part stays in view when a wide screen is narrower than 16:9 (0.5 = centered; default portraitX); the Handoff uses both so the keys hang in the open space between the copy and the form card. `drift` is the camera move while the room is on screen (in, out, left, right; see DRIFT in src/js/home.js). After any change: node scripts/tour/build.mjs",
+  "house": "Two-story Southern traditional, white painted brick with white lap siding in the gable, black shutters, bronze metal porch roof, full front porch with square white columns, haint-blue porch ceiling, deep navy six-panel front door with brass hardware. Inside: medium-oak floors, soft white walls, white trim and plantation shutters, caramel leather, navy accents, brass lamps.",
+  "scenes": [
+    {
+      "id": "curb",
+      "room": "The Curb",
+      "master": "curb.jpg",
+      "taskId": "e1716bcd-f15a-4fea-a861-7ef8d017f2b8",
+      "focus": [
+        0.765,
+        0.66
+      ],
+      "portraitX": 0.68,
+      "drift": "in"
+    },
+    {
+      "id": "door",
+      "room": "The Front Door",
+      "master": "door.jpg",
+      "taskId": "3d07dce7-5e03-4f2b-a876-85e4fb88a926",
+      "focus": [
+        0.67,
+        0.52
+      ],
+      "portraitX": 0.67,
+      "drift": "in"
+    },
+    {
+      "id": "living",
+      "room": "The Living Room",
+      "master": "living.jpg",
+      "taskId": "48aa8504-28d2-4747-a088-3ecba310eb89",
+      "focus": [
+        0.9,
+        0.55
+      ],
+      "portraitX": 0.6,
+      "drift": "right"
+    },
+    {
+      "id": "office",
+      "room": "The Office",
+      "master": "office.jpg",
+      "taskId": "1609d1b4-d56b-4d9f-93a3-f52a413b2311",
+      "focus": [
+        0.62,
+        0.5
+      ],
+      "portraitX": 0.64,
+      "drift": "in",
+      "retouched": "A real company's logo on the laptop lid, painted out."
+    },
+    {
+      "id": "study",
+      "room": "The Study",
+      "master": "study.jpg",
+      "taskId": "95ab308a-4c9d-46e4-8525-a02292646775",
+      "focus": [
+        0.62,
+        0.45
+      ],
+      "portraitX": 0.66,
+      "drift": "left"
+    },
+    {
+      "id": "porch",
+      "room": "The Porch",
+      "master": "porch.jpg",
+      "taskId": "35463fff-9e74-4fb9-877e-f2541553bf73",
+      "focus": [
+        0.42,
+        0.5
+      ],
+      "portraitX": 0.62,
+      "drift": "out"
+    },
+    {
+      "id": "handoff",
+      "room": "The Handoff",
+      "master": "handoff.jpg",
+      "taskId": "9da27ff0-0c8e-4afc-ac21-bf94e526ca02",
+      "focus": [
+        0.703,
+        0.53
+      ],
+      "portraitX": 0.64,
+      "drift": "in",
+      "wideCrop": [
+        0.36,
+        0.25,
+        0.64
+      ],
+      "pos": 0.5,
+      "retouched": "The brass lock, keys and lever brightened slightly so they read under the page's navy tint."
+    }
+  ],
+  "unused": [
+    {
+      "what": "second exterior take, straight-on front elevation (a slightly different house)",
+      "taskId": "3db5574a-e63e-41fb-90b4-89e6630c71b2"
+    },
+    {
+      "what": "earlier, tighter takes of the keys in the door (hardware on both edges of the door; the second was hand-retouched and then reframed into the scene in use)",
+      "taskIds": [
+        "1a50344c-6be4-4c56-843d-b3254142691d",
+        "92b5123e-24ce-40df-a847-a37e39e0228a",
+        "553ed58a-2e58-4f5d-a290-945de116a279"
+      ]
+    }
+  ]
+}
