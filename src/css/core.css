@@ -367,6 +367,7 @@ html.dialog-open { overflow: hidden; }
 .footer-nap span:last-child { color: var(--ink-faint); font-size: 0.82rem; }
 .footer-legal { font-size: 0.78rem; color: rgba(255, 255, 255, 0.45); }
 .footer-legal a { font-size: 0.78rem; }
+.footer-note { flex-basis: 100%; color: var(--ink-faint); }
 @media (max-width: 899px) {
   .footer-grid { flex-direction: column; align-items: flex-start; }
   .footer-links { flex-direction: column; gap: 0.9rem; }

@@ -49,7 +49,9 @@ faqs:
 {% if site.buildVerifications.googleSiteVerification %}<meta name="google-site-verification" content="{{ site.buildVerifications.googleSiteVerification }}">{% endif %}
 {% if site.buildVerifications.bingSiteVerification %}<meta name="msvalidate.01" content="{{ site.buildVerifications.bingSiteVerification }}">{% endif %}
 {% include "schema/site-graph.njk" %}
-<link rel="preload" as="image" href="/assets/img/rosewood-front-twilight.jpg" fetchpriority="high">
+{%- set curb = tour.scenes[0] %}
+<link rel="preload" as="image" type="image/avif" media="(max-aspect-ratio: 4/5)" imagesrcset="{{ curb.tall }}" imagesizes="100vw" fetchpriority="high">
+<link rel="preload" as="image" type="image/avif" media="not all and (max-aspect-ratio: 4/5)" imagesrcset="{{ curb.wide }}" imagesizes="100vw" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
@@ -71,16 +73,28 @@ faqs:
 <div class="cursor-dot" aria-hidden="true"></div>
 <div class="cursor-ring" aria-hidden="true"></div>
 
-<!-- The tour: one fixed video behind the whole page, built from the
-     Rosewood Dr listing photos (Ken Burns pans + crossfades, front door
-     to backyard). Scrolling the site scrubs through the rooms.
-     preload="none": home.js picks the desktop or mobile encode and starts
-     the download, so phones never fetch the 45 MB desktop file. -->
-<div class="video-stage" aria-hidden="true">
-  <video muted playsinline preload="none"
-         poster="/assets/img/rosewood-front-twilight.jpg">
-    <source src="/assets/video/rosewood-tour.mp4" type="video/mp4">
-  </video>
+<!-- The tour: seven photographs of one home, fixed behind the page, one per
+     chapter and in chapter order (curb, front door, living room, office,
+     study, porch, handoff). home.js moves the camera with the scroll and
+     walks from each room into the next as its chapter arrives. Only the
+     first scene loads with the page; home.js fills in the rest. Images and
+     this list come from scripts/tour/ (see scenes.json there). -->
+<div class="tour" aria-hidden="true">
+  <div class="tour-rig">
+  {%- for s in tour.scenes %}
+  <div class="tour-scene{% if loop.first %} is-active is-loaded{% endif %}" data-scene="{{ s.id }}" data-drift="{{ s.drift }}"
+       style="--focus: {{ s.focus }}; --focus-tall: {{ s.focusTall }}; --pos: {{ s.pos }}; --blur: url({{ s.blur }}); --blur-tall: url({{ s.blurTall }});">
+    <div class="tour-cam">
+      <picture>
+        <source media="(max-aspect-ratio: 4/5)" type="image/avif" sizes="100vw" {{ "srcset" if loop.first else "data-srcset" }}="{{ s.tall }}">
+        <source media="(max-aspect-ratio: 4/5)" {{ "srcset" if loop.first else "data-srcset" }}="{{ s.tallJpg }}">
+        <source type="image/avif" sizes="100vw" {{ "srcset" if loop.first else "data-srcset" }}="{{ s.wide }}">
+        <img {{ "src" if loop.first else "data-src" }}="{{ s.wideJpg }}" alt="" decoding="async"{% if loop.first %} fetchpriority="high"{% endif %}>
+      </picture>
+    </div>
+  </div>
+  {%- endfor %}
+  </div>
   <div class="veil"></div>
 </div>
 
@@ -330,6 +344,7 @@ faqs:
 {% include "partials/sticky-cta.njk" %}
 {% include "partials/lead-dialog.njk" %}
 
+{% set footerNote = "The home in the walkthrough is an AI-generated illustration. It isn't a specific property we manage." %}
 {% include "partials/footer.njk" %}
 
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>

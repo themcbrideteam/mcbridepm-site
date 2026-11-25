@@ -5,7 +5,7 @@
 //           so nothing reaches Netlify Forms or Robert's inbox. GA requests are always blocked.
 // Needs puppeteer-core (PUPPETEER_CORE, default: the copy in ~/code/mcbride-team-site) and Google Chrome.
 import os from 'node:os';
-const { default: puppeteer } = await import(process.env.PUPPETEER_CORE || `${os.homedir()}/code/mcbride-team-site/node_modules/puppeteer-core/lib/puppeteer/puppeteer-core.js`);
+const { default: puppeteer } = await import(process.env.PUPPETEER_CORE || `${os.homedir()}/code/mcbride-team-site/node_modules/puppeteer-core/lib/esm/puppeteer/puppeteer-core.js`);
 import fs from 'node:fs';
 const [,, base, out, liveFlag] = process.argv;
 const LIVE = liveFlag === '--live';
@@ -35,7 +35,8 @@ async function newPage(vp, { mobile = false, postMode = 'ok', js = true, reduced
     }
     r.continue();
   });
-  page.on('requestfailed', r => { if (!/\.mp4|google/.test(r.url())) state.errors.push('requestfailed: ' + r.url()); });
+  // Boom's listings frame on /rentals/ is another company's page; it is cancelled when a test moves on
+  page.on('requestfailed', r => { if (!/\.mp4|google|boom\.rent|boompay/.test(r.url())) state.errors.push('requestfailed: ' + r.url()); });
   await page.setJavaScriptEnabled(js);
   await page.setViewport({ ...vp, isMobile: mobile, hasTouch: mobile, deviceScaleFactor: mobile ? 2 : 1 });
   if (mobile) await page.setUserAgent(IPHONE);
@@ -59,6 +60,15 @@ const dialogState = (page) => page.evaluate(() => {
     source: document.querySelector('#lead-dialog [name="source"]').value,
   };
 });
+// The walkthrough: which room's photograph is on top right now, and whether it has loaded.
+// Rooms are stacked in chapter order, so the last fully shown one is the one the visitor sees.
+const roomShowing = (page) => page.evaluate(() => {
+  const shown = [...document.querySelectorAll('.tour-scene')].filter(s => { const c = getComputedStyle(s); return c.visibility !== 'hidden' && +c.opacity > 0.98; });
+  const top = shown[shown.length - 1];
+  const img = top && top.querySelector('img');
+  return { room: top ? top.dataset.scene : null, loaded: !!(img && img.complete && img.naturalWidth > 0), file: img ? img.currentSrc.split('/').pop() : '', drawn: [...document.querySelectorAll('.tour-scene')].filter(s => getComputedStyle(s).visibility !== 'hidden').map(s => s.dataset.scene) };
+});
+const TOUR = ['curb', 'door', 'living', 'office', 'study', 'porch', 'handoff'];
 const gaEvents = (page) => page.evaluate(() => (window.dataLayer || []).filter(a => a && a[0] === 'event').map(a => a[1]));
 const clickSel = (page, sel) => page.evaluate(s => document.querySelector(s).click(), sel);
 
@@ -108,6 +118,9 @@ for (const [name, vp, mobile] of VIEWPORTS) {
     await page.mouse.move(5, vp.height - 5);
   }
   await shot(page, `${name}-01-hero`);
+  const curb = await roomShowing(page);
+  ok(`${name}: the page opens on the curb, photo loaded`, curb.room === 'curb' && curb.loaded, JSON.stringify(curb));
+  ok(`${name}: ${mobile ? 'tall screen gets the tall crop' : 'wide screen gets the wide photo'}`, mobile ? /-p-\d+\.avif$/.test(curb.file) : /\.avif$/.test(curb.file) && !/-p-/.test(curb.file), curb.file);
   const fold = await page.evaluate(() => { const p = document.querySelector('.address-pill').getBoundingClientRect(); const r = document.querySelector('.renter-line').getBoundingClientRect(); return { pill: Math.round(p.bottom), renter: Math.round(r.bottom), vh: innerHeight }; });
   ok(`${name}: hero address box above the fold`, fold.pill <= fold.vh, JSON.stringify(fold));
   if (!mobile) ok(`${name}: hero proof line and renter link above the fold`, fold.renter <= fold.vh, JSON.stringify(fold));
@@ -123,6 +136,11 @@ for (const [name, vp, mobile] of VIEWPORTS) {
     await page.evaluate((id) => { const el = document.getElementById(id); scrollTo(0, el.getBoundingClientRect().top + scrollY); }, id);
     await sleep(1500);
     await shot(page, `${name}-${id}`);
+    if (TOUR.includes(id)) {
+      const r = await roomShowing(page);
+      ok(`${name}: the ${id} chapter shows the ${id} photo`, r.room === id && r.loaded, JSON.stringify(r));
+      ok(`${name}: at ${id}, rooms already passed are no longer drawn`, r.drawn.length <= 2, r.drawn.join(','));
+    }
     if (!mobile) {
       // The rail (dots + any visible label) must stay clear of the chapter's content column
       const clash = await page.evaluate((id) => {
@@ -147,15 +165,18 @@ for (const [name, vp, mobile] of VIEWPORTS) {
   const card = await page.evaluate(() => { const r = document.querySelector('.start-card').getBoundingClientRect(); return { top: Math.round(r.top), bottom: Math.round(r.bottom), vh: innerHeight }; });
   ok(`${name}: Handoff start card fits on screen`, card.bottom - card.top <= card.vh, JSON.stringify(card));
 
-  if (!mobile) {
-    // Walkthrough video follows the scroll
-    const H = await page.evaluate(() => document.documentElement.scrollHeight - innerHeight);
-    const ts = [];
-    for (const f of [0.1, 0.4, 0.75]) { await page.evaluate(y => scrollTo(0, y), Math.round(H * f)); await sleep(2200); ts.push(await page.evaluate(() => +document.querySelector('.video-stage video').currentTime.toFixed(1))); }
-    ok(`${name}: walkthrough video scrubs with the scroll`, ts[0] < ts[1] && ts[1] < ts[2], JSON.stringify(ts));
-  } else {
-    const src = await page.evaluate(() => document.querySelector('.video-stage video').currentSrc.split('/').pop());
-    ok(`${name}: phone loads the light mobile video`, src === 'rosewood-tour-mobile.mp4', src);
+  {
+    // The camera keeps moving through a room while its chapter scrolls by
+    const officeTop = await page.evaluate(() => Math.round(document.getElementById('office').getBoundingClientRect().top + scrollY));
+    const cam = async (y) => { await page.evaluate(y => scrollTo(0, y), y); await sleep(1800); return page.evaluate(() => getComputedStyle(document.querySelector('.tour-scene[data-scene="office"] img')).transform); };
+    const c1 = await cam(officeTop), c2 = await cam(officeTop + 220);
+    ok(`${name}: the camera moves through a room as the page scrolls`, c1 !== 'none' && c1 !== c2, `${c1} → ${c2}`);
+    // Scrolling back up walks back out: the earlier room returns
+    await page.evaluate(() => scrollTo(0, 0)); await sleep(2200);
+    const back = await roomShowing(page);
+    ok(`${name}: scrolling back to the top returns to the curb`, back.room === 'curb', JSON.stringify(back));
+  }
+  if (mobile) {
     await page.evaluate(() => scrollTo(0, document.getElementById('door').offsetTop + 200)); await sleep(1200);
     const sticky = await page.evaluate(() => document.querySelector('.sticky-cta').classList.contains('is-visible'));
     ok(`${name}: sticky call bar appears after the hero`, sticky);
@@ -317,6 +338,17 @@ if (!LIVE) {
   await page.evaluate(() => document.getElementById('handoff').scrollIntoView()); await sleep(800);
   const vis = await page.evaluate(() => ['.start-card', '.steps-list', '.faq-list'].map(s => +getComputedStyle(document.querySelector(s)).opacity));
   ok('reduced motion: content is fully visible', vis.every(v => v === 1), JSON.stringify(vis));
+  await sleep(1200);
+  const rmHandoff = await roomShowing(page);
+  ok('reduced motion: the Handoff still shows its own photo', rmHandoff.room === 'handoff' && rmHandoff.loaded, JSON.stringify(rmHandoff));
+  await page.evaluate(() => document.getElementById('office').scrollIntoView()); await sleep(1500);
+  const rmOffice = await roomShowing(page);
+  const rmCam = await page.evaluate(() => getComputedStyle(document.querySelector('.tour-scene[data-scene="office"] img')).transform);
+  await page.evaluate(() => scrollBy(0, 200)); await sleep(700);
+  const rmCam2 = await page.evaluate(() => getComputedStyle(document.querySelector('.tour-scene[data-scene="office"] img')).transform);
+  ok('reduced motion: the Office shows its own photo', rmOffice.room === 'office' && rmOffice.loaded, JSON.stringify(rmOffice));
+  ok('reduced motion: the camera holds still', rmCam === rmCam2, `${rmCam} → ${rmCam2}`);
+  await page.evaluate(() => document.getElementById('handoff').scrollIntoView()); await sleep(800);
   await clickSel(page, '.nav [data-open-lead]'); await sleep(300);
   ok('reduced motion: form opens', (await dialogState(page)).open);
   ok('reduced motion: no script errors', state.errors.length === 0, state.errors.join(' | '));
@@ -328,6 +360,8 @@ if (!LIVE) {
   const { page } = await newPage({ width: 1440, height: 900 }, { js: false });
   await page.goto(base + '/', { waitUntil: 'networkidle2', timeout: 90000 }); await sleep(800);
   await shot(page, 'nojs-hero');
+  const nojs = await roomShowing(page);
+  ok('no JS: the curb photo still shows behind the page', nojs.room === 'curb' && nojs.loaded, JSON.stringify(nojs));
   const honeypotShown = await page.$eval('[name="bot-field"]', el => el.getBoundingClientRect().height > 0);
   const dialogShown = await page.$eval('#lead-dialog', el => el.getBoundingClientRect().height > 0);
   ok('no JS: spam-trap field never shows', !honeypotShown);
