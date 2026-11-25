@@ -4692,6 +4692,61 @@
       ],
       "type": "new",
       "firstHand": "listings-summary.json dated 2026-11-23 \u2014 Evans 3BR homes asking $1850-$2400/mo"
+    },
+    {
+      "slug": "fort-gordon-lease-renewal-pricing-guide-csra-pcs-landlords",
+      "title": "Fort Gordon Lease Renewal Guide for CSRA PCS Landlords: 2027",
+      "date": "2026-11-25",
+      "cluster": "rent-collection-pricing",
+      "subtopic": "year-end lease renewal decisions for Fort Gordon PCS landlords \u2014 BAH 2027 preview, renewal timing, SCRA implications, vacancy math",
+      "persona": "P1",
+      "intent": "decision-support / seasonal / trust-building",
+      "cities": [
+        "Evans",
+        "Grovetown",
+        "Martinez",
+        "Augusta",
+        "Columbia County",
+        "Fort Gordon"
+      ],
+      "primaryKeyword": "Fort Gordon lease renewal landlord 2027",
+      "entities": [
+        "Fort Gordon",
+        "Army Cyber Center of Excellence",
+        "Basic Allowance for Housing (BAH)",
+        "DFAS",
+        "Defense Travel Management Office (DTMO)",
+        "Servicemembers Civil Relief Act (50 U.S.C. \u00a7 3955)",
+        "Defense Manpower Data Center (DMDC)",
+        "O.C.G.A. \u00a7 44-7-7",
+        "MOAA",
+        "Evans GA",
+        "Grovetown GA",
+        "Columbia County",
+        "Fort Gordon",
+        "Noah McBride",
+        "McBride Property Management"
+      ],
+      "questionsAnswered": [
+        "When should I send a lease renewal offer to my Fort Gordon military tenant?",
+        "When will DoD announce BAH 2027 rates?",
+        "How much could BAH go up for 2027 at Fort Gordon?",
+        "What is the 2026 BAH rate for E-5 with dependents at Fort Gordon?",
+        "What notice is required before a lease renewal in Georgia?",
+        "What if my military tenant doesn't respond to the renewal offer?",
+        "Can a Fort Gordon military tenant break a renewed lease using SCRA?",
+        "Should I raise rent at the lease renewal for a good military tenant?"
+      ],
+      "internalLinks": 11,
+      "externalCitations": 7,
+      "wordCount": 2914,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "firstHand": "listings-summary.json dated 2026-11-25 \u2014 Evans 3BR $1,850-$2,400 (2 homes), 4BR $2,295-$2,600 (3 homes); 31 total homes listed",
+      "imageStatus": "none \u2014 Imagen API key invalid (59th consecutive run; API_KEY_INVALID \u2014 URGENT: escalate to Noah)"
     }
   ]
 }

@@ -6,7 +6,7 @@
     "notes": {
       "imagen_api_key": "API key invalid for 57 consecutive runs (2026-07-22 through 2026-11-22). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
     },
-    "lastUpdated": "2026-11-24"
+    "lastUpdated": "2026-11-25"
   },
   "clusters": {
     "taxes": {
@@ -142,7 +142,7 @@
       "gaps": []
     },
     "rent-collection-pricing": {
-      "coverage": 0.83,
+      "coverage": 0.88,
       "authority": "high",
       "posts": [
         "how-to-price-rental-property-augusta-ga",
@@ -150,7 +150,8 @@
         "georgia-tenant-late-rent-landlord-guide",
         "lease-renewal-pricing-csra-rental-property-owners",
         "csra-property-manager-rent-collection-owner-distributions",
-        "first-time-landlord-rental-pricing-csra-augusta-ga"
+        "first-time-landlord-rental-pricing-csra-augusta-ga",
+        "fort-gordon-lease-renewal-pricing-guide-csra-pcs-landlords"
       ],
       "gaps": []
     },
