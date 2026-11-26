@@ -12,7 +12,7 @@ The visual reference points are *Southern Living* editorial photography and high
 
 ## Core style spec — include in every prompt
 
-When you generate an image prompt for Canva (or any image API), the prompt MUST include all of the following clauses:
+When you write an image prompt, the prompt MUST include all of the following clauses:
 
 - **Photography style:** "realistic real estate / editorial photography, shallow depth of field where natural, warm late-afternoon or early-morning natural light, slight golden hour cast"
 - **Composition:** "16:9 landscape orientation, rule-of-thirds composition, eye-level perspective unless aerial / interior is essential to subject"

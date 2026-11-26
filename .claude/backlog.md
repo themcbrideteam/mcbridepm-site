@@ -12,6 +12,8 @@ Prioritized by business impact ÷ effort. Re-rank at the start of each cycle. Cy
 6b. **Unverified copy claims to confirm:** About page "over 50 years of combined experience" and "no franchises"; blog process claims now in the company voice (weekly work-order audit, credentials within one business day, analysis within 48 hours).
 5. **Search Console / Bing verification.** Waiting on Noah (explained 2026-07-10): needs a Google Search Console property for mcbride-pm.com verified under noah@themcbrideteam.com, then either DNS verification or paste the meta-tag token into `site.json → buildVerifications`. Then submit sitemap and monitor the c21magnoliapm.com migration.
 
+7b. **Blog images: finish the switch to Runway (2026-11-25).** The branch `blog-images-runway-2026-11-25` replaces the dead Google Imagen key with the Runway connector plus the `Blog images` workflow. The routine (`trig_01Rg3CL558EjYmp7KhKXdWsM`) was switched on 2026-11-26: Runway connector attached, old key and Imagen instructions removed from its prompt. Until this branch is merged into `main`, the routine publishes text-only and says the image update isn't merged. 79 older posts have no hero image; a one-time backfill costs about 320 Runway credits and is not started.
+
 ## Decided — do not re-raise
 
 - **Fee transparency: NO.** Noah declined publishing fees (2026-07-10). Keep "custom proposal" framing.

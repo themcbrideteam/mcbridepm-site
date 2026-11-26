@@ -1,0 +1,45 @@
+name: Blog images
+# Lands the daily blog's images. The blog routine makes them through the Runway connector and
+# commits a job file (image-jobs/<slug>.json) with the download links. This workflow downloads
+# each image, sizes it, saves it under src/images/blog/, and removes the job file.
+# It uses no keys or secrets. How it fits together: .claude/blog-skill/SKILL.md, section 7.
+on:
+  push:
+    paths: ['image-jobs/*.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: blog-images-${{ github.ref_name }}
+  cancel-in-progress: false
+jobs:
+  land:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Tools
+        run: python3 -m pip install -q pillow
+      - name: Download and size the images
+        id: land
+        continue-on-error: true
+        run: python3 scripts/blog-images.py
+      - name: Save them to this branch
+        run: |
+          git config user.name "McBride PM blog images"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A src/images/blog image-jobs
+          if git diff --cached --quiet; then echo "nothing to save"; exit 0; fi
+          git commit -q -m "Auto-blog images: $(cat "$RUNNER_TEMP/blog-images-summary.txt" 2>/dev/null || echo update)"
+          for i in 1 2 3; do
+            git pull -q --rebase origin "$GITHUB_REF_NAME" && git push -q origin "HEAD:$GITHUB_REF_NAME" && exit 0
+            sleep 5
+          done
+          echo "could not push the images"; exit 1
+      - name: Flag any image that failed
+        if: steps.land.outcome == 'failure'
+        run: |
+          echo "At least one image did not land. See the 'Download and size the images' step."
+          exit 1
