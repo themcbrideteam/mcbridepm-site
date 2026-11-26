@@ -1,0 +1,42 @@
+{
+ "job_id": "2026-11-26-0520",
+ "rendered_at": "2026-11-26T10:17:38.296311Z",
+ "tasks": [
+  {
+   "id": "2026-11-28-E",
+   "look": "video-tour",
+   "status": "ok",
+   "files": [
+    "out/2026-11-26-0520/2026-11-28-E/video.mp4",
+    "out/2026-11-26-0520/2026-11-28-E/cover.jpg",
+    "out/2026-11-26-0520/2026-11-28-E/preview.jpg"
+   ],
+   "facts": {
+    "homes": [
+     {
+      "id": "457f3d1c-e37c-4199-b2cb-9fc225b4820c",
+      "address": "330 Gardenia Drive, Evans, GA 30809",
+      "street": "330 Gardenia Drive",
+      "city": "Evans",
+      "state": "GA",
+      "rent": "$2,295",
+      "bedbath": "4 bd / 3 ba",
+      "sqft": "2,837",
+      "avail": "NOW",
+      "pets": "Cats not allowed, Dogs not allowed",
+      "title": "330 Gardenia Drive - Greenbrier School District",
+      "url": "https://c21magnolia.appfolio.com/listings/detail/457f3d1c-e37c-4199-b2cb-9fc225b4820c"
+     }
+    ],
+    "seconds": 21.4,
+    "photos_used": 6
+   }
+  }
+ ],
+ "site_facts": {
+  "date": "2026-11-26",
+  "google_rating": 4.8,
+  "google_reviews": 29,
+  "homes_listed": 31
+ }
+}

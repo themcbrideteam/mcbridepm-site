@@ -1,5 +1,5 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "source": "homes listed for rent by McBride Property Management on this date",
  "homes_listed": 31,
  "towns": {
@@ -36,12 +36,12 @@
      "rent_high": 950
     },
     "2": {
-     "homes": 6,
+     "homes": 7,
      "rent_low": 995,
      "rent_high": 1650
     },
     "3": {
-     "homes": 4,
+     "homes": 3,
      "rent_low": 1295,
      "rent_high": 2050
     },

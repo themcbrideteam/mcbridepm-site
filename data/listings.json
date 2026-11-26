@@ -1,7 +1,24 @@
 {
- "pulled_at": "2026-11-25T10:18:55.163398Z",
+ "pulled_at": "2026-11-26T10:17:38.990390Z",
  "source": "https://c21magnolia.appfolio.com/listings",
  "listings": [
+  {
+   "id": "5d00837b-0907-468c-85d8-2adec523a2c7",
+   "address": "1110 Troupe Street, Augusta, GA 30904",
+   "street": "1110 Troupe Street",
+   "city": "Augusta",
+   "state": "GA",
+   "zip": "30904",
+   "title": "1110 Troupe Street",
+   "rent": "$995",
+   "sqft": "1,035",
+   "bedbath": "2 bd / 1 ba",
+   "avail": "11/29/26",
+   "pets": "Cats allowed, Dogs allowed",
+   "img": "https://images.cdn.appfolio.com/c21magnolia/images/3313cd87-67e9-4d49-9c24-06ca6a2e8e34/large.jpg",
+   "url": "https://c21magnolia.appfolio.com/listings/detail/5d00837b-0907-468c-85d8-2adec523a2c7",
+   "description": "Available Now! 2-bed 1 bath duplex with hardwood floors. Spacious Living room, dining room and bedrooms. Central HVAC. Kitchen appliances include gas stove, fridge, and counter top microwave. Fenced yard (shared). Section 8 will be considered. Pet Policy: 2 Pets allowed Cats and dogs Monthly pet rent per pet + one-time non-refundable pet fee Breed restrictions may apply p..."
+  },
   {
    "id": "ee4829cd-ab5d-4eea-81bf-d67ad16ddaed",
    "address": "435 St. Julian Place, North Augusta, SC 29860",
@@ -324,23 +341,6 @@
    "img": "https://images.cdn.appfolio.com/c21magnolia/images/d7575a51-ab78-4610-9e46-31140ccae190/large.png",
    "url": "https://c21magnolia.appfolio.com/listings/detail/8b2f7215-e15a-46eb-b963-848fdcfdb444",
    "description": "Available Now! Ask us how you can move into this home with a $0 security deposit! Fully furnished 3-bedroom, 2-bathroom home with nearly 2,000 square feet in the desirable Bay Hill subdivision. This spacious home features an open floor plan with a convenient downstairs owner\u2019s suite. The home comes beautifully furnished with very nice, quality furniture, creating a warm, inviting, and m..."
-  },
-  {
-   "id": "ae308eab-7e47-4d95-acb1-c01e4a65c25c",
-   "address": "3707 Millstone Run, Augusta, GA 30906",
-   "street": "3707 Millstone Run",
-   "city": "Augusta",
-   "state": "GA",
-   "zip": "30906",
-   "title": "3707 Millstone Run",
-   "rent": "$1,395",
-   "sqft": "1,169",
-   "bedbath": "3 bd / 2 ba",
-   "avail": "NOW",
-   "pets": "Cats allowed, Dogs allowed",
-   "img": "https://images.cdn.appfolio.com/c21magnolia/images/554f4400-764d-4a44-941b-0dd1656db41c/large.jpg",
-   "url": "https://c21magnolia.appfolio.com/listings/detail/ae308eab-7e47-4d95-acb1-c01e4a65c25c",
-   "description": "Available Now! Ask us how you can move into this home with a $0 security deposit! Looking for a comfortable place to call home? This clean and cozy 3-bedroom, 2-bath home offers plenty of space and features for your family, including a spacious kitchen with stainless steel appliances, an inviting living room with a fireplace, and a huge backyard that is not fenced but is perfect for ou..."
   },
   {
    "id": "3f0835d2-7198-48a6-81b8-c75e8827cdee",
