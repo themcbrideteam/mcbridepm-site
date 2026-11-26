@@ -4,9 +4,9 @@
     "builtFrom": "118 live posts in src/blog/ as of 2026-10-30",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
-      "imagen_api_key": "API key invalid for 57 consecutive runs (2026-07-22 through 2026-11-22). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation \u2014 URGENT: escalate to Noah."
+      "imagen_api_key": "API key invalid for 57 consecutive runs (2026-07-22 through 2026-11-22). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation — URGENT: escalate to Noah."
     },
-    "lastUpdated": "2026-11-25"
+    "lastUpdated": "2026-11-26"
   },
   "clusters": {
     "taxes": {
@@ -58,7 +58,7 @@
         "choosing-property-manager-fort-gordon-pcs-landlord"
       ],
       "gaps": [
-        "BAH 2027 rate-change impact on CSRA rents \u2014 publish after DoD December announcement"
+        "BAH 2027 rate-change impact on CSRA rents — publish after DoD December announcement"
       ],
       "refreshFlags": []
     },
@@ -233,17 +233,16 @@
       "gaps": []
     },
     "hoa": {
-      "coverage": 0.85,
+      "coverage": 0.91,
       "authority": "high",
       "posts": [
         "georgia-hoa-rental-restrictions-csra-landlords",
         "hoa-violation-tenant-rental-property-georgia-landlord",
         "hoa-rental-rules-evans-grovetown-pcs-landlords",
-        "condo-association-rental-rules-georgia-csra-landlords"
+        "condo-association-rental-rules-georgia-csra-landlords",
+        "hoa-due-diligence-csra-rental-property-columbia-county-investor-guide"
       ],
-      "gaps": [
-        "Specific Evans/Grovetown subdivision rental cap survey"
-      ]
+      "gaps": []
     },
     "vendor-management": {
       "coverage": 0.89,
@@ -282,10 +281,9 @@
     }
   },
   "priorityQueue": [
-    "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) \u2014 publish after DoD December announcement",
-    "hoa: Specific Evans/Grovetown subdivision rental cap survey \u2014 which communities have active caps (P1/P3)",
-    "tenant-education: navigating AppFolio maintenance requests \u2014 what tenants need to know (P5)",
-    "accidental-landlord: divorce + rental property in Columbia County (P2) \u2014 still a gap in that persona arc (note: post exists on divorce topic; fresh angle could be buy-out + rental conversion)",
-    "leasing-screening: tenant communication cadence \u2014 application to lease signing (P1/P2)"
+    "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) — publish after DoD December announcement",
+    "tenant-education: navigating AppFolio maintenance requests — what tenants need to know (P5)",
+    "accidental-landlord: divorce + rental property in Columbia County (P2) — still a gap in that persona arc (note: post exists on divorce topic; fresh angle could be buy-out + rental conversion)",
+    "leasing-screening: tenant communication cadence — application to lease signing (P1/P2)"
   ]
 }
