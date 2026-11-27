@@ -4,9 +4,9 @@
     "builtFrom": "118 live posts in src/blog/ as of 2026-10-30",
     "updateRule": "After publishing, recompute the affected cluster's coverage, add the slug to posts[], remove the answered item from gaps[]. Always publish into the lowest (coverage x authorityWeight) cluster unless a refresh (see published-log) scores higher.",
     "notes": {
-      "imagen_api_key": "API key invalid for 57 consecutive runs (2026-07-22 through 2026-11-22). All posts published text-only. Key returns API_KEY_INVALID (INVALID_ARGUMENT). Key provided in routine prompt also invalid. Key needs rotation — URGENT: escalate to Noah."
+      "imagen_api_key": "RESOLVED 2026-11-27: Routine now uses Runway connector (nano-banana-2.1) for image generation. Google Imagen API key was invalid from 2026-07-22 through 2026-11-26 (60 consecutive runs). Runway workflow active from 2026-11-27 onward."
     },
-    "lastUpdated": "2026-11-26"
+    "lastUpdated": "2026-11-27"
   },
   "clusters": {
     "taxes": {
@@ -25,7 +25,7 @@
       "gaps": []
     },
     "laws-compliance": {
-      "coverage": 0.92,
+      "coverage": 0.93,
       "authority": "high",
       "posts": [
         "georgia-safe-at-home-act-landlord-guide-augusta-ga",
@@ -39,7 +39,8 @@
         "service-animal-esa-rental-property-georgia-landlord-guide",
         "georgia-rental-habitability-requirements-csra-landlords-2026",
         "business-license-rental-property-csra-augusta-ga",
-        "normal-wear-tear-tenant-damage-georgia-csra-landlord"
+        "normal-wear-tear-tenant-damage-georgia-csra-landlord",
+        "utility-responsibility-csra-rental-georgia-landlords"
       ],
       "gaps": []
     },

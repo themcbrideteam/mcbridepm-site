@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 144
+    "totalPosts": 145
   },
   "posts": [
     {
@@ -4798,6 +4798,62 @@
       "type": "new",
       "firstHand": "listings-summary.json dated 2026-11-26 — Evans 7 homes $1,300-$2,695; 3BR $1,850-$2,400 (2 homes); 31 total homes listed",
       "imageStatus": "none — Imagen API key invalid (60th consecutive run; API_KEY_INVALID — URGENT: escalate to Noah)"
+    },
+    {
+      "slug": "utility-responsibility-csra-rental-georgia-landlords",
+      "title": "Utility Responsibility in CSRA Rentals: A Georgia Landlord Guide",
+      "date": "2026-11-27",
+      "cluster": "laws-compliance",
+      "subtopic": "utility responsibility allocation in Georgia rental leases — legal framework (O.C.G.A. §§ 44-7-13, 44-7-14.1), landlord vs. tenant obligations, Augusta/Evans/Aiken-specific providers, move-in transfer process, sub-metering",
+      "persona": "P2/P3",
+      "intent": "compliance / decision-support / trust-building",
+      "cities": [
+        "Augusta",
+        "Evans",
+        "Martinez",
+        "Grovetown",
+        "Aiken",
+        "North Augusta"
+      ],
+      "primaryKeyword": "utility responsibility rental property Georgia landlord",
+      "entities": [
+        "O.C.G.A. § 44-7-13",
+        "O.C.G.A. § 44-7-14.1",
+        "O.C.G.A. Title 44 Chapter 7",
+        "SC Code Title 27 Chapter 40",
+        "SC Code § 27-40-440",
+        "SC Code § 27-40-410",
+        "Georgia Power",
+        "Augusta Utilities",
+        "Atlanta Gas Light",
+        "Columbia Gas",
+        "Augusta Waste Management",
+        "Duke Energy",
+        "Columbia County Utilities",
+        "City of Aiken Utilities",
+        "McBride Property Management",
+        "Robert Smith"
+      ],
+      "questionsAnswered": [
+        "Is a Georgia landlord required to pay for utilities?",
+        "Can a Georgia landlord shut off utilities to force a tenant out?",
+        "What utilities must a landlord include in rent in Augusta, GA?",
+        "What happens when a tenant leaves utilities in the landlord’s name?",
+        "Are there different utility rules for Aiken, SC rentals?",
+        "Can a landlord charge tenants for utilities through sub-metering?",
+        "Who pays water and sewer in Augusta rental properties?",
+        "What should a move-in utility checklist include for CSRA landlords?"
+      ],
+      "internalLinks": 4,
+      "externalCitations": 2,
+      "wordCount": 2520,
+      "schema": [
+        "BlogPosting",
+        "FAQPage"
+      ],
+      "type": "new",
+      "firstHand": "listings-summary.json dated 2026-11-26 — Evans 7 homes $1,300-$2,695; 31 total homes listed; site-facts.json: 4.8 stars / 29 reviews",
+      "imageStatus": "4 images generated via Runway connector (nano-banana-2.1, 1K) — job file committed; GitHub workflow will download/size images"
     }
   ]
 }
