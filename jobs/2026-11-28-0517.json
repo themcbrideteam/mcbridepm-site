@@ -1,0 +1,4 @@
+{"job_id": "2026-11-28-0517", "tasks": [
+  {"id": "2026-11-30-S", "look": "story-rental", "area": "all", "rotate_key": "2026-11-30",
+   "skip": ["1c91d785-fc13-4c74-b108-ae81fb318297", "b5c8c17a-b337-421f-b877-ef268d85b319", "708cd81e-0d3f-4fe7-ae25-312ce5731bd2", "6a3e791e-cd5b-40a8-a1aa-c17e78aa458a", "0a782d11-c930-466b-9201-8559134d7bbb", "457f3d1c-e37c-4199-b2cb-9fc225b4820c"]}
+]}
