@@ -6,7 +6,7 @@
     "notes": {
       "imagen_api_key": "RESOLVED 2026-11-27: Routine now uses Runway connector (nano-banana-2.1) for image generation. Google Imagen API key was invalid from 2026-07-22 through 2026-11-26 (60 consecutive runs). Runway workflow active from 2026-11-27 onward."
     },
-    "lastUpdated": "2026-11-27"
+    "lastUpdated": "2026-11-28"
   },
   "clusters": {
     "taxes": {
@@ -127,7 +127,7 @@
       "gaps": []
     },
     "leasing-screening": {
-      "coverage": 0.88,
+      "coverage": 0.91,
       "authority": "high",
       "posts": [
         "tenant-screening-process-augusta-ga-landlords",
@@ -138,7 +138,8 @@
         "marketing-csra-rental-property-lease-fast-augusta-ga",
         "rental-property-showings-csra-landlord-guide",
         "tenant-screening-criteria-income-credit-csra-landlords",
-        "move-in-inspection-documentation-csra-landlords-georgia"
+        "move-in-inspection-documentation-csra-landlords-georgia",
+        "tenant-application-to-lease-signing-csra-property-management"
       ],
       "gaps": []
     },
@@ -284,7 +285,6 @@
   "priorityQueue": [
     "military-pcs: BAH 2027 rate-change impact on CSRA rents (P1) — publish after DoD December announcement",
     "tenant-education: navigating AppFolio maintenance requests — what tenants need to know (P5)",
-    "accidental-landlord: divorce + rental property in Columbia County (P2) — still a gap in that persona arc (note: post exists on divorce topic; fresh angle could be buy-out + rental conversion)",
-    "leasing-screening: tenant communication cadence — application to lease signing (P1/P2)"
+    "accidental-landlord: divorce + rental property in Columbia County (P2) — still a gap in that persona arc (note: post exists on divorce topic; fresh angle could be buy-out + rental conversion)"
   ]
 }

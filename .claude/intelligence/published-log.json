@@ -3,7 +3,7 @@
     "purpose": "One record per published post. The routine appends to this every run and uses it for cannibalization checks and the strategist report.",
     "bootstrapped": true,
     "bootstrappedDate": "2026-07-12",
-    "totalPosts": 145
+    "totalPosts": 146
   },
   "posts": [
     {
@@ -4853,6 +4853,62 @@
       ],
       "type": "new",
       "firstHand": "listings-summary.json dated 2026-11-26 — Evans 7 homes $1,300-$2,695; 31 total homes listed; site-facts.json: 4.8 stars / 29 reviews",
+      "imageStatus": "4 images generated via Runway connector (nano-banana-2.1, 1K) — job file committed; GitHub workflow will download/size images"
+    },
+    {
+      "slug": "tenant-application-to-lease-signing-csra-property-management",
+      "title": "From Application to Lease Signing: How CSRA Property Managers Run the Process",
+      "date": "2026-11-28",
+      "cluster": "leasing-screening",
+      "subtopic": "step-by-step tenant application pipeline — inquiry pre-screening, formal application, FCRA screening report, owner approval decision, adverse action notice, lease preparation (GAR base, SCRA, Safe at Home Act, O.C.G.A. §44-7-3), security deposit trust account compliance",
+      "persona": "P1/P2",
+      "intent": "compliance / decision-support / trust-building",
+      "cities": [
+        "Evans",
+        "Augusta",
+        "Grovetown",
+        "Martinez",
+        "Aiken",
+        "North Augusta"
+      ],
+      "primaryKeyword": "tenant application to lease signing property management CSRA Augusta GA",
+      "entities": [
+        "Federal Fair Credit Reporting Act (FCRA)",
+        "Fair Housing Act",
+        "O.C.G.A. § 44-7-3",
+        "O.C.G.A. § 44-7-30",
+        "O.C.G.A. § 44-7-30.1",
+        "Georgia Safe at Home Act (HB 404)",
+        "SCRA",
+        "Georgia Association of REALTORS®",
+        "AppFolio",
+        "Fort Eisenhower",
+        "FTC",
+        "CFPB",
+        "HUD",
+        "McBride Property Management",
+        "Robert Smith"
+      ],
+      "questionsAnswered": [
+        "How long does the tenant application process take in the CSRA?",
+        "Who makes the final decision to approve or deny a tenant in Georgia?",
+        "What happens if a rental application is denied in Georgia?",
+        "Can the owner see the tenant screening report?",
+        "What are the income requirements for renting in the CSRA?",
+        "What lease form does McBride Property Management use in Georgia?",
+        "How much is the security deposit for a McBride PM rental?",
+        "What can an owner change about the lease before signing?"
+      ],
+      "internalLinks": 9,
+      "externalCitations": 2,
+      "wordCount": 2650,
+      "schema": [
+        "BlogPosting",
+        "FAQPage",
+        "HowTo"
+      ],
+      "type": "new",
+      "firstHand": "listings-summary.json dated 2026-11-28 — Evans 7 homes $1,300-$2,695; 31 total homes listed; site-facts.json: 4.8 stars / 29 reviews",
       "imageStatus": "4 images generated via Runway connector (nano-banana-2.1, 1K) — job file committed; GitHub workflow will download/size images"
     }
   ]
