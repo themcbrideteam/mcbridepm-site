@@ -419,3 +419,11 @@ main .post-aside-call { display: block; margin-top: 0.9rem; text-align: center; 
 }
 .split-2-1 { grid-template-columns: 2fr 1fr; gap: 3rem; align-items: center; }
 @media (max-width: 700px) { .split-2-1 { grid-template-columns: 1fr; gap: 1.5rem; } }
+
+/* City pages: owner reading and nearby areas (2026-11-28) */
+.content-section ul.city-reading { list-style: none; padding: 0; margin: 0 0 1.25rem; display: grid; gap: 0.6rem; }
+.content-section ul.city-reading li { margin: 0; padding: 0; }
+.city-reading a { display: block; padding: 0.85rem 1rem; border: 1px solid rgba(255, 255, 255, 0.14); border-radius: 10px; text-decoration: none; }
+.city-reading a:hover, .city-reading a:focus-visible { border-color: var(--gold, #B2995A); }
+.city-nearby { font-size: 0.95rem; opacity: 0.9; }
+.cta-box .cta-city { margin-top: 1rem; }

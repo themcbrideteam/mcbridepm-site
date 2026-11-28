@@ -266,8 +266,8 @@ Every post must include AT LEAST:
 
 ```yaml
 ---
-title: "[55–65 chars, includes primary keyword and location modifier when natural]"
-description: "[150–160 chars, includes primary keyword + locator + audience signal]"
+title: "[50–60 chars, includes primary keyword and location modifier when natural; the template adds the brand only when the whole title still fits in 60]"
+description: "[140–155 chars, includes primary keyword + locator + audience signal; Google cuts anything longer]"
 date: [YYYY-MM-DD - today, in UTC]
 category: "Property Owners"  # or "Tenants" for P5 posts
 readTime: "[N]"              # estimate: words / 250

@@ -58,7 +58,7 @@
         {
             "@type": "BreadcrumbList",
             "@id": "{{ site.url }}{{ page.url }}#breadcrumb",
-            "itemListElement": [{% for bc in breadcrumbs %}{"@type": "ListItem","position": {{ loop.index }},"name": "{{ bc.name }}"{% if bc.url %},"item": "{{ site.url }}{{ bc.url }}"{% endif %}}{% if not loop.last %},{% endif %}{% endfor %}]
+            "itemListElement": [{% for bc in (breadcrumbs | crumbList) %}{"@type": "ListItem","position": {{ loop.index }},"name": {{ bc.name | dump | safe }}{% if bc.url %},"item": "{{ site.url }}{{ bc.url }}"{% endif %}}{% if not loop.last %},{% endif %}{% endfor %}]
         }{% endif %}{% if faqs %},
         {
             "@type": "FAQPage",

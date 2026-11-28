@@ -7,7 +7,7 @@
   {% if keywords %}<meta name="keywords" content="{{ keywords }}">{% endif %}
   <meta name="author" content="{{ site.name }}">
 
-  {% set _fullTitle = title if (title and (' | ' in title)) else ((title + ' | ' + site.name) if title else site.name) %}
+  {% set _fullTitle = title | pageTitle(site.name) %}
   {% set _ogTitle = ogTitle or _fullTitle %}
   {% set _ogDescription = ogDescription or description or 'Professional property management for residential property owners across the CSRA.' %}
   {% set _ogImage = ogImage or (site.url + image if (image and (image | exists)) else site.url + '/og-image.jpg') %}

@@ -137,7 +137,8 @@ ogType: article
         <p><a href="tel:{{ site.phoneTel }}">{{ site.phone }}</a><br>
         <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
       </div>
-      <p class="cta-renters">Looking for a home to rent? <a href="/rentals/">See available rentals &rarr;</a></p>
+      {% set _city = page.fileSlug | cityFor %}{% if _city %}<p class="cta-city">Own a rental in {{ _city.name }}? <a href="{{ _city.url }}">See property management in {{ _city.name }} &rarr;</a></p>
+      {% endif %}<p class="cta-renters">Looking for a home to rent? <a href="/rentals/">See available rentals &rarr;</a></p>
     </div>
 
     <!-- Author -->

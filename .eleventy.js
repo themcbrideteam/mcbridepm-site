@@ -48,6 +48,51 @@ module.exports = function (eleventyConfig) {
   });
 
   // Blog collection sorted by date (newest first)
+  // Breadcrumb steps Google can use: every step needs a link except the last one.
+  eleventyConfig.addFilter("crumbList", (list) =>
+    (list || []).filter((bc, i, all) => bc.url || i === all.length - 1));
+
+  // Page title: keep an explicit "A | B" title; otherwise add the brand only
+  // while the whole thing still fits in a search result (about 60 characters).
+  eleventyConfig.addFilter("pageTitle", (title, siteName) => {
+    if (!title) return siteName;
+    if (title.includes(" | ")) return title;
+    if ((title + " | " + siteName).length <= 60) return title + " | " + siteName;
+    if ((title + " | McBride PM").length <= 62) return title + " | McBride PM";
+    return title;
+  });
+
+  // The city page a blog post belongs with, read from its file name.
+  const CITY_PAGES = [
+    ["north-augusta", "North Augusta, SC"], ["augusta", "Augusta, GA"], ["evans", "Evans, GA"],
+    ["aiken", "Aiken, SC"], ["grovetown", "Grovetown, GA"], ["martinez", "Martinez, GA"],
+    ["harlem", "Harlem, GA"], ["hephzibah", "Hephzibah, GA"], ["graniteville", "Graniteville, SC"],
+  ];
+  eleventyConfig.addFilter("cityFor", (slug) => {
+    const hit = CITY_PAGES.find(([c]) => (slug || "").includes(c));
+    return hit ? { url: "/" + hit[0] + "/", name: hit[1] } : null;
+  });
+
+  // Owner reading for a city page: that city's own posts first, then the standing guides.
+  const CITY_PINNED = [
+    "property-management-fees-augusta-ga-2026",
+    "self-manage-vs-hire-property-manager-csra-accidental-landlord",
+    "reading-owner-statement-property-management-augusta-ga",
+    "tenant-screening-process-augusta-ga-landlords",
+  ];
+  eleventyConfig.addFilter("cityPosts", (posts, citySlug) => {
+    const all = posts || [];
+    const mine = all.filter((p) => {
+      const s = p.fileSlug || "";
+      if (citySlug === "augusta") return s.includes("augusta") && !s.includes("north-augusta") && !CITY_PINNED.includes(s);
+      return s.includes(citySlug);
+    }).slice(0, 2);
+    const pinned = CITY_PINNED.map((s) => all.find((p) => p.fileSlug === s)).filter(Boolean);
+    const out = [];
+    for (const p of [...mine, ...pinned]) if (!out.includes(p)) out.push(p);
+    return out.slice(0, 4);
+  });
+
   eleventyConfig.addCollection("blog", function (collectionApi) {
     return collectionApi
       .getFilteredByGlob("src/blog/*.md")

@@ -1,0 +1,14 @@
+{# Owner reading and nearby areas for a city page. Posts come from the blog by file name (cityPosts). #}
+{% set _posts = collections.blog | cityPosts(page.fileSlug) %}
+{% set _areas = [["/augusta/","Augusta"],["/evans/","Evans"],["/martinez/","Martinez"],["/grovetown/","Grovetown"],["/harlem/","Harlem"],["/hephzibah/","Hephzibah"],["/appling/","Appling"],["/north-augusta/","North Augusta"],["/aiken/","Aiken"],["/graniteville/","Graniteville"]] %}
+  <!-- Owner reading -->
+  <div class="content-section section--light">
+    <div class="container content-narrow">
+      <h2>Reading for owners here</h2>
+      <ul class="city-reading">
+        {% for post in _posts %}<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+        {% endfor %}<li><a href="/owner-faqs/">Owner FAQs: fees, onboarding, reporting, and maintenance</a></li>
+      </ul>
+      <p class="city-nearby">Property management nearby: {% for a in _areas %}{% if a[0] != page.url %}<a href="{{ a[0] }}">{{ a[1] }}</a>{% if not loop.last %} &middot; {% endif %}{% endif %}{% endfor %}</p>
+    </div>
+  </div>
